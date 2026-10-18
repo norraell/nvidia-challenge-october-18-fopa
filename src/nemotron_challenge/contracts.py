@@ -211,3 +211,60 @@ class RunRecord(Contract):             # artifacts/agent/runs/{run_id}.json
     finish_reason: str
     label: Literal["unreviewed", "success", "failure"] = "unreviewed"
     notes: str = ""
+
+
+class EvidenceCheck(Contract):
+    name: str
+    kind: Literal["observation", "inference"]
+    passed: bool | None                # None = not checked (input missing)
+    detail: str
+
+
+class CaseStudy(Contract):             # artifacts/evaluate/report.json, cases[]
+    case_id: str
+    classification: Literal["success", "failure"]
+    classification_source: str         # where the label came from, e.g. "run.label"
+    run_id: str
+    run_path: str
+    code_revision: str
+    model: str
+    question: str
+    answer: str
+    citations: list[dict[str, str]]
+    tool_calls: int
+    tool_errors: int
+    finish_reason: str
+    review_notes: str
+    checks: list[EvidenceCheck]
+    earlier_attempts: list[str]        # run_ids of earlier runs on the same question
+    repaired_by: str | None            # later success run on the same question
+    case_path: str                     # artifacts/evaluate/cases/{case_id}.md
+
+
+class ReproductionRecord(Contract):    # artifacts/evaluate/report.json, reproduction
+    code_revision: str
+    code_revision_source: str
+    working_tree_clean: bool | None
+    run_code_revisions: list[str]
+    python_version: str
+    packages: dict[str, str]
+    models: dict[str, Any]
+    data: dict[str, Any]
+    hermes_versions: list[str]
+    counts: dict[str, Any]
+    commands: list[str]
+    known_limits: list[str]
+
+
+class EvaluationReport(Contract):      # artifacts/evaluate/report.json
+    status: Literal["ok", "incomplete"]
+    generated_at: str                  # ISO 8601 UTC
+    inputs_dir: str
+    fixture_inputs: bool
+    required_per_label: int
+    selected: dict[str, int]
+    missing: dict[str, int]
+    unreviewed_run_ids: list[str]
+    unselected_run_ids: list[str]
+    cases: list[CaseStudy]
+    reproduction: ReproductionRecord
