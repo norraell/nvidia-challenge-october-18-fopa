@@ -1,5 +1,5 @@
 // Britannica-Wiki Lens. Reads the JSON that `nemotron-challenge run site` writes to data/.
-// Routes: #viewer?p=<row_index>&e=<entry_id>  #match?e=<entry_id>  #analytics  #agent?r=<run_id>  #pipeline
+// Routes: #viewer?p=<row_index>&e=<entry_id>  #reading  #match?e=<entry_id>  #analytics  #agent?r=<run_id>  #pipeline
 
 const $view = document.getElementById('view');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => `&#${c.charCodeAt(0)};`);
@@ -325,11 +325,68 @@ function agent(q) {
   document.getElementById('replay').onclick = () => { clearTimeout(replayTimer); show(1); };
 }
 
+// ---------- 5. Reading Check ----------
+// Parse 3.5 reads the scan; Super VL re-reads each block against the image; Embed VL checks the modern spelling keeps
+// the meaning. Every number comes from the artifacts (coverage.json, ablation.json, matches.jsonl) via `run site`.
+const pct1 = n => (n == null ? '–' : `${(n * 100).toFixed(1)}%`);
+function reading() {
+  const Q = D.quality;
+  if (!Q?.correction) return ($view.innerHTML = empty('No correction results yet. Run <code>EXTRACT_CORRECT=1 nemotron-challenge run extract</code> and <code>run site</code>.'));
+  const g = (Q.correction.gold || [])[0];
+  const c = Q.correction;
+  const accepted = c.blocks_sent - c.blocks_with_fallback;
+  const big = (title, before, after, note) => `<section class="rise rounded-xl border border-line bg-card p-5 shadow-sm">
+      <h2 class="text-xs font-bold uppercase tracking-[0.12em] text-sub">${title}</h2>
+      <p class="mt-3 flex items-baseline gap-3"><span class="text-2xl text-sub line-through decoration-brit/70">${before}</span>
+        <span class="text-sub">→</span><span class="text-4xl font-bold text-ok">${after}</span></p>
+      <p class="mt-3 text-sm text-sub">${note}</p></section>`;
+  const m = Q.matching;
+  const ab = Q.ablation?.methods;
+  const abRows = ab ? [['BM25 only', ab.bm25_only], ['+ Embed VL', ab.bm25_embed], ['+ Rerank VL', ab.bm25_embed_rerank]] : [];
+  const fixes = Q.verified_fixes.slice(0, 16).map(f => `
+      <tr class="border-t border-line">
+        <td class="py-2 pr-4 font-serif text-[17px] text-bad line-through decoration-2">${esc(f.parse)}</td>
+        <td class="py-2 pr-4 font-serif text-[17px] font-bold text-ok">${esc(f.super_vl)}</td>
+        <td class="py-2 text-right text-xs"><a class="text-wiki underline-offset-2 hover:underline" href="#viewer?p=${f.row_index}&e=${f.entry_id}">row ${f.row_index} →</a></td></tr>`).join('');
+
+  $view.innerHTML = `
+    <p class="mb-5 max-w-3xl text-sub">The OCR model sometimes swaps old words for plausible modern ones. A second Nemotron model re-reads every
+      block against the scan image. Parse's text is never overwritten: the PDFs show both readings, struck through and bold.</p>
+    <div class="grid gap-5 lg:grid-cols-3">
+      ${g ? big('OCR errors · hand-checked page', pct1(g.cer_parse), pct1(g.cer_faithful),
+        `${g.errors_parse} → ${g.errors_faithful} character errors in ${g.gold_chars} characters (row ${g.row_index}).
+         Super VL also changed ${g.overcorrected_words} words that Parse had right.`) : ''}
+      ${m?.modern_text ? big('Entries matched to Wikipedia', m.parse_text.matched ?? 0, m.modern_text.matched ?? 0,
+        `Same match stage and thresholds, run on the corrected modern text. A first review finds most new matches right and some wrong:
+         see <code>artifacts/match/modern/COMPARISON.md</code>.`) : ''}
+      ${abRows.length ? card(`Top-1 accuracy · ${Q.ablation.labeled} labeled entries`, abRows.map(([name, r]) => `
+        <div class="mb-3"><div class="flex justify-between text-sm"><span>${name}</span><span class="font-bold tabular-nums">${pct1(r.top1_accuracy)}</span></div>
+          <div class="mt-1.5 h-2.5 rounded-full bg-muted"><div class="h-2.5 rounded-full bg-wiki" style="width:${pct(r.top1_accuracy)}"></div></div></div>`).join('') +
+        `<p class="mt-2 text-xs text-sub">Same BM25 candidate pool in every row. Labels are on P2's development entries.</p>`) : ''}
+    </div>
+    <div class="mt-5 grid gap-5 lg:grid-cols-3">
+      ${card('Fixes confirmed by the hand-typed page', fixes
+        ? `<table class="w-full text-left"><thead><tr class="text-[11px] uppercase tracking-wider text-sub"><th class="pb-2">Parse 3.5 read</th><th class="pb-2">Super VL corrected</th><th></th></tr></thead><tbody>${fixes}</tbody></table>
+           <p class="mt-3 text-xs text-sub">Listed only when the corrected words line up with the same words in the hand transcription.</p>`
+        : '<p class="text-sm text-sub">No gold transcription yet.</p>', 'lg:col-span-2')}
+      ${card('How the check works', `
+        <ol class="space-y-3 text-sm">
+          <li><b>1. Parse 3.5</b> reads the scan into blocks with boxes.</li>
+          <li><b>2. Super VL</b> (${esc(c.model ?? '')}) gets each block's scan region and Parse's text, and returns a
+            <i>faithful</i> version (old spelling kept) and a <i>modern</i> one.</li>
+          <li><b>3. Embed VL</b> checks the modern version keeps the meaning (cosine ≥ ${c.meaning_check?.threshold}); if not, the faithful text is kept.</li>
+          <li><b>4. Guardrails</b> keep Parse's text when a reply adds or drops words.</li></ol>
+        <div class="mt-4 grid grid-cols-2 gap-2">${stat('Blocks checked', c.blocks_sent)}${stat('Accepted', accepted, 'text-ok')}
+          ${stat('Meaning check median', fmt(c.meaning_check?.median))}${stat('Fallbacks', c.blocks_with_fallback, 'text-brit')}</div>
+        ${g ? `<a href="#viewer?p=${g.row_index}" class="mt-4 inline-block text-sm font-bold text-brit underline-offset-2 hover:underline">See the corrections in the compiled PDF →</a>` : ''}`)}
+    </div>`;
+}
+
 // ---------- Pipeline ----------
 const pipeline = () => { $view.innerHTML = `<iframe src="architecture.html" title="Pipeline architecture" class="h-[84vh] w-full rounded-xl border border-line bg-card"></iframe>`; };
 
 // ---------- Router ----------
-const routes = { viewer, match, analytics, agent, pipeline };
+const routes = { viewer, reading, match, analytics, agent, pipeline };
 function route() {
   const [name, qs] = location.hash.slice(1).split('?');
   const r = routes[name] ? name : 'viewer';
@@ -341,6 +398,7 @@ function route() {
   routes[r](new URLSearchParams(qs));
 }
 
-Promise.all(['pages', 'drift', 'cases'].map(f => fetch(`data/${f}.json`).then(r => { if (!r.ok) throw new Error(`${f}.json: HTTP ${r.status}`); return r.json(); })))
-  .then(([pages, drift, runs]) => { D = { pages, drift, runs }; addEventListener('hashchange', route); route(); })
+const quality = fetch('data/quality.json').then(r => (r.ok ? r.json() : null)).catch(() => null);  // optional
+Promise.all([...['pages', 'drift', 'cases'].map(f => fetch(`data/${f}.json`).then(r => { if (!r.ok) throw new Error(`${f}.json: HTTP ${r.status}`); return r.json(); })), quality])
+  .then(([pages, drift, runs, q]) => { D = { pages, drift, runs, quality: q }; addEventListener('hashchange', route); route(); })
   .catch(err => { $view.innerHTML = `<p class="text-bad">Failed to load data (${esc(err.message)}). Serve the folder over HTTP: <code>python3 -m http.server -d web</code></p>`; });

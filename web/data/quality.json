@@ -1,0 +1,226 @@
+{
+  "cer": {
+    "status": "partial",
+    "method": "fitting alignment of the full gold text inside the page's Parse text; lowercase, long s as s, whitespace collapsed; CER = edit distance / gold characters",
+    "selection": "5 random ok pages with >= 150 body words, seed 7",
+    "selected_rows": [
+      251,
+      523,
+      1327,
+      1649,
+      2473
+    ],
+    "missing_gold_rows": [
+      523,
+      1327,
+      1649,
+      2473
+    ],
+    "pages": [
+      {
+        "row_index": 251,
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+        "gold_path": "artifacts/extract/gold/0251.txt",
+        "cer": 0.1383,
+        "distance": 153,
+        "gold_chars": 1106,
+        "pred_start": 0,
+        "pred_end": 1102
+      }
+    ],
+    "mean_cer": 0.1383,
+    "top_substitutions": [
+      {
+        "gold": "o",
+        "parse": "e",
+        "count": 4
+      },
+      {
+        "gold": "n",
+        "parse": "a",
+        "count": 4
+      },
+      {
+        "gold": "o",
+        "parse": "i",
+        "count": 3
+      },
+      {
+        "gold": "e",
+        "parse": "s",
+        "count": 3
+      },
+      {
+        "gold": "f",
+        "parse": "l",
+        "count": 3
+      },
+      {
+        "gold": "r",
+        "parse": "d",
+        "count": 2
+      },
+      {
+        "gold": "n",
+        "parse": "s",
+        "count": 2
+      },
+      {
+        "gold": "c",
+        "parse": "e",
+        "count": 2
+      },
+      {
+        "gold": "l",
+        "parse": "b",
+        "count": 2
+      },
+      {
+        "gold": "f",
+        "parse": "r",
+        "count": 2
+      }
+    ]
+  },
+  "correction": {
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "blocks_sent": 1103,
+    "blocks_with_fallback": 147,
+    "fallback_reasons": {
+      "meaning check failed": 128,
+      "faithful version changed the word count too much": 8,
+      "reply was not the expected JSON": 9,
+      "call failed": 2
+    },
+    "meaning_check": {
+      "pairs": 549,
+      "min": 0.6379,
+      "median": 0.9521,
+      "below_threshold": 128,
+      "threshold": 0.9
+    },
+    "gold": [
+      {
+        "row_index": 251,
+        "cer_parse": 0.1383,
+        "cer_faithful": 0.0732,
+        "errors_parse": 153,
+        "errors_faithful": 81,
+        "gold_chars": 1106,
+        "overcorrected_words": 11
+      }
+    ]
+  },
+  "verified_fixes": [
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "cortune",
+      "super_vl": "corrupt"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "in",
+      "super_vl": "or"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "se regions",
+      "super_vl": "religions"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "Sprayer",
+      "super_vl": "Popery"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "Galli",
+      "super_vl": "Gall"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "Mali",
+      "super_vl": "Biel"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "gener",
+      "super_vl": "greater"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "Services",
+      "super_vl": "frontiers"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "Sabo shum",
+      "super_vl": "Solothurn"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "lines",
+      "super_vl": "some"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "Canada",
+      "super_vl": "Baden"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "dejection",
+      "super_vl": "education"
+    },
+    {
+      "row_index": 251,
+      "entry_id": "e0251-01",
+      "parse": "words",
+      "super_vl": "youth"
+    }
+  ],
+  "ablation": {
+    "labeled": 30,
+    "methods": {
+      "bm25_only": {
+        "top1_correct": 2,
+        "top1_accuracy": 0.067
+      },
+      "bm25_embed": {
+        "top1_correct": 6,
+        "top1_accuracy": 0.2
+      },
+      "bm25_embed_rerank": {
+        "top1_correct": 12,
+        "top1_accuracy": 0.4
+      }
+    },
+    "note": "Top-1 accuracy on the labeled sample for the candidate ranked first by BM25 score, by embedding cosine, and by reranker logit. Candidates are the same pooled BM25 set in all three rows."
+  },
+  "matching": {
+    "parse_text": {
+      "rejected": 226,
+      "matched": 22,
+      "skipped": 10,
+      "no_candidates": 12
+    },
+    "modern_text": {
+      "rejected": 194,
+      "matched": 55,
+      "skipped": 10,
+      "no_candidates": 11
+    }
+  }
+}

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 DONE = True
 
+import difflib
 import json
 import os
 from pathlib import Path
@@ -17,6 +18,73 @@ from ..contracts import (
     PageRecord,
     RunRecord,
 )
+
+
+def _status_counts(path: Path) -> dict[str, int] | None:
+    rows = _load_jsonl(path)
+    if not rows:
+        return None
+    counts: dict[str, int] = {}
+    for row in rows:
+        counts[row["status"]] = counts.get(row["status"], 0) + 1
+    return counts
+
+
+def _tokens(text: str) -> list[str]:
+    return [w for w in (t.strip(".,;:!?()[]\"'“”‘’") for t in text.split()) if w]
+
+
+def _confirmed_fixes(parse: str, faithful: str, gold: str) -> list[tuple[str, str]]:
+    """Parse -> Super VL replacements whose new words line up with the same words in the gold text."""
+    p, f, g = _tokens(parse), _tokens(faithful), _tokens(gold)
+    lower = lambda words: [w.lower() for w in words]
+    aligned = set()
+    for a, _, size in difflib.SequenceMatcher(None, lower(f), lower(g), autojunk=False).get_matching_blocks():
+        if size >= 3:  # a run of 3+ words anchors the position; 1-2 word matches ("a small") can be chance
+            aligned.update(range(a, a + size))
+    fixes = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, lower(p), lower(f), autojunk=False).get_opcodes():
+        if tag == "replace" and all(j in aligned for j in range(j1, j2)):
+            fixes.append((" ".join(p[i1:i2]), " ".join(f[j1:j2])))
+    return fixes
+
+
+def reading_check(work_dir: Path) -> dict[str, Any] | None:
+    """Numbers for the Reading Check view: OCR correction, matching, ablation. Only real artifact values."""
+    coverage_path = work_dir / "extract" / "coverage.json"
+    if not coverage_path.exists():
+        return None
+    coverage = json.loads(coverage_path.read_text(encoding="utf-8"))
+    correction = coverage.get("correction")
+    result: dict[str, Any] = {"cer": coverage.get("cer"), "correction": None, "verified_fixes": [],
+                              "ablation": None, "matching": None}
+    if correction:
+        result["correction"] = {key: correction.get(key) for key in (
+            "model", "blocks_sent", "blocks_with_fallback", "fallback_reasons", "meaning_check", "gold")}
+        # Fixes that the hand-typed gold page confirms: the corrected words line up with the same words in the gold text.
+        corrected = {row["entry_id"]: row for row in _load_jsonl(work_dir / "extract" / "corrected.jsonl")}
+        pages = {p["row_index"]: p for p in _load_jsonl(work_dir / "extract" / "pages.jsonl")}
+        for gold_row in correction.get("gold") or []:
+            gold_path = work_dir / "extract" / "gold" / f"{gold_row['row_index']:04d}.txt"
+            page = pages.get(gold_row["row_index"])
+            if not gold_path.exists() or not page:
+                continue
+            gold = gold_path.read_text(encoding="utf-8")
+            for entry_id in page["entry_ids"]:
+                row = corrected.get(entry_id)
+                if not row or row.get("kind") == "plate":
+                    continue
+                for old, new in _confirmed_fixes(row["parse"], row["faithful"], gold):
+                    result["verified_fixes"].append({"row_index": gold_row["row_index"], "entry_id": entry_id,
+                                                     "parse": old, "super_vl": new})
+    ablation_path = work_dir / "match" / "ablation.json"
+    if ablation_path.exists():
+        result["ablation"] = json.loads(ablation_path.read_text(encoding="utf-8"))
+    parse_counts = _status_counts(work_dir / "match" / "matches.jsonl")
+    modern_counts = _status_counts(work_dir / "match" / "modern" / "matches.jsonl")
+    if parse_counts:
+        result["matching"] = {"parse_text": parse_counts, "modern_text": modern_counts}
+    return result
 
 
 def _load_jsonl(path: Path) -> list[dict[str, Any]]:
@@ -181,6 +249,11 @@ def transform_artifacts_to_site_data(
 
     with (data_dir / "cases.json").open("w", encoding="utf-8") as f:
         json.dump(transformed_runs, f, indent=2)
+
+    quality = reading_check(work_dir)
+    if quality is not None:
+        with (data_dir / "quality.json").open("w", encoding="utf-8") as f:
+            json.dump(quality, f, indent=2, ensure_ascii=False)
 
     return {
         "status": "ok",
