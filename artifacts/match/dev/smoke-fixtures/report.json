@@ -1,0 +1,130 @@
+{
+  "disclaimer": "Relevance scores from BM25, the embedder, and the reranker show that two texts treat the same subject. They do not establish factual agreement between Britannica and Wikipedia.",
+  "coverage": {
+    "entries": 5,
+    "pages": 3,
+    "pages_with_match": 0,
+    "by_status": {
+      "rejected": 5
+    },
+    "by_kind": {
+      "entry": {
+        "rejected": 3
+      },
+      "continuation": {
+        "rejected": 1
+      },
+      "plate": {
+        "rejected": 1
+      }
+    }
+  },
+  "omissions": [
+    {
+      "entry_id": "e0013-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -0.707 < tau 2.1",
+      "headword": "ABACUS",
+      "top_candidate": {
+        "page_id": "655",
+        "title": "Abacus",
+        "bm25_score": 49.11867904663086,
+        "embed_cosine": 0.47497331788256375,
+        "rerank_logit": -0.7072768211364746
+      }
+    },
+    {
+      "entry_id": "e0013-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.401 < tau 2.1; margin 0.166 < delta 0.4",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "432897",
+        "title": "Mechanical calculator",
+        "bm25_score": 21.507410049438477,
+        "embed_cosine": 0.29295403382876034,
+        "rerank_logit": -5.40123176574707
+      }
+    },
+    {
+      "entry_id": "e0104-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -4.402 < tau 2.1",
+      "headword": "BAROMETER",
+      "top_candidate": {
+        "page_id": "47488",
+        "title": "Barometer",
+        "bm25_score": 56.674156188964844,
+        "embed_cosine": 0.4472540543931591,
+        "rerank_logit": -4.402195453643799
+      }
+    },
+    {
+      "entry_id": "e0104-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.779 < tau 2.1; margin 0.035 < delta 0.4",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "2412171",
+        "title": "Edward Nairne",
+        "bm25_score": 29.89617347717285,
+        "embed_cosine": 0.2800031997405168,
+        "rerank_logit": -7.779382705688477
+      }
+    },
+    {
+      "entry_id": "e0115-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -4.117 < tau 2.1",
+      "headword": "CALORIC",
+      "top_candidate": {
+        "page_id": "226412",
+        "title": "Caloric theory",
+        "bm25_score": 61.498451232910156,
+        "embed_cosine": 0.46704921556181067,
+        "rerank_logit": -4.116708278656006
+      }
+    }
+  ],
+  "repeated_articles": {
+    "expected": [],
+    "suspicious": []
+  },
+  "matches_rescued_by_content_query_only": 0,
+  "failures": [],
+  "summary": {
+    "entries_seen": 5,
+    "status_counts": {
+      "matched": 0,
+      "rejected": 5,
+      "no_candidates": 0,
+      "skipped": 0
+    },
+    "distinct_articles": 0,
+    "repeated_articles": 0,
+    "candidates_per_entry_mean": 30.0,
+    "calls": {
+      "search_calls": 8,
+      "search_cached": 0,
+      "embed_calls": 18,
+      "rerank_calls": 5,
+      "embed_query_chars": 127,
+      "rerank_query_chars": 127
+    },
+    "failed_calls": [],
+    "method_version": "m1-tau=2.1-delta=0.4",
+    "articles_fetched": 0,
+    "store_counts": {
+      "entries": 5,
+      "articles": 0
+    },
+    "elapsed_seconds": 12.2,
+    "outputs": {
+      "matches.jsonl": "artifacts/match/dev/smoke-fixtures/matches.jsonl",
+      "candidates.jsonl": "artifacts/match/dev/smoke-fixtures/candidates.jsonl",
+      "report.json": "artifacts/match/dev/smoke-fixtures/report.json",
+      "REPORT.md": "artifacts/match/dev/smoke-fixtures/REPORT.md",
+      "articles.jsonl": "artifacts/match/dev/smoke-fixtures/articles.jsonl"
+    }
+  }
+}

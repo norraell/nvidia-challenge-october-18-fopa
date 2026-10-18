@@ -112,6 +112,7 @@ Read its output for missing settings and test limits.
 ## Build your solution
 
 Follow the [milestones](docs/milestones.md).
+Read the [evaluate guide](docs/evaluate.md) for run labels and case study output.
 The stage entry points contain TODOs and stop with a task message until your team implements them.
 
 ```sh

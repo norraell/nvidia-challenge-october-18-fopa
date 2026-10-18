@@ -1,0 +1,31 @@
+entry_id,page_id,title,label,correct_page_id,note
+e0220-01,25836768,James Colnett,wrong,,"FUR page: maritime fur trade voyages (Queen Charlotte Sound, Macao 1786); no canonical article in pool, King George's Sound Company is partial"
+e0247-01,10642766,S P Crater,wrong,,ETN page: Mount Etna cone and sulphurous exhalations; Mount Etna not in pool
+e0261-01,59238,Entomology,correct,59238,ENTOMOLOGY treatise page on Aptera/Aranea; Entomology is in pool
+e0266-01,5092578,Marriage law,correct,5092578,"Scots law of marriage: forbidden degrees, affinity; Marriage law covers it"
+e0270-01,527232,Hydrostatics,correct,527232,plate caption HYDROSTATICS
+e0493-01,69670,History of the Gambia,wrong,58317165,L A page: Islay (not in pool) and Jillifree in kingdom of Barra; Kingdom of Niumi is Barra
+e0546-01,581885,Concurrent user,wrong,,"Parse repetition loop, text is not from the scan; nothing can be correct"
+e0604-01,313515,Jacques Auguste de Thou,wrong,,THO page: Thorwaldsen the sculptor's funeral; not in pool
+e0611-01,7534,Centripetal force,wrong,,"RES page: resistance of fluids (Newton, vortex motion); no exact article in pool, sine-square law is partial"
+e0651-01,2203555,Helminthology,correct,2203555,HELMINTHOLOGY plate with figure labels only; Helminthology in pool
+e0914-01,4070049,Tribes of Arabia,wrong,47858,"ARA page: Arabia, Yemen as Persian province at Mahomet's time; Arabian Peninsula"
+e0948-01,21438242,Lava,correct,21438242,plate caption Lava
+e1250-01,24057311,Coining (mint),correct,24057311,COI page: Coin and COINAGE (art of making coins); Coining (mint)
+e1268-01,21702,Nazareth,wrong,,"NAZ page: navy expense then NAXIA (Naxos); Naxos not in pool, Nazareth is only the header word"
+e1327-01,5858997,Huéscar,wrong,,HUE page: Hecla and Iceland hot springs; Iceland/Hekla not in pool
+e1415-01,155383,Liriodendron,wrong,,"ETH page: Ethiopia plants (rack tree, gir-gir, kantuffa); Ethiopia not in pool"
+e1422-01,39265941,Legal biography,wrong,,EDU page: Education of a young gentleman; Education not in pool
+e1466-01,57877,Sodium hydroxide,wrong,,ESS page: Essaying (assaying) procedure; Assay not in pool
+e1649-01,7783929,Horses in warfare,wrong,,"CHI page: Chivalry and the military use of cavalry; Chivalry not in pool, Horses in warfare is partial"
+e1765-01,565743,Economic materialism,wrong,,KAL page: Kalmucks (Kalmyks) character and religion; not in pool
+e1805-01,28561,Separation of powers,correct,28561,"EXE page: Execution (law, music) and EXECUTIVE POWER; Separation of powers covers the executive power entry"
+e1945-01,1344213,Nephoscope,wrong,,"OPTICS Part III: illuminating telescope cross-hairs; Optics not in pool, Meridian circle is partial"
+e2001-01,1623742,History of Silesia,correct,1623742,"SIL page: Silesia (Oder, cattle from Poland); History of Silesia in pool, Silesia itself is not"
+e2087-01,3745,Britain,correct,3745,"BRITAIN treatise: 1796 peace negotiations with France (Burke, Regicide Peace); exact title Britain is in pool"
+e2093-01,515983,The Theory of Moral Sentiments,wrong,,"SEN page: Sentiment/sensibility of the mind; no exact article in pool, Theory of Moral Sentiments is a related book"
+e2171-01,32149007,Galactites tomentosus,wrong,,"AST page: Ataraxy, Atarnea, Ataxy, Atche, Atchievement; none in pool"
+e2277-01,103073,Plexus,wrong,240462,"ANATOMY Chap VI: cervical nerves, brachial plexus, intercostal nerves; Spinal nerve"
+e2524-01,489492,Hindustan,correct,489492,"HINDUSTAN treatise: crimes and architecture of the Hindus; exact title Hindustan in pool, Hindus also acceptable"
+e2569-01,18495846,Abyssinia,correct,18495846,"ABYSSINIA: Frumentius, bishop of Axum, war of the elephant; Abyssinia in pool"
+e2570-01,18495846,Abyssinia,correct,18495846,"ABYSSINIA: line of Solomon, Yasous, Tecla Haimanout; Abyssinia in pool, Emperor of Ethiopia also acceptable"

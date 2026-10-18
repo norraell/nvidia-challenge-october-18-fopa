@@ -1,0 +1,18 @@
+{
+  "labeled": 30,
+  "methods": {
+    "bm25_only": {
+      "top1_correct": 2,
+      "top1_accuracy": 0.067
+    },
+    "bm25_embed": {
+      "top1_correct": 6,
+      "top1_accuracy": 0.2
+    },
+    "bm25_embed_rerank": {
+      "top1_correct": 12,
+      "top1_accuracy": 0.4
+    }
+  },
+  "note": "Top-1 accuracy on the labeled sample for the candidate ranked first by BM25 score, by embedding cosine, and by reranker logit. Candidates are the same pooled BM25 set in all three rows."
+}

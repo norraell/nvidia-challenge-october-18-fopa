@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Britannica-Wiki Lens</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- ponytail: Tailwind play CDN, no build step. Swap for a compiled CSS file to run offline. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Design tokens (ui-ux-pro-max: Swiss Modernism 2.0, scholarly navy + citation gold).
+    // Color coding is fixed everywhere: brit (gold) = Britannica, wiki (navy) = Wikipedia.
+    tailwind.config = { theme: { extend: {
+      colors: {
+        bg: '#F8FAFC', card: '#FFFFFF', muted: '#E9EEF5', line: '#CBD5E1',
+        fg: '#0F172A', sub: '#475569',
+        wiki: { DEFAULT: '#1E3A5F', soft: '#DBE4F0' },
+        brit: { DEFAULT: '#B45309', soft: '#FDF0DC' },
+        ok: { DEFAULT: '#047857', soft: '#D1FAE5' },
+        bad: { DEFAULT: '#DC2626', soft: '#FEE2E2' },
+        tool: { DEFAULT: '#6D28D9', soft: '#EDE9FE' },
+        paper: '#F3EAD7',
+      },
+      fontFamily: { serif: ['"Crimson Pro"', 'Georgia', 'serif'], sans: ['"Atkinson Hyperlegible"', 'system-ui', 'sans-serif'] },
+    } } };
+  </script>
+  <style>
+    .page { background: #F3EAD7; box-shadow: inset 0 0 40px #d9c9a3; }
+    .latex { column-count: 2; column-gap: 2rem; column-rule: 1px solid #e5dcc7; }
+    .box { position: absolute; border: 2px solid; cursor: pointer; transition: background-color .2s; }
+    .box.heading { border-color: #1E3A5F; background: #1E3A5F14; }
+    .box.illustration { border-color: #6D28D9; background: #6D28D914; }
+    .box.warn { border-color: #B45309; border-style: dashed; }
+    .page:not(.noscan) .ocr { display: none; }
+    .box:hover { background: #B4530926; }
+    .box.active { outline: 3px solid #DC2626; outline-offset: 2px; }
+    :focus-visible { outline: 2px solid #1E3A5F; outline-offset: 2px; }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } }
+    .rise { animation: rise .25s ease-out; }
+  </style>
+</head>
+<body class="bg-bg font-sans text-fg antialiased min-h-screen">
+  <header class="sticky top-0 z-10 border-b border-line bg-card/95 backdrop-blur">
+    <div class="mx-auto flex max-w-[1440px] flex-wrap items-center gap-6 px-6 py-3">
+      <div>
+        <h1 class="font-serif text-2xl font-semibold leading-none text-wiki">Britannica<span class="text-brit">·</span>Wiki Lens</h1>
+        <p class="text-xs text-sub">Historical Encyclopædia Britannica ↔ modern Wikipedia</p>
+      </div>
+      <nav id="nav" aria-label="Views" class="flex flex-wrap gap-1 text-sm">
+        <a href="#viewer">Archive Viewer</a>
+        <a href="#match">Match Explorer</a>
+        <a href="#analytics">Analytics</a>
+        <a href="#agent">Agent Console</a>
+        <a href="#pipeline">Pipeline</a>
+      </nav>
+      <p class="ml-auto hidden text-xs text-sub xl:block">Nemotron Parse 3.5 · Embed VL · Rerank VL · 3.5 Super VL</p>
+    </div>
+  </header>
+  <main id="view" class="mx-auto max-w-[1440px] p-6"></main>
+  <footer class="mx-auto max-w-[1440px] px-6 pb-8 text-xs text-sub">
+    Britannica scans: National Library of Scotland, <a class="underline" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.
+    Wikipedia text: <a class="underline" href="https://huggingface.co/datasets/wikimedia/structured-wikipedia">wikimedia/structured-wikipedia</a>, <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; each excerpt links to its article.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

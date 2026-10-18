@@ -1,0 +1,45 @@
+{
+  "method": "token_log_ratio",
+  "exclusions": [
+    "low_quality"
+  ],
+  "pairs_used": 3,
+  "brit_tokens": 1540,
+  "wiki_tokens": 2200,
+  "terms": [
+    {
+      "term": "quicksilver",
+      "brit_count": 8,
+      "wiki_count": 1,
+      "brit_per_10k": 51.95,
+      "wiki_per_10k": 4.55,
+      "log_ratio": 3.39,
+      "brit_example": {
+        "entry_id": "e0104-01",
+        "quote": "constructed with a column of quicksilver"
+      },
+      "wiki_example": {
+        "page_id": "3845",
+        "revision_id": "12490182",
+        "quote": "Historically known as quicksilver, mercury fills the column"
+      }
+    },
+    {
+      "term": "atmosphere",
+      "brit_count": 12,
+      "wiki_count": 15,
+      "brit_per_10k": 77.92,
+      "wiki_per_10k": 68.18,
+      "log_ratio": 0.19,
+      "brit_example": {
+        "entry_id": "e0104-01",
+        "quote": "measuring the weight and pressure of the atmosphere"
+      },
+      "wiki_example": {
+        "page_id": "3845",
+        "revision_id": "12490182",
+        "quote": "measuring pressure exerted by the atmosphere"
+      }
+    }
+  ]
+}
