@@ -16,6 +16,7 @@ dependencies = [
   "lancedb==0.40.0",
   "pyarrow==21.0.0",
   "huggingface-hub==2.2.0",
+  "pillow==11.3.0",
 ]
 
 [project.scripts]

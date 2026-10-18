@@ -1,0 +1,13 @@
+{
+ "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:452",
+ "row_index": 452,
+ "filename": "page-0452-233256cb3c3c.jpg",
+ "image_sha256": "233256cb3c3c25e03e847aa65e26f3e82cd05f8ef6e302c7ce69fe42a042f2cf",
+ "model": "nvidia/nemotron-3.5-parse",
+ "latency_ms": 15131,
+ "attempts": 1,
+ "finish_reason": null,
+ "parsed_at": null,
+ "error": "ProtocolError: chat response is incomplete; inspect the token budget and finish_reason",
+ "reply": null
+}
