@@ -1,0 +1,46 @@
+{
+  "run_id": "run-20261018T144825Z-q09-plate-1845",
+  "started_at": "2026-10-18T14:49:50Z",
+  "code_revision": "d0d0b26dfd89609e3bb40ac51d157fafcd565e92",
+  "hermes_version": "Hermes Agent v0.19.0 (2026.7.20); stage loop via ChatClient",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "question": "Entry e1845-01 is a plate. What Wikipedia article was matched to it, and does the evidence support that match?",
+  "image_inputs": [],
+  "tools_enabled": true,
+  "tool_calls": [
+    {
+      "name": "challenge_get_entry",
+      "arguments": {
+        "entry_id": "e1845-01",
+        "max_chars": 8000
+      },
+      "result": "{\"entry_id\": \"e1845-01\", \"citation_id\": \"e1845-01\", \"kind\": \"plate\", \"headword\": null, \"running_header\": null, \"page_id\": \"britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845\", \"row_index\": 1845, \"scan_file\": \"page-1845-a758ad9d45a7.jpg\", \"crop_path\": \"artifacts/extract/crops/e1845-01.png\", \"continues_from\": null, \"continues_to\": null, \"low_quality\": false, \"text\": \"XVII.\", \"offset\": 0, \"returned_chars\": 5, \"total_chars\": 5, \"next_offset\": null, \"source\": \"Britannica scan via Parse 3.5; text normalized (long s to s, hyphens joined)\", \"match\": {\"status\": \"matched\", \"reason\": \"rule: rerank top-1 logit -1.434 >= tau -5 and margin 1.114 >= 0.75\", \"method_version\": \"m1-tau=-5-delta=0.75\", \"rerank_margin\": 1.1144683361053467, \"match\": {\"page_id\": \"35197356\", \"revision_id\": \"1348865248\", \"citation_id\": \"35197356@1348865248\", \"title\": \"XVII Reserve Corps (German Empire)\", \"url\": \"https://en.wikipedia.org/wiki/XVII_Reserve_Corps_(German_Empire)\"}, \"top_candidates\": [{\"title\": \"XVII Reserve Corps (German Empire)\", \"page_id\": \"35197356\", \"revision_id\": \"1348865248\", \"bm25_score\": 15.045642852783203, \"embed_cosine\": 0.3153058821127174, \"rerank_logit\": -1.4336261749267578}, {\"title\": \"XVII Constitutional Government of Portugal\", \"page_id\": \"75125387\", \"revision_id\": \"1337715155\", \"bm25_score\": 14.852523803710938, \"embed_cosine\": 0.28499532787776066, \"rerank_logit\": -2.5480945110321045}, {\"title\": \"Andromeda XVII\", \"page_id\": \"81053690\", \"revision_id\": \"1315797323\", \"bm25_score\": 15.147583961486816, \"embed_cosine\": 0.28283427340839734, \"rerank_logit\": -2.6153109073638916}], \"note\": \"Relevance scores show shared subject matter. They do not establish factual agreement.\"}}",
+      "error": null
+    },
+    {
+      "name": "challenge_get_article",
+      "arguments": {
+        "page_id": "35197356",
+        "max_chars": 8000
+      },
+      "result": "{\"page_id\": \"35197356\", \"revision_id\": \"1348865248\", \"citation_id\": \"35197356@1348865248\", \"title\": \"XVII Reserve Corps (German Empire)\", \"url\": \"https://en.wikipedia.org/wiki/XVII_Reserve_Corps_(German_Empire)\", \"license\": \"CC-BY-SA-4.0\", \"dataset_revision\": \"417c267bb457fa645c22eb3b5c77764963194c70\", \"text\": \"The XVII Reserve Corps / XVII RK (German: XVII. Reserve-Korps) was a corps level command of the German Army in World War I.\\n\\nThe Corps was formed in October 1914 as the temporary Corps Graudenz or Corps Zastrow named for its commander General der Infanterie Ernst von Zastrow, military governor of Graudenz. On 21 July 1915 it was established as XVII Reserve Corps. The Corps was dissolved on 17 September 1917.\\n\\nThe nucleus of the corps was troops collected at Graudenz Fortress. In mid-November 1914 it consisted of two divisions: Wernitz and Breugel with a strength of 26 battalions, 6 squadrons and 13 batteries.\\n\\nOn February 8, 1915 Zastrow Korps was organized as follows:\\n\\nCorps Zastrow / XVII Reserve Corps had the following commanders during its existence:\", \"offset\": 0, \"returned_chars\": 764, \"total_chars\": 764, \"next_offset\": null}",
+      "error": null
+    }
+  ],
+  "answer": "The matched Wikipedia article is **“XVII Reserve Corps (German Empire)”** (page_id 35197356, revision_id 1348865248). [B:e1845-01]\n\nDoes the evidence support it? Partially, but the match is thin. The Britannica entry e1845-01 is a plate whose extracted text is only “XVII.” [B:e1845-01] The match system accepted “XVII Reserve Corps (German Empire)” as the top candidate because the rerank rule thresholds were met (rerank logit −1.434 ≥ tau −5; margin 1.114 ≥ 0.75), and it outranked the next candidates (“XVII Constitutional Government of Portugal” at −2.548 and “Andromeda XVII” at −2.616). [B:e1845-01] The shared basis is the Roman numeral “XVII,” and the Wikipedia article confirms it concerns a corps-level command designated XVII Reserve Corps. [W:35197356@1348865248]\n\nHowever, the entry text provides essentially no content beyond the numeral, and the match record itself cautions that relevance scores show shared subject matter, not factual agreement. [B:e1845-01] So the algorithmic evidence supports the match as a numeral-to-title association, but there is no substantive textual overlap to verify it beyond “XVII.”",
+  "citations": [
+    {
+      "source": "Britannica",
+      "id": "e1845-01",
+      "quote": "XVII."
+    },
+    {
+      "source": "Wikipedia",
+      "id": "35197356@1348865248",
+      "quote": "The XVII Reserve Corps / XVII RK (German: XVII. Reserve-Korps) was a corps level command of the German Army in World War I."
+    }
+  ],
+  "finish_reason": "stop",
+  "label": "success",
+  "notes": "All checks pass. The plate text is only XVII. and the agent said the match rests on the numeral alone with no substantive overlap, which matches the team's own review of this known weak match. Quotes are verbatim."
+}

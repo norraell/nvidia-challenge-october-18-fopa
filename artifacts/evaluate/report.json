@@ -1,0 +1,644 @@
+{
+  "status": "ok",
+  "generated_at": "2026-10-18T14:54:44Z",
+  "inputs_dir": "artifacts",
+  "fixture_inputs": false,
+  "required_per_label": 3,
+  "selected": {
+    "success": 3,
+    "failure": 3
+  },
+  "missing": {
+    "success": 0,
+    "failure": 0
+  },
+  "unreviewed_run_ids": [],
+  "unselected_run_ids": [
+    "run-20261018T144825Z-q07-magnetism-nomatch",
+    "run-20261018T144825Z-q08-steam-engine-absent",
+    "run-20261018T144825Z-q09-plate-1845",
+    "run-20261018T144825Z-q10-atchievement",
+    "run-20261018T145107Z-q03-buttress",
+    "run-20261018T145107Z-q04-oratory",
+    "run-20261018T145107Z-q05-huguenots",
+    "run-20261018T145107Z-q08-steam-engine-absent"
+  ],
+  "cases": [
+    {
+      "case_id": "case-success-1",
+      "classification": "success",
+      "classification_source": "run.label (team review recorded in the run record)",
+      "run_id": "run-20261018T144825Z-q01-entomology",
+      "run_path": "artifacts/agent/runs/run-20261018T144825Z-q01-entomology.json",
+      "code_revision": "d0d0b26dfd89609e3bb40ac51d157fafcd565e92",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "question": "How does the historical Britannica entry on ENTOMOLOGY define and divide the subject, compared with the modern Wikipedia article? Quote both sources.",
+      "answer": "The saved historical Britannica entry under the headword \"ENTOMOLOGY\" does not actually define or divide the subject of entomology. Its extracted text is OCR noise consisting of numbered descriptions of insect specimens (e.g., \"Eyes placed thus,\" \"thorax marked with,\" \"A native of Europe\"), with no statement of what entomology is or how it is subdivided [B:e0261-02]. So the comparison can only be drawn by quoting what the entry actually contains versus what the Wikipedia article says.\n\nThe modern Wikipedia article defines entomology explicitly: \"Entomology, from Ancient Greek ἔντο몬 (éntomon), meaning \"insect\", and λόγος (lógos), meaning \"study\", is the branch of zoology that focuses on insects\" [W:59238@1353043526]. It divides the field into branches such as forensic entomology (\"studies insects found on corpses or elsewhere around crime scenes\") and medical entomology (\"focused upon insects and arthropods that impact human health\") [W:59238@1353043526], and into order- or family-based subspecialties: \"Many entomologists specialize in a single order or even a family of insects,\" listing Coleopterology (beetles), Dipterology (flies), Lepidopterology (moths and butterflies), Myrmecology (ants), and others [W:59238@1353043526].\n\nIn short, the Wikipedia article offers a clear definition and a taxonomy of subfields, whereas the saved Britannica entry text provides neither — it appears to be mis-extracted specimen descriptions rather than an encyclopedic definition of entomology [B:e0261-02].",
+      "citations": [
+        {
+          "source": "Britannica",
+          "id": "e0261-02",
+          "quote": "ENTOMOLOGY. gentle suborfics, thorax marked with a large depressed circular spot; abdominal oval; legs equal."
+        },
+        {
+          "source": "Wikipedia",
+          "id": "59238@1353043526",
+          "quote": "is the branch of zoology that focuses on insects."
+        }
+      ],
+      "tool_calls": 3,
+      "tool_errors": 0,
+      "finish_reason": "stop",
+      "review_notes": "All checks pass. The agent read e0261-02 and reported that the extracted text holds specimen descriptions, not a definition; both quotes are verbatim and the Wikipedia definition is from the matched article 59238@1353043526. The segmentation limit it reports is real: the page is a treatise table, not a headword entry.",
+      "checks": [
+        {
+          "name": "model_id",
+          "kind": "observation",
+          "passed": true,
+          "detail": "reply model 'nvidia/Nemotron-3.5-Super-VL'"
+        },
+        {
+          "name": "finish_reason",
+          "kind": "observation",
+          "passed": true,
+          "detail": "finish_reason 'stop'"
+        },
+        {
+          "name": "tool_calls",
+          "kind": "observation",
+          "passed": true,
+          "detail": "3 tool calls without errors (challenge_compare, challenge_find_entry, challenge_get_entry)"
+        },
+        {
+          "name": "citations_present",
+          "kind": "observation",
+          "passed": true,
+          "detail": "2 citations in the run record"
+        },
+        {
+          "name": "citations_resolve",
+          "kind": "observation",
+          "passed": true,
+          "detail": "all 2 citation ids resolve to saved records"
+        },
+        {
+          "name": "citation_quotes",
+          "kind": "observation",
+          "passed": true,
+          "detail": "quotes found in saved source text"
+        },
+        {
+          "name": "answer_cites",
+          "kind": "inference",
+          "passed": true,
+          "detail": "answer text mentions every citation id"
+        },
+        {
+          "name": "uncertainty_claim",
+          "kind": "inference",
+          "passed": null,
+          "detail": "no missing-evidence or uncertainty phrase in the answer"
+        }
+      ],
+      "earlier_attempts": [],
+      "repaired_by": null,
+      "case_path": "cases/case-success-1.md"
+    },
+    {
+      "case_id": "case-success-2",
+      "classification": "success",
+      "classification_source": "run.label (team review recorded in the run record)",
+      "run_id": "run-20261018T144825Z-q02-escheat",
+      "run_path": "artifacts/agent/runs/run-20261018T144825Z-q02-escheat.json",
+      "code_revision": "d0d0b26dfd89609e3bb40ac51d157fafcd565e92",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "question": "Compare how Britannica and Wikipedia explain ESCHEAT: who receives the property and under what conditions. Cite the exact sentences.",
+      "answer": "## Comparison: Who receives escheated property, and under what conditions\n\n### Who receives the property\n\n**Britannica (historical entry)** frames escheat as a return of land to the feudal lord: it \"signifies any lands or tenparts that cafinally fail to a Lord within his manor,\" and where the tenant's bloodline ends or is corrupted, the land \"cakes the hand echated or fell back to the lost of the cry\" — i.e., it falls back to the lord of the fee.[B:e1473-08] The recipient is thus the **Lord of the manor/fee**.\n\n**Wikipedia** gives the recipient as the **government or Crown** in modern terms: escheat \"is a common law doctrine that transfers the real property of a person who has died without heirs to the government, or in the United Kingdom, crown.\"[W:175519@1353158843] In feudal England, the land was \"technically owned by either the crown or the immediate overlord\" when no heir existed; a felon's land reverted to the overlord after a year and a day, while treason forfeited land directly to the Crown.[W:175519@1353158843]\n\n### Conditions for escheat\n\n**Britannica** lists: (1) \"the extinction of the blood of the latter by natural or civil means\" — i.e., \"death without heirs of his blood\"; (2) \"the tenant, by perpetrating an atrocious crime\" (corruption of blood); and (3) \"breach of the original condition, expressed or implied in the feudal donation.\"[B:e1473-08]\n\n**Wikipedia** lists: (1) the tenant \"died without an heir or committed a felony\"[W:175519@1353158843]; (2) in modern usage, when \"the person dies intestate without any other person capable of taking the property as heir,\" title transfers to the state[W:175519@1353158843]; and (3) a distinction Britannica does not draw — felony sends land to the overlord, but treason forfeits it to the Crown.[W:175519@1353158843]\n\n**Key difference:** Britannica's historical entry centers on the feudal lord as recipient, triggered by failure of heirs, corruption of blood, or breach of feudal condition. Wikipedia adds the state/Crown as recipient, separates felony (overlord) from treason (Crown), and describes the modern doctrine as intestate succession failing entirely, with property passing to the state. Note: the Britannica text is OCR-noisy (e.g., \"tenparts,\" \"cafinally\"), so its wording is quoted verbatim as extracted.[B:e1473-08]",
+      "citations": [
+        {
+          "source": "Britannica",
+          "id": "e1473-08",
+          "quote": "ESCHEAT, in law, signifies any lands or tenparts that cafinally fail to a Lord within his manor."
+        },
+        {
+          "source": "Wikipedia",
+          "id": "175519@1353158843",
+          "quote": "In feudal England, escheat referred to the situation where the tenant of a fee (or \"fief\") died without an heir or committed a felony."
+        }
+      ],
+      "tool_calls": 3,
+      "tool_errors": 0,
+      "finish_reason": "stop",
+      "review_notes": "All checks pass. Both quotes are verbatim, the three Britannica conditions and the Wikipedia felony versus treason distinction are in the cited texts, and the OCR noise is named instead of corrected.",
+      "checks": [
+        {
+          "name": "model_id",
+          "kind": "observation",
+          "passed": true,
+          "detail": "reply model 'nvidia/Nemotron-3.5-Super-VL'"
+        },
+        {
+          "name": "finish_reason",
+          "kind": "observation",
+          "passed": true,
+          "detail": "finish_reason 'stop'"
+        },
+        {
+          "name": "tool_calls",
+          "kind": "observation",
+          "passed": true,
+          "detail": "3 tool calls without errors (challenge_find_entry, challenge_get_article, challenge_get_entry)"
+        },
+        {
+          "name": "citations_present",
+          "kind": "observation",
+          "passed": true,
+          "detail": "2 citations in the run record"
+        },
+        {
+          "name": "citations_resolve",
+          "kind": "observation",
+          "passed": true,
+          "detail": "all 2 citation ids resolve to saved records"
+        },
+        {
+          "name": "citation_quotes",
+          "kind": "observation",
+          "passed": true,
+          "detail": "quotes found in saved source text"
+        },
+        {
+          "name": "answer_cites",
+          "kind": "inference",
+          "passed": true,
+          "detail": "answer text mentions every citation id"
+        },
+        {
+          "name": "uncertainty_claim",
+          "kind": "inference",
+          "passed": null,
+          "detail": "no missing-evidence or uncertainty phrase in the answer"
+        }
+      ],
+      "earlier_attempts": [],
+      "repaired_by": null,
+      "case_path": "cases/case-success-2.md"
+    },
+    {
+      "case_id": "case-success-3",
+      "classification": "success",
+      "classification_source": "run.label (team review recorded in the run record)",
+      "run_id": "run-20261018T144825Z-q06-buttress-image",
+      "run_path": "artifacts/agent/runs/run-20261018T144825Z-q06-buttress-image.json",
+      "code_revision": "d0d0b26dfd89609e3bb40ac51d157fafcd565e92",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "question": "This image is a crop from a Britannica page. Which entry is it? Find that entry in the saved artifacts and compare it with its matched Wikipedia article.",
+      "answer": "The crop is the historical Encyclopaedia Britannica entry **e2250-02**, headword **“BUTTRESS”** (scan file `page-2250-75315f455009.jpg`, crop `artifacts/extract/crops/e2250-02.png`). The match stage accepted it as matched to the Wikipedia article **“Buttress”** (page_id `663464`, revision_id `1346148586`); the rerank margin was 1.719, above the threshold, though relevance scores indicate shared subject matter, not factual agreement.\n\nBoth sources agree on the core idea: a buttress is a support built on the outside of a wall to hold it up. Britannica defines it as “a kind of batment … serving to prop … the sides of a building, wall, &c. on the outside, where it is either very high, or has any considerable load to sustain on the other side, as a bank of earth” [B:e2250-02]. Wikipedia defines it as “an architectural structure built against or projecting from a wall which serves to support or reinforce the wall” [W:663464@1346148586].\n\nThey differ in detail. Britannica says buttresses are used against the angles of steeples and stone buildings, along walls of buildings with “great and heavy roofs” that would thrust the walls out unless thick, and “against the feet of fine arches” in old palaces and abbeys [B:e2250-02]. Wikipedia instead stresses lateral (sideways) forces from inadequately braced roof structures, notes buttresses are common on ancient (typically Gothic) buildings, and says “counterfort” is synonymous when referring to dams and retaining walls holding back earth [W:663464@1346148586]. Wikipedia also adds history (Eanna Temple, ancient Uruk, 4th millennium BC) and a ground-plan taxonomy (clasping/clamped, angled, setback, diagonal/“French”) absent from Britannica [W:663464@1346148586]; Britannica’s palace/abbey/arch examples are not in the Wikipedia excerpt. Note the Britannica text is OCR-normalized and retains long-s artifacts (e.g., “f” for “s”), so some words are garbled.",
+      "citations": [
+        {
+          "source": "Britannica",
+          "id": "e2250-02",
+          "quote": "BUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flapper the fides of a building, wall, 6e, on the outside"
+        },
+        {
+          "source": "Wikipedia",
+          "id": "663464@1346148586",
+          "quote": "A buttress is an architectural structure built against or projecting from a wall which serves to support or reinforce the wall."
+        }
+      ],
+      "tool_calls": 4,
+      "tool_errors": 0,
+      "finish_reason": "stop",
+      "review_notes": "All checks pass. Super VL read the crop image, found e2250-02 with challenge_find_entry, read the entry and the matched article, and quoted both verbatim including OCR errors. Real image request confirmed.",
+      "checks": [
+        {
+          "name": "model_id",
+          "kind": "observation",
+          "passed": true,
+          "detail": "reply model 'nvidia/Nemotron-3.5-Super-VL'"
+        },
+        {
+          "name": "finish_reason",
+          "kind": "observation",
+          "passed": true,
+          "detail": "finish_reason 'stop'"
+        },
+        {
+          "name": "tool_calls",
+          "kind": "observation",
+          "passed": true,
+          "detail": "4 tool calls without errors (challenge_compare, challenge_find_entry, challenge_get_article, challenge_get_entry)"
+        },
+        {
+          "name": "citations_present",
+          "kind": "observation",
+          "passed": true,
+          "detail": "2 citations in the run record"
+        },
+        {
+          "name": "citations_resolve",
+          "kind": "observation",
+          "passed": true,
+          "detail": "all 2 citation ids resolve to saved records"
+        },
+        {
+          "name": "citation_quotes",
+          "kind": "observation",
+          "passed": true,
+          "detail": "quotes found in saved source text"
+        },
+        {
+          "name": "answer_cites",
+          "kind": "inference",
+          "passed": true,
+          "detail": "answer text mentions every citation id"
+        },
+        {
+          "name": "uncertainty_claim",
+          "kind": "inference",
+          "passed": null,
+          "detail": "no missing-evidence or uncertainty phrase in the answer"
+        }
+      ],
+      "earlier_attempts": [],
+      "repaired_by": null,
+      "case_path": "cases/case-success-3.md"
+    },
+    {
+      "case_id": "case-failure-1",
+      "classification": "failure",
+      "classification_source": "run.label (team review recorded in the run record)",
+      "run_id": "run-20261018T144825Z-q03-buttress",
+      "run_path": "artifacts/agent/runs/run-20261018T144825Z-q03-buttress.json",
+      "code_revision": "d0d0b26dfd89609e3bb40ac51d157fafcd565e92",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "question": "What does the Britannica entry on BUTTRESS say about the purpose of a buttress, and does the Wikipedia article agree? Quote the evidence.",
+      "answer": "The Britannica entry (headword \"BUTTRESS,\" entry e2250-02) defines a buttress as a mass built against the outside of a building or wall whose purpose is to prop/support the sides where the wall is \"very high, or has any considerable load to sustain on the other side, as a bank of earth.\" It adds that buttresses are used at the angles of steeples and stone buildings, and along walls of buildings with \"great and heavy roofs, which would be subject to [thrust] the walls out, unless very thick, if no buttresses were placed against them,\" and also \"for a support ... against the feet of fine arches\" in great halls of old palaces and abbeys.[B:e2250-02] (The text is an OCR-normalized scan, so \"ſ\" appears as \"f\" and \"&c\" as \"6e\"/\"eC\"; the meaning is \"prop or support the sides ... on the outside ... considerable load to sustain on the other side.\")\n\nThe matched Wikipedia article (page 663464, revision 1346148586) states: \"A buttress is an architectural structure built against or projecting from a wall which serves to support or reinforce the wall. Buttresses are fairly common on more ancient (typically Gothic) buildings, as a means of providing support to act against the lateral (sideways) forces arising out of inadequately braced roof structures.\"[W:663464@1346148586]\n\nSo yes, the Wikipedia article agrees on the core purpose: a buttress is built against a wall to support/reinforce it, resisting lateral (sideways) forces—Britannica frames those forces as heavy roofs, banks of earth, and arch thrust, while Wikipedia frames them as lateral forces from inadequately braced roof structures. Britannica simply gives more specific historical examples (steeples, arches, palaces, abbeys, retaining earth).",
+      "citations": [
+        {
+          "source": "Britannica",
+          "id": "e2250-02",
+          "quote": "serving to prop or support the sides of a building, wall, &c., on the outside, where it is either very high, or has any considerable load to sustain on the other side, as a bank of earth"
+        },
+        {
+          "source": "Wikipedia",
+          "id": "663464@1346148586",
+          "quote": "A buttress is an architectural structure built against or projecting from a wall which serves to support or reinforce the wall."
+        }
+      ],
+      "tool_calls": 3,
+      "tool_errors": 0,
+      "finish_reason": "stop",
+      "review_notes": "citation_quotes fails. The Britannica quote was silently corrected from the OCR text (ferving to prop of flapper the fides became serving to prop or support the sides), so the quote is not in the source. The comparison itself is sound. Repaired in run-20261018T145107Z-q03-buttress after the prompt gained an explicit verbatim-OCR rule.",
+      "checks": [
+        {
+          "name": "model_id",
+          "kind": "observation",
+          "passed": true,
+          "detail": "reply model 'nvidia/Nemotron-3.5-Super-VL'"
+        },
+        {
+          "name": "finish_reason",
+          "kind": "observation",
+          "passed": true,
+          "detail": "finish_reason 'stop'"
+        },
+        {
+          "name": "tool_calls",
+          "kind": "observation",
+          "passed": true,
+          "detail": "3 tool calls without errors (challenge_compare, challenge_find_entry, challenge_get_entry)"
+        },
+        {
+          "name": "citations_present",
+          "kind": "observation",
+          "passed": true,
+          "detail": "2 citations in the run record"
+        },
+        {
+          "name": "citations_resolve",
+          "kind": "observation",
+          "passed": true,
+          "detail": "all 2 citation ids resolve to saved records"
+        },
+        {
+          "name": "citation_quotes",
+          "kind": "observation",
+          "passed": false,
+          "detail": "quotes not found in saved source text: Britannica:e2250-02"
+        },
+        {
+          "name": "answer_cites",
+          "kind": "inference",
+          "passed": true,
+          "detail": "answer text mentions every citation id"
+        },
+        {
+          "name": "uncertainty_claim",
+          "kind": "inference",
+          "passed": null,
+          "detail": "no missing-evidence or uncertainty phrase in the answer"
+        }
+      ],
+      "earlier_attempts": [],
+      "repaired_by": "run-20261018T145107Z-q03-buttress",
+      "case_path": "cases/case-failure-1.md"
+    },
+    {
+      "case_id": "case-failure-2",
+      "classification": "failure",
+      "classification_source": "run.label (team review recorded in the run record)",
+      "run_id": "run-20261018T144825Z-q04-oratory",
+      "run_path": "artifacts/agent/runs/run-20261018T144825Z-q04-oratory.json",
+      "code_revision": "d0d0b26dfd89609e3bb40ac51d157fafcd565e92",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "question": "Compare the Britannica treatment of ORATORY with the Wikipedia article. Which terms does each source use that the other does not?",
+      "answer": "The Britannica entry (e1933-02, a heavily OCR-corrupted 1933 scan) treats \"Oratory\" as a discussion of rhetorical figures of repetition (e.g., sympleces, epanadiplosis), citing Cicero, St. Paul, and Anthony [B:e1933-02]. The matched Wikipedia article (page 350407, revision 1056850807) is a short disambiguation page: \"Oratory is a type of public speaking,\" plus a list of other meanings (eloquence, rhetoric, worship chapels, and specific oratories) [W:350407@1056850807].\n\nTerms Britannica uses that Wikipedia does not (from the term comparison): figure, cicero, anthony, authority, left, fame, abraham, begins, fays, find, following, word. Example: \"And Cicero, in the charge which she brings against Mark Authority before the feature, makes life of this figure, when he fays...\" [B:e1933-02]; \"As thus: _Ruse concord was left, friendship was left,_ _fidelity was left, liberty was left, all was left*.\" [B:e1933-02].\n\nTerms Wikipedia uses that Britannica does not: oratory, public, catholic, chapel, house, liverpool. Example: \"Oratory is a type of public speaking.\" [W:350407@1056850807]; \"Oratory (worship), a public or private place of divine worship, akin to a chapel The Oratory, Liverpool...\" [W:350407@1056850807]. The only shared terms are \"former,\" \"good,\" and \"roman.\"\n\nCaveat: the Britannica text is OCR-degraded (e.g., \"fays\" for \"says,\" \"fame\" for \"same\"), and the Wikipedia match is a disambiguation page rather than a substantive oratory article, so the term differences partly reflect genre and OCR noise rather than a clean substantive contrast.",
+      "citations": [
+        {
+          "source": "Britannica",
+          "id": "e1933-02",
+          "quote": "And Cicero, in the charge which she brings against Mark Authority before the feature, makes life of this figure, when he fays"
+        },
+        {
+          "source": "Britannica",
+          "id": "e1933-02",
+          "quote": "As thus: _Ruse concord was left, friendship was left,_ _fidelity was left, liberty was left, all was left*."
+        },
+        {
+          "source": "Wikipedia",
+          "id": "350407@1056850807",
+          "quote": "Oratory is a type of public speaking."
+        },
+        {
+          "source": "Wikipedia",
+          "id": "350407@1056850807",
+          "quote": "Oratory (worship), a public or private place of divine worship, akin to a chapel The Oratory, Liverpool"
+        }
+      ],
+      "tool_calls": 3,
+      "tool_errors": 0,
+      "finish_reason": "stop",
+      "review_notes": "citation_quotes fails. The second Britannica quote replaced an underscore with an asterisk, so it is not an exact copy. The answer also leans on a disambiguation-page match that the agent correctly called weak. Repaired in run-20261018T145107Z-q04-oratory.",
+      "checks": [
+        {
+          "name": "model_id",
+          "kind": "observation",
+          "passed": true,
+          "detail": "reply model 'nvidia/Nemotron-3.5-Super-VL'"
+        },
+        {
+          "name": "finish_reason",
+          "kind": "observation",
+          "passed": true,
+          "detail": "finish_reason 'stop'"
+        },
+        {
+          "name": "tool_calls",
+          "kind": "observation",
+          "passed": true,
+          "detail": "3 tool calls without errors (challenge_compare, challenge_find_entry, challenge_get_entry)"
+        },
+        {
+          "name": "citations_present",
+          "kind": "observation",
+          "passed": true,
+          "detail": "4 citations in the run record"
+        },
+        {
+          "name": "citations_resolve",
+          "kind": "observation",
+          "passed": true,
+          "detail": "all 4 citation ids resolve to saved records"
+        },
+        {
+          "name": "citation_quotes",
+          "kind": "observation",
+          "passed": false,
+          "detail": "quotes not found in saved source text: Britannica:e1933-02"
+        },
+        {
+          "name": "answer_cites",
+          "kind": "inference",
+          "passed": true,
+          "detail": "answer text mentions every citation id"
+        },
+        {
+          "name": "uncertainty_claim",
+          "kind": "inference",
+          "passed": null,
+          "detail": "no missing-evidence or uncertainty phrase in the answer"
+        }
+      ],
+      "earlier_attempts": [],
+      "repaired_by": "run-20261018T145107Z-q04-oratory",
+      "case_path": "cases/case-failure-2.md"
+    },
+    {
+      "case_id": "case-failure-3",
+      "classification": "failure",
+      "classification_source": "run.label (team review recorded in the run record)",
+      "run_id": "run-20261018T144825Z-q05-huguenots",
+      "run_path": "artifacts/agent/runs/run-20261018T144825Z-q05-huguenots.json",
+      "code_revision": "d0d0b26dfd89609e3bb40ac51d157fafcd565e92",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "question": "How does Britannica explain the origin of the name HUGUENOTS, and what does Wikipedia say about the same question?",
+      "answer": "## Britannica on the origin of the name \"Huguenots\"\n\nThe historical Britannica entry (headword \"HUGUENOTS\") says the name was \"an application given by way of concept to the referred or Protestant Calvinists of France,\" and that \"The name had its first rise in 1560; but authors are…\" [B:e1327-08]\n\nImportantly, the saved Britannica text ends there — it cuts off mid-sentence at \"but authors are,\" so the entry's full explanation of the name's origin is not present in the saved evidence. What survives only dates the name's first appearance to 1560 without completing the etymological account.\n\n## Wikipedia on the same question\n\nWikipedia states that \"A term used originally in derision, Huguenot has unclear origins. Various hypotheses have been promoted.\" [W:75899@1352397655] It then lays out several competing explanations:\n\n- The term \"may be derived from the name of a Swiss political leader, the Genevan burgomaster Besançon Hugues,\" and was in common use by around 1550 [W:75899@1352397655].\n- It may be a derogatory pun combining Besançon Hugues with the Dutch word *Huisgenoten* (\"housemates\") and the German *Eidgenosse* (\"Confederate,\" a citizen of the Swiss Confederacy) [W:75899@1352397655].\n- Historian O. I. A. Roche described it as a combination of Dutch *Huis Genooten* and German *Eid Genossen* (\"oath fellows\"), Gallicized into \"Huguenot\" [W:75899@1352397655].\n- Janet Gray's \"Hugues hypothesis\" derives it from Hugues Capet, king of France — roughly \"little Hugos\" or \"those who want Hugo\" [W:75899@1352397655].\n- Paul Ristelhuber supported a Catholic origin: a legend of *le roi Huguet*, a sinister spirit haunting a gateway in Tours, after which Protestants who met secretly at night were called Huguenots [W:75899@1352397655].\n- Reguier de la Plancha's account ties the name \"huguenand\" to the Amboise affair of 1560, when Protestants forced to meet at night were mockingly linked to night-roaming spirits [W:75899@1352397655].\n- A further suggestion derives it, \"with intended scorn, from *les guenon de Hus* (the 'monkeys' or 'apes of Jan Hus')\" [W:75899@1352397655].\n\n## Comparison\n\nBritannica's surviving text only establishes that the name was applied to French Protestants/Calvinists and first appeared around 1560, but its origin explanation is cut off. Wikipedia, by contrast, explicitly treats the origin as unclear and surveys multiple hypotheses — a derivation from Genevan burgomaster Besançon Hugues, a Dutch/German pun (*Huisgenoten*/*Eidgenosse*), Hugues Capet, the Catholic *le roi Huguet* legend of Tours, the Amboise plot of 1560, and a possible reference to Jan Hus — while noting the term was originally used in derision.",
+      "citations": [
+        {
+          "source": "Britannica",
+          "id": "e1327-08",
+          "quote": "The name had its first rise in 1560; but authors are"
+        },
+        {
+          "source": "Wikipedia",
+          "id": "75899@1352397655",
+          "quote": "A term used originally in derision, Huguenot has unclear origins. Various hypotheses have been promoted."
+        }
+      ],
+      "tool_calls": 5,
+      "tool_errors": 0,
+      "finish_reason": "stop",
+      "review_notes": "citation_quotes fails. The quote changed the OCR word rife to rise. The answer correctly states that the saved entry ends mid-sentence. Repaired in run-20261018T145107Z-q05-huguenots.",
+      "checks": [
+        {
+          "name": "model_id",
+          "kind": "observation",
+          "passed": true,
+          "detail": "reply model 'nvidia/Nemotron-3.5-Super-VL'"
+        },
+        {
+          "name": "finish_reason",
+          "kind": "observation",
+          "passed": true,
+          "detail": "finish_reason 'stop'"
+        },
+        {
+          "name": "tool_calls",
+          "kind": "observation",
+          "passed": true,
+          "detail": "5 tool calls without errors (challenge_compare, challenge_find_entry, challenge_get_article, challenge_get_entry)"
+        },
+        {
+          "name": "citations_present",
+          "kind": "observation",
+          "passed": true,
+          "detail": "2 citations in the run record"
+        },
+        {
+          "name": "citations_resolve",
+          "kind": "observation",
+          "passed": true,
+          "detail": "all 2 citation ids resolve to saved records"
+        },
+        {
+          "name": "citation_quotes",
+          "kind": "observation",
+          "passed": false,
+          "detail": "quotes not found in saved source text: Britannica:e1327-08"
+        },
+        {
+          "name": "answer_cites",
+          "kind": "inference",
+          "passed": true,
+          "detail": "answer text mentions every citation id"
+        },
+        {
+          "name": "uncertainty_claim",
+          "kind": "inference",
+          "passed": null,
+          "detail": "no missing-evidence or uncertainty phrase in the answer"
+        }
+      ],
+      "earlier_attempts": [],
+      "repaired_by": "run-20261018T145107Z-q05-huguenots",
+      "case_path": "cases/case-failure-3.md"
+    }
+  ],
+  "reproduction": {
+    "code_revision": "5dfff33923dfd512ae4cde9794bc5f634f42341e",
+    "code_revision_source": "git rev-parse HEAD",
+    "working_tree_clean": false,
+    "run_code_revisions": [
+      "d0d0b26dfd89609e3bb40ac51d157fafcd565e92"
+    ],
+    "python_version": "3.12.13",
+    "packages": {
+      "httpx": "0.28.1",
+      "pydantic": "2.14.1",
+      "python-dotenv": "1.2.4",
+      "lancedb": "0.40.0",
+      "pyarrow": "21.0.0",
+      "huggingface-hub": "2.2.0"
+    },
+    "models": {
+      "parse": {
+        "id": "nvidia/nemotron-3.5-parse",
+        "deployment": "shared organizer endpoint"
+      },
+      "embed": {
+        "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+        "revision": "582e3bf72aee355e3c59ed89de53543c5b0657ee",
+        "deployment": "team Nebius AI Cloud service"
+      },
+      "rerank": {
+        "id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+        "revision": "b8a9987b05b75db5ad949c825cbcbf6eb7c48b5a",
+        "deployment": "team Nebius AI Cloud service"
+      },
+      "super": {
+        "id": "nvidia/Nemotron-3.5-Super-VL",
+        "deployment": "Nebius Token Factory through Hermes"
+      },
+      "super_ids_in_runs": [
+        "nvidia/Nemotron-3.5-Super-VL"
+      ],
+      "retrieval_service": {
+        "status": "smoke record present",
+        "checked_at": "2026-10-18T12:43:31.728326+00:00",
+        "models": [
+          {
+            "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+            "revision": "582e3bf72aee355e3c59ed89de53543c5b0657ee",
+            "role": "embedder"
+          },
+          {
+            "id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+            "revision": "b8a9987b05b75db5ad949c825cbcbf6eb7c48b5a",
+            "role": "reranker"
+          }
+        ],
+        "precision": "bfloat16",
+        "backend": "torch_cuda",
+        "weights_verified": true
+      }
+    },
+    "data": {
+      "britannica": {
+        "dataset": "NationalLibraryOfScotland/encyclopaedia_britannica_illustrated",
+        "revision": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+        "manifest_sha256": "779542e078756874f23fa6971d7d8a2d8635ad6d9d9484e1deb607d94a28e396",
+        "source_file_sha256": "08f167015db23cb027995b2b6a6bc953b01d7c1ddf667de950465cc2b601af5c",
+        "sample_size": 100,
+        "selection": {
+          "method": "random_without_replacement",
+          "seed": 20261016,
+          "sort": "source_row_index"
+        }
+      },
+      "wikipedia": {
+        "dataset": "wikimedia/structured-wikipedia",
+        "revision": "417c267bb457fa645c22eb3b5c77764963194c70",
+        "access": "shared BM25 API over the pinned snapshot"
+      }
+    },
+    "hermes_versions": [
+      "Hermes Agent v0.19.0 (2026.7.20); stage loop via ChatClient"
+    ],
+    "counts": {
+      "pages_by_status": {
+        "blank": 3,
+        "failed": 2,
+        "illegible": 1,
+        "ok": 94
+      },
+      "entries": 270,
+      "matches_by_status": {
+        "matched": 22,
+        "no_candidates": 12,
+        "rejected": 226,
+        "skipped": 10
+      },
+      "compare": {
+        "method": "token_log_ratio_min_3x_entry_length",
+        "pairs_used": 22,
+        "exclusions": 0,
+        "terms": 210
+      },
+      "runs_by_label": {
+        "failure": 4,
+        "success": 10
+      }
+    },
+    "commands": [
+      "uv sync --locked",
+      "cp .env.example .env  # then set your own keys and URLs",
+      "uv run nemotron-challenge doctor --offline",
+      "uv run nemotron-challenge data fetch",
+      "uv run nemotron-challenge run extract",
+      "uv run nemotron-challenge run match",
+      "uv run nemotron-challenge run compare",
+      "uv run nemotron-challenge run agent",
+      "uv run nemotron-challenge run site",
+      "uv run nemotron-challenge run evaluate",
+      "uv run pytest"
+    ],
+    "known_limits": [
+      "Fixture tests prove the setup. They do not prove OCR accuracy or retrieval quality.",
+      "Automated checks compare citation ids and quotes with saved records. They do not verify factual claims.",
+      "The success or failure label comes from the team's review in each run record, not from the checks.",
+      "Uncertainty-claim detection is a phrase rule. A reviewer must confirm it against the evidence.",
+      "Some selected cases fail evidence checks: citation_quotes. See each case study."
+    ]
+  }
+}
