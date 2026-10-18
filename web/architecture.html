@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System Architecture · Britannica-Wiki Lens</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col font-sans">
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="flex items-center space-x-3">
+          <a href="index.html" class="w-9 h-9 rounded bg-indigo-600 flex items-center justify-center text-white font-bold text-lg tracking-wider">
+            EB
+          </a>
+          <div>
+            <h1 class="text-lg font-bold text-slate-900 tracking-tight">System Architecture & Pipeline Flow</h1>
+            <p class="text-xs text-slate-500">Multimodal Pipeline integrating Nemotron Parse 3.5, Embed VL, Rerank VL, and Super VL</p>
+          </div>
+        </div>
+        <div>
+          <a href="index.html" class="px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md border border-slate-300 text-slate-700 hover:bg-slate-50">
+            ← Back to App
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-5xl w-full mx-auto p-6 space-y-8">
+    <section class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm space-y-4">
+      <h2 class="text-xl font-bold text-slate-900">End-to-End Multimodal Pipeline Architecture</h2>
+      <p class="text-sm text-slate-600 leading-relaxed">
+        The system maps historical Encyclopaedia Britannica entries to modern Wikipedia articles and analyzes epistemic and vocabulary shifts across centuries.
+      </p>
+
+      <div class="border border-slate-200 rounded-lg p-6 bg-slate-900 text-slate-100 font-mono text-xs overflow-x-auto">
+<pre>
+┌──────────────────────────┐       ┌──────────────────────────┐
+│  100 Britannica Scans    │ ───►  │  Nemotron Parse 3.5      │ ───►  artifacts/extract/pages.jsonl
+│  (Manifest SHA256 Check) │       │  (Organizer Tunnel)      │       artifacts/extract/entries.jsonl
+└──────────────────────────┘       └──────────────────────────┘
+                                                 │
+                                                 ▼
+┌──────────────────────────┐       ┌──────────────────────────┐
+│  BM25 Lexical Pool       │ ◄───  │  Headword Segmentation   │ ───►  LaTeX Generation (Tectonic)
+│  (Pre-Indexed Wikipedia) │       │  & Bounding Box Crops    │       (Two-column compiled PDFs)
+└──────────────────────────┘       └──────────────────────────┘
+             │
+             ▼
+┌──────────────────────────┐       ┌──────────────────────────┐
+│  Nemotron Embed VL       │ ───►  │  Nemotron Rerank VL      │ ───►  artifacts/match/matches.jsonl
+│  (Dense Query Matching)  │       │  (Cross-Encoder Rescore) │       (Calibrated: tau=2.1, delta=0.4)
+└──────────────────────────┘       └──────────────────────────┘
+                                                 │
+                                                 ▼
+                                   ┌──────────────────────────┐
+                                   │  Comparative Analytics   │ ───►  artifacts/compare/drift.json
+                                   │  (Lexical Drift & TFIDF) │       (Log frequency ratio, quote diffs)
+                                   └──────────────────────────┘
+                                                 │
+                                                 ▼
+                                   ┌──────────────────────────┐
+                                   │  Hermes Agent Console    │ ───►  artifacts/agent/runs/*.json
+                                   │  (Super 3.5 VL + Tools)  │       (3 Successes + 3 Failures)
+                                   └──────────────────────────┘
+</pre>
+      </div>
+    </section>
+
+    <!-- Model Roles & Rubric Alignment -->
+    <section class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm space-y-4">
+      <h3 class="text-lg font-bold text-slate-900">Nemotron Model Deployment Matrix</h3>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs border-collapse">
+          <thead>
+            <tr class="border-b border-slate-200 bg-slate-50 text-slate-600 font-semibold uppercase">
+              <th class="py-2.5 px-3">Role</th>
+              <th class="py-2.5 px-3">Model</th>
+              <th class="py-2.5 px-3">Deployment</th>
+              <th class="py-2.5 px-3">Evaluation Rubric</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100 text-slate-700">
+            <tr>
+              <td class="py-3 px-3 font-semibold">Extraction</td>
+              <td class="py-3 px-3 font-mono">nvidia/nemotron-3.5-parse</td>
+              <td class="py-3 px-3">Shared organizer tunnel</td>
+              <td class="py-3 px-3">Structure preservation, column order, LaTeX generation (15 pts)</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-3 font-semibold">Candidate Retrieval</td>
+              <td class="py-3 px-3 font-mono">nvidia/llama-nemotron-embed-vl-1b-v2</td>
+              <td class="py-3 px-3">Nebius AI Cloud (GPU Docker)</td>
+              <td class="py-3 px-3">Dense multimodal vector search across 50 candidates (15 pts)</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-3 font-semibold">Candidate Rescoring</td>
+              <td class="py-3 px-3 font-mono">nvidia/llama-nemotron-rerank-vl-1b-v2</td>
+              <td class="py-3 px-3">Nebius AI Cloud (GPU Docker)</td>
+              <td class="py-3 px-3">Cross-encoder rescoring & acceptance thresholding (15 pts)</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-3 font-semibold">Agent Reasoning & Vision</td>
+              <td class="py-3 px-3 font-mono">nvidia/Nemotron-3.5-Super-VL</td>
+              <td class="py-3 px-3">Nebius Token Factory</td>
+              <td class="py-3 px-3">Hermes agent tool use, dual citations, calibrated refusal (20 pts)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-4 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 text-xs text-slate-500 text-center">
+      Britannica-Wiki Lens · Built for Nebius NVIDIA Agentic AI Hackathon
+    </div>
+  </footer>
+</body>
+</html>

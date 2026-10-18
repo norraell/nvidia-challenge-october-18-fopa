@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Britannica · Wikipedia Cross-Era Lens</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Müller-Brockmann typographic modular rhythm */
+    :root {
+      --font-serif: "Iowan Old Style", "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif", serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .font-serif-body { font-family: var(--font-serif); }
+    .scan-container {
+      position: relative;
+      overflow: auto;
+      background: #1e293b;
+    }
+    .bbox-highlight {
+      position: absolute;
+      border: 2px solid #38bdf8;
+      background-color: rgba(56, 189, 248, 0.2);
+      pointer-events: auto;
+      cursor: pointer;
+      transition: all 0.15s ease-in-out;
+    }
+    .bbox-highlight:hover, .bbox-highlight.active {
+      border-color: #f59e0b;
+      background-color: rgba(245, 158, 11, 0.35);
+      z-index: 10;
+    }
+    .two-column-doc {
+      column-count: 2;
+      column-gap: 2rem;
+      column-rule: 1px solid #e2e8f0;
+      text-align: justify;
+      hyphens: auto;
+    }
+    @media (max-width: 768px) {
+      .two-column-doc { column-count: 1; }
+    }
+    .tab-btn.active {
+      border-color: #2563eb;
+      color: #1d4ed8;
+      background-color: #eff6ff;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col font-sans">
+
+  <!-- Header -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded bg-indigo-600 flex items-center justify-center text-white font-bold text-lg tracking-wider">
+            EB
+          </div>
+          <div>
+            <div class="flex items-center space-x-2">
+              <h1 class="text-lg font-bold text-slate-900 tracking-tight">Britannica · Wikipedia Cross-Era Lens</h1>
+              <span id="fixture-badge" class="px-2 py-0.5 rounded text-xs font-semibold bg-amber-100 text-amber-800 border border-amber-300">
+                MOCK DATA
+              </span>
+            </div>
+            <p class="text-xs text-slate-500">Nemotron 3.5 Multimodal Extraction, Semantic Matching & Comparative Epistemology</p>
+          </div>
+        </div>
+        <nav class="flex space-x-1 sm:space-x-2" id="nav-tabs">
+          <button data-view="archive" class="tab-btn active px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md border border-transparent hover:bg-slate-100 text-slate-600">
+            Archive Viewer
+          </button>
+          <button data-view="match" class="tab-btn px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md border border-transparent hover:bg-slate-100 text-slate-600">
+            Match Explorer
+          </button>
+          <button data-view="analytics" class="tab-btn px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md border border-transparent hover:bg-slate-100 text-slate-600">
+            Comparative Analytics
+          </button>
+          <button data-view="agent" class="tab-btn px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md border border-transparent hover:bg-slate-100 text-slate-600">
+            Agent Console
+          </button>
+          <a href="architecture.html" class="px-3 py-1.5 text-xs sm:text-sm font-medium rounded-md border border-slate-200 text-slate-600 hover:bg-slate-100">
+            Architecture
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main View Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8">
+
+    <!-- VIEW 1: ARCHIVE VIEWER (Scan vs LaTeX) -->
+    <section id="view-archive" class="view-panel space-y-4">
+      <div class="flex flex-wrap items-center justify-between gap-4 bg-white p-4 rounded-lg border border-slate-200 shadow-sm">
+        <div class="flex items-center space-x-3">
+          <label for="page-select" class="text-sm font-semibold text-slate-700">Select Scan:</label>
+          <select id="page-select" class="rounded border border-slate-300 bg-white px-3 py-1.5 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            <!-- Populated dynamically -->
+          </select>
+        </div>
+        <div class="flex items-center space-x-4 text-xs sm:text-sm text-slate-500" id="page-meta">
+          <span>Row: <strong id="meta-row" class="text-slate-800">-</strong></span>
+          <span>Volume: <strong id="meta-vol" class="text-slate-800">-</strong></span>
+          <span>Parse Latency: <strong id="meta-latency" class="text-slate-800">-</strong> ms</span>
+          <span>Model: <code id="meta-model" class="text-slate-700 bg-slate-100 px-1 py-0.5 rounded">nvidia/nemotron-3.5-parse</code></span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+        <!-- Left: Scan Viewer with Bounding Box Overlays -->
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden flex flex-col">
+          <div class="p-3 bg-slate-100 border-b border-slate-200 flex justify-between items-center text-xs text-slate-600">
+            <span class="font-semibold tracking-wide uppercase">Source Scan & Nemotron Parse 3.5 BBoxes</span>
+            <span class="text-slate-400">Click a box to highlight entry</span>
+          </div>
+          <div class="scan-container p-4 min-h-[550px] max-h-[750px] flex justify-center items-center relative" id="scan-wrapper">
+            <div class="relative max-w-full" id="scan-inner">
+              <svg id="scan-svg" class="w-full max-h-[700px] rounded shadow bg-slate-900 border border-slate-700" viewBox="0 0 1920 2560" xmlns="http://www.w3.org/2000/svg">
+                <!-- Fallback / mock scan graphic with grid and text blocks -->
+                <rect width="1920" height="2560" fill="#f8fafc"/>
+                <rect x="100" y="100" width="1720" height="2360" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+                <line x1="960" y1="120" x2="960" y2="2440" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="8 8"/>
+                <text x="960" y="180" font-family="serif" font-size="42" text-anchor="middle" fill="#334155" font-weight="bold">ENCYCLOPAEDIA BRITANNICA</text>
+                <text x="960" y="240" font-family="serif" font-size="28" text-anchor="middle" fill="#64748b">VOL. III · HISTORICAL FACSIMILE</text>
+                <!-- Rendered entry overlays will be drawn here -->
+                <g id="svg-bboxes"></g>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Rendered LaTeX Document -->
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden flex flex-col">
+          <div class="p-3 bg-slate-100 border-b border-slate-200 flex justify-between items-center text-xs text-slate-600">
+            <span class="font-semibold tracking-wide uppercase">Compiled LaTeX Document</span>
+            <div class="space-x-2">
+              <button id="toggle-latex-src" class="px-2 py-0.5 rounded bg-white border border-slate-300 text-slate-700 hover:bg-slate-50">
+                View LaTeX Source
+              </button>
+            </div>
+          </div>
+          <div class="p-6 overflow-auto min-h-[550px] max-h-[750px] font-serif-body text-slate-800 leading-relaxed text-sm" id="latex-rendered-pane">
+            <div id="latex-header" class="text-center pb-4 mb-6 border-b border-slate-300">
+              <h2 class="text-2xl font-bold tracking-wider uppercase mb-1">Encyclopædia Britannica</h2>
+              <p class="text-xs italic text-slate-500 font-sans">Compiled from Structured Nemotron Parse 3.5 Tokens</p>
+            </div>
+            <div id="latex-entries" class="two-column-doc space-y-6">
+              <!-- Entries injected dynamically -->
+            </div>
+          </div>
+          <!-- Raw LaTeX source pane (hidden by default) -->
+          <div class="p-4 bg-slate-900 text-slate-100 font-mono text-xs overflow-auto min-h-[550px] max-h-[750px] hidden" id="latex-raw-pane">
+            <pre id="latex-raw-code" class="whitespace-pre-wrap"></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: MATCH EXPLORER (Funnel: Entry -> Embed -> Rerank -> Wiki) -->
+    <section id="view-match" class="view-panel hidden space-y-4">
+      <div class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm flex flex-wrap justify-between items-center gap-4">
+        <div>
+          <h2 class="text-base font-semibold text-slate-900">Multimodal Matching Pipeline (50 → 10 → 1 Funnel)</h2>
+          <p class="text-xs text-slate-500">Britannica Entry → BM25 Lexical Pool → Embed VL Dense Vector Search → Rerank VL Cross-Encoder Scorer</p>
+        </div>
+        <div class="flex items-center space-x-2">
+          <span class="text-xs font-medium text-slate-600">Filter Status:</span>
+          <select id="match-filter" class="rounded border border-slate-300 bg-white px-3 py-1 text-xs text-slate-700">
+            <option value="all">All Entries</option>
+            <option value="matched">Matched Only</option>
+            <option value="rejected">Rejected Only</option>
+            <option value="no_candidates">No Candidates</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Col 1: Britannica Source Entries -->
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-4 flex flex-col">
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3 flex items-center justify-between">
+            <span>1. Britannica Entries</span>
+            <span class="px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 text-xs" id="entries-count">5 entries</span>
+          </h3>
+          <div class="space-y-3 overflow-y-auto max-h-[600px] pr-1" id="entries-list">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <!-- Col 2: Candidate Retrieval (Embed VL & BM25) -->
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-4 flex flex-col">
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3 flex items-center justify-between">
+            <span>2. Embed VL Candidate Pool</span>
+            <span class="text-xs font-normal text-slate-400">Pre-indexed Wikipedia API</span>
+          </h3>
+          <div class="space-y-3 overflow-y-auto max-h-[600px] pr-1" id="candidates-list">
+            <div class="text-sm text-slate-400 italic text-center py-12">Select an entry on the left to inspect candidate retrieval</div>
+          </div>
+        </div>
+
+        <!-- Col 3: Final Scored Match (Rerank VL Decision) -->
+        <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-4 flex flex-col">
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3 flex items-center justify-between">
+            <span>3. Rerank VL Decision</span>
+            <span class="text-xs font-mono text-indigo-600" id="decision-rule-badge">tau=2.1, delta=0.4</span>
+          </h3>
+          <div class="space-y-4 overflow-y-auto max-h-[600px] pr-1" id="match-decision-pane">
+            <div class="text-sm text-slate-400 italic text-center py-12">Select an entry to view cross-encoder decision</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: COMPARATIVE ANALYTICS (Drift & Lexical Frequency) -->
+    <section id="view-analytics" class="view-panel hidden space-y-6">
+      <div class="bg-white p-5 rounded-lg border border-slate-200 shadow-sm">
+        <div class="flex justify-between items-start">
+          <div>
+            <h2 class="text-base font-bold text-slate-900">Historical vs Modern Comparative Lexicon</h2>
+            <p class="text-xs text-slate-500 mt-1">Comparing 18th/19th century Encyclopaedia Britannica vocabulary against modern Wikipedia articles</p>
+          </div>
+          <div class="text-right text-xs text-slate-500 font-mono">
+            <div>Pairs Used: <strong class="text-slate-800" id="drift-pairs">-</strong></div>
+            <div>Britannica Tokens: <strong class="text-slate-800" id="drift-brit-tokens">-</strong></div>
+            <div>Wikipedia Tokens: <strong class="text-slate-800" id="drift-wiki-tokens">-</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Word Frequency Drift Cards & Bars -->
+      <div class="bg-white rounded-lg border border-slate-200 shadow-sm p-5 space-y-4">
+        <h3 class="text-sm font-bold text-slate-800 uppercase tracking-wide">Lexical Drift & Log Frequency Ratio</h3>
+        <p class="text-xs text-slate-500">Terms with significant frequency shift between eras ($\log_2 \frac{r_{\text{Brit}} + 0.5}{r_{\text{Wiki}} + 0.5}$). Positive values indicate archaic terms prevalent in Britannica; negative values represent modern concepts in Wikipedia.</p>
+        
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-200 bg-slate-50 text-slate-600 font-semibold uppercase">
+                <th class="py-2.5 px-3">Term</th>
+                <th class="py-2.5 px-3 text-right">Brit Count</th>
+                <th class="py-2.5 px-3 text-right">Brit / 10k</th>
+                <th class="py-2.5 px-3 text-right">Wiki Count</th>
+                <th class="py-2.5 px-3 text-right">Wiki / 10k</th>
+                <th class="py-2.5 px-3 text-center">Log Ratio</th>
+                <th class="py-2.5 px-3">Primary Evidence Quotes</th>
+              </tr>
+            </thead>
+            <tbody id="drift-table-body" class="divide-y divide-slate-100">
+              <!-- Injected dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Thematic Evolution Breakdown -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-5 rounded-lg border border-slate-200 shadow-sm">
+          <h4 class="text-sm font-bold text-slate-800 mb-2">Historical Scientific Paradigms (Britannica)</h4>
+          <p class="text-xs text-slate-600 mb-4">Concepts defined under late Enlightenment natural philosophy, fluid theories, and early mechanical taxonomy.</p>
+          <ul class="space-y-2 text-xs text-slate-700">
+            <li class="p-2 rounded bg-amber-50 border border-amber-200">
+              <strong class="font-semibold text-amber-900">Caloric & Phlogiston:</strong> Heat conceptualized as an elastic, self-repellent fluid penetrating bodies rather than kinetic thermodynamic motion.
+            </li>
+            <li class="p-2 rounded bg-amber-50 border border-amber-200">
+              <strong class="font-semibold text-amber-900">Torricellian Quicksilver:</strong> Instrument mechanics described with physical tube construction and vernacular substance names.
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white p-5 rounded-lg border border-slate-200 shadow-sm">
+          <h4 class="text-sm font-bold text-slate-800 mb-2">Modern Consensus & Global Scope (Wikipedia)</h4>
+          <p class="text-xs text-slate-600 mb-4">Encyclopedic restructuring around atomic chemistry, digital instrumentation, and multicultural lineage.</p>
+          <ul class="space-y-2 text-xs text-slate-700">
+            <li class="p-2 rounded bg-blue-50 border border-blue-200">
+              <strong class="font-semibold text-blue-900">Thermodynamics & Oxidation:</strong> Replaced substance fluid theory with kinetic molecular energy and Lavoisier combustion.
+            </li>
+            <li class="p-2 rounded bg-blue-50 border border-blue-200">
+              <strong class="font-semibold text-blue-900">Cross-Cultural Computation:</strong> Abacus context broadened from classical Mediterranean tables to Asian bead frames.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: AGENT CONSOLE (Replay of Recorded Hermes Runs) -->
+    <section id="view-agent" class="view-panel hidden space-y-4">
+      <div class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm flex flex-wrap justify-between items-center gap-4">
+        <div>
+          <h2 class="text-base font-bold text-slate-900">Hermes Agent Console · Recorded Runs</h2>
+          <p class="text-xs text-slate-500">Replaying offline verified executions powered by Nemotron 3.5 Super VL with grounding citations</p>
+        </div>
+        <div class="flex items-center space-x-2" id="case-switcher">
+          <!-- Populated dynamically with case chips -->
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden flex flex-col">
+        <div class="p-3 bg-slate-800 text-slate-200 flex justify-between items-center text-xs">
+          <div class="flex items-center space-x-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+            <span id="agent-run-id" class="font-mono font-semibold">run-001</span>
+            <span class="text-slate-400">·</span>
+            <span id="agent-started-at" class="text-slate-400 font-mono">2026-10-18T12:00:00Z</span>
+            <span class="text-slate-400">·</span>
+            <span id="agent-model" class="text-slate-300 font-mono">nvidia/Nemotron-3.5-Super-VL</span>
+          </div>
+          <div>
+            <span id="agent-label-badge" class="px-2 py-0.5 rounded text-xs font-semibold uppercase tracking-wider">SUCCESS</span>
+          </div>
+        </div>
+
+        <div class="p-6 space-y-6 max-h-[700px] overflow-y-auto">
+          <!-- Question -->
+          <div>
+            <div class="text-xs font-semibold uppercase text-slate-400 tracking-wider mb-1">User Query</div>
+            <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-slate-900 font-medium text-sm" id="agent-question">
+              -
+            </div>
+          </div>
+
+          <!-- Tool Invocations -->
+          <div id="agent-tools-container" class="space-y-3">
+            <div class="text-xs font-semibold uppercase text-slate-400 tracking-wider">Hermes Tool Invocations</div>
+            <div id="agent-tool-calls" class="space-y-2">
+              <!-- Injected dynamically -->
+            </div>
+          </div>
+
+          <!-- Agent Answer -->
+          <div>
+            <div class="text-xs font-semibold uppercase text-slate-400 tracking-wider mb-1">Grounded Synthesis</div>
+            <div class="p-4 bg-indigo-50/50 border border-indigo-100 rounded-lg text-slate-900 text-sm leading-relaxed" id="agent-answer">
+              -
+            </div>
+          </div>
+
+          <!-- Dual-Source Citations -->
+          <div>
+            <div class="text-xs font-semibold uppercase text-slate-400 tracking-wider mb-2">Verified Dual Citations</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3" id="agent-citations">
+              <!-- Injected dynamically -->
+            </div>
+          </div>
+
+          <!-- Notes & Evaluation -->
+          <div class="p-3 bg-slate-50 border border-slate-200 rounded text-xs text-slate-600">
+            <strong class="font-semibold text-slate-800">Evaluator / Run Notes:</strong>
+            <span id="agent-notes" class="ml-1 font-mono"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer with Mandatory Legal Attribution -->
+  <footer class="bg-white border-t border-slate-200 py-4 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center text-xs text-slate-500 gap-2">
+      <div>
+        <span>Britannica Scans: <strong>National Library of Scotland</strong> (<a href="https://creativecommons.org/publicdomain/zero/1.0/" class="underline hover:text-slate-800" target="_blank">CC0 1.0</a>)</span>
+        <span class="mx-2">·</span>
+        <span>Wikipedia Text: <strong>Wikimedia Foundation</strong> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" class="underline hover:text-slate-800" target="_blank">CC BY-SA 4.0</a>)</span>
+      </div>
+      <div>
+        <span>Models: NVIDIA Nemotron 3.5 Suite (Parse 3.5, Embed VL, Rerank VL, Super VL)</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

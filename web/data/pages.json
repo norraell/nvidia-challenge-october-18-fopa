@@ -1,0 +1,274 @@
+[
+  {
+    "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+    "row_index": 13,
+    "volume_id": "193913444",
+    "filename": "page-0013-50049db49e8b.jpg",
+    "image_url": "scans/page-0013-50049db49e8b.jpg",
+    "latex_pdf_url": "latex/page-0013.pdf",
+    "width": 1920,
+    "height": 2560,
+    "status": "ok",
+    "parse": {
+      "model": "nvidia/nemotron-3.5-parse",
+      "latency_ms": 1240,
+      "finish_reason": "stop",
+      "raw_path": "artifacts/extract/raw/0013.json"
+    },
+    "entries": [
+      {
+        "entry_id": "e0013-01",
+        "kind": "entry",
+        "headword": "ABACUS",
+        "text": "ABACUS, among the ancients, was a table or desk for calculating, on which counters were arranged in grooves.",
+        "text_raw": "ABACUS, among the ancients, was a table or deſk for calculating, on which counters were arranged in grooves.",
+        "crop_path": "crops/e0013-01.png",
+        "blocks": [
+          {
+            "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+            "bbox": [150.0, 320.0, 920.0, 540.0],
+            "cls": "Text",
+            "text": "ABACUS, among the ancients, was a table or deſk for calculating, on which counters were arranged in grooves."
+          }
+        ],
+        "quality": {
+          "fixture": true,
+          "ocr_suspect_ratio": 0.02,
+          "low_quality": false
+        },
+        "match": {
+          "status": "matched",
+          "reason": "rule: rerank top-1 logit >= 2.1 and margin >= 0.4",
+          "method_version": "m1-tau=2.1-delta=0.4",
+          "rerank_margin": 0.9,
+          "matched_wiki": {
+            "page_id": "1024",
+            "revision_id": "11823901",
+            "title": "Abacus",
+            "url": "https://en.wikipedia.org/wiki/Abacus"
+          },
+          "candidates": [
+            {
+              "title": "Abacus",
+              "page_id": "1024",
+              "revision_id": "11823901",
+              "url": "https://en.wikipedia.org/wiki/Abacus",
+              "bm25_rank": 1,
+              "bm25_score": 18.4,
+              "embed_cosine": 0.88,
+              "embed_rank": 1,
+              "rerank_logit": 3.4,
+              "rerank_rank": 1,
+              "excerpt": "An abacus is a calculating tool used in counting."
+            }
+          ]
+        }
+      },
+      {
+        "entry_id": "e0013-02",
+        "kind": "continuation",
+        "headword": null,
+        "text": "continued from the preceding page concerning arithmetic operations and mechanical aids for merchants.",
+        "text_raw": "continued from the preceding page concerning arithmetic operations and mechanical aids for merchants.",
+        "crop_path": "crops/e0013-02.png",
+        "blocks": [
+          {
+            "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+            "bbox": [150.0, 560.0, 920.0, 780.0],
+            "cls": "Text",
+            "text": "continued from the preceding page concerning arithmetic operations and mechanical aids for merchants."
+          }
+        ],
+        "quality": {
+          "fixture": true,
+          "orphan_continuation": false,
+          "low_quality": false
+        },
+        "match": {
+          "status": "no_candidates",
+          "reason": "rule: zero BM25 candidates found for fragment",
+          "method_version": "m1-tau=2.1-delta=0.4",
+          "rerank_margin": null,
+          "matched_wiki": null,
+          "candidates": []
+        }
+      }
+    ]
+  },
+  {
+    "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+    "row_index": 104,
+    "volume_id": "193819045",
+    "filename": "page-0104-9aaa833a4643.jpg",
+    "image_url": "scans/page-0104-9aaa833a4643.jpg",
+    "latex_pdf_url": "latex/page-0104.pdf",
+    "width": 1920,
+    "height": 2560,
+    "status": "ok",
+    "parse": {
+      "model": "nvidia/nemotron-3.5-parse",
+      "latency_ms": 1150,
+      "finish_reason": "stop",
+      "raw_path": "artifacts/extract/raw/0104.json"
+    },
+    "entries": [
+      {
+        "entry_id": "e0104-01",
+        "kind": "entry",
+        "headword": "BAROMETER",
+        "text": "BAROMETER, an instrument for measuring the weight and pressure of the atmosphere, constructed with a column of quicksilver.",
+        "text_raw": "BAROMETER, an inſtrument for meaſuring the weight and preſſure of the atmoſphere, conſtructed with a column of quickſilver.",
+        "crop_path": "crops/e0104-01.png",
+        "blocks": [
+          {
+            "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+            "bbox": [140.0, 300.0, 900.0, 680.0],
+            "cls": "Text",
+            "text": "BAROMETER, an inſtrument for meaſuring the weight and preſſure of the atmoſphere, conſtructed with a column of quickſilver."
+          }
+        ],
+        "quality": {
+          "fixture": true,
+          "ocr_suspect_ratio": 0.01,
+          "low_quality": false
+        },
+        "match": {
+          "status": "matched",
+          "reason": "rule: rerank top-1 logit >= 2.1 and margin >= 0.4",
+          "method_version": "m1-tau=2.1-delta=0.4",
+          "rerank_margin": 1.2,
+          "matched_wiki": {
+            "page_id": "3845",
+            "revision_id": "12490182",
+            "title": "Barometer",
+            "url": "https://en.wikipedia.org/wiki/Barometer"
+          },
+          "candidates": [
+            {
+              "title": "Barometer",
+              "page_id": "3845",
+              "revision_id": "12490182",
+              "url": "https://en.wikipedia.org/wiki/Barometer",
+              "bm25_rank": 1,
+              "bm25_score": 21.2,
+              "embed_cosine": 0.92,
+              "embed_rank": 1,
+              "rerank_logit": 4.1,
+              "rerank_rank": 1,
+              "excerpt": "A barometer is a scientific instrument used to measure air pressure."
+            }
+          ]
+        }
+      },
+      {
+        "entry_id": "e0104-02",
+        "kind": "plate",
+        "headword": null,
+        "text": "Plate XIV. Detailed construction of the Torricellian tube and portable wheel barometer.",
+        "text_raw": "Plate XIV. Detailed conſtruction of the Torricellian tube and portable wheel barometer.",
+        "crop_path": "crops/e0104-02.png",
+        "blocks": [
+          {
+            "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+            "bbox": [140.0, 720.0, 1800.0, 2200.0],
+            "cls": "Picture",
+            "text": "Plate XIV. Detailed conſtruction of the Torricellian tube and portable wheel barometer."
+          }
+        ],
+        "quality": {
+          "fixture": true,
+          "low_quality": false
+        },
+        "match": {
+          "status": "matched",
+          "reason": "rule: plate caption matched on instrument topic",
+          "method_version": "m1-tau=2.1-delta=0.4",
+          "rerank_margin": 0.6,
+          "matched_wiki": {
+            "page_id": "3845",
+            "revision_id": "12490182",
+            "title": "Barometer",
+            "url": "https://en.wikipedia.org/wiki/Barometer"
+          },
+          "candidates": [
+            {
+              "title": "Barometer",
+              "page_id": "3845",
+              "revision_id": "12490182",
+              "url": "https://en.wikipedia.org/wiki/Barometer",
+              "bm25_rank": 1,
+              "bm25_score": 15.6,
+              "embed_cosine": 0.81,
+              "embed_rank": 1,
+              "rerank_logit": 2.8,
+              "rerank_rank": 1,
+              "excerpt": "The Italian physicist Evangelista Torricelli developed the mercury barometer..."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115",
+    "row_index": 115,
+    "volume_id": "191809866",
+    "filename": "page-0115-9730fa72203a.jpg",
+    "image_url": "scans/page-0115-9730fa72203a.jpg",
+    "latex_pdf_url": "latex/page-0115.pdf",
+    "width": 1920,
+    "height": 2560,
+    "status": "ok",
+    "parse": {
+      "model": "nvidia/nemotron-3.5-parse",
+      "latency_ms": 1310,
+      "finish_reason": "stop",
+      "raw_path": "artifacts/extract/raw/0115.json"
+    },
+    "entries": [
+      {
+        "entry_id": "e0115-01",
+        "kind": "entry",
+        "headword": "CALORIC",
+        "text": "CALORIC, according to modern chemical theory, is regarded as an elastic fluid sui generis, penetrating the pores of all matter.",
+        "text_raw": "CALORIC, according to modern chemical theory, is regarded as an elaſtic fluid ſui generis, penetrating the pores of all matter.",
+        "crop_path": "crops/e0115-01.png",
+        "blocks": [
+          {
+            "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115",
+            "bbox": [160.0, 280.0, 940.0, 620.0],
+            "cls": "Text",
+            "text": "CALORIC, according to modern chemical theory, is regarded as an elaſtic fluid ſui generis, penetrating the pores of all matter."
+          }
+        ],
+        "quality": {
+          "fixture": true,
+          "ocr_suspect_ratio": 0.03,
+          "low_quality": false
+        },
+        "match": {
+          "status": "rejected",
+          "reason": "rule: rerank top-1 logit below threshold tau=2.1",
+          "method_version": "m1-tau=2.1-delta=0.4",
+          "rerank_margin": 0.2,
+          "matched_wiki": null,
+          "candidates": [
+            {
+              "title": "Caloric theory",
+              "page_id": "5521",
+              "revision_id": "11902415",
+              "url": "https://en.wikipedia.org/wiki/Caloric_theory",
+              "bm25_rank": 1,
+              "bm25_score": 14.1,
+              "embed_cosine": 0.65,
+              "embed_rank": 1,
+              "rerank_logit": 1.8,
+              "rerank_rank": 1,
+              "excerpt": "Caloric theory is an obsolete scientific theory that heat consists of a self-repellent fluid."
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
