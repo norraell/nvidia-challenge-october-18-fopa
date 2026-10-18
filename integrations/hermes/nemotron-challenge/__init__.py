@@ -155,11 +155,11 @@ def _source_info(entry: Any) -> dict[str, Any] | None:
 # ---------------------------------------------------------------- Wikipedia text
 
 def _cached_article(page_id: str) -> dict[str, Any] | None:
-    """Read a full article from artifacts/match/cache/{page_id}.json when P2 saved one.
+    """Read a full article from artifacts/match/cache/articles/{page_id}.json when the match stage saved one.
 
     Expected keys: page_id, revision_id, title, url, text. Other keys are ignored.
     """
-    path = _work_dir() / "match" / "cache" / f"{page_id}.json"
+    path = _work_dir() / "match" / "cache" / "articles" / f"{page_id}.json"
     if not path.is_file():
         return None
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -234,7 +234,7 @@ def _keyword_search(query: str, k: int, entries: dict[str, Any]) -> list[Any]:
 
 
 def _vector_search(query: str, k: int, entries: dict[str, Any]) -> list[Any]:
-    """Embed VL query against LanceDB entry_vectors. Raises when any piece is unavailable."""
+    """Embed VL query against LanceDB table `entries`. Raises when any piece is unavailable."""
     _core()
     import lancedb  # Not installed in every Hermes environment.
     from nemotron_challenge.clients import RetrievalClient
@@ -245,7 +245,7 @@ def _vector_search(query: str, k: int, entries: dict[str, Any]) -> list[Any]:
         raise RuntimeError("RETRIEVAL_BASE_URL is not set")
     with RetrievalClient(settings.retrieval_base_url, settings.retrieval_api_key, timeout=20) as client:
         vector = client.embed([query], "query")[0]
-    table = lancedb.connect(str(settings.db_path)).open_table("entry_vectors")
+    table = lancedb.connect(str(settings.db_path)).open_table("entries")
     rows = table.search(vector).limit(k).to_list()
     return [entries[row["entry_id"]] for row in rows if row.get("entry_id") in entries]
 

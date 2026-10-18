@@ -34,7 +34,7 @@ def work(tmp_path, monkeypatch):
 
 
 def cache_article(work: Path, page_id: str, revision_id: str, text: str = "A barometer measures air pressure. " * 100):
-    folder = work / "match" / "cache"
+    folder = work / "match" / "cache" / "articles"
     folder.mkdir(parents=True, exist_ok=True)
     (folder / f"{page_id}.json").write_text(json.dumps({
         "page_id": page_id, "revision_id": revision_id, "title": "Barometer",
