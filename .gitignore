@@ -11,7 +11,7 @@ build/
 *.egg-info/
 data/cache/
 data/raw/
-data/hermes/
+data/hermes*/
 data/*.lancedb/
 reports/
 /runs/
