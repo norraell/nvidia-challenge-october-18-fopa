@@ -1,0 +1,36 @@
+{
+  "entries_seen": 98,
+  "status_counts": {
+    "matched": 0,
+    "rejected": 95,
+    "no_candidates": 3,
+    "skipped": 0
+  },
+  "distinct_articles": 0,
+  "repeated_articles": 0,
+  "candidates_per_entry_mean": 30.22,
+  "calls": {
+    "search_calls": 0,
+    "search_cached": 175,
+    "embed_calls": 337,
+    "rerank_calls": 100,
+    "embed_query_chars": 1498,
+    "rerank_query_chars": 1995
+  },
+  "failed_calls": [],
+  "method_version": "m1-tau=2.1-delta=0.4",
+  "articles_fetched": 0,
+  "store_counts": {
+    "entries": 97,
+    "articles": 0
+  },
+  "elapsed_seconds": 204.8,
+  "outputs": {
+    "matches.jsonl": "artifacts/match/dev/matches.jsonl",
+    "candidates.jsonl": "artifacts/match/dev/candidates.jsonl",
+    "report.json": "artifacts/match/dev/report.json",
+    "REPORT.md": "artifacts/match/dev/REPORT.md",
+    "articles.jsonl": "artifacts/match/dev/articles.jsonl"
+  },
+  "entries_path": "artifacts/match/dev/entries.jsonl"
+}

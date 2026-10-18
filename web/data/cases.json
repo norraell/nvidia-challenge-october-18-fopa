@@ -1,0 +1,71 @@
+[
+  {
+    "run_id": "run-001",
+    "started_at": "2026-10-18T12:00:00Z",
+    "code_revision": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+    "hermes_version": "hermes-agent 0.4.1",
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "question": "How does historical Britannica describe the abacus compared to modern Wikipedia?",
+    "image_inputs": [
+      "artifacts/extract/crops/e0013-01.png"
+    ],
+    "tools_enabled": true,
+    "tool_calls": [
+      {
+        "name": "challenge_compare",
+        "arguments": {
+          "entry_id": "e0013-01"
+        },
+        "result": "{\"status\": \"matched\", \"match\": \"Abacus\"}",
+        "error": null
+      }
+    ],
+    "answer": "Historical Britannica describes the abacus primarily as an ancient table or counting desk [B:e0013-01], whereas modern Wikipedia highlights wire-and-bead frames used across Asian cultures [W:1024@11823901].",
+    "citations": [
+      {
+        "source": "Britannica",
+        "id": "e0013-01",
+        "quote": "ABACUS, among the ancients, was a table or desk for calculating"
+      },
+      {
+        "source": "Wikipedia",
+        "id": "1024@11823901",
+        "quote": "An abacus is a calculating tool"
+      }
+    ],
+    "finish_reason": "stop",
+    "label": "success",
+    "notes": "fixture: true; successful comparison run with dual citations"
+  },
+  {
+    "run_id": "run-002",
+    "started_at": "2026-10-18T12:05:00Z",
+    "code_revision": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+    "hermes_version": "hermes-agent 0.4.1",
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "question": "What was the speed of the steam locomotive described in the 1771 edition entry for Barometer?",
+    "image_inputs": [],
+    "tools_enabled": true,
+    "tool_calls": [
+      {
+        "name": "brit_entry",
+        "arguments": {
+          "entry_id": "e0104-01"
+        },
+        "result": "{\"text\": \"BAROMETER, an instrument for measuring the weight and pressure of the atmosphere...\"}",
+        "error": null
+      }
+    ],
+    "answer": "I cannot answer this question because the 1771 Britannica entry for Barometer discusses atmospheric pressure instruments and does not mention steam locomotives [B:e0104-01], which were developed in the subsequent century.",
+    "citations": [
+      {
+        "source": "Britannica",
+        "id": "e0104-01",
+        "quote": "BAROMETER, an instrument for measuring the weight and pressure of the atmosphere"
+      }
+    ],
+    "finish_reason": "stop",
+    "label": "failure",
+    "notes": "fixture: true; probe for anachronistic entity correctly triggered refusal due to missing evidence"
+  }
+]

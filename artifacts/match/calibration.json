@@ -1,0 +1,196 @@
+{
+  "labels_file": "artifacts/match/labels.csv",
+  "labeled": 30,
+  "labeled_top1_correct": 12,
+  "min_precision": 0.9,
+  "chosen": {
+    "tau": -5.0,
+    "delta": 0.75,
+    "tp": 9,
+    "fp": 0,
+    "fn": 3,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.75,
+    "accepted": 9
+  },
+  "default_rule": {
+    "tau": 2.1,
+    "delta": 0.4,
+    "tp": 0,
+    "fp": 0,
+    "fn": 12,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.0,
+    "accepted": 0
+  },
+  "grid_top": [
+    {
+      "tau": -6.5,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 0,
+      "fn": 3,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.75,
+      "accepted": 9
+    },
+    {
+      "tau": -6.25,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 0,
+      "fn": 3,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.75,
+      "accepted": 9
+    },
+    {
+      "tau": -6.0,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 0,
+      "fn": 3,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.75,
+      "accepted": 9
+    },
+    {
+      "tau": -5.75,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 0,
+      "fn": 3,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.75,
+      "accepted": 9
+    },
+    {
+      "tau": -5.5,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 0,
+      "fn": 3,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.75,
+      "accepted": 9
+    },
+    {
+      "tau": -5.25,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 0,
+      "fn": 3,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.75,
+      "accepted": 9
+    },
+    {
+      "tau": -5.0,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 0,
+      "fn": 3,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.75,
+      "accepted": 9
+    },
+    {
+      "tau": -9.0,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 1,
+      "fn": 3,
+      "tn": 17,
+      "precision": 0.9,
+      "recall": 0.75,
+      "accepted": 10
+    },
+    {
+      "tau": -8.75,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 1,
+      "fn": 3,
+      "tn": 17,
+      "precision": 0.9,
+      "recall": 0.75,
+      "accepted": 10
+    },
+    {
+      "tau": -8.5,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 1,
+      "fn": 3,
+      "tn": 17,
+      "precision": 0.9,
+      "recall": 0.75,
+      "accepted": 10
+    },
+    {
+      "tau": -8.25,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 1,
+      "fn": 3,
+      "tn": 17,
+      "precision": 0.9,
+      "recall": 0.75,
+      "accepted": 10
+    },
+    {
+      "tau": -8.0,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 1,
+      "fn": 3,
+      "tn": 17,
+      "precision": 0.9,
+      "recall": 0.75,
+      "accepted": 10
+    },
+    {
+      "tau": -7.75,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 1,
+      "fn": 3,
+      "tn": 17,
+      "precision": 0.9,
+      "recall": 0.75,
+      "accepted": 10
+    },
+    {
+      "tau": -7.5,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 1,
+      "fn": 3,
+      "tn": 17,
+      "precision": 0.9,
+      "recall": 0.75,
+      "accepted": 10
+    },
+    {
+      "tau": -7.25,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 1,
+      "fn": 3,
+      "tn": 17,
+      "precision": 0.9,
+      "recall": 0.75,
+      "accepted": 10
+    }
+  ],
+  "note": "Precision counts an accepted match as correct only when its page_id equals the labeled correct_page_id. A relevance score never proves factual agreement."
+}
