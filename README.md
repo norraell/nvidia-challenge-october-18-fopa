@@ -112,12 +112,19 @@ Read its output for missing settings and test limits.
 ## Build your solution
 
 Follow the [milestones](docs/milestones.md).
-Read the [evaluate guide](docs/evaluate.md) for run labels and case study output.
-The stage entry points contain TODOs and stop with a task message until your team implements them.
+Each stage has a guide: [match](docs/match.md), [agent](docs/agent.md), [evaluate](docs/evaluate.md).
+Run the stages in order. Each one reads the artifacts of the stage before it.
 
 ```sh
 uv run nemotron-challenge run extract
+MATCH_TAU=-5 MATCH_DELTA=0.75 uv run nemotron-challenge run match   # calibrated thresholds, see docs/match.md
+uv run nemotron-challenge run compare
+uv run nemotron-challenge run agent      # needs SUPER_API_KEY; reads artifacts/agent/questions.json
+uv run nemotron-challenge run site
+uv run nemotron-challenge run evaluate
 ```
+
+Label agent runs before you evaluate: `uv run python scripts/label_runs.py <run_id> success|failure "reason"`.
 
 Read the [challenge brief](docs/challenge.md) for the required models and deliverables.
 Use the [submission template](templates/submission.md) to record your results.

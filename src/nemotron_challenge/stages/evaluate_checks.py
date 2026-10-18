@@ -1,6 +1,8 @@
 """Evidence checks for saved agent runs. Observations read the record; inferences use rules."""
 from __future__ import annotations
 
+import json
+from pathlib import Path
 import re
 
 from ..config import SUPER_MODEL
@@ -85,8 +87,34 @@ def _normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text.replace("ſ", "s")).strip().lower()
 
 
-def check_citation_quotes(run: RunRecord, entries: list[EntryRecord], matches: list[MatchRecord]) -> EvidenceCheck:
-    """Each quote must appear in the cited entry text or in a saved Wikipedia excerpt."""
+def _cached_article_text(articles_dir: Path | None, page_id: str, revision_id: str) -> str | None:
+    """Full article text from the match cache when it exists and carries the cited revision."""
+    if articles_dir is None:
+        return None
+    path = articles_dir / f"{page_id}.json"
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    return data.get("text") if data.get("revision_id") == revision_id else None
+
+
+def _tool_result_text(run: RunRecord) -> str:
+    """Text the agent saw in its tool results. A quote found only here was still shown to the model."""
+    parts = []
+    for call in run.tool_calls:
+        try:
+            parts.append(json.dumps(json.loads(call.result), ensure_ascii=False))
+        except ValueError:
+            parts.append(call.result)
+    return _normalize(" ".join(parts))
+
+
+def check_citation_quotes(run: RunRecord, entries: list[EntryRecord], matches: list[MatchRecord],
+                          articles_dir: Path | None = None) -> EvidenceCheck:
+    """Each quote must appear in the cited entry text, the cached article, a saved excerpt, or the run's tool results."""
     if not run.citations:
         return EvidenceCheck(name="citation_quotes", kind="observation", passed=None, detail="no citations to check")
     entry_text = {entry.entry_id: _normalize(entry.text) for entry in entries}
@@ -95,14 +123,27 @@ def check_citation_quotes(run: RunRecord, entries: list[EntryRecord], matches: l
         for candidate in match.candidates:
             key = f"{candidate.wiki.page_id}@{candidate.wiki.revision_id}"
             wiki_text[key] = wiki_text.get(key, "") + " " + _normalize(candidate.excerpt)
-    missing, unchecked = [], []
+    tool_text = _tool_result_text(run)
+    missing, unchecked, from_tools = [], [], []
     for citation in run.citations:
         source, cite_id, quote = _citation_key(citation)
-        haystack = entry_text.get(cite_id) if source.lower().startswith("brit") else wiki_text.get(cite_id)
+        if source.lower().startswith("brit"):
+            haystack = entry_text.get(cite_id)
+        else:
+            page_id, _, revision_id = cite_id.partition("@")
+            cached = _cached_article_text(articles_dir, page_id, revision_id)
+            haystack = wiki_text.get(cite_id) if cached is None else _normalize(cached) + " " + wiki_text.get(cite_id, "")
+        needle = _normalize(quote)
         if haystack is None:
-            unchecked.append(f"{source}:{cite_id}")
-        elif _normalize(quote) not in haystack:
-            missing.append(f"{source}:{cite_id}")
+            if needle and needle in tool_text:
+                from_tools.append(f"{source}:{cite_id}")
+            else:
+                unchecked.append(f"{source}:{cite_id}")
+        elif needle not in haystack:
+            if needle and needle in tool_text:
+                from_tools.append(f"{source}:{cite_id}")
+            else:
+                missing.append(f"{source}:{cite_id}")
     if missing:
         return EvidenceCheck(name="citation_quotes", kind="observation", passed=False,
                              detail="quotes not found in saved source text: " + ", ".join(missing))
@@ -110,6 +151,8 @@ def check_citation_quotes(run: RunRecord, entries: list[EntryRecord], matches: l
         return EvidenceCheck(name="citation_quotes", kind="observation", passed=None,
                              detail="no saved source text for: " + ", ".join(unchecked))
     detail = "quotes found in saved source text"
+    if from_tools:
+        detail += "; found only in the run's tool results: " + ", ".join(from_tools)
     if unchecked:
         detail += "; no saved text for: " + ", ".join(unchecked)
     return EvidenceCheck(name="citation_quotes", kind="observation", passed=True, detail=detail)
@@ -140,14 +183,15 @@ def check_uncertainty_claim(run: RunRecord) -> EvidenceCheck:
                          detail="answer claims missing or uncertain evidence: " + ", ".join(hits))
 
 
-def run_checks(run: RunRecord, entries: list[EntryRecord], matches: list[MatchRecord]) -> list[EvidenceCheck]:
+def run_checks(run: RunRecord, entries: list[EntryRecord], matches: list[MatchRecord],
+               articles_dir: Path | None = None) -> list[EvidenceCheck]:
     return [
         check_model_id(run),
         check_finish_reason(run),
         check_tool_calls(run),
         check_citations_present(run),
         check_citations_resolve(run, entries, matches),
-        check_citation_quotes(run, entries, matches),
+        check_citation_quotes(run, entries, matches, articles_dir),
         check_answer_cites(run),
         check_uncertainty_claim(run),
     ]

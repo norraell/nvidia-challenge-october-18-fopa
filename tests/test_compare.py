@@ -65,9 +65,10 @@ def test_compute_drift_on_fixture_pair(tmp_path):
     # Cache article
     articles_dir = tmp_path / "articles"
     articles_dir.mkdir(parents=True)
-    article_path = articles_dir / "3845-100.json"
+    article_path = articles_dir / "3845.json"  # the match stage caches cache/articles/<page_id>.json
     with article_path.open("w") as f:
-        json.dump({"text": "Modern barometers measure atmospheric pressure using digital sensors and electronic transducers digital digital digital."}, f)
+        json.dump({"page_id": "3845", "revision_id": "100",
+                   "text": "Modern barometers measure atmospheric pressure using digital sensors and electronic transducers digital digital digital."}, f)
 
     report, terms = compute_drift_analysis([entry], [match], articles_dir)
     assert report.pairs_used == 1

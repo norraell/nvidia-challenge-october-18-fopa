@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 import shutil
 from typing import Any
@@ -112,7 +113,9 @@ def transform_artifacts_to_site_data(
             })
 
             # Copy crop if present
-            crop_src = work_dir / entry.crop_path
+            crop_src = Path(entry.crop_path)
+            if not crop_src.is_absolute() and not crop_src.exists():
+                crop_src = work_dir / entry.crop_path
             if crop_src.exists():
                 shutil.copy2(crop_src, crops_dest / crop_src.name)
 
@@ -122,7 +125,7 @@ def transform_artifacts_to_site_data(
             shutil.copy2(scan_src, scans_dest / p.filename)
 
         # Check for compiled LaTeX PDF
-        pdf_name = f"page-{p.row_index:04d}.pdf"
+        pdf_name = f"{p.row_index:04d}.pdf"
         latex_src = work_dir / "extract" / "latex" / pdf_name
         latex_pdf_url = f"latex/{pdf_name}" if latex_src.exists() else None
         if latex_src.exists():
@@ -189,9 +192,9 @@ def transform_artifacts_to_site_data(
 
 
 def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """Execute site generation milestone."""
-    web_dir = Path("web")
-    raw_scans_dir = Path("data/raw/britannica")
+    """Execute site generation milestone. SITE_WEB_DIR and SITE_SCANS_DIR override the default paths."""
+    web_dir = Path(os.environ.get("SITE_WEB_DIR", "").strip() or "web")
+    raw_scans_dir = Path(os.environ.get("SITE_SCANS_DIR", "").strip() or "data/raw/britannica")
 
     # If artifacts directory has no extract/pages.jsonl, fallback to fixtures directory for early testing
     target_work_dir = work_dir

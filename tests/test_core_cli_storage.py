@@ -1,4 +1,4 @@
-"""Offline setup and storage contracts do not implement challenge stages."""
+"""Offline setup, stage listing, and storage contracts."""
 from dataclasses import replace
 import json
 
@@ -18,7 +18,7 @@ def test_offline_doctor_needs_no_secrets_or_network(monkeypatch, capsys):
     assert main(["doctor", "--offline"]) == 0
     data = json.loads(capsys.readouterr().out)
     assert data["inference"] == "not tested"
-    assert data["challenge_stages"] == "not implemented"
+    assert data["challenge_stages"] == "see `nemotron-challenge stages`"
     assert all(row["status"] == "not_tested" for row in data["checks"] if "configured" in row)
 
 
@@ -31,18 +31,30 @@ def test_live_doctor_reports_missing_resources(monkeypatch):
     assert report["inference"] == "not tested"
 
 
-@pytest.mark.parametrize("stage", ["agent"])  # every other stage is implemented
-def test_unfinished_stage_fails_with_guide_and_creates_no_result(stage, tmp_path, capsys):
+def test_agent_stage_without_questions_fails_before_any_model_call(tmp_path, capsys, monkeypatch):
+    monkeypatch.setattr(httpx.Client, "send", lambda *args, **kwargs: pytest.fail("agent stage started a request"))
+    monkeypatch.delenv("AGENT_QUESTIONS", raising=False)
     path = tmp_path / "team-artifacts"
-    assert main(["run", stage, "--work-dir", str(path)]) == 2
-    assert f"docs/milestones.md#{stage}" in capsys.readouterr().err
+    assert main(["run", "agent", "--work-dir", str(path)]) == 1
+    assert "questions.json" in capsys.readouterr().err
     assert not path.exists()
 
 
-def test_stages_list_has_todos(capsys):
+def test_agent_stage_without_super_key_fails_before_any_model_call(tmp_path, capsys, monkeypatch):
+    monkeypatch.setattr(httpx.Client, "send", lambda *args, **kwargs: pytest.fail("agent stage started a request"))
+    monkeypatch.setenv("SUPER_API_KEY", "")
+    questions = tmp_path / "q.json"
+    questions.write_text(json.dumps([{"id": "q1", "question": "Compare the abacus."}]))
+    monkeypatch.setenv("AGENT_QUESTIONS", str(questions))
+    assert main(["run", "agent", "--work-dir", str(tmp_path / "work")]) == 1
+    assert "SUPER_API_KEY" in capsys.readouterr().err
+
+
+def test_stages_list_names_every_stage_with_its_command(capsys):
     assert main(["stages"]) == 0
     rows = json.loads(capsys.readouterr().out)
-    assert len(rows) == 6 and all(row["status"] == "TODO" for row in rows)
+    assert [row["stage"] for row in rows] == ["extract", "match", "compare", "agent", "site", "evaluate"]
+    assert all(row["status"] == "implemented" and row["command"].endswith(row["stage"]) for row in rows)
 
 
 def test_keys_are_not_exposed_by_settings_repr():

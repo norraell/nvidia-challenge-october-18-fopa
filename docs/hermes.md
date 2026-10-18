@@ -3,9 +3,9 @@
 Use your coding agent to develop this project.
 Use Hermes Agent to run the comparison agent that your team builds.
 
-The starter registers one native Hermes tool, `challenge_compare`.
-Its handler raises `NotImplementedError`.
-It has no retrieval process, comparison result, agent prompt, or stopping policy.
+The plugin registers four native Hermes tools over the team's saved artifacts:
+`challenge_find_entry`, `challenge_get_entry`, `challenge_get_article`, and `challenge_compare`.
+Read [agent.md](agent.md) for the tool contracts, the evidence policy, and the recorded stage runs.
 
 ## Set up a separate profile
 
@@ -37,13 +37,15 @@ Use your own Nebius Token Factory account and key.
 ## Check registration
 
 ```bash
-hermes plugins doctor integrations/hermes/nemotron-challenge --ci
-hermes plugins enable nemotron-challenge
-hermes plugins list
+sh scripts/setup_hermes.sh
 ```
 
-[Plugin Doctor](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/developer-guide/plugins/index.md#validate-with-plugin-doctor) checks discovery, imports, and registration.
-It does not call `handle_compare` or check comparison quality.
+The script copies the config and plugin into the profile, enables the plugin, and runs
+`scripts/check_hermes_plugin.py` with the Hermes interpreter.
+That check loads the plugin through the Hermes plugin manager and dispatches one tool.
+Hermes 0.19.0 has no `plugins doctor` command.
+If your Hermes version has it, you can also run `hermes plugins doctor integrations/hermes/nemotron-challenge --ci`.
+Neither check calls a model or checks comparison quality.
 
 Start Hermes from the shell that set `HERMES_HOME`:
 
@@ -60,17 +62,15 @@ PY
 Copy your changed plugin into the profile.
 Restart Hermes.
 
-## Complete the agent milestone
+## The agent milestone
 
-Work with your coding agent in `integrations/hermes/nemotron-challenge/__init__.py`.
-Change the schema if your chosen tool boundary needs different inputs.
-Implement `handle_compare` and define its result format.
-Keep `plugin.yaml` and `register()` consistent when you add or rename tools.
-Your team chooses its evidence checks, tool boundaries, stopping rules, and behavior when a source is missing.
-Connect these tools to your own saved project artifacts and pipeline.
+The tool handlers live in `src/nemotron_challenge/agent/`.
+The plugin in `integrations/hermes/nemotron-challenge/__init__.py` imports them from the repository.
+It reads `NEMOTRON_CHALLENGE_ROOT` and `NEMOTRON_CHALLENGE_WORK_DIR`, or finds the repository from the working directory.
+Keep `plugin.yaml`, `tools.TOOL_SCHEMAS`, and `register()` consistent when you add or rename tools.
 
-Implement the `agent` stage in `src/nemotron_challenge/tasks.py` to run your agent.
-Plugin registration does not implement that stage.
+The `agent` stage runs the saved question list through Super VL with the same tools and records each run.
+Plugin registration does not run that stage.
 
 Check real replies for the expected model ID and tool call.
 Check the tool result and the final response against saved evidence.
@@ -80,6 +80,6 @@ The capability declarations in the config do not prove that the endpoint accepts
 
 Use the [native plugin guide](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/developer-guide/plugins/index.md) for the plugin API.
 
-Registration and config checks used Hermes [commit `6255980b`](https://github.com/NousResearch/hermes-agent/commit/6255980b191e87815be728dcae9a25a3f39a9308).
+Registration and config checks used Hermes Agent v0.19.0 (2026.7.20) installed with `uv tool install hermes-agent`.
 These checks made no model calls.
-Run Plugin Doctor after a Hermes update.
+Run `scripts/check_hermes_plugin.py` after a Hermes update.
