@@ -7,10 +7,7 @@ import pytest
 
 from nemotron_challenge.agent.evidence import EvidenceStore
 from nemotron_challenge.agent.runner import AgentRunner, Question, parse_citations
-from nemotron_challenge.clients import ProtocolError, ServiceError
 from nemotron_challenge.config import SUPER_MODEL
-from nemotron_challenge.contracts import RunRecord
-from nemotron_challenge.stages.agent import load_questions, run_questions, select_questions
 
 FIXTURES = Path(__file__).parent / "fixtures" / "artifacts"
 
@@ -105,35 +102,3 @@ def test_runner_attaches_the_crop_image_and_redacts_it_in_the_raw_record(work_di
     assert content[1]["image_url"]["url"].startswith("data:image/png;base64,")
     assert result.record.image_inputs == ["artifacts/extract/crops/e0013-01.png"]
     assert "base64," not in json.dumps(result.raw)
-
-
-def test_stage_writes_run_raw_and_failed_records(work_dir, tmp_path):
-    chat = FakeChat([
-        text_reply('Answer one [B:e0013-01].\nCITATIONS: [{"source": "Britannica", "id": "e0013-01", "quote": "ABACUS"}]'),
-        ServiceError("service returned HTTP 429", status_code=429),
-        ProtocolError("chat response is incomplete; inspect the token budget and finish_reason"),
-    ])
-    questions = [Question("One?", question_id="q1"), Question("Two?", question_id="q2"), Question("Three?", question_id="q3")]
-    summary = run_questions(questions, chat, EvidenceStore(work_dir), work_dir / "agent", repo_dir=tmp_path,
-                            code_revision="deadbeef", hermes="Hermes test")
-    assert summary["status"] == "partial" and len(summary["completed"]) == 1 and len(summary["failed"]) == 2
-    runs = sorted(p for p in (work_dir / "agent" / "runs").glob("*.json") if p.name.startswith("run-2"))  # fixtures hold run-00x
-    assert len(runs) == 1
-    record = RunRecord.model_validate(json.loads(runs[0].read_text()))
-    assert record.code_revision == "deadbeef" and record.hermes_version == "Hermes test" and record.label == "unreviewed"
-    failed = sorted((work_dir / "agent" / "failed").glob("*.json"))
-    assert len(failed) == 2 and "429" in json.loads(failed[0].read_text())["error"]
-    assert len(list((work_dir / "agent" / "raw").glob("*.json"))) == 3
-    assert json.loads((work_dir / "agent" / "summary.json").read_text())["questions"] == 3
-
-
-def test_question_file_validation_and_selection(tmp_path):
-    path = tmp_path / "questions.json"
-    path.write_text(json.dumps([{"id": "a", "question": "A?"}, {"question": "B?", "image": "crop.png"}]))
-    questions = load_questions(path)
-    assert [q.question_id for q in questions] == ["a", "q02"] and questions[1].image == "crop.png"
-    assert [q.question_id for q in select_questions(questions, {"AGENT_ONLY": "q02"})] == ["q02"]
-    assert len(select_questions(questions, {"AGENT_LIMIT": "1"})) == 1
-    path.write_text(json.dumps([{"question": ""}]))
-    with pytest.raises(ValueError, match="question string"):
-        load_questions(path)

@@ -13,7 +13,7 @@ Read `README.md`, `docs/challenge.md`, and `docs/milestones.md` before starting 
 
 - 100 scans processed. 94 ok, 3 blank, 2 failed, 1 illegible.
 - 270 entries: 159 `entry`, 83 `continuation`, 20 `plate`, 8 `cross_reference`.
-- 94 `.tex` files written to `artifacts/extract/latex/`. None compiled yet (LaTeX compiler not set).
+- 94 `.tex` files in `artifacts/extract/latex/`, all 94 compiled to PDF with tectonic. A machine without tectonic keeps the committed PDFs.
 - CER measured on one gold row (e0251); mean CER recorded in `artifacts/extract/coverage.json`.
 - Crops for each entry in `artifacts/extract/crops/`.
 - Source: `artifacts/extract/entries.jsonl`, `artifacts/extract/pages.jsonl`, `artifacts/extract/coverage.json`.
@@ -23,7 +23,7 @@ Read `README.md`, `docs/challenge.md`, and `docs/milestones.md` before starting 
 - Method: BM25 candidate pool → Nemotron Embed VL cosine → Nemotron Rerank VL logit → threshold decision.
 - Ablation on 30 labeled pairs: BM25 only 6.7%, +embed 20%, +rerank 40% top-1 accuracy.
 - Calibration: `tau=-5`, `delta=0.75`, precision 1.0, recall 0.75 on the labeled sample.
-- Result: 20 matched pairs from 270 entries, 17 with a headword.
+- Result in `artifacts/match/matches.jsonl` (committed): 22 matched, 226 rejected, 12 no candidates, 10 skipped, from 270 entries.
 - Source: `artifacts/match/calibration.json`, `artifacts/match/ablation.json`, `artifacts/match/labels.csv`.
 - **The Wikipedia article cache is gitignored.** Re-run `match` on a clean checkout before running `compare` or the agent tools.
 
@@ -48,8 +48,7 @@ Read `README.md`, `docs/challenge.md`, and `docs/milestones.md` before starting 
 
 - `src/nemotron_challenge/stages/site.py` (`DONE = True`) reads all pipeline artifacts and writes `web/data/pages.json`, `web/data/drift.json`, `web/data/cases.json`.
 - `web/data/pages.json` is committed and reflects the last `run site` output.
-- Scan images (`web/scans/`) are uncommitted (gitignored). Run `site` after fetching scans to populate them.
-- `web/scans/` directory is listed in the git status as untracked.
+- `web/scans/` (100 scans), `web/latex/` (94 PDFs) and `web/crops/` are committed. `web/data/pages.json` holds all 100 real pages.
 
 ### Evaluate (DONE)
 
@@ -62,13 +61,13 @@ Read `README.md`, `docs/challenge.md`, and `docs/milestones.md` before starting 
 
 1. **OCR errors cause wrong answers.** Two failure cases (Huesca, Silius) show the model quoting verbatim OCR text that differs from the page image. A quote-match check passes while the claim is false. Detection requires reading the crop. This is documented in `artifacts/agent/HANDOFF.md` and in the run notes.
 
-2. **Wikipedia article cache not committed.** `artifacts/match/cache/` is gitignored. A reader on a clean checkout cannot rerun agent tools without first running `uv run nemotron-challenge run match`. The match output (`matches.jsonl`) is also not committed.
+2. **Wikipedia article cache not committed.** `artifacts/match/cache/` is gitignored. A reader on a clean checkout cannot rerun agent tools without first running `uv run nemotron-challenge run match`. The match output (`matches.jsonl`) is committed.
 
-3. **LaTeX not compiled.** `artifacts/extract/coverage.json` reports `"status": "not compiled"` and `"compiled": 0`. 94 `.tex` files exist. The submission requires compiled LaTeX PDFs in the static site. Set up a LaTeX compiler and run `uv run nemotron-challenge run extract` again (or a dedicated `latex` sub-stage).
+3. **LaTeX (resolved).** All 94 PDFs compile with tectonic. A rerun of extract on a machine without tectonic had set `coverage.json` to "not compiled"; it now reports the PDFs it keeps instead.
 
-4. **Scan images absent from the repository.** `web/scans/` is untracked and `data/raw/britannica` is gitignored. Run `uv run nemotron-challenge data fetch` before running `site` to populate scans.
+4. **Scans (resolved).** `web/scans/` is committed. `data/raw/britannica` stays gitignored; run `uv run nemotron-challenge data fetch` to rebuild from scratch.
 
-5. **Match coverage is low.** 20 matched pairs from 270 entries at the chosen threshold. Precision is 1.0 on the labeled sample, but recall is 0.75. Consider loosening the threshold or adding more query strategies to increase coverage before the final submission.
+5. **Match coverage is low.** 22 matched from 270 entries at the chosen threshold. Precision is 1.0 on the labeled sample, but recall is 0.75. Consider loosening the threshold or adding more query strategies to increase coverage before the final submission.
 
 ---
 
@@ -76,10 +75,8 @@ Read `README.md`, `docs/challenge.md`, and `docs/milestones.md` before starting 
 
 | Stage | Task |
 |---|---|
-| Extract | Compile LaTeX (`pdflatex` or `xelatex`). Set `latex.compiler` and rerun extract. |
-| Match | Commit or document how to regenerate `matches.jsonl` and the article cache. |
-| Site | Run `uv run nemotron-challenge run site` after scans are fetched to populate `web/scans/` and `web/latex/`. |
-| Evaluate | Run `uv run nemotron-challenge run evaluate` to regenerate `artifacts/evaluate/` from the 22 saved runs. |
+| Match | Document how to regenerate the article cache (`run match`). |
+| Evaluate | Rerun `uv run nemotron-challenge run evaluate` after any change to the 36 run records. |
 | Submission | Fill in `templates/submission.md`. Record model IDs, data revisions, and known limits. |
 | Submission | Record the six case studies (3 success, 3 failure) as required by the challenge brief. |
 | Submission | Prepare the 3–5 minute video. |
@@ -111,7 +108,7 @@ Run `uv run pytest` to check the starter infrastructure contracts.
 | `artifacts/extract/coverage.json` | Page and entry counts, CER, LaTeX status |
 | `artifacts/match/calibration.json` | Chosen threshold (`tau=-5`, `delta=0.75`) |
 | `artifacts/match/ablation.json` | Method comparison on 30 labeled pairs |
-| `artifacts/agent/runs/` | 22 saved Hermes run records |
+| `artifacts/agent/runs/` | 36 saved Hermes run records (20 labeled success, 16 failure) |
 | `artifacts/agent/env.json` | Hermes version, model IDs, toolset |
 | `artifacts/agent/HANDOFF.md` | P3 agent notes: success/failure candidates, known causes |
 | `artifacts/agent/questions.jsonl` | Question set used for agent runs |

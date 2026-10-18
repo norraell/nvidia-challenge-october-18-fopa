@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:55:37+00:00",
+  "generated_at": "2026-10-18T15:21:40+00:00",
   "pages_total": 100,
   "pages_by_status": {
     "blank": 3,
@@ -1086,10 +1086,10 @@
     ]
   },
   "latex": {
-    "status": "not compiled",
-    "compiler": null,
+    "status": "compiled",
+    "compiler": "tectonic",
     "tex_files": 94,
-    "compiled": 0,
+    "compiled": 94,
     "failed": [],
     "skipped_pages": [
       374,
