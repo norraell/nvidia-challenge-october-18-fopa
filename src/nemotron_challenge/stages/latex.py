@@ -153,9 +153,13 @@ def build(pages: list[dict[str, Any]], entries_by_id: dict[str, dict[str, Any]],
         with ThreadPoolExecutor(max_workers=MAX_IN_FLIGHT) as pool:
             errors = list(pool.map(lambda item: compile_tex(compiler, item[1]), written))
         failed = [{"row_index": row, "error": error} for (row, _), error in zip(written, errors) if error]
-    compiled = sum((latex_dir / f"{row:04d}.pdf").is_file() for row, _ in written) if compiler else 0
+    compiled = sum((latex_dir / f"{row:04d}.pdf").is_file() for row, _ in written)
+    if compiler:
+        status = "compiled"
+    else:  # no compiler on this machine: report the PDFs already in the repository, do not claim 0
+        status = f"not compiled on this machine; {compiled} existing PDFs kept"
     return {
-        "status": "compiled" if compiler else "not compiled",
+        "status": status,
         "compiler": "tectonic" if compiler else None,
         "tex_files": len(written),
         "compiled": compiled,
