@@ -1,0 +1,31 @@
+{
+ "key": "d7281b9a4590712d87f63cf691d3bf56",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "NAZARRHS, eN NAZARA or Mazareta, a term which again like one who is of Nazareth, or any native of the city of Nazareth. It was given to Jesus Christ or the disciples, also is commonly accepted in a sense of derision and economy by close authors who have written against Christianity. It has also been applied to a set of heredle called doctrines; and sometimes it means Nazareth, or one who has laid himself under the obligation of a vow to observe the rules of Nazareth, physically whether the for his whole life, as theses and John the Baptist, or only for a time, as in the case of those mentioned in November (vi. H. 19, 200) and Anna Kis 11, 12). Lastly, the same for example, in some passages of Sculpture, denotes a man of particular distinction and great viginity in the court of some privacy. Of these several sorts of Nazareths we shall now give some account.",
+ "content": "{\n  \"faithful\": \"NAZARITES, or NAZARA or Mazareta, a term which again like one who is of Nazareth, or any native of the city of Nazareth. It was given to Jesus Christ or the disciples, also is commonly accepted in a sense of derision and economy by close authors who have written against Christianity. It has also been applied to a set of heredle called doctrines; and sometimes it means Nazareth, or one who has laid himself under the obligation of a vow to observe the rules of Nazareth, physically whether the for his whole life, as theses and John the Baptist, or only for a time, as in the case of those mentioned in November (vi. H. 19, 200) and Anna Kis 11, 12). Lastly, the same for example, in some passages of Sculpture, denotes a man of particular distinction and great viginity in the court of some privacy. Of these several sorts of Nazareths we shall now give some account.\",\n  \"modern\": \"NAZARITES, or NAZARA or Mazareta, a term which again like one who is of Nazareth, or any native of the city of Nazareth. It was given to Jesus Christ or the disciples, also is commonly accepted in a sense of derision and economy by close authors who have written against Christianity. It has also been applied to a set of heredle called doctrines; and sometimes it means Nazareth, or one who has laid himself under the obligation of a vow to observe the rules of Nazareth, physically whether the for his whole life, as theses and John the Baptist, or only for a time, as in the case of those mentioned in November (vi. H. 19, 200) and Anna Kis 11, 12). Lastly, the same for example, in some passages of Sculpture, denotes a man of particular distinction and great viginity in the court of some privacy. Of these several sorts of Nazareths we shall now give some account.\"\n}",
+ "usage": {
+  "completion_tokens": 439,
+  "prompt_tokens": 810,
+  "total_tokens": 1249,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "NAZARITES, or NAZARA or Mazareta, a term which again like one who is of Nazareth, or any native of the city of Nazareth. It was given to Jesus Christ or the disciples, also is commonly accepted in a sense of derision and economy by close authors who have written against Christianity. It has also been applied to a set of heredle called doctrines; and sometimes it means Nazareth, or one who has laid himself under the obligation of a vow to observe the rules of Nazareth, physically whether the for his whole life, as theses and John the Baptist, or only for a time, as in the case of those mentioned in November (vi. H. 19, 200) and Anna Kis 11, 12). Lastly, the same for example, in some passages of Sculpture, denotes a man of particular distinction and great viginity in the court of some privacy. Of these several sorts of Nazareths we shall now give some account.",
+  "modern": "NAZARITES, or NAZARA or Mazareta, a term which again like one who is of Nazareth, or any native of the city of Nazareth. It was given to Jesus Christ or the disciples, also is commonly accepted in a sense of derision and economy by close authors who have written against Christianity. It has also been applied to a set of heredle called doctrines; and sometimes it means Nazareth, or one who has laid himself under the obligation of a vow to observe the rules of Nazareth, physically whether the for his whole life, as theses and John the Baptist, or only for a time, as in the case of those mentioned in November (vi. H. 19, 200) and Anna Kis 11, 12). Lastly, the same for example, in some passages of Sculpture, denotes a man of particular distinction and great viginity in the court of some privacy. Of these several sorts of Nazareths we shall now give some account."
+ },
+ "error": null
+}

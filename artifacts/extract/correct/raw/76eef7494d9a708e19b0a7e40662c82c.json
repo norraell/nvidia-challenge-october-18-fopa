@@ -1,0 +1,31 @@
+{
+ "key": "76eef7494d9a708e19b0a7e40662c82c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "SPHERICAL TRIGONOMETRY is the art whereby, from three given parts of a spherical triangle, we discover the refl; and, like plane trigonometry, is either right-angled, or obliquely-angle]. But there we give the analogies for the foliation of the Several cases in other, it will be proper to premile the following theorems.",
+ "content": "{\n  \"faithful\": \"SPHERICAL TRIGONOMETRY is the art whereby, from three given parts of a spherical triangle, we discover the rest; and, like plane trigonometry, is either right-angled, or oblique-angled. But before we give the analogies for the solution of the several cases in either, it will be proper to premise the following theorems.\",\n  \"modern\": \"SPHERICAL TRIGONOMETRY is the art whereby, from three given parts of a spherical triangle, we discover the rest; and, like plane trigonometry, is either right-angled, or oblique-angled. But before we give the analogies for the solution of the several cases in either, it will be proper to premise the following theorems.\"\n}",
+ "usage": {
+  "completion_tokens": 167,
+  "prompt_tokens": 643,
+  "total_tokens": 810,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "SPHERICAL TRIGONOMETRY is the art whereby, from three given parts of a spherical triangle, we discover the rest; and, like plane trigonometry, is either right-angled, or oblique-angled. But before we give the analogies for the solution of the several cases in either, it will be proper to premise the following theorems.",
+  "modern": "SPHERICAL TRIGONOMETRY is the art whereby, from three given parts of a spherical triangle, we discover the rest; and, like plane trigonometry, is either right-angled, or oblique-angled. But before we give the analogies for the solution of the several cases in either, it will be proper to premise the following theorems."
+ },
+ "error": null
+}

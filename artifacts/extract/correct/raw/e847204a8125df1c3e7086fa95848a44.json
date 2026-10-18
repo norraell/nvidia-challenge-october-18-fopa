@@ -1,0 +1,31 @@
+{
+ "key": "e847204a8125df1c3e7086fa95848a44",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "49. By dividing in the water dome fadition\nwhich has the property to fit penetrating the acid\nto the control its colour without defraying its bleaching\nquality to any considerable degrees.",
+ "content": "{\n  \"faithful\": \"49. By dividing in the water fome fubftance which has the property of fo far neutralizing the acid as to connect its odour without destroying its bleaching quality to any confiderable degree.\",\n  \"modern\": \"49. By dividing in the water some substance which has the property of so far neutralizing the acid as to connect its odour without destroying its bleaching quality to any considerable degree.\"\n}",
+ "usage": {
+  "completion_tokens": 95,
+  "prompt_tokens": 625,
+  "total_tokens": 720,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "49. By dividing in the water fome fubftance which has the property of fo far neutralizing the acid as to connect its odour without destroying its bleaching quality to any confiderable degree.",
+  "modern": "49. By dividing in the water some substance which has the property of so far neutralizing the acid as to connect its odour without destroying its bleaching quality to any considerable degree."
+ },
+ "error": null
+}

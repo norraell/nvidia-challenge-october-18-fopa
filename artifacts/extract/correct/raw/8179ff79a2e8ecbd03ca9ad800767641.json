@@ -1,0 +1,31 @@
+{
+ "key": "8179ff79a2e8ecbd03ca9ad800767641",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ENERGUMENS, in church-hitory, perfons lip- pdfet to be purified by the devil, concerning whom there were regiments among the primitive Christians. They were denied baptirn, and the eu- charifit at held, this was the practice of from students: i and thought they were under the care of exercils, yet it was thought a becoming act of charity, to let them have the public prayers of the church, in which they were permitted to be prefect. See Exgressions.",
+ "content": "{\n  \"faithful\": \"ENERGUMENS, in church-history, persons supposed to be possessed by the devil, concerning whom there were many regulations among the primitive Christians. They were denied baptism, and the eucharist; at least, this was the practice of some churches: and though they were under the care of exorcists, yet it was thought a becoming act of charity, to let them have the public prayers of the church, at which they were permitted to be present. See Exorcism.\",\n  \"modern\": \"ENERGUMENS, in church-history, persons supposed to be possessed by the devil, concerning whom there were many regulations among the primitive Christians. They were denied baptism, and the eucharist; at least, this was the practice of some churches: and though they were under the care of exorcists, yet it was thought a becoming act of charity, to let them have the public prayers of the church, at which they were permitted to be present. See Exorcism.\"\n}",
+ "usage": {
+  "completion_tokens": 215,
+  "prompt_tokens": 672,
+  "total_tokens": 887,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ENERGUMENS, in church-history, persons supposed to be possessed by the devil, concerning whom there were many regulations among the primitive Christians. They were denied baptism, and the eucharist; at least, this was the practice of some churches: and though they were under the care of exorcists, yet it was thought a becoming act of charity, to let them have the public prayers of the church, at which they were permitted to be present. See Exorcism.",
+  "modern": "ENERGUMENS, in church-history, persons supposed to be possessed by the devil, concerning whom there were many regulations among the primitive Christians. They were denied baptism, and the eucharist; at least, this was the practice of some churches: and though they were under the care of exorcists, yet it was thought a becoming act of charity, to let them have the public prayers of the church, at which they were permitted to be present. See Exorcism."
+ },
+ "error": null
+}

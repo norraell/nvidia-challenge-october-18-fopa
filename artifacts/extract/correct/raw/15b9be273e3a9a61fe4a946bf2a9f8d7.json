@@ -1,0 +1,31 @@
+{
+ "key": "15b9be273e3a9a61fe4a946bf2a9f8d7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Article, be minde to affirm the appearance either of an acid that or metal, at the pleasure of the operator; and therefore has been confidered both as a false fuhlance and as of feminism. It is not known as what time this mineral was discovered; though, as it always in many different kinds of ones, it is probable that the per- niction properties is maiile’s well very from having the taken notice of by marginalitys. Articles makes mention of a fullbure called _Larzagayy_ and his dicliple Theodorants makes mention of one named _Myrable_, which by Diodocides and others was called _Apposer_ about the beginning of the Chiffan area. By this, however, it appears, but they only means that fulborn now called _fadedreach_ and _or pioneer_; and Arizona who lived in the rich century, is the first way except the majority of my mentions white article, as well as its folibrance. It is not known by whom arénic weft reduced to a metallic form. Paradella after thatarfenie, following with goldall line become like the eyes; and, in 07; M. Lemeri makes mention of a method of fulfilling arénic with fixed all all and loop.",
+ "content": "{\n  \"faithful\": \"Article, be minde to affirm the appearance either of an acid that or metal, at the pleasure of the operator; and therefore has been confidered both as a false fuhlance and as of feminism. It is not known as what time this mineral was discovered; though, as it always in many different kinds of ones, it is probable that the per- niction properties is maiile’s well very from having the taken notice of by marginalitys. Articles makes mention of a fullbure called _Larzagayy_ and his dicliple Theodorants makes mention of one named _Myrable_, which by Diodocides and others was called _Apposer_ about the beginning of the Chiffan area. By this, however, it appears, but they only means that fulborn now called _fadedreach_ and _or pioneer_; and Arizona who lived in the rich century, is the first way except the majority of my mentions white article, as well as its folibrance. It is not known by whom arénic weft reduced to a metallic form. Paradella after thatarfenie, following with goldall line become like the eyes; and, in 07; M. Lemeri makes mention of a method of fulfilling arénic with fixed all all and loop.\",\n  \"modern\": \"Article, be minde to affirm the appearance either of an acid that or metal, at the pleasure of the operator; and therefore has been considered both as a false fulhance and as of feminism. It is not known as what time this mineral was discovered; though, as it always in many different kinds of ones, it is probable that the per- niction properties is maiile’s well very from having the taken notice of by marginalitys. Articles makes mention of a fullbure called _Larzagayy_ and his dicliple Theodorants makes mention of one named _Myrable_, which by Diodocides and others was called _Apposer_ about the beginning of the Chiffan area. By this, however, it appears, but they only means that fulborn now called _fadedreach_ and _or pioneer_; and Arizona who lived in the rich century, is the first way except the majority of my mentions white article, as well as its folibrance. It is not known by whom arénic weft reduced to a metallic form. Paradella after thatarfenie, following with goldall line become like the eyes; and, in 07; M. Lemeri makes mention of a method of fulfilling arénic with fixed all all and loop.\"\n}",
+ "usage": {
+  "completion_tokens": 553,
+  "prompt_tokens": 1010,
+  "total_tokens": 1563,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 439
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Article, be minde to affirm the appearance either of an acid that or metal, at the pleasure of the operator; and therefore has been confidered both as a false fuhlance and as of feminism. It is not known as what time this mineral was discovered; though, as it always in many different kinds of ones, it is probable that the per- niction properties is maiile’s well very from having the taken notice of by marginalitys. Articles makes mention of a fullbure called _Larzagayy_ and his dicliple Theodorants makes mention of one named _Myrable_, which by Diodocides and others was called _Apposer_ about the beginning of the Chiffan area. By this, however, it appears, but they only means that fulborn now called _fadedreach_ and _or pioneer_; and Arizona who lived in the rich century, is the first way except the majority of my mentions white article, as well as its folibrance. It is not known by whom arénic weft reduced to a metallic form. Paradella after thatarfenie, following with goldall line become like the eyes; and, in 07; M. Lemeri makes mention of a method of fulfilling arénic with fixed all all and loop.",
+  "modern": "Article, be minde to affirm the appearance either of an acid that or metal, at the pleasure of the operator; and therefore has been considered both as a false fulhance and as of feminism. It is not known as what time this mineral was discovered; though, as it always in many different kinds of ones, it is probable that the per- niction properties is maiile’s well very from having the taken notice of by marginalitys. Articles makes mention of a fullbure called _Larzagayy_ and his dicliple Theodorants makes mention of one named _Myrable_, which by Diodocides and others was called _Apposer_ about the beginning of the Chiffan area. By this, however, it appears, but they only means that fulborn now called _fadedreach_ and _or pioneer_; and Arizona who lived in the rich century, is the first way except the majority of my mentions white article, as well as its folibrance. It is not known by whom arénic weft reduced to a metallic form. Paradella after thatarfenie, following with goldall line become like the eyes; and, in 07; M. Lemeri makes mention of a method of fulfilling arénic with fixed all all and loop."
+ },
+ "error": null
+}

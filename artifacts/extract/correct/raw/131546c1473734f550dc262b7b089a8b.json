@@ -1,0 +1,31 @@
+{
+ "key": "131546c1473734f550dc262b7b089a8b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ExECUTIVE POWER. The figures executed power of those kingdings is ruled by our laws in a finele person, the king or quest for the time being. See the article Kivo.",
+ "content": "{\n  \"faithful\": \"EXECUTIVE POWER. The supreme executive power of thefe kingdoms is vefled by our laws in a fingle perfan, the king or queen for the time being. See the article KING.\",\n  \"modern\": \"EXECUTIVE POWER. The supreme executive power of these kingdoms is vested by our laws in a single person, the king or queen for the time being. See the article KING.\"\n}",
+ "usage": {
+  "completion_tokens": 99,
+  "prompt_tokens": 624,
+  "total_tokens": 723,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXECUTIVE POWER. The supreme executive power of thefe kingdoms is vefled by our laws in a fingle perfan, the king or queen for the time being. See the article KING.",
+  "modern": "EXECUTIVE POWER. The supreme executive power of these kingdoms is vested by our laws in a single person, the king or queen for the time being. See the article KING."
+ },
+ "error": null
+}

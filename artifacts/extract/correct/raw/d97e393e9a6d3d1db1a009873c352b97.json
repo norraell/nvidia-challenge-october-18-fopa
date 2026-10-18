@@ -1,0 +1,31 @@
+{
+ "key": "d97e393e9a6d3d1db1a009873c352b97",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "fid to the Sandwich Illands, where, giving over all further thoughts of trade, they determined (after getting a fees-flock of fifth off Cape Edgecumbe) immediately to proceed. The Noxetka arrivedat Macno the end of October 1787.",
+ "content": "{\n  \"faithful\": \"fel to the Sandwich Islands, where, giving over all further thoughts of trade, they determined (after getting a fea-flock of fifth off Cape Edgecumbe) immediately to proceed. The Noxetka arrived at Macao the end of October 1787.\",\n  \"modern\": \"fell to the Sandwich Islands, where, giving over all further thoughts of trade, they determined (after getting a fea-flock of fifth off Cape Edgecumbe) immediately to proceed. The Noxetka arrived at Macao the end of October 1787.\"\n}",
+ "usage": {
+  "completion_tokens": 132,
+  "prompt_tokens": 641,
+  "total_tokens": 773,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "fel to the Sandwich Islands, where, giving over all further thoughts of trade, they determined (after getting a fea-flock of fifth off Cape Edgecumbe) immediately to proceed. The Noxetka arrived at Macao the end of October 1787.",
+  "modern": "fell to the Sandwich Islands, where, giving over all further thoughts of trade, they determined (after getting a fea-flock of fifth off Cape Edgecumbe) immediately to proceed. The Noxetka arrived at Macao the end of October 1787."
+ },
+ "error": null
+}

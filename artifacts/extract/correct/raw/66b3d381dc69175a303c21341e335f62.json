@@ -1,0 +1,31 @@
+{
+ "key": "66b3d381dc69175a303c21341e335f62",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ESARHADDON, the fen of Sennacherib, and his\nfavorite in the Baylorion of Alfryen. He is faid\nhave reigned to 9 years at Church, from the year 1904\nto 3322; believe which he reigned 13 years at Baby-\nton, in all 8 years. He died in the year of the week\nSSS, and was faceded by Sandoshina. Elar-\nhaddon, in the opinion of Sir Ilane Newton, feems to\nbe the Shanghai who often, as Catecharina fayo,\nold way after the result of Syria, the name _Bekriamo_\npolar being derived from _Afrhadon Pal._",
+ "content": "{\n  \"faithful\": \"ESARHADDON, the fon of Sennacherib, and his fuccelfor in the kingdom of Affyria. He is faid to have reigned 29 years at Nineveh, from the year 3294 to 3322; befides which he reigned 13 years at Baby- lon, in all 42 years. He died in the year of the world 3336, and was fucceded by Saofduchinus. Efarhaddon, in the opinion of Sir Ifaac Newton, feems to be the Sardanapalus who died, as Clefearchus fays, of old age, after the revolt of Syria; the name Sardana- palus being derived from Afterhadon Pul.\",\n  \"modern\": \"ESARHADDON, the son of Sennacherib, and his successor in the kingdom of Assyria. He is said to have reigned 29 years at Nineveh, from the year 3294 to 3322; besides which he reigned 13 years at Babylon, in all 42 years. He died in the year of the world 3336, and was succeeded by Saofduchinus. Esarhaddon, in the opinion of Sir Isaac Newton, seems to be the Sardanapalus who died, as Clearchus says, of old age, after the revolt of Syria; the name Sardana- palus being derived from Afterhadon Pul.\"\n}",
+ "usage": {
+  "completion_tokens": 334,
+  "prompt_tokens": 741,
+  "total_tokens": 1075,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ESARHADDON, the fon of Sennacherib, and his fuccelfor in the kingdom of Affyria. He is faid to have reigned 29 years at Nineveh, from the year 3294 to 3322; befides which he reigned 13 years at Baby- lon, in all 42 years. He died in the year of the world 3336, and was fucceded by Saofduchinus. Efarhaddon, in the opinion of Sir Ifaac Newton, feems to be the Sardanapalus who died, as Clefearchus fays, of old age, after the revolt of Syria; the name Sardana- palus being derived from Afterhadon Pul.",
+  "modern": "ESARHADDON, the son of Sennacherib, and his successor in the kingdom of Assyria. He is said to have reigned 29 years at Nineveh, from the year 3294 to 3322; besides which he reigned 13 years at Babylon, in all 42 years. He died in the year of the world 3336, and was succeeded by Saofduchinus. Esarhaddon, in the opinion of Sir Isaac Newton, seems to be the Sardanapalus who died, as Clearchus says, of old age, after the revolt of Syria; the name Sardana- palus being derived from Afterhadon Pul."
+ },
+ "error": null
+}

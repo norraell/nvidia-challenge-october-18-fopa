@@ -1,0 +1,31 @@
+{
+ "key": "a8de3602cc2152ca78913fd44fad3d13",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Pearl_--The constituent parts of pearl appear to be Pearl familiar to thief of mother-of-pent. They are compelled concerned costs of membranes and colonies of lines, and resemble in firstature the globular, calcareous con-cretions which are known by the name of _phylidae._ The influence and produced appearance of pearl and another-of-past, evidently depend on their lamellated fracture and femitran/parency.",
+ "content": "{\n  \"faithful\": \"_Pearl_--The constituent parts of pearl appear to be familiar to those of mother-of-pearl. They are composed of concentric coats of membrane and carbonate of lime, and resemble in structure the globular, calcareous concretions which are known by the name of _peloids._ The iridescence and undulated appearance of pearl and mother-of-pearl, evidently depend on their lamellated structure and semitransparency.\",\n  \"modern\": \"Pearl--The constituent parts of pearl appear to be familiar to those of mother-of-pearl. They are composed of concentric coats of membrane and carbonate of lime, and resemble in structure the globular, calcareous concretions which are known by the name of peloids. The iridescence and undulated appearance of pearl and mother-of-pearl, evidently depend on their lamellated structure and semitransparency.\"\n}",
+ "usage": {
+  "completion_tokens": 197,
+  "prompt_tokens": 655,
+  "total_tokens": 852,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_Pearl_--The constituent parts of pearl appear to be familiar to those of mother-of-pearl. They are composed of concentric coats of membrane and carbonate of lime, and resemble in structure the globular, calcareous concretions which are known by the name of _peloids._ The iridescence and undulated appearance of pearl and mother-of-pearl, evidently depend on their lamellated structure and semitransparency.",
+  "modern": "Pearl--The constituent parts of pearl appear to be familiar to those of mother-of-pearl. They are composed of concentric coats of membrane and carbonate of lime, and resemble in structure the globular, calcareous concretions which are known by the name of peloids. The iridescence and undulated appearance of pearl and mother-of-pearl, evidently depend on their lamellated structure and semitransparency."
+ },
+ "error": null
+}

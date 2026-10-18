@@ -1,0 +1,31 @@
+{
+ "key": "55f76688f1047ede3108b10482d05c59",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Steel tempered to the degree fit for watch Springs\nacquires along magnetic which is exhibits imme\ndisels on the removal of the magnet. But it diffipates\nvery fat ; and, in a very few minutes, it is reduced to\nlois than one half of its strength while in control with\nthe magnet, and not two thirds of what it was\ndistety on removal from it. It continues to diffidate for\nformer days, though the her be kept with care'; but the\ndiffusion diminishes at, and in the near at, half over\nthird of its greatest power forany length of time, unleef\ncardially keep or indjudicially treated.",
+ "content": "{\n  \"faithful\": \"Steel tempered to the degree fit for watch Springs acquires a strong magnetism which it exhibits immediately on the removal of the magnet. But it diffipates very fast; and, in a very few minutes, it is reduced to less than one half of its strength while in contact with the magnet, and not two thirds of what it was immediately on removal from it. It continues to diffipate for former days, though the bar be kept with care; but the diffusion diminishes at, and in the near at, half over third of its greatest power for any length of time, unless carefully kept or injudiciously treated.\",\n  \"modern\": \"Steel tempered to the degree fit for watch springs acquires a strong magnetism which it exhibits immediately on the removal of the magnet. But it dissipates very fast; and, in a very few minutes, it is reduced to less than one half of its strength while in contact with the magnet, and not two thirds of what it was immediately on removal from it. It continues to dissipate for former days, though the bar be kept with care; but the diffusion diminishes at, and in the near at, half over third of its greatest power for any length of time, unless carefully kept or injudiciously treated.\"\n}",
+ "usage": {
+  "completion_tokens": 273,
+  "prompt_tokens": 714,
+  "total_tokens": 987,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Steel tempered to the degree fit for watch Springs acquires a strong magnetism which it exhibits immediately on the removal of the magnet. But it diffipates very fast; and, in a very few minutes, it is reduced to less than one half of its strength while in contact with the magnet, and not two thirds of what it was immediately on removal from it. It continues to diffipate for former days, though the bar be kept with care; but the diffusion diminishes at, and in the near at, half over third of its greatest power for any length of time, unless carefully kept or injudiciously treated.",
+  "modern": "Steel tempered to the degree fit for watch springs acquires a strong magnetism which it exhibits immediately on the removal of the magnet. But it dissipates very fast; and, in a very few minutes, it is reduced to less than one half of its strength while in contact with the magnet, and not two thirds of what it was immediately on removal from it. It continues to dissipate for former days, though the bar be kept with care; but the diffusion diminishes at, and in the near at, half over third of its greatest power for any length of time, unless carefully kept or injudiciously treated."
+ },
+ "error": null
+}

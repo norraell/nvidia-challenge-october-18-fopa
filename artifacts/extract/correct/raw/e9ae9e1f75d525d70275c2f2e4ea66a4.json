@@ -1,0 +1,31 @@
+{
+ "key": "e9ae9e1f75d525d70275c2f2e4ea66a4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ments of dragon-quards infed in 1682. See Gra-\nRoors, Dragoons), and Guaxan.",
+ "content": "{\n  \"faithful\": \"ments of dragon-quards infed in 1682. See Gra-\\nRoors, Dragoons), and Guaxan.\\niments of dragoon-guards raifed in 1685. See Gra-\\nnadier, Dragoons, and Guards.\",\n  \"modern\": \"ments of dragon-guards infed in 1682. See Gra-\\nRoors, Dragoons), and Guaxan.\\niments of dragoon-guards raised in 1685. See Gra-\\nnadier, Dragoons, and Guards.\"\n}",
+ "usage": {
+  "completion_tokens": 131,
+  "prompt_tokens": 611,
+  "total_tokens": 742,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ments of dragon-quards infed in 1682. See Gra-\nRoors, Dragoons), and Guaxan.\niments of dragoon-guards raifed in 1685. See Gra-\nnadier, Dragoons, and Guards.",
+  "modern": "ments of dragon-guards infed in 1682. See Gra-\nRoors, Dragoons), and Guaxan.\niments of dragoon-guards raised in 1685. See Gra-\nnadier, Dragoons, and Guards."
+ },
+ "error": null
+}

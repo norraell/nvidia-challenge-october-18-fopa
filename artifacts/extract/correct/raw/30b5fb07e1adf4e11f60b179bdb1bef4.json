@@ -1,0 +1,31 @@
+{
+ "key": "30b5fb07e1adf4e11f60b179bdb1bef4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Lembards, judging that a favorable opportunity now offered of making himself king of Italy by her means, important his design to her, and declared his intention to marry her, provided by form means or other, as defated Heimchild-A. Edmund, highly graded with the pro- postal, refored to satisfy her ambition by getting rid of the perfer whom he had married in order to gra-tify her average. Accordingly, having prepared a strong point, the next it will wins, and gave its her husband at be came out of the bath, and did for drink, according to his culm.. Helmchild had not half capital the city, when, by his fashion and strange operation which he felt in his bowls, the controlled what it was , and with his friend pointed at the queen’s board, compiled her to drink the exit. The goofin had the time effect on both; for they died in a few hours. Longues, on to death of all the pupils, laid aside, all thoughts of making himself King of holy, and fent, the king’s texture to Constantinople, together with Alibullahis, the daughter of Albioner by Kod-mund, whom he had brought alone with her.",
+ "content": "{\n  \"faithful\": \"Lembards, judging that a favorable opportunity now offered of making himself king of Italy by her means, important his design to her, and declared his intention to marry her, provided by form means or other, as defated Heimchild-A. Edmund, highly graded with the pro- postal, refored to satisfy her ambition by getting rid of the perfer whom he had married in order to gra-tify her average. Accordingly, having prepared a strong point, the next it will wins, and gave its her husband at be came out of the bath, and did for drink, according to his culm.. Helmchild had not half capital the city, when, by his fashion and strange operation which he felt in his bowls, the controlled what it was , and with his friend pointed at the queen’s board, compiled her to drink the exit. The goofin had the time effect on both; for they died in a few hours. Longues, on to death of all the pupils, laid aside, all thoughts of making himself King of holy, and fent, the king’s texture to Constantinople, together with Alibullahis, the daughter of Albioner by Kod-mund, whom he had brought alone with her.\",\n  \"modern\": \"Lombards, judging that a favorable opportunity now offered of making himself king of Italy by her means, important his design to her, and declared his intention to marry her, provided by some means or other, as defeated Helmchild. Edmund, highly pleased with the proposal, resolved to satisfy her ambition by getting rid of the person whom he had married in order to gratify her avarice. Accordingly, having prepared a strong poison, the next it will wins, and gave it to her husband as he came out of the bath, and called for drink, according to his custom. Helmchild had not half emptied the cup, when, by the sudden and strange operation which he felt in his bowels, he controlled what it was, and with his sword pointed at the queen's breast, compelled her to drink the rest. The poison had the same effect on both; for they died in a few hours. Longinus, on the death of the queen, laid aside all thoughts of making himself king of Italy, and sent the king's treasure to Constantinople, together with Albofinda, the daughter of Alboinus by Rosamund, whom he had brought alone with her.\"\n}",
+ "usage": {
+  "completion_tokens": 504,
+  "prompt_tokens": 929,
+  "total_tokens": 1433,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 380
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Lembards, judging that a favorable opportunity now offered of making himself king of Italy by her means, important his design to her, and declared his intention to marry her, provided by form means or other, as defated Heimchild-A. Edmund, highly graded with the pro- postal, refored to satisfy her ambition by getting rid of the perfer whom he had married in order to gra-tify her average. Accordingly, having prepared a strong point, the next it will wins, and gave its her husband at be came out of the bath, and did for drink, according to his culm.. Helmchild had not half capital the city, when, by his fashion and strange operation which he felt in his bowls, the controlled what it was , and with his friend pointed at the queen’s board, compiled her to drink the exit. The goofin had the time effect on both; for they died in a few hours. Longues, on to death of all the pupils, laid aside, all thoughts of making himself King of holy, and fent, the king’s texture to Constantinople, together with Alibullahis, the daughter of Albioner by Kod-mund, whom he had brought alone with her.",
+  "modern": "Lombards, judging that a favorable opportunity now offered of making himself king of Italy by her means, important his design to her, and declared his intention to marry her, provided by some means or other, as defeated Helmchild. Edmund, highly pleased with the proposal, resolved to satisfy her ambition by getting rid of the person whom he had married in order to gratify her avarice. Accordingly, having prepared a strong poison, the next it will wins, and gave it to her husband as he came out of the bath, and called for drink, according to his custom. Helmchild had not half emptied the cup, when, by the sudden and strange operation which he felt in his bowels, he controlled what it was, and with his sword pointed at the queen's breast, compelled her to drink the rest. The poison had the same effect on both; for they died in a few hours. Longinus, on the death of the queen, laid aside all thoughts of making himself king of Italy, and sent the king's treasure to Constantinople, together with Albofinda, the daughter of Alboinus by Rosamund, whom he had brought alone with her."
+ },
+ "error": null
+}

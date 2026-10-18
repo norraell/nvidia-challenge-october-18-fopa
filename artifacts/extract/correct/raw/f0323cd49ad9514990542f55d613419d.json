@@ -1,0 +1,31 @@
+{
+ "key": "f0323cd49ad9514990542f55d613419d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "IIN. No Getta.",
+ "content": "{\n  \"faithful\": \"IIN. No Getta. W. Long. 16. 18. JIN. See GENI. KENN. D.\",\n  \"modern\": \"IIN. No Getta. W. Long. 16. 18. JIN. See GENI. KENN. D.\"\n}",
+ "usage": {
+  "completion_tokens": 81,
+  "prompt_tokens": 571,
+  "total_tokens": 652,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "IIN. No Getta. W. Long. 16. 18. JIN. See GENI. KENN. D.",
+  "modern": "IIN. No Getta. W. Long. 16. 18. JIN. See GENI. KENN. D."
+ },
+ "error": null
+}

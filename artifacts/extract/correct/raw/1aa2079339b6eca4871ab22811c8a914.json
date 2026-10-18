@@ -1,0 +1,31 @@
+{
+ "key": "1aa2079339b6eca4871ab22811c8a914",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ATE, the goddels of mithief; in the Pagan tho-ology. She was daughter of Jupiter, and caft down from heaven at the birth of Hercules. For Juno ha-ving decided Jupiter, in scaling Enulflets to be born before Hercules, Jupiter expelled his retirement on Ates, as the author of that miichief; and threw her headlong from heaven to earth, featuring the floodal never return children again (Honeri L six. 125.) The name of the goddels comes from stars, men, to _hart_. Her being the daughter of Jupiter means, according to mythologiils, has no evil happens to us but by the permitief providence, and her healthment to earth denotes the terrible effects of divine jul-tice among men.",
+ "content": "{\n  \"faithful\": \"ATE, the goddels of mithief; in the Pagan tho-ology. She was daughter of Jupiter, and caft down from heaven at the birth of Hercules. For Juno ha-ving decided Jupiter, in scaling Enulflets to be born before Hercules, Jupiter expelled his retirement on Ates, as the author of that miichief; and threw her headlong from heaven to earth, featuring the floodal never return children again (Honeri L six. 125.) The name of the goddels comes from stars, men, to _hart_. Her being the daughter of Jupiter means, according to mythologiils, has no evil happens to us but by the permitief providence, and her healthment to earth denotes the terrible effects of divine jul-tice among men.\",\n  \"modern\": \"ATE, the goddels of mithief; in the Pagan theology. She was daughter of Jupiter, and cast down from heaven at the birth of Hercules. For Juno having deceived Jupiter, in causing Eurystheus to be born before Hercules, Jupiter expelled his repentment on Ate, as the author of that mischief; and threw her headlong from heaven to earth, swearing the flood should never return thither again, (Homeri Il. xix. 125.) The name of this goddess comes from ατα, noceo, to hurt. Her being the daughter of Jupiter means, according to mythologists, that no evil happens to us but by the permission of providence; and her banishment to earth denotes the terrible effects of divine justice among men.\"\n}",
+ "usage": {
+  "completion_tokens": 344,
+  "prompt_tokens": 727,
+  "total_tokens": 1071,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ATE, the goddels of mithief; in the Pagan tho-ology. She was daughter of Jupiter, and caft down from heaven at the birth of Hercules. For Juno ha-ving decided Jupiter, in scaling Enulflets to be born before Hercules, Jupiter expelled his retirement on Ates, as the author of that miichief; and threw her headlong from heaven to earth, featuring the floodal never return children again (Honeri L six. 125.) The name of the goddels comes from stars, men, to _hart_. Her being the daughter of Jupiter means, according to mythologiils, has no evil happens to us but by the permitief providence, and her healthment to earth denotes the terrible effects of divine jul-tice among men.",
+  "modern": "ATE, the goddels of mithief; in the Pagan theology. She was daughter of Jupiter, and cast down from heaven at the birth of Hercules. For Juno having deceived Jupiter, in causing Eurystheus to be born before Hercules, Jupiter expelled his repentment on Ate, as the author of that mischief; and threw her headlong from heaven to earth, swearing the flood should never return thither again, (Homeri Il. xix. 125.) The name of this goddess comes from ατα, noceo, to hurt. Her being the daughter of Jupiter means, according to mythologists, that no evil happens to us but by the permission of providence; and her banishment to earth denotes the terrible effects of divine justice among men."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "f5ec587d3ddf5d0a08a8840337615e73",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The executive power, in this flatre, hath a right to a negative in parliament, i. e. to refe affien to any able others, otherwise the two other branches of legitimate power would, or might, become deloptic.",
+ "content": "{\n  \"faithful\": \"The executive power, in this flate, hath a right to a negative in parliament, i. e. to refufe affent to any acts offered; otherwife the two other branches of legiflative power would, or might, become defpotic.\",\n  \"modern\": \"The executive power, in this state, hath a right to a negative in parliament, i. e. to refuse assent to any acts offered; otherwise the two other branches of legislative power would, or might, become despotic.\"\n}",
+ "usage": {
+  "completion_tokens": 117,
+  "prompt_tokens": 616,
+  "total_tokens": 733,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The executive power, in this flate, hath a right to a negative in parliament, i. e. to refufe affent to any acts offered; otherwife the two other branches of legiflative power would, or might, become defpotic.",
+  "modern": "The executive power, in this state, hath a right to a negative in parliament, i. e. to refuse assent to any acts offered; otherwise the two other branches of legislative power would, or might, become despotic."
+ },
+ "error": null
+}

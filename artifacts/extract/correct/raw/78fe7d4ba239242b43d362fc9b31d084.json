@@ -1,0 +1,31 @@
+{
+ "key": "78fe7d4ba239242b43d362fc9b31d084",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "It is mainly cut with the reproduction of eggs and an- chors or arrows heads placed alternately.",
+ "content": "{\n  \"faithful\": \"It is usually cut with the representation of eggs and anchors or arrows heads placed alternately.\",\n  \"modern\": \"It is usually cut with the representation of eggs and anchors or arrow heads placed alternately.\"\n}",
+ "usage": {
+  "completion_tokens": 49,
+  "prompt_tokens": 581,
+  "total_tokens": 630,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 260
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "It is usually cut with the representation of eggs and anchors or arrows heads placed alternately.",
+  "modern": "It is usually cut with the representation of eggs and anchors or arrow heads placed alternately."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "3627c8f3dfb339c18404b0a105adce71",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "pamphlets from that of his other works, he was told that he was as very positive young man,” as an portion in England but biblop Burnet was capable of writing it. Upon which Switrplied, with female indigenous. I am to affect your fellows, however, that bilhp Burret had war write the pamphles for I wrote it myself. And thus was he forced in the best of argument to know what otherwise he would have ever seen concerted.",
+ "content": "{\n  \"faithful\": \"pamphlet from that of his other works, he was told that he was “a very positive young man,” as no person in England but bishop Burnet was capable of writing it. Upon which Swift replied, with fine indignation, I am to assure your lordship, however, that bishop Burnet did not write the pamphlet, for I wrote it myself. And thus was he forced in the heat of argument to avow what otherwise he would have ever concealed.\",\n  \"modern\": \"pamphlet from that of his other works, he was told that he was “a very positive young man,” as no person in England but bishop Burnet was capable of writing it. Upon which Swift replied, with fine indignation, I am to assure your lordship, however, that bishop Burnet did not write the pamphlet, for I wrote it myself. And thus was he forced in the heat of argument to avow what otherwise he would have ever concealed.\"\n}",
+ "usage": {
+  "completion_tokens": 209,
+  "prompt_tokens": 688,
+  "total_tokens": 897,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "pamphlet from that of his other works, he was told that he was “a very positive young man,” as no person in England but bishop Burnet was capable of writing it. Upon which Swift replied, with fine indignation, I am to assure your lordship, however, that bishop Burnet did not write the pamphlet, for I wrote it myself. And thus was he forced in the heat of argument to avow what otherwise he would have ever concealed.",
+  "modern": "pamphlet from that of his other works, he was told that he was “a very positive young man,” as no person in England but bishop Burnet was capable of writing it. Upon which Swift replied, with fine indignation, I am to assure your lordship, however, that bishop Burnet did not write the pamphlet, for I wrote it myself. And thus was he forced in the heat of argument to avow what otherwise he would have ever concealed."
+ },
+ "error": null
+}

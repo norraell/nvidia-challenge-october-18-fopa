@@ -1,0 +1,31 @@
+{
+ "key": "a6a2ca18ee7e654dec3c8e5bf115a8af",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In order that the vapour which exales from the\ndiltilling veffils may not prove inconvenient, it is sec-\ncillary to poor in a small quantity of alkaline trivium\nin the first place, which ultimately defroys the finals.\nThis may be done immediately after the end of the\ndifficulties, and the weak alkaline nutrition therapy\nthe place of the water used for diluting the refuders.\nBut the failure of pouring this little water s, along\neffecrécence takes place (for which reduce it in po-\nper to your it in by several facective portions, waiting\nstill have some cash time.”",
+ "content": "{\n  \"faithful\": \"In order that the vapour which exales from the diltilling veffils may not prove inconvenient, it is sec- cillary to poor in a small quantity of alkaline trivium in the first place, which ultimately defroys the finals. This may be done immediately after the end of the difficulties, and the weak alkaline nutrition therapy the place of the water used for diluting the refuders. But the failure of pouring this little water s, along effecrécence takes place (for which reduce it in po- per to your it in by several facective portions, waiting still have some cash time.”\",\n  \"modern\": \"In order that the vapour which exales from the distilling vessels may not prove inconvenient, it is necessary to pour in a small quantity of alkaline lixivium in the first place, which instantly destroys the smell. This may be done immediately after the end of the distillation, and the weak alkaline solution may supply the place of the water used for diluting the residues. At the instant of pouring this lixivial water, a strong effervescence takes place; for which reason it is proper to pour it in by several successive portions, waiting a little between each time.\"\n}",
+ "usage": {
+  "completion_tokens": 260,
+  "prompt_tokens": 714,
+  "total_tokens": 974,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In order that the vapour which exales from the diltilling veffils may not prove inconvenient, it is sec- cillary to poor in a small quantity of alkaline trivium in the first place, which ultimately defroys the finals. This may be done immediately after the end of the difficulties, and the weak alkaline nutrition therapy the place of the water used for diluting the refuders. But the failure of pouring this little water s, along effecrécence takes place (for which reduce it in po- per to your it in by several facective portions, waiting still have some cash time.”",
+  "modern": "In order that the vapour which exales from the distilling vessels may not prove inconvenient, it is necessary to pour in a small quantity of alkaline lixivium in the first place, which instantly destroys the smell. This may be done immediately after the end of the distillation, and the weak alkaline solution may supply the place of the water used for diluting the residues. At the instant of pouring this lixivial water, a strong effervescence takes place; for which reason it is proper to pour it in by several successive portions, waiting a little between each time."
+ },
+ "error": null
+}

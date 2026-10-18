@@ -1,0 +1,31 @@
+{
+ "key": "44213b0fed8a16ace3c59f9f6d4a4344",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There are fine artily who do not express, that exciting was unknown to Bolsters, who has done in much walk out its andis from which we may really flipped how much more hours would have affected with this charming acquisition. For the truth of this reminds we may upped to his landscapes from Rubens, his animated por-trats from Vanleyke, and his productions from the Plee",
+ "content": "{\n  \"faithful\": \"There are few artists who do not regret, that etching was unknown to Bolswerf, who has done so much without its aid; from which we may easily fupfose how much more he could have effected with this charming acquisition. For the truth of this remark we may appeal to his landscapes from Rubens, his animated portraits from Vandyke, and his productions from the Fle-\",\n  \"modern\": \"There are few artists who do not regret, that etching was unknown to Bolswerf, who has done so much without its aid; from which we may easily suppose how much more he could have effected with this charming acquisition. For the truth of this remark we may appeal to his landscapes from Rubens, his animated portraits from Vandyke, and his productions from the Fle-\"\n}",
+ "usage": {
+  "completion_tokens": 170,
+  "prompt_tokens": 653,
+  "total_tokens": 823,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There are few artists who do not regret, that etching was unknown to Bolswerf, who has done so much without its aid; from which we may easily fupfose how much more he could have effected with this charming acquisition. For the truth of this remark we may appeal to his landscapes from Rubens, his animated portraits from Vandyke, and his productions from the Fle-",
+  "modern": "There are few artists who do not regret, that etching was unknown to Bolswerf, who has done so much without its aid; from which we may easily suppose how much more he could have effected with this charming acquisition. For the truth of this remark we may appeal to his landscapes from Rubens, his animated portraits from Vandyke, and his productions from the Fle-"
+ },
+ "error": null
+}

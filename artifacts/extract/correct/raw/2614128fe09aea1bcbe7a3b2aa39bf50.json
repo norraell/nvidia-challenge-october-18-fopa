@@ -1,0 +1,31 @@
+{
+ "key": "2614128fe09aea1bcbe7a3b2aa39bf50",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Neither do we fuppole civil history and the pria-ciples of animals to be overlooked. Without being anaquished with theftsy, how could not yunk or accurate knowledge of the laws and political contributions of his country be acquired by the young generation! Hilory expects to war observation the fortune and the echo of other human beings, and thus fuppies in force mea: fine the place of experience; it teacher graduate, and affords exercise to the moraliente. When history condelends to take notice of individuals, they see all making always flesh a have been embent for virtue, for abilities, or for the rank which, they held in life; to the rich and great it ought to freak with peculiar effficiency, and they ought to be carefully invited to listen to its voice.",
+ "content": "{\n  \"faithful\": \"Neither do we fuppole civil history and the pria-ciples of animals to be overlooked. Without being anaquished with theftsy, how could not yunk or accurate knowledge of the laws and political contributions of his country be acquired by the young generation! Hilory expects to war observation the fortune and the echo of other human beings, and thus fuppies in force mea: fine the place of experience; it teacher graduate, and affords exercise to the moraliente. When history condelends to take notice of individuals, they see all making always flesh a have been embent for virtue, for abilities, or for the rank which, they held in life; to the rich and great it ought to freak with peculiar effficiency, and they ought to be carefully invited to listen to its voice.\",\n  \"modern\": \"Neither do we suppose civil history and the principles of animals to be overlooked. Without being acquainted with these, how could not young or accurate knowledge of the laws and political institutions of his country be acquired by the young generation! History expects to warn observation the fortune and the actions of other human beings, and thus supplies in some measure the place of experience; it teaches prudence, and affords exercise to the moral sense. When history condescends to take notice of individuals, they are almost always fuch as have been eminent for virtue, for abilities, or for the rank which they held in life; to the rich and great it ought to speak with peculiar efficacy, and they ought to be carefully invited to listen to its voice.\"\n}",
+ "usage": {
+  "completion_tokens": 330,
+  "prompt_tokens": 756,
+  "total_tokens": 1086,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Neither do we fuppole civil history and the pria-ciples of animals to be overlooked. Without being anaquished with theftsy, how could not yunk or accurate knowledge of the laws and political contributions of his country be acquired by the young generation! Hilory expects to war observation the fortune and the echo of other human beings, and thus fuppies in force mea: fine the place of experience; it teacher graduate, and affords exercise to the moraliente. When history condelends to take notice of individuals, they see all making always flesh a have been embent for virtue, for abilities, or for the rank which, they held in life; to the rich and great it ought to freak with peculiar effficiency, and they ought to be carefully invited to listen to its voice.",
+  "modern": "Neither do we suppose civil history and the principles of animals to be overlooked. Without being acquainted with these, how could not young or accurate knowledge of the laws and political institutions of his country be acquired by the young generation! History expects to warn observation the fortune and the actions of other human beings, and thus supplies in some measure the place of experience; it teaches prudence, and affords exercise to the moral sense. When history condescends to take notice of individuals, they are almost always fuch as have been eminent for virtue, for abilities, or for the rank which they held in life; to the rich and great it ought to speak with peculiar efficacy, and they ought to be carefully invited to listen to its voice."
+ },
+ "error": null
+}

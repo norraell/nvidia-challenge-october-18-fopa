@@ -1,0 +1,31 @@
+{
+ "key": "69c78cadaf0e935e73d647f979cdb7f7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Horse is alo often used its various arts and manu-\nfactories, for fomething that helps to fuflain their\nwork from the ground, for the more commodious\nworking at it.",
+ "content": "{\n  \"faithful\": \"Horse is also a term ufed in various arts and manufactories, for fomething that helps to fuftain their work from the ground, for the more commodious working at it.\",\n  \"modern\": \"Horse is also a term used in various arts and manufactories, for something that helps to sustain their work from the ground, for the more commodious working at it.\"\n}",
+ "usage": {
+  "completion_tokens": 89,
+  "prompt_tokens": 625,
+  "total_tokens": 714,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Horse is also a term ufed in various arts and manufactories, for fomething that helps to fuftain their work from the ground, for the more commodious working at it.",
+  "modern": "Horse is also a term used in various arts and manufactories, for something that helps to sustain their work from the ground, for the more commodious working at it."
+ },
+ "error": null
+}

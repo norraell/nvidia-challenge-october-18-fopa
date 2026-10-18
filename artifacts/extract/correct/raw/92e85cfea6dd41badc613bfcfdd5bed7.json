@@ -1,0 +1,31 @@
+{
+ "key": "92e85cfea6dd41badc613bfcfdd5bed7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This management was introduced for preferving\ncertain samples, undried, in an agreeable form, with\nas little attention to poblin in their native viruses;\nand to fome subjects it is very advantageously applied.\nVegetables, whole virus use all or delivered in dry-\ning, except in this form be kept unjusted for a length\nof time; For, by carefully focusing the mouth of the\ncontaining wells, the alteration, as well as diffusion,\nof their either principles, is generally prevented, and\nthe fugar preserves them from the corruption which\njoley vegetable would otherwise undergo.",
+ "content": "{\n  \"faithful\": \"This management was introduced for preferving certain samples, undried, in an agreeable form, with as little attention to poblin in their native viruses; and to fome subjects it is very advantageously applied. Vegetables, whole virus use all or delivered in drying, except in this form be kept unjusted for a length of time; For, by carefully focusing the mouth of the containing wells, the alteration, as well as diffusion, of their either principles, is generally prevented, and the fugar preserves them from the corruption which joley vegetable would otherwise undergo.\",\n  \"modern\": \"This management was introduced for preserving certain samples, undried, in an agreeable form, with as little attention to poblin in their native viruses; and to some subjects it is very advantageously applied. Vegetables, whole virus use all or delivered in drying, except in this form be kept unjusted for a length of time; For, by carefully focusing the mouth of the containing wells, the alteration, as well as diffusion, of their either principles, is generally prevented, and the sugar preserves them from the corruption which joley vegetable would otherwise undergo.\"\n}",
+ "usage": {
+  "completion_tokens": 242,
+  "prompt_tokens": 703,
+  "total_tokens": 945,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This management was introduced for preferving certain samples, undried, in an agreeable form, with as little attention to poblin in their native viruses; and to fome subjects it is very advantageously applied. Vegetables, whole virus use all or delivered in drying, except in this form be kept unjusted for a length of time; For, by carefully focusing the mouth of the containing wells, the alteration, as well as diffusion, of their either principles, is generally prevented, and the fugar preserves them from the corruption which joley vegetable would otherwise undergo.",
+  "modern": "This management was introduced for preserving certain samples, undried, in an agreeable form, with as little attention to poblin in their native viruses; and to some subjects it is very advantageously applied. Vegetables, whole virus use all or delivered in drying, except in this form be kept unjusted for a length of time; For, by carefully focusing the mouth of the containing wells, the alteration, as well as diffusion, of their either principles, is generally prevented, and the sugar preserves them from the corruption which joley vegetable would otherwise undergo."
+ },
+ "error": null
+}

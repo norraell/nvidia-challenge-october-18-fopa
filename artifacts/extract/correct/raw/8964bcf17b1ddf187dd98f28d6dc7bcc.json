@@ -1,0 +1,31 @@
+{
+ "key": "8964bcf17b1ddf187dd98f28d6dc7bcc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Kalmcs, and cholerie temperament, they live more amicably to-gether than one could expect in a people that led to independent life. They felaina come to blows even over their cups, and their quarrels are hardly ever bloody. A murder very rarely happens, though their anger has finding in it exceeding forces. It would feem that the morality of their religion, though ex-ceedingly delaltance, has been able to moderate their natural difjedition in the effect; it for in confignence of their dogmas, with regard to the transmigration of fouls, every reason murder either of men or beats is thought a deadly fin.",
+ "content": "{\n  \"faithful\": \"Kalmucs, and choleric temperament, they live more amicably together than one could expect in a people that lead an independent life. They seldom come to blows even over their cups, and their quarrels are hardly ever bloody. A murder very rarely happens, though their anger has something in it exceedingly fierce. It would seem that the morality of their religion, though exceedingly idolatrous, has been able to moderate their natural disposition in this respect; for in consequence of their dogmas, with regard to the transmigration of souls, every wanton murder either of men or beasts is thought a deadly sin.\",\n  \"modern\": \"Kalmucs, and choleric temperament, they live more amicably together than one could expect in a people that lead an independent life. They seldom come to blows even over their cups, and their quarrels are hardly ever bloody. A murder very rarely happens, though their anger has something in it exceedingly fierce. It would seem that the morality of their religion, though exceedingly idolatrous, has been able to moderate their natural disposition in this respect; for in consequence of their dogmas, with regard to the transmigration of souls, every wanton murder either of men or beasts is thought a deadly sin.\"\n}",
+ "usage": {
+  "completion_tokens": 267,
+  "prompt_tokens": 714,
+  "total_tokens": 981,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Kalmucs, and choleric temperament, they live more amicably together than one could expect in a people that lead an independent life. They seldom come to blows even over their cups, and their quarrels are hardly ever bloody. A murder very rarely happens, though their anger has something in it exceedingly fierce. It would seem that the morality of their religion, though exceedingly idolatrous, has been able to moderate their natural disposition in this respect; for in consequence of their dogmas, with regard to the transmigration of souls, every wanton murder either of men or beasts is thought a deadly sin.",
+  "modern": "Kalmucs, and choleric temperament, they live more amicably together than one could expect in a people that lead an independent life. They seldom come to blows even over their cups, and their quarrels are hardly ever bloody. A murder very rarely happens, though their anger has something in it exceedingly fierce. It would seem that the morality of their religion, though exceedingly idolatrous, has been able to moderate their natural disposition in this respect; for in consequence of their dogmas, with regard to the transmigration of souls, every wanton murder either of men or beasts is thought a deadly sin."
+ },
+ "error": null
+}

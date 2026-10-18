@@ -1,0 +1,31 @@
+{
+ "key": "e1abd63b43c8103199fcd3ee2cdeb9e1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "How is this to be accomplished? In what manner are those wise men to be chosen? And who are to be the chores? Directly the object cannot be attained. There are no distinct and indubitable marks by which wisdom, and less by which integrity, is to be known. And who is to be trusted with the privilege of putting them out? They whose judgment requires to be directed are not well qualified to determine who shall direct them. And if the rules are to choose, they will employ none but those who will eat, in conformity to their views, and en- able them to benefit themselves by the pillage and op-pression of the people.",
+ "content": "{\n  \"faithful\": \"How is this to be accomplished? In what manner are those wise men to be chosen? And who are to be the choosers? Directly the object cannot be attained. There are no distinct and indubitable marks by which wisdom, and less by which integrity, is to be known. And who is to be trusted with the privilege of pointing them out? They whose judgment requires to be directed are not well qualified to determine who shall direct them. And if the rulers are to choose, they will employ none but those who will act in conformity to their views, and enable them to benefit themselves by the pillage and oppression of the people.\",\n  \"modern\": \"How is this to be accomplished? In what manner are those wise men to be chosen? And who are to be the choosers? Directly the object cannot be attained. There are no distinct and indubitable marks by which wisdom, and less by which integrity, is to be known. And who is to be trusted with the privilege of pointing them out? They whose judgment requires to be directed are not well qualified to determine who shall direct them. And if the rulers are to choose, they will employ none but those who will act in conformity to their views, and enable them to benefit themselves by the pillage and oppression of the people.\"\n}",
+ "usage": {
+  "completion_tokens": 277,
+  "prompt_tokens": 702,
+  "total_tokens": 979,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "How is this to be accomplished? In what manner are those wise men to be chosen? And who are to be the choosers? Directly the object cannot be attained. There are no distinct and indubitable marks by which wisdom, and less by which integrity, is to be known. And who is to be trusted with the privilege of pointing them out? They whose judgment requires to be directed are not well qualified to determine who shall direct them. And if the rulers are to choose, they will employ none but those who will act in conformity to their views, and enable them to benefit themselves by the pillage and oppression of the people.",
+  "modern": "How is this to be accomplished? In what manner are those wise men to be chosen? And who are to be the choosers? Directly the object cannot be attained. There are no distinct and indubitable marks by which wisdom, and less by which integrity, is to be known. And who is to be trusted with the privilege of pointing them out? They whose judgment requires to be directed are not well qualified to determine who shall direct them. And if the rulers are to choose, they will employ none but those who will act in conformity to their views, and enable them to benefit themselves by the pillage and oppression of the people."
+ },
+ "error": null
+}

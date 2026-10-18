@@ -1,0 +1,31 @@
+{
+ "key": "89fe5ea18917d1ce1941d37f4cf6df14",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The _faffifra_ will grow to nearly the height of the others, though the branches are not fo numerous. Its bark is smooth, and of a red color, which beautifully diligullies in his winter, whilst the fine fishing green of its leave constitutes its growth because a formation. In thefe, indeed, there is a variety, and a very extraordinary one. Some are large, and of an coal figures; others are finally, and of the time hopes, while o-thers again are to divided into three lobes, as to a flexible the length of fine fame first of the fig trees. In America, the fallafras generally hands fining in the woods, and along the forces round the fields. It flowers in May before the leaves come out, and bring entirely covered with them, it is diltinguished at a great distance by their beautiful yellow colour.",
+ "content": "{\n  \"faithful\": \"The fassifra will grow to nearly the height of the others, though the branches are not fo numerous. Its bark is smooth, and of a red color, which beautifully diligullies in his winter, whilst the fine fishing green of its leave constitutes its growth because a formation. In thefe, indeed, there is a variety, and a very extraordinary one. Some are large, and of an coal figures; others are finally, and of the time hopes, while o-thers again are to divided into three lobes, as to a flexible the length of fine fame first of the fig trees. In America, the fallafras generally hands fining in the woods, and along the forces round the fields. It flowers in May before the leaves come out, and bring entirely covered with them, it is diltinguished at a great distance by their beautiful yellow colour.\",\n  \"modern\": \"The fassifra will grow to nearly the height of the others, though the branches are not so numerous. Its bark is smooth, and of a red color, which beautifully diligullies in his winter, whilst the fine fishing green of its leave constitutes its growth because a formation. In these, indeed, there is a variety, and a very extraordinary one. Some are large, and of an coal figures; others are finally, and of the time hopes, while others again are to divided into three lobes, as to a flexible the length of fine fame first of the fig trees. In America, the fallafras generally hands fining in the woods, and along the forces round the fields. It flowers in May before the leaves come out, and bring entirely covered with them, it is diltinguished at a great distance by their beautiful yellow colour.\"\n}",
+ "usage": {
+  "completion_tokens": 370,
+  "prompt_tokens": 764,
+  "total_tokens": 1134,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The fassifra will grow to nearly the height of the others, though the branches are not fo numerous. Its bark is smooth, and of a red color, which beautifully diligullies in his winter, whilst the fine fishing green of its leave constitutes its growth because a formation. In thefe, indeed, there is a variety, and a very extraordinary one. Some are large, and of an coal figures; others are finally, and of the time hopes, while o-thers again are to divided into three lobes, as to a flexible the length of fine fame first of the fig trees. In America, the fallafras generally hands fining in the woods, and along the forces round the fields. It flowers in May before the leaves come out, and bring entirely covered with them, it is diltinguished at a great distance by their beautiful yellow colour.",
+  "modern": "The fassifra will grow to nearly the height of the others, though the branches are not so numerous. Its bark is smooth, and of a red color, which beautifully diligullies in his winter, whilst the fine fishing green of its leave constitutes its growth because a formation. In these, indeed, there is a variety, and a very extraordinary one. Some are large, and of an coal figures; others are finally, and of the time hopes, while others again are to divided into three lobes, as to a flexible the length of fine fame first of the fig trees. In America, the fallafras generally hands fining in the woods, and along the forces round the fields. It flowers in May before the leaves come out, and bring entirely covered with them, it is diltinguished at a great distance by their beautiful yellow colour."
+ },
+ "error": null
+}

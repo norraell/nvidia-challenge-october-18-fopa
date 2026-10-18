@@ -1,0 +1,31 @@
+{
+ "key": "8404b6ad620d6794870427a8dbdcdcb8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Also, the time of the reformation, this order was dropped, till James II: of England refumed it, by creating eight knights I however, the resolution unifedit is again, and are why neglected the mena Anne, no 2023, reduced to the primitive delges of twelve knights of St Andrews.",
+ "content": "{\n  \"faithful\": \"About the time of the reformation, this order was dropped, till James II. of England refumed it, by creating eight knights: however, the revolution unifedit it again, and it lay neglected till queen Anne, in 1703, refolored it to the primitive delges of twelve knights of St Andrew.\",\n  \"modern\": \"About the time of the reformation, this order was dropped, till James II. of England resumed it, by creating eight knights: however, the revolution unsettled it again, and it lay neglected till queen Anne, in 1703, restored it to the primitive design of twelve knights of St Andrew.\"\n}",
+ "usage": {
+  "completion_tokens": 148,
+  "prompt_tokens": 640,
+  "total_tokens": 788,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "About the time of the reformation, this order was dropped, till James II. of England refumed it, by creating eight knights: however, the revolution unifedit it again, and it lay neglected till queen Anne, in 1703, refolored it to the primitive delges of twelve knights of St Andrew.",
+  "modern": "About the time of the reformation, this order was dropped, till James II. of England resumed it, by creating eight knights: however, the revolution unsettled it again, and it lay neglected till queen Anne, in 1703, restored it to the primitive design of twelve knights of St Andrew."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "51fa8142618691cf0b7ed0e7be987b91",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ExECUTON, in Laws, is where we often be free that it, made to be deceived after wards by entry, livery or wit. Leads for years, anuities, conditions, SSc. are termed interviances exec-ency.",
+ "content": "{\n  \"faithful\": \"EXECUTION, in Laws, is where we often be free that it, made to be deceived after wards by entry, livery or writ. Leads for years, annuities, conditions, &c. are termed interviances exec-ency. EXECUTORY, in Law, is where an estate in fee, that is, made by deed or fine, is to be executed afterwards by entry, livery, or writ. Lease for years, annuities, conditions, &c. are termed inheritances exec-utory. EXECUTORY, in Scot. Law, is the movable estate\",\n  \"modern\": \"EXECUTION, in Laws, is where we often be free that it, made to be deceived after wards by entry, livery or writ. Leads for years, annuities, conditions, &c. are termed interviances exec-ency. EXECUTORY, in Law, is where an estate in fee, that is, made by deed or fine, is to be executed afterwards by entry, livery, or writ. Lease for years, annuities, conditions, &c. are termed inheritances exec-utory. EXECUTORY, in Scot. Law, is the movable estate\"\n}",
+ "usage": {
+  "completion_tokens": 273,
+  "prompt_tokens": 636,
+  "total_tokens": 909,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXECUTION, in Laws, is where we often be free that it, made to be deceived after wards by entry, livery or writ. Leads for years, annuities, conditions, &c. are termed interviances exec-ency. EXECUTORY, in Law, is where an estate in fee, that is, made by deed or fine, is to be executed afterwards by entry, livery, or writ. Lease for years, annuities, conditions, &c. are termed inheritances exec-utory. EXECUTORY, in Scot. Law, is the movable estate",
+  "modern": "EXECUTION, in Laws, is where we often be free that it, made to be deceived after wards by entry, livery or writ. Leads for years, annuities, conditions, &c. are termed interviances exec-ency. EXECUTORY, in Law, is where an estate in fee, that is, made by deed or fine, is to be executed afterwards by entry, livery, or writ. Lease for years, annuities, conditions, &c. are termed inheritances exec-utory. EXECUTORY, in Scot. Law, is the movable estate"
+ },
+ "error": null
+}

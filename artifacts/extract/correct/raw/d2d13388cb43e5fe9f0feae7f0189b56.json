@@ -1,0 +1,31 @@
+{
+ "key": "d2d13388cb43e5fe9f0feae7f0189b56",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When the mile limbs are not intended to be keys for propagation, but farmed for food, they might to be calibrated at the age of five or fix months. This operation is performed two ways: in the one, an inclion is made and the facilities taken on; in the other, a liature is tied by around the forearm, above the facilities, which foot deftroys the veffels which nourish them. After ca- affirates, they are called wearless.",
+ "content": "{\n  \"faithful\": \"When the male limbs are not intended to be keys for propagation, but farmed for food, they might to be calibrated at the age of five or fix months. This operation is performed two ways: in the one, an inclion is made and the facilities taken on; in the other, a liature is tied by around the forearm, above the facilities, which foot deftroys the veffels which nourish them. After ca- affirates, they are called wearless.\",\n  \"modern\": \"When the male limbs are not intended to be keys for propagation, but farmed for food, they might to be calibrated at the age of five or fix months. This operation is performed two ways: in the one, an inclion is made and the facilities taken on; in the other, a liature is tied by around the forearm, above the facilities, which foot destroys the vessels which nourish them. After castrates, they are called wearless.\"\n}",
+ "usage": {
+  "completion_tokens": 211,
+  "prompt_tokens": 690,
+  "total_tokens": 901,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When the male limbs are not intended to be keys for propagation, but farmed for food, they might to be calibrated at the age of five or fix months. This operation is performed two ways: in the one, an inclion is made and the facilities taken on; in the other, a liature is tied by around the forearm, above the facilities, which foot deftroys the veffels which nourish them. After ca- affirates, they are called wearless.",
+  "modern": "When the male limbs are not intended to be keys for propagation, but farmed for food, they might to be calibrated at the age of five or fix months. This operation is performed two ways: in the one, an inclion is made and the facilities taken on; in the other, a liature is tied by around the forearm, above the facilities, which foot destroys the vessels which nourish them. After castrates, they are called wearless."
+ },
+ "error": null
+}

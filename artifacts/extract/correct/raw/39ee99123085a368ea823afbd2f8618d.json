@@ -1,0 +1,31 @@
+{
+ "key": "39ee99123085a368ea823afbd2f8618d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Greece...The same as in France.",
+ "content": "{\n  \"faithful\": \"Greece.—The same as in France. Guiana (British).—In general the\",\n  \"modern\": \"Greece.—The same as in France. Guiana (British).—In general the\"\n}",
+ "usage": {
+  "completion_tokens": 55,
+  "prompt_tokens": 585,
+  "total_tokens": 640,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Greece.—The same as in France. Guiana (British).—In general the",
+  "modern": "Greece.—The same as in France. Guiana (British).—In general the"
+ },
+ "error": null
+}

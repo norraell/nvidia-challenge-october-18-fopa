@@ -1,0 +1,31 @@
+{
+ "key": "4f5af28589a0cbf50b074f2dbf97c6a1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Acr, in the univerities, figuifies a hefixa maintained in public by a candidate for a degree of to those the capacity and proficiency of a fluid. The candidates for a degree of bachelor and matter of arts are to hold philosophical facts; and that for bachelor of divists; theological Ads, etc. At Oxford, the time we make or doctors complete their degrees in alo called the \\(\\ell\\), which is bad with great formally. At Cam bridge, they call the _commencement_.",
+ "content": "{\n  \"faithful\": \"Acr, in the univerities, figuifies a hefixa maintained in public by a candidate for a degree of to those the capacity and proficiency of a fluid. The candidates for a degree of bachelor and matter of arts are to hold philosophical facts; and that for bachelor of divists; theological Ads, etc. At Oxford, the time we make or doctors complete their degrees in alo called the \\\\(\\\\ell\\\\), which is bad with great formally. At Cam bridge, they call the _commencement_.\",\n  \"modern\": \"Acr, in the universities, signifies a thesis maintained in public by a candidate for a degree of to those the capacity and proficiency of a student. The candidates for a degree of bachelor and master of arts are to hold philosophical facts; and that for bachelor of divinity; theological Acts, etc. At Oxford, the time when masters or doctors complete their degrees is also called the act, which is held with great solemnity. At Cambridge, they call it the commencement.\"\n}",
+ "usage": {
+  "completion_tokens": 218,
+  "prompt_tokens": 672,
+  "total_tokens": 890,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Acr, in the univerities, figuifies a hefixa maintained in public by a candidate for a degree of to those the capacity and proficiency of a fluid. The candidates for a degree of bachelor and matter of arts are to hold philosophical facts; and that for bachelor of divists; theological Ads, etc. At Oxford, the time we make or doctors complete their degrees in alo called the \\(\\ell\\), which is bad with great formally. At Cam bridge, they call the _commencement_.",
+  "modern": "Acr, in the universities, signifies a thesis maintained in public by a candidate for a degree of to those the capacity and proficiency of a student. The candidates for a degree of bachelor and master of arts are to hold philosophical facts; and that for bachelor of divinity; theological Acts, etc. At Oxford, the time when masters or doctors complete their degrees is also called the act, which is held with great solemnity. At Cambridge, they call it the commencement."
+ },
+ "error": null
+}

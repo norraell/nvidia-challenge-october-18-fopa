@@ -1,0 +1,31 @@
+{
+ "key": "965fab1b41c83a48087ce623b3672d68",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Horas Wow, in_ natural history, a species of fly-\nworm called _also lead_, produced e eggs deposited by a\ntwo-wing fly of the flop and line of the humble\nbe in the intestines of horses. See Boryss.",
+ "content": "{\n  \"faithful\": \"_Horse Worm, in_ natural history, a species of fly-worm called _also bot_, produced of eggs deposited by a two-winged fly of the shape and size of the humble bee in the intestines of horses. See Borrs.\",\n  \"modern\": \"Horse Worm, in natural history, a species of fly-worm called also bot, produced of eggs deposited by a two-winged fly of the shape and size of the humble bee in the intestines of horses. See Borrs.\"\n}",
+ "usage": {
+  "completion_tokens": 115,
+  "prompt_tokens": 621,
+  "total_tokens": 736,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_Horse Worm, in_ natural history, a species of fly-worm called _also bot_, produced of eggs deposited by a two-winged fly of the shape and size of the humble bee in the intestines of horses. See Borrs.",
+  "modern": "Horse Worm, in natural history, a species of fly-worm called also bot, produced of eggs deposited by a two-winged fly of the shape and size of the humble bee in the intestines of horses. See Borrs."
+ },
+ "error": null
+}

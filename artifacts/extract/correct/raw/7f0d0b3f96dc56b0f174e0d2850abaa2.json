@@ -1,0 +1,31 @@
+{
+ "key": "7f0d0b3f96dc56b0f174e0d2850abaa2",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1 The following is his description of this monument of Hindus art--is--It stands in a square area of about forty English acres, enclosed by an enathalled wall, with estagaml towers at the angles, surrounded by my problems, and four very noble gardens of red genius, the palephol of which is inland with white marble, and has four high maybe minarets. The space within a limited with trees, and divided into groups, where the recreation buildings, which is next of solid pyramid, armonarily with disksters, galleries, and homes, diminishing gradually in ascending it, till it, ends in a square platform of white marble, surrounded by most elaborate latticeworks of the same material, in the center of which is a small later touch, also of white marble, carved with a delicacy and beauty which do full paths to the materials, and to the graceful forms of which characters, and form the chief come murd.",
+ "content": "{\n  \"faithful\": \"The following is his description of this monument of Hindu art:—It stands in a square area of about forty English acres, enclosed by an embattled wall, with octagonal towers at the angles, surrounded by open pavilions, and four very noble gardens of red granite, the principal of which is inlaid with white marble, and has four high marble minarets. The space within is planted with trees, and divided into green alleys, leading to the central building, which is a sort of solid pyramid, surrounded externally with cloisters, galleries, and domes, diminishing gradually in ascending it, till it ends in a square platform of white marble, surrounded by most elaborate latticework of the same material, in the centre of which is a small altar tomb, also of white marble, carved with delicacy and beauty which do full justice to the material, and to the graceful forms of Arabic characters, which form the chief ornament.\",\n  \"modern\": \"The following is his description of this monument of Hindu art:—It stands in a square area of about forty English acres, enclosed by an embattled wall, with octagonal towers at the angles, surrounded by open pavilions, and four very noble gardens of red granite, the principal of which is inlaid with white marble, and has four high marble minarets. The space within is planted with trees, and divided into green alleys, leading to the central building, which is a sort of solid pyramid, surrounded externally with cloisters, galleries, and domes, diminishing gradually in ascending it, till it ends in a square platform of white marble, surrounded by most elaborate latticework of the same material, in the center of which is a small altar tomb, also of white marble, carved with delicacy and beauty which do full justice to the material, and to the graceful forms of Arabic characters, which form the chief ornament.\"\n}",
+ "usage": {
+  "completion_tokens": 397,
+  "prompt_tokens": 775,
+  "total_tokens": 1172,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The following is his description of this monument of Hindu art:—It stands in a square area of about forty English acres, enclosed by an embattled wall, with octagonal towers at the angles, surrounded by open pavilions, and four very noble gardens of red granite, the principal of which is inlaid with white marble, and has four high marble minarets. The space within is planted with trees, and divided into green alleys, leading to the central building, which is a sort of solid pyramid, surrounded externally with cloisters, galleries, and domes, diminishing gradually in ascending it, till it ends in a square platform of white marble, surrounded by most elaborate latticework of the same material, in the centre of which is a small altar tomb, also of white marble, carved with delicacy and beauty which do full justice to the material, and to the graceful forms of Arabic characters, which form the chief ornament.",
+  "modern": "The following is his description of this monument of Hindu art:—It stands in a square area of about forty English acres, enclosed by an embattled wall, with octagonal towers at the angles, surrounded by open pavilions, and four very noble gardens of red granite, the principal of which is inlaid with white marble, and has four high marble minarets. The space within is planted with trees, and divided into green alleys, leading to the central building, which is a sort of solid pyramid, surrounded externally with cloisters, galleries, and domes, diminishing gradually in ascending it, till it ends in a square platform of white marble, surrounded by most elaborate latticework of the same material, in the center of which is a small altar tomb, also of white marble, carved with delicacy and beauty which do full justice to the material, and to the graceful forms of Arabic characters, which form the chief ornament."
+ },
+ "error": null
+}

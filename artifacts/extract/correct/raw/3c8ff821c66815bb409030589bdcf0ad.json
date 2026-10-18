@@ -1,0 +1,31 @@
+{
+ "key": "3c8ff821c66815bb409030589bdcf0ad",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Hence it appears how small a portion of gold in herrent in the ones of other metals may be extracted; besides, it follows containing the molt minute parcle of gold initially produces the purple precipitate of Caffius, with a foliation of its property pre-parallel.",
+ "content": "{\n  \"faithful\": \"Hence it appears how small a portion of gold inherent in the ores of other metals may be extracted; besides, it follows that a solution containing the most minute particle of gold instantly produces the purple precipitate of Caffius, with a solution of tin properly prepared.\",\n  \"modern\": \"Hence it appears how small a portion of gold inherent in the ores of other metals may be extracted; besides, it follows that a solution containing the most minute particle of gold instantly produces the purple precipitate of Caffius, with a solution of tin properly prepared.\"\n}",
+ "usage": {
+  "completion_tokens": 121,
+  "prompt_tokens": 619,
+  "total_tokens": 740,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Hence it appears how small a portion of gold inherent in the ores of other metals may be extracted; besides, it follows that a solution containing the most minute particle of gold instantly produces the purple precipitate of Caffius, with a solution of tin properly prepared.",
+  "modern": "Hence it appears how small a portion of gold inherent in the ores of other metals may be extracted; besides, it follows that a solution containing the most minute particle of gold instantly produces the purple precipitate of Caffius, with a solution of tin properly prepared."
+ },
+ "error": null
+}

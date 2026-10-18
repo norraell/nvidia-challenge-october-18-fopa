@@ -1,0 +1,31 @@
+{
+ "key": "405ba23f2c75f7f342cf3480b216a4eb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This animal, fo fo and lo simple in its nature and disposition, is likewise extremely weak and feeble in its condition: They can endere but little fingers when ever they ran, their hearts pute, and their wind falls there, they are equally incapable of clearing her or cold, fawor or rain: They are fuject to many difades, molt of which the consensus: They bring forth their young with pain and difficulty, and require more care and attention than any other scientific animal.",
+ "content": "{\n  \"faithful\": \"This animal, fo fo and lo simple in its nature and disposition, is likewise extremely weak and feeble in its condition: They can endere but little fingers when ever they ran, their hearts pute, and their wind falls there, they are equally incapable of clearing her or cold, fawor or rain: They are fuject to many difades, molt of which the consensus: They bring forth their young with pain and difficulty, and require more care and attention than any other scientific animal.\",\n  \"modern\": \"This animal, fo fo and lo simple in its nature and disposition, is likewise extremely weak and feeble in its condition: They can endere but little fingers when ever they ran, their hearts pute, and their wind falls there, they are equally incapable of clearing her or cold, fawor or rain: They are fuject to many difades, molt of which the consensus: They bring forth their young with pain and difficulty, and require more care and attention than any other scientific animal.\"\n}",
+ "usage": {
+  "completion_tokens": 215,
+  "prompt_tokens": 678,
+  "total_tokens": 893,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This animal, fo fo and lo simple in its nature and disposition, is likewise extremely weak and feeble in its condition: They can endere but little fingers when ever they ran, their hearts pute, and their wind falls there, they are equally incapable of clearing her or cold, fawor or rain: They are fuject to many difades, molt of which the consensus: They bring forth their young with pain and difficulty, and require more care and attention than any other scientific animal.",
+  "modern": "This animal, fo fo and lo simple in its nature and disposition, is likewise extremely weak and feeble in its condition: They can endere but little fingers when ever they ran, their hearts pute, and their wind falls there, they are equally incapable of clearing her or cold, fawor or rain: They are fuject to many difades, molt of which the consensus: They bring forth their young with pain and difficulty, and require more care and attention than any other scientific animal."
+ },
+ "error": null
+}

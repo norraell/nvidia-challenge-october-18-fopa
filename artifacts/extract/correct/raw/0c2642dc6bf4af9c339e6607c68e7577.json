@@ -1,0 +1,31 @@
+{
+ "key": "0c2642dc6bf4af9c339e6607c68e7577",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "owner, and his skill in so managing the commissariat, as to LiveStock. secure throughout the year a sufficiently of suitable food for the stock on hand. Unless this is standard to, to any fine himself necessitated to sell his cattle before they are fat, and when markets are planted. Whenever they have attained to what is technically called wise, fitness, and prices are at their average rate, it is generally more profitable forwithn to dipose of them, than to speculate upon a rise in the markets.",
+ "content": "{\n  \"faithful\": \"owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fitness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets.\",\n  \"modern\": \"owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fitness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets.\"\n}",
+ "usage": {
+  "completion_tokens": 217,
+  "prompt_tokens": 682,
+  "total_tokens": 899,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fitness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets.",
+  "modern": "owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fitness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets."
+ },
+ "error": null
+}

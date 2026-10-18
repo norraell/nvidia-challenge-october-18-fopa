@@ -1,0 +1,31 @@
+{
+ "key": "15e1e866bfd3a6ea89142f50bf89bc23",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "EXEGTES, (form of cfayyama, \"I explain,\") among the information, portion learned in the law, whom the judges told to couldn’t capital cuefufe.",
+ "content": "{\n  \"faithful\": \"EXEGTES, (formed of εξηγηται, “I explain,”) among the Athenians, perfons learned in the laws, whom the judges ufed to confult in capital caufe.\",\n  \"modern\": \"EXEGTES, (formed of exegetai, “I explain,”) among the Athenians, persons learned in the laws, whom the judges used to consult in capital cause.\"\n}",
+ "usage": {
+  "completion_tokens": 96,
+  "prompt_tokens": 602,
+  "total_tokens": 698,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 261
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXEGTES, (formed of εξηγηται, “I explain,”) among the Athenians, perfons learned in the laws, whom the judges ufed to confult in capital caufe.",
+  "modern": "EXEGTES, (formed of exegetai, “I explain,”) among the Athenians, persons learned in the laws, whom the judges used to consult in capital cause."
+ },
+ "error": null
+}

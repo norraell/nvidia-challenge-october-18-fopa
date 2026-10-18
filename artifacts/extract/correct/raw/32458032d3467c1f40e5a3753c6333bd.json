@@ -1,0 +1,31 @@
+{
+ "key": "32458032d3467c1f40e5a3753c6333bd",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Like other travellers to mount Etaa, this gentleman South wind found the wind blowing from the fourth ; and he is of generally opinion, that a fortunately allows here now requested on the top than any other, as he did not observe any channels curral drama by the water on any other side than the north. He had reversal operation of making this discussion, having frequently visited the top of Etaa, and always paid attention to the crater. The fault on the cuf and well field was always loads, while that on the north was compelled into a fold body. The three formamists were of a later date than the rest of the crater, having been probably thrown up by bone eruption, which had burt aunner. The black spots on the foreground repet- fest a number of hillsides about the rise of mole-hills, from which a fulphumous yearn confronts flyer, and by which the adjacent ground is tinged of an ochery color. This vapor filter from the creatives with a cut of shallow whilling outfer, which with the woke- nic thunder, frooks, and noxious fipil, render it very different to the flare ever for a few moments.",
+ "content": "{\n  \"faithful\": \"Like other travellers to mount Etaa, this gentleman South wind found the wind blowing from the fourth ; and he is of generally opinion, that a fortunately allows here now requested on the top than any other, as he did not observe any channels curral drama by the water on any other side than the north. He had reversal operation of making this discussion, having frequently visited the top of Etaa, and always paid attention to the crater. The fault on the cuf and well field was always loads, while that on the north was compelled into a fold body. The three formamists were of a later date than the rest of the crater, having been probably thrown up by bone eruption, which had burt aunner. The black spots on the foreground repet- fest a number of hillsides about the rise of mole-hills, from which a fulphumous yearn confronts flyer, and by which the adjacent ground is tinged of an ochery color. This vapor filter from the creatives with a cut of shallow whilling outfer, which with the woke- nic thunder, frooks, and noxious fipil, render it very different to the flare ever for a few moments.\",\n  \"modern\": \"Like other travellers to mount Etaa, this gentleman South wind found the wind blowing from the fourth ; and he is of generally opinion, that a fortunately allows here now requested on the top than any other, as he did not observe any channels curral drama by the water on any other side than the north. He had reversal operation of making this discussion, having frequently visited the top of Etaa, and always paid attention to the crater. The fault on the cuf and well field was always loads, while that on the north was compelled into a fold body. The three formamists were of a later date than the rest of the crater, having been probably thrown up by bone eruption, which had burt aunner. The black spots on the foreground repet- fest a number of hillsides about the rise of mole-hills, from which a fulphumous yearn confronts flyer, and by which the adjacent ground is tinged of an ochery color. This vapor filter from the creatives with a cut of shallow whilling outfer, which with the woke- nic thunder, frooks, and noxious fipil, render it very different to the flare ever for a few moments.\"\n}",
+ "usage": {
+  "completion_tokens": 511,
+  "prompt_tokens": 893,
+  "total_tokens": 1404,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 344
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Like other travellers to mount Etaa, this gentleman South wind found the wind blowing from the fourth ; and he is of generally opinion, that a fortunately allows here now requested on the top than any other, as he did not observe any channels curral drama by the water on any other side than the north. He had reversal operation of making this discussion, having frequently visited the top of Etaa, and always paid attention to the crater. The fault on the cuf and well field was always loads, while that on the north was compelled into a fold body. The three formamists were of a later date than the rest of the crater, having been probably thrown up by bone eruption, which had burt aunner. The black spots on the foreground repet- fest a number of hillsides about the rise of mole-hills, from which a fulphumous yearn confronts flyer, and by which the adjacent ground is tinged of an ochery color. This vapor filter from the creatives with a cut of shallow whilling outfer, which with the woke- nic thunder, frooks, and noxious fipil, render it very different to the flare ever for a few moments.",
+  "modern": "Like other travellers to mount Etaa, this gentleman South wind found the wind blowing from the fourth ; and he is of generally opinion, that a fortunately allows here now requested on the top than any other, as he did not observe any channels curral drama by the water on any other side than the north. He had reversal operation of making this discussion, having frequently visited the top of Etaa, and always paid attention to the crater. The fault on the cuf and well field was always loads, while that on the north was compelled into a fold body. The three formamists were of a later date than the rest of the crater, having been probably thrown up by bone eruption, which had burt aunner. The black spots on the foreground repet- fest a number of hillsides about the rise of mole-hills, from which a fulphumous yearn confronts flyer, and by which the adjacent ground is tinged of an ochery color. This vapor filter from the creatives with a cut of shallow whilling outfer, which with the woke- nic thunder, frooks, and noxious fipil, render it very different to the flare ever for a few moments."
+ },
+ "error": null
+}

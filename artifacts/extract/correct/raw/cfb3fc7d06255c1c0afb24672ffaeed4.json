@@ -1,0 +1,31 @@
+{
+ "key": "cfb3fc7d06255c1c0afb24672ffaeed4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Radiance curvature will be infinitly, and the fluid included in the frace ZYHQ will move uniformly as if the field body were not there. The motions on the other side of the axis A,C will be the faming and to read only at tend to our half, and we could conclude as its a late of presence.",
+ "content": "{\n  \"faithful\": \"Refistance. curvature will be inenfible, and the fluid included in the fpace ZYHQ will move uniformly as if the folid body were not there. The motions on the other fide of the axis AC will be the fame ; and we need only attend to one half, and we fhall confider thefe as in a ftate of permanency.\",\n  \"modern\": \"Resistance. curvature will be insensible, and the fluid included in the space ZYHQ will move uniformly as if the solid body were not there. The motions on the other side of the axis AC will be the same; and we need only attend to one half, and we shall consider these as in a state of permanency.\"\n}",
+ "usage": {
+  "completion_tokens": 162,
+  "prompt_tokens": 642,
+  "total_tokens": 804,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Refistance. curvature will be inenfible, and the fluid included in the fpace ZYHQ will move uniformly as if the folid body were not there. The motions on the other fide of the axis AC will be the fame ; and we need only attend to one half, and we fhall confider thefe as in a ftate of permanency.",
+  "modern": "Resistance. curvature will be insensible, and the fluid included in the space ZYHQ will move uniformly as if the solid body were not there. The motions on the other side of the axis AC will be the same; and we need only attend to one half, and we shall consider these as in a state of permanency."
+ },
+ "error": null
+}

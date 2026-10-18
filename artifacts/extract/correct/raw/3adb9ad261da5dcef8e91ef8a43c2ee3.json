@@ -1,0 +1,31 @@
+{
+ "key": "3adb9ad261da5dcef8e91ef8a43c2ee3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "\"The current non-plate knees for securing the otlop-beans, and the iron frontal knees of the other decks, are described in (a) and (a). Place CCCCLV.",
+ "content": "{\n  \"faithful\": \"The current non-plate knees for securing the otlop-beans, and the iron frontal knees of the other decks, are described in (a) and (a). Place CCCCLV. when the ship is rolling, or straining under a press of sail. The curved iron-plate knees for securing the orlop-beams, and the iron forked knees of the other decks, are described in (n) and (m), Plate CCCCLV. The tendency of the ship to stretch or draw asunder\",\n  \"modern\": \"The current non-plate knees for securing the otlop-beans, and the iron frontal knees of the other decks, are described in (a) and (a). Place CCCCLV. when the ship is rolling, or straining under a press of sail. The curved iron-plate knees for securing the orlop-beams, and the iron forked knees of the other decks, are described in (n) and (m), Plate CCCCLV. The tendency of the ship to stretch or draw asunder\"\n}",
+ "usage": {
+  "completion_tokens": 227,
+  "prompt_tokens": 608,
+  "total_tokens": 835,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The current non-plate knees for securing the otlop-beans, and the iron frontal knees of the other decks, are described in (a) and (a). Place CCCCLV. when the ship is rolling, or straining under a press of sail. The curved iron-plate knees for securing the orlop-beams, and the iron forked knees of the other decks, are described in (n) and (m), Plate CCCCLV. The tendency of the ship to stretch or draw asunder",
+  "modern": "The current non-plate knees for securing the otlop-beans, and the iron frontal knees of the other decks, are described in (a) and (a). Place CCCCLV. when the ship is rolling, or straining under a press of sail. The curved iron-plate knees for securing the orlop-beams, and the iron forked knees of the other decks, are described in (n) and (m), Plate CCCCLV. The tendency of the ship to stretch or draw asunder"
+ },
+ "error": null
+}

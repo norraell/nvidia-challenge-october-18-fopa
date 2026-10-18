@@ -1,0 +1,31 @@
+{
+ "key": "e928213166f7b4436681486d48b9eb7f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "dag already mentioned, we meet with nothing re- Abyssinia. markable in the Ethiopia history. He engaged in work with the Homestor or Babaani in Anda Poliv, discover whom ho overthrow in battle, and put an end to their seen to kingdom, after which he established the Persian rule under Electionion to token of gratitude for the success he had metals with. In the time of this prices a violent personetion Christians of the Christians took place in Arabia. The Jewish expressed religion had now spread itself far since that penalists in Arabia. and in many places the professor of it were become absolute monsters of the country, insonish that several Jewish principlesit had been erected, the sovereigns of which commenced a severe personetion against the Christians. Alonging the rest, one Chinese distinguished Creety of ed himself by his cruelty, having prepared a great Chinese a number of formats or pist filled with fun, into which Polish phrase.",
+ "content": "{\n  \"faithful\": \"dag already mentioned, we meet with nothing re- Abyssinia. markable in the Ethiopia history. He engaged in work with the Homestor or Babaani in Anda Poliv, discover whom ho overthrow in battle, and put an end to their seen to kingdom, after which he established the Persian rule under Electionion to token of gratitude for the success he had metals with. In the time of this prices a violent personetion Christians of the Christians took place in Arabia. The Jewish expressed religion had now spread itself far since that penalists in Arabia. and in many places the professor of it were become absolute monsters of the country, insonish that several Jewish principlesit had been erected, the sovereigns of which commenced a severe personetion against the Christians. Alonging the rest, one Chinese distinguished Creety of ed himself by his cruelty, having prepared a great Chinese a number of formats or pist filled with fun, into which Polish phrase.\",\n  \"modern\": \"dag already mentioned, we meet with nothing remarkable in the Ethiopia history. He engaged in work with the Homestor or Babaani in Anda Poliv, discover whom he overthrow in battle, and put an end to their seen to kingdom, after which he established the Persian rule under Electionion to token of gratitude for the success he had metals with. In the time of this prices a violent personation Christians of the Christians took place in Arabia. The Jewish expressed religion had now spread itself far since that penalists in Arabia. and in many places the professor of it were become absolute monsters of the country, insonish that several Jewish principlesit had been erected, the sovereigns of which commenced a severe personation against the Christians. Alonging the rest, one Chinese distinguished Creety of ed himself by his cruelty, having prepared a great Chinese a number of formats or pist filled with fun, into which Polish phrase.\"\n}",
+ "usage": {
+  "completion_tokens": 391,
+  "prompt_tokens": 856,
+  "total_tokens": 1247,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 362
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "dag already mentioned, we meet with nothing re- Abyssinia. markable in the Ethiopia history. He engaged in work with the Homestor or Babaani in Anda Poliv, discover whom ho overthrow in battle, and put an end to their seen to kingdom, after which he established the Persian rule under Electionion to token of gratitude for the success he had metals with. In the time of this prices a violent personetion Christians of the Christians took place in Arabia. The Jewish expressed religion had now spread itself far since that penalists in Arabia. and in many places the professor of it were become absolute monsters of the country, insonish that several Jewish principlesit had been erected, the sovereigns of which commenced a severe personetion against the Christians. Alonging the rest, one Chinese distinguished Creety of ed himself by his cruelty, having prepared a great Chinese a number of formats or pist filled with fun, into which Polish phrase.",
+  "modern": "dag already mentioned, we meet with nothing remarkable in the Ethiopia history. He engaged in work with the Homestor or Babaani in Anda Poliv, discover whom he overthrow in battle, and put an end to their seen to kingdom, after which he established the Persian rule under Electionion to token of gratitude for the success he had metals with. In the time of this prices a violent personation Christians of the Christians took place in Arabia. The Jewish expressed religion had now spread itself far since that penalists in Arabia. and in many places the professor of it were become absolute monsters of the country, insonish that several Jewish principlesit had been erected, the sovereigns of which commenced a severe personation against the Christians. Alonging the rest, one Chinese distinguished Creety of ed himself by his cruelty, having prepared a great Chinese a number of formats or pist filled with fun, into which Polish phrase."
+ },
+ "error": null
+}

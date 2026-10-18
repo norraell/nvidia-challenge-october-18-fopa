@@ -1,0 +1,31 @@
+{
+ "key": "be580ed827576923871d4c7fb089a77e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "It apposed to, this, in the fourth of Germany at kall, if not in the more northern regions of Alina and Europe, the components of the Roman cons., below, they generated into its province, treated their women with a degree of rejects unknown to small the nation of anonymity; it that the character of the warrior was likewife highly honourable, being under flood to unice all those qualities which were in the highest education, and that it was only at a particular age, and with certain forms, that the youth were admitted to be armra.",
+ "content": "{\n  \"faithful\": \"It appears, therefore, that, in the forests of Germany at least, if not in the more northern regions of Asia and Europe, the conquerors of the Roman empire, before they penetrated into its provinces, treated their women with a degree of respect unknown to most of the nations of antiquity; that the character of the warrior was likewise highly honourable, being understood to unite all those qualities which were in the highest estimation; and that it was only at a particular age, and with certain forms, that the youth were admitted to bear arms.\",\n  \"modern\": \"It appears, therefore, that, in the forests of Germany at least, if not in the more northern regions of Asia and Europe, the conquerors of the Roman empire, before they penetrated into its provinces, treated their women with a degree of respect unknown to most of the nations of antiquity; that the character of the warrior was likewise highly honourable, being understood to unite all those qualities which were in the highest estimation; and that it was only at a particular age, and with certain forms, that the youth were admitted to bear arms.\"\n}",
+ "usage": {
+  "completion_tokens": 233,
+  "prompt_tokens": 695,
+  "total_tokens": 928,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "It appears, therefore, that, in the forests of Germany at least, if not in the more northern regions of Asia and Europe, the conquerors of the Roman empire, before they penetrated into its provinces, treated their women with a degree of respect unknown to most of the nations of antiquity; that the character of the warrior was likewise highly honourable, being understood to unite all those qualities which were in the highest estimation; and that it was only at a particular age, and with certain forms, that the youth were admitted to bear arms.",
+  "modern": "It appears, therefore, that, in the forests of Germany at least, if not in the more northern regions of Asia and Europe, the conquerors of the Roman empire, before they penetrated into its provinces, treated their women with a degree of respect unknown to most of the nations of antiquity; that the character of the warrior was likewise highly honourable, being understood to unite all those qualities which were in the highest estimation; and that it was only at a particular age, and with certain forms, that the youth were admitted to bear arms."
+ },
+ "error": null
+}

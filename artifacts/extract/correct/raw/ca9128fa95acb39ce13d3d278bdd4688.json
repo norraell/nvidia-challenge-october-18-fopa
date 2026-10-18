@@ -1,0 +1,31 @@
+{
+ "key": "ca9128fa95acb39ce13d3d278bdd4688",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "7. The hufland, as the head of the wife, has the fate right of managing the good in communities, which is called _jus murals_. This night is to holdout, that in bears but little refremble to aright of administering a common object. For the husband can, in virtue thereof, till, or even gift, at his placeins, the whole goods falling under communion; and his creditors may affect them for the payment of his parents’ duties for that the jus murals carries all the characters of an affigation, by the wife to her husband, of her moveable else. I wanted _life just here the marriages and therefore needs no other condition than. But stronger may convey an offate to a wife, fo as it shall not be falsely on the husband, administration or the hub- hand himself may, in the marriage–contries, economic his _ju murarit_ in all or any part of his wife’s moveable effect.",
+ "content": "{\n  \"faithful\": \"7. The husband, as the head of the wife, has the sole right of managing the goods in communion, which is called jus mariti. This right is so absolute, that it bears but little resemblance to a right of administering a common object. For the husband can, in virtue thereof, till, or even gift, at his pleasure, the whole goods falling under communion; and his creditors may affect them for the payment of his proper debts: for that the jus mariti carries all the characters of an affiliation, by the wife to her husband, of her movable effects. It arises ipso jure from the marriage; and therefore needs no other condition than. But a stranger may convey an effect to a wife, so as it shall not be subject to the husband's administration; or the husband himself may, in the marriage-contract, renounce his jus mariti in all or any part of his wife's movable effects.\",\n  \"modern\": \"7. The husband, as the head of the wife, has the sole right of managing the goods in communion, which is called jus mariti. This right is so absolute, that it bears but little resemblance to a right of administering a common object. For the husband can, in virtue thereof, till, or even gift, at his pleasure, the whole goods falling under communion; and his creditors may affect them for the payment of his proper debts: for that the jus mariti carries all the characters of an affiliation, by the wife to her husband, of her movable effects. It arises ipso jure from the marriage; and therefore needs no other condition than. But a stranger may convey an effect to a wife, so as it shall not be subject to the husband's administration; or the husband himself may, in the marriage-contract, renounce his jus mariti in all or any part of his wife's movable effects.\"\n}",
+ "usage": {
+  "completion_tokens": 399,
+  "prompt_tokens": 791,
+  "total_tokens": 1190,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 287
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "7. The husband, as the head of the wife, has the sole right of managing the goods in communion, which is called jus mariti. This right is so absolute, that it bears but little resemblance to a right of administering a common object. For the husband can, in virtue thereof, till, or even gift, at his pleasure, the whole goods falling under communion; and his creditors may affect them for the payment of his proper debts: for that the jus mariti carries all the characters of an affiliation, by the wife to her husband, of her movable effects. It arises ipso jure from the marriage; and therefore needs no other condition than. But a stranger may convey an effect to a wife, so as it shall not be subject to the husband's administration; or the husband himself may, in the marriage-contract, renounce his jus mariti in all or any part of his wife's movable effects.",
+  "modern": "7. The husband, as the head of the wife, has the sole right of managing the goods in communion, which is called jus mariti. This right is so absolute, that it bears but little resemblance to a right of administering a common object. For the husband can, in virtue thereof, till, or even gift, at his pleasure, the whole goods falling under communion; and his creditors may affect them for the payment of his proper debts: for that the jus mariti carries all the characters of an affiliation, by the wife to her husband, of her movable effects. It arises ipso jure from the marriage; and therefore needs no other condition than. But a stranger may convey an effect to a wife, so as it shall not be subject to the husband's administration; or the husband himself may, in the marriage-contract, renounce his jus mariti in all or any part of his wife's movable effects."
+ },
+ "error": null
+}

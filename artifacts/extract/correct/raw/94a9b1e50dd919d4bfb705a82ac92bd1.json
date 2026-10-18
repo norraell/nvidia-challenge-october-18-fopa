@@ -1,0 +1,31 @@
+{
+ "key": "94a9b1e50dd919d4bfb705a82ac92bd1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The parents is a weight equal that of 1 cubic centimetre of war it in maximum density. It contains 10 decigmumes ± 100 organisms have lost by raw materially into grams of hexagons, a Hexagonmas e 1 klorgmases – 2479514 lbs. ez 224887 lb word). Also No Mlkgummeses 10 mayгges pas a vertical crystal 22-0-08 his word), and 10 quals a weight of cubic meter of water = 1 millier or marine lies 12 yr. on 20 hls. In 57-you.",
+ "content": "{\n  \"faithful\": \"The gramme is a weight equal that of 1 cubic centimetre of water at its maximum density. It contains 10 decigrammes = 100 centigrammes = 15.434 troy grains; and 1000 grammes = 100 decigrammes = 10 hectogrammes = 1 kilogramme = 2.679514 lbs. = 2.204857 lbs. avoirdupois. Also 100 kilogrammes = 10 myriagrammes = 1 metrical quintal = 220.466 lbs. avoirdupois; and 10 quintals = weight of a cubic metre of water = 1 millier or marine ton = 19 Brit. cwt. 2 qrs. 20 lbs. 13.75 oz.\",\n  \"modern\": \"The gram is a weight equal that of 1 cubic centimeter of water at its maximum density. It contains 10 decigrams = 100 centigrams = 15.434 troy grains; and 1000 grams = 100 decigrams = 10 hectograms = 1 kilogram = 2.679514 lbs. = 2.204857 lbs. avoirdupois. Also 100 kilograms = 10 myriagrams = 1 metrical quintal = 220.466 lbs. avoirdupois; and 10 quintals = weight of a cubic meter of water = 1 millier or marine ton = 19 Brit. cwt. 2 qrs. 20 lbs. 13.75 oz.\"\n}",
+ "usage": {
+  "completion_tokens": 397,
+  "prompt_tokens": 742,
+  "total_tokens": 1139,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The gramme is a weight equal that of 1 cubic centimetre of water at its maximum density. It contains 10 decigrammes = 100 centigrammes = 15.434 troy grains; and 1000 grammes = 100 decigrammes = 10 hectogrammes = 1 kilogramme = 2.679514 lbs. = 2.204857 lbs. avoirdupois. Also 100 kilogrammes = 10 myriagrammes = 1 metrical quintal = 220.466 lbs. avoirdupois; and 10 quintals = weight of a cubic metre of water = 1 millier or marine ton = 19 Brit. cwt. 2 qrs. 20 lbs. 13.75 oz.",
+  "modern": "The gram is a weight equal that of 1 cubic centimeter of water at its maximum density. It contains 10 decigrams = 100 centigrams = 15.434 troy grains; and 1000 grams = 100 decigrams = 10 hectograms = 1 kilogram = 2.679514 lbs. = 2.204857 lbs. avoirdupois. Also 100 kilograms = 10 myriagrams = 1 metrical quintal = 220.466 lbs. avoirdupois; and 10 quintals = weight of a cubic meter of water = 1 millier or marine ton = 19 Brit. cwt. 2 qrs. 20 lbs. 13.75 oz."
+ },
+ "error": null
+}

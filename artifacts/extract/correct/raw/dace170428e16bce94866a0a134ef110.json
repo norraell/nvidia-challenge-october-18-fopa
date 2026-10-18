@@ -1,0 +1,31 @@
+{
+ "key": "dace170428e16bce94866a0a134ef110",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "extinguishable barely by the debtor’s retiring or cancel-ling them, the purifier, before a proof of the tenor is admitted, mult condescend on fuch a _cafus amifinosis_, or accident by which the writing was delivery as there it was full here in the creditors à puffilition, otherwise bonds that have been cancelled by the debtor on payment, might be reared up as fill fulfilling against him; But in writings which require current death to extingonlift their effect, as allgations, dispositions charters, etc. It is sufficient to libel that they were left, even _cafa/ferisito_.",
+ "content": "{\n  \"faithful\": \"extinguishable barely by the debtor's retiring or cancelling them, the pursuer, before a proof of the tenor is admitted, must condescend on such a casus amissionis, or accident by which the writing was destroyed, as when it was lost when in the creditor's possession; otherwise bonds that have been cancelled by the debtor on payment, might be reared up as still subsisting against him; But in writings which require contrary deeds to extinguish their effect, as allegations, dispositions, charters, etc. it is sufficient to libel that they were left, even casu fortuito.\",\n  \"modern\": \"extinguishable barely by the debtor's retiring or canceling them, the pursuer, before a proof of the tenor is admitted, must condescend on such a casus amissionis, or accident by which the writing was destroyed, as when it was lost when in the creditor's possession; otherwise bonds that have been canceled by the debtor on payment, might be reared up as still subsisting against him; But in writings which require contrary deeds to extinguish their effect, as allegations, dispositions, charters, etc. it is sufficient to libel that they were left, even casu fortuito.\"\n}",
+ "usage": {
+  "completion_tokens": 269,
+  "prompt_tokens": 729,
+  "total_tokens": 998,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "extinguishable barely by the debtor's retiring or cancelling them, the pursuer, before a proof of the tenor is admitted, must condescend on such a casus amissionis, or accident by which the writing was destroyed, as when it was lost when in the creditor's possession; otherwise bonds that have been cancelled by the debtor on payment, might be reared up as still subsisting against him; But in writings which require contrary deeds to extinguish their effect, as allegations, dispositions, charters, etc. it is sufficient to libel that they were left, even casu fortuito.",
+  "modern": "extinguishable barely by the debtor's retiring or canceling them, the pursuer, before a proof of the tenor is admitted, must condescend on such a casus amissionis, or accident by which the writing was destroyed, as when it was lost when in the creditor's possession; otherwise bonds that have been canceled by the debtor on payment, might be reared up as still subsisting against him; But in writings which require contrary deeds to extinguish their effect, as allegations, dispositions, charters, etc. it is sufficient to libel that they were left, even casu fortuito."
+ },
+ "error": null
+}

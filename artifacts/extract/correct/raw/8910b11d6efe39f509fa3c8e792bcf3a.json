@@ -1,0 +1,31 @@
+{
+ "key": "8910b11d6efe39f509fa3c8e792bcf3a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In the time of the Romans, the inhabitants of Capp-padochs bore fo bad a character, and were reputed to vicious and lewd; thus, among the neighbouring as- tions is wicked man was emphatically called a Giga deira. To after ages, however, their lead difodition was to correded and refined by the pure doctrine of Chilihanity, that the country share has had placed greater champions of the Christian religion, or given to the church prelates of more unblimified characters.",
+ "content": "{\n  \"faithful\": \"In the time of the Romans, the inhabitants of Cappadocia bore fo bad a character, and were reputed fo vicious and lewd, that, among the neighbouring nations, a wicked man was emphatically called a Cappadocian. In after ages, however, their lewd difposition was fo corrected and refrained by the pure doctrines of Christianity, that no country whatever has produced greater champions of the Christian religion, or given to the church prelates of more unblemished characters.\",\n  \"modern\": \"In the time of the Romans, the inhabitants of Cappadocia bore so bad a character, and were reputed so vicious and lewd, that, among the neighbouring nations, a wicked man was emphatically called a Cappadocian. In after ages, however, their lewd disposition was so corrected and restrained by the pure doctrines of Christianity, that no country whatever has produced greater champions of the Christian religion, or given to the church prelates of more unblemished characters.\"\n}",
+ "usage": {
+  "completion_tokens": 213,
+  "prompt_tokens": 698,
+  "total_tokens": 911,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In the time of the Romans, the inhabitants of Cappadocia bore fo bad a character, and were reputed fo vicious and lewd, that, among the neighbouring nations, a wicked man was emphatically called a Cappadocian. In after ages, however, their lewd difposition was fo corrected and refrained by the pure doctrines of Christianity, that no country whatever has produced greater champions of the Christian religion, or given to the church prelates of more unblemished characters.",
+  "modern": "In the time of the Romans, the inhabitants of Cappadocia bore so bad a character, and were reputed so vicious and lewd, that, among the neighbouring nations, a wicked man was emphatically called a Cappadocian. In after ages, however, their lewd disposition was so corrected and restrained by the pure doctrines of Christianity, that no country whatever has produced greater champions of the Christian religion, or given to the church prelates of more unblemished characters."
+ },
+ "error": null
+}

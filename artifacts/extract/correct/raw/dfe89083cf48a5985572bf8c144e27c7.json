@@ -1,0 +1,31 @@
+{
+ "key": "dfe89083cf48a5985572bf8c144e27c7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Exercise, in Sex Laws, figurifies either the perfon entitled to forced to the movable elate of one deceased, or who by law or special appointment is intrudited with the administration of its",
+ "content": "{\n  \"faithful\": \"Exercise, in Sex Laws, figurifies either the perfon entitled to forced to the movable elate of one deceased, or who by law or special appointment is intrudited with the administration of its nor of the will. See LAW. EXECUTOR, in Scott Law, fignifies either the perfon entitled to fucceed to the moveable efate of one deceased, or who by law or fpecial appointment is intrufled with the adminiftration of it. EXECUTORY, in Law, is where an efate in fee\",\n  \"modern\": \"Exercise, in Sex Laws, figurifies either the person entitled to forced to the movable estate of one deceased, or who by law or special appointment is intrusted with the administration of its nor of the will. See LAW. EXECUTOR, in Scott Law, signifies either the person entitled to succeed to the moveable estate of one deceased, or who by law or special appointment is entrusted with the administration of it. EXECUTORY, in Law, is where an estate in fee\"\n}",
+ "usage": {
+  "completion_tokens": 232,
+  "prompt_tokens": 608,
+  "total_tokens": 840,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Exercise, in Sex Laws, figurifies either the perfon entitled to forced to the movable elate of one deceased, or who by law or special appointment is intrudited with the administration of its nor of the will. See LAW. EXECUTOR, in Scott Law, fignifies either the perfon entitled to fucceed to the moveable efate of one deceased, or who by law or fpecial appointment is intrufled with the adminiftration of it. EXECUTORY, in Law, is where an efate in fee",
+  "modern": "Exercise, in Sex Laws, figurifies either the person entitled to forced to the movable estate of one deceased, or who by law or special appointment is intrusted with the administration of its nor of the will. See LAW. EXECUTOR, in Scott Law, signifies either the person entitled to succeed to the moveable estate of one deceased, or who by law or special appointment is entrusted with the administration of it. EXECUTORY, in Law, is where an estate in fee"
+ },
+ "error": null
+}

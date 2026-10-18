@@ -1,0 +1,31 @@
+{
+ "key": "37a5e49a8432e168c30b3e70ad244450",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Order of Life_ THISTES, or of BX Anakaw, a military order of neighborhood in Scotland, the rife and infiltration whereof is variously related by different authors. Leley, bilbp of Roofs, reports, that the girls below the battle between Chichling king of Northumberland, and Humpes king of the Pilots, a bright crois, in form of that whercen on St Andrew (the under false is Scotland) fafferent majority appears to the Hunges; who being grand the victory, ever after bore the figure of that crois on his baners. Others affer, that Auchana King of Scotland ifn influenced the orders, after having any of the famous league offensive and defensive with Charlemagae king of France. But although he still had been acknowledged as the Jhnol of the kingdom of Sozbank from the reign of Achaiu, yet fome refer the beginning of this order to Charles VII, of France. Others place the foundation of as far as the year z too.",
+ "content": "{\n  \"faithful\": \"Order of Life THISTES, or of BX Anakaw, a military order of neighborhood in Scotland, the rife and infiltration whereof is variously related by different authors. Leley, bilbp of Roofs, reports, that the girls below the battle between Chichling king of Northumberland, and Humpes king of the Pilots, a bright crois, in form of that whercen on St Andrew (the under false is Scotland) fafferent majority appears to the Hunges; who being grand the victory, ever after bore the figure of that crois on his baners. Others affer, that Auchana King of Scotland ifn influenced the orders, after having any of the famous league offensive and defensive with Charlemagae king of France. But although he still had been acknowledged as the Jhnol of the kingdom of Sozbank from the reign of Achaiu, yet fome refer the beginning of this order to Charles VII, of France. Others place the foundation of as far as the year z too.\",\n  \"modern\": \"Order of Life THISTES, or of BX Anakaw, a military order of neighborhood in Scotland, the rise and infiltration whereof is variously related by different authors. Leley, bishop of Roofs, reports, that the girls below the battle between Chichling king of Northumberland, and Humpes king of the Pilots, a bright cross, in form of that whercen on St Andrew (the under false is Scotland) different majority appears to the Hunges; who being granted the victory, ever after bore the figure of that cross on his banners. Others assert, that Auchana King of Scotland ifn influenced the orders, after having any of the famous league offensive and defensive with Charlemagne king of France. But although he still had been acknowledged as the Jhnol of the kingdom of Sozbank from the reign of Achaiu, yet some refer the beginning of this order to Charles VII, of France. Others place the foundation of as far as the year z too.\"\n}",
+ "usage": {
+  "completion_tokens": 436,
+  "prompt_tokens": 834,
+  "total_tokens": 1270,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Order of Life THISTES, or of BX Anakaw, a military order of neighborhood in Scotland, the rife and infiltration whereof is variously related by different authors. Leley, bilbp of Roofs, reports, that the girls below the battle between Chichling king of Northumberland, and Humpes king of the Pilots, a bright crois, in form of that whercen on St Andrew (the under false is Scotland) fafferent majority appears to the Hunges; who being grand the victory, ever after bore the figure of that crois on his baners. Others affer, that Auchana King of Scotland ifn influenced the orders, after having any of the famous league offensive and defensive with Charlemagae king of France. But although he still had been acknowledged as the Jhnol of the kingdom of Sozbank from the reign of Achaiu, yet fome refer the beginning of this order to Charles VII, of France. Others place the foundation of as far as the year z too.",
+  "modern": "Order of Life THISTES, or of BX Anakaw, a military order of neighborhood in Scotland, the rise and infiltration whereof is variously related by different authors. Leley, bishop of Roofs, reports, that the girls below the battle between Chichling king of Northumberland, and Humpes king of the Pilots, a bright cross, in form of that whercen on St Andrew (the under false is Scotland) different majority appears to the Hunges; who being granted the victory, ever after bore the figure of that cross on his banners. Others assert, that Auchana King of Scotland ifn influenced the orders, after having any of the famous league offensive and defensive with Charlemagne king of France. But although he still had been acknowledged as the Jhnol of the kingdom of Sozbank from the reign of Achaiu, yet some refer the beginning of this order to Charles VII, of France. Others place the foundation of as far as the year z too."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "eeaf660919aac48b576cccaa2ff8dd4f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Alom is known to be a neutral fats, confiling of the vintile aid and a deliberate earth. When the falls is calined with the fecal matter, or other fulbiances as bounding in oil, the volatile principles of their fulbiances, fact by the their plagey their files, and their oils, while in the fine manner so if they were difficiled; and then is nothing left in the matras, when thiefe principles are diffused, but a charred matter, like that which is found in recent wherein fach mixers have been decompelled by distillation.",
+ "content": "{\n  \"faithful\": \"Alom is known to be a neutral fats, confiling of the vintile aid and a deliberate earth. When the falls is calined with the fecal matter, or other fulbiances as bounding in oil, the volatile principles of their fulbiances, fact by the their plagey their files, and their oils, while in the fine manner so if they were difficiled; and then is nothing left in the matras, when thiefe principles are diffused, but a charred matter, like that which is found in recent wherein fach mixers have been decompelled by distillation.\",\n  \"modern\": \"Alom is known to be a neutral fats, confiling of the vintile aid and a deliberate earth. When the falls is calined with the fecal matter, or other fulbiances as bounding in oil, the volatile principles of their fulbiances, fact by the their plagey their files, and their oils, while in the fine manner so if they were difficiled; and then is nothing left in the matras, when thiefe principles are diffused, but a charred matter, like that which is found in recent wherein fach mixers have been decompelled by distillation.\"\n}",
+ "usage": {
+  "completion_tokens": 257,
+  "prompt_tokens": 688,
+  "total_tokens": 945,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Alom is known to be a neutral fats, confiling of the vintile aid and a deliberate earth. When the falls is calined with the fecal matter, or other fulbiances as bounding in oil, the volatile principles of their fulbiances, fact by the their plagey their files, and their oils, while in the fine manner so if they were difficiled; and then is nothing left in the matras, when thiefe principles are diffused, but a charred matter, like that which is found in recent wherein fach mixers have been decompelled by distillation.",
+  "modern": "Alom is known to be a neutral fats, confiling of the vintile aid and a deliberate earth. When the falls is calined with the fecal matter, or other fulbiances as bounding in oil, the volatile principles of their fulbiances, fact by the their plagey their files, and their oils, while in the fine manner so if they were difficiled; and then is nothing left in the matras, when thiefe principles are diffused, but a charred matter, like that which is found in recent wherein fach mixers have been decompelled by distillation."
+ },
+ "error": null
+}

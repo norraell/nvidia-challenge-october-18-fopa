@@ -1,0 +1,31 @@
+{
+ "key": "0f6bd1eb912473d95e0042ec13fb3b0e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "OUNDELE, a market town of Northamptomhire, fituated on the river Nen, twenty-two miles north-caf of North- ampons.",
+ "content": "{\n  \"faithful\": \"OUNDELE, a market town of Northamptomshire, fituated on the river Nen, twenty-two miles north-caf of North- ampons.\",\n  \"modern\": \"OUNDELE, a market town of Northamptonshire, situated on the river Nen, twenty-two miles north-east of Northampton.\"\n}",
+ "usage": {
+  "completion_tokens": 80,
+  "prompt_tokens": 605,
+  "total_tokens": 685,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "OUNDELE, a market town of Northamptomshire, fituated on the river Nen, twenty-two miles north-caf of North- ampons.",
+  "modern": "OUNDELE, a market town of Northamptonshire, situated on the river Nen, twenty-two miles north-east of Northampton."
+ },
+ "error": null
+}

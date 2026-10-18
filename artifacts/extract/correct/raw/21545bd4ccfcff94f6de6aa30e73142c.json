@@ -1,0 +1,31 @@
+{
+ "key": "21545bd4ccfcff94f6de6aa30e73142c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "SYDINHAM (Dr.) Thomas), an excellent English phys-\nfusion, was the fan of William Sychham of Wanilor Eagle\nin Dorforth, and was born there about the year 1934.\nHe funded at Magdalach-ball, Oxford, but left the univi-\nrly when Oxford was performed for King Charles J. and\nwent to London; where, becoming acquainted with Dr\nThomas Cox, an entirely physician, and perhaps perfua-\neded him to apply himself for the duty of physics, according-\nly, after the garrifon was delivered up to the parliament,\nhe rented again in Magdalan ball, entered on the body of medicine, and in 16% was created backache of his faculty at home.\nWhen you made a fellow of All-Souls college, and corti-\nnued direct burial years where, leaving the maturity, he\nfarled to Wedthming become delicer of his faculty atce-\nbridge; grew famous for his practice; and was the chief\nphysician and London they ran 1660 to 16/20, as which\nwas done he began to be disliked by the good. He died in\n1695. His works are highly effecemed both at home and\nabroad. He was famous for his cool regimen in the final-\npx y-for giving the bark after the paroxym in agues 1 and for",
+ "content": "{\n  \"faithful\": \"SYDENHAM (Dr. Thomas), an excellent English physician, was the son of William Sydenham of Wynford Eagle in Dorsetshire, and was born there about the year 1624. He studied at Magdalen-hall, Oxford; but left that university when Oxford was garrisoned for king Charles I. and went to London; where, becoming acquainted with Dr Thomas Cox, an eminent physician, that gentleman persuaded him to apply himself to the study of physick; accordingly, after the garrison was delivered up to the parliament, he retired again to Magdalen-hall, entered on the study of medicine, and in 1648 was created bachelor of physick. Soon after, he was made a fellow of All-Souls college, and continued there several years: when, leaving the university, he settled at Westminster; became doctor of his faculty at Cambridge; grew famous for his practice; and was the chief physician in London from the year 1660 to 1670; at which period he began to be disabled by the gout. He died in 1689. His works are highly esteemed both at home and abroad. He was famous for his cool regimen in the small-pox; for giving the bark after the paroxysm in agues; and for\",\n  \"modern\": \"SYDENHAM (Dr. Thomas), an excellent English physician, was the son of William Sydenham of Wynford Eagle in Dorsetshire, and was born there about the year 1624. He studied at Magdalen-hall, Oxford; but left that university when Oxford was garrisoned for king Charles I. and went to London; where, becoming acquainted with Dr Thomas Cox, an eminent physician, that gentleman persuaded him to apply himself to the study of physick; accordingly, after the garrison was delivered up to the parliament, he retired again to Magdalen-hall, entered on the study of medicine, and in 1648 was created bachelor of physick. Soon after, he was made a fellow of All-Souls college, and continued there several years: when, leaving the university, he settled at Westminster; became doctor of his faculty at Cambridge; grew famous for his practice; and was the chief physician in London from the year 1660 to 1670; at which period he began to be disabled by the gout. He died in 1689. His works are highly esteemed both at home and abroad. He was famous for his cool regimen in the small-pox; for giving the bark after the paroxysm in agues; and for\"\n}",
+ "usage": {
+  "completion_tokens": 565,
+  "prompt_tokens": 964,
+  "total_tokens": 1529,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 362
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "SYDENHAM (Dr. Thomas), an excellent English physician, was the son of William Sydenham of Wynford Eagle in Dorsetshire, and was born there about the year 1624. He studied at Magdalen-hall, Oxford; but left that university when Oxford was garrisoned for king Charles I. and went to London; where, becoming acquainted with Dr Thomas Cox, an eminent physician, that gentleman persuaded him to apply himself to the study of physick; accordingly, after the garrison was delivered up to the parliament, he retired again to Magdalen-hall, entered on the study of medicine, and in 1648 was created bachelor of physick. Soon after, he was made a fellow of All-Souls college, and continued there several years: when, leaving the university, he settled at Westminster; became doctor of his faculty at Cambridge; grew famous for his practice; and was the chief physician in London from the year 1660 to 1670; at which period he began to be disabled by the gout. He died in 1689. His works are highly esteemed both at home and abroad. He was famous for his cool regimen in the small-pox; for giving the bark after the paroxysm in agues; and for",
+  "modern": "SYDENHAM (Dr. Thomas), an excellent English physician, was the son of William Sydenham of Wynford Eagle in Dorsetshire, and was born there about the year 1624. He studied at Magdalen-hall, Oxford; but left that university when Oxford was garrisoned for king Charles I. and went to London; where, becoming acquainted with Dr Thomas Cox, an eminent physician, that gentleman persuaded him to apply himself to the study of physick; accordingly, after the garrison was delivered up to the parliament, he retired again to Magdalen-hall, entered on the study of medicine, and in 1648 was created bachelor of physick. Soon after, he was made a fellow of All-Souls college, and continued there several years: when, leaving the university, he settled at Westminster; became doctor of his faculty at Cambridge; grew famous for his practice; and was the chief physician in London from the year 1660 to 1670; at which period he began to be disabled by the gout. He died in 1689. His works are highly esteemed both at home and abroad. He was famous for his cool regimen in the small-pox; for giving the bark after the paroxysm in agues; and for"
+ },
+ "error": null
+}

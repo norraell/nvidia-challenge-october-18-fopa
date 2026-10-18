@@ -1,0 +1,31 @@
+{
+ "key": "429d31b9710ba25482f0ebc0cdfe0a4f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The narrow-level borrowback, fig. to divides as it\nrifes, into narrow leaves made up of regular rows of\nobbing figures shaped into placed alternates by each\nother, and opposed to an equal number on the other\nfile of the leaf, like an honeycomb, from their leaves\nproved, other still familiar difference numifications,\nmany of which femen to be connected at the lower part\nby tub), as in the corailings; by which means they\ncan play to and for those freely in the waters—Give\nthe natural appearance of this condition. E. reporters\ntwo leaves with their shall and cells magnified. E. t\nis a covid fiction of one of the leaves at E, flowing the\npartition and inner form of their cells.",
+ "content": "{\n  \"faithful\": \"The narrow-leaved hornwrack, fig. 9. divides as it rifses, into narrow leaves made up of regular rows of oblong square-shaped cells placed alternately by each other, and opposite to an equal number on the other side of the leaf, like an honeycomb; from these leaves proceed other till smaller foliaceous ramifications, many of which seem to be connected at the lower part by tubuli, as in the corallines; by which means they can ply to and fro more freely in the waters.—Gives the natural appearance of this coralline. E. represents two leaves with their tubuli and cells magnified. E. 1 is a crofs fection of one of the leaves at E, flowing the partition and inner form of their cells.\",\n  \"modern\": \"The narrow-leaved hornwrack, fig. 9. divides as it rises, into narrow leaves made up of regular rows of oblong square-shaped cells placed alternately by each other, and opposite to an equal number on the other side of the leaf, like a honeycomb; from these leaves proceed other till smaller foliaceous ramifications, many of which seem to be connected at the lower part by tubuli, as in the corallines; by which means they can ply to and fro more freely in the waters.—Gives the natural appearance of this coralline. E. represents two leaves with their tubuli and cells magnified. E. 1 is a cross section of one of the leaves at E, flowing the partition and inner form of their cells.\"\n}",
+ "usage": {
+  "completion_tokens": 335,
+  "prompt_tokens": 738,
+  "total_tokens": 1073,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The narrow-leaved hornwrack, fig. 9. divides as it rifses, into narrow leaves made up of regular rows of oblong square-shaped cells placed alternately by each other, and opposite to an equal number on the other side of the leaf, like an honeycomb; from these leaves proceed other till smaller foliaceous ramifications, many of which seem to be connected at the lower part by tubuli, as in the corallines; by which means they can ply to and fro more freely in the waters.—Gives the natural appearance of this coralline. E. represents two leaves with their tubuli and cells magnified. E. 1 is a crofs fection of one of the leaves at E, flowing the partition and inner form of their cells.",
+  "modern": "The narrow-leaved hornwrack, fig. 9. divides as it rises, into narrow leaves made up of regular rows of oblong square-shaped cells placed alternately by each other, and opposite to an equal number on the other side of the leaf, like a honeycomb; from these leaves proceed other till smaller foliaceous ramifications, many of which seem to be connected at the lower part by tubuli, as in the corallines; by which means they can ply to and fro more freely in the waters.—Gives the natural appearance of this coralline. E. represents two leaves with their tubuli and cells magnified. E. 1 is a cross section of one of the leaves at E, flowing the partition and inner form of their cells."
+ },
+ "error": null
+}

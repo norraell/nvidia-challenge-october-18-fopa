@@ -1,0 +1,31 @@
+{
+ "key": "8aeb9dd23880495708ac0f497ff71ebb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "St Thomas y of Cantesterpil, by a feffral of the Domlin, church, observed on Dec. 22, in memory of Thomas Becker archbishop of Canteterboy, who was murdered, or, as the Romanilla fay, martyred, in the reign of king Henry II.",
+ "content": "{\n  \"faithful\": \"St Thomas of Canterbury's day, a festival of the Romish church, observed on Dec. 29, in memory of Thomas Becket archbishop of Canterbury, who was murdered, or, as the Romanists say, martyred, in the reign of king Henry II.\",\n  \"modern\": \"St Thomas of Canterbury's day, a festival of the Romish church, observed on Dec. 29, in memory of Thomas Becket archbishop of Canterbury, who was murdered, or, as the Romanists say, martyred, in the reign of king Henry II.\"\n}",
+ "usage": {
+  "completion_tokens": 131,
+  "prompt_tokens": 638,
+  "total_tokens": 769,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "St Thomas of Canterbury's day, a festival of the Romish church, observed on Dec. 29, in memory of Thomas Becket archbishop of Canterbury, who was murdered, or, as the Romanists say, martyred, in the reign of king Henry II.",
+  "modern": "St Thomas of Canterbury's day, a festival of the Romish church, observed on Dec. 29, in memory of Thomas Becket archbishop of Canterbury, who was murdered, or, as the Romanists say, martyred, in the reign of king Henry II."
+ },
+ "error": null
+}

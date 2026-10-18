@@ -1,0 +1,31 @@
+{
+ "key": "bd4bb1eae02b1d28607b9b5deb95d679",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The flesh of the common afs is never eaten in thefe parts of the world; though home pretend their colts are tender, and not difagreeable. [Plate LXXV. fig.2]",
+ "content": "{\n  \"faithful\": \"The flesh of the common afs is never eaten in thefe parts of the world; though fome pretend their colts are tender, and not difagreeable. [Plate LXXV. fig.2]\",\n  \"modern\": \"The flesh of the common ass is never eaten in these parts of the world; though some pretend their colts are tender, and not disagreeable. [Plate LXXV. fig.2]\"\n}",
+ "usage": {
+  "completion_tokens": 101,
+  "prompt_tokens": 643,
+  "total_tokens": 744,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 298
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The flesh of the common afs is never eaten in thefe parts of the world; though fome pretend their colts are tender, and not difagreeable. [Plate LXXV. fig.2]",
+  "modern": "The flesh of the common ass is never eaten in these parts of the world; though some pretend their colts are tender, and not disagreeable. [Plate LXXV. fig.2]"
+ },
+ "error": null
+}

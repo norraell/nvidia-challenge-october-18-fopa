@@ -1,0 +1,31 @@
+{
+ "key": "2032069bc13fc174b4694f6c9e06d335",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_536: Efential oil of fuerin leaves_ L. E.",
+ "content": "{\n  \"faithful\": \"_536: Efential oil of fauerin leaves_ L. E.\",\n  \"modern\": \"536: Essential oil of savin leaves L. E.\"\n}",
+ "usage": {
+  "completion_tokens": 46,
+  "prompt_tokens": 608,
+  "total_tokens": 654,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_536: Efential oil of fauerin leaves_ L. E.",
+  "modern": "536: Essential oil of savin leaves L. E."
+ },
+ "error": null
+}

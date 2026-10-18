@@ -1,0 +1,31 @@
+{
+ "key": "2dfa7e19fe85de2701ce80d79cb59ec4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In the Czaraba, in which the absence of pelvis affords\nno mark to distinguish the lower vertebro into lumbar,\nsacral, and coccygeal, those below the dorsal may be re-",
+ "content": "{\n  \"faithful\": \"In the Czaraba, in which the absence of pelvis affords no mark to distinguish the lower vertebro into lumbar, sacral, and coccygeal, those below the dorsal may be re- In the Cetacea, in which the absence of pelvis affords no mark to distinguish the lower vertebrae into lumbar, sacral, and coccygeal, those below the dorsal may be re-\",\n  \"modern\": \"In the Czaraba, in which the absence of pelvis affords no mark to distinguish the lower vertebrae into lumbar, sacral, and coccygeal, those below the dorsal may be re- In the Cetacea, in which the absence of pelvis affords no mark to distinguish the lower vertebrae into lumbar, sacral, and coccygeal, those below the dorsal may be re-\"\n}",
+ "usage": {
+  "completion_tokens": 176,
+  "prompt_tokens": 619,
+  "total_tokens": 795,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In the Czaraba, in which the absence of pelvis affords no mark to distinguish the lower vertebro into lumbar, sacral, and coccygeal, those below the dorsal may be re- In the Cetacea, in which the absence of pelvis affords no mark to distinguish the lower vertebrae into lumbar, sacral, and coccygeal, those below the dorsal may be re-",
+  "modern": "In the Czaraba, in which the absence of pelvis affords no mark to distinguish the lower vertebrae into lumbar, sacral, and coccygeal, those below the dorsal may be re- In the Cetacea, in which the absence of pelvis affords no mark to distinguish the lower vertebrae into lumbar, sacral, and coccygeal, those below the dorsal may be re-"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "f969bb8ce893859345ba9e2579e635fe",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Love, the lifeliftentment in all animals, is the on- ly pathion which infiples the ram with any degree of vi- vacity; when under the influence of this pallon, he bo- come prettien, more significant and sometimes even attacks the flhepherh himself. But the ew, so fit- male, though in the fame litution, does not appear to be in the last affected; it the items to have no other difficult than that of simply admitting the embraces of the ram, eating her food, and recognizing her offspring; the lamb, on the other hand, is endowed with the fame inflint of diliguishing its means from the self of the dock.",
+ "content": "{\n  \"faithful\": \"Love, the lifeliftentment in all animals, is the on- ly pathion which infiples the ram with any degree of vi- vacity; when under the influence of this pallon, he bo- come prettien, more significant and sometimes even attacks the flhepherh himself. But the ew, so fit- male, though in the fame litution, does not appear to be in the last affected; it the items to have no other difficult than that of simply admitting the embraces of the ram, eating her food, and recognizing her offspring; the lamb, on the other hand, is endowed with the fame inflint of diliguishing its means from the self of the dock.\",\n  \"modern\": \"Love, the lifeliftentment in all animals, is the only passion which inspires the ram with any degree of vivacity; when under the influence of this passion, he becomes petulant, more significant and sometimes even attacks the shepherd himself. But the ewe, so female, though in the same situation, does not appear to be in the least affected; it seems to have no other difficulty than that of simply admitting the embraces of the ram, eating her food, and recognizing her offspring; the lamb, on the other hand, is endowed with the same instinct of distinguishing its mother from the rest of the flock.\"\n}",
+ "usage": {
+  "completion_tokens": 291,
+  "prompt_tokens": 727,
+  "total_tokens": 1018,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Love, the lifeliftentment in all animals, is the on- ly pathion which infiples the ram with any degree of vi- vacity; when under the influence of this pallon, he bo- come prettien, more significant and sometimes even attacks the flhepherh himself. But the ew, so fit- male, though in the fame litution, does not appear to be in the last affected; it the items to have no other difficult than that of simply admitting the embraces of the ram, eating her food, and recognizing her offspring; the lamb, on the other hand, is endowed with the fame inflint of diliguishing its means from the self of the dock.",
+  "modern": "Love, the lifeliftentment in all animals, is the only passion which inspires the ram with any degree of vivacity; when under the influence of this passion, he becomes petulant, more significant and sometimes even attacks the shepherd himself. But the ewe, so female, though in the same situation, does not appear to be in the least affected; it seems to have no other difficulty than that of simply admitting the embraces of the ram, eating her food, and recognizing her offspring; the lamb, on the other hand, is endowed with the same instinct of distinguishing its mother from the rest of the flock."
+ },
+ "error": null
+}

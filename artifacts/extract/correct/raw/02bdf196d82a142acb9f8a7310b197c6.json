@@ -1,0 +1,31 @@
+{
+ "key": "02bdf196d82a142acb9f8a7310b197c6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Radizing as these stores did in opposite direction from the most rigid part of the ship as their lines, they play-fished a setter of points of support to the principal long- undained ties, they formed with them a system of timeless and the triangular is a figure which admits of no an element of form for at longing as his sides remain the same; the angles are invariable. It might almost be called to impomphether, for the range of quarters-deck and forecast se- cortiles, by which we mean the clamp, shelf, and water-way, to drop at the extremities excepting to so far as the compressibility of the materials would admit.",
+ "content": "{\n  \"faithful\": \"Radizing as these stores did in opposite direction from the most rigid part of the ship as their lines, they play-fished a setter of points of support to the principal long- undained ties, they formed with them a system of timeless and the triangular is a figure which admits of no an element of form for at longing as his sides remain the same; the angles are invariable. It might almost be called to impomphether, for the range of quarters-deck and forecast se- cortiles, by which we mean the clamp, shelf, and water-way, to drop at the extremities excepting to so far as the compressibility of the materials would admit.\",\n  \"modern\": \"Radizing as these stores did in opposite direction from the most rigid part of the ship as their lines, they play-fished a setter of points of support to the principal long- undained ties, they formed with them a system of timeless and the triangular is a figure which admits of no an element of form for at longing as his sides remain the same; the angles are invariable. It might almost be called to impomphether, for the range of quarters-deck and forecast se- cortiles, by which we mean the clamp, shelf, and water-way, to drop at the extremities excepting to so far as the compressibility of the materials would admit.\"\n}",
+ "usage": {
+  "completion_tokens": 289,
+  "prompt_tokens": 716,
+  "total_tokens": 1005,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Radizing as these stores did in opposite direction from the most rigid part of the ship as their lines, they play-fished a setter of points of support to the principal long- undained ties, they formed with them a system of timeless and the triangular is a figure which admits of no an element of form for at longing as his sides remain the same; the angles are invariable. It might almost be called to impomphether, for the range of quarters-deck and forecast se- cortiles, by which we mean the clamp, shelf, and water-way, to drop at the extremities excepting to so far as the compressibility of the materials would admit.",
+  "modern": "Radizing as these stores did in opposite direction from the most rigid part of the ship as their lines, they play-fished a setter of points of support to the principal long- undained ties, they formed with them a system of timeless and the triangular is a figure which admits of no an element of form for at longing as his sides remain the same; the angles are invariable. It might almost be called to impomphether, for the range of quarters-deck and forecast se- cortiles, by which we mean the clamp, shelf, and water-way, to drop at the extremities excepting to so far as the compressibility of the materials would admit."
+ },
+ "error": null
+}

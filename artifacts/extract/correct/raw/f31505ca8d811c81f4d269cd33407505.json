@@ -1,0 +1,31 @@
+{
+ "key": "f31505ca8d811c81f4d269cd33407505",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Ofre. The buds, picked with vinegar, Sez are brought to Britain annually from Italy and the Medi-terranean. They are fuppoted to excite appetite and still life projections, and to be particularly fertile a deter- gents and appraiser in individualities of the liver and fpteen.",
+ "content": "{\n  \"faithful\": \"Ofre. The buds, picked with vinegar, Sez are brought to Britain annually from Italy and the Medi-terranean. They are fuppoted to excite appetite and still life projections, and to be particularly fertile a deter- gents and appraiser in individualities of the liver and fpteen.\",\n  \"modern\": \"Ofre. The buds, picked with vinegar, Sez are brought to Britain annually from Italy and the Mediterranean. They are supposed to excite appetite and still life projections, and to be particularly fertile a detergents and appraiser in individualities of the liver and spleen.\"\n}",
+ "usage": {
+  "completion_tokens": 136,
+  "prompt_tokens": 629,
+  "total_tokens": 765,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Ofre. The buds, picked with vinegar, Sez are brought to Britain annually from Italy and the Medi-terranean. They are fuppoted to excite appetite and still life projections, and to be particularly fertile a deter- gents and appraiser in individualities of the liver and fpteen.",
+  "modern": "Ofre. The buds, picked with vinegar, Sez are brought to Britain annually from Italy and the Mediterranean. They are supposed to excite appetite and still life projections, and to be particularly fertile a detergents and appraiser in individualities of the liver and spleen."
+ },
+ "error": null
+}

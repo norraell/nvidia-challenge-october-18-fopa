@@ -1,0 +1,31 @@
+{
+ "key": "8b6940e6ad0eefca9ff84bed5ce0de4c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ACT, in general, denotes the exertion of powers and differs from power, as the result from the caife.",
+ "content": "{\n  \"faithful\": \"ACT, in general, denotes the exertion of powers and differs from power, as the effect from the cause.\",\n  \"modern\": \"ACT, in general, denotes the exertion of powers and differs from power, as the effect from the cause.\"\n}",
+ "usage": {
+  "completion_tokens": 61,
+  "prompt_tokens": 614,
+  "total_tokens": 675,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ACT, in general, denotes the exertion of powers and differs from power, as the effect from the cause.",
+  "modern": "ACT, in general, denotes the exertion of powers and differs from power, as the effect from the cause."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "6b0c56b6ba985f3d2617a998d8015f8b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Exgraving, the real comidifier and of pollicity. Engraving in this country fuuted a heavy his win when he died; and if the death of to excelture an still may be considered as a public lolc, his certainly the most delt reflect to Woolley who deal while he was yet improving in that excellence (b).",
+ "content": "{\n  \"faithful\": \"Engraving, the real connoisseur and of politeness. Engraving in this country sustained a heavy loss when he died; and if the death of so excellent an artist may be considered as a public loss, it is certainly the more felt with respect to Woollett, who died while he was yet improving in that excellence (b).\",\n  \"modern\": \"Engraving, the real connoisseur and of politeness. Engraving in this country sustained a heavy loss when he died; and if the death of so excellent an artist may be considered as a public loss, it is certainly the more felt with respect to Woollett, who died while he was yet improving in that excellence (b).\"\n}",
+ "usage": {
+  "completion_tokens": 157,
+  "prompt_tokens": 657,
+  "total_tokens": 814,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Engraving, the real connoisseur and of politeness. Engraving in this country sustained a heavy loss when he died; and if the death of so excellent an artist may be considered as a public loss, it is certainly the more felt with respect to Woollett, who died while he was yet improving in that excellence (b).",
+  "modern": "Engraving, the real connoisseur and of politeness. Engraving in this country sustained a heavy loss when he died; and if the death of so excellent an artist may be considered as a public loss, it is certainly the more felt with respect to Woollett, who died while he was yet improving in that excellence (b)."
+ },
+ "error": null
+}

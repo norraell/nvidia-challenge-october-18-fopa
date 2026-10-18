@@ -1,0 +1,31 @@
+{
+ "key": "d89350f8150f3319c7bc6f402dc737c0",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_At Clachy’ definition of for instance, for teaching Cheete's music to people deprived of fight, and to enable them to machine, precise their compositions, in the kind of compelling, with PLAXVII, and the influence of a cryptic — “Thema of the am Ago v chine which represents the book, or paper, is a small culmite fluffus, on a little frames along which, is fewed a number of pick-thrid fringe, at equal of flances from each other; their reprend the lines in a much book of the five which compete the films, are made of larger trees; and those which represent the leger or occasional lines, drawn through the heads of the ones, where the multic encoded the gemapel of the ethabilified flaws, are made of final tones, and are on this machine of the fame length as the others.",
+ "content": "{\n  \"faithful\": \"Mr Cheete's definition of his machine for teaching music to people deprived of fight, and to enable them to machine, precise their compositions, in the kind of compelling, with PLAXVII, and the influence of a cryptic — “Thema of the am Ago v chine which represents the book, or paper, is a small culmite fluffus, on a little frames along which, is fewed a number of pick-thrid fringe, at equal of flances from each other; their reprend the lines in a much book of the five which compete the films, are made of larger trees; and those which represent the leger or occasional lines, drawn through the heads of the ones, where the multic encoded the gemapel of the ethabilified flaws, are made of final tones, and are on this machine of the fame length as the others.\",\n  \"modern\": \"Mr Cheete's definition of his machine for teaching music to people deprived of fight, and to enable them to machine, precise their compositions, in the kind of compelling, with PLAXVII, and the influence of a cryptic — “Thema of the am Ago v chine which represents the book, or paper, is a small culmite fluffus, on a little frames along which, is fewed a number of pick-thrid fringe, at equal of flances from each other; their reprend the lines in a much book of the five which compete the films, are made of larger trees; and those which represent the leger or occasional lines, drawn through the heads of the ones, where the multic encoded the gemapel of the ethabilified flaws, are made of final tones, and are on this machine of the fame length as the others.\"\n}",
+ "usage": {
+  "completion_tokens": 367,
+  "prompt_tokens": 744,
+  "total_tokens": 1111,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Mr Cheete's definition of his machine for teaching music to people deprived of fight, and to enable them to machine, precise their compositions, in the kind of compelling, with PLAXVII, and the influence of a cryptic — “Thema of the am Ago v chine which represents the book, or paper, is a small culmite fluffus, on a little frames along which, is fewed a number of pick-thrid fringe, at equal of flances from each other; their reprend the lines in a much book of the five which compete the films, are made of larger trees; and those which represent the leger or occasional lines, drawn through the heads of the ones, where the multic encoded the gemapel of the ethabilified flaws, are made of final tones, and are on this machine of the fame length as the others.",
+  "modern": "Mr Cheete's definition of his machine for teaching music to people deprived of fight, and to enable them to machine, precise their compositions, in the kind of compelling, with PLAXVII, and the influence of a cryptic — “Thema of the am Ago v chine which represents the book, or paper, is a small culmite fluffus, on a little frames along which, is fewed a number of pick-thrid fringe, at equal of flances from each other; their reprend the lines in a much book of the five which compete the films, are made of larger trees; and those which represent the leger or occasional lines, drawn through the heads of the ones, where the multic encoded the gemapel of the ethabilified flaws, are made of final tones, and are on this machine of the fame length as the others."
+ },
+ "error": null
+}

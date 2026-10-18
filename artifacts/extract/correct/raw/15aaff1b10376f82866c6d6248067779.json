@@ -1,0 +1,31 @@
+{
+ "key": "15aaff1b10376f82866c6d6248067779",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publishes of the proceeding tells me that it alone. This, however, is useless, unless a correct judgment is passed upon what is done.",
+ "content": "{\n  \"faithful\": \"One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done.\",\n  \"modern\": \"One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done.\"\n}",
+ "usage": {
+  "completion_tokens": 121,
+  "prompt_tokens": 645,
+  "total_tokens": 766,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done.",
+  "modern": "One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done."
+ },
+ "error": null
+}

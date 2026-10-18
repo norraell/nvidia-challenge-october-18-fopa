@@ -1,0 +1,31 @@
+{
+ "key": "a378f292fa9fe5749d858d7c8d90ec55",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "At present damful is applied to all meals or girls not yet material, provided by be not of the vulgar.",
+ "content": "{\n  \"faithful\": \"At prefent damfel is applied to all maids or girls not yet married, provided they be not of the vulgar.\",\n  \"modern\": \"At present damsel is applied to all maids or girls not yet married, provided they be not of the vulgar.\"\n}",
+ "usage": {
+  "completion_tokens": 64,
+  "prompt_tokens": 613,
+  "total_tokens": 677,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "At prefent damfel is applied to all maids or girls not yet married, provided they be not of the vulgar.",
+  "modern": "At present damsel is applied to all maids or girls not yet married, provided they be not of the vulgar."
+ },
+ "error": null
+}

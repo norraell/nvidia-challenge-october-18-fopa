@@ -1,0 +1,31 @@
+{
+ "key": "266ab23078db3705b783e1013b7548a9",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Leaves are picked from the flalks, and flowers from\ntheir crops. They are beaten in a marble mortar,\nwith a wooden peille, into a smooth mafs after\nwhich three there weight of double-refined fugar is\nadded by degrees, and the beating continued till\nthey are uniformly mixed.",
+ "content": "{\n  \"faithful\": \"Leaves are picked from the falks, and flowers from their cups. They are beaten in a marble mortar, with a wooden peftle, into a fmooth mafs; after which thrice their weight of double-refined fugar is added by degrees, and the beating continued till they are uniformly mixed.\",\n  \"modern\": \"Leaves are picked from the stalks, and flowers from their cups. They are beaten in a marble mortar, with a wooden pestle, into a smooth mass; after which thrice their weight of double-refined sugar is added by degrees, and the beating continued till they are uniformly mixed.\"\n}",
+ "usage": {
+  "completion_tokens": 139,
+  "prompt_tokens": 658,
+  "total_tokens": 797,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Leaves are picked from the falks, and flowers from their cups. They are beaten in a marble mortar, with a wooden peftle, into a fmooth mafs; after which thrice their weight of double-refined fugar is added by degrees, and the beating continued till they are uniformly mixed.",
+  "modern": "Leaves are picked from the stalks, and flowers from their cups. They are beaten in a marble mortar, with a wooden pestle, into a smooth mass; after which thrice their weight of double-refined sugar is added by degrees, and the beating continued till they are uniformly mixed."
+ },
+ "error": null
+}

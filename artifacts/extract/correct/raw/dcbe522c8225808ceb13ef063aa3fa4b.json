@@ -1,0 +1,31 @@
+{
+ "key": "dcbe522c8225808ceb13ef063aa3fa4b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "It is here otherable, that in the cafe of diverging rays falling upon a convex furace, (fe fig. 7) the further the point It is taken from B, not never the point F, the focus of the refleted rays, approaches to B, while the radiant R remains the fame. For is in evident from the curvature of events, thus the ripet D (fig. 9) may be te ken fo far from B, that the refleted ray DE final proceed as from F, G, H, or even from B, or from points between B and R; and the further is in taken from B, the father the point from which it pro- cocis, appochoz toward R is will easily appear if we doue forced incident rays with that respec- tive reflected ones, in fashion than that angles of reflection may be all equal to their refleting angles of incidentes as at those in the figure. The fact is applicable to any of the other cafes of diverging or converging rays incident upon a spherical surface. That is the reason, that when rays are considered as es- flected from a spherical surface, the dilatance of the oblique rays from the perpendicular one is taken to [all, that it may be loppold to vanish.",
+ "content": "{\n  \"faithful\": \"It is here otherable, that in the cafe of diverging rays falling upon a convex furace, (fe fig. 7) the further the point It is taken from B, not never the point F, the focus of the refleted rays, approaches to B, while the radiant R remains the fame. For is in evident from the curvature of events, thus the ripet D (fig. 9) may be te ken fo far from B, that the refleted ray DE final proceed as from F, G, H, or even from B, or from points between B and R; and the further is in taken from B, the father the point from which it pro- cocis, appochoz toward R is will easily appear if we doue forced incident rays with that respec- tive reflected ones, in fashion than that angles of reflection may be all equal to their refleting angles of incidentes as at those in the figure. The fact is applicable to any of the other cafes of diverging or converging rays incident upon a spherical surface. That is the reason, that when rays are considered as es- flected from a spherical surface, the dilatance of the oblique rays from the perpendicular one is taken to [all, that it may be loppold to vanish.\",\n  \"modern\": \"It is here otherable, that in the case of diverging rays falling upon a convex surface, (see fig. 7) the further the point It is taken from B, not never the point F, the focus of the reflected rays, approaches to B, while the radiant R remains the same. For is in evident from the curvature of events, thus the ripet D (fig. 9) may be taken so far from B, that the reflected ray DE final proceed as from F, G, H, or even from B, or from points between B and R; and the further is in taken from B, the father the point from which it proceeds, approaches toward R is will easily appear if we draw forced incident rays with that respective reflected ones, in fashion than that angles of reflection may be all equal to their reflecting angles of incidence as at those in the figure. The fact is applicable to any of the other cases of diverging or converging rays incident upon a spherical surface. That is the reason, that when rays are considered as reflected from a spherical surface, the dilatance of the oblique rays from the perpendicular one is taken to all, that it may be supposed to vanish.\"\n}",
+ "usage": {
+  "completion_tokens": 527,
+  "prompt_tokens": 932,
+  "total_tokens": 1459,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 363
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "It is here otherable, that in the cafe of diverging rays falling upon a convex furace, (fe fig. 7) the further the point It is taken from B, not never the point F, the focus of the refleted rays, approaches to B, while the radiant R remains the fame. For is in evident from the curvature of events, thus the ripet D (fig. 9) may be te ken fo far from B, that the refleted ray DE final proceed as from F, G, H, or even from B, or from points between B and R; and the further is in taken from B, the father the point from which it pro- cocis, appochoz toward R is will easily appear if we doue forced incident rays with that respec- tive reflected ones, in fashion than that angles of reflection may be all equal to their refleting angles of incidentes as at those in the figure. The fact is applicable to any of the other cafes of diverging or converging rays incident upon a spherical surface. That is the reason, that when rays are considered as es- flected from a spherical surface, the dilatance of the oblique rays from the perpendicular one is taken to [all, that it may be loppold to vanish.",
+  "modern": "It is here otherable, that in the case of diverging rays falling upon a convex surface, (see fig. 7) the further the point It is taken from B, not never the point F, the focus of the reflected rays, approaches to B, while the radiant R remains the same. For is in evident from the curvature of events, thus the ripet D (fig. 9) may be taken so far from B, that the reflected ray DE final proceed as from F, G, H, or even from B, or from points between B and R; and the further is in taken from B, the father the point from which it proceeds, approaches toward R is will easily appear if we draw forced incident rays with that respective reflected ones, in fashion than that angles of reflection may be all equal to their reflecting angles of incidence as at those in the figure. The fact is applicable to any of the other cases of diverging or converging rays incident upon a spherical surface. That is the reason, that when rays are considered as reflected from a spherical surface, the dilatance of the oblique rays from the perpendicular one is taken to all, that it may be supposed to vanish."
+ },
+ "error": null
+}

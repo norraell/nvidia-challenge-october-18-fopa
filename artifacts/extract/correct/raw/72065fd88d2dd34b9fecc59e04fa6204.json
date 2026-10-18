@@ -1,0 +1,31 @@
+{
+ "key": "72065fd88d2dd34b9fecc59e04fa6204",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "States Engins, a machine to raife water by fire, or rather by the force of water turned into fleam. See States Engine.",
+ "content": "{\n  \"faithful\": \"States Engins, a machine to raife water by fire, or rather by the force of water turned into fleam. See States Engine. Steam-Engine, a machine to raife water by fire, or rather by the force of water turned into fleam. See Steam Engine. Engine for dividing Mathematical Instruments. See\",\n  \"modern\": \"States Engins, a machine to raise water by fire, or rather by the force of water turned into steam. See States Engine. Steam-Engine, a machine to raise water by fire, or rather by the force of water turned into steam. See Steam Engine. Engine for dividing Mathematical Instruments. See\"\n}",
+ "usage": {
+  "completion_tokens": 143,
+  "prompt_tokens": 620,
+  "total_tokens": 763,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "States Engins, a machine to raife water by fire, or rather by the force of water turned into fleam. See States Engine. Steam-Engine, a machine to raife water by fire, or rather by the force of water turned into fleam. See Steam Engine. Engine for dividing Mathematical Instruments. See",
+  "modern": "States Engins, a machine to raise water by fire, or rather by the force of water turned into steam. See States Engine. Steam-Engine, a machine to raise water by fire, or rather by the force of water turned into steam. See Steam Engine. Engine for dividing Mathematical Instruments. See"
+ },
+ "error": null
+}

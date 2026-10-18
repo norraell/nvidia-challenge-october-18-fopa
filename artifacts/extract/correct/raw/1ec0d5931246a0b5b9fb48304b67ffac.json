@@ -1,0 +1,31 @@
+{
+ "key": "1ec0d5931246a0b5b9fb48304b67ffac",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "SILICERNIUM, among the Romanus was a fault of a private nature, provided for the Great line time after the funeral. It confited of beans, lettues, bread, eggs, &co. Their eyes laid upon the tomb, and they possibly believed that the died would come out of the repair. What was left was generally burnt on the floor. The word _Alternate_ as derived from _Place and_ crear, i. e. of figure upon a fleece . Eating what had thus been provided for the dead, was effecemed amark of the small minerible powder. A similar entertainment was made by the Greek sit in the tender of the seaside; but it was ufalal among them to treat the globils with the fragments from the feat of the living. See FUNFAL AND INTERLE.",
+ "content": "{\n  \"faithful\": \"SILICERNIUM, among the Romanus was a fault of a private nature, provided for the Great line time after the funeral. It confited of beans, lettues, bread, eggs, &co. Their eyes laid upon the tomb, and they possibly believed that the died would come out of the repair. What was left was generally burnt on the floor. The word _Alternate_ as derived from _Place and_ crear, i. e. of figure upon a fleece . Eating what had thus been provided for the dead, was effecemed amark of the small minerible powder. A similar entertainment was made by the Greek sit in the tender of the seaside; but it was ufalal among them to treat the globils with the fragments from the feat of the living. See FUNFAL AND INTERLE.\",\n  \"modern\": \"SILICERNIUM, among the Romans was a fault of a private nature, provided for the dead some time after the funeral. It consisted of beans, lettuce, bread, eggs, &c. Their eyes laid upon the tomb, and they possibly believed that the dead would come out for the repast. What was left was generally burnt on the floor. The word _Alternate_ as derived from _Place and_ crear, i. e. of figure upon a fleece. Eating what had thus been provided for the dead, was esteemed a mark of the most miserable poverty. A similar entertainment was made by the Greeks at the tombs of the deceased; but it was usual among them to treat the ghosts with the fragments from the feast of the living. See FUNERAL AND INTERMENT.\"\n}",
+ "usage": {
+  "completion_tokens": 358,
+  "prompt_tokens": 758,
+  "total_tokens": 1116,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "SILICERNIUM, among the Romanus was a fault of a private nature, provided for the Great line time after the funeral. It confited of beans, lettues, bread, eggs, &co. Their eyes laid upon the tomb, and they possibly believed that the died would come out of the repair. What was left was generally burnt on the floor. The word _Alternate_ as derived from _Place and_ crear, i. e. of figure upon a fleece . Eating what had thus been provided for the dead, was effecemed amark of the small minerible powder. A similar entertainment was made by the Greek sit in the tender of the seaside; but it was ufalal among them to treat the globils with the fragments from the feat of the living. See FUNFAL AND INTERLE.",
+  "modern": "SILICERNIUM, among the Romans was a fault of a private nature, provided for the dead some time after the funeral. It consisted of beans, lettuce, bread, eggs, &c. Their eyes laid upon the tomb, and they possibly believed that the dead would come out for the repast. What was left was generally burnt on the floor. The word _Alternate_ as derived from _Place and_ crear, i. e. of figure upon a fleece. Eating what had thus been provided for the dead, was esteemed a mark of the most miserable poverty. A similar entertainment was made by the Greeks at the tombs of the deceased; but it was usual among them to treat the ghosts with the fragments from the feast of the living. See FUNERAL AND INTERMENT."
+ },
+ "error": null
+}

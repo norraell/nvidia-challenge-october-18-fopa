@@ -1,0 +1,31 @@
+{
+ "key": "02ae7894862c089d2c0aeb6e68c1dd66",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ESCAMADE, or Sealana a farism attack of a\nwall on a rampart; carnivore with ladders, to pafs the\nditch or mount the rampart; without proceeding in\nforsp, breaking ground, or carrying on regular works\nof feature the menu.",
+ "content": "{\n  \"faithful\": \"ESCALADE, or SCALADE, a furious attack of a wall or a rampart; carried on with ladders, to pass the ditch or mount the rampart; without proceeding in form, breaking ground, or carrying on regular works to secure the men.\",\n  \"modern\": \"ESCALADE, or SCALADE, a furious attack of a wall or a rampart; carried on with ladders, to pass the ditch or mount the rampart; without proceeding in form, breaking ground, or carrying on regular works to secure the men.\"\n}",
+ "usage": {
+  "completion_tokens": 131,
+  "prompt_tokens": 655,
+  "total_tokens": 786,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ESCALADE, or SCALADE, a furious attack of a wall or a rampart; carried on with ladders, to pass the ditch or mount the rampart; without proceeding in form, breaking ground, or carrying on regular works to secure the men.",
+  "modern": "ESCALADE, or SCALADE, a furious attack of a wall or a rampart; carried on with ladders, to pass the ditch or mount the rampart; without proceeding in form, breaking ground, or carrying on regular works to secure the men."
+ },
+ "error": null
+}

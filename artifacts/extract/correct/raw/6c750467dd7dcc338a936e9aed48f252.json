@@ -1,0 +1,31 @@
+{
+ "key": "6c750467dd7dcc338a936e9aed48f252",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "length of four or five inches, so as to be held conveniently Blow-pipe. In the left hand. Some blow-pipes have been made with a stand, to which they are connected by a ball and socket joint, also stands fixed to the table by a clampy and the construction leaves for light heat at liberty. In ycluding fragments of metallic ones by the blow-pipe, charcoal should be used as a support, for the charcoal attracts the oxygen from the metallic oxides, and reduces it to a metallic form; and when thus reduced, the metal may be kept fused on the charcoal, which prevents overrated its again attracting oxygen. The charcoal support has like› wise the advantage of increasing the heat by its hemat- descence. For both these reasons, however, radiation, and to increase and reverberate the heat processing from the jet of flame, the goldishth wolders his small work by the blow-pipe attached to work to a piece of charcoal, by means of wires, in the process of soldering.",
+ "content": "{\n  \"faithful\": \"length of four or five inches, so as to be held conveniently Blow-pipe. In the left hand. Some blow-pipes have been made with a stand, to which they are connected by a ball and socket joint, also stands fixed to the table by a clampy and the construction leaves for light heat at liberty. In ycluding fragments of metallic ones by the blow-pipe, charcoal should be used as a support, for the charcoal attracts the oxygen from the metallic oxides, and reduces it to a metallic form; and when thus reduced, the metal may be kept fused on the charcoal, which prevents overrated its again attracting oxygen. The charcoal support has likewise the advantage of increasing the heat by its hemat- descence. For both these reasons, however, radiation, and to increase and reverberate the heat processing from the jet of flame, the goldishth wolders his small work by the blow-pipe attached to work to a piece of charcoal, by means of wires, in the process of soldering.\",\n  \"modern\": \"length of four or five inches, so as to be held conveniently Blow-pipe. In the left hand. Some blow-pipes have been made with a stand, to which they are connected by a ball and socket joint, also stands fixed to the table by a clampy and the construction leaves for light heat at liberty. In ycluding fragments of metallic ones by the blow-pipe, charcoal should be used as a support, for the charcoal attracts the oxygen from the metallic oxides, and reduces it to a metallic form; and when thus reduced, the metal may be kept fused on the charcoal, which prevents overrated its again attracting oxygen. The charcoal support has likewise the advantage of increasing the heat by its hemat- descence. For both these reasons, however, radiation, and to increase and reverberate the heat processing from the jet of flame, the goldishth wolders his small work by the blow-pipe attached to work to a piece of charcoal, by means of wires, in the process of soldering.\"\n}",
+ "usage": {
+  "completion_tokens": 431,
+  "prompt_tokens": 829,
+  "total_tokens": 1260,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "length of four or five inches, so as to be held conveniently Blow-pipe. In the left hand. Some blow-pipes have been made with a stand, to which they are connected by a ball and socket joint, also stands fixed to the table by a clampy and the construction leaves for light heat at liberty. In ycluding fragments of metallic ones by the blow-pipe, charcoal should be used as a support, for the charcoal attracts the oxygen from the metallic oxides, and reduces it to a metallic form; and when thus reduced, the metal may be kept fused on the charcoal, which prevents overrated its again attracting oxygen. The charcoal support has likewise the advantage of increasing the heat by its hemat- descence. For both these reasons, however, radiation, and to increase and reverberate the heat processing from the jet of flame, the goldishth wolders his small work by the blow-pipe attached to work to a piece of charcoal, by means of wires, in the process of soldering.",
+  "modern": "length of four or five inches, so as to be held conveniently Blow-pipe. In the left hand. Some blow-pipes have been made with a stand, to which they are connected by a ball and socket joint, also stands fixed to the table by a clampy and the construction leaves for light heat at liberty. In ycluding fragments of metallic ones by the blow-pipe, charcoal should be used as a support, for the charcoal attracts the oxygen from the metallic oxides, and reduces it to a metallic form; and when thus reduced, the metal may be kept fused on the charcoal, which prevents overrated its again attracting oxygen. The charcoal support has likewise the advantage of increasing the heat by its hemat- descence. For both these reasons, however, radiation, and to increase and reverberate the heat processing from the jet of flame, the goldishth wolders his small work by the blow-pipe attached to work to a piece of charcoal, by means of wires, in the process of soldering."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "fd4f3f337ee6f97072e5f117d1038b50",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BYLAWS, or ByrŁLAWS, private and peculiar laws for the good government of a city, court, or other community, made by the general content of the mem-bers.",
+ "content": "{\n  \"faithful\": \"BY-LAWS, or ByrŁLAWS, private and peculiar laws for the good government of a city, court, or other community, made by the general content of the mem-bers.\",\n  \"modern\": \"BY-LAWS, or Bylaws, private and peculiar laws for the good government of a city, court, or other community, made by the general consent of the members.\"\n}",
+ "usage": {
+  "completion_tokens": 92,
+  "prompt_tokens": 624,
+  "total_tokens": 716,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BY-LAWS, or ByrŁLAWS, private and peculiar laws for the good government of a city, court, or other community, made by the general content of the mem-bers.",
+  "modern": "BY-LAWS, or Bylaws, private and peculiar laws for the good government of a city, court, or other community, made by the general consent of the members."
+ },
+ "error": null
+}

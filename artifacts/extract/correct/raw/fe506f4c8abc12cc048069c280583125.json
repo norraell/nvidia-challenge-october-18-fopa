@@ -1,0 +1,31 @@
+{
+ "key": "fe506f4c8abc12cc048069c280583125",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ESCALDOLIN, In January, a grass off the man\nmagnetor, belonging to the presumiric data of\nplants. The fruit is bluebar and poly/permons; the\npetal diftants and longest-lived; the figures headed.",
+ "content": "{\n  \"faithful\": \"ESCALDOLIN, In January, a grass off the man magnetor, belonging to the presumiric data of plants. The fruit is bluebar and poly/permons; the petal diftants and longest-lived; the figures headed.\",\n  \"modern\": \"ESCALDOLIN, In January, a grass off the man magnetor, belonging to the presumiric data of plants. The fruit is bluebar and poly/permons; the petal diftants and longest-lived; the figures headed.\"\n}",
+ "usage": {
+  "completion_tokens": 121,
+  "prompt_tokens": 658,
+  "total_tokens": 779,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 299
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ESCALDOLIN, In January, a grass off the man magnetor, belonging to the presumiric data of plants. The fruit is bluebar and poly/permons; the petal diftants and longest-lived; the figures headed.",
+  "modern": "ESCALDOLIN, In January, a grass off the man magnetor, belonging to the presumiric data of plants. The fruit is bluebar and poly/permons; the petal diftants and longest-lived; the figures headed."
+ },
+ "error": null
+}

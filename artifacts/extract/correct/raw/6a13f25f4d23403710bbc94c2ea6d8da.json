@@ -1,0 +1,31 @@
+{
+ "key": "6a13f25f4d23403710bbc94c2ea6d8da",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "4. By the action of heat it undergoes the waters fufen, the water is driven off, and it becomes dry. It is decompiled in a throat, gives out a little oxygen gas, then nitrous gas, and at all the nitric acid. The pure earth remains behind.",
+ "content": "{\n  \"faithful\": \"4. By the action of heat it undergoes the watery fufion; the water is driven off, and it becomes dry. It is decomposed in a strong heat, gives out a little oxygen gas, then nitrous gas, and at last the nitric acid. The pure earth remains behind.\",\n  \"modern\": \"4. By the action of heat it undergoes the watery fufion; the water is driven off, and it becomes dry. It is decomposed in a strong heat, gives out a little oxygen gas, then nitrous gas, and at last the nitric acid. The pure earth remains behind.\"\n}",
+ "usage": {
+  "completion_tokens": 135,
+  "prompt_tokens": 641,
+  "total_tokens": 776,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "4. By the action of heat it undergoes the watery fufion; the water is driven off, and it becomes dry. It is decomposed in a strong heat, gives out a little oxygen gas, then nitrous gas, and at last the nitric acid. The pure earth remains behind.",
+  "modern": "4. By the action of heat it undergoes the watery fufion; the water is driven off, and it becomes dry. It is decomposed in a strong heat, gives out a little oxygen gas, then nitrous gas, and at last the nitric acid. The pure earth remains behind."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "d4bce7676e4517558d4b63b13d8571fd",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "for their valoragainl the enemies of Christianity. Even ladies of birth and character attended Charles in his expedition, and the views and daughters of the officers and folders followed them with a delger to fertile in Barbary after the conquit was finished. All trade meeting with a favorable wind, footop appeared before Algeria; every flip displaying the Spanish colours on the stern, and another at the head, with a cruiser to fierce from a plot.",
+ "content": "{\n  \"faithful\": \"for their valour against the enemies of Christianity. Even ladies of birth and character attended Charles in his expedition, and the wives and daughters of the officers and soldiers followed them with a design to settle in Barbary after the conquest was finished. All the fleet meeting with a favourable wind, soon appeared before Algiers; every ship displaying the Spanish colours on the stern, and another at the head, with a crucifix to serve them for a pilot.\",\n  \"modern\": \"for their valor against the enemies of Christianity. Even ladies of birth and character attended Charles in his expedition, and the wives and daughters of the officers and soldiers followed them with a design to settle in Barbary after the conquest was finished. All the fleet meeting with a favorable wind, soon appeared before Algiers; every ship displaying the Spanish colors on the stern, and another at the head, with a crucifix to serve them for a pilot.\"\n}",
+ "usage": {
+  "completion_tokens": 194,
+  "prompt_tokens": 668,
+  "total_tokens": 862,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "for their valour against the enemies of Christianity. Even ladies of birth and character attended Charles in his expedition, and the wives and daughters of the officers and soldiers followed them with a design to settle in Barbary after the conquest was finished. All the fleet meeting with a favourable wind, soon appeared before Algiers; every ship displaying the Spanish colours on the stern, and another at the head, with a crucifix to serve them for a pilot.",
+  "modern": "for their valor against the enemies of Christianity. Even ladies of birth and character attended Charles in his expedition, and the wives and daughters of the officers and soldiers followed them with a design to settle in Barbary after the conquest was finished. All the fleet meeting with a favorable wind, soon appeared before Algiers; every ship displaying the Spanish colors on the stern, and another at the head, with a crucifix to serve them for a pilot."
+ },
+ "error": null
+}

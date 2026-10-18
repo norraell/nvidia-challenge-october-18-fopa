@@ -1,0 +1,31 @@
+{
+ "key": "fa3b4459c5d6bf23b70901cafc34adc7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Without the knowledge, then, of what is done by their representatives, in the use of the powers intended to them, the people cannot profit by the power of choosing, them, and the advantages of good government are unstainable. It will not surely some many would to satisfy all classes of readers, that, without the second musterratified use of the press, the requisite knowledge cannot be obtained.",
+ "content": "{\n  \"faithful\": \"Without the knowledge, then, of what is done by their representatives, in the use of the powers intrufted to them, the people cannot profit by the power of choosing them, and the advantages of good government are unattainable. It will not surely cost many words to satisfy all classes of readers, that, without the free and unrefrained use of the press, the requisite knowledge cannot be obtained.\",\n  \"modern\": \"Without the knowledge, then, of what is done by their representatives, in the use of the powers intrusted to them, the people cannot profit by the power of choosing them, and the advantages of good government are unattainable. It will not surely cost many words to satisfy all classes of readers, that, without the free and unrestrained use of the press, the requisite knowledge cannot be obtained.\"\n}",
+ "usage": {
+  "completion_tokens": 182,
+  "prompt_tokens": 646,
+  "total_tokens": 828,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Without the knowledge, then, of what is done by their representatives, in the use of the powers intrufted to them, the people cannot profit by the power of choosing them, and the advantages of good government are unattainable. It will not surely cost many words to satisfy all classes of readers, that, without the free and unrefrained use of the press, the requisite knowledge cannot be obtained.",
+  "modern": "Without the knowledge, then, of what is done by their representatives, in the use of the powers intrusted to them, the people cannot profit by the power of choosing them, and the advantages of good government are unattainable. It will not surely cost many words to satisfy all classes of readers, that, without the free and unrestrained use of the press, the requisite knowledge cannot be obtained."
+ },
+ "error": null
+}

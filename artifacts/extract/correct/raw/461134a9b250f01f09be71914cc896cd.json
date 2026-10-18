@@ -1,0 +1,31 @@
+{
+ "key": "461134a9b250f01f09be71914cc896cd",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Thorax orbicular and convex, with a transverse cen-orientral tra excavation. 31. It is a native of South America, among others, where a preys upon the larger insects, and even small birds, dropping into their nests, and sucking their blood and legs; it is of so enormous a size, that its flag may be compared to the latons of a havk, and its eyes are very large.",
+ "content": "{\n  \"faithful\": \"Thorax orbicular and convex, with a transverse central excavation. 31. It is a native of South America, among trees, where it preys upon the larger insects, and even small birds, dropping into their nests, and sucking their blood and eggs; it is of so enormous a size, that its fangs may be compared to the talons of a hawk, and its eyes are very large.\",\n  \"modern\": \"Thorax orbicular and convex, with a transverse central excavation. 31. It is a native of South America, among trees, where it preys upon the larger insects, and even small birds, dropping into their nests, and sucking their blood and eggs; it is of so enormous a size, that its fangs may be compared to the talons of a hawk, and its eyes are very large.\"\n}",
+ "usage": {
+  "completion_tokens": 185,
+  "prompt_tokens": 670,
+  "total_tokens": 855,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Thorax orbicular and convex, with a transverse central excavation. 31. It is a native of South America, among trees, where it preys upon the larger insects, and even small birds, dropping into their nests, and sucking their blood and eggs; it is of so enormous a size, that its fangs may be compared to the talons of a hawk, and its eyes are very large.",
+  "modern": "Thorax orbicular and convex, with a transverse central excavation. 31. It is a native of South America, among trees, where it preys upon the larger insects, and even small birds, dropping into their nests, and sucking their blood and eggs; it is of so enormous a size, that its fangs may be compared to the talons of a hawk, and its eyes are very large."
+ },
+ "error": null
+}

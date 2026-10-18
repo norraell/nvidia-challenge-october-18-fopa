@@ -1,0 +1,31 @@
+{
+ "key": "fb402ed5948989b3e1198cc92cdbbbfe",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "**Vox. III. No §7.**",
+ "content": "{\n  \"faithful\": \"Vox. III. No §7. Vol. III. No 87.\",\n  \"modern\": \"Vox. III. No §7. Vol. III. No 87.\"\n}",
+ "usage": {
+  "completion_tokens": 51,
+  "prompt_tokens": 577,
+  "total_tokens": 628,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Vox. III. No §7. Vol. III. No 87.",
+  "modern": "Vox. III. No §7. Vol. III. No 87."
+ },
+ "error": null
+}

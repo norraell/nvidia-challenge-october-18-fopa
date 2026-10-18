@@ -1,0 +1,31 @@
+{
+ "key": "28e300d72cec0540c8983ab54f272bd1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "installing the dry principles of grammar and prosody. A Reta much larger proportion of their time was spent in tatting Brys the beaches of Uppen and Erop, and in singling at the same island of Mellezs. Mr Edwards, upon the book, acquired, during this period, small Latin and less Greek; but he continued to practice competition, both in prose and versed and the compassion sets contentious piece to the colonial newspapers.",
+ "content": "{\n  \"faithful\": \"installing the dry principles of grammar and prosody. A much larger proportion of their time was spent in tasting the beauties of Dryden and Pope, and in laughing at the comic sallies of Molière. Mr Edwards, upon the whole, acquired, during this period, small Latin and less Greek; but he continued to practise composition, both in prose and verse; and the two companions sent occasional pieces to the colonial newspapers.\",\n  \"modern\": \"installing the dry principles of grammar and prosody. A much larger proportion of their time was spent in tasting the beauties of Dryden and Pope, and in laughing at the comic sallies of Moliere. Mr Edwards, upon the whole, acquired, during this period, small Latin and less Greek; but he continued to practise composition, both in prose and verse; and the two companions sent occasional pieces to the colonial newspapers.\"\n}",
+ "usage": {
+  "completion_tokens": 195,
+  "prompt_tokens": 676,
+  "total_tokens": 871,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "installing the dry principles of grammar and prosody. A much larger proportion of their time was spent in tasting the beauties of Dryden and Pope, and in laughing at the comic sallies of Molière. Mr Edwards, upon the whole, acquired, during this period, small Latin and less Greek; but he continued to practise composition, both in prose and verse; and the two companions sent occasional pieces to the colonial newspapers.",
+  "modern": "installing the dry principles of grammar and prosody. A much larger proportion of their time was spent in tasting the beauties of Dryden and Pope, and in laughing at the comic sallies of Moliere. Mr Edwards, upon the whole, acquired, during this period, small Latin and less Greek; but he continued to practise composition, both in prose and verse; and the two companions sent occasional pieces to the colonial newspapers."
+ },
+ "error": null
+}

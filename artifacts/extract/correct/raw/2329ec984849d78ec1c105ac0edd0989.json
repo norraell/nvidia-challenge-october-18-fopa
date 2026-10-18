@@ -1,0 +1,31 @@
+{
+ "key": "2329ec984849d78ec1c105ac0edd0989",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The bark of this tree is used by the women in Pen-flyingia and other part of North America in dying worried a fine falling orange-colour, which does not fade in the form. They are in white infested alum in dying; and both the dye in a brafs boiler, becard in an iron wildt it does not yield to fine a colour. The wood is made up of for polls belonging to the indo-fares, herit it fails to do a long time in the ground: but it is likewife laid, that there is hardly any kind of wood which is more stacked by worms than this way it is expected to the air without cover, and that in a short time it is quite worm-teaten through and through.",
+ "content": "{\n  \"faithful\": \"The bark of this tree is used by the women in Pen-flyingia and other part of North America in dying worried a fine falling orange-colour, which does not fade in the form. They are in white infested alum in dying; and both the dye in a brafs boiler, becard in an iron wildt it does not yield to fine a colour. The wood is made up of for polls belonging to the indo-fares, herit it fails to do a long time in the ground: but it is likewife laid, that there is hardly any kind of wood which is more stacked by worms than this way it is expected to the air without cover, and that in a short time it is quite worm-teaten through and through.\",\n  \"modern\": \"The bark of this tree is used by the women in Pen-flyingia and other part of North America in dying worried a fine falling orange-colour, which does not fade in the form. They are in white infested alum in dying; and both the dye in a brass boiler, becard in an iron wildt it does not yield to fine a colour. The wood is made up of for polls belonging to the indo-fares, herit it fails to do a long time in the ground: but it is likewise laid, that there is hardly any kind of wood which is more stacked by worms than this way it is expected to the air without cover, and that in a short time it is quite worm-eaten through and through.\"\n}",
+ "usage": {
+  "completion_tokens": 319,
+  "prompt_tokens": 743,
+  "total_tokens": 1062,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The bark of this tree is used by the women in Pen-flyingia and other part of North America in dying worried a fine falling orange-colour, which does not fade in the form. They are in white infested alum in dying; and both the dye in a brafs boiler, becard in an iron wildt it does not yield to fine a colour. The wood is made up of for polls belonging to the indo-fares, herit it fails to do a long time in the ground: but it is likewife laid, that there is hardly any kind of wood which is more stacked by worms than this way it is expected to the air without cover, and that in a short time it is quite worm-teaten through and through.",
+  "modern": "The bark of this tree is used by the women in Pen-flyingia and other part of North America in dying worried a fine falling orange-colour, which does not fade in the form. They are in white infested alum in dying; and both the dye in a brass boiler, becard in an iron wildt it does not yield to fine a colour. The wood is made up of for polls belonging to the indo-fares, herit it fails to do a long time in the ground: but it is likewise laid, that there is hardly any kind of wood which is more stacked by worms than this way it is expected to the air without cover, and that in a short time it is quite worm-eaten through and through."
+ },
+ "error": null
+}

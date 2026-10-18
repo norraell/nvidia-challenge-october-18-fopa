@@ -1,0 +1,31 @@
+{
+ "key": "81459adebd96348bd9bc575f90c03df3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "billified themselves in the cultivated provinces of the Chirary, Roman empire is, that their women, contrary to what we and among many other rule nations, were treated with a high degree of refuted. They did not guess 8 rally rise via the men in deeds of values but they share of the animalist them by their exhordiations to diffusion and warn as freedom in the field, and virtue of expertise were evenge the confided with a faced veneration, as endowed with propried powers, capable to forced eternal aid in the form of fluitty, and even to influence the all of the dieties. Hence, though domestic duties were their peculiar province, yet they were not hardly tested the confined to a state of slavery. There appears in died a striking analogy between the condition of the women among the endold dies of Spain and the rank which, they occupied among the warkite cantons of Germany. Perhaps indyed, the Germans were fill more honorable than the Spartan woman, as they were taught to weld the magic weapons of imperfection, which life Greece were propagated to the prefix.",
+ "content": "{\n  \"faithful\": \"billified themselves in the cultivated provinces of the Chirary, Roman empire is, that their women, contrary to what we and among many other rule nations, were treated with a high degree of refuted. They did not guess 8 rally rise via the men in deeds of values but they share of the animalist them by their exhordiations to diffusion and warn as freedom in the field, and virtue of expertise were evenge the confided with a faced veneration, as endowed with propriétés powers, capable to forced eternal aid in the form of fluitty, and even to influence the all of the dieties. Hence, though domestic duties were their peculiar province, yet they were not hardly tested the confined to a state of slavery. There appears in died a striking analogy between the condition of the women among the endold dies of Spain and the rank which, they occupied among the warkite cantons of Germany. Perhaps indyed, the Germans were fill more honorable than the Spartan woman, as they were taught to weld the magic weapons of imperfection, which life Greece were propagated to the prefix.\",\n  \"modern\": \"billified themselves in the cultivated provinces of the Chirary, Roman empire is, that their women, contrary to what we and among many other rule nations, were treated with a high degree of refuted. They did not guess 8 rally rise via the men in deeds of values but they share of the animalist them by their exhordiations to diffusion and warn as freedom in the field, and virtue of expertise were evenge the confided with a faced veneration, as endowed with properties powers, capable to forced eternal aid in the form of fluitty, and even to influence the all of the dieties. Hence, though domestic duties were their peculiar province, yet they were not hardly tested the confined to a state of slavery. There appears in died a striking analogy between the condition of the women among the endold dies of Spain and the rank which, they occupied among the warkite cantons of Germany. Perhaps indyed, the Germans were fill more honorable than the Spartan woman, as they were taught to weld the magic weapons of imperfection, which life Greece were propagated to the prefix.\"\n}",
+ "usage": {
+  "completion_tokens": 463,
+  "prompt_tokens": 797,
+  "total_tokens": 1260,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "billified themselves in the cultivated provinces of the Chirary, Roman empire is, that their women, contrary to what we and among many other rule nations, were treated with a high degree of refuted. They did not guess 8 rally rise via the men in deeds of values but they share of the animalist them by their exhordiations to diffusion and warn as freedom in the field, and virtue of expertise were evenge the confided with a faced veneration, as endowed with propriétés powers, capable to forced eternal aid in the form of fluitty, and even to influence the all of the dieties. Hence, though domestic duties were their peculiar province, yet they were not hardly tested the confined to a state of slavery. There appears in died a striking analogy between the condition of the women among the endold dies of Spain and the rank which, they occupied among the warkite cantons of Germany. Perhaps indyed, the Germans were fill more honorable than the Spartan woman, as they were taught to weld the magic weapons of imperfection, which life Greece were propagated to the prefix.",
+  "modern": "billified themselves in the cultivated provinces of the Chirary, Roman empire is, that their women, contrary to what we and among many other rule nations, were treated with a high degree of refuted. They did not guess 8 rally rise via the men in deeds of values but they share of the animalist them by their exhordiations to diffusion and warn as freedom in the field, and virtue of expertise were evenge the confided with a faced veneration, as endowed with properties powers, capable to forced eternal aid in the form of fluitty, and even to influence the all of the dieties. Hence, though domestic duties were their peculiar province, yet they were not hardly tested the confined to a state of slavery. There appears in died a striking analogy between the condition of the women among the endold dies of Spain and the rank which, they occupied among the warkite cantons of Germany. Perhaps indyed, the Germans were fill more honorable than the Spartan woman, as they were taught to weld the magic weapons of imperfection, which life Greece were propagated to the prefix."
+ },
+ "error": null
+}

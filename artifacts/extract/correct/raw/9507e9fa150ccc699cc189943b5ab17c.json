@@ -1,0 +1,31 @@
+{
+ "key": "9507e9fa150ccc699cc189943b5ab17c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HELLESPONTS, the entrance of the flereights which divides Afa from Europe, and paths from the Archi- Vol. II. No. 59.",
+ "content": "{\n  \"faithful\": \"HELLESPONT, the entrance of the ftreights which divides Afia from Europe, and paffes from the Archi- Vol. II. No. 59.\",\n  \"modern\": \"HELLESPONT, the entrance of the streights which divides Asia from Europe, and passes from the Archi- Vol. II. No. 59.\"\n}",
+ "usage": {
+  "completion_tokens": 89,
+  "prompt_tokens": 628,
+  "total_tokens": 717,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HELLESPONT, the entrance of the ftreights which divides Afia from Europe, and paffes from the Archi- Vol. II. No. 59.",
+  "modern": "HELLESPONT, the entrance of the streights which divides Asia from Europe, and passes from the Archi- Vol. II. No. 59."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "0c7968a9c932c350732ab3647ee3c40c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "COMITALUS, in law, a county. England was first divided into countries, by counties into hundreds, and there again into tytting, by Alfred the Great. Sometimes it is taken for territory of jurisdiction of a particular place.",
+ "content": "{\n  \"faithful\": \"COMITATUS, in law, a county. England was first divided into counties, the counties into hundreds, and these again into tyfings, by Alfred the Great. Sometimes it is taken for a territory or jurisdiction of a particular place.\",\n  \"modern\": \"COMITATUS, in law, a county. England was first divided into counties, the counties into hundreds, and these again into tythings, by Alfred the Great. Sometimes it is taken for a territory or jurisdiction of a particular place.\"\n}",
+ "usage": {
+  "completion_tokens": 113,
+  "prompt_tokens": 640,
+  "total_tokens": 753,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "COMITATUS, in law, a county. England was first divided into counties, the counties into hundreds, and these again into tyfings, by Alfred the Great. Sometimes it is taken for a territory or jurisdiction of a particular place.",
+  "modern": "COMITATUS, in law, a county. England was first divided into counties, the counties into hundreds, and these again into tythings, by Alfred the Great. Sometimes it is taken for a territory or jurisdiction of a particular place."
+ },
+ "error": null
+}

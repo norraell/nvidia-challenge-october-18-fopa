@@ -1,0 +1,31 @@
+{
+ "key": "e9cda3babff13ecbbae62a9779d6e416",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "From this period until his death his time was much rec-ppled in the composition of his history, and except the arrangement of the Zuez of Nations, in which he had an important share, he engaged very little in public business. The death of Henry in 1610 eventually brought his political life to termination. Seevent with high disappointment, and ten by private greids, caused mainly by the death of his second wife, he died at Paris on the 7th of May 1617, in his sixty-fourth year. A son of De Thous by his second wife, François August, full a sacrifice to the inexor-able vegences of Cardinal Richardson, and to 12th of Sept- tender 1642.",
+ "content": "{\n  \"faithful\": \"From this period until his death his time was much occupied in the composition of his history, and except the arrangement of the Edict of Nantes, in which he had an important share, he engaged very little in public business. The death of Henry in 1610 virtually brought his political life to a termination. Sourced with public disappointments, and torn by private griefs, caused mainly by the death of his second wife, he died at Paris on the 7th of May 1617, in his sixty-fourth year. A son of De Thou's by his second wife, François August, fell a sacrifice to the inexorable vengeance of Cardinal Richelieu on the 12th of September 1642.\",\n  \"modern\": \"From this period until his death his time was much occupied in the composition of his history, and except the arrangement of the Edict of Nantes, in which he had an important share, he engaged very little in public business. The death of Henry in 1610 virtually brought his political life to a termination. Sourced with public disappointments, and torn by private griefs, caused mainly by the death of his second wife, he died at Paris on the 7th of May 1617, in his sixty-fourth year. A son of De Thou's by his second wife, François August, fell a sacrifice to the inexorable vengeance of Cardinal Richelieu on the 12th of September 1642.\"\n}",
+ "usage": {
+  "completion_tokens": 321,
+  "prompt_tokens": 725,
+  "total_tokens": 1046,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "From this period until his death his time was much occupied in the composition of his history, and except the arrangement of the Edict of Nantes, in which he had an important share, he engaged very little in public business. The death of Henry in 1610 virtually brought his political life to a termination. Sourced with public disappointments, and torn by private griefs, caused mainly by the death of his second wife, he died at Paris on the 7th of May 1617, in his sixty-fourth year. A son of De Thou's by his second wife, François August, fell a sacrifice to the inexorable vengeance of Cardinal Richelieu on the 12th of September 1642.",
+  "modern": "From this period until his death his time was much occupied in the composition of his history, and except the arrangement of the Edict of Nantes, in which he had an important share, he engaged very little in public business. The death of Henry in 1610 virtually brought his political life to a termination. Sourced with public disappointments, and torn by private griefs, caused mainly by the death of his second wife, he died at Paris on the 7th of May 1617, in his sixty-fourth year. A son of De Thou's by his second wife, François August, fell a sacrifice to the inexorable vengeance of Cardinal Richelieu on the 12th of September 1642."
+ },
+ "error": null
+}

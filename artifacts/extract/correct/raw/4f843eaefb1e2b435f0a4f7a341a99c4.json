@@ -1,0 +1,31 @@
+{
+ "key": "4f843eaefb1e2b435f0a4f7a341a99c4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BUZZARD, in anthology, the English name of fever-ral species of the hawk kind. See Paxo.",
+ "content": "{\n  \"faithful\": \"BUZZARD, in ornithology, the English name of several species of the hawk kind. See Falco.\",\n  \"modern\": \"BUZZARD, in ornithology, the English name of several species of the hawk kind. See Falco.\"\n}",
+ "usage": {
+  "completion_tokens": 65,
+  "prompt_tokens": 622,
+  "total_tokens": 687,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BUZZARD, in ornithology, the English name of several species of the hawk kind. See Falco.",
+  "modern": "BUZZARD, in ornithology, the English name of several species of the hawk kind. See Falco."
+ },
+ "error": null
+}

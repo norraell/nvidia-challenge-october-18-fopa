@@ -1,0 +1,31 @@
+{
+ "key": "8614b5975de4889abbcaf12c92f29815",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Gristhus nurem_ _Ville -_ Vare. and demands justice for his favourite, and ours. Great things he has done; but he might have done greater. What a fall is is from Home’s eures, free as air, lofy and harmonious as the fpherer, into chillich face kies, and tinkling found! But,-in his fall, he is ill great",
+ "content": "{\n  \"faithful\": \"But Nyte, Cynthius aurem Vellit,——— VIRG. and demands justice for his favourite, and ours. Great things he has done; but he might have done greater. What a fall is it from Homer's numbers, free as air, lofty and harmonious as the spheres, into childish faces, and tinkling sounds! But, in his fall, he is still great;———\",\n  \"modern\": \"But Nyte, Cynthius aurem Vellit,——— VIRG. and demands justice for his favourite, and ours. Great things he has done; but he might have done greater. What a fall is it from Homer's numbers, free as air, lofty and harmonious as the spheres, into childish faces, and tinkling sounds! But, in his fall, he is still great;———\"\n}",
+ "usage": {
+  "completion_tokens": 195,
+  "prompt_tokens": 649,
+  "total_tokens": 844,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "But Nyte, Cynthius aurem Vellit,——— VIRG. and demands justice for his favourite, and ours. Great things he has done; but he might have done greater. What a fall is it from Homer's numbers, free as air, lofty and harmonious as the spheres, into childish faces, and tinkling sounds! But, in his fall, he is still great;———",
+  "modern": "But Nyte, Cynthius aurem Vellit,——— VIRG. and demands justice for his favourite, and ours. Great things he has done; but he might have done greater. What a fall is it from Homer's numbers, free as air, lofty and harmonious as the spheres, into childish faces, and tinkling sounds! But, in his fall, he is still great;———"
+ },
+ "error": null
+}

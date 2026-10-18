@@ -1,0 +1,31 @@
+{
+ "key": "1db6dad7beeb80231cce780000925bba",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "That an accurate report of what is done by each of the representatives, a transcript of his species, and a statement of his proportions and votes, is necessary to be laid before the people, to enable them to judge of his conduct, nobody, we presume, will deny. This requires the use of the cheapest means of communication, and, we add, the free use of those means. Unless every man has the liberty of publishing the proceedings of the legisla-tive assembly, the people can have to are taxing published. I have to in the power of their rules to permit one person, and forbid another, the people may be sure that a false report, that is, a report calculated to",
+ "content": "{\n  \"faithful\": \"That an accurate report of what is done by each of the representatives, a transcript of his speeches, and a statement of his propositions and votes, is necessary to be laid before the people, to enable them to judge of his conduct, nobody, we presume, will deny. This requires the use of the cheapest means of communication, and, we add, the free use of those means. Unless every man has the liberty of publishing the proceedings of the legislative assembly, the people can have no security that they are fairly published. If it is in the power of their rulers to permit one person, and forbid another, the people may be sure that a false report, that is, a report calculated to\",\n  \"modern\": \"That an accurate report of what is done by each of the representatives, a transcript of his speeches, and a statement of his propositions and votes, is necessary to be laid before the people, to enable them to judge of his conduct, nobody, we presume, will deny. This requires the use of the cheapest means of communication, and, we add, the free use of those means. Unless every man has the liberty of publishing the proceedings of the legislative assembly, the people can have no security that they are fairly published. If it is in the power of their rulers to permit one person, and forbid another, the people may be sure that a false report, that is, a report calculated to\"\n}",
+ "usage": {
+  "completion_tokens": 301,
+  "prompt_tokens": 711,
+  "total_tokens": 1012,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "That an accurate report of what is done by each of the representatives, a transcript of his speeches, and a statement of his propositions and votes, is necessary to be laid before the people, to enable them to judge of his conduct, nobody, we presume, will deny. This requires the use of the cheapest means of communication, and, we add, the free use of those means. Unless every man has the liberty of publishing the proceedings of the legislative assembly, the people can have no security that they are fairly published. If it is in the power of their rulers to permit one person, and forbid another, the people may be sure that a false report, that is, a report calculated to",
+  "modern": "That an accurate report of what is done by each of the representatives, a transcript of his speeches, and a statement of his propositions and votes, is necessary to be laid before the people, to enable them to judge of his conduct, nobody, we presume, will deny. This requires the use of the cheapest means of communication, and, we add, the free use of those means. Unless every man has the liberty of publishing the proceedings of the legislative assembly, the people can have no security that they are fairly published. If it is in the power of their rulers to permit one person, and forbid another, the people may be sure that a false report, that is, a report calculated to"
+ },
+ "error": null
+}

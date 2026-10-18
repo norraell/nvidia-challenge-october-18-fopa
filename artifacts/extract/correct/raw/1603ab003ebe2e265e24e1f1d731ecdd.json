@@ -1,0 +1,31 @@
+{
+ "key": "1603ab003ebe2e265e24e1f1d731ecdd",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BYSUS, in botany, a genus of molltes belonging to the cryptogania alge. The character is taken from this reconnillacs, that they are covered with a female capillary filament or down, refonishing fat duft. The feeices are 15; all natives of Britain.",
+ "content": "{\n  \"faithful\": \"BYSSUS, in botany, a genus of mosses belonging to the cryptogamia algae. The character is taken from this circumstance, that they are covered with a simple capillary filament or down, resembling loft duft. The species are 15, all natives of Britain.\",\n  \"modern\": \"BYSSUS, in botany, a genus of mosses belonging to the cryptogamia algae. The character is taken from this circumstance, that they are covered with a simple capillary filament or down, resembling loft duft. The species are 15, all natives of Britain.\"\n}",
+ "usage": {
+  "completion_tokens": 133,
+  "prompt_tokens": 655,
+  "total_tokens": 788,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BYSSUS, in botany, a genus of mosses belonging to the cryptogamia algae. The character is taken from this circumstance, that they are covered with a simple capillary filament or down, resembling loft duft. The species are 15, all natives of Britain.",
+  "modern": "BYSSUS, in botany, a genus of mosses belonging to the cryptogamia algae. The character is taken from this circumstance, that they are covered with a simple capillary filament or down, resembling loft duft. The species are 15, all natives of Britain."
+ },
+ "error": null
+}

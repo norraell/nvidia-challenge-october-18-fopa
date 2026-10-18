@@ -1,0 +1,31 @@
+{
+ "key": "d9fcb437f0bc39b78f47fc89b1566a3b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There are other commodities, however, which nature products in abundance, or which, where land is plant-ful, can be multiplied with little or no cultivation. Of thefe the principal is butche meet. Lands can be co-vered with cattle or they by the labour of the lands and sometimes without any labor at all. Hence, in trade times, butche meet is always cheaper than one. Imimproved periods the reverse is thatcafe. For a long time the price continues confiantly to rife, as we have been it do throughout Great Britain, the autumn area being alone and make concerted into arabile. At left, however, it becomes fo high as to make it an object for the farmer to think cattle, and to cultivate greater for the purpose of feeding them. After this era, the price is likely to experience a certain diminution, from the imported modes of feeding and rearing, which in confidence of the new situation, as likely to be dif-covered and adopted.",
+ "content": "{\n  \"faithful\": \"There are other commodities, however, which nature produces in abundance, or which, where land is plentiful, can be multiplied with little or no cultivation. Of these the principal is butcher meat. Lands can be covered with cattle or sheep by the labour of few hands, and sometimes without any labour at all. Hence, in rude times, butcher meat is always cheaper than corn; in improved periods the reverse is the case. For a long time the price continues confidently to rise, as we have seen it do throughout Great Britain, the pasture lands being more and more converted into arable. At last, however, it becomes so high as to make it an object for the farmer to fall his cattle, and to cultivate ground for the purpose of feeding them. After this era, the price is likely to experience a certain diminution, from the improved modes of feeding and rearing, which, in consequence of this new attention, are likely to be discovered and adopted.\",\n  \"modern\": \"There are other commodities, however, which nature produces in abundance, or which, where land is plentiful, can be multiplied with little or no cultivation. Of these the principal is butcher meat. Lands can be covered with cattle or sheep by the labour of few hands, and sometimes without any labour at all. Hence, in rude times, butcher meat is always cheaper than corn; in improved periods the reverse is the case. For a long time the price continues confidently to rise, as we have seen it do throughout Great Britain, the pasture lands being more and more converted into arable. At last, however, it becomes so high as to make it an object for the farmer to fall his cattle, and to cultivate ground for the purpose of feeding them. After this era, the price is likely to experience a certain diminution, from the improved modes of feeding and rearing, which, in consequence of this new attention, are likely to be discovered and adopted.\"\n}",
+ "usage": {
+  "completion_tokens": 409,
+  "prompt_tokens": 826,
+  "total_tokens": 1235,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 322
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There are other commodities, however, which nature produces in abundance, or which, where land is plentiful, can be multiplied with little or no cultivation. Of these the principal is butcher meat. Lands can be covered with cattle or sheep by the labour of few hands, and sometimes without any labour at all. Hence, in rude times, butcher meat is always cheaper than corn; in improved periods the reverse is the case. For a long time the price continues confidently to rise, as we have seen it do throughout Great Britain, the pasture lands being more and more converted into arable. At last, however, it becomes so high as to make it an object for the farmer to fall his cattle, and to cultivate ground for the purpose of feeding them. After this era, the price is likely to experience a certain diminution, from the improved modes of feeding and rearing, which, in consequence of this new attention, are likely to be discovered and adopted.",
+  "modern": "There are other commodities, however, which nature produces in abundance, or which, where land is plentiful, can be multiplied with little or no cultivation. Of these the principal is butcher meat. Lands can be covered with cattle or sheep by the labour of few hands, and sometimes without any labour at all. Hence, in rude times, butcher meat is always cheaper than corn; in improved periods the reverse is the case. For a long time the price continues confidently to rise, as we have seen it do throughout Great Britain, the pasture lands being more and more converted into arable. At last, however, it becomes so high as to make it an object for the farmer to fall his cattle, and to cultivate ground for the purpose of feeding them. After this era, the price is likely to experience a certain diminution, from the improved modes of feeding and rearing, which, in consequence of this new attention, are likely to be discovered and adopted."
+ },
+ "error": null
+}

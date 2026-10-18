@@ -1,0 +1,31 @@
+{
+ "key": "c6c3c97aa9df54ff9f9f4c5f5b7d9237",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The proper combina were of three sons _and certain, contra_- rivals, and tribute, with reference to the three grand divisions of the city and people in _nurcarta_, centuries, and critics far y cowmila celebrity men meant all the coming general, the term colonism (from editor, i.e., courtesy), being their common epithet, though it was at last restricted to assemblies for the creation of priests, and the regulation of lat wills and tenaments, to which the people acted as witnesses merely.",
+ "content": "{\n  \"faithful\": \"The proper comitia were of three sorts, curiata, centuriata, and tributa, with reference to the three grand divisions of the city and people into curiae, centuries, and tribes: for by comitia calata were meant all the comitia in general, the term calata (from calare, i.e., vocare) being their common epithet, though it was at last restricted to assemblies for the creation of priests, and the regulation of last wills and testaments, to which the people acted as witnesses merely.\",\n  \"modern\": \"The proper comitia were of three sorts, curiata, centuriata, and tributa, with reference to the three grand divisions of the city and people into curiae, centuries, and tribes: for by comitia calata were meant all the comitia in general, the term calata (from calare, i.e., vocare) being their common epithet, though it was at last restricted to assemblies for the creation of priests, and the regulation of last wills and testaments, to which the people acted as witnesses merely.\"\n}",
+ "usage": {
+  "completion_tokens": 239,
+  "prompt_tokens": 669,
+  "total_tokens": 908,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The proper comitia were of three sorts, curiata, centuriata, and tributa, with reference to the three grand divisions of the city and people into curiae, centuries, and tribes: for by comitia calata were meant all the comitia in general, the term calata (from calare, i.e., vocare) being their common epithet, though it was at last restricted to assemblies for the creation of priests, and the regulation of last wills and testaments, to which the people acted as witnesses merely.",
+  "modern": "The proper comitia were of three sorts, curiata, centuriata, and tributa, with reference to the three grand divisions of the city and people into curiae, centuries, and tribes: for by comitia calata were meant all the comitia in general, the term calata (from calare, i.e., vocare) being their common epithet, though it was at last restricted to assemblies for the creation of priests, and the regulation of last wills and testaments, to which the people acted as witnesses merely."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "3dcedb503e25ce5ecb39f52e473319ea",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "57. Mr Marup of Manchester contributed a tuɓ for\nattention, which ultimately adapted to niver the\nfrift purple. Its contribution is simple, and not ex-\npetience.",
+ "content": "{\n  \"faithful\": \"57. Mr Marup of Manchester contributed a tub for\\nattention, which ultimately adapted to answer the\\nfirst purpose. Its construction is simple, and not ex-\\npensive.\\nquality to any considerable degree.\\n253. Mr Rupp of Manchefter contrived a tub for\\nimmersion, which is admirably adapted to answer the\\nfirst purpose. Its construction is simple, and not ex-\\npensive.\",\n  \"modern\": \"57. Mr Marup of Manchester contributed a tub for\\nattention, which ultimately adapted to answer the\\nfirst purpose. Its construction is simple, and not ex-\\npensive.\\nquality to any considerable degree.\\n253. Mr Rupp of Manchester contrived a tub for\\nimmersion, which is admirably adapted to answer the\\nfirst purpose. Its construction is simple, and not ex-\\npensive.\"\n}",
+ "usage": {
+  "completion_tokens": 195,
+  "prompt_tokens": 609,
+  "total_tokens": 804,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "57. Mr Marup of Manchester contributed a tub for\nattention, which ultimately adapted to answer the\nfirst purpose. Its construction is simple, and not ex-\npensive.\nquality to any considerable degree.\n253. Mr Rupp of Manchefter contrived a tub for\nimmersion, which is admirably adapted to answer the\nfirst purpose. Its construction is simple, and not ex-\npensive.",
+  "modern": "57. Mr Marup of Manchester contributed a tub for\nattention, which ultimately adapted to answer the\nfirst purpose. Its construction is simple, and not ex-\npensive.\nquality to any considerable degree.\n253. Mr Rupp of Manchester contrived a tub for\nimmersion, which is admirably adapted to answer the\nfirst purpose. Its construction is simple, and not ex-\npensive."
+ },
+ "error": null
+}

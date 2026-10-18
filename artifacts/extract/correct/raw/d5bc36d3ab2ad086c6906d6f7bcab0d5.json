@@ -1,0 +1,28 @@
+{
+ "key": "d5bc36d3ab2ad086c6906d6f7bcab0d5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "From time of the foregoing remarks we alle for that \"natural power and does to use the frequency and excellence of our mental facilities into forgetting so that ites ought to cultivate them well, as being on better and our me-\nble part, in the criterion of which that of the fun-\ntive facilities should be merely fulbervent. But, although the pleasure are has nature rendered is a great degree independent of surfaces, fill you have a in our power to make more all more durable by vary-\ning and mixing them with one another, or by interposing between those that are very reasonable others that are led yielding, fo as that no individual pleas that be in recent.",
+ "content": "{\n  \"faithful\": \"From time of the foregoing remarks we alle for that \"natural power and does to use the frequency and excellence of our mental facilities into forgetting so that ites ought to cultivate them well, as being on better and our me- ble part, in the criterion of which that of the fun- tive facilities should be merely fulbervent. But, although the pleasure are has nature rendered is a great degree independent of surfaces, fill you have a in our power to make more all more durable by vary- ing and mixing them with one another, or by interposing between those that are very reasonable others that are led yielding, fo as that no individual pleas that be in recent.\",\n  \"modern\": \"From time of the foregoing remarks we alle for that \"natural power and does to use the frequency and excellence of our mental facilities into forgetting so that ites ought to cultivate them well, as being on better and our me- ble part, in the criterion of which that of the fun- tive facilities should be merely fulbervent. But, although the pleasure are has nature rendered is a great degree independent of surfaces, fill you have a in our power to make more all more durable by vary- ing and mixing them with one another, or by interposing between those that are very reasonable others that are led yielding, fo as that no individual pleas that be in recent.\"\n}",
+ "usage": {
+  "completion_tokens": 287,
+  "prompt_tokens": 712,
+  "total_tokens": 999,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": null,
+ "error": null
+}

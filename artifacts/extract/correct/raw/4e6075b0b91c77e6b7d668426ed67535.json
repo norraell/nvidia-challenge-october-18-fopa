@@ -1,0 +1,31 @@
+{
+ "key": "4e6075b0b91c77e6b7d668426ed67535",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "12. The hufland the marriages becomes the perpе. The fifth tul curator of the wife. From this right it arises, and is the title \"must endure\" eug.",
+ "content": "{\n  \"faithful\": \"12. The husband by marriage becomes the perpetual curator of the wife. From this right it arises, and is the title \\\"must endure\\\" eug. 1. That no suit can proceed against the wife till the husband be cited for his interest. 2. All deeds, done by a wife without the husband's consent, are null; neither can she sue in any action without the husband's.\",\n  \"modern\": \"12. The husband by marriage becomes the perpetual curator of the wife. From this right it arises, and is the title \\\"must endure\\\" eug. 1. That no suit can proceed against the wife till the husband be cited for his interest. 2. All deeds, done by a wife without the husband's consent, are null; neither can she sue in any action without the husband's.\"\n}",
+ "usage": {
+  "completion_tokens": 183,
+  "prompt_tokens": 607,
+  "total_tokens": 790,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "12. The husband by marriage becomes the perpetual curator of the wife. From this right it arises, and is the title \"must endure\" eug. 1. That no suit can proceed against the wife till the husband be cited for his interest. 2. All deeds, done by a wife without the husband's consent, are null; neither can she sue in any action without the husband's.",
+  "modern": "12. The husband by marriage becomes the perpetual curator of the wife. From this right it arises, and is the title \"must endure\" eug. 1. That no suit can proceed against the wife till the husband be cited for his interest. 2. All deeds, done by a wife without the husband's consent, are null; neither can she sue in any action without the husband's."
+ },
+ "error": null
+}

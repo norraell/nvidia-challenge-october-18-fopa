@@ -1,0 +1,31 @@
+{
+ "key": "6e648387064d0d00c856bad2fcb92fb2",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "I. The magnifinal of the two poles is evidently of an\nopposite nature; the one repelling what the other at-\ntrade). If the aircraft iron, therefore, the other\nshould result it. But each path, by changing a magre-\ntifion opposite to its own, on the nearest end of the iron,\nand the fans with its own on the remote end, and its\naction diminishing with an increase of diflants, there\nmult always be an excess of attraction, and the iron mult\nbe attached.",
+ "content": "{\n  \"faithful\": \"I. The magnetifm of the two poles is evidently of an opposite nature; the one repelling what the other at- tracts. If the one attracts iron, therefore, the other should repel it. But each pole, by inducing a magnetifm opposite to its own, on the nearest end of the iron, and the fame with its own on the remote end, and its action diminishing with an increase of distance, there must always be an excess of attraction, and the iron must be attracted.\",\n  \"modern\": \"I. The magnetism of the two poles is evidently of an opposite nature; the one repelling what the other attracts. If the one attracts iron, therefore, the other should repel it. But each pole, by inducing a magnetism opposite to its own, on the nearest end of the iron, and the same with its own on the remote end, and its action diminishing with an increase of distance, there must always be an excess of attraction, and the iron must be attracted.\"\n}",
+ "usage": {
+  "completion_tokens": 217,
+  "prompt_tokens": 689,
+  "total_tokens": 906,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "I. The magnetifm of the two poles is evidently of an opposite nature; the one repelling what the other at- tracts. If the one attracts iron, therefore, the other should repel it. But each pole, by inducing a magnetifm opposite to its own, on the nearest end of the iron, and the fame with its own on the remote end, and its action diminishing with an increase of distance, there must always be an excess of attraction, and the iron must be attracted.",
+  "modern": "I. The magnetism of the two poles is evidently of an opposite nature; the one repelling what the other attracts. If the one attracts iron, therefore, the other should repel it. But each pole, by inducing a magnetism opposite to its own, on the nearest end of the iron, and the same with its own on the remote end, and its action diminishing with an increase of distance, there must always be an excess of attraction, and the iron must be attracted."
+ },
+ "error": null
+}

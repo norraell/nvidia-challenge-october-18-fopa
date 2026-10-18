@@ -1,0 +1,31 @@
+{
+ "key": "3d65f3b4bd0badc9798ab598f8146e45",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Swift_ in his power to provide him indarwify. Swift that person (10/3) in different, having previously taken his matter’s degree at Oxford, by means of a tellimonal from Dublin, in which the world of debates were omitted. He was referred to enter into the church, where he felt great, forward was only L 100 aways, being the preband of _Kife_ rose in _Comey_, which form time afterwards upon six Wilson. I may hope’s currently writing this back, but his house at Moopark, he required in favour of a clergyman far advanced in years and burdened with a narrow family. For this man he folclicked the pretend, to which the brindif is dieded him.",
+ "content": "{\n  \"faithful\": \"_Swift_ in his power to provide for him otherwise. Swift left his patron (1694) in discontent; having previously taken his master's degree at Oxford, by means of a testimonial from Dublin, in which the words of disfavor were omitted. He was refused to enter into the church, where his first preferment was only L 100 a year, being the prebend of Kilroot in Connor; which some time afterwards, upon Sir William Temple's earnestly inviting him back to his house at Moorpark, he refused in favour of a clergyman far advanced in years and burdened with a numerous family. For this man he solicited the prebend, to which he himself inducted him.\",\n  \"modern\": \"Swift in his power to provide for him otherwise. Swift left his patron (1694) in discontent; having previously taken his master's degree at Oxford, by means of a testimonial from Dublin, in which the words of disfavor were omitted. He was refused to enter into the church, where his first preferment was only L 100 a year, being the prebend of Kilroot in Connor; which some time afterwards, upon Sir William Temple's earnestly inviting him back to his house at Moorpark, he refused in favour of a clergyman far advanced in years and burdened with a numerous family. For this man he solicited the prebend, to which he himself inducted him.\"\n}",
+ "usage": {
+  "completion_tokens": 310,
+  "prompt_tokens": 728,
+  "total_tokens": 1038,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_Swift_ in his power to provide for him otherwise. Swift left his patron (1694) in discontent; having previously taken his master's degree at Oxford, by means of a testimonial from Dublin, in which the words of disfavor were omitted. He was refused to enter into the church, where his first preferment was only L 100 a year, being the prebend of Kilroot in Connor; which some time afterwards, upon Sir William Temple's earnestly inviting him back to his house at Moorpark, he refused in favour of a clergyman far advanced in years and burdened with a numerous family. For this man he solicited the prebend, to which he himself inducted him.",
+  "modern": "Swift in his power to provide for him otherwise. Swift left his patron (1694) in discontent; having previously taken his master's degree at Oxford, by means of a testimonial from Dublin, in which the words of disfavor were omitted. He was refused to enter into the church, where his first preferment was only L 100 a year, being the prebend of Kilroot in Connor; which some time afterwards, upon Sir William Temple's earnestly inviting him back to his house at Moorpark, he refused in favour of a clergyman far advanced in years and burdened with a numerous family. For this man he solicited the prebend, to which he himself inducted him."
+ },
+ "error": null
+}

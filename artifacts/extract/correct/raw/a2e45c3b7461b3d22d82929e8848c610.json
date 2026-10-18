@@ -1,0 +1,31 @@
+{
+ "key": "a2e45c3b7461b3d22d82929e8848c610",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Occuges\nor catalans\nvertebre.",
+ "content": "{\n  \"faithful\": \"Occuges or catalans vertebre.\",\n  \"modern\": \"Occuges or catalans vertebre.\"\n}",
+ "usage": {
+  "completion_tokens": 33,
+  "prompt_tokens": 584,
+  "total_tokens": 617,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Occuges or catalans vertebre.",
+  "modern": "Occuges or catalans vertebre."
+ },
+ "error": null
+}

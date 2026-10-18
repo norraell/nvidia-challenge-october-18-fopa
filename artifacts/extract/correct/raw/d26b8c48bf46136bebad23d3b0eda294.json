@@ -1,0 +1,31 @@
+{
+ "key": "d26b8c48bf46136bebad23d3b0eda294",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "But as nothing is more caly than to write originally wrong; originals are not here recommended, but under the theory graed of the fruit rule--_Know _byful/_ La- cian, who was an original, neglected not this rule, if we may judge by the reply to one who took fone freedom with him. He was as first a happened to a fortury; and when he was reflected on as fach, by being called _Premichaela_, he applied, \"I am indeed the inventor of a new work. He model of which I owe to mine, and, if I do not execute it well, I deferve to be tom by twelve vulures, instead of one.\"",
+ "content": "{\n  \"faithful\": \"But as nothing is more caly than to write originally wrong; originals are not here recommended, but under the theory graed of the fruit rule--_Know _byful/_ La- cian, who was an original, neglected not this rule, if we may judge by the reply to one who took fone freedom with him. He was as first a happened to a fortury; and when he was reflected on as fach, by being called _Premichaela_, he applied, \\\"I am indeed the inventor of a new work. He model of which I owe to mine, and, if I do not execute it well, I deferve to be tom by twelve vulures, instead of one.\\\"\",\n  \"modern\": \"But as nothing is more caly than to write originally wrong; originals are not here recommended, but under the theory graed of the fruit rule--_Know _byful/_ La- cian, who was an original, neglected not this rule, if we may judge by the reply to one who took fone freedom with him. He was as first a happened to a fortury; and when he was reflected on as fach, by being called _Premichaela_, he applied, \\\"I am indeed the inventor of a new work. He model of which I owe to mine, and, if I do not execute it well, I deferve to be tom by twelve vulures, instead of one.\\\"\"\n}",
+ "usage": {
+  "completion_tokens": 309,
+  "prompt_tokens": 724,
+  "total_tokens": 1033,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "But as nothing is more caly than to write originally wrong; originals are not here recommended, but under the theory graed of the fruit rule--_Know _byful/_ La- cian, who was an original, neglected not this rule, if we may judge by the reply to one who took fone freedom with him. He was as first a happened to a fortury; and when he was reflected on as fach, by being called _Premichaela_, he applied, \"I am indeed the inventor of a new work. He model of which I owe to mine, and, if I do not execute it well, I deferve to be tom by twelve vulures, instead of one.\"",
+  "modern": "But as nothing is more caly than to write originally wrong; originals are not here recommended, but under the theory graed of the fruit rule--_Know _byful/_ La- cian, who was an original, neglected not this rule, if we may judge by the reply to one who took fone freedom with him. He was as first a happened to a fortury; and when he was reflected on as fach, by being called _Premichaela_, he applied, \"I am indeed the inventor of a new work. He model of which I owe to mine, and, if I do not execute it well, I deferve to be tom by twelve vulures, instead of one.\""
+ },
+ "error": null
+}

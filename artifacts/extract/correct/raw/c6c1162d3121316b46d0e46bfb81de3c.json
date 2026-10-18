@@ -1,0 +1,31 @@
+{
+ "key": "c6c1162d3121316b46d0e46bfb81de3c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "It appears to say, then, that objects are siblings or bears until _Jules._ When they are the natural signs and perpeutual concomitants of plausible sensations, or, at any rate, of some lively feeling or emotion to survive as some other senenties beings (or, secondly). When they are the arbitrary or accidental concomitants of such feelings (or, _Identity_. When they give some analogy or careful resemblance to things with which these conditions are necessarily connected. In endeavouring to illustrate the nature of these several relations, we shall be led to lay before our readers some proof that impact to its satisfaction of the truth of the general theory.",
+ "content": "{\n  \"faithful\": \"It appears to say, then, that objects are sublime or beautiful, first, When they are the natural signs and perpetual concomitants of pleasurable sensations, or, at any rate, of some lively feeling or emotion in ourselves or in some other sentient beings; or, secondly, When they are the arbitrary or accidental concomitants of such feelings; or, thirdly, When they bear some analogy or fanciful resemblance to things with which these emotions are necessarily connected. In endeavouring to illustrate the nature of these several relations, we shall be led to lay before our readers some proofs that appear to us satisfactory of the truth of the general theory.\",\n  \"modern\": \"It appears to say, then, that objects are sublime or beautiful, first, when they are the natural signs and perpetual concomitants of pleasurable sensations, or, at any rate, of some lively feeling or emotion in ourselves or in some other sentient beings; or, secondly, when they are the arbitrary or accidental concomitants of such feelings; or, thirdly, when they bear some analogy or fanciful resemblance to things with which these emotions are necessarily connected. In endeavoring to illustrate the nature of these several relations, we shall be led to lay before our readers some proofs that appear to us satisfactory of the truth of the general theory.\"\n}",
+ "usage": {
+  "completion_tokens": 280,
+  "prompt_tokens": 712,
+  "total_tokens": 992,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "It appears to say, then, that objects are sublime or beautiful, first, When they are the natural signs and perpetual concomitants of pleasurable sensations, or, at any rate, of some lively feeling or emotion in ourselves or in some other sentient beings; or, secondly, When they are the arbitrary or accidental concomitants of such feelings; or, thirdly, When they bear some analogy or fanciful resemblance to things with which these emotions are necessarily connected. In endeavouring to illustrate the nature of these several relations, we shall be led to lay before our readers some proofs that appear to us satisfactory of the truth of the general theory.",
+  "modern": "It appears to say, then, that objects are sublime or beautiful, first, when they are the natural signs and perpetual concomitants of pleasurable sensations, or, at any rate, of some lively feeling or emotion in ourselves or in some other sentient beings; or, secondly, when they are the arbitrary or accidental concomitants of such feelings; or, thirdly, when they bear some analogy or fanciful resemblance to things with which these emotions are necessarily connected. In endeavoring to illustrate the nature of these several relations, we shall be led to lay before our readers some proofs that appear to us satisfactory of the truth of the general theory."
+ },
+ "error": null
+}

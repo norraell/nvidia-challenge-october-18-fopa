@@ -1,0 +1,31 @@
+{
+ "key": "008937bcffdccd0b61f8952859055eca",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Thefe waters greatly promote digestion, unief they are drunk too long; in which cell they relax the flo- made, and reared digestion; they are well adapted to obstructions of every kind, whence they produce fur- grilling effects in gouy, rheumatic, athrire, and feor- butic pains. As this water as warn, highly impregnated with a mineral foam, vapoon, or finite, it is figally beneficial to crampt, convilions, dry affthmas, the biluso colis, liftedly, cz.",
+ "content": "{\n  \"faithful\": \"Thefe waters greatly promote digestion, unlefs they are drunk too long; in which cafe they relax the flo- mach, and retard digestion; they are well adapted to obftructions of every kind, whence they produce fur- prifing effects in gouty, rheumatic, athritic, and feor- butic pains. As this water is warm, highly impreg- nated with a mineral fteam, vapour, or fpirit, it is fignally beneficial to cramps, convulsions, dry affthmas, the bilious colic, flifnefs, &c.\",\n  \"modern\": \"These waters greatly promote digestion, unless they are drunk too long; in which case they relax the stomach, and retard digestion; they are well adapted to obstructions of every kind, whence they produce surprising effects in gouty, rheumatic, arthritic, and scorbutic pains. As this water is warm, highly impregnated with a mineral steam, vapour, or spirit, it is signally beneficial to cramps, convulsions, dry asthmas, the bilious colic, flatulence, &c.\"\n}",
+ "usage": {
+  "completion_tokens": 246,
+  "prompt_tokens": 695,
+  "total_tokens": 941,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Thefe waters greatly promote digestion, unlefs they are drunk too long; in which cafe they relax the flo- mach, and retard digestion; they are well adapted to obftructions of every kind, whence they produce fur- prifing effects in gouty, rheumatic, athritic, and feor- butic pains. As this water is warm, highly impreg- nated with a mineral fteam, vapour, or fpirit, it is fignally beneficial to cramps, convulsions, dry affthmas, the bilious colic, flifnefs, &c.",
+  "modern": "These waters greatly promote digestion, unless they are drunk too long; in which case they relax the stomach, and retard digestion; they are well adapted to obstructions of every kind, whence they produce surprising effects in gouty, rheumatic, arthritic, and scorbutic pains. As this water is warm, highly impregnated with a mineral steam, vapour, or spirit, it is signally beneficial to cramps, convulsions, dry asthmas, the bilious colic, flatulence, &c."
+ },
+ "error": null
+}

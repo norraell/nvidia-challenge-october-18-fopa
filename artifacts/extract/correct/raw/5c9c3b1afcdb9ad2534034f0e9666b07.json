@@ -1,0 +1,31 @@
+{
+ "key": "5c9c3b1afcdb9ad2534034f0e9666b07",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "No body changes either its direction or velocity other wile than by infentible degrees; therefore the particle which moving the axis will not include the vortex A of the body, where it behaved to deficit influence easily at right angles. It will therefore begin to be diseflected at fromen F is head of the body; and will de-ferible a curve FM, touching the axis in F, and the bo-ly in M, and then, yielding along the body, will gain it at some point I, defening a tangent curve, which will join the axis again (noching it) in B; and thus there will be a quantity of fragment water FAM because or a-head of the body, and another LGR behind or sitem of it.",
+ "content": "{\n  \"faithful\": \"No body changes either its direction or velocity other wile than by infentible degrees; therefore the particle which moving the axis will not include the vortex A of the body, where it behaved to deficit influence easily at right angles. It will therefore begin to be diseflected at fromen F is head of the body; and will de-ferible a curve FM, touching the axis in F, and the bo-ly in M, and then, yielding along the body, will gain it at some point I, defening a tangent curve, which will join the axis again (noching it) in B; and thus there will be a quantity of fragment water FAM because or a-head of the body, and another LGR behind or sitem of it.\",\n  \"modern\": \"No body changes either its direction or velocity other while than by insensible degrees; therefore the particle which moving the axis will not include the vortex A of the body, where it behaved to deficit influence easily at right angles. It will therefore begin to be deflected at from F is head of the body; and will describe a curve FM, touching the axis in F, and the body in M, and then, yielding along the body, will gain it at some point I, defining a tangent curve, which will join the axis again (touching it) in B; and thus there will be a quantity of fragment water FAM because of a-head of the body, and another LGR behind or side of it.\"\n}",
+ "usage": {
+  "completion_tokens": 315,
+  "prompt_tokens": 731,
+  "total_tokens": 1046,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "No body changes either its direction or velocity other wile than by infentible degrees; therefore the particle which moving the axis will not include the vortex A of the body, where it behaved to deficit influence easily at right angles. It will therefore begin to be diseflected at fromen F is head of the body; and will de-ferible a curve FM, touching the axis in F, and the bo-ly in M, and then, yielding along the body, will gain it at some point I, defening a tangent curve, which will join the axis again (noching it) in B; and thus there will be a quantity of fragment water FAM because or a-head of the body, and another LGR behind or sitem of it.",
+  "modern": "No body changes either its direction or velocity other while than by insensible degrees; therefore the particle which moving the axis will not include the vortex A of the body, where it behaved to deficit influence easily at right angles. It will therefore begin to be deflected at from F is head of the body; and will describe a curve FM, touching the axis in F, and the body in M, and then, yielding along the body, will gain it at some point I, defining a tangent curve, which will join the axis again (touching it) in B; and thus there will be a quantity of fragment water FAM because of a-head of the body, and another LGR behind or side of it."
+ },
+ "error": null
+}

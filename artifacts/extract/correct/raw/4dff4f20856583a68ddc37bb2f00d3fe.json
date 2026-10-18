@@ -1,0 +1,31 @@
+{
+ "key": "4dff4f20856583a68ddc37bb2f00d3fe",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "CAVPANUS, a must give by force authors to a woman that adhere to and grows the bottoms of flips to which it is extremely pericious, especially in the East and Well states to prevent this, several dips have intact been themed with copper, to the first trial of which was made on his majelly's firegate the Alarm. CAMPAIS, in fortany. Y. a genus of the monos- gyria order, belonging to the polyamidefs chaf of plants : and in the natural method making under the aitho des, Plantainies. The only is terapylish and ceri-scous three petals are four; the luminous arm long; the fruit is a berty, common, molecular, and podunca-lated, or furnished with a root fluid.",
+ "content": "{\n  \"faithful\": \"CAPPANUS, a name given by some authors to a woman that adheres to and grows the bottoms of ships to which it is extremely pernicious, especially in the East and West Indies: to prevent this, several ships have lately been fleeced with copper; the first trial of which was made on his majesty's frigate the Alarm. CAPPARIS, in botany: A genus of the monogynia order, belonging to the polyandria class of plants: and in the natural method ranking under the 25th order, Plantamine. The calyx is tetraphyllous and coriaceous; there petals are four; the filaments are long; the fruit is a berry, carnous, unilocular, and pedunculated, or furnished with a foot-stalk.\",\n  \"modern\": \"CAPPANUS, a name given by some authors to a woman that adheres to and grows the bottoms of ships to which it is extremely pernicious, especially in the East and West Indies: to prevent this, several ships have lately been fleeced with copper; the first trial of which was made on his majesty's frigate the Alarm. CAPPARIS, in botany: A genus of the monogynia order, belonging to the polyandria class of plants: and in the natural method ranking under the 25th order, Plantamine. The calyx is tetraphyllous and coriaceous; there petals are four; the filaments are long; the fruit is a berry, carnous, unilocular, and pedunculated, or furnished with a foot-stalk.\"\n}",
+ "usage": {
+  "completion_tokens": 351,
+  "prompt_tokens": 744,
+  "total_tokens": 1095,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "CAPPANUS, a name given by some authors to a woman that adheres to and grows the bottoms of ships to which it is extremely pernicious, especially in the East and West Indies: to prevent this, several ships have lately been fleeced with copper; the first trial of which was made on his majesty's frigate the Alarm. CAPPARIS, in botany: A genus of the monogynia order, belonging to the polyandria class of plants: and in the natural method ranking under the 25th order, Plantamine. The calyx is tetraphyllous and coriaceous; there petals are four; the filaments are long; the fruit is a berry, carnous, unilocular, and pedunculated, or furnished with a foot-stalk.",
+  "modern": "CAPPANUS, a name given by some authors to a woman that adheres to and grows the bottoms of ships to which it is extremely pernicious, especially in the East and West Indies: to prevent this, several ships have lately been fleeced with copper; the first trial of which was made on his majesty's frigate the Alarm. CAPPARIS, in botany: A genus of the monogynia order, belonging to the polyandria class of plants: and in the natural method ranking under the 25th order, Plantamine. The calyx is tetraphyllous and coriaceous; there petals are four; the filaments are long; the fruit is a berry, carnous, unilocular, and pedunculated, or furnished with a foot-stalk."
+ },
+ "error": null
+}

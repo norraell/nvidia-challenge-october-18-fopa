@@ -1,0 +1,31 @@
+{
+ "key": "7e00980745c031f13628305a50f54161",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In Spain, and the Southern passa of Europe, the flocks are kept in thudes or fiables during the night; but in Britain, where there is now no danger from wolves, they are allowed to remain without; both adult and day; which make the animals more healthy, and their dish a more whole food. Dry and mountainous grounds, where thyme and fleep's fefea grafs abound, are the built for the patturing fleep.",
+ "content": "{\n  \"faithful\": \"In Spain, and the Southern parts of Europe, the flocks are kept in folds or stables during the night; but in Britain, where there is now no danger from wolves, they are allowed to remain without, both night and day; which makes the animals more healthy, and their flesh a more whole food. Dry and mountainous grounds, where thyme and sheep's fescue grass abound, are the best for the pasturing sheep.\",\n  \"modern\": \"In Spain, and the southern parts of Europe, the flocks are kept in folds or stables during the night; but in Britain, where there is now no danger from wolves, they are allowed to remain without, both night and day; which makes the animals more healthy, and their flesh a more whole food. Dry and mountainous grounds, where thyme and sheep's fescue grass abound, are the best for the pasturing sheep.\"\n}",
+ "usage": {
+  "completion_tokens": 195,
+  "prompt_tokens": 659,
+  "total_tokens": 854,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In Spain, and the Southern parts of Europe, the flocks are kept in folds or stables during the night; but in Britain, where there is now no danger from wolves, they are allowed to remain without, both night and day; which makes the animals more healthy, and their flesh a more whole food. Dry and mountainous grounds, where thyme and sheep's fescue grass abound, are the best for the pasturing sheep.",
+  "modern": "In Spain, and the southern parts of Europe, the flocks are kept in folds or stables during the night; but in Britain, where there is now no danger from wolves, they are allowed to remain without, both night and day; which makes the animals more healthy, and their flesh a more whole food. Dry and mountainous grounds, where thyme and sheep's fescue grass abound, are the best for the pasturing sheep."
+ },
+ "error": null
+}

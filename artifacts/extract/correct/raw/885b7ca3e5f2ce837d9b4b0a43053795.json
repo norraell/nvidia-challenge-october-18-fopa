@@ -1,0 +1,31 @@
+{
+ "key": "885b7ca3e5f2ce837d9b4b0a43053795",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "4. 1. 14 16 1c -\nLanantin...16 24 46 Perpoie..13 40 60\nDoping–10 14Vila...13 47 67 Hyperodon...3 30 54\nDiplini...13 47 67 Hyperodon...3 30 45\nTories...19 30 Cedekar or White\nby Globeper –11 37 56 Whalesite 14-130 30 60\nOn Grisques...11 24 42 60 Greenland Walla...12 75 69\nto Congress...12 24 46 Repopial...11 19 32\nIn general, however, if we reckon the first 23, 3, or 5 ver-\ntebres after the coastal, buther, it may be said that the\ncualth vertebron of the Czaraca was from 30 or 33, which\nare the numbers respectively in the humanants and dungory,\non 34, 38; and 42, an adult they may be estimain in the\ndolphin. We shall see that, in the dungog at least, we are\nguided in this estimate by the rudimentary bones of the\npolvis.",
+ "content": "{\n  \"faithful\": \"4. 1. 14 16 1c - Lanantin...16 24 46 Perpoie..13 40 60 Doping–10 14Vila...13 47 67 Hyperodon...3 30 54 Diplini...13 47 67 Hyperodon...3 30 45 Tories...19 30 Cedekar or White by Globeper –11 37 56 Whalesite 14-130 30 60 On Grisques...11 24 42 60 Greenland Walla...12 75 69 to Congress...12 24 46 Repopial...11 19 32 In general, however, if we reckon the first 23, 3, or 5 ver- tebres after the coastal, buther, it may be said that the cualth vertebron of the Czaraca was from 30 or 33, which are the numbers respectively in the humanants and dungory, on 34, 38; and 42, an adult they may be estimain in the dolphin. We shall see that, in the dungog at least, we are guided in this estimate by the rudimentary bones of the polvis.\",\n  \"modern\": \"4. 1. 14 16 1c - Lanantin...16 24 46 Perpoie..13 40 60 Doping–10 14Vila...13 47 67 Hyperodon...3 30 54 Diplini...13 47 67 Hyperodon...3 30 45 Tories...19 30 Cedekar or White by Globeper –11 37 56 Whalesite 14-130 30 60 On Grisques...11 24 42 60 Greenland Walla...12 75 69 to Congress...12 24 46 Repopial...11 19 32 In general, however, if we reckon the first 23, 3, or 5 vertebrae after the coastal, buther, it may be said that the caudal vertebra of the Czaraca was from 30 or 33, which are the numbers respectively in the humanants and dungory, on 34, 38; and 42, an adult they may be estimain in the dolphin. We shall see that, in the dungog at least, we are guided in this estimate by the rudimentary bones of the pelvis.\"\n}",
+ "usage": {
+  "completion_tokens": 615,
+  "prompt_tokens": 883,
+  "total_tokens": 1498,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "4. 1. 14 16 1c - Lanantin...16 24 46 Perpoie..13 40 60 Doping–10 14Vila...13 47 67 Hyperodon...3 30 54 Diplini...13 47 67 Hyperodon...3 30 45 Tories...19 30 Cedekar or White by Globeper –11 37 56 Whalesite 14-130 30 60 On Grisques...11 24 42 60 Greenland Walla...12 75 69 to Congress...12 24 46 Repopial...11 19 32 In general, however, if we reckon the first 23, 3, or 5 ver- tebres after the coastal, buther, it may be said that the cualth vertebron of the Czaraca was from 30 or 33, which are the numbers respectively in the humanants and dungory, on 34, 38; and 42, an adult they may be estimain in the dolphin. We shall see that, in the dungog at least, we are guided in this estimate by the rudimentary bones of the polvis.",
+  "modern": "4. 1. 14 16 1c - Lanantin...16 24 46 Perpoie..13 40 60 Doping–10 14Vila...13 47 67 Hyperodon...3 30 54 Diplini...13 47 67 Hyperodon...3 30 45 Tories...19 30 Cedekar or White by Globeper –11 37 56 Whalesite 14-130 30 60 On Grisques...11 24 42 60 Greenland Walla...12 75 69 to Congress...12 24 46 Repopial...11 19 32 In general, however, if we reckon the first 23, 3, or 5 vertebrae after the coastal, buther, it may be said that the caudal vertebra of the Czaraca was from 30 or 33, which are the numbers respectively in the humanants and dungory, on 34, 38; and 42, an adult they may be estimain in the dolphin. We shall see that, in the dungog at least, we are guided in this estimate by the rudimentary bones of the pelvis."
+ },
+ "error": null
+}

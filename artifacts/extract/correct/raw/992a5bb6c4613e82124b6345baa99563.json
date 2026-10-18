@@ -1,0 +1,31 @@
+{
+ "key": "992a5bb6c4613e82124b6345baa99563",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The translation of the way, according to the Arabian historian, was mirinculous, the was mother of the named _Aobhli_ came from the sea, having faces like lion; s each carrying in its class a small stone about the size of a pen, which they fell full name the Ethiopian army in such numbers, that every one of them was dettryed. At this time it is said that the manifest more than the more people account of the destruction of the Ethiopian army is, that the perished by the disemperor.",
+ "content": "{\n  \"faithful\": \"The translation of the way, according to the Arabian historian, was miraculous, the vast number of birds named _Aobhli_ came from the sea, having faces like lions; each carrying in its claw a small stone about the size of a pea, which they let fall upon the Ethiopian army in such numbers, that every one of them was destroyed. At this time it is said that the small-pox first made its appearance; and the more probable account of the destruction of the Ethiopian army is, that they perished by this distemper.\",\n  \"modern\": \"The translation of the way, according to the Arabian historian, was miraculous, the vast number of birds named Aobhli came from the sea, having faces like lions; each carrying in its claw a small stone about the size of a pea, which they let fall upon the Ethiopian army in such numbers, that every one of them was destroyed. At this time it is said that the smallpox first made its appearance; and the more probable account of the destruction of the Ethiopian army is, that they perished by this distemper.\"\n}",
+ "usage": {
+  "completion_tokens": 240,
+  "prompt_tokens": 690,
+  "total_tokens": 930,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The translation of the way, according to the Arabian historian, was miraculous, the vast number of birds named _Aobhli_ came from the sea, having faces like lions; each carrying in its claw a small stone about the size of a pea, which they let fall upon the Ethiopian army in such numbers, that every one of them was destroyed. At this time it is said that the small-pox first made its appearance; and the more probable account of the destruction of the Ethiopian army is, that they perished by this distemper.",
+  "modern": "The translation of the way, according to the Arabian historian, was miraculous, the vast number of birds named Aobhli came from the sea, having faces like lions; each carrying in its claw a small stone about the size of a pea, which they let fall upon the Ethiopian army in such numbers, that every one of them was destroyed. At this time it is said that the smallpox first made its appearance; and the more probable account of the destruction of the Ethiopian army is, that they perished by this distemper."
+ },
+ "error": null
+}

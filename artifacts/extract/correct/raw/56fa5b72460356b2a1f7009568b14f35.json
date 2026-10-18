@@ -1,0 +1,31 @@
+{
+ "key": "56fa5b72460356b2a1f7009568b14f35",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Had Milton never wrote. Pope had been felt to blame; but when in Milton’s genius. Homer, as it were, perfoally role to boriblighters doing him that google wrong; it is lels paradisable, lay that _affirmish_, decoration, to par Achilles in petticas a second time. How much nobler had it been, if his numbers had rolled on in fall flow, through the various modulations of maculoline melo-dy, into those grandeurs of folcmn found, which are in",
+ "content": "{\n  \"faithful\": \"Had Milton never wrote, Pope had been left to blame; but when in Milton's genius, Homer, as it were, personally rose to forbid Britons doing him that ignoble wrong; it is less pardonable, by that effeminate decoration, to put Achilles in petticoats a second time. How much nobler had it been, if his numbers had rolled on in full flow, through the various modulations of masculine melody, into those grandures of solemn sound, which are in\",\n  \"modern\": \"Had Milton never wrote, Pope had been left to blame; but when in Milton's genius, Homer, as it were, personally rose to forbid Britons doing him that ignoble wrong; it is less pardonable, by that effeminate decoration, to put Achilles in petticoats a second time. How much nobler had it been, if his numbers had rolled on in full flow, through the various modulations of masculine melody, into those grandures of solemn sound, which are in\"\n}",
+ "usage": {
+  "completion_tokens": 221,
+  "prompt_tokens": 675,
+  "total_tokens": 896,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Had Milton never wrote, Pope had been left to blame; but when in Milton's genius, Homer, as it were, personally rose to forbid Britons doing him that ignoble wrong; it is less pardonable, by that effeminate decoration, to put Achilles in petticoats a second time. How much nobler had it been, if his numbers had rolled on in full flow, through the various modulations of masculine melody, into those grandures of solemn sound, which are in",
+  "modern": "Had Milton never wrote, Pope had been left to blame; but when in Milton's genius, Homer, as it were, personally rose to forbid Britons doing him that ignoble wrong; it is less pardonable, by that effeminate decoration, to put Achilles in petticoats a second time. How much nobler had it been, if his numbers had rolled on in full flow, through the various modulations of masculine melody, into those grandures of solemn sound, which are in"
+ },
+ "error": null
+}

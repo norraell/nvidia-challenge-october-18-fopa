@@ -1,0 +1,31 @@
+{
+ "key": "037c232370416bb8644e08543cd0cc48",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "number of their is fo small, that compared with the ful- phurated minerals, they almost worth).",
+ "content": "{\n  \"faithful\": \"number of thefe is fo fmall, that compared with the ful- phurated minerals, they almost vanish.\",\n  \"modern\": \"number of these is so small, that compared with the sulphurated minerals, they almost vanish.\"\n}",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 619,
+  "total_tokens": 678,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "number of thefe is fo fmall, that compared with the ful- phurated minerals, they almost vanish.",
+  "modern": "number of these is so small, that compared with the sulphurated minerals, they almost vanish."
+ },
+ "error": null
+}

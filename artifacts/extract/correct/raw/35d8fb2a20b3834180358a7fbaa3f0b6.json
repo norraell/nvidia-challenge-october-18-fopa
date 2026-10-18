@@ -1,0 +1,31 @@
+{
+ "key": "35d8fb2a20b3834180358a7fbaa3f0b6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This is distilled in the time manner as the forego- ing oils, and is finally an official one, though not ufually ranked in this clafa: it is commonly, but im- properly, called _fprins of turpentine_. It is employed in large quantities for tone mechanic purpoda and hence the distillation of it is become a particular bufi-neis.",
+ "content": "{\n  \"faithful\": \"This is distilled in the same manner as the foregoing oils, and is finally an official one, though not usually ranked in this class: it is commonly, but improperly, called spirit of turpentine. It is employed in large quantities for some mechanic purposes, and hence the distillation of it is become a particular business.\",\n  \"modern\": \"This is distilled in the same manner as the foregoing oils, and is finally an official one, though not usually ranked in this class: it is commonly, but improperly, called spirit of turpentine. It is employed in large quantities for some mechanic purposes, and hence the distillation of it is become a particular business.\"\n}",
+ "usage": {
+  "completion_tokens": 145,
+  "prompt_tokens": 661,
+  "total_tokens": 806,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This is distilled in the same manner as the foregoing oils, and is finally an official one, though not usually ranked in this class: it is commonly, but improperly, called spirit of turpentine. It is employed in large quantities for some mechanic purposes, and hence the distillation of it is become a particular business.",
+  "modern": "This is distilled in the same manner as the foregoing oils, and is finally an official one, though not usually ranked in this class: it is commonly, but improperly, called spirit of turpentine. It is employed in large quantities for some mechanic purposes, and hence the distillation of it is become a particular business."
+ },
+ "error": null
+}

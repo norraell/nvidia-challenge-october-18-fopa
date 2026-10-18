@@ -1,0 +1,31 @@
+{
+ "key": "ccbd9218f169f682b4496b2a8be69562",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The Ethiopie alphabet consists of twenty-six letters, each Ethiopie of which, by a stripped or point emerged, writes its second alphabet. In such a manner as that those twenty-six forms as it were sixty-two distinct letters. At first they had only seventy-five of these original letters, the Ladr P being wanting; so that they were obliged to substitute another letter in its place. _Ethikale, the example, they call Pauline, Aruba, or Guina, and Peteror they pronounced Keten._ At six they substituted T, and added this to the end of their alphabet; giving up the force of B, though it was really in expectation of an old character, rather than in inventof a war one. Besides these, there are twenty others of the nature of diph",
+ "content": "{\n  \"faithful\": \"The Ethiopie alphabet consists of twenty-six letters, each Ethiopie of which, by a stripped or point emerged, writes its second alphabet. In such a manner as that those twenty-six forms as it were sixty-two distinct letters. At first they had only seventy-five of these original letters, the Ladr P being wanting; so that they were obliged to substitute another letter in its place. _Ethikale, the example, they call Pauline, Aruba, or Guina, and Peteror they pronounced Keten._ At six they substituted T, and added this to the end of their alphabet; giving up the force of B, though it was really in expectation of an old character, rather than in inventof a war one. Besides these, there are twenty others of the nature of diph\",\n  \"modern\": \"The Ethiopie alphabet consists of twenty-six letters, each Ethiopie of which, by a stripped or point emerged, writes its second alphabet. In such a manner as that those twenty-six forms as it were sixty-two distinct letters. At first they had only seventy-five of these original letters, the Ladr P being wanting; so that they were obliged to substitute another letter in its place. Ethikale, the example, they call Pauline, Aruba, or Guina, and Peteror they pronounced Keten. At six they substituted T, and added this to the end of their alphabet; giving up the force of B, though it was really in expectation of an old character, rather than in inventof a war one. Besides these, there are twenty others of the nature of diph\"\n}",
+ "usage": {
+  "completion_tokens": 338,
+  "prompt_tokens": 729,
+  "total_tokens": 1067,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The Ethiopie alphabet consists of twenty-six letters, each Ethiopie of which, by a stripped or point emerged, writes its second alphabet. In such a manner as that those twenty-six forms as it were sixty-two distinct letters. At first they had only seventy-five of these original letters, the Ladr P being wanting; so that they were obliged to substitute another letter in its place. _Ethikale, the example, they call Pauline, Aruba, or Guina, and Peteror they pronounced Keten._ At six they substituted T, and added this to the end of their alphabet; giving up the force of B, though it was really in expectation of an old character, rather than in inventof a war one. Besides these, there are twenty others of the nature of diph",
+  "modern": "The Ethiopie alphabet consists of twenty-six letters, each Ethiopie of which, by a stripped or point emerged, writes its second alphabet. In such a manner as that those twenty-six forms as it were sixty-two distinct letters. At first they had only seventy-five of these original letters, the Ladr P being wanting; so that they were obliged to substitute another letter in its place. Ethikale, the example, they call Pauline, Aruba, or Guina, and Peteror they pronounced Keten. At six they substituted T, and added this to the end of their alphabet; giving up the force of B, though it was really in expectation of an old character, rather than in inventof a war one. Besides these, there are twenty others of the nature of diph"
+ },
+ "error": null
+}

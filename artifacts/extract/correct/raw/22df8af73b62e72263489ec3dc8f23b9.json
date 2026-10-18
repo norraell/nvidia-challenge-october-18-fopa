@@ -1,0 +1,31 @@
+{
+ "key": "22df8af73b62e72263489ec3dc8f23b9",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "These verbeter are in the mammals narrower than in\nman, and their direction forms with the species instead of\nreceding backwards. a straight line, an arrangement of a\ndently connected with the horizontal position of the for-\nner. The idea of the secum on the lower mammals is\nthat of an elongated triangle, and it is further remarkable,\nthat in those species which occasionally assume the erect\nattribution on the local leg, an apex, bears, and slobs, in\nwidth of the spectrum is proportionally greater. The sa-\nerul spines, which are short in man and the ape, become\nlonger in the Zovatura and transa container rigles in the\nrhinoceros, most ruminants, and especially in the mole. In\nthe trampve and the secum form a long component\none, the extremity of which is united by the lethal tus-\nberalties, without sustaining a coccyw. The seal has two\nseveral bones just the Czaraba, e, qh oldphol and por-\npoise, are void both of secum and coccyc.",
+ "content": "{\n  \"faithful\": \"These vertebrae are in the mammals narrower than in man, and their direction forms with the spine, instead of receding backwards, a straight line; an arrangement evidently connected with the horizontal position of the former. The shape of the sacrum in the lower mammals is that of an elongated triangle; and it is further remarkable, that in those species which occasionally assume the erect attitude on the hind leg, as apes, bears, and sloths, the width of the sacrum is proportionally greater. The sacral spines, which are short in man and the ape, become longer in the Zoophaga, and form a continuous ridge in the rhinoceros, most ruminants, and especially in the mole. In the vampyre bat the sacrum forms a long compressed cone, the extremity of which is united to the ischial tuberosities, without sustaining a coccyx. The seal has two sacral bones; but the Cetacea, e. g. the dolphin and porpoise, are void both of sacrum and coccyx.\",\n  \"modern\": \"These vertebrae are in the mammals narrower than in man, and their direction forms with the spine, instead of receding backwards, a straight line; an arrangement evidently connected with the horizontal position of the former. The shape of the sacrum in the lower mammals is that of an elongated triangle; and it is further remarkable, that in those species which occasionally assume the erect attitude on the hind leg, as apes, bears, and sloths, the width of the sacrum is proportionally greater. The sacral spines, which are short in man and the ape, become longer in the Zoophaga, and form a continuous ridge in the rhinoceros, most ruminants, and especially in the mole. In the vampire bat the sacrum forms a long compressed cone, the extremity of which is united to the ischial tuberosities, without sustaining a coccyx. The seal has two sacral bones; but the Cetacea, e. g. the dolphin and porpoise, are void both of sacrum and coccyx.\"\n}",
+ "usage": {
+  "completion_tokens": 448,
+  "prompt_tokens": 862,
+  "total_tokens": 1310,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 324
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "These vertebrae are in the mammals narrower than in man, and their direction forms with the spine, instead of receding backwards, a straight line; an arrangement evidently connected with the horizontal position of the former. The shape of the sacrum in the lower mammals is that of an elongated triangle; and it is further remarkable, that in those species which occasionally assume the erect attitude on the hind leg, as apes, bears, and sloths, the width of the sacrum is proportionally greater. The sacral spines, which are short in man and the ape, become longer in the Zoophaga, and form a continuous ridge in the rhinoceros, most ruminants, and especially in the mole. In the vampyre bat the sacrum forms a long compressed cone, the extremity of which is united to the ischial tuberosities, without sustaining a coccyx. The seal has two sacral bones; but the Cetacea, e. g. the dolphin and porpoise, are void both of sacrum and coccyx.",
+  "modern": "These vertebrae are in the mammals narrower than in man, and their direction forms with the spine, instead of receding backwards, a straight line; an arrangement evidently connected with the horizontal position of the former. The shape of the sacrum in the lower mammals is that of an elongated triangle; and it is further remarkable, that in those species which occasionally assume the erect attitude on the hind leg, as apes, bears, and sloths, the width of the sacrum is proportionally greater. The sacral spines, which are short in man and the ape, become longer in the Zoophaga, and form a continuous ridge in the rhinoceros, most ruminants, and especially in the mole. In the vampire bat the sacrum forms a long compressed cone, the extremity of which is united to the ischial tuberosities, without sustaining a coccyx. The seal has two sacral bones; but the Cetacea, e. g. the dolphin and porpoise, are void both of sacrum and coccyx."
+ },
+ "error": null
+}

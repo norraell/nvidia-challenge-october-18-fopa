@@ -1,0 +1,31 @@
+{
+ "key": "2c0ea5bca16052e1109b262f5222128d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "We have to hesitation in expressing our opinion that the whole of these conditions are attained used fully by means of well-arranged boxes. Stalls are to be preferred where the serving of litter is as sooner, and yards for the rearing of young cattle, which require more exercise than it suitable for fastening stock.",
+ "content": "{\n  \"faithful\": \"We have no hesitation in expressing our opinion that the whole of these conditions are attained most fully by means of well-arranged boxes. Stalls are to be preferred where the saving of litter is an object; and yards for the rearing of young cattle, which require more exercise than is suitable for fattening stock.\",\n  \"modern\": \"We have no hesitation in expressing our opinion that the whole of these conditions are attained most fully by means of well-arranged boxes. Stalls are to be preferred where the saving of litter is an object; and yards for the rearing of young cattle, which require more exercise than is suitable for fattening stock.\"\n}",
+ "usage": {
+  "completion_tokens": 143,
+  "prompt_tokens": 644,
+  "total_tokens": 787,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "We have no hesitation in expressing our opinion that the whole of these conditions are attained most fully by means of well-arranged boxes. Stalls are to be preferred where the saving of litter is an object; and yards for the rearing of young cattle, which require more exercise than is suitable for fattening stock.",
+  "modern": "We have no hesitation in expressing our opinion that the whole of these conditions are attained most fully by means of well-arranged boxes. Stalls are to be preferred where the saving of litter is an object; and yards for the rearing of young cattle, which require more exercise than is suitable for fattening stock."
+ },
+ "error": null
+}

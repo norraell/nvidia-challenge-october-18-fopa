@@ -1,0 +1,31 @@
+{
+ "key": "18f8daba180341d5e8bbb6cf509e107e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The decoction remaining after the distillation of the oil, afford, by infiltration, an useful extract of a mold, bitterth, albalkringed tafte. Hufman fays, he has given it with great benefits, in doses of a teruple, as a corroborant in cachethe cafes, in the decline of interming fevers, and for abating hypochondriacal fpafms.",
+ "content": "{\n  \"faithful\": \"The decoction remaining after the distillation of the oil, affords, by infusion, an useful extract, of a mild, bitterish, fubaftringent tafte. Hoffman fays, he has given it with great benefit, in dofes of a feruple, as a corroborant in cachectic cafes, in the decline of intermitting fevers, and for abating hypochondriacal fpafms.\",\n  \"modern\": \"The decoction remaining after the distillation of the oil, affords, by infusion, an useful extract, of a mild, bitterish, subastringent taste. Hoffman says, he has given it with great benefit, in doses of a scruple, as a corroborant in cachectic cases, in the decline of intermitting fevers, and for abating hypochondriacal spasms.\"\n}",
+ "usage": {
+  "completion_tokens": 188,
+  "prompt_tokens": 670,
+  "total_tokens": 858,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The decoction remaining after the distillation of the oil, affords, by infusion, an useful extract, of a mild, bitterish, fubaftringent tafte. Hoffman fays, he has given it with great benefit, in dofes of a feruple, as a corroborant in cachectic cafes, in the decline of intermitting fevers, and for abating hypochondriacal fpafms.",
+  "modern": "The decoction remaining after the distillation of the oil, affords, by infusion, an useful extract, of a mild, bitterish, subastringent taste. Hoffman says, he has given it with great benefit, in doses of a scruple, as a corroborant in cachectic cases, in the decline of intermitting fevers, and for abating hypochondriacal spasms."
+ },
+ "error": null
+}

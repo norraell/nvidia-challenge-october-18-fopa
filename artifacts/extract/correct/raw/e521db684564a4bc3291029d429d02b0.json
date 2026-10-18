@@ -1,0 +1,31 @@
+{
+ "key": "e521db684564a4bc3291029d429d02b0",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_regi ruse le Mopoe oppaar oppaarna,_ concerning the sacred last. Chahidic ties in the island of Morce 1 and another concerning the Language, sacred therein. Had these books survived the ravages of time, they would, in this age of research and consisary, have determined not only the point under the consideration, but likewise the affinity of sacred rites amongst the Chaldeana, Ethiopians, and Egyptianman.",
+ "content": "{\n  \"faithful\": \"περι των δε Μερου ιερων γραμματων, concerning the sacred letters in the island of Meroe; and another concerning the sacred letters in Babylon. Had these books survived the ravages of time, they would, in this age of research and curiosity, have determined not only the point under our consideration, but likewise the affinity of sacred rites amongst the Chaldeans, Ethiopians, and Egyptians.\",\n  \"modern\": \"περι των δε Μερου ιερων γραμματων, concerning the sacred letters in the island of Meroe; and another concerning the sacred letters in Babylon. Had these books survived the ravages of time, they would, in this age of research and curiosity, have determined not only the point under our consideration, but likewise the affinity of sacred rites amongst the Chaldeans, Ethiopians, and Egyptians.\"\n}",
+ "usage": {
+  "completion_tokens": 187,
+  "prompt_tokens": 677,
+  "total_tokens": 864,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "περι των δε Μερου ιερων γραμματων, concerning the sacred letters in the island of Meroe; and another concerning the sacred letters in Babylon. Had these books survived the ravages of time, they would, in this age of research and curiosity, have determined not only the point under our consideration, but likewise the affinity of sacred rites amongst the Chaldeans, Ethiopians, and Egyptians.",
+  "modern": "περι των δε Μερου ιερων γραμματων, concerning the sacred letters in the island of Meroe; and another concerning the sacred letters in Babylon. Had these books survived the ravages of time, they would, in this age of research and curiosity, have determined not only the point under our consideration, but likewise the affinity of sacred rites amongst the Chaldeans, Ethiopians, and Egyptians."
+ },
+ "error": null
+}

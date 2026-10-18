@@ -1,0 +1,31 @@
+{
+ "key": "45a39397df13fe38925191978600f276",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "EXEMPLAR allo denotes the idea, or image, conceived",
+ "content": "{\n  \"faithful\": \"EXEMPLAR allo denotes the idea, or image, conceived or copied. See MODEL. EXEMPLAR also denotes the idea, or image, conceived\",\n  \"modern\": \"EXEMPLAR also denotes the idea, or image, conceived or copied. See MODEL. EXEMPLAR also denotes the idea, or image, conceived\"\n}",
+ "usage": {
+  "completion_tokens": 83,
+  "prompt_tokens": 605,
+  "total_tokens": 688,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXEMPLAR allo denotes the idea, or image, conceived or copied. See MODEL. EXEMPLAR also denotes the idea, or image, conceived",
+  "modern": "EXEMPLAR also denotes the idea, or image, conceived or copied. See MODEL. EXEMPLAR also denotes the idea, or image, conceived"
+ },
+ "error": null
+}

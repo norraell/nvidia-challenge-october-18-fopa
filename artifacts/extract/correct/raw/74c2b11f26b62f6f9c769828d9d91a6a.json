@@ -1,0 +1,31 @@
+{
+ "key": "74c2b11f26b62f6f9c769828d9d91a6a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In the manufacture of cables, after the ropes are made, they ufe flicks, which they pails frit between the ropes of which they make the lizards, and afterwards between the frants of which they make the cable, to the cell that they may all twill the better, and be more regularly wound together; and alfo, to prevent them from twinning or intangling, they hang.",
+ "content": "{\n  \"faithful\": \"In the manufacture of cables, after the ropes are made, they ufe flicks, which they pails frit between the ropes of which they make the lizards, and afterwards between the frants of which they make the cable, to the cell that they may all twill the better, and be more regularly wound together; and alfo, to prevent them from twinning or intangling, they hang.\",\n  \"modern\": \"In the manufacture of cables, after the ropes are made, they use flicks, which they pails frit between the ropes of which they make the lizards, and afterwards between the frants of which they make the cable, to the cell that they may all twill the better, and be more regularly wound together; and also, to prevent them from twinning or intangling, they hang.\"\n}",
+ "usage": {
+  "completion_tokens": 185,
+  "prompt_tokens": 659,
+  "total_tokens": 844,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In the manufacture of cables, after the ropes are made, they ufe flicks, which they pails frit between the ropes of which they make the lizards, and afterwards between the frants of which they make the cable, to the cell that they may all twill the better, and be more regularly wound together; and alfo, to prevent them from twinning or intangling, they hang.",
+  "modern": "In the manufacture of cables, after the ropes are made, they use flicks, which they pails frit between the ropes of which they make the lizards, and afterwards between the frants of which they make the cable, to the cell that they may all twill the better, and be more regularly wound together; and also, to prevent them from twinning or intangling, they hang."
+ },
+ "error": null
+}

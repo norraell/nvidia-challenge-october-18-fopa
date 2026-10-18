@@ -1,0 +1,31 @@
+{
+ "key": "d733ef0caaceb1d4d6242152acc9a177",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The _becaom_ tree will grow to a much larger five than the other, and its branches are more numerous They are smooth, and of a fine light-green colour. The leaves on their upper furface are smooth and of a fine light-green colour, but that under furfacted w., nofe, and as which cells. When buried, they emit a fine fragrance. This tree was formerly milken for that which produces the thinly called forests in which is now known to be chained forests of places. See Svvxxax.",
+ "content": "{\n  \"faithful\": \"The benzoin tree will grow to a much larger size than the other, and its branches are more numerous. They are smooth, and of a fine light-green colour. The leaves on their upper surface are smooth and of a fine light-green colour, but their under surface is venose, and of a whitish cast. When bruised, they emit a fine fragrance. This tree was formerly mistaken for that which produces the drug called benzoin; which is now known to be obtained from a species of styrax. See Styrax.\",\n  \"modern\": \"The benzoin tree will grow to a much larger size than the other, and its branches are more numerous. They are smooth, and of a fine light-green color. The leaves on their upper surface are smooth and of a fine light-green color, but their under surface is venose, and of a whitish cast. When bruised, they emit a fine fragrance. This tree was formerly mistaken for that which produces the drug called benzoin; which is now known to be obtained from a species of styrax. See Styrax.\"\n}",
+ "usage": {
+  "completion_tokens": 241,
+  "prompt_tokens": 692,
+  "total_tokens": 933,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The benzoin tree will grow to a much larger size than the other, and its branches are more numerous. They are smooth, and of a fine light-green colour. The leaves on their upper surface are smooth and of a fine light-green colour, but their under surface is venose, and of a whitish cast. When bruised, they emit a fine fragrance. This tree was formerly mistaken for that which produces the drug called benzoin; which is now known to be obtained from a species of styrax. See Styrax.",
+  "modern": "The benzoin tree will grow to a much larger size than the other, and its branches are more numerous. They are smooth, and of a fine light-green color. The leaves on their upper surface are smooth and of a fine light-green color, but their under surface is venose, and of a whitish cast. When bruised, they emit a fine fragrance. This tree was formerly mistaken for that which produces the drug called benzoin; which is now known to be obtained from a species of styrax. See Styrax."
+ },
+ "error": null
+}

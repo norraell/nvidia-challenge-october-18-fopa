@@ -1,0 +1,31 @@
+{
+ "key": "6fdbc373c0925fc5dc97c7fc44898aed",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Legame..The weights are almost the same as in China. The role of 52 Brit feet. We the measure of capacity have been compared.",
+ "content": "{\n  \"faithful\": \"Japan.—The weights are almost the same as in China. The inch = 6·25 Brit. feet; but the measures compared.\",\n  \"modern\": \"Japan.—The weights are almost the same as in China. The inch = 6·25 Brit. feet; but the measures compared.\"\n}",
+ "usage": {
+  "completion_tokens": 73,
+  "prompt_tokens": 598,
+  "total_tokens": 671,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Japan.—The weights are almost the same as in China. The inch = 6·25 Brit. feet; but the measures compared.",
+  "modern": "Japan.—The weights are almost the same as in China. The inch = 6·25 Brit. feet; but the measures compared."
+ },
+ "error": null
+}

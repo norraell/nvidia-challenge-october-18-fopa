@@ -1,0 +1,31 @@
+{
+ "key": "25b04d447d925fe8d59cce66b3bb3a85",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There were three remarkable appearances attacking the inundation of the Nile. Every morning in Abyffinia is clear, and the fun thines. About nine, a final cloud, not about four feet to break appears in the early whiting violently around as it upon an axis, but, arrived near the zenith, it frit abates its motions, then find us its form, and extends itself greatly, and forms to call up oppsons from all the specific quarters. These clouds having attained nearly the fame height, ruth again east and other with greet violences, and put me all in mind of Elilin interesting rain on month Carmel. The air impelled before the heaviest malo, or twifl moved, makes an importified of its form on the collection of cloud opposite, and the moment it has taken poffelion of the space made to receive it, the mold violett thunder profile to be conceived initially follows, with rain, a after some hours later by again clearly, with a wind as north; and it is always lifis-greedy old when the thermometer is below 63°.",
+ "content": "{\n  \"faithful\": \"There were three remarkable appearances attending the inundation of the Nile. Every morning in Abyssinia is clear, and the sun shines. About nine, a small cloud, not above four feet broad, appears in the east, whirling violently round as if upon an axis, but, arrived near the zenith, it first abates its motion, then loses its form, and extends itself greatly, and seems to call up vapours from all the opposite quarters. These clouds having attained nearly the same height, rush against each other with great violence, and put me always in mind of Elijah foretelling rain on mount Carmel. The air impelled before the heaviest masts, or swiftest mover, makes an impression of its form on the collection of clouds opposite; and the moment it has taken possession of the space made to receive it, the most violent thunder probable to be conceived instantly follows, with rain: after some hours the sky again clears, with a wind at north; and it is always disagreeably cold when the thermometer is below 63°.\",\n  \"modern\": \"There were three remarkable appearances attending the inundation of the Nile. Every morning in Abyssinia is clear, and the sun shines. About nine, a small cloud, not above four feet broad, appears in the east, whirling violently round as if upon an axis, but, arrived near the zenith, it first abates its motion, then loses its form, and extends itself greatly, and seems to call up vapours from all the opposite quarters. These clouds having attained nearly the same height, rush against each other with great violence, and put me always in mind of Elijah foretelling rain on mount Carmel. The air impelled before the heaviest masts, or swiftest mover, makes an impression of its form on the collection of clouds opposite; and the moment it has taken possession of the space made to receive it, the most violent thunder probable to be conceived instantly follows, with rain: after some hours the sky again clears, with a wind at north; and it is always disagreeably cold when the thermometer is below 63°.\"\n}",
+ "usage": {
+  "completion_tokens": 457,
+  "prompt_tokens": 894,
+  "total_tokens": 1351,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 362
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There were three remarkable appearances attending the inundation of the Nile. Every morning in Abyssinia is clear, and the sun shines. About nine, a small cloud, not above four feet broad, appears in the east, whirling violently round as if upon an axis, but, arrived near the zenith, it first abates its motion, then loses its form, and extends itself greatly, and seems to call up vapours from all the opposite quarters. These clouds having attained nearly the same height, rush against each other with great violence, and put me always in mind of Elijah foretelling rain on mount Carmel. The air impelled before the heaviest masts, or swiftest mover, makes an impression of its form on the collection of clouds opposite; and the moment it has taken possession of the space made to receive it, the most violent thunder probable to be conceived instantly follows, with rain: after some hours the sky again clears, with a wind at north; and it is always disagreeably cold when the thermometer is below 63°.",
+  "modern": "There were three remarkable appearances attending the inundation of the Nile. Every morning in Abyssinia is clear, and the sun shines. About nine, a small cloud, not above four feet broad, appears in the east, whirling violently round as if upon an axis, but, arrived near the zenith, it first abates its motion, then loses its form, and extends itself greatly, and seems to call up vapours from all the opposite quarters. These clouds having attained nearly the same height, rush against each other with great violence, and put me always in mind of Elijah foretelling rain on mount Carmel. The air impelled before the heaviest masts, or swiftest mover, makes an impression of its form on the collection of clouds opposite; and the moment it has taken possession of the space made to receive it, the most violent thunder probable to be conceived instantly follows, with rain: after some hours the sky again clears, with a wind at north; and it is always disagreeably cold when the thermometer is below 63°."
+ },
+ "error": null
+}

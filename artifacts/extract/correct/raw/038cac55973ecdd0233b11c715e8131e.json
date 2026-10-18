@@ -1,0 +1,31 @@
+{
+ "key": "038cac55973ecdd0233b11c715e8131e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BYRLAW, or ŁyrŁLAW laws, in Scotland, are made and determined by neighbours, elected by common conferin byterw courts. The man chaden in judges are called byrlaw or burlaw men, and take cognizance of complaints between neighbors and neighbors.",
+ "content": "{\n  \"faithful\": \"BYRLAW, or Byrlaw laws, in Scotland, are made and determined by neighbours, elected by common consent in byrlaw courts. The men chosen as judges, are called byrlaw or barlaw men, and take cognizance of complaints between neighbour and neighbour.\",\n  \"modern\": \"BYRLAW, or Byrlaw laws, in Scotland, are made and determined by neighbors, elected by common consent in byrlaw courts. The men chosen as judges, are called byrlaw or barlaw men, and take cognizance of complaints between neighbor and neighbor.\"\n}",
+ "usage": {
+  "completion_tokens": 133,
+  "prompt_tokens": 653,
+  "total_tokens": 786,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BYRLAW, or Byrlaw laws, in Scotland, are made and determined by neighbours, elected by common consent in byrlaw courts. The men chosen as judges, are called byrlaw or barlaw men, and take cognizance of complaints between neighbour and neighbour.",
+  "modern": "BYRLAW, or Byrlaw laws, in Scotland, are made and determined by neighbors, elected by common consent in byrlaw courts. The men chosen as judges, are called byrlaw or barlaw men, and take cognizance of complaints between neighbor and neighbor."
+ },
+ "error": null
+}

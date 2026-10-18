@@ -1,0 +1,31 @@
+{
+ "key": "daad65636ed1f3feb23b8c7e207544c5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Contracts or Contracts a town of Telephone, province of West Flanders, on the left bank of the Lys, miles SE, of Treés, Pop, (Cion) 3448. To the opposite bank of the river, in the department of Nord, is the French team of this name, with about 3000 inhabitants. The two towns are concerned to a drawbridge. The manufactures are ribbon, thread, catons, Sc.",
+ "content": "{\n  \"faithful\": \"Contracts or Contracts a town of Telephone, province of West Flanders, on the left bank of the Lys, miles SE, of Treés, Pop, (Cion) 3448. To the opposite bank of the river, in the department of Nord, is the French team of this name, with about 3000 inhabitants. The two towns are concerned to a drawbridge. The manufactures are ribbon, thread, catons, Sc.\",\n  \"modern\": \"Contracts or Contracts a town of Telephone, province of West Flanders, on the left bank of the Lys, miles SE, of Treés, Pop, (Cion) 3448. To the opposite bank of the river, in the department of Nord, is the French team of this name, with about 3000 inhabitants. The two towns are concerned to a drawbridge. The manufactures are ribbon, thread, catons, Sc.\"\n}",
+ "usage": {
+  "completion_tokens": 207,
+  "prompt_tokens": 679,
+  "total_tokens": 886,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Contracts or Contracts a town of Telephone, province of West Flanders, on the left bank of the Lys, miles SE, of Treés, Pop, (Cion) 3448. To the opposite bank of the river, in the department of Nord, is the French team of this name, with about 3000 inhabitants. The two towns are concerned to a drawbridge. The manufactures are ribbon, thread, catons, Sc.",
+  "modern": "Contracts or Contracts a town of Telephone, province of West Flanders, on the left bank of the Lys, miles SE, of Treés, Pop, (Cion) 3448. To the opposite bank of the river, in the department of Nord, is the French team of this name, with about 3000 inhabitants. The two towns are concerned to a drawbridge. The manufactures are ribbon, thread, catons, Sc."
+ },
+ "error": null
+}

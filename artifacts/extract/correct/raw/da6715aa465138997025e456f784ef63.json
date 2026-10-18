@@ -1,0 +1,31 @@
+{
+ "key": "da6715aa465138997025e456f784ef63",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There are common cabinets of oak or of chefnut, varnified cabbers of China and Japan, cabinets of in- leaf work, and fone of ebony, or the like force and precious woods.",
+ "content": "{\n  \"faithful\": \"There are common cabinets of oak or of chefnut, varnified cabbers of China and Japan, cabinets of in- leaf work, and fone of ebony, or the like force and precious woods.\",\n  \"modern\": \"There are common cabinets of oak or of chestnut, varnished cabinets of China and Japan, cabinets of inlaid work, and some of ebony, or the like scarce and precious woods.\"\n}",
+ "usage": {
+  "completion_tokens": 98,
+  "prompt_tokens": 626,
+  "total_tokens": 724,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There are common cabinets of oak or of chefnut, varnified cabbers of China and Japan, cabinets of in- leaf work, and fone of ebony, or the like force and precious woods.",
+  "modern": "There are common cabinets of oak or of chestnut, varnished cabinets of China and Japan, cabinets of inlaid work, and some of ebony, or the like scarce and precious woods."
+ },
+ "error": null
+}

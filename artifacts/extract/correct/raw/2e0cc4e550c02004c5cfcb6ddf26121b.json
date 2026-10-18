@@ -1,0 +1,31 @@
+{
+ "key": "2e0cc4e550c02004c5cfcb6ddf26121b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Under the article fire, we considered the fun as the principal source of heat upon the earth's surface, and the conifers of the earth and atmosphere: with out this, all the hotles open our globe would doubt- left grow right, lifelife, and feed... It is this that flies within them, as the main frying of their actions. Hence vegetation and animalizations are evidently pro- mored; and hence the ocean and the atmosphere co- timese in a fluid flare.",
+ "content": "{\n  \"faithful\": \"Under the article fire, we considered the fun as the principal source of heat upon the earth's surface, and the conifers of the earth and atmosphere: without this, all the bodies upon our globe would doubtless grow rigid, lifeless, and fixed. It is this that flits within them, as the main spring of their actions. Hence vegetation and animalization are evidently promoted; and hence the ocean and the atmosphere continue in a fluid state.\",\n  \"modern\": \"Under the article fire, we considered the sun as the principal source of heat upon the earth's surface, and the confines of the earth and atmosphere: without this, all the bodies upon our globe would doubtless grow rigid, lifeless, and fixed. It is this that flits within them, as the main spring of their actions. Hence vegetation and animalization are evidently promoted; and hence the ocean and the atmosphere continue in a fluid state.\"\n}",
+ "usage": {
+  "completion_tokens": 197,
+  "prompt_tokens": 679,
+  "total_tokens": 876,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Under the article fire, we considered the fun as the principal source of heat upon the earth's surface, and the conifers of the earth and atmosphere: without this, all the bodies upon our globe would doubtless grow rigid, lifeless, and fixed. It is this that flits within them, as the main spring of their actions. Hence vegetation and animalization are evidently promoted; and hence the ocean and the atmosphere continue in a fluid state.",
+  "modern": "Under the article fire, we considered the sun as the principal source of heat upon the earth's surface, and the confines of the earth and atmosphere: without this, all the bodies upon our globe would doubtless grow rigid, lifeless, and fixed. It is this that flits within them, as the main spring of their actions. Hence vegetation and animalization are evidently promoted; and hence the ocean and the atmosphere continue in a fluid state."
+ },
+ "error": null
+}

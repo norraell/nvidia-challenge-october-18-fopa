@@ -1,0 +1,31 @@
+{
+ "key": "5270d6c2b757c13f9974ab6475b7ca87",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The onager, or wild afs, has, by fome authors,  been confounded with the zebra; but very improperly, for this latit is a distinct species. for the onager is not freeskall for this, now is his shape of favourite. \"Wild also are fail to be very twift of course’s and when they fee a man, they make a bound, and im- medically fly away; I donuts, that there is no is king of them, but by vraps and guns. They have much the fame these as common affes; but they are of a brighter colour, and there runs a white lift from the head to the tail. Of the hides of theirs, and particularly of that part next the runny, they make that excellent leather which we call flagreen, and which is putto fo many curious uses.",
+ "content": "{\n  \"faithful\": \"The onager, or wild afs, has, by fome authors, been confounded with the zebra; but very improperly, for this latit is a distinct species. for the onager is not freeskall for this, now is his shape of favourite. Wild also are fail to be very twift of course's and when they fee a man, they make a bound, and im- medically fly away; I donuts, that there is no is king of them, but by vraps and guns. They have much the fame these as common affes; but they are of a brighter colour, and there runs a white lift from the head to the tail. Of the hides of theirs, and particularly of that part next the runny, they make that excellent leather which we call flagreen, and which is putto fo many curious uses.\",\n  \"modern\": \"The onager, or wild ass, has, by some authors, been confounded with the zebra; but very improperly, for this latit is a distinct species. for the onager is not freeskall for this, now is his shape of favourite. Wild also are fail to be very twift of course's and when they fee a man, they make a bound, and im- medically fly away; I donuts, that there is no is king of them, but by vraps and guns. They have much the fame these as common asses; but they are of a brighter colour, and there runs a white lift from the head to the tail. Of the hides of theirs, and particularly of that part next the runny, they make that excellent leather which we call flagreen, and which is putto fo many curious uses.\"\n}",
+ "usage": {
+  "completion_tokens": 369,
+  "prompt_tokens": 777,
+  "total_tokens": 1146,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The onager, or wild afs, has, by fome authors, been confounded with the zebra; but very improperly, for this latit is a distinct species. for the onager is not freeskall for this, now is his shape of favourite. Wild also are fail to be very twift of course's and when they fee a man, they make a bound, and im- medically fly away; I donuts, that there is no is king of them, but by vraps and guns. They have much the fame these as common affes; but they are of a brighter colour, and there runs a white lift from the head to the tail. Of the hides of theirs, and particularly of that part next the runny, they make that excellent leather which we call flagreen, and which is putto fo many curious uses.",
+  "modern": "The onager, or wild ass, has, by some authors, been confounded with the zebra; but very improperly, for this latit is a distinct species. for the onager is not freeskall for this, now is his shape of favourite. Wild also are fail to be very twift of course's and when they fee a man, they make a bound, and im- medically fly away; I donuts, that there is no is king of them, but by vraps and guns. They have much the fame these as common asses; but they are of a brighter colour, and there runs a white lift from the head to the tail. Of the hides of theirs, and particularly of that part next the runny, they make that excellent leather which we call flagreen, and which is putto fo many curious uses."
+ },
+ "error": null
+}

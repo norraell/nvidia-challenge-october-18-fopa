@@ -1,0 +1,31 @@
+{
+ "key": "3cdb39ddc888a127f9b8df94f96df494",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "OVOLLO, or Ouvus, in architecture, a round moulding, whole profile, or fweep, in the ionic and compacite capit- tals, is usually a quadrant of a circle; whence it is also commonly called the quartercard.",
+ "content": "{\n  \"faithful\": \"OVOLLO, or Ouvus, in architecture, a round moulding, whole profile, or fweep, in the ionic and compacite capit- tals, is usually a quadrant of a circle; whence it is also commonly called the quartercard.\",\n  \"modern\": \"OVOLLO, or Ouvus, in architecture, a round moulding, whole profile, or sweep, in the ionic and composite capitals, is usually a quadrant of a circle; whence it is also commonly called the quartercard.\"\n}",
+ "usage": {
+  "completion_tokens": 119,
+  "prompt_tokens": 646,
+  "total_tokens": 765,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "OVOLLO, or Ouvus, in architecture, a round moulding, whole profile, or fweep, in the ionic and compacite capit- tals, is usually a quadrant of a circle; whence it is also commonly called the quartercard.",
+  "modern": "OVOLLO, or Ouvus, in architecture, a round moulding, whole profile, or sweep, in the ionic and composite capitals, is usually a quadrant of a circle; whence it is also commonly called the quartercard."
+ },
+ "error": null
+}

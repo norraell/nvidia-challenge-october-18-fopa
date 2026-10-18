@@ -1,0 +1,31 @@
+{
+ "key": "0b74285851c29a92501fb0a09602d01e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Nothing can be more prudent than that exercife of hospitality pretplied by understanding: is it so the greatest advantage to those among them who travel heroés their defers; and each individual who protatles it, may rely only keeping the bundle of it wherever he goes. A Kulinar provided with a hard, with arms and equipage, may enable from one place to anchor for three months together, without taking with him either money or problems. Wherever he comes he finds either dibant relations or friends, to whom he is attacked by the ties of holopitality, from whom he meets with the kindled receipation, and is concerned in the belt manner their circumstances afford. Perhaps he lodges in the full discovery costge he ends upon his road; and hence has be entered it, but his wants are fuppled with the molt affectionate cordiality. Every frunger, of whichever nature, never fails to be well received by a Kalmus; and he may depend upon ha-ving his effects in the greatest faculty the moment he has put himself under the protection of his holl; for to rob a quilt soundbordered by the Kalmus as the molt abonnable of all crimes.",
+ "content": "{\n  \"faithful\": \"Nothing can be more prudent than that exercife of hospitality pretplied by understanding: is it so the greatest advantage to those among them who travel heroés their defers; and each individual who protatles it, may rely only keeping the bundle of it wherever he goes. A Kulinar provided with a hard, with arms and equipage, may enable from one place to anchor for three months together, without taking with him either money or problems. Wherever he comes he finds either dibant relations or friends, to whom he is attacked by the ties of holopitality, from whom he meets with the kindled receipation, and is concerned in the belt manner their circumstances afford. Perhaps he lodges in the full discovery costge he ends upon his road; and hence has be entered it, but his wants are fuppled with the molt affectionate cordiality. Every frunger, of whichever nature, never fails to be well received by a Kalmus; and he may depend upon ha-ving his effects in the greatest faculty the moment he has put himself under the protection of his holl; for to rob a quilt soundbordered by the Kalmus as the molt abonnable of all crimes.\",\n  \"modern\": \"Nothing can be more prudent than that exercise of hospitality supplied by understanding: is it so the greatest advantage to those among them who travel heroes their defers; and each individual who practices it, may rely only keeping the bundle of it wherever he goes. A Kulinar provided with a hard, with arms and equipage, may enable from one place to anchor for three months together, without taking with him either money or problems. Wherever he comes he finds either distant relations or friends, to whom he is attached by the ties of hospitality, from whom he meets with the kindled reception, and is concerned in the best manner their circumstances afford. Perhaps he lodges in the full discovery cottage he ends upon his road; and hence has he entered it, but his wants are supplied with the most affectionate cordiality. Every stranger, of whichever nature, never fails to be well received by a Kalmus; and he may depend upon having his effects in the greatest facility the moment he has put himself under the protection of his host; for to rob a guest soundbordered by the Kalmus as the most abominable of all crimes.\"\n}",
+ "usage": {
+  "completion_tokens": 494,
+  "prompt_tokens": 951,
+  "total_tokens": 1445,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 402
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Nothing can be more prudent than that exercife of hospitality pretplied by understanding: is it so the greatest advantage to those among them who travel heroés their defers; and each individual who protatles it, may rely only keeping the bundle of it wherever he goes. A Kulinar provided with a hard, with arms and equipage, may enable from one place to anchor for three months together, without taking with him either money or problems. Wherever he comes he finds either dibant relations or friends, to whom he is attacked by the ties of holopitality, from whom he meets with the kindled receipation, and is concerned in the belt manner their circumstances afford. Perhaps he lodges in the full discovery costge he ends upon his road; and hence has be entered it, but his wants are fuppled with the molt affectionate cordiality. Every frunger, of whichever nature, never fails to be well received by a Kalmus; and he may depend upon ha-ving his effects in the greatest faculty the moment he has put himself under the protection of his holl; for to rob a quilt soundbordered by the Kalmus as the molt abonnable of all crimes.",
+  "modern": "Nothing can be more prudent than that exercise of hospitality supplied by understanding: is it so the greatest advantage to those among them who travel heroes their defers; and each individual who practices it, may rely only keeping the bundle of it wherever he goes. A Kulinar provided with a hard, with arms and equipage, may enable from one place to anchor for three months together, without taking with him either money or problems. Wherever he comes he finds either distant relations or friends, to whom he is attached by the ties of hospitality, from whom he meets with the kindled reception, and is concerned in the best manner their circumstances afford. Perhaps he lodges in the full discovery cottage he ends upon his road; and hence has he entered it, but his wants are supplied with the most affectionate cordiality. Every stranger, of whichever nature, never fails to be well received by a Kalmus; and he may depend upon having his effects in the greatest facility the moment he has put himself under the protection of his host; for to rob a guest soundbordered by the Kalmus as the most abominable of all crimes."
+ },
+ "error": null
+}

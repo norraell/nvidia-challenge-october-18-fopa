@@ -1,0 +1,31 @@
+{
+ "key": "140dad83d0c043c18ba321c8f94d7c06",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When an unburnt fluef of this description was im-mected in diluted nitric oxide, a rapid foliation and effir-vicosecond took place, and at the end of two days the whole of the carbonate of lime was nearly diffused. A feries of means now only remnants, of which the epidemics constituted the full. These membranes fill retained the figure of the shell. The carbonate of lime was a flat readily diffused, because the acid came easily to contain with it; but the proceeds became flower, as it was more difficult for the acid to indicate itself between the different membranes of which the shell is compelled. The halted iris, and the turbo olearies, were found to rethable this muffel, except that the membranaceous parts were more compact and dendric.",
+ "content": "{\n  \"faithful\": \"When an unburnt fhell of this defcription was immerfed in diluted nitric acid, a rapid folution and effervescence took place; and at the end of two days, the whole of the carbonate of lime was nearly diffolved. A feries of membranes now only remained, of which the epidermis confituted the firft. Thefe membranes fill retained the figure of the fhell. The carbonate of lime was at firft readily diffolved, becaufe the acid came eafily in contact with it; but the procefs became flower, as it was more difficult for the acid to infinuate itfelf between the different membranes of which the fhell is compofed. The haliotis iris, and the turbo olearius, were found to refemble this muffel, except that the membranaceous parts were more compact and denfe.\",\n  \"modern\": \"When an unburnt shell of this description was immersed in diluted nitric acid, a rapid solution and effervescence took place; and at the end of two days, the whole of the carbonate of lime was nearly dissolved. A series of membranes now only remained, of which the epidermis constituted the first. These membranes still retained the figure of the shell. The carbonate of lime was at first readily dissolved, because the acid came easily in contact with it; but the process became slower, as it was more difficult for the acid to insinuate itself between the different membranes of which the shell is composed. The haliotis iris, and the turbo olearius, were found to resemble this muffel, except that the membranaceous parts were more compact and dense.\"\n}",
+ "usage": {
+  "completion_tokens": 347,
+  "prompt_tokens": 745,
+  "total_tokens": 1092,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When an unburnt fhell of this defcription was immerfed in diluted nitric acid, a rapid folution and effervescence took place; and at the end of two days, the whole of the carbonate of lime was nearly diffolved. A feries of membranes now only remained, of which the epidermis confituted the firft. Thefe membranes fill retained the figure of the fhell. The carbonate of lime was at firft readily diffolved, becaufe the acid came eafily in contact with it; but the procefs became flower, as it was more difficult for the acid to infinuate itfelf between the different membranes of which the fhell is compofed. The haliotis iris, and the turbo olearius, were found to refemble this muffel, except that the membranaceous parts were more compact and denfe.",
+  "modern": "When an unburnt shell of this description was immersed in diluted nitric acid, a rapid solution and effervescence took place; and at the end of two days, the whole of the carbonate of lime was nearly dissolved. A series of membranes now only remained, of which the epidermis constituted the first. These membranes still retained the figure of the shell. The carbonate of lime was at first readily dissolved, because the acid came easily in contact with it; but the process became slower, as it was more difficult for the acid to insinuate itself between the different membranes of which the shell is composed. The haliotis iris, and the turbo olearius, were found to resemble this muffel, except that the membranaceous parts were more compact and dense."
+ },
+ "error": null
+}

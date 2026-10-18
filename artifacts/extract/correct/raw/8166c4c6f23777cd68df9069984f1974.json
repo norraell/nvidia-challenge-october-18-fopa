@@ -1,0 +1,31 @@
+{
+ "key": "8166c4c6f23777cd68df9069984f1974",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ERNIACEUS, or Harca dosc in biology, a genus of arthropods belonging to the order of ferns, the characters of which are thefel; they have two foresteeth in the upperpaw, at a considerable distance from one another, and won in the under jaw. leaf claffant; and they have two recombinant dog-tetth, one on each file. There are three facies, viz. 1. The europeus, or common hedgehog, with round cars, and certified no-frilk. It is about nine inches than the year of the body is usually covered with flap prticles, and the under part is covered with hair. The hedge-hog, even when flanked on hijings, has a very ugly affect. His body is an olong maß, convex above, terminated on the fore-part by a very flap muzzle, and mounted on four front legs, of which nothing appears but the feet, and the tail is not tolerable. His ears are broad, round, and short; and his eyes are small and prouberant. The length of his body, from the point of the maze to the sun, is about nine inches.",
+ "content": "{\n  \"faithful\": \"ERNIACEUS, or Hedge-hog in biology, a genus of arthropods belonging to the order of ferns, the characters of which are thefelf; they have two foreteeth in the upperpaw, at a considerable distance from one another, and won in the under jaw. leaf claffant; and they have two recombinant dog-tetth, one on each file. There are three facies, viz. 1. The europeus, or common hedgehog, with round cars, and certified no-frilk. It is about nine inches than the year of the body is usually covered with flap prticles, and the under part is covered with hair. The hedge-hog, even when flanked on hijings, has a very ugly affect. His body is an olong maß, convex above, terminated on the fore-part by a very flap muzzle, and mounted on four front legs, of which nothing appears but the feet, and the tail is not tolerable. His ears are broad, round, and short; and his eyes are small and prouberant. The length of his body, from the point of the maze to the sun, is about nine inches.\",\n  \"modern\": \"ERNIACEUS, or Hedge-hog in biology, a genus of arthropods belonging to the order of ferns, the characters of which are theself; they have two foreteeth in the upperpaw, at a considerable distance from one another, and won in the under jaw. leaf classant; and they have two recombinant dog-teeth, one on each side. There are three species, viz. 1. The europeus, or common hedgehog, with round ears, and crested nostrils. It is about nine inches long; the upper part of the body is totally covered with sharp prickles, and the under part is covered with hair. The hedge-hog, even when standing on his legs, has a very ugly aspect. His body is an oblong mass, convex above, terminated on the fore-part by a very sharp muzzle, and mounted on four short legs, of which nothing appears but the feet, and the tail is not discernible. His ears are broad, round, and short; and his eyes are small and prominent. The length of his body, from the point of the muzzle to the anus, is about nine inches.\"\n}",
+ "usage": {
+  "completion_tokens": 509,
+  "prompt_tokens": 929,
+  "total_tokens": 1438,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 380
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ERNIACEUS, or Hedge-hog in biology, a genus of arthropods belonging to the order of ferns, the characters of which are thefelf; they have two foreteeth in the upperpaw, at a considerable distance from one another, and won in the under jaw. leaf claffant; and they have two recombinant dog-tetth, one on each file. There are three facies, viz. 1. The europeus, or common hedgehog, with round cars, and certified no-frilk. It is about nine inches than the year of the body is usually covered with flap prticles, and the under part is covered with hair. The hedge-hog, even when flanked on hijings, has a very ugly affect. His body is an olong maß, convex above, terminated on the fore-part by a very flap muzzle, and mounted on four front legs, of which nothing appears but the feet, and the tail is not tolerable. His ears are broad, round, and short; and his eyes are small and prouberant. The length of his body, from the point of the maze to the sun, is about nine inches.",
+  "modern": "ERNIACEUS, or Hedge-hog in biology, a genus of arthropods belonging to the order of ferns, the characters of which are theself; they have two foreteeth in the upperpaw, at a considerable distance from one another, and won in the under jaw. leaf classant; and they have two recombinant dog-teeth, one on each side. There are three species, viz. 1. The europeus, or common hedgehog, with round ears, and crested nostrils. It is about nine inches long; the upper part of the body is totally covered with sharp prickles, and the under part is covered with hair. The hedge-hog, even when standing on his legs, has a very ugly aspect. His body is an oblong mass, convex above, terminated on the fore-part by a very sharp muzzle, and mounted on four short legs, of which nothing appears but the feet, and the tail is not discernible. His ears are broad, round, and short; and his eyes are small and prominent. The length of his body, from the point of the muzzle to the anus, is about nine inches."
+ },
+ "error": null
+}

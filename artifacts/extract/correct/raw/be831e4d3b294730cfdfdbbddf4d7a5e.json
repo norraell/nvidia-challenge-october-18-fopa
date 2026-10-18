@@ -1,0 +1,31 @@
+{
+ "key": "be831e4d3b294730cfdfdbbddf4d7a5e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "A complete apartment conflicts of a hall, anti-cham- biz, chamber, and cobots, with a gallery on one files. Hence day, a number of paintings, curtains, ev. CAIBERT also denotes a piece of journer's workmanflap, being a kind of prels or cheft, with several doors and drawers.",
+ "content": "{\n  \"faithful\": \"A complete apartment conflicts of a hall, anti-chamber, chamber, and cabinet, with a gallery on one side. Hence we say, a cabinet of paintings, curiosities, &c. CABINET also denotes a piece of joiner's workmanship, being a kind of press or chest, with several doors and drawers.\",\n  \"modern\": \"A complete apartment consists of a hall, antechamber, chamber, and cabinet, with a gallery on one side. Hence we say, a cabinet of paintings, curiosities, &c. CABINET also denotes a piece of joiner's workmanship, being a kind of press or chest, with several doors and drawers.\"\n}",
+ "usage": {
+  "completion_tokens": 155,
+  "prompt_tokens": 645,
+  "total_tokens": 800,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "A complete apartment conflicts of a hall, anti-chamber, chamber, and cabinet, with a gallery on one side. Hence we say, a cabinet of paintings, curiosities, &c. CABINET also denotes a piece of joiner's workmanship, being a kind of press or chest, with several doors and drawers.",
+  "modern": "A complete apartment consists of a hall, antechamber, chamber, and cabinet, with a gallery on one side. Hence we say, a cabinet of paintings, curiosities, &c. CABINET also denotes a piece of joiner's workmanship, being a kind of press or chest, with several doors and drawers."
+ },
+ "error": null
+}

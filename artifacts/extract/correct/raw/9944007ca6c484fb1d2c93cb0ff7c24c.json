@@ -1,0 +1,31 @@
+{
+ "key": "9944007ca6c484fb1d2c93cb0ff7c24c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1357\nAchon:\nheat.",
+ "content": "{\n  \"faithful\": \"1357\\nAchon:\\nheat.\",\n  \"modern\": \"1357\\nAchon:\\nheat.\"\n}",
+ "usage": {
+  "completion_tokens": 37,
+  "prompt_tokens": 583,
+  "total_tokens": 620,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1357\nAchon:\nheat.",
+  "modern": "1357\nAchon:\nheat."
+ },
+ "error": null
+}

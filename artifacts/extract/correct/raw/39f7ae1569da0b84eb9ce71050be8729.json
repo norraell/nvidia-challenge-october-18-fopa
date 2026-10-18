@@ -1,0 +1,31 @@
+{
+ "key": "39f7ae1569da0b84eb9ce71050be8729",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "REECTOR CLITORIS. See ClUTORIS.",
+ "content": "{\n  \"faithful\": \"RECTOR CLITORIS. See ClUTORIS. ERECTOR clitoris. See Clitoris. EASTON REVIS. See Revis.\",\n  \"modern\": \"RECTOR CLITORIS. See ClUTORIS. ERECTOR clitoris. See Clitoris. EASTON REVIS. See Revis.\"\n}",
+ "usage": {
+  "completion_tokens": 87,
+  "prompt_tokens": 593,
+  "total_tokens": 680,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "RECTOR CLITORIS. See ClUTORIS. ERECTOR clitoris. See Clitoris. EASTON REVIS. See Revis.",
+  "modern": "RECTOR CLITORIS. See ClUTORIS. ERECTOR clitoris. See Clitoris. EASTON REVIS. See Revis."
+ },
+ "error": null
+}

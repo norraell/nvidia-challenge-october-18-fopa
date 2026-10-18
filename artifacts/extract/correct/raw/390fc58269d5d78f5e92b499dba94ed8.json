@@ -1,0 +1,31 @@
+{
+ "key": "390fc58269d5d78f5e92b499dba94ed8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Natural philosophy, as being both highly ufeful and entertaining, as well worthy of the attention of all who can talked to appropriate anayment of their time to fictific purifuits; to the man of fortune, a taille for mutual philopholy might often procure the mind de-lightful environment. To trace the wonder of a planetary tytions, to mark the proceeds of vegetation, to examine all the properties of that the elements which we bearbe, to trace the laws by which all the different elements are confined to their proper funcions, and above all to apply the principles of natural philopholy in the cultivated of the ground, and amendments which might agreeably and innocently occupy many of the hitline hours of the man who enjoys a friend and independent fortune.",
+ "content": "{\n  \"faithful\": \"Natural philosophy, as being both highly ufeful and entertaining, as well worthy of the attention of all who can talked to appropriate anayment of their time to fictific purifuits; to the man of fortune, a taille for mutual philopholy might often procure the mind de-lightful environment. To trace the wonder of a planetary tytions, to mark the proceeds of vegetation, to examine all the properties of that the elements which we bearbe, to trace the laws by which all the different elements are confined to their proper funcions, and above all to apply the principles of natural philopholy in the cultivated of the ground, and amendments which might agreeably and innocently occupy many of the hitline hours of the man who enjoys a friend and independent fortune.\",\n  \"modern\": \"Natural philosophy, as being both highly useful and entertaining, as well worthy of the attention of all who can talked to appropriate anayment of their time to fictific pursuits; to the man of fortune, a taille for mutual philosophy might often procure the mind delightful environment. To trace the wonder of a planetary tytions, to mark the proceeds of vegetation, to examine all the properties of that the elements which we bearbe, to trace the laws by which all the different elements are confined to their proper functions, and above all to apply the principles of natural philosophy in the cultivated of the ground, and amendments which might agreeably and innocently occupy many of the hitline hours of the man who enjoys a friend and independent fortune.\"\n}",
+ "usage": {
+  "completion_tokens": 321,
+  "prompt_tokens": 857,
+  "total_tokens": 1178,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 398
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Natural philosophy, as being both highly ufeful and entertaining, as well worthy of the attention of all who can talked to appropriate anayment of their time to fictific purifuits; to the man of fortune, a taille for mutual philopholy might often procure the mind de-lightful environment. To trace the wonder of a planetary tytions, to mark the proceeds of vegetation, to examine all the properties of that the elements which we bearbe, to trace the laws by which all the different elements are confined to their proper funcions, and above all to apply the principles of natural philopholy in the cultivated of the ground, and amendments which might agreeably and innocently occupy many of the hitline hours of the man who enjoys a friend and independent fortune.",
+  "modern": "Natural philosophy, as being both highly useful and entertaining, as well worthy of the attention of all who can talked to appropriate anayment of their time to fictific pursuits; to the man of fortune, a taille for mutual philosophy might often procure the mind delightful environment. To trace the wonder of a planetary tytions, to mark the proceeds of vegetation, to examine all the properties of that the elements which we bearbe, to trace the laws by which all the different elements are confined to their proper functions, and above all to apply the principles of natural philosophy in the cultivated of the ground, and amendments which might agreeably and innocently occupy many of the hitline hours of the man who enjoys a friend and independent fortune."
+ },
+ "error": null
+}

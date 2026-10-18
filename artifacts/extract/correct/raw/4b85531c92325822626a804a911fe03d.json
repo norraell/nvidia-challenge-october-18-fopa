@@ -1,0 +1,31 @@
+{
+ "key": "4b85531c92325822626a804a911fe03d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "AGROTHYMON, from _works_, _stresses_ and _hetype._ A few of wart deferled by Celtics au hard, rough, with a narrow bala and broad top; the top is of the colon: d thyres, it early lipits and bleeds. This tumour is all called tissue.",
+ "content": "{\n  \"faithful\": \"AGROTHYMON, from _works_, _stresses_ and _hetype._ A few of wart deferled by Celtics au hard, rough, with a narrow bala and broad top; the top is of the colon: d thyres, it early lipits and bleeds. This tumour is all called tissue.\\nACROTHYMION, from ακρος, extreme, and θυμος, thyme. A fort of wart deferibed by Celfus as hard, rough, with a narrow bafis and broad top ; the top is of the colour of thyme, it eafily fplits and bleeds. This tumour is alfo called thymus.\",\n  \"modern\": \"AGROTHYMON, from _works_, _stresses_ and _hetype._ A few of wart deferled by Celtics au hard, rough, with a narrow bala and broad top; the top is of the colon: d thyres, it early lipits and bleeds. This tumour is all called tissue.\\nACROTHYMION, from ακρος, extreme, and θυμος, thyme. A fort of wart deferibed by Celfus as hard, rough, with a narrow bafis and broad top ; the top is of the colour of thyme, it eafily fplits and bleeds. This tumour is alfo called thymus.\"\n}",
+ "usage": {
+  "completion_tokens": 305,
+  "prompt_tokens": 640,
+  "total_tokens": 945,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "AGROTHYMON, from _works_, _stresses_ and _hetype._ A few of wart deferled by Celtics au hard, rough, with a narrow bala and broad top; the top is of the colon: d thyres, it early lipits and bleeds. This tumour is all called tissue.\nACROTHYMION, from ακρος, extreme, and θυμος, thyme. A fort of wart deferibed by Celfus as hard, rough, with a narrow bafis and broad top ; the top is of the colour of thyme, it eafily fplits and bleeds. This tumour is alfo called thymus.",
+  "modern": "AGROTHYMON, from _works_, _stresses_ and _hetype._ A few of wart deferled by Celtics au hard, rough, with a narrow bala and broad top; the top is of the colon: d thyres, it early lipits and bleeds. This tumour is all called tissue.\nACROTHYMION, from ακρος, extreme, and θυμος, thyme. A fort of wart deferibed by Celfus as hard, rough, with a narrow bafis and broad top ; the top is of the colour of thyme, it eafily fplits and bleeds. This tumour is alfo called thymus."
+ },
+ "error": null
+}

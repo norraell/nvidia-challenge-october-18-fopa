@@ -1,0 +1,31 @@
+{
+ "key": "047c0f6600be98c2f71f771b6d287f1f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "THOUROUT a town of Belgium, capital of a canton in the province of West Banker, I miles By, of Burgos- It has a fine church, is townhall, several schools, and bhec-volent institutions. Lion, hats, leather, goodage, enthar- sure, spans, chances, and other goods made here. In vicinity are the remains of an old castle, once the rest- dance of the Count of Flanders. Pop. 8465.",
+ "content": "{\n  \"faithful\": \"THOUROUT, a town of Belgium, capital of a canton in the province of West Flanders, 11 miles S.W. of Bruges. It has a fine church, a town-hall, several schools, and benevolent institutions. Linen, hats, leather, cordage, earthenware, soap, tobacco, and other goods are made here. In the vicinity are the remains of an old castle, once the residence of the Counts of Flanders. Pop. 8405.\",\n  \"modern\": \"THOUROUT, a town of Belgium, capital of a canton in the province of West Flanders, 11 miles S.W. of Bruges. It has a fine church, a town-hall, several schools, and benevolent institutions. Linen, hats, leather, cordage, earthenware, soap, tobacco, and other goods are made here. In the vicinity are the remains of an old castle, once the residence of the Counts of Flanders. Pop. 8405.\"\n}",
+ "usage": {
+  "completion_tokens": 225,
+  "prompt_tokens": 686,
+  "total_tokens": 911,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "THOUROUT, a town of Belgium, capital of a canton in the province of West Flanders, 11 miles S.W. of Bruges. It has a fine church, a town-hall, several schools, and benevolent institutions. Linen, hats, leather, cordage, earthenware, soap, tobacco, and other goods are made here. In the vicinity are the remains of an old castle, once the residence of the Counts of Flanders. Pop. 8405.",
+  "modern": "THOUROUT, a town of Belgium, capital of a canton in the province of West Flanders, 11 miles S.W. of Bruges. It has a fine church, a town-hall, several schools, and benevolent institutions. Linen, hats, leather, cordage, earthenware, soap, tobacco, and other goods are made here. In the vicinity are the remains of an old castle, once the residence of the Counts of Flanders. Pop. 8405."
+ },
+ "error": null
+}

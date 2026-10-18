@@ -1,0 +1,31 @@
+{
+ "key": "c8171f4f134d93147d3265ac35dc2fff",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "AMPHYSTIVE is applied, in antiguity, to a kind of purple garment dyed of the bus of amethyft. In this fenêm amethyfilne differed from _Tyrian_ as well as from _breathine_ purple, being a kind of medium between both.",
+ "content": "{\n  \"faithful\": \"AMPHYSTIVE is applied, in antiguity, to a kind of purple garment dyed of the bus of amethyft. In this fenêm amethyfilne differed from _Tyrian_ as well as from _breathine_ purple, being a kind of medium between both.\",\n  \"modern\": \"AMPHYSTIVE is applied, in antiquity, to a kind of purple garment dyed of the bus of amethyst. In this fene amethystine differed from Tyrian as well as from breathine purple, being a kind of medium between both.\"\n}",
+ "usage": {
+  "completion_tokens": 133,
+  "prompt_tokens": 645,
+  "total_tokens": 778,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "AMPHYSTIVE is applied, in antiguity, to a kind of purple garment dyed of the bus of amethyft. In this fenêm amethyfilne differed from _Tyrian_ as well as from _breathine_ purple, being a kind of medium between both.",
+  "modern": "AMPHYSTIVE is applied, in antiquity, to a kind of purple garment dyed of the bus of amethyst. In this fene amethystine differed from Tyrian as well as from breathine purple, being a kind of medium between both."
+ },
+ "error": null
+}

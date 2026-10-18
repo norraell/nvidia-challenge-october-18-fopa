@@ -1,0 +1,31 @@
+{
+ "key": "fc90eb6c46cd0956d451790431702f09",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Of fact infections and fields are are agreeable of disgreensils, we may remark, it’s a little, yet that they differ much, not only in degree, but in kind and to slightly. Some belong to the animal part of our mis-ture, and are common to us with the brains: often be-long on the rational and moral than the first are more properly called, _depilation_, the fall feeling. The Friends word fenomen is common to hold?\"",
+ "content": "{\n  \"faithful\": \"Of fuch fenfations and feelings as are agreeable or difagreeable, we may remark, it's a little, yet that they differ much, not only in degree, but in kind and in dignity. Some belong to the animal part of our nature, and are common to us with the brutes: others belong to the rational and moral part. The first are more properly called fenfations, the laft feelings. The French word fenfiment is common to both.\",\n  \"modern\": \"Of such sensations and feelings as are agreeable or disagreeable, we may remark, it's a little, yet that they differ much, not only in degree, but in kind and in dignity. Some belong to the animal part of our nature, and are common to us with the brutes: others belong to the rational and moral part. The first are more properly called sensations, the last feelings. The French word sentiment is common to both.\"\n}",
+ "usage": {
+  "completion_tokens": 205,
+  "prompt_tokens": 686,
+  "total_tokens": 891,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Of fuch fenfations and feelings as are agreeable or difagreeable, we may remark, it's a little, yet that they differ much, not only in degree, but in kind and in dignity. Some belong to the animal part of our nature, and are common to us with the brutes: others belong to the rational and moral part. The first are more properly called fenfations, the laft feelings. The French word fenfiment is common to both.",
+  "modern": "Of such sensations and feelings as are agreeable or disagreeable, we may remark, it's a little, yet that they differ much, not only in degree, but in kind and in dignity. Some belong to the animal part of our nature, and are common to us with the brutes: others belong to the rational and moral part. The first are more properly called sensations, the last feelings. The French word sentiment is common to both."
+ },
+ "error": null
+}

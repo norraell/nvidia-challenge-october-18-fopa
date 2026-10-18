@@ -1,0 +1,31 @@
+{
+ "key": "1503ea0a992e2b63c65bf18f0a370509",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The great cabin is the chief of ’all, and that which properly belongs to the captain, or chief commander.",
+ "content": "{\n  \"faithful\": \"The great cabin is the chief of all, and that which properly belongs to the captain, or chief commander.\",\n  \"modern\": \"The great cabin is the chief of all, and that which properly belongs to the captain, or chief commander.\"\n}",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 620,
+  "total_tokens": 679,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The great cabin is the chief of all, and that which properly belongs to the captain, or chief commander.",
+  "modern": "The great cabin is the chief of all, and that which properly belongs to the captain, or chief commander."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "0be09cc8198b2cc6897caef308603862",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "weight of six Mokes—Of the weights, 128 drachnes = 32 let = 2 marks a 1 bars by barely - 12114 but a novel, which avel. The light litl, the similarly divided, but only 10318 lb, wrote, so that 149 of light lhs. make only 100 of the heavy or content weight. The Copper sample was a two point gali a niv. The Frankfort foot contains 114-2 Brit inches, and of 1014. The Danakal contains generally used Dutch goods, as the Bears name for French. Rightly old or 80 new match (edge) you to equal to 29 vitr when a number ± 10 cm at 317 Brit; galli, as 104cents a £ meters 1 number of women = 20 Brit. baskets.",
+ "content": "{\n  \"faithful\": \"weight of six Mokes—Of the weights, 128 drachmes = 32 let = 2 marks a 1 bars by barely - 12114 but a novel, which avel. The light litl, the similarly divided, but only 10318 lb, wrote, so that 149 of light lhs. make only 100 of the heavy or content weight. The Copper sample was a two point gali a niv. The Frankfort foot contains 114-2 Brit inches, and of 1014. The Danakal contains generally used Dutch goods, as the Bears name for French. Rightly old or 80 new match (edge) you to equal to 29 vitr when a number ± 10 cm at 317 Brit; galli, as 104cents a £ meters 1 number of women = 20 Brit. baskets.\",\n  \"modern\": \"weight of six Mokes—Of the weights, 128 drachmes = 32 let = 2 marks a 1 bars by barely - 12114 but a novel, which avel. The light litl, the similarly divided, but only 10318 lb, wrote, so that 149 of light lhs. make only 100 of the heavy or content weight. The Copper sample was a two point gali a niv. The Frankfort foot contains 114-2 Brit inches, and of 1014. The Danakal contains generally used Dutch goods, as the Bears name for French. Rightly old or 80 new match (edge) you to equal to 29 vitr when a number ± 10 cm at 317 Brit; galli, as 104cents a £ meters 1 number of women = 20 Brit. baskets.\"\n}",
+ "usage": {
+  "completion_tokens": 423,
+  "prompt_tokens": 780,
+  "total_tokens": 1203,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "weight of six Mokes—Of the weights, 128 drachmes = 32 let = 2 marks a 1 bars by barely - 12114 but a novel, which avel. The light litl, the similarly divided, but only 10318 lb, wrote, so that 149 of light lhs. make only 100 of the heavy or content weight. The Copper sample was a two point gali a niv. The Frankfort foot contains 114-2 Brit inches, and of 1014. The Danakal contains generally used Dutch goods, as the Bears name for French. Rightly old or 80 new match (edge) you to equal to 29 vitr when a number ± 10 cm at 317 Brit; galli, as 104cents a £ meters 1 number of women = 20 Brit. baskets.",
+  "modern": "weight of six Mokes—Of the weights, 128 drachmes = 32 let = 2 marks a 1 bars by barely - 12114 but a novel, which avel. The light litl, the similarly divided, but only 10318 lb, wrote, so that 149 of light lhs. make only 100 of the heavy or content weight. The Copper sample was a two point gali a niv. The Frankfort foot contains 114-2 Brit inches, and of 1014. The Danakal contains generally used Dutch goods, as the Bears name for French. Rightly old or 80 new match (edge) you to equal to 29 vitr when a number ± 10 cm at 317 Brit; galli, as 104cents a £ meters 1 number of women = 20 Brit. baskets."
+ },
+ "error": null
+}

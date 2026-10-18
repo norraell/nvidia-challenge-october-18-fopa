@@ -1,0 +1,31 @@
+{
+ "key": "6a5510f89e123c649742730ba8e8107e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Horas-Dang_ in gardening, is o great ufc in ma-\nking hot-beds, for the rafting all sorts of early crops\nas fishing, cucumbers melons, afparagus, &c, for\nwhich",
+ "content": "{\n  \"faithful\": \"_Horas-Dang_ in gardening, is o great ufc in ma- king hot-beds, for the rafting all sorts of early crops as fishing, cucumbers melons, afparagus, &c, for which Horse-Bread. See BREAD. Horse-Dung, in gardening, is of great ufe in ma- king hot-beds, for the raifing all forts of early crops; as fallading, cucumbers, melons, afparagus, &c. for which\",\n  \"modern\": \"_Horas-Dang_ in gardening, is a great use in making hot-beds, for the raising all sorts of early crops as fishing, cucumbers melons, asparagus, &c, for which Horse-Bread. See BREAD. Horse-Dung, in gardening, is of great use in making hot-beds, for the raising all sorts of early crops; as salading, cucumbers, melons, asparagus, &c. for which\"\n}",
+ "usage": {
+  "completion_tokens": 222,
+  "prompt_tokens": 610,
+  "total_tokens": 832,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 258
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_Horas-Dang_ in gardening, is o great ufc in ma- king hot-beds, for the rafting all sorts of early crops as fishing, cucumbers melons, afparagus, &c, for which Horse-Bread. See BREAD. Horse-Dung, in gardening, is of great ufe in ma- king hot-beds, for the raifing all forts of early crops; as fallading, cucumbers, melons, afparagus, &c. for which",
+  "modern": "_Horas-Dang_ in gardening, is a great use in making hot-beds, for the raising all sorts of early crops as fishing, cucumbers melons, asparagus, &c, for which Horse-Bread. See BREAD. Horse-Dung, in gardening, is of great use in making hot-beds, for the raising all sorts of early crops; as salading, cucumbers, melons, asparagus, &c. for which"
+ },
+ "error": null
+}

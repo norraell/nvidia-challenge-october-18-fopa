@@ -1,0 +1,31 @@
+{
+ "key": "8c0498c75c4c0d37f152aef90777d854",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Since Horse_ See StylLON.",
+ "content": "{\n  \"faithful\": \"_Since Horse_ See StylLON. lection of waters in the head called an hydrocephalus. Stone-Horse. See STALLION. Horse Tail. See Equisetum and Equus.\",\n  \"modern\": \"Since Horse See StylLON. lection of waters in the head called an hydrocephalus. Stone-Horse. See STALLION. Horse Tail. See Equisetum and Equus.\"\n}",
+ "usage": {
+  "completion_tokens": 98,
+  "prompt_tokens": 607,
+  "total_tokens": 705,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_Since Horse_ See StylLON. lection of waters in the head called an hydrocephalus. Stone-Horse. See STALLION. Horse Tail. See Equisetum and Equus.",
+  "modern": "Since Horse See StylLON. lection of waters in the head called an hydrocephalus. Stone-Horse. See STALLION. Horse Tail. See Equisetum and Equus."
+ },
+ "error": null
+}

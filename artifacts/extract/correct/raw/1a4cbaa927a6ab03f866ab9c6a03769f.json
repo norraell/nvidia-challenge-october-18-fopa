@@ -1,0 +1,31 @@
+{
+ "key": "1a4cbaa927a6ab03f866ab9c6a03769f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This conferve is given from a dram to half an ounce\nin crudities of the prime via, for promoting digestion,\nand in by their disorders; I gently illuminate the fo-\nlids, attenuates vital juices, and excites the natural\nfeecretions. Some have had a great opinion of it, ta-\nken in a morning, as a preferative against the effects\nof contagious air or calitation.",
+ "content": "{\n  \"faithful\": \"This conferve is given from a dram to half an ounce in crudities of the prime via, for promoting digestion, and in by their disorders; I gently illuminate the fo-lids, attenuates vital juices, and excites the natural feecretions. Some have had a great opinion of it, ta-ken in a morning, as a preferative against the effects of contagious air or calitation.\",\n  \"modern\": \"This conferve is given from a dram to half an ounce in crudities of the prime via, for promoting digestion, and in by their disorders; I gently illuminate the solids, attenuates vital juices, and excites the natural secretions. Some have had a great opinion of it, taken in a morning, as a preventive against the effects of contagious air or exhalation.\"\n}",
+ "usage": {
+  "completion_tokens": 181,
+  "prompt_tokens": 673,
+  "total_tokens": 854,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This conferve is given from a dram to half an ounce in crudities of the prime via, for promoting digestion, and in by their disorders; I gently illuminate the fo-lids, attenuates vital juices, and excites the natural feecretions. Some have had a great opinion of it, ta-ken in a morning, as a preferative against the effects of contagious air or calitation.",
+  "modern": "This conferve is given from a dram to half an ounce in crudities of the prime via, for promoting digestion, and in by their disorders; I gently illuminate the solids, attenuates vital juices, and excites the natural secretions. Some have had a great opinion of it, taken in a morning, as a preventive against the effects of contagious air or exhalation."
+ },
+ "error": null
+}

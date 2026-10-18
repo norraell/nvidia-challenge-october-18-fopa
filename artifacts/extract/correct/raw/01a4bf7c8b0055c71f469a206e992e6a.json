@@ -1,0 +1,31 @@
+{
+ "key": "01a4bf7c8b0055c71f469a206e992e6a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "OUNCE, a little weight, the fitteenth part of a pound a- voirdupois, and the wealth part of a pound troy.",
+ "content": "{\n  \"faithful\": \"OUNCE, a little weight, the fifteenth part of a pound avoirdupois, and the twelfth part of a pound troy.\",\n  \"modern\": \"OUNCE, a little weight, the fifteenth part of a pound avoirdupois, and the twelfth part of a pound troy.\"\n}",
+ "usage": {
+  "completion_tokens": 71,
+  "prompt_tokens": 621,
+  "total_tokens": 692,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "OUNCE, a little weight, the fifteenth part of a pound avoirdupois, and the twelfth part of a pound troy.",
+  "modern": "OUNCE, a little weight, the fifteenth part of a pound avoirdupois, and the twelfth part of a pound troy."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "9dc1b4501149d5438b9359cf9efd4395",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "\"The tendency of the ship to stretch or draw sammber in her upper works being by our means advised by the short plank out the inside between the ports, a true piece of plank is substituted in lieu of them,which being well secured, at the altumants, very materially and the trussal frame, and gives great artifacts, thereby opposing the in-clination to arch or log, add.\"",
+ "content": "{\n  \"faithful\": \"The tendency of the ship to stretch or draw asunder in her upper works being by no means obviated by the short planks on the inside between the ports, a truss piece of plank is substituted in lieu of them, which being well secured at the abutments, very materially aids the trussed frame, and gives great stiffness, thereby opposing the inclination to arch or hog aloft.\",\n  \"modern\": \"The tendency of the ship to stretch or draw asunder in her upper works being by no means obviated by the short planks on the inside between the ports, a truss piece of plank is substituted in lieu of them, which being well secured at the abutments, very materially aids the trussed frame, and gives great stiffness, thereby opposing the inclination to arch or hog aloft.\"\n}",
+ "usage": {
+  "completion_tokens": 179,
+  "prompt_tokens": 667,
+  "total_tokens": 846,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The tendency of the ship to stretch or draw asunder in her upper works being by no means obviated by the short planks on the inside between the ports, a truss piece of plank is substituted in lieu of them, which being well secured at the abutments, very materially aids the trussed frame, and gives great stiffness, thereby opposing the inclination to arch or hog aloft.",
+  "modern": "The tendency of the ship to stretch or draw asunder in her upper works being by no means obviated by the short planks on the inside between the ports, a truss piece of plank is substituted in lieu of them, which being well secured at the abutments, very materially aids the trussed frame, and gives great stiffness, thereby opposing the inclination to arch or hog aloft."
+ },
+ "error": null
+}

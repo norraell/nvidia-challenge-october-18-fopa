@@ -1,0 +1,31 @@
+{
+ "key": "4ad9bb580d956d66d84e1ca32da6214c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The beams are discussed in the system nearly as we usual, except that in buildings, where a ship necessarily re-quires the greatest security, two additional beams have been introduced.",
+ "content": "{\n  \"faithful\": \"The beams are disposed in the new system nearly as usual, except that in midships, where a ship necessarily requires the greatest security, two additional beams have been introduced.\",\n  \"modern\": \"The beams are disposed in the new system nearly as usual, except that in midships, where a ship necessarily requires the greatest security, two additional beams have been introduced.\"\n}",
+ "usage": {
+  "completion_tokens": 83,
+  "prompt_tokens": 618,
+  "total_tokens": 701,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The beams are disposed in the new system nearly as usual, except that in midships, where a ship necessarily requires the greatest security, two additional beams have been introduced.",
+  "modern": "The beams are disposed in the new system nearly as usual, except that in midships, where a ship necessarily requires the greatest security, two additional beams have been introduced."
+ },
+ "error": null
+}

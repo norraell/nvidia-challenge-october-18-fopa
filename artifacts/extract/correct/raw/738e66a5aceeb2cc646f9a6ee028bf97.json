@@ -1,0 +1,31 @@
+{
+ "key": "738e66a5aceeb2cc646f9a6ee028bf97",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Warnish is undoubtedly an beneficial to hedges as trees; and the walls give an efficient holder, which in expected titanium is absolutely necessary for resting young hedges; and they likewise prefere a proper degree of smaller income about the treats. If the hedges have been planted for six or even years before the wall is bulk, cut them over to two or three inches above the ground with a sharp root, either in October or November, or early in the spring; and crack the",
+ "content": "{\n  \"faithful\": \"Warmth is undoubtedly as beneficial to hedges as trees; and the walls give an effectual shelter, which in exposed situations is absolutely necessary for rearing young hedges; and they likewise prefer a proper degree of moisture about the roots. If the hedges have been planted for six or seven years before the wall is built, cut them over to two or three inches above the ground with a sharp tool, either in October or November, or early in the spring; and erect the\",\n  \"modern\": \"Warmth is undoubtedly as beneficial to hedges as trees; and the walls give an effectual shelter, which in exposed situations is absolutely necessary for rearing young hedges; and they likewise prefer a proper degree of moisture about the roots. If the hedges have been planted for six or seven years before the wall is built, cut them over to two or three inches above the ground with a sharp tool, either in October or November, or early in the spring; and erect the\"\n}",
+ "usage": {
+  "completion_tokens": 213,
+  "prompt_tokens": 666,
+  "total_tokens": 879,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Warmth is undoubtedly as beneficial to hedges as trees; and the walls give an effectual shelter, which in exposed situations is absolutely necessary for rearing young hedges; and they likewise prefer a proper degree of moisture about the roots. If the hedges have been planted for six or seven years before the wall is built, cut them over to two or three inches above the ground with a sharp tool, either in October or November, or early in the spring; and erect the",
+  "modern": "Warmth is undoubtedly as beneficial to hedges as trees; and the walls give an effectual shelter, which in exposed situations is absolutely necessary for rearing young hedges; and they likewise prefer a proper degree of moisture about the roots. If the hedges have been planted for six or seven years before the wall is built, cut them over to two or three inches above the ground with a sharp tool, either in October or November, or early in the spring; and erect the"
+ },
+ "error": null
+}

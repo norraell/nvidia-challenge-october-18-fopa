@@ -1,0 +1,31 @@
+{
+ "key": "568d43236df9780113e0734cfa1d2e0c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "After the death of Theophilus, the line of Solomon by the queen of Sheba was superseded a second time, and a stranger of the name of _Outsay seated on the Abyusina theme._ The extreme severity of Theophilus in punishing the murderers of both Yasuous and Techa Hanamout gave occasion to this, for all the prime had been assassination in consequence of compatriots formed by the principal people of the nation, the number of congriators was as great, that the parties con-cerned had interns sufficient to influence the election of the new monarch, even in this most capital respect, of his not being a descendant of Solomon. Excepting this single defect, he was in every respect worthy of",
+ "content": "{\n  \"faithful\": \"After the death of Theophilus, the line of Solomon by the queen of Sheba was superseded a second time, and a stranger of the name of Outsay seated on the Abyssinian throne. The extreme severity of Theophilus in punishing the murderers of both Yasous and Tecla Haimanout gave occasion to this, for as both princes had been assassinated in consequence of conspiracies formed by the principal people of the nation, the number of conspirators was so great, that the parties concerned had interest sufficient to influence the election of the new monarch, even in this most capital respect, of his not being a descendant of Solomon. Excepting this single defect, he was in every respect worthy of\",\n  \"modern\": \"After the death of Theophilus, the line of Solomon by the queen of Sheba was superseded a second time, and a stranger of the name of Outsay seated on the Abyssinian throne. The extreme severity of Theophilus in punishing the murderers of both Yasous and Tecla Haimanout gave occasion to this, for as both princes had been assassinated in consequence of conspiracies formed by the principal people of the nation, the number of conspirators was so great, that the parties concerned had interest sufficient to influence the election of the new monarch, even in this most capital respect, of his not being a descendant of Solomon. Excepting this single defect, he was in every respect worthy of\"\n}",
+ "usage": {
+  "completion_tokens": 309,
+  "prompt_tokens": 729,
+  "total_tokens": 1038,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "After the death of Theophilus, the line of Solomon by the queen of Sheba was superseded a second time, and a stranger of the name of Outsay seated on the Abyssinian throne. The extreme severity of Theophilus in punishing the murderers of both Yasous and Tecla Haimanout gave occasion to this, for as both princes had been assassinated in consequence of conspiracies formed by the principal people of the nation, the number of conspirators was so great, that the parties concerned had interest sufficient to influence the election of the new monarch, even in this most capital respect, of his not being a descendant of Solomon. Excepting this single defect, he was in every respect worthy of",
+  "modern": "After the death of Theophilus, the line of Solomon by the queen of Sheba was superseded a second time, and a stranger of the name of Outsay seated on the Abyssinian throne. The extreme severity of Theophilus in punishing the murderers of both Yasous and Tecla Haimanout gave occasion to this, for as both princes had been assassinated in consequence of conspiracies formed by the principal people of the nation, the number of conspirators was so great, that the parties concerned had interest sufficient to influence the election of the new monarch, even in this most capital respect, of his not being a descendant of Solomon. Excepting this single defect, he was in every respect worthy of"
+ },
+ "error": null
+}

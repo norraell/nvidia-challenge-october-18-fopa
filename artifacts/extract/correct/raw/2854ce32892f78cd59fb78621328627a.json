@@ -1,0 +1,31 @@
+{
+ "key": "2854ce32892f78cd59fb78621328627a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The coceyed or cranial vertebrae of the Mamatta\nmay be distinguished into two kinds, those which con-\nma in canal in continuity with that of the vertebral co-\nhauman and stern, and those in which the places are sold.\nThe first, which are next the secum, have articular,\ntransverse, and spinous processes, distinct in proportion\nas the animal move over the tails. The latter are generally\npromised in shape, diminish in size towards the very-\nmity, and have only slight tubercles for macular attachments.\nAtimals with prebiotics tails, as the American\nque (_ampeyona_), have above, at the base of the body of\neach vertebra, two and attacheders, between which pass\nhe tendons at the flexor muscles. By means of this\nmechanism these animals can twine the tail round the\nbranch of a tree with sufficient force to support the weight\nof the body.",
+ "content": "{\n  \"faithful\": \"The coccygeal or caudal vertebrae of the Mammalia may be distinguished into two kinds, those which contain a canal in continuity with that of the vertebral column and sacrum, and those in which the pieces are solid. The first, which are next the sacrum, have articular, transverse, and spinous processes, distinct in proportion as the animal move their tails. The latter are generally prismatic in shape, diminish in size towards the extremity, and have only slight tubercles for muscular attachments. Animals with prehensile tails, as the American ape (sapajou), have above, at the base of the body of each vertebra, two small tubercles, between which pass the tendons of the flexor muscles. By means of this mechanism these animals can twine the tail round the branch of a tree with sufficient force to support the weight of the body.\",\n  \"modern\": \"The coccygeal or caudal vertebrae of the Mammalia may be distinguished into two kinds, those which contain a canal in continuity with that of the vertebral column and sacrum, and those in which the pieces are solid. The first, which are next the sacrum, have articular, transverse, and spinous processes, distinct in proportion as the animal move their tails. The latter are generally prismatic in shape, diminish in size towards the extremity, and have only slight tubercles for muscular attachments. Animals with prehensile tails, as the American ape (sapajou), have above, at the base of the body of each vertebra, two small tubercles, between which pass the tendons of the flexor muscles. By means of this mechanism these animals can twine the tail round the branch of a tree with sufficient force to support the weight of the body.\"\n}",
+ "usage": {
+  "completion_tokens": 367,
+  "prompt_tokens": 781,
+  "total_tokens": 1148,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The coccygeal or caudal vertebrae of the Mammalia may be distinguished into two kinds, those which contain a canal in continuity with that of the vertebral column and sacrum, and those in which the pieces are solid. The first, which are next the sacrum, have articular, transverse, and spinous processes, distinct in proportion as the animal move their tails. The latter are generally prismatic in shape, diminish in size towards the extremity, and have only slight tubercles for muscular attachments. Animals with prehensile tails, as the American ape (sapajou), have above, at the base of the body of each vertebra, two small tubercles, between which pass the tendons of the flexor muscles. By means of this mechanism these animals can twine the tail round the branch of a tree with sufficient force to support the weight of the body.",
+  "modern": "The coccygeal or caudal vertebrae of the Mammalia may be distinguished into two kinds, those which contain a canal in continuity with that of the vertebral column and sacrum, and those in which the pieces are solid. The first, which are next the sacrum, have articular, transverse, and spinous processes, distinct in proportion as the animal move their tails. The latter are generally prismatic in shape, diminish in size towards the extremity, and have only slight tubercles for muscular attachments. Animals with prehensile tails, as the American ape (sapajou), have above, at the base of the body of each vertebra, two small tubercles, between which pass the tendons of the flexor muscles. By means of this mechanism these animals can twine the tail round the branch of a tree with sufficient force to support the weight of the body."
+ },
+ "error": null
+}

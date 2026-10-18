@@ -1,0 +1,31 @@
+{
+ "key": "e013562097e3baa0d16529d59b228402",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Suppose the people to choose the members of the legislative assembly, with power of rechosing or dismissing them at short intervals to what desirable end could these powers be exercised, within the history of the press. Suppose that any one of those whom they have chosen has unequivocated himself, or promoted, as far as depend on him, the ends of misgoverment, how are the people to know that the powers with which they had in- turned him had been reached employing people?",
+ "content": "{\n  \"faithful\": \"Suppose the people to choose the members of the legislative assembly, with power of rechoosing or dismissing them at short intervals; to what desirable end could these powers be exercised, without the liberty of the press? Suppose that any one of those whom they have chosen has misconducted himself, or promoted, as far as depended upon him, the ends of misgovernment, how are the people to know that the powers with which they had intrusted him had been treacherously employed?\",\n  \"modern\": \"Suppose the people to choose the members of the legislative assembly, with power of rechoosing or dismissing them at short intervals; to what desirable end could these powers be exercised, without the liberty of the press? Suppose that any one of those whom they have chosen has misconducted himself, or promoted, as far as depended upon him, the ends of misgovernment, how are the people to know that the powers with which they had intrusted him had been treacherously employed?\"\n}",
+ "usage": {
+  "completion_tokens": 213,
+  "prompt_tokens": 677,
+  "total_tokens": 890,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Suppose the people to choose the members of the legislative assembly, with power of rechoosing or dismissing them at short intervals; to what desirable end could these powers be exercised, without the liberty of the press? Suppose that any one of those whom they have chosen has misconducted himself, or promoted, as far as depended upon him, the ends of misgovernment, how are the people to know that the powers with which they had intrusted him had been treacherously employed?",
+  "modern": "Suppose the people to choose the members of the legislative assembly, with power of rechoosing or dismissing them at short intervals; to what desirable end could these powers be exercised, without the liberty of the press? Suppose that any one of those whom they have chosen has misconducted himself, or promoted, as far as depended upon him, the ends of misgovernment, how are the people to know that the powers with which they had intrusted him had been treacherously employed?"
+ },
+ "error": null
+}

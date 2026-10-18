@@ -1,0 +1,31 @@
+{
+ "key": "674e3e380778e3c66ecea1b834a14870",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "provided as fundso-cocepond; and their number is estimated by deducting that of the cervical and coastal from the total\nnumber. The following table, which shows the number\nof the cost, the lumber-eccygeal, and the total number\nof vertebral indicates that their number varies much in\nvarious genera of this family.",
+ "content": "{\n  \"faithful\": \"regarded as lumbo-coccygeal; and their number is estimated by deducting that of the cervical and costal from the total number. The following table, which shows the number of the costal, the lumbo-coccygeal, and the total number of vertebrae, indicates that their number varies much in various genera of this family.\",\n  \"modern\": \"regarded as lumbo-coccygeal; and their number is estimated by deducting that of the cervical and costal from the total number. The following table, which shows the number of the costal, the lumbo-coccygeal, and the total number of vertebrae, indicates that their number varies much in various genera of this family.\"\n}",
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 644,
+  "total_tokens": 803,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "regarded as lumbo-coccygeal; and their number is estimated by deducting that of the cervical and costal from the total number. The following table, which shows the number of the costal, the lumbo-coccygeal, and the total number of vertebrae, indicates that their number varies much in various genera of this family.",
+  "modern": "regarded as lumbo-coccygeal; and their number is estimated by deducting that of the cervical and costal from the total number. The following table, which shows the number of the costal, the lumbo-coccygeal, and the total number of vertebrae, indicates that their number varies much in various genera of this family."
+ },
+ "error": null
+}

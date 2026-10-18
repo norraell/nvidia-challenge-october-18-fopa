@@ -1,0 +1,31 @@
+{
+ "key": "5d1254fe6923883bea55e58c082370c9",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Before the facilities excitedly external objects, there are others also which could pain and pleasure. If the effects of the models be foreign only and obterical, and not continued to as to fatigue us, it enables pleasure. On the contrary, when this section is situated with a kind of illibides, inflation, difficulty, and difficulty, is cru-\nfes just more or left. In fine, various blues and aflecoins of the mind, fach as the exercise of memory imagination, and judgment, nearly for familiar reasons, are founders painful, in other times agreeable. “Aminn affection, qui model great certain, welcomesness, not graves the ditture, butuye partner acor certain vive frangust j, business intention thatum eatingumi, fac-\nplus longa valetiation macarant.. Somul ealmas, que uat exhaustiv vies redefendig egemas, cercifin, vi de es fehlt, et annon et corporti — D'Addin, five asimií five corporais antirigue vies languefuct) ni mini sarecrisions hind minu benefutur. Statute provadi term paresv, ut fingularme porttima, et uni- verdi corpus anisimique vies ufu roborentur et acuin-",
+ "content": "{\n  \"faithful\": \"Before the faculties excitedly external objects, there are others also which could pain and pleasure. If the effects of the models be foreign only and obterical, and not continued to as to fatigue us, it enables pleasure. On the contrary, when this section is situated with a kind of illibides, inflation, difficulty, and difficulty, is cru- fes just more or left. In fine, various blues and aflecoins of the mind, fach as the exercise of memory imagination, and judgment, nearly for familiar reasons, are founders painful, in other times agreeable. “Aminn affection, qui model great certain, welcomesness, not graves the ditture, butuye partner acor certain vive frangust j, business intention thatum eatingumi, fac- plus longa valetiation macarant.. Somul ealmas, que uat exhaustiv vies redefendig egemas, cercifin, vi de es fehlt, et annon et corporti — D'Addin, five asimií five corporais antirigue vies languefuct) ni mini sarecrisions hind minu benefutur. Statute provadi term paresv, ut fingularme porttima, et uni- verdi corpus anisimique vies ufu roborentur et acuin- Cannot always remain a magnificent feast.\",\n  \"modern\": \"Before the faculties excitedly external objects, there are others also which could pain and pleasure. If the effects of the models be foreign only and obterical, and not continued to as to fatigue us, it enables pleasure. On the contrary, when this section is situated with a kind of illibides, inflation, difficulty, and difficulty, is cru- fes just more or left. In fine, various blues and aflecoins of the mind, fach as the exercise of memory imagination, and judgment, nearly for familiar reasons, are founders painful, in other times agreeable. “Aminn affection, qui model great certain, welcomesness, not graves the ditture, butuye partner acor certain vive frangust j, business intention thatum eatingumi, fac- plus longa valetiation macarant.. Somul ealmas, que uat exhaustiv vies redefendig egemas, cercifin, vi de es fehlt, et annon et corporti — D'Addin, five asimií five corporais antirigue vies languefuct) ni mini sarecrisions hind minu benefutur. Statute provadi term paresv, ut fingularme porttima, et uni- verdi corpus anisimique vies ufu roborentur et acuin- Cannot always remain a magnificent feast.\"\n}",
+ "usage": {
+  "completion_tokens": 573,
+  "prompt_tokens": 898,
+  "total_tokens": 1471,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 325
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Before the faculties excitedly external objects, there are others also which could pain and pleasure. If the effects of the models be foreign only and obterical, and not continued to as to fatigue us, it enables pleasure. On the contrary, when this section is situated with a kind of illibides, inflation, difficulty, and difficulty, is cru- fes just more or left. In fine, various blues and aflecoins of the mind, fach as the exercise of memory imagination, and judgment, nearly for familiar reasons, are founders painful, in other times agreeable. “Aminn affection, qui model great certain, welcomesness, not graves the ditture, butuye partner acor certain vive frangust j, business intention thatum eatingumi, fac- plus longa valetiation macarant.. Somul ealmas, que uat exhaustiv vies redefendig egemas, cercifin, vi de es fehlt, et annon et corporti — D'Addin, five asimií five corporais antirigue vies languefuct) ni mini sarecrisions hind minu benefutur. Statute provadi term paresv, ut fingularme porttima, et uni- verdi corpus anisimique vies ufu roborentur et acuin- Cannot always remain a magnificent feast.",
+  "modern": "Before the faculties excitedly external objects, there are others also which could pain and pleasure. If the effects of the models be foreign only and obterical, and not continued to as to fatigue us, it enables pleasure. On the contrary, when this section is situated with a kind of illibides, inflation, difficulty, and difficulty, is cru- fes just more or left. In fine, various blues and aflecoins of the mind, fach as the exercise of memory imagination, and judgment, nearly for familiar reasons, are founders painful, in other times agreeable. “Aminn affection, qui model great certain, welcomesness, not graves the ditture, butuye partner acor certain vive frangust j, business intention thatum eatingumi, fac- plus longa valetiation macarant.. Somul ealmas, que uat exhaustiv vies redefendig egemas, cercifin, vi de es fehlt, et annon et corporti — D'Addin, five asimií five corporais antirigue vies languefuct) ni mini sarecrisions hind minu benefutur. Statute provadi term paresv, ut fingularme porttima, et uni- verdi corpus anisimique vies ufu roborentur et acuin- Cannot always remain a magnificent feast."
+ },
+ "error": null
+}

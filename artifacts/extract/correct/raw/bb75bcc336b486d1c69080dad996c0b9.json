@@ -1,0 +1,31 @@
+{
+ "key": "bb75bcc336b486d1c69080dad996c0b9",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "If my set of men are chosen to wield the powers of government, while the people have not the means of knowing in what manner they discharge the duties, they will lasten the means of everyone observes at the expense of the people; and all the miseries of evil government are the certain consequence.",
+ "content": "{\n  \"faithful\": \"If any set of men are chosen to wield the powers of government, while the people have not the means of knowing in what manner they discharge their duties, they will have the means of serving themselves at the expense of the people; and all the miseries of evil government are the certain consequence.\",\n  \"modern\": \"If any set of men are chosen to wield the powers of government, while the people have not the means of knowing in what manner they discharge their duties, they will have the means of serving themselves at the expense of the people; and all the miseries of evil government are the certain consequence.\"\n}",
+ "usage": {
+  "completion_tokens": 135,
+  "prompt_tokens": 634,
+  "total_tokens": 769,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "If any set of men are chosen to wield the powers of government, while the people have not the means of knowing in what manner they discharge their duties, they will have the means of serving themselves at the expense of the people; and all the miseries of evil government are the certain consequence.",
+  "modern": "If any set of men are chosen to wield the powers of government, while the people have not the means of knowing in what manner they discharge their duties, they will have the means of serving themselves at the expense of the people; and all the miseries of evil government are the certain consequence."
+ },
+ "error": null
+}

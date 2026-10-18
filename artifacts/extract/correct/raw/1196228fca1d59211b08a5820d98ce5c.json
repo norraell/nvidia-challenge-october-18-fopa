@@ -1,0 +1,31 @@
+{
+ "key": "1196228fca1d59211b08a5820d98ce5c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Dass. Let AD, EB, BB (fig. 6) be two diverging rays incident upon the concave fur BD, as loppo- fed in Cafe 4; where it was demottemical that FB is to RB as CF to OR, then in the prefect each RB and CR are equal, because R is loppold to be the focus of parallel rays; therefore FB and FC are fo too. Which cannot be under F be taken as the nature di- fame from B; that is, and the refleted rays BF and DF be parallel. _@E.D._",
+ "content": "{\n  \"faithful\": \"Dems. Let RD, RB (fig. 8.) be two diverging rays incident upon the concave surface BD, as fuppo- fed in Cafe 4.; where it was demonftrated that FB is to RB as CF to CR. But in the prefent cafe RB and CR are equal, becaufe R is fuppofed to be the focus of parallel rays; therefore FB and FC are fo too. Which cannot be unlefs F be taken at an infinite diftance from B; that is, unlefs the reflected rays BF and DF be parallel. Q. E. D.\",\n  \"modern\": \"Dems. Let RD, RB (fig. 8.) be two diverging rays incident upon the concave surface BD, as supposed in Case 4.; where it was demonstrated that FB is to RB as CF to CR. But in the present case RB and CR are equal, because R is supposed to be the focus of parallel rays; therefore FB and FC are so too. Which cannot be unless F be taken at an infinite distance from B; that is, unless the reflected rays BF and DF be parallel. Q. E. D.\"\n}",
+ "usage": {
+  "completion_tokens": 250,
+  "prompt_tokens": 689,
+  "total_tokens": 939,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Dems. Let RD, RB (fig. 8.) be two diverging rays incident upon the concave surface BD, as fuppo- fed in Cafe 4.; where it was demonftrated that FB is to RB as CF to CR. But in the prefent cafe RB and CR are equal, becaufe R is fuppofed to be the focus of parallel rays; therefore FB and FC are fo too. Which cannot be unlefs F be taken at an infinite diftance from B; that is, unlefs the reflected rays BF and DF be parallel. Q. E. D.",
+  "modern": "Dems. Let RD, RB (fig. 8.) be two diverging rays incident upon the concave surface BD, as supposed in Case 4.; where it was demonstrated that FB is to RB as CF to CR. But in the present case RB and CR are equal, because R is supposed to be the focus of parallel rays; therefore FB and FC are so too. Which cannot be unless F be taken at an infinite distance from B; that is, unless the reflected rays BF and DF be parallel. Q. E. D."
+ },
+ "error": null
+}

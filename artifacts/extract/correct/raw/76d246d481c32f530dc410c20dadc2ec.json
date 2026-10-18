@@ -1,0 +1,31 @@
+{
+ "key": "76d246d481c32f530dc410c20dadc2ec",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "NRls. or White River, which, according to the accounts given by the Galla, our author fuppoles to take its rise in about 9 north latitude.",
+ "content": "{\n  \"faithful\": \"Nile. or White River, which, according to the accounts given by the Galla, our author fuppofes to take its rife in about 9 north latitude.\",\n  \"modern\": \"Nile. or White River, which, according to the accounts given by the Galla, our author supposes to take its rise in about 9 north latitude.\"\n}",
+ "usage": {
+  "completion_tokens": 86,
+  "prompt_tokens": 604,
+  "total_tokens": 690,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Nile. or White River, which, according to the accounts given by the Galla, our author fuppofes to take its rife in about 9 north latitude.",
+  "modern": "Nile. or White River, which, according to the accounts given by the Galla, our author supposes to take its rise in about 9 north latitude."
+ },
+ "error": null
+}

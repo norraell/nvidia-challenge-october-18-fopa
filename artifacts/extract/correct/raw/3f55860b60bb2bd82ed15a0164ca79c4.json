@@ -1,0 +1,31 @@
+{
+ "key": "3f55860b60bb2bd82ed15a0164ca79c4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "CH E M I S T R Y.",
+ "content": "{\n  \"faithful\": \"CHEMISTRY.\",\n  \"modern\": \"CHEMISTRY.\"\n}",
+ "usage": {
+  "completion_tokens": 25,
+  "prompt_tokens": 578,
+  "total_tokens": 603,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "CHEMISTRY.",
+  "modern": "CHEMISTRY."
+ },
+ "error": null
+}

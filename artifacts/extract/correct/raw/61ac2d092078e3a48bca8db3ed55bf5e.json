@@ -1,0 +1,31 @@
+{
+ "key": "61ac2d092078e3a48bca8db3ed55bf5e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "MalG's print of Marshall Harcourt, is one of the many fine effects of permits engoringly, and although it was received at an near period of the art, in abounds with no final degree of taille. The celebrated print called the table-body from Titlin, of the Earl Dupper, allo contains a considerable degree of distinct differentiation, though is founded carries it to affetation. He is rather linguistically like male and engragable hair. Yet the portraits of MarthaHarcourt and Boldonne the ferocay may be deemed acceptable.",
+ "content": "{\n  \"faithful\": \"MalG's print of Marshall Harcourt, is one of the many fine effects of permits engoringly, and although it was received at an near period of the art, in abounds with no final degree of taille. The celebrated print called the table-body from Titlin, of the Earl Dupper, allo contains a considerable degree of distinct differentiation, though is founded carries it to affetation. He is rather linguistically like male and engragable hair. Yet the portraits of MarthaHarcourt and Boldonne the ferocay may be deemed acceptable.\",\n  \"modern\": \"MalG's print of Marshall Harcourt, is one of the many fine effects of permits engoringly, and although it was received at an near period of the art, in abounds with no final degree of taille. The celebrated print called the table-body from Titlin, of the Earl Dupper, allo contains a considerable degree of distinct differentiation, though is founded carries it to affetation. He is rather linguistically like male and engragable hair. Yet the portraits of MarthaHarcourt and Boldonne the ferocay may be deemed acceptable.\"\n}",
+ "usage": {
+  "completion_tokens": 243,
+  "prompt_tokens": 693,
+  "total_tokens": 936,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "MalG's print of Marshall Harcourt, is one of the many fine effects of permits engoringly, and although it was received at an near period of the art, in abounds with no final degree of taille. The celebrated print called the table-body from Titlin, of the Earl Dupper, allo contains a considerable degree of distinct differentiation, though is founded carries it to affetation. He is rather linguistically like male and engragable hair. Yet the portraits of MarthaHarcourt and Boldonne the ferocay may be deemed acceptable.",
+  "modern": "MalG's print of Marshall Harcourt, is one of the many fine effects of permits engoringly, and although it was received at an near period of the art, in abounds with no final degree of taille. The celebrated print called the table-body from Titlin, of the Earl Dupper, allo contains a considerable degree of distinct differentiation, though is founded carries it to affetation. He is rather linguistically like male and engragable hair. Yet the portraits of MarthaHarcourt and Boldonne the ferocay may be deemed acceptable."
+ },
+ "error": null
+}

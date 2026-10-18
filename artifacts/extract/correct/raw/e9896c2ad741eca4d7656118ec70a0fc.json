@@ -1,0 +1,31 @@
+{
+ "key": "e9896c2ad741eca4d7656118ec70a0fc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The third fort conflicts of thode, in the multiplication of which the power of man is either limited or uncertain. In their the rule is various. Some commodities are not cultivated on their own account, but are appear dages to others; as wool and hides to the carre of the ox or fleece. Both their commodities are much more portable, and more easily preserved, than the field in the animals from which they are taken; the market for them is thus much more creative, and the demands more equal at all lines. Hence, in such periods, when the flesh of animals, from its abundance, is of finally vache, their appendages equal to force if it in prices. At Baena Ayrter Consequently, and importance in Spain, an oe is killed for the fake of the hide and tallow. In an improved fate of society, on the contrary, the land and forces become considerably inferior to value to the carerule.",
+ "content": "{\n  \"faithful\": \"The third fort conflicts of thode, in the multiplication of which the power of man is either limited or uncertain. In their the rule is various. Some commodities are not cultivated on their own account, but are appear dages to others; as wool and hides to the carre of the ox or fleece. Both their commodities are much more portable, and more easily preserved, than the field in the animals from which they are taken; the market for them is thus much more creative, and the demands more equal at all lines. Hence, in such periods, when the flesh of animals, from its abundance, is of finally vache, their appendages equal to force if it in prices. At Baena Ayrter Consequently, and importance in Spain, an oe is killed for the fake of the hide and tallow. In an improved fate of society, on the contrary, the land and forces become considerably inferior to value to the carerule.\",\n  \"modern\": \"The third fort conflicts of thode, in the multiplication of which the power of man is either limited or uncertain. In their the rule is various. Some commodities are not cultivated on their own account, but are appear dages to others; as wool and hides to the carre of the ox or fleece. Both their commodities are much more portable, and more easily preserved, than the field in the animals from which they are taken; the market for them is thus much more creative, and the demands more equal at all lines. Hence, in such periods, when the flesh of animals, from its abundance, is of finally vache, their appendages equal to force if it in prices. At Baena Ayrter Consequently, and importance in Spain, an oe is killed for the fake of the hide and tallow. In an improved fate of society, on the contrary, the land and forces become considerably inferior to value to the carerule.\"\n}",
+ "usage": {
+  "completion_tokens": 399,
+  "prompt_tokens": 795,
+  "total_tokens": 1194,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 302
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The third fort conflicts of thode, in the multiplication of which the power of man is either limited or uncertain. In their the rule is various. Some commodities are not cultivated on their own account, but are appear dages to others; as wool and hides to the carre of the ox or fleece. Both their commodities are much more portable, and more easily preserved, than the field in the animals from which they are taken; the market for them is thus much more creative, and the demands more equal at all lines. Hence, in such periods, when the flesh of animals, from its abundance, is of finally vache, their appendages equal to force if it in prices. At Baena Ayrter Consequently, and importance in Spain, an oe is killed for the fake of the hide and tallow. In an improved fate of society, on the contrary, the land and forces become considerably inferior to value to the carerule.",
+  "modern": "The third fort conflicts of thode, in the multiplication of which the power of man is either limited or uncertain. In their the rule is various. Some commodities are not cultivated on their own account, but are appear dages to others; as wool and hides to the carre of the ox or fleece. Both their commodities are much more portable, and more easily preserved, than the field in the animals from which they are taken; the market for them is thus much more creative, and the demands more equal at all lines. Hence, in such periods, when the flesh of animals, from its abundance, is of finally vache, their appendages equal to force if it in prices. At Baena Ayrter Consequently, and importance in Spain, an oe is killed for the fake of the hide and tallow. In an improved fate of society, on the contrary, the land and forces become considerably inferior to value to the carerule."
+ },
+ "error": null
+}

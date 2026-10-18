@@ -1,0 +1,31 @@
+{
+ "key": "9dcf5ce01d75dc1ee7733b563464e91f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When an throws are prepared to pafs the ditch,\nclicks with the affilance of bounds, humble, and life\ncines, when it is muddy, or with fault boats of tin, or\nbaskets covered with films or collected, where it is deep\nand filled with water, a party must be placed on the\ncounterfeary opposite for the loading-place, ready to\nfire at the garden if they are alarmed, and good the\nmounting on the rampart. It the ditch is dry, the\nladders so fixed in Some place fartheit diflant from the\ncentury and a four as they get upon the rampart\nthey put themforce in order to reverse the enemy; if\nthe country should be farparified and likely overcome,\nthe attachments halten to break open the gate and to\nlet in the raft of the party. If lifted this is wet, the\nrampart high, and provided with a reverentes, it will\nhe difficult to impute the town in the way; but if\nthere is no economic, the troops may hide chambers\nalong the outside of the rampart till all are over. Since the invention and use of gunpowder, and the\nwalls of cities have been linked, they are foldom taken\nby efcalade.",
+ "content": "{\n  \"faithful\": \"When the troops are prepared to pafs the ditch, either with the affilance of boards, hurdles, and fascines, when it is muddy, or with small boats of tin, or baskets covered with skins or oil-cloth, when it is deep and filled with water, a party must be placed on the countercarp, opposite to the landing-place, ready to fire at the garrison if they are alarmed, and opposite the mounting on the rampart. If the ditch is dry, the ladders are fixed in some place farthest distant from the centre; and as soon as they get upon the rampart they put themselves in order to receive the enemy; if the country should be furprised and likely overcome, the detachment halts to break open the gate, and to let in the rest of the party. If the ditch is wet, the rampart high, and provided with a revetement, it will be difficult to furprize the town in this way; but if there is no revetement, the troops may hide themselves along the outside of the rampart till all are over. Since the invention and use of gunpowder, and the walls of cities have been flanked, they are seldom taken by escalade.\",\n  \"modern\": \"When the troops are prepared to pass the ditch, either with the assistance of boards, hurdles, and fascines, when it is muddy, or with small boats of tin, or baskets covered with skins or oil-cloth, when it is deep and filled with water, a party must be placed on the countercarp, opposite to the landing-place, ready to fire at the garrison if they are alarmed, and opposite the mounting on the rampart. If the ditch is dry, the ladders are fixed in some place farthest distant from the centre; and as soon as they get upon the rampart they put themselves in order to receive the enemy; if the country should be surprised and likely overcome, the detachment halts to break open the gate, and to let in the rest of the party. If the ditch is wet, the rampart high, and provided with a revetement, it will be difficult to surprise the town in this way; but if there is no revetement, the troops may hide themselves along the outside of the rampart till all are over. Since the invention and use of gunpowder, and the walls of cities have been flanked, they are seldom taken by escalade.\"\n}",
+ "usage": {
+  "completion_tokens": 527,
+  "prompt_tokens": 959,
+  "total_tokens": 1486,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 382
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When the troops are prepared to pafs the ditch, either with the affilance of boards, hurdles, and fascines, when it is muddy, or with small boats of tin, or baskets covered with skins or oil-cloth, when it is deep and filled with water, a party must be placed on the countercarp, opposite to the landing-place, ready to fire at the garrison if they are alarmed, and opposite the mounting on the rampart. If the ditch is dry, the ladders are fixed in some place farthest distant from the centre; and as soon as they get upon the rampart they put themselves in order to receive the enemy; if the country should be furprised and likely overcome, the detachment halts to break open the gate, and to let in the rest of the party. If the ditch is wet, the rampart high, and provided with a revetement, it will be difficult to furprize the town in this way; but if there is no revetement, the troops may hide themselves along the outside of the rampart till all are over. Since the invention and use of gunpowder, and the walls of cities have been flanked, they are seldom taken by escalade.",
+  "modern": "When the troops are prepared to pass the ditch, either with the assistance of boards, hurdles, and fascines, when it is muddy, or with small boats of tin, or baskets covered with skins or oil-cloth, when it is deep and filled with water, a party must be placed on the countercarp, opposite to the landing-place, ready to fire at the garrison if they are alarmed, and opposite the mounting on the rampart. If the ditch is dry, the ladders are fixed in some place farthest distant from the centre; and as soon as they get upon the rampart they put themselves in order to receive the enemy; if the country should be surprised and likely overcome, the detachment halts to break open the gate, and to let in the rest of the party. If the ditch is wet, the rampart high, and provided with a revetement, it will be difficult to surprise the town in this way; but if there is no revetement, the troops may hide themselves along the outside of the rampart till all are over. Since the invention and use of gunpowder, and the walls of cities have been flanked, they are seldom taken by escalade."
+ },
+ "error": null
+}

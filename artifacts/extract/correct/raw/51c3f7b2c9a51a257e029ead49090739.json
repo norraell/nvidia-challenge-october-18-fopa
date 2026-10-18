@@ -1,0 +1,31 @@
+{
+ "key": "51c3f7b2c9a51a257e029ead49090739",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When the following fenestene begins with the fam\nword with which the former concluded, it is termed\nanadbigfix. As in the following influence: _Let us_\n_think to price too good for truth y forth cannot be_\n_bought too dies._ So in that suffage of St John: He\ncome to his own, and his own received him not. This\nfigure generally fits belt with grave and folemn dif-\ncounter.",
+ "content": "{\n  \"faithful\": \"When the following fenestene begins with the fam word with which the former concluded, it is termed anadbigfix. As in the following influence: _Let us_ _think to price too good for truth y forth cannot be_ _bought too dies._ So in that suffage of St John: He come to his own, and his own received him not. This figure generally fits belt with grave and folemn dif- counter.\",\n  \"modern\": \"When the following fenestene begins with the fam word with which the former concluded, it is termed anadbigfix. As in the following influence: Let us think to price too good for truth y forth cannot be bought too dies. So in that suffage of St John: He come to his own, and his own received him not. This figure generally fits belt with grave and solemn difcounter.\"\n}",
+ "usage": {
+  "completion_tokens": 188,
+  "prompt_tokens": 683,
+  "total_tokens": 871,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When the following fenestene begins with the fam word with which the former concluded, it is termed anadbigfix. As in the following influence: _Let us_ _think to price too good for truth y forth cannot be_ _bought too dies._ So in that suffage of St John: He come to his own, and his own received him not. This figure generally fits belt with grave and folemn dif- counter.",
+  "modern": "When the following fenestene begins with the fam word with which the former concluded, it is termed anadbigfix. As in the following influence: Let us think to price too good for truth y forth cannot be bought too dies. So in that suffage of St John: He come to his own, and his own received him not. This figure generally fits belt with grave and solemn difcounter."
+ },
+ "error": null
+}

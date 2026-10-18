@@ -1,0 +1,31 @@
+{
+ "key": "537e6a26ba2f898e162e8100d7ee5e4d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This feeds of safe is faced chiefly in the tongue, the fixation and figure of which are sufficiently known.",
+ "content": "{\n  \"faithful\": \"The fenfe of tafe is feated chiefly in the tongue ; the fituation and figure of which are fufficiently known.\",\n  \"modern\": \"The sense of taste is seated chiefly in the tongue; the situation and figure of which are sufficiently known.\"\n}",
+ "usage": {
+  "completion_tokens": 64,
+  "prompt_tokens": 604,
+  "total_tokens": 668,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The fenfe of tafe is feated chiefly in the tongue ; the fituation and figure of which are fufficiently known.",
+  "modern": "The sense of taste is seated chiefly in the tongue; the situation and figure of which are sufficiently known."
+ },
+ "error": null
+}

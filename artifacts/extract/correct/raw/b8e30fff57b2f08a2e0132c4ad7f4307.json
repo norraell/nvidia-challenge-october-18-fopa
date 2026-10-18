@@ -1,0 +1,31 @@
+{
+ "key": "b8e30fff57b2f08a2e0132c4ad7f4307",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ATELLA, an ancient town of Gargania in Italy, between Capua and Nespolis. From this town the _Atlana fabule, or Atelani Inda_, took their name. There were alto called _Ofis_, from their invasion, in whole territory Ashala by. They were generally a species of force, interlarded with much ribalry and buffoonery and foundoreste were ecordix or intestinalis preferred between the each of other plays. The authors thank these forces were not reckoned among the common players, nor deemed infamous , but retained the rights of their tribe, and might be listed for folders, the privilege only of free men. The ruins of this town are full to be feen about 11 miles from the modern Averfa, which was built out of its materials.",
+ "content": "{\n  \"faithful\": \"ATELLA, an ancient town of Gargania in Italy, between Capua and Nespolis. From this town the _Atlana fabule, or Atelani Inda_, took their name. There were alto called _Ofis_, from their invasion, in whole territory Ashala by. They were generally a species of force, interlarded with much ribalry and buffoonery and foundoreste were ecordix or intestinalis preferred between the each of other plays. The authors thank these forces were not reckoned among the common players, nor deemed infamous , but retained the rights of their tribe, and might be listed for folders, the privilege only of free men. The ruins of this town are full to be feen about 11 miles from the modern Averfa, which was built out of its materials.\",\n  \"modern\": \"ATELLA, an ancient town of Gargania in Italy, between Capua and Nespolis. From this town the _Atlana fabule, or Atelani Inda_, took their name. There were also called _Ofis_, from their invasion, in whole territory Ashala by. They were generally a species of force, interlarded with much ribaldry and buffoonery and foundoreste were ecordix or intestinalis preferred between the each of other plays. The authors thank these forces were not reckoned among the common players, nor deemed infamous, but retained the rights of their tribe, and might be listed for folders, the privilege only of free men. The ruins of this town are full to be seen about 11 miles from the modern Aversa, which was built out of its materials.\"\n}",
+ "usage": {
+  "completion_tokens": 355,
+  "prompt_tokens": 747,
+  "total_tokens": 1102,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ATELLA, an ancient town of Gargania in Italy, between Capua and Nespolis. From this town the _Atlana fabule, or Atelani Inda_, took their name. There were alto called _Ofis_, from their invasion, in whole territory Ashala by. They were generally a species of force, interlarded with much ribalry and buffoonery and foundoreste were ecordix or intestinalis preferred between the each of other plays. The authors thank these forces were not reckoned among the common players, nor deemed infamous , but retained the rights of their tribe, and might be listed for folders, the privilege only of free men. The ruins of this town are full to be feen about 11 miles from the modern Averfa, which was built out of its materials.",
+  "modern": "ATELLA, an ancient town of Gargania in Italy, between Capua and Nespolis. From this town the _Atlana fabule, or Atelani Inda_, took their name. There were also called _Ofis_, from their invasion, in whole territory Ashala by. They were generally a species of force, interlarded with much ribaldry and buffoonery and foundoreste were ecordix or intestinalis preferred between the each of other plays. The authors thank these forces were not reckoned among the common players, nor deemed infamous, but retained the rights of their tribe, and might be listed for folders, the privilege only of free men. The ruins of this town are full to be seen about 11 miles from the modern Aversa, which was built out of its materials."
+ },
+ "error": null
+}

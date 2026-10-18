@@ -1,0 +1,31 @@
+{
+ "key": "993e54382ff3587605aa53783e29d541",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "On the buildings, all, which are frequent in fach a\ncountry are often beautiful objects; the church and\nthe manñon are considerable; the farm-owl itself, if\nan advantageous function the chosen for it; if the\nricks, and the baras, and the out-hoofous, are ranged\nwith any edges to form that into groups, and if they\nare properly bonded with trees may be made such-\nrefque composition. Many of them may be detached\nfrom the groups, and digested about the grounds;\nthe device, or the dairy; may be separated from\nthe roll; they may be elegant in their forms, and placed\nad never they fall line the bell effects. A com-\nmons bars, accompanied by a clump, is functions\nplening at a distance, a Dutch barn is to when near ;\nand an bay side, is generally an agreeable circuma-\nlance in any position. Each of their way led ringls\nand besides thefs, all kinds of cottages are proper.\nAmong do many buildings, some may be converted to\nother purpose than their construction donantes ; and,\nwhatever the interaction, may work be made egne-\nable extracts, or refreshments, indigence, or choice.",
+ "content": "{\n  \"faithful\": \"On the buildings, all, which are frequent in fuch a country are often beautiful objects; the church and the manfion are considerable; the farm-owl itself, if an advantageous function the chosen for it; if the ricks, and the baras, and the out-hoofous, are ranged with any edges to form that into groups, and if they are properly bonded with trees may be made such-refque composition. Many of them may be detached from the groups, and digested about the grounds; the device, or the dairy; may be separated from the roll; they may be elegant in their forms, and placed ad never they fall line the bell effects. A commons bars, accompanied by a clump, is functions plening at a distance, a Dutch barn is to when near; and an bay side, is generally an agreeable circum-stance in any position. Each of their way led ringls and besides thefs, all kinds of cottages are proper. Among do many buildings, some may be converted to other purpose than their construction donantes; and, whatever the interaction, may work be made egne-able extracts, or refreshments, indigence, or choice.\",\n  \"modern\": \"On the buildings, all, which are frequent in such a country are often beautiful objects; the church and the mansion are considerable; the farm-owl itself, if an advantageous function the chosen for it; if the ricks, and the baras, and the out-hoofous, are ranged with any edges to form that into groups, and if they are properly bonded with trees may be made such-refque composition. Many of them may be detached from the groups, and digested about the grounds; the device, or the dairy; may be separated from the roll; they may be elegant in their forms, and placed ad never they fall line the bell effects. A commons bars, accompanied by a clump, is functions plening at a distance, a Dutch barn is to when near; and an bay side, is generally an agreeable circumstance in any position. Each of their way led ringls and besides thefs, all kinds of cottages are proper. Among do many buildings, some may be converted to other purpose than their construction donantes; and, whatever the interaction, may work be made egne-able extracts, or refreshments, indigence, or choice.\"\n}",
+ "usage": {
+  "completion_tokens": 502,
+  "prompt_tokens": 906,
+  "total_tokens": 1408,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 344
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "On the buildings, all, which are frequent in fuch a country are often beautiful objects; the church and the manfion are considerable; the farm-owl itself, if an advantageous function the chosen for it; if the ricks, and the baras, and the out-hoofous, are ranged with any edges to form that into groups, and if they are properly bonded with trees may be made such-refque composition. Many of them may be detached from the groups, and digested about the grounds; the device, or the dairy; may be separated from the roll; they may be elegant in their forms, and placed ad never they fall line the bell effects. A commons bars, accompanied by a clump, is functions plening at a distance, a Dutch barn is to when near; and an bay side, is generally an agreeable circum-stance in any position. Each of their way led ringls and besides thefs, all kinds of cottages are proper. Among do many buildings, some may be converted to other purpose than their construction donantes; and, whatever the interaction, may work be made egne-able extracts, or refreshments, indigence, or choice.",
+  "modern": "On the buildings, all, which are frequent in such a country are often beautiful objects; the church and the mansion are considerable; the farm-owl itself, if an advantageous function the chosen for it; if the ricks, and the baras, and the out-hoofous, are ranged with any edges to form that into groups, and if they are properly bonded with trees may be made such-refque composition. Many of them may be detached from the groups, and digested about the grounds; the device, or the dairy; may be separated from the roll; they may be elegant in their forms, and placed ad never they fall line the bell effects. A commons bars, accompanied by a clump, is functions plening at a distance, a Dutch barn is to when near; and an bay side, is generally an agreeable circumstance in any position. Each of their way led ringls and besides thefs, all kinds of cottages are proper. Among do many buildings, some may be converted to other purpose than their construction donantes; and, whatever the interaction, may work be made egne-able extracts, or refreshments, indigence, or choice."
+ },
+ "error": null
+}

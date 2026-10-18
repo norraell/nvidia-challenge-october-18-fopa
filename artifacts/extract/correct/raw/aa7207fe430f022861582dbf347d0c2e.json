@@ -1,0 +1,31 @@
+{
+ "key": "aa7207fe430f022861582dbf347d0c2e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "cording as the fulject is heritable or movable. Transferenced being but incidental to other actions, can be pronounced by that inferior judge alone before whom the principal cause discarded, but, where the representatives of the decades live in another territory, it in the firearms court which mult transfer. Obligations may be now regilted formanly after the creditor's death ; which be fore was non admitted, without a ferrance proofs of re-pirations, to which the greater wate accordingly to be made a party.",
+ "content": "{\n  \"faithful\": \"cording as the fubject is heritable or movable. Transferences being but incidental to other actions, can be pronounced by that inferior judge alone before whom the principal caufe depended; but, where the representatives of the deceased live in another territory, it is the fupreme court which muft transfer. Obligations may be now regiftred fummarily after the creditor's death; which before was not admitted, without a feparate procefs of regiltration, to which the granter was neceffarily to be made a party.\",\n  \"modern\": \"cording as the subject is heritable or movable. Transferences being but incidental to other actions, can be pronounced by that inferior judge alone before whom the principal cause depended; but, where the representatives of the deceased live in another territory, it is the supreme court which must transfer. Obligations may be now registered summarily after the creditor's death; which before was not admitted, without a separate process of registration, to which the granter was necessarily to be made a party.\"\n}",
+ "usage": {
+  "completion_tokens": 232,
+  "prompt_tokens": 698,
+  "total_tokens": 930,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "cording as the fubject is heritable or movable. Transferences being but incidental to other actions, can be pronounced by that inferior judge alone before whom the principal caufe depended; but, where the representatives of the deceased live in another territory, it is the fupreme court which muft transfer. Obligations may be now regiftred fummarily after the creditor's death; which before was not admitted, without a feparate procefs of regiltration, to which the granter was neceffarily to be made a party.",
+  "modern": "cording as the subject is heritable or movable. Transferences being but incidental to other actions, can be pronounced by that inferior judge alone before whom the principal cause depended; but, where the representatives of the deceased live in another territory, it is the supreme court which must transfer. Obligations may be now registered summarily after the creditor's death; which before was not admitted, without a separate process of registration, to which the granter was necessarily to be made a party."
+ },
+ "error": null
+}

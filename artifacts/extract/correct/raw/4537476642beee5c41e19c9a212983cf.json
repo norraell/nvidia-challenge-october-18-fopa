@@ -1,0 +1,31 @@
+{
+ "key": "4537476642beee5c41e19c9a212983cf",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ATARNEA, an ancient town of Myfn, flatuated between Akrimytition and Plans, remarkable for the marriage of Arribite with the filter or consecutive of the tyrant Hermias; also for the dotage of that phi-lolopier.",
+ "content": "{\n  \"faithful\": \"ATARNEIA, an ancient town of Myfia, fituated between Adramyttium and Pitane, remarkable for the marriage of Aristotle with the fister or concubine of the tyrant Hermias; alfo for the dotage of that philofopher.\",\n  \"modern\": \"ATARNEIA, an ancient town of Myfia, situated between Adramyttium and Pitane, remarkable for the marriage of Aristotle with the sister or concubine of the tyrant Hermias; also for the dotage of that philosopher.\"\n}",
+ "usage": {
+  "completion_tokens": 125,
+  "prompt_tokens": 637,
+  "total_tokens": 762,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ATARNEIA, an ancient town of Myfia, fituated between Adramyttium and Pitane, remarkable for the marriage of Aristotle with the fister or concubine of the tyrant Hermias; alfo for the dotage of that philofopher.",
+  "modern": "ATARNEIA, an ancient town of Myfia, situated between Adramyttium and Pitane, remarkable for the marriage of Aristotle with the sister or concubine of the tyrant Hermias; also for the dotage of that philosopher."
+ },
+ "error": null
+}

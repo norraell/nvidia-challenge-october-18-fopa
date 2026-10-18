@@ -1,0 +1,31 @@
+{
+ "key": "de50025c5adaa46564c09e78e8e52518",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "flower. When in perfection, it is very light and thin; pale, and almost colorules ; of great fragrance, the’ not quite for a belemary idelf. It is recomended, in the dole of a few drops, in nervous and hyfleric complaints. Borchave holds it ing great efeem againit epilepties, and fuppreffions of the use- trie purgurations, occaulted by weakens and indelh- vity.",
+ "content": "{\n  \"faithful\": \"flower. When in perfection, it is very light and thin; pale, and almost colourlefs; of great fragrance, tho' not quite fo agreeable as the rofemary itfelf. It is recommended, in the dofe of a few drops, in nervous and hyfteric complaints. Boerhaave holds it in great efteem againft epilepies, and fupprefiions of the uterine purgations, occafioned by weaknefs and inactivity.\",\n  \"modern\": \"flower. When in perfection, it is very light and thin; pale, and almost colorless; of great fragrance, though not quite so agreeable as the rosemary itself. It is recommended, in the dose of a few drops, in nervous and hysteric complaints. Boerhaave holds it in great esteem against epilepsies, and suppressions of the uterine purgations, occasioned by weakness and inactivity.\"\n}",
+ "usage": {
+  "completion_tokens": 205,
+  "prompt_tokens": 670,
+  "total_tokens": 875,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "flower. When in perfection, it is very light and thin; pale, and almost colourlefs; of great fragrance, tho' not quite fo agreeable as the rofemary itfelf. It is recommended, in the dofe of a few drops, in nervous and hyfteric complaints. Boerhaave holds it in great efteem againft epilepies, and fupprefiions of the uterine purgations, occafioned by weaknefs and inactivity.",
+  "modern": "flower. When in perfection, it is very light and thin; pale, and almost colorless; of great fragrance, though not quite so agreeable as the rosemary itself. It is recommended, in the dose of a few drops, in nervous and hysteric complaints. Boerhaave holds it in great esteem against epilepsies, and suppressions of the uterine purgations, occasioned by weakness and inactivity."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "ef5e267b953174623994133bf7f75681",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "tery of a man, and that the inward area of the left ventricle of his heart is equal to fifteen figures under; their multiplied inn =+1 for, give 13 to cubicinches of blood, which prefix on that ventricle, when it drift begins to control, a weight equal to 15 y.g pounds.",
+ "content": "{\n  \"faithful\": \"tery of a man, and that the inward area of the left ventricle of his heart is equal to fifteen fquare inches; thefe multiplied into 7+1/2 feet, give 1350 cubic inches of blood, which prefes on that ventricle, when it firt begins to contract, a weight equal to 15.5 pounds.\",\n  \"modern\": \"tery of a man, and that the inward area of the left ventricle of his heart is equal to fifteen square inches; these multiplied into 7+1/2 feet, give 1350 cubic inches of blood, which presses on that ventricle, when it first begins to contract, a weight equal to 15.5 pounds.\"\n}",
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 649,
+  "total_tokens": 808,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "tery of a man, and that the inward area of the left ventricle of his heart is equal to fifteen fquare inches; thefe multiplied into 7+1/2 feet, give 1350 cubic inches of blood, which prefes on that ventricle, when it firt begins to contract, a weight equal to 15.5 pounds.",
+  "modern": "tery of a man, and that the inward area of the left ventricle of his heart is equal to fifteen square inches; these multiplied into 7+1/2 feet, give 1350 cubic inches of blood, which presses on that ventricle, when it first begins to contract, a weight equal to 15.5 pounds."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "9db8b6a6723a7bddb8687089ceb8266b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "THRARESTON, a market-own of England, in the county and 13 miles ANNEX of Northampton, on the Nen, which is here crossed by a bridge. The parish church is a cruciform building with a tower and spire; and there are",
+ "content": "{\n  \"faithful\": \"THRAPSTON, a market-town of England, in the county and 18 miles N.N.E. of Northampton, on the Nen, which is here crossed by a bridge. The parish church is a cruciform building with a tower and spire; and there are\",\n  \"modern\": \"THRAPSTON, a market-town of England, in the county and 18 miles N.N.E. of Northampton, on the Nen, which is here crossed by a bridge. The parish church is a cruciform building with a tower and spire; and there are\"\n}",
+ "usage": {
+  "completion_tokens": 131,
+  "prompt_tokens": 623,
+  "total_tokens": 754,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "THRAPSTON, a market-town of England, in the county and 18 miles N.N.E. of Northampton, on the Nen, which is here crossed by a bridge. The parish church is a cruciform building with a tower and spire; and there are",
+  "modern": "THRAPSTON, a market-town of England, in the county and 18 miles N.N.E. of Northampton, on the Nen, which is here crossed by a bridge. The parish church is a cruciform building with a tower and spire; and there are"
+ },
+ "error": null
+}

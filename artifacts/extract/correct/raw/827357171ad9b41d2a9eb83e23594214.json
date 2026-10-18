@@ -1,0 +1,31 @@
+{
+ "key": "827357171ad9b41d2a9eb83e23594214",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Amais of Rejest/han, vol. i. chap. xxxp. p. 070 : chap. xxxp. p. 779._",
+ "content": "{\n  \"faithful\": \"_Annals of Rofe'than, vol. i. chap. xxv. p. 670 : chap. xxx. p. 779._\",\n  \"modern\": \"Annals of Rose'than, vol. i. chap. xxv. p. 670 : chap. xxx. p. 779.\"\n}",
+ "usage": {
+  "completion_tokens": 86,
+  "prompt_tokens": 654,
+  "total_tokens": 740,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_Annals of Rofe'than, vol. i. chap. xxv. p. 670 : chap. xxx. p. 779._",
+  "modern": "Annals of Rose'than, vol. i. chap. xxv. p. 670 : chap. xxx. p. 779."
+ },
+ "error": null
+}

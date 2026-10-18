@@ -1,0 +1,31 @@
+{
+ "key": "84f119f6f2c13218377a110642e121c8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "THONN. a city of Poland, in the province of regal Praflix, illustrated on the river Villula e. E. long. 19\", and N. lat.",
+ "content": "{\n  \"faithful\": \"THORN, a city of Poland, in the province of regal Prussia, situated on the river Vistula: E. long. 19°, and N. lat. 52° 40′.\",\n  \"modern\": \"THORN, a city of Poland, in the province of regal Prussia, situated on the river Vistula: E. long. 19°, and N. lat. 52° 40′.\"\n}",
+ "usage": {
+  "completion_tokens": 107,
+  "prompt_tokens": 615,
+  "total_tokens": 722,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "THORN, a city of Poland, in the province of regal Prussia, situated on the river Vistula: E. long. 19°, and N. lat. 52° 40′.",
+  "modern": "THORN, a city of Poland, in the province of regal Prussia, situated on the river Vistula: E. long. 19°, and N. lat. 52° 40′."
+ },
+ "error": null
+}

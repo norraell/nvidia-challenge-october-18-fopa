@@ -1,0 +1,31 @@
+{
+ "key": "d9b424f90a77d052c4ab8ee10c9c7e84",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Cass 9. Converging rays falling upon a convex fur- face, and tending to the surface of parallel rays, be- come parallel after reflection.",
+ "content": "{\n  \"faithful\": \"Cass 9. Converging rays falling upon a convex fur- face, and tending to the surface of parallel rays, be- come parallel after reflection.\",\n  \"modern\": \"Case 9. Converging rays falling upon a convex surface, and tending to the surface of parallel rays, become parallel after reflection.\"\n}",
+ "usage": {
+  "completion_tokens": 78,
+  "prompt_tokens": 603,
+  "total_tokens": 681,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Cass 9. Converging rays falling upon a convex fur- face, and tending to the surface of parallel rays, be- come parallel after reflection.",
+  "modern": "Case 9. Converging rays falling upon a convex surface, and tending to the surface of parallel rays, become parallel after reflection."
+ },
+ "error": null
+}

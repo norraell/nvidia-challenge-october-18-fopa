@@ -1,0 +1,31 @@
+{
+ "key": "7fe647d002a479e605c2d8fb002b212b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BYGHOF, or BYGow, a city of Lithuania in Poland, firstured on the river Niper; E. long, 30°, and N. lat. 32°.",
+ "content": "{\n  \"faithful\": \"BYGHOF, or BYGow, a city of Lithuania in Poland, firstured on the river Niper; E. long, 30°, and N. lat. 32°.\",\n  \"modern\": \"BYGHOF, or BYGow, a city of Lithuania in Poland, firstured on the river Niper; E. long, 30°, and N. lat. 32°.\"\n}",
+ "usage": {
+  "completion_tokens": 99,
+  "prompt_tokens": 604,
+  "total_tokens": 703,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 261
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BYGHOF, or BYGow, a city of Lithuania in Poland, firstured on the river Niper; E. long, 30°, and N. lat. 32°.",
+  "modern": "BYGHOF, or BYGow, a city of Lithuania in Poland, firstured on the river Niper; E. long, 30°, and N. lat. 32°."
+ },
+ "error": null
+}

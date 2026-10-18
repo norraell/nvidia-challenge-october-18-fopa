@@ -1,0 +1,31 @@
+{
+ "key": "ce4236dffbdb1d03ef991a6b9f715f84",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "EXAMPILIFICATION of Letters Patents, denotes an example, or copy of letters patents, made from the embodies thereof, and falsely that the great fail of England. Such complications are as efficient to be flowered on planated, as the letters patent identifiers.",
+ "content": "{\n  \"faithful\": \"EXEMPLIFICATION of Letters Patent, denotes an exemplar, or copy of letters patent, made from the enrolment thereof, and sealed with the great seal of England. Such exemplifications are as effectual to be owed or pleaded, as the letters patent themselves. EXEMPTION, in Law, a privilege to be free from\",\n  \"modern\": \"EXEMPLIFICATION of Letters Patent, denotes an exemplar, or copy of letters patent, made from the enrolment thereof, and sealed with the great seal of England. Such exemplifications are as effectual to be owed or pleaded, as the letters patent themselves. EXEMPTION, in Law, a privilege to be free from\"\n}",
+ "usage": {
+  "completion_tokens": 153,
+  "prompt_tokens": 629,
+  "total_tokens": 782,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXEMPLIFICATION of Letters Patent, denotes an exemplar, or copy of letters patent, made from the enrolment thereof, and sealed with the great seal of England. Such exemplifications are as effectual to be owed or pleaded, as the letters patent themselves. EXEMPTION, in Law, a privilege to be free from",
+  "modern": "EXEMPLIFICATION of Letters Patent, denotes an exemplar, or copy of letters patent, made from the enrolment thereof, and sealed with the great seal of England. Such exemplifications are as effectual to be owed or pleaded, as the letters patent themselves. EXEMPTION, in Law, a privilege to be free from"
+ },
+ "error": null
+}

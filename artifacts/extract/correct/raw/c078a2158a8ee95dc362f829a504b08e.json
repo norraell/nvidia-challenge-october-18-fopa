@@ -1,0 +1,31 @@
+{
+ "key": "c078a2158a8ee95dc362f829a504b08e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Also, since A is = DO + CK, we have A\\; cK - CE « + d (or CD) : 50, and A\\; DO = DO - dz.",
+ "content": "{\n  \"faithful\": \"Also, since A b is = DO + CK, we have A b : CK = C b + bD (or CD) : bD, and A b : DO = CD : bC.\",\n  \"modern\": \"Also, since A b is = DO + CK, we have A b : CK = C b + bD (or CD) : bD, and A b : DO = CD : bC.\"\n}",
+ "usage": {
+  "completion_tokens": 99,
+  "prompt_tokens": 614,
+  "total_tokens": 713,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Also, since A b is = DO + CK, we have A b : CK = C b + bD (or CD) : bD, and A b : DO = CD : bC.",
+  "modern": "Also, since A b is = DO + CK, we have A b : CK = C b + bD (or CD) : bD, and A b : DO = CD : bC."
+ },
+ "error": null
+}

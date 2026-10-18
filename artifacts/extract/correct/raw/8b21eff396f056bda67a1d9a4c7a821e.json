@@ -1,0 +1,31 @@
+{
+ "key": "8b21eff396f056bda67a1d9a4c7a821e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The rains therefore precede the fun only about 6°; but they continue and incredible after he has puffed it. In April all the rivers in the foubern parts of Ablyr finis begin to softw), and greatly augment the Nile which is now alfo farther augmented by the vaft quantity of water poured into the Nile Tazan. On the first day of May, the fun paths the village of Cerrij, which is the limit of the tropical rains, and it is very remarkable, that, though the fun still continues to cooperate with enhanced region. All his influence cannot bring the clouds further northward than this village; the restor of whole Mr Brune, with great restforu popsots to be the want of mountains to the northward. In confirmation of this opinion, he offerences, that the tropical rains flop at the latitude of 14\" infuse of 10\" in the welfare part of the continent. All this time, however, they continue violent in Abyfllina i and in the beginning of June the rivers are all full, and continue to while the fun remains Rationalny in the top pic of Cancer.",
+ "content": "{\n  \"faithful\": \"The rains therefore precede the fun only about 6°; but they continue and increase after he has passed it. In April all the rivers in the southern parts of Abyssinia begin to swell, and greatly augment the Nile, which is now also farther augmented by the vast quantity of water poured into the lake Tzana. On the first day of May, the fun passes the village of Gerri, which is the limit of the tropical rains; and it is very remarkable, that, though the fun still continues to operate with unabated vigour, all his influence cannot bring the clouds farther northward than this village; the reason of which Mr Bruce, with great reason, supposes to be the want of mountains to the northward. In confirmation of this opinion, he observes, that the tropical rains stop at the latitude of 14° instead of 16° in the western part of the continent. All this time, however, they continue violent in Abyssinia; and in the beginning of June the rivers are all full, and continue so while the fun remains stationary in the tropic of Cancer.\",\n  \"modern\": \"The rains therefore precede the sun only about 6°; but they continue and increase after he has passed it. In April all the rivers in the southern parts of Abyssinia begin to swell, and greatly augment the Nile, which is now also farther augmented by the vast quantity of water poured into the lake Tzana. On the first day of May, the sun passes the village of Gerri, which is the limit of the tropical rains; and it is very remarkable, that, though the sun still continues to operate with unabated vigour, all his influence cannot bring the clouds farther northward than this village; the reason of which Mr Bruce, with great reason, supposes to be the want of mountains to the northward. In confirmation of this opinion, he observes, that the tropical rains stop at the latitude of 14° instead of 16° in the western part of the continent. All this time, however, they continue violent in Abyssinia; and in the beginning of June the rivers are all full, and continue so while the sun remains stationary in the tropic of Cancer.\"\n}",
+ "usage": {
+  "completion_tokens": 475,
+  "prompt_tokens": 919,
+  "total_tokens": 1394,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 380
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The rains therefore precede the fun only about 6°; but they continue and increase after he has passed it. In April all the rivers in the southern parts of Abyssinia begin to swell, and greatly augment the Nile, which is now also farther augmented by the vast quantity of water poured into the lake Tzana. On the first day of May, the fun passes the village of Gerri, which is the limit of the tropical rains; and it is very remarkable, that, though the fun still continues to operate with unabated vigour, all his influence cannot bring the clouds farther northward than this village; the reason of which Mr Bruce, with great reason, supposes to be the want of mountains to the northward. In confirmation of this opinion, he observes, that the tropical rains stop at the latitude of 14° instead of 16° in the western part of the continent. All this time, however, they continue violent in Abyssinia; and in the beginning of June the rivers are all full, and continue so while the fun remains stationary in the tropic of Cancer.",
+  "modern": "The rains therefore precede the sun only about 6°; but they continue and increase after he has passed it. In April all the rivers in the southern parts of Abyssinia begin to swell, and greatly augment the Nile, which is now also farther augmented by the vast quantity of water poured into the lake Tzana. On the first day of May, the sun passes the village of Gerri, which is the limit of the tropical rains; and it is very remarkable, that, though the sun still continues to operate with unabated vigour, all his influence cannot bring the clouds farther northward than this village; the reason of which Mr Bruce, with great reason, supposes to be the want of mountains to the northward. In confirmation of this opinion, he observes, that the tropical rains stop at the latitude of 14° instead of 16° in the western part of the continent. All this time, however, they continue violent in Abyssinia; and in the beginning of June the rivers are all full, and continue so while the sun remains stationary in the tropic of Cancer."
+ },
+ "error": null
+}

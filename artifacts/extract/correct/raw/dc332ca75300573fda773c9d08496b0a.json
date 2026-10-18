@@ -1,0 +1,31 @@
+{
+ "key": "dc332ca75300573fda773c9d08496b0a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "211. When the chilling veffil I told, a nearly\nfo, the whole of its content muff be shaken, by haluding\nthis veffel by the neck with one hand, and apply\ning the other to its bottom. The Dopper muff then\nbe taken out, and the veffel greatly affected, taking\nthe refuders to facilitate to charge. In the left man-\ntion the event it to be held by the neck with one hand,\nand its fate gently setting against the other. The veff\nfits into which the water and refundal matter of the\nrestors the poured, found rather for of however, po-\nttery, or both than if wood, that feels left bit of veffle\nfish, which can feel fullyed to dry in the past above the\nfluid. If this circumstance be not attended to, there\nwill be danger of doing great years due to contents.",
+ "content": "{\n  \"faithful\": \"211. When the chilling veffel I told, a nearly fo, the whole of its content muff be shaken, by haluding this veffel by the neck with one hand, and apply ing the other to its bottom. The Dopper muff then be taken out, and the veffel greatly affected, taking the refuders to facilitate to charge. In the left man- tion the event it to be held by the neck with one hand, and its fate gently setting against the other. The veff fits into which the water and refundal matter of the restors the poured, found rather for of however, po- ttery, or both than if wood, that feels left bit of veffle fish, which can feel fullyed to dry in the past above the fluid. If this circumstance be not attended to, there will be danger of doing great years due to contents.\",\n  \"modern\": \"211. When the chilling vessel I told, a nearly fo, the whole of its content must be shaken, by haluding this vessel by the neck with one hand, and applying the other to its bottom. The Doppler must then be taken out, and the vessel greatly affected, taking the refusers to facilitate to charge. In the left mention the event it to be held by the neck with one hand, and its fate gently setting against the other. The vessel fits into which the water and residual matter of the restors the poured, found rather for of however, pottery, or both than if wood, that feels left bit of vessel fish, which can feel fullyed to dry in the past above the fluid. If this circumstance be not attended to, there will be danger of doing great years due to contents.\"\n}",
+ "usage": {
+  "completion_tokens": 367,
+  "prompt_tokens": 777,
+  "total_tokens": 1144,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "211. When the chilling veffel I told, a nearly fo, the whole of its content muff be shaken, by haluding this veffel by the neck with one hand, and apply ing the other to its bottom. The Dopper muff then be taken out, and the veffel greatly affected, taking the refuders to facilitate to charge. In the left man- tion the event it to be held by the neck with one hand, and its fate gently setting against the other. The veff fits into which the water and refundal matter of the restors the poured, found rather for of however, po- ttery, or both than if wood, that feels left bit of veffle fish, which can feel fullyed to dry in the past above the fluid. If this circumstance be not attended to, there will be danger of doing great years due to contents.",
+  "modern": "211. When the chilling vessel I told, a nearly fo, the whole of its content must be shaken, by haluding this vessel by the neck with one hand, and applying the other to its bottom. The Doppler must then be taken out, and the vessel greatly affected, taking the refusers to facilitate to charge. In the left mention the event it to be held by the neck with one hand, and its fate gently setting against the other. The vessel fits into which the water and residual matter of the restors the poured, found rather for of however, pottery, or both than if wood, that feels left bit of vessel fish, which can feel fullyed to dry in the past above the fluid. If this circumstance be not attended to, there will be danger of doing great years due to contents."
+ },
+ "error": null
+}

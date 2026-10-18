@@ -14,6 +14,7 @@ example Greek) give compiler warnings, not errors.
 from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor
+import difflib
 from pathlib import Path
 import re
 import shutil
@@ -40,6 +41,21 @@ def inline(text: str) -> str:
     return "".join(escape(part) if index % 2 == 0 else r"\emph{" + escape(part) + "}" for index, part in enumerate(parts))
 
 
+def diff_tex(before: str, after: str) -> str:
+    """Parse's words struck through, Super VL's correction in bold: 'Calvinia and \\sout{Sprayer} \\textbf{Popery}'."""
+    a, b = before.split(), after.split()
+    parts = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if tag == "equal":
+            parts.append(escape(" ".join(a[i1:i2])))
+            continue
+        if i2 > i1:
+            parts.append(r"\sout{" + escape(" ".join(a[i1:i2])) + "}")
+        if j2 > j1:
+            parts.append(r"\textbf{" + escape(" ".join(b[j1:j2])) + "}")
+    return " ".join(parts)
+
+
 def two_columns(entries: list[dict[str, Any]], width: int) -> bool:
     """True when column-width blocks sit on both sides of the page middle.
 
@@ -58,7 +74,7 @@ def two_columns(entries: list[dict[str, Any]], width: int) -> bool:
     return left >= 1 and right >= 1
 
 
-def entry_tex(entry: dict[str, Any]) -> str:
+def entry_tex(entry: dict[str, Any], correction: dict[str, Any] | None = None) -> str:
     quality = entry["quality"]
     kind = entry["kind"]
     lines = []
@@ -82,13 +98,16 @@ def entry_tex(entry: dict[str, Any]) -> str:
     if quality.get("low_quality"):
         lines.append(r"{\small\itshape [Low OCR quality: " + f"{quality.get('ocr_suspect_ratio', 0):.0%}".replace("%", r"\%")
                      + " of tokens suspect]}\\par")
-    body = inline(entry["text"])
+    corrected = correction is not None and correction.get("parse") == entry["text"] and correction.get("faithful_changes")
+    body = diff_tex(entry["text"], correction["faithful"]) if corrected else inline(entry["text"])
     lines.append(r"\textit{" + body + "}" if kind == "cross_reference" else body)
     return "\n".join(lines)
 
 
-def page_tex(page: dict[str, Any], entries: list[dict[str, Any]]) -> str:
-    body = "\n\n".join(entry_tex(entry) for entry in entries)
+def page_tex(page: dict[str, Any], entries: list[dict[str, Any]],
+             corrections: dict[str, dict[str, Any]] | None = None) -> str:
+    corrections = corrections or {}
+    body = "\n\n".join(entry_tex(entry, corrections.get(entry["entry_id"])) for entry in entries)
     if two_columns(entries, page["width"]):
         body = "\\begin{multicols}{2}\n" + body + "\n\\end{multicols}"
     titles = [e["headword"] for e in entries if e["kind"] == "entry" and e["headword"]]
@@ -105,6 +124,9 @@ def page_tex(page: dict[str, Any], entries: list[dict[str, Any]]) -> str:
         r"\item Extraction: \texttt{" + escape(str(parse.get("model", ""))) + r"}, raw reply \texttt{"
         + escape(str(parse.get("raw_path", ""))) + "}",
         r"\item Text is Parse OCR output, normalized (long s as s, line-end hyphens joined). It is not corrected by hand.",
+    ] + ([r"\item \sout{Struck-through} words are Parse's reading; \textbf{bold} words are Super VL's correction,"
+          r" checked against the scan image. Both are model output."]
+         if any(corrections.get(e["entry_id"], {}).get("faithful_changes") for e in entries) else []) + [
         r"\end{itemize}",
     ])
     template = TEMPLATE.read_text(encoding="utf-8")
@@ -132,7 +154,7 @@ def compile_tex(compiler: str, tex: Path) -> str | None:
 
 
 def build(pages: list[dict[str, Any]], entries_by_id: dict[str, dict[str, Any]], out: Path,
-          compile_pdf: bool = True) -> dict[str, Any]:
+          compile_pdf: bool = True, corrections: dict[str, dict[str, Any]] | None = None) -> dict[str, Any]:
     """Write one .tex per ok page, then compile them. Unchanged .tex files keep their PDFs."""
     latex_dir = out / "latex"
     latex_dir.mkdir(parents=True, exist_ok=True)
@@ -143,7 +165,7 @@ def build(pages: list[dict[str, Any]], entries_by_id: dict[str, dict[str, Any]],
             for stale in (tex, tex.with_suffix(".pdf")):
                 stale.unlink(missing_ok=True)  # a page can change status between runs
             continue
-        content = page_tex(page, [entries_by_id[eid] for eid in page["entry_ids"]])
+        content = page_tex(page, [entries_by_id[eid] for eid in page["entry_ids"]], corrections)
         if not tex.is_file() or tex.read_text(encoding="utf-8") != content:
             tex.write_text(content, encoding="utf-8")
         written.append((page["row_index"], tex))

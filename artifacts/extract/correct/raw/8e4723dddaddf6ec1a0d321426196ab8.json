@@ -1,0 +1,31 @@
+{
+ "key": "8e4723dddaddf6ec1a0d321426196ab8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "SYCOMORFrans, has发言. See Acces.",
+ "content": "{\n  \"faithful\": \"SYCAMORE-tree, in botany. See Acer. SYCOPHANT, an appellation given by the ancient A\",\n  \"modern\": \"SYCAMORE-tree, in botany. See Acer. SYCOPHANT, an appellation given by the ancient A\"\n}",
+ "usage": {
+  "completion_tokens": 69,
+  "prompt_tokens": 623,
+  "total_tokens": 692,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 308
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "SYCAMORE-tree, in botany. See Acer. SYCOPHANT, an appellation given by the ancient A",
+  "modern": "SYCAMORE-tree, in botany. See Acer. SYCOPHANT, an appellation given by the ancient A"
+ },
+ "error": null
+}

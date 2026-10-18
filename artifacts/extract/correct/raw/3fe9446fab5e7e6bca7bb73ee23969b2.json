@@ -1,0 +1,31 @@
+{
+ "key": "3fe9446fab5e7e6bca7bb73ee23969b2",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Some have looked upon the specific gravity of oils, as a certain criterion of their genunements. This, however, is not to be ablotely depended on ; for the genuine oils, obtained from the fabelj, often- times differ in gravity as much as those draws from different ones. Cinnamon and cloves, whole oils ufually link to water, yield, if flowly and vastly di- filled, as oil of great fragency, which is nevertheless specifically lighter than the aqueous fluid employed in the distillation of it; whillts, on the other hand, the full rumants of some of the lightest oils prove feme-times to poucious as to funk in water.",
+ "content": "{\n  \"faithful\": \"Some have looked upon the specific gravity of oils, as a certain criterion of their genuineness. This, however, is not to be absolutely depended on; for the genuine oils, obtained from the same subject, often-times differ in gravity as much as those drawn from different ones. Cinnamon and cloves, whose oils usually sink in water, yield, if slowly and vastly distilled, an oil of great fragrancy, which is nevertheless specifically lighter than the aqueous fluid employed in the distillation of it; whilst, on the other hand, the last runnings of some of the lighter oils prove sometimes so ponderous as to sink in water.\",\n  \"modern\": \"Some have looked upon the specific gravity of oils, as a certain criterion of their genuineness. This, however, is not to be absolutely depended on; for the genuine oils, obtained from the same subject, often-times differ in gravity as much as those drawn from different ones. Cinnamon and cloves, whose oils usually sink in water, yield, if slowly and vastly distilled, an oil of great fragrancy, which is nevertheless specifically lighter than the aqueous fluid employed in the distillation of it; whilst, on the other hand, the last runnings of some of the lighter oils prove sometimes so ponderous as to sink in water.\"\n}",
+ "usage": {
+  "completion_tokens": 277,
+  "prompt_tokens": 720,
+  "total_tokens": 997,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Some have looked upon the specific gravity of oils, as a certain criterion of their genuineness. This, however, is not to be absolutely depended on; for the genuine oils, obtained from the same subject, often-times differ in gravity as much as those drawn from different ones. Cinnamon and cloves, whose oils usually sink in water, yield, if slowly and vastly distilled, an oil of great fragrancy, which is nevertheless specifically lighter than the aqueous fluid employed in the distillation of it; whilst, on the other hand, the last runnings of some of the lighter oils prove sometimes so ponderous as to sink in water.",
+  "modern": "Some have looked upon the specific gravity of oils, as a certain criterion of their genuineness. This, however, is not to be absolutely depended on; for the genuine oils, obtained from the same subject, often-times differ in gravity as much as those drawn from different ones. Cinnamon and cloves, whose oils usually sink in water, yield, if slowly and vastly distilled, an oil of great fragrancy, which is nevertheless specifically lighter than the aqueous fluid employed in the distillation of it; whilst, on the other hand, the last runnings of some of the lighter oils prove sometimes so ponderous as to sink in water."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "9bb4d3b5c3ec7d68bddd8ce50e4427ac",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "456. _Conferve of the leaves of garden fuancy-grafs_. L.",
+ "content": "{\n  \"faithful\": \"456. Conferve of the leaves of garden fourvy-grafs. L.\",\n  \"modern\": \"456. Conferve of the leaves of garden fourvy-grafs. L.\"\n}",
+ "usage": {
+  "completion_tokens": 53,
+  "prompt_tokens": 594,
+  "total_tokens": 647,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "456. Conferve of the leaves of garden fourvy-grafs. L.",
+  "modern": "456. Conferve of the leaves of garden fourvy-grafs. L."
+ },
+ "error": null
+}

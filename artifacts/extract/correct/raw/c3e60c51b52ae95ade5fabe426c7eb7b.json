@@ -1,0 +1,31 @@
+{
+ "key": "c3e60c51b52ae95ade5fabe426c7eb7b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_The rays of the fun are not all equally refrangible: and thief rays, which have a different degree of re-fragibility, here likewise a different colors._",
+ "content": "{\n  \"faithful\": \"The rays of the fun are not all equally refrangible: and thofe rays, which have a different degree of re-frangibility, have likewife a different colour.\",\n  \"modern\": \"The rays of the fun are not all equally refrangible: and those rays, which have a different degree of refrangibility, have likewise a different colour.\"\n}",
+ "usage": {
+  "completion_tokens": 86,
+  "prompt_tokens": 617,
+  "total_tokens": 703,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The rays of the fun are not all equally refrangible: and thofe rays, which have a different degree of re-frangibility, have likewife a different colour.",
+  "modern": "The rays of the fun are not all equally refrangible: and those rays, which have a different degree of refrangibility, have likewise a different colour."
+ },
+ "error": null
+}

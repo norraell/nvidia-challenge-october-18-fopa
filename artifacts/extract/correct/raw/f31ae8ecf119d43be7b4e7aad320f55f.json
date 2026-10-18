@@ -1,0 +1,31 @@
+{
+ "key": "f31ae8ecf119d43be7b4e7aad320f55f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There are two kinds of observation relating to the flares, one is, when they are in the meridian; the other, when they are in vertical circles. If the polition of the meridian ke known, the quadrant wohl which the oblorates is much, mult he placed in the plane of that circle, and then the meridian altitudes are really obferred by means of the plumb-line. The meridian",
+ "content": "{\n  \"faithful\": \"There are two kinds of observations relating to the flares: one is, when they are in the meridian; the other, when they are in vertical circles. If the position of the meridian be known, the quadrant with which the observation is made, must be placed in the plane of that circle, and then the meridian altitudes are easily observed by means of the plumb-line. The meridian\",\n  \"modern\": \"There are two kinds of observations relating to the flares: one is, when they are in the meridian; the other, when they are in vertical circles. If the position of the meridian be known, the quadrant with which the observation is made, must be placed in the plane of that circle, and then the meridian altitudes are easily observed by means of the plumb-line. The meridian\"\n}",
+ "usage": {
+  "completion_tokens": 181,
+  "prompt_tokens": 660,
+  "total_tokens": 841,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There are two kinds of observations relating to the flares: one is, when they are in the meridian; the other, when they are in vertical circles. If the position of the meridian be known, the quadrant with which the observation is made, must be placed in the plane of that circle, and then the meridian altitudes are easily observed by means of the plumb-line. The meridian",
+  "modern": "There are two kinds of observations relating to the flares: one is, when they are in the meridian; the other, when they are in vertical circles. If the position of the meridian be known, the quadrant with which the observation is made, must be placed in the plane of that circle, and then the meridian altitudes are easily observed by means of the plumb-line. The meridian"
+ },
+ "error": null
+}

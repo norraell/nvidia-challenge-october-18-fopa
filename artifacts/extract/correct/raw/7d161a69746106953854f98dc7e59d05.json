@@ -1,0 +1,31 @@
+{
+ "key": "7d161a69746106953854f98dc7e59d05",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This is a very apparent and useful concre. A\ndram or two, diluted in warm milk, are frequently\ngiven as a light refrigerant in weakness of the blo-\nmonth, and likewise in couple and phithical com-\nplaints. In the German Ephemerides, examples are\nrelated of very dangerous phihifies cured by the con-\ntinned out of this medicine; in one of the cafes, zo\npounds of the conferve were taken in the face of a\nmonth; and in another, upwards of go. Riverius\nmentions federal other influences of this kind.",
+ "content": "{\n  \"faithful\": \"This is a very agreeable and useful conferve. A dram or two, diluted in warm milk, are frequently given as a light refrigerant in weakness of the stomach, and likewise in coughs and phthisical complaints. In the German Ephemerides, examples are related of very dangerous phthises cured by the continued use of this medicine: in one of these cases, 20 pounds of the conferve were taken in the space of a month; and in another, upwards of 30. Riverius mentions several other instances of this kind.\",\n  \"modern\": \"This is a very agreeable and useful conferve. A dram or two, diluted in warm milk, are frequently given as a light refrigerant in weakness of the stomach, and likewise in coughs and phthisical complaints. In the German Ephemerides, examples are related of very dangerous phthises cured by the continued use of this medicine: in one of these cases, 20 pounds of the conferve were taken in the space of a month; and in another, upwards of 30. Riverius mentions several other instances of this kind.\"\n}",
+ "usage": {
+  "completion_tokens": 241,
+  "prompt_tokens": 715,
+  "total_tokens": 956,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This is a very agreeable and useful conferve. A dram or two, diluted in warm milk, are frequently given as a light refrigerant in weakness of the stomach, and likewise in coughs and phthisical complaints. In the German Ephemerides, examples are related of very dangerous phthises cured by the continued use of this medicine: in one of these cases, 20 pounds of the conferve were taken in the space of a month; and in another, upwards of 30. Riverius mentions several other instances of this kind.",
+  "modern": "This is a very agreeable and useful conferve. A dram or two, diluted in warm milk, are frequently given as a light refrigerant in weakness of the stomach, and likewise in coughs and phthisical complaints. In the German Ephemerides, examples are related of very dangerous phthises cured by the continued use of this medicine: in one of these cases, 20 pounds of the conferve were taken in the space of a month; and in another, upwards of 30. Riverius mentions several other instances of this kind."
+ },
+ "error": null
+}

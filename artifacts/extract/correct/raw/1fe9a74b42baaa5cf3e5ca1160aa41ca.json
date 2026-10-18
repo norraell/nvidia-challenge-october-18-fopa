@@ -1,0 +1,31 @@
+{
+ "key": "1fe9a74b42baaa5cf3e5ca1160aa41ca",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The blow-pipe is useful to the method is obtained as offering a ready method of knowing what the com- pourer parts of bodies are. Trials with the blow-pipe are generally made by the chemists in order to know the no rule of the constituent part, before to figure the need to the other steps of dry or humid analysis, which are requisite for ascertaining the quantities of the constituent rate. Then recourses is had to occur means than the blow-pipe; far in order to come as it a knowledge of the proportions of the constituent part, it is necessary that the quantity of each constituent part be large enough to be weighed in a balance, and, if in this purpose, the quantity of the sub- stance employed must be larger than what can be mang- ed with the blow-pipe.",
+ "content": "{\n  \"faithful\": \"The blow-pipe is useful to the method is obtained as offering a ready method of knowing what the com- pourer parts of bodies are. Trials with the blow-pipe are generally made by the chemists in order to know the no rule of the constituent part, before to figure the need to the other steps of dry or humid analysis, which are requisite for ascertaining the quantities of the constituent rate. Then recourses is had to occur means than the blow-pipe; far in order to come as it a knowledge of the proportions of the constituent part, it is necessary that the quantity of each constituent part be large enough to be weighed in a balance, and, if in this purpose, the quantity of the sub- stance employed must be larger than what can be mang- ed with the blow-pipe.\",\n  \"modern\": \"The blow-pipe is useful to the method is obtained as offering a ready method of knowing what the com- pourer parts of bodies are. Trials with the blow-pipe are generally made by the chemists in order to know the no rule of the constituent part, before to figure the need to the other steps of dry or humid analysis, which are requisite for ascertaining the quantities of the constituent rate. Then recourses is had to occur means than the blow-pipe; far in order to come as it a knowledge of the proportions of the constituent part, it is necessary that the quantity of each constituent part be large enough to be weighed in a balance, and, if in this purpose, the quantity of the sub- stance employed must be larger than what can be mang- ed with the blow-pipe.\"\n}",
+ "usage": {
+  "completion_tokens": 345,
+  "prompt_tokens": 741,
+  "total_tokens": 1086,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The blow-pipe is useful to the method is obtained as offering a ready method of knowing what the com- pourer parts of bodies are. Trials with the blow-pipe are generally made by the chemists in order to know the no rule of the constituent part, before to figure the need to the other steps of dry or humid analysis, which are requisite for ascertaining the quantities of the constituent rate. Then recourses is had to occur means than the blow-pipe; far in order to come as it a knowledge of the proportions of the constituent part, it is necessary that the quantity of each constituent part be large enough to be weighed in a balance, and, if in this purpose, the quantity of the sub- stance employed must be larger than what can be mang- ed with the blow-pipe.",
+  "modern": "The blow-pipe is useful to the method is obtained as offering a ready method of knowing what the com- pourer parts of bodies are. Trials with the blow-pipe are generally made by the chemists in order to know the no rule of the constituent part, before to figure the need to the other steps of dry or humid analysis, which are requisite for ascertaining the quantities of the constituent rate. Then recourses is had to occur means than the blow-pipe; far in order to come as it a knowledge of the proportions of the constituent part, it is necessary that the quantity of each constituent part be large enough to be weighed in a balance, and, if in this purpose, the quantity of the sub- stance employed must be larger than what can be mang- ed with the blow-pipe."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "0da0b3b68607f31835045a7694009d5e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "balls, are holes of the colonized Heamur, which were published in the Memoirs of the Academy of Sciences for the year 1790. The fate should be beenpecucul- and by other authors, but their orbits have been mainly the arms so thole of this distinguished naturalidh. Klein is almost the only author who has advanced a different opinion. In his dissertation concerning the formation",
+ "content": "{\n  \"faithful\": \"balls, are holes of the colonized Heamur, which were published in the Memoirs of the Academy of Sciences for the year 1790. The fate should be beenpecucul- and by other authors, but their orbits have been mainly the arms so thole of this distinguished naturalidh. Klein is almost the only author who has advanced a different opinion. In his dissertation concerning the formation the most elaborate investigation which has hitherto appeared, concerning the formation and development of shells, are those of the celebrated Reaumur, which were published in the Memoirs of the Academy of Sciences for the year 1709. The fame subject has been prosecuted by other authors, but their results have been nearly the fame as those of this distinguished naturalist. Klein is almost the only author who has advanced a different opinion. In his dissertation concerning the formation of\",\n  \"modern\": \"balls, are holes of the colonized Heamur, which were published in the Memoirs of the Academy of Sciences for the year 1790. The fate should beenpecucul- and by other authors, but their orbits have been mainly the arms so thole of this distinguished naturalidh. Klein is almost the only author who has advanced a different opinion. In his dissertation concerning the formation the most elaborate investigation which has hitherto appeared, concerning the formation and development of shells, are those of the celebrated Reaumur, which were published in the Memoirs of the Academy of Sciences for the year 1709. The fame subject has been prosecuted by other authors, but their results have been nearly the fame as those of this distinguished naturalist. Klein is almost the only author who has advanced a different opinion. In his dissertation concerning the formation of\"\n}",
+ "usage": {
+  "completion_tokens": 376,
+  "prompt_tokens": 659,
+  "total_tokens": 1035,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "balls, are holes of the colonized Heamur, which were published in the Memoirs of the Academy of Sciences for the year 1790. The fate should be beenpecucul- and by other authors, but their orbits have been mainly the arms so thole of this distinguished naturalidh. Klein is almost the only author who has advanced a different opinion. In his dissertation concerning the formation the most elaborate investigation which has hitherto appeared, concerning the formation and development of shells, are those of the celebrated Reaumur, which were published in the Memoirs of the Academy of Sciences for the year 1709. The fame subject has been prosecuted by other authors, but their results have been nearly the fame as those of this distinguished naturalist. Klein is almost the only author who has advanced a different opinion. In his dissertation concerning the formation of",
+  "modern": "balls, are holes of the colonized Heamur, which were published in the Memoirs of the Academy of Sciences for the year 1790. The fate should beenpecucul- and by other authors, but their orbits have been mainly the arms so thole of this distinguished naturalidh. Klein is almost the only author who has advanced a different opinion. In his dissertation concerning the formation the most elaborate investigation which has hitherto appeared, concerning the formation and development of shells, are those of the celebrated Reaumur, which were published in the Memoirs of the Academy of Sciences for the year 1709. The fame subject has been prosecuted by other authors, but their results have been nearly the fame as those of this distinguished naturalist. Klein is almost the only author who has advanced a different opinion. In his dissertation concerning the formation of"
+ },
+ "error": null
+}

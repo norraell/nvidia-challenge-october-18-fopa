@@ -1,0 +1,31 @@
+{
+ "key": "0dfb2a39a116c0db7f3d2a0c82cd69e5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "conomunt tree itself, not all the minute. decriptions I Bombay.",
+ "content": "{\n  \"faithful\": \"cocoa-nut tree itfelf, not all the minute defcriptions I Bombay. have met with in many authors feem to me to come up to the reft of its wonderful narrections and of.\",\n  \"modern\": \"cocoa-nut tree itself, not all the minute descriptions I Bombay. have met with in many authors seem to me to come up to the rest of its wonderful narrations and of.\"\n}",
+ "usage": {
+  "completion_tokens": 97,
+  "prompt_tokens": 606,
+  "total_tokens": 703,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "cocoa-nut tree itfelf, not all the minute defcriptions I Bombay. have met with in many authors feem to me to come up to the reft of its wonderful narrections and of.",
+  "modern": "cocoa-nut tree itself, not all the minute descriptions I Bombay. have met with in many authors seem to me to come up to the rest of its wonderful narrations and of."
+ },
+ "error": null
+}

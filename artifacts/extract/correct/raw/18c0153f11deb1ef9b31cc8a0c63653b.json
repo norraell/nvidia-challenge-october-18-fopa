@@ -1,0 +1,31 @@
+{
+ "key": "18c0153f11deb1ef9b31cc8a0c63653b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "S E N T I ST J SEN",
+ "content": "{\n  \"faithful\": \"S E N T I S T J SEN S' E N [ 151 J S E N\",\n  \"modern\": \"S E N T I S T J SEN S' E N [ 151 J S E N\"\n}",
+ "usage": {
+  "completion_tokens": 63,
+  "prompt_tokens": 625,
+  "total_tokens": 688,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 314
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "S E N T I S T J SEN S' E N [ 151 J S E N",
+  "modern": "S E N T I S T J SEN S' E N [ 151 J S E N"
+ },
+ "error": null
+}

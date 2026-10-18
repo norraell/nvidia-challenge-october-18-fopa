@@ -1,0 +1,31 @@
+{
+ "key": "f9318a8c551b1c89500cfd8087327830",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Having thus attempted to fulfill our original intention of discriminating the small expeditive information of lines, and of analyzing and illustrating their various power and effects in originating, we shall now conclude that deleteriousness and if, from the nature of the fish-jeri, and from the limits of the Becky, we have failed in marking any bullish that in the galaxy of the art; and it as fault the schonboarded, that we have not omittedome of thief of the first magnitude.",
+ "content": "{\n  \"faithful\": \"Having thus attempted to fulfill our original intention of discriminating the small expeditive information of lines, and of analyzing and illustrating their various power and effects in originating, we shall now conclude that deleteriousness and if, from the nature of the fish-jeri, and from the limits of the Becky, we have failed in marking any bullish that in the galaxy of the art; and it as fault the schonboarded, that we have not omittedome of thief of the first magnitude.\",\n  \"modern\": \"Having thus attempted to fulfill our original intention of discriminating the small expeditive information of lines, and of analyzing and illustrating their various power and effects in originating, we shall now conclude that deleteriousness and if, from the nature of the fish-jeri, and from the limits of the Becky, we have failed in marking any bullish that in the galaxy of the art; and it as fault the schonboarded, that we have not omittedome of thief of the first magnitude.\"\n}",
+ "usage": {
+  "completion_tokens": 211,
+  "prompt_tokens": 665,
+  "total_tokens": 876,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Having thus attempted to fulfill our original intention of discriminating the small expeditive information of lines, and of analyzing and illustrating their various power and effects in originating, we shall now conclude that deleteriousness and if, from the nature of the fish-jeri, and from the limits of the Becky, we have failed in marking any bullish that in the galaxy of the art; and it as fault the schonboarded, that we have not omittedome of thief of the first magnitude.",
+  "modern": "Having thus attempted to fulfill our original intention of discriminating the small expeditive information of lines, and of analyzing and illustrating their various power and effects in originating, we shall now conclude that deleteriousness and if, from the nature of the fish-jeri, and from the limits of the Becky, we have failed in marking any bullish that in the galaxy of the art; and it as fault the schonboarded, that we have not omittedome of thief of the first magnitude."
+ },
+ "error": null
+}

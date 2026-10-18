@@ -1,0 +1,31 @@
+{
+ "key": "4f94eb901b319fd6104755391acef847",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The anthampy Spaniards had force reached their frh cal- mits of the Spaniards.",
+ "content": "{\n  \"faithful\": \"The unhappy Spaniards had fcarcely reached their fhips, when they were attacked by a frefh fstorm, in which feveral more of them perifhed; one fhip in par- ticular was loft, and the reft were fcattered. The unhappy Spaniards had fcarcely reached their fhips, when they were attacked by a frefh fstorm, in which feveral more of them perifhed; one fhip in par- ticular was loft, and the reft were fcattered.\",\n  \"modern\": \"The unhappy Spaniards had scarcely reached their ships, when they were attacked by a fresh storm, in which several more of them perished; one ship in particular was lost, and the rest were scattered. The unhappy Spaniards had scarcely reached their ships, when they were attacked by a fresh storm, in which several more of them perished; one ship in particular was lost, and the rest were scattered.\"\n}",
+ "usage": {
+  "completion_tokens": 207,
+  "prompt_tokens": 611,
+  "total_tokens": 818,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The unhappy Spaniards had fcarcely reached their fhips, when they were attacked by a frefh fstorm, in which feveral more of them perifhed; one fhip in par- ticular was loft, and the reft were fcattered. The unhappy Spaniards had fcarcely reached their fhips, when they were attacked by a frefh fstorm, in which feveral more of them perifhed; one fhip in par- ticular was loft, and the reft were fcattered.",
+  "modern": "The unhappy Spaniards had scarcely reached their ships, when they were attacked by a fresh storm, in which several more of them perished; one ship in particular was lost, and the rest were scattered. The unhappy Spaniards had scarcely reached their ships, when they were attacked by a fresh storm, in which several more of them perished; one ship in particular was lost, and the rest were scattered."
+ },
+ "error": null
+}

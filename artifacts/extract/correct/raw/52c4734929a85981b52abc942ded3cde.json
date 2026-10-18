@@ -1,0 +1,31 @@
+{
+ "key": "52c4734929a85981b52abc942ded3cde",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HEMEROBIUS, in zoology, a genus of deficits of the temperature, the characters of which are thefe. The mouth is furnished with two teeth; the pulpit are four; the wings are dellected, but not planted ; and:",
+ "content": "{\n  \"faithful\": \"HEMEROBIUS, in zoology, a genus of insects of the temperature, the characters of which are thefe. The mouth is furnished with two teeth; the pulpit are four; the wings are dellected, but not planted ; and:\",\n  \"modern\": \"HEMEROBIUS, in zoology, a genus of insects of the temperature, the characters of which are these. The mouth is furnished with two teeth; the pulpit are four; the wings are deflected, but not planted; and:\"\n}",
+ "usage": {
+  "completion_tokens": 119,
+  "prompt_tokens": 634,
+  "total_tokens": 753,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HEMEROBIUS, in zoology, a genus of insects of the temperature, the characters of which are thefe. The mouth is furnished with two teeth; the pulpit are four; the wings are dellected, but not planted ; and:",
+  "modern": "HEMEROBIUS, in zoology, a genus of insects of the temperature, the characters of which are these. The mouth is furnished with two teeth; the pulpit are four; the wings are deflected, but not planted; and:"
+ },
+ "error": null
+}

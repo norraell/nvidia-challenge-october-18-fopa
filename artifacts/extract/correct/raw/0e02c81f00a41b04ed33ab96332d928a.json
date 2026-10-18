@@ -1,0 +1,31 @@
+{
+ "key": "0e02c81f00a41b04ed33ab96332d928a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "be in powder when shaken, it is a lign the operation bath fucceeded i but if it be in a cake, and duth not fall into powder on thinking the matras, it thews that your matter was not definitely youtted and dried in the iron pan du- ring the proprietary operation.\"",
+ "content": "{\n  \"faithful\": \"be in powder when shaken, it is a fign the operation hath fucceeded: but if it be in a cake, and doth not fall into powder on fhaking the matras, it fhews that your matter was not fufficiently rofted and dried in the iron pan during the preparatory operation.\",\n  \"modern\": \"be in powder when shaken, it is a sign the operation hath succeeded: but if it be in a cake, and doth not fall into powder on shaking the matras, it shows that your matter was not sufficiently roasted and dried in the iron pan during the preparatory operation.\"\n}",
+ "usage": {
+  "completion_tokens": 140,
+  "prompt_tokens": 654,
+  "total_tokens": 794,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "be in powder when shaken, it is a fign the operation hath fucceeded: but if it be in a cake, and doth not fall into powder on fhaking the matras, it fhews that your matter was not fufficiently rofted and dried in the iron pan during the preparatory operation.",
+  "modern": "be in powder when shaken, it is a sign the operation hath succeeded: but if it be in a cake, and doth not fall into powder on shaking the matras, it shows that your matter was not sufficiently roasted and dried in the iron pan during the preparatory operation."
+ },
+ "error": null
+}

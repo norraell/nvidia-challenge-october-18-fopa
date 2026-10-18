@@ -1,0 +1,31 @@
+{
+ "key": "c5c20aea37a2592e6537484568a0e092",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Fig. 2, 3, 4. Show different views of the Inferior part of the Brain, cut perpendicularly through the Middle-with, the Origin and large portions of all the Nerve which puts through the Bones of the Cranium,—and the three full Cervicals.",
+ "content": "{\n  \"faithful\": \"Fig. 2, 3, 4, 5. Show different views of the Inferior part of the Brain, cut perpendicularly through the Middle—with the Origin and large portions of all the Nerves which pass out through the Bones of the Cranium,—and the three first Cervicals.\",\n  \"modern\": \"Fig. 2, 3, 4, 5. Show different views of the Inferior part of the Brain, cut perpendicularly through the Middle—with the Origin and large portions of all the Nerves which pass out through the Bones of the Cranium,—and the three first Cervicals.\"\n}",
+ "usage": {
+  "completion_tokens": 141,
+  "prompt_tokens": 641,
+  "total_tokens": 782,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Fig. 2, 3, 4, 5. Show different views of the Inferior part of the Brain, cut perpendicularly through the Middle—with the Origin and large portions of all the Nerves which pass out through the Bones of the Cranium,—and the three first Cervicals.",
+  "modern": "Fig. 2, 3, 4, 5. Show different views of the Inferior part of the Brain, cut perpendicularly through the Middle—with the Origin and large portions of all the Nerves which pass out through the Bones of the Cranium,—and the three first Cervicals."
+ },
+ "error": null
+}

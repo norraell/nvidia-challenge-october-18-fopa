@@ -1,0 +1,31 @@
+{
+ "key": "77f4f2f8f87404665ca35dd9d96ae183",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "us, that, before the time of Terpandan, the Grecian lyre had only four fingers and; if so may believe Biduan, is remained in alien face 850 years, from the time of Amphio, till Terpander added to it three new fringes, which extended the mulleical feel to a hope, chord, or events, and luppiled the player with two conjoint tetracothis. It was about 150 years after this period, that Pythogorsa is fast to have added an eighth fringe to the lyre, in order to complete the oc- rave, which conflicted of two disjunctiont herchords.",
+ "content": "{\n  \"faithful\": \"us, that, before the time of Terpander, the Grecian lyre had only four strings; and, if we may believe Suidas, it remained in this state 856 years, from the time of Amphion, till Terpander added to it three new strings, which extended the musical scale to a heptachord, or seventh, and supplied the player with two conjunct tetrachords. It was about 150 years after this period, that Pythagoras is said to have added an eighth string to the lyre, in order to complete the octave, which consisted of two disjunct tetrachords.\",\n  \"modern\": \"us, that, before the time of Terpander, the Grecian lyre had only four strings; and, if we may believe Suidas, it remained in this state 856 years, from the time of Amphion, till Terpander added to it three new strings, which extended the musical scale to a heptachord, or seventh, and supplied the player with two conjunct tetrachords. It was about 150 years after this period, that Pythagoras is said to have added an eighth string to the lyre, in order to complete the octave, which consisted of two disjunct tetrachords.\"\n}",
+ "usage": {
+  "completion_tokens": 283,
+  "prompt_tokens": 735,
+  "total_tokens": 1018,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "us, that, before the time of Terpander, the Grecian lyre had only four strings; and, if we may believe Suidas, it remained in this state 856 years, from the time of Amphion, till Terpander added to it three new strings, which extended the musical scale to a heptachord, or seventh, and supplied the player with two conjunct tetrachords. It was about 150 years after this period, that Pythagoras is said to have added an eighth string to the lyre, in order to complete the octave, which consisted of two disjunct tetrachords.",
+  "modern": "us, that, before the time of Terpander, the Grecian lyre had only four strings; and, if we may believe Suidas, it remained in this state 856 years, from the time of Amphion, till Terpander added to it three new strings, which extended the musical scale to a heptachord, or seventh, and supplied the player with two conjunct tetrachords. It was about 150 years after this period, that Pythagoras is said to have added an eighth string to the lyre, in order to complete the octave, which consisted of two disjunct tetrachords."
+ },
+ "error": null
+}

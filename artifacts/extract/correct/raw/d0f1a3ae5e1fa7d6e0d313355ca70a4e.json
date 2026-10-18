@@ -1,0 +1,31 @@
+{
+ "key": "d0f1a3ae5e1fa7d6e0d313355ca70a4e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In the mean time James, who had neither adrefa nor courage to attempt any thing in behalf of his mother, announced her donation to his friend died in jects, and ordered prayers to be fail for her in all the churches. The form of the person for preferred was framed with delivery and caution, that the clever might have no objection to it. He enjoned them to pray, \" that it might pleal Goo to college Mary with the light to the truth, and to proceeds her from the danger which was hanging over her.\" His own chapals, and Mr David Lindley mintier of Lerich, deferred his command. But all the other cergy referful to profitute their pulpits by preferring any pe-titions to the Almighty for a Papil. Jana, shocked with their point of anience and fictitious apportioned a new day for prayers to be fail for Mary, and illued a father injunction to the cergy to obey him, and that his might be for himself from any faults, the commanded the archibihop of St Andrews to preach be-fore him. The recietificates, diligutted with his injunc-",
+ "content": "{\n  \"faithful\": \"In the mean time James, who had neither addrefs nor courage to attempt any thing in behalf of his mother, announced her donation to his bigotted fubjefts, and ordered prayers to be faid for her in all the churches. The form of the petition to be prefcribed was framed with delicacy and caution, that the clergy might have no objection to it. He enjoined them to pray, \\\" that it might pleafe God to enlighten Mary with the light of his truth, and to protect her from the danger which was hanging over her.\\\" His own chaplains, and Mr David Lindfay minifter of Leith, obferved his command. But all the other clergy refufed to proftitute their pulpits by preferring any petitions to the Almighty for a Papift. James, fhocked with their fpirit of intolerance and edition, appointed a new day for prayers to be faid for Mary, and filled a triter injunction to the clergy to obey him ; and that he might be free himfelf from any infult, he commanded the archbifhop of St Andrews to preach before him. The ecclefiafticks, difgufted with his injunc-\",\n  \"modern\": \"In the mean time James, who had neither address nor courage to attempt any thing in behalf of his mother, announced her donation to his bigotted subjects, and ordered prayers to be said for her in all the churches. The form of the petition to be prescribed was framed with delicacy and caution, that the clergy might have no objection to it. He enjoined them to pray, \\\" that it might please God to enlighten Mary with the light of his truth, and to protect her from the danger which was hanging over her.\\\" His own chaplains, and Mr David Lindsay minister of Leith, observed his command. But all the other clergy refused to prostitute their pulpits by preferring any petitions to the Almighty for a Papist. James, shocked with their spirit of intolerance and edition, appointed a new day for prayers to be said for Mary, and filled a triter injunction to the clergy to obey him ; and that he might be free himself from any insult, he commanded the archbishop of St Andrews to preach before him. The ecclesiastics, disgusted with his injunc-\"\n}",
+ "usage": {
+  "completion_tokens": 506,
+  "prompt_tokens": 928,
+  "total_tokens": 1434,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 382
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In the mean time James, who had neither addrefs nor courage to attempt any thing in behalf of his mother, announced her donation to his bigotted fubjefts, and ordered prayers to be faid for her in all the churches. The form of the petition to be prefcribed was framed with delicacy and caution, that the clergy might have no objection to it. He enjoined them to pray, \" that it might pleafe God to enlighten Mary with the light of his truth, and to protect her from the danger which was hanging over her.\" His own chaplains, and Mr David Lindfay minifter of Leith, obferved his command. But all the other clergy refufed to proftitute their pulpits by preferring any petitions to the Almighty for a Papift. James, fhocked with their fpirit of intolerance and edition, appointed a new day for prayers to be faid for Mary, and filled a triter injunction to the clergy to obey him ; and that he might be free himfelf from any infult, he commanded the archbifhop of St Andrews to preach before him. The ecclefiafticks, difgufted with his injunc-",
+  "modern": "In the mean time James, who had neither address nor courage to attempt any thing in behalf of his mother, announced her donation to his bigotted subjects, and ordered prayers to be said for her in all the churches. The form of the petition to be prescribed was framed with delicacy and caution, that the clergy might have no objection to it. He enjoined them to pray, \" that it might please God to enlighten Mary with the light of his truth, and to protect her from the danger which was hanging over her.\" His own chaplains, and Mr David Lindsay minister of Leith, observed his command. But all the other clergy refused to prostitute their pulpits by preferring any petitions to the Almighty for a Papist. James, shocked with their spirit of intolerance and edition, appointed a new day for prayers to be said for Mary, and filled a triter injunction to the clergy to obey him ; and that he might be free himself from any insult, he commanded the archbishop of St Andrews to preach before him. The ecclesiastics, disgusted with his injunc-"
+ },
+ "error": null
+}

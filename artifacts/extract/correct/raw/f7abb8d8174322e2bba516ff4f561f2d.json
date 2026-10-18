@@ -1,0 +1,28 @@
+{
+ "key": "f7abb8d8174322e2bba516ff4f561f2d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "were the sacred characters of the Egyptians.\" Casslodorus likewise sesurs us, \"that the letters inserted upon the Egyptian cheliska were the Palestry.\" Intentery discovers have refused these and other similar statements.",
+ "content": "{\n  \"faithful\": \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements. We find the same observation confirmed by Heliodorus (Ethiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he, \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements. Lib. ix. p. 461. Causidon.\",\n  \"modern\": \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements. We find the same observation confirmed by Heliodorus (Ethiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he, \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements. Lib. ix. p. 461. Causidon.\"\n}",
+ "usage": {
+  "completion_tokens": 297,
+  "prompt_tokens": 641,
+  "total_tokens": 938,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 297
+   }
+  }
+ },
+ "parsed": null,
+ "error": null
+}

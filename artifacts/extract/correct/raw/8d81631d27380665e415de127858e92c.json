@@ -1,0 +1,31 @@
+{
+ "key": "8d81631d27380665e415de127858e92c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HELNOETSLUTS, a port-town of the united Netherlands, fituated in the illand of Voorn, in the province of Holland, five miles south of the Breel; it is one of the bell chorus in Holland, and that to which the English packet always goes.",
+ "content": "{\n  \"faithful\": \"HELVOETSLUYS, a port-town of the united Netherlands, fituated in the island of Voorn, in the province of Holland, five miles fouth of the Briel: it is one of the belt harbours in Holland, and that to which the Englifh packet alway goes.\",\n  \"modern\": \"HELVOETSLUYS, a port-town of the united Netherlands, situated in the island of Voorn, in the province of Holland, five miles south of the Briel: it is one of the belt harbours in Holland, and that to which the English packet always goes.\"\n}",
+ "usage": {
+  "completion_tokens": 141,
+  "prompt_tokens": 644,
+  "total_tokens": 785,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HELVOETSLUYS, a port-town of the united Netherlands, fituated in the island of Voorn, in the province of Holland, five miles fouth of the Briel: it is one of the belt harbours in Holland, and that to which the Englifh packet alway goes.",
+  "modern": "HELVOETSLUYS, a port-town of the united Netherlands, situated in the island of Voorn, in the province of Holland, five miles south of the Briel: it is one of the belt harbours in Holland, and that to which the English packet always goes."
+ },
+ "error": null
+}

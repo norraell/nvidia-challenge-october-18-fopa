@@ -1,0 +1,31 @@
+{
+ "key": "f70c95f2f8206bafa5ae41543a78a167",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "pulled by the nahoof Bengal, who took its, and put met of those that had made resilience into place called the _Blak Hels_, where most of them were foreshored. This nahob was afterwards killed, and another fet up in his room, more friendly to the English, and the factory was re-fits-bilined. To Loneg 86, o. N. Las 22, 27.",
+ "content": "{\n  \"faithful\": \"prifed by the nabob of Bengal, who took it, and put moft of thofe that had made refiftance into a place called the Black Hole, where moft of them were fmothered. This nabob was afterwards killed, and another fet up in his room, more friendly to the Englifh; and the factory was re-eftablifhed. K. Long. 86. o. N. Lat. 22. 27. Sweet-WILLIAM. See DIANTHUS.\",\n  \"modern\": \"prised by the nabob of Bengal, who took it, and put most of those that had made resistance into a place called the Black Hole, where most of them were smothered. This nabob was afterwards killed, and another set up in his room, more friendly to the English; and the factory was re-established. K. Long. 86. o. N. Lat. 22. 27. Sweet-WILLIAM. See DIANTHUS.\"\n}",
+ "usage": {
+  "completion_tokens": 230,
+  "prompt_tokens": 665,
+  "total_tokens": 895,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "prifed by the nabob of Bengal, who took it, and put moft of thofe that had made refiftance into a place called the Black Hole, where moft of them were fmothered. This nabob was afterwards killed, and another fet up in his room, more friendly to the Englifh; and the factory was re-eftablifhed. K. Long. 86. o. N. Lat. 22. 27. Sweet-WILLIAM. See DIANTHUS.",
+  "modern": "prised by the nabob of Bengal, who took it, and put most of those that had made resistance into a place called the Black Hole, where most of them were smothered. This nabob was afterwards killed, and another set up in his room, more friendly to the English; and the factory was re-established. K. Long. 86. o. N. Lat. 22. 27. Sweet-WILLIAM. See DIANTHUS."
+ },
+ "error": null
+}

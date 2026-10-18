@@ -1,0 +1,31 @@
+{
+ "key": "a11414c1fb85de2b35d07c6eab20b2cb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Ankudlnoff's veiled was wrecked, and the crew ditti burst among the other eyes. Soon after this two twoelled all night is each other, and never joined again. Dishheff was driven about by competition winds till Quizley, who was shipwrecks confidently in the fourth of the Analyry. Having at fall reached that ri- were, he found a lotumely by the fama way that she had come, but never made the attempt. As for Alexeeff, after being allo fluyeerekek, he said died of all six furry, together with Ankudlood’s part of the crew were killed by the changes, and a few escaped to Kamilichak, where no ferled.",
+ "content": "{\n  \"faithful\": \"Ankudinnoff's veffel was wrecked, and the crew ditti burft among the other two. Soon after this the two veffels loft fight of each other, and never joined again. Delhneff was driven about by tempeftuous winds till October, when he was fhipwrecked confiderably to the fourth of the Anadyr. Having at laft reached that river, he formed a fcheme of returning by the fame way that he had come, but never made the attempt. As for Alexeeff, after being alfo fhipwrecked, he had died of the fcurvy, together with Ankudinnoff; part of the crew were killed by the favages, and a few efcaped to Kamfchatka, where they fettled.\",\n  \"modern\": \"Ankudinnoff's vessel was wrecked, and the crew ditti burst among the other two. Soon after this the two vessels lost sight of each other, and never joined again. Delhneff was driven about by tempestuous winds till October, when he was shipwrecked considerably to the fourth of the Anadyr. Having at last reached that river, he formed a scheme of returning by the same way that he had come, but never made the attempt. As for Alexeeff, after being also shipwrecked, he had died of the scurvy, together with Ankudinnoff; part of the crew were killed by the savages, and a few escaped to Kamchatka, where they settled.\"\n}",
+ "usage": {
+  "completion_tokens": 337,
+  "prompt_tokens": 731,
+  "total_tokens": 1068,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Ankudinnoff's veffel was wrecked, and the crew ditti burft among the other two. Soon after this the two veffels loft fight of each other, and never joined again. Delhneff was driven about by tempeftuous winds till October, when he was fhipwrecked confiderably to the fourth of the Anadyr. Having at laft reached that river, he formed a fcheme of returning by the fame way that he had come, but never made the attempt. As for Alexeeff, after being alfo fhipwrecked, he had died of the fcurvy, together with Ankudinnoff; part of the crew were killed by the favages, and a few efcaped to Kamfchatka, where they fettled.",
+  "modern": "Ankudinnoff's vessel was wrecked, and the crew ditti burst among the other two. Soon after this the two vessels lost sight of each other, and never joined again. Delhneff was driven about by tempestuous winds till October, when he was shipwrecked considerably to the fourth of the Anadyr. Having at last reached that river, he formed a scheme of returning by the same way that he had come, but never made the attempt. As for Alexeeff, after being also shipwrecked, he had died of the scurvy, together with Ankudinnoff; part of the crew were killed by the savages, and a few escaped to Kamchatka, where they settled."
+ },
+ "error": null
+}

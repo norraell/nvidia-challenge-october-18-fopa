@@ -1,0 +1,31 @@
+{
+ "key": "6835627eef70b9f667f44b733d9e4ead",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The form of the cells is very remarkable, each\none being needed at the top, and contracted a littered\nthe lower part of the files to make sure for the reaches\nof the two next adjoining cells; fo that by this par-\nticulus contribution so soon is hold. The utterance\nof the cells is immediately under the arch, each cell,\nand the walls of the cells femen to be fortified with\nripises. Julfine different fossil polyps extending\nthemselves out of their cells, which lie has identified\nin the memoirs of the Academy of Sciences 1742--\nGives the natural appearance is a leafy branch of\nthis condition.",
+ "content": "{\n  \"faithful\": \"The form of the cells is very remarkable, each one being arched at the top, and contracted a little at the lower part of the sides to make way for the arches of the two next adjoining cells; so that by this particular construction no room is lost. The entrance of the cells is immediately under the arch of each cell, and the walls of the cells seem to be fortified with spikes. Jussieu discovered small polyps extending themselves out of their cells, which he has described in the memoirs of the Academy of Sciences 1742. This gives the natural appearance of a leafy branch of this coralline. It is a part of a leaf magnified to show the superficial figure of the cells, and the manner in which they are difposed. It shows a cross section of a leaf, and discovers the several partitions of the cells.\",\n  \"modern\": \"The form of the cells is very remarkable, each one being arched at the top, and contracted a little at the lower part of the sides to make way for the arches of the two next adjoining cells; so that by this particular construction no room is lost. The entrance of the cells is immediately under the arch of each cell, and the walls of the cells seem to be fortified with spikes. Jussieu discovered small polyps extending themselves out of their cells, which he has described in the memoirs of the Academy of Sciences 1742. This gives the natural appearance of a leafy branch of this coralline. It is a part of a leaf magnified to show the superficial figure of the cells, and the manner in which they are disposed. It shows a cross section of a leaf, and discovers the several partitions of the cells.\"\n}",
+ "usage": {
+  "completion_tokens": 362,
+  "prompt_tokens": 736,
+  "total_tokens": 1098,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The form of the cells is very remarkable, each one being arched at the top, and contracted a little at the lower part of the sides to make way for the arches of the two next adjoining cells; so that by this particular construction no room is lost. The entrance of the cells is immediately under the arch of each cell, and the walls of the cells seem to be fortified with spikes. Jussieu discovered small polyps extending themselves out of their cells, which he has described in the memoirs of the Academy of Sciences 1742. This gives the natural appearance of a leafy branch of this coralline. It is a part of a leaf magnified to show the superficial figure of the cells, and the manner in which they are difposed. It shows a cross section of a leaf, and discovers the several partitions of the cells.",
+  "modern": "The form of the cells is very remarkable, each one being arched at the top, and contracted a little at the lower part of the sides to make way for the arches of the two next adjoining cells; so that by this particular construction no room is lost. The entrance of the cells is immediately under the arch of each cell, and the walls of the cells seem to be fortified with spikes. Jussieu discovered small polyps extending themselves out of their cells, which he has described in the memoirs of the Academy of Sciences 1742. This gives the natural appearance of a leafy branch of this coralline. It is a part of a leaf magnified to show the superficial figure of the cells, and the manner in which they are disposed. It shows a cross section of a leaf, and discovers the several partitions of the cells."
+ },
+ "error": null
+}

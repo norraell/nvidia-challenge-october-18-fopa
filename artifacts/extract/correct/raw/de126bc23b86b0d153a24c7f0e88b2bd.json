@@ -1,0 +1,31 @@
+{
+ "key": "de126bc23b86b0d153a24c7f0e88b2bd",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Doulton informs us, that Apollo four reporting of the creety with which he had treated Marxas in confidence of their unified control, broke the fringe of the lyre, and by that means put a flop for a time to any further progress in the practice of that new in frumers. \"The music (aida by afterwards added to this infrument the firing called my/y Linas, that of _Ikshary_) and Orpheus Thanayas, hide finds which are caused _Update and participate_ (i).",
+ "content": "{\n  \"faithful\": \"Diodorus informs us, that Apollo soon repenting of the cruelty with which he had treated Marsyas in consequence of their musical contest, broke the fringes of the lyre, and by that means put a flop for a time to any further progress in the practice of that new instrument. \\\"The muses (adds he) afterwards added to this instrument the string called mefe; Linus, that of lichaeus; and Orpheus and Thamyras, those fringes which are named hypate and parhypate (a).\\\"\",\n  \"modern\": \"Diodorus informs us, that Apollo soon repenting of the cruelty with which he had treated Marsyas in consequence of their musical contest, broke the fringes of the lyre, and by that means put a flop for a time to any further progress in the practice of that new instrument. \\\"The muses (adds he) afterwards added to this instrument the string called mefe; Linus, that of lichaeus; and Orpheus and Thamyras, those fringes which are named hypate and parhypate (a).\\\"\"\n}",
+ "usage": {
+  "completion_tokens": 251,
+  "prompt_tokens": 678,
+  "total_tokens": 929,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Diodorus informs us, that Apollo soon repenting of the cruelty with which he had treated Marsyas in consequence of their musical contest, broke the fringes of the lyre, and by that means put a flop for a time to any further progress in the practice of that new instrument. \"The muses (adds he) afterwards added to this instrument the string called mefe; Linus, that of lichaeus; and Orpheus and Thamyras, those fringes which are named hypate and parhypate (a).\"",
+  "modern": "Diodorus informs us, that Apollo soon repenting of the cruelty with which he had treated Marsyas in consequence of their musical contest, broke the fringes of the lyre, and by that means put a flop for a time to any further progress in the practice of that new instrument. \"The muses (adds he) afterwards added to this instrument the string called mefe; Linus, that of lichaeus; and Orpheus and Thamyras, those fringes which are named hypate and parhypate (a).\""
+ },
+ "error": null
+}

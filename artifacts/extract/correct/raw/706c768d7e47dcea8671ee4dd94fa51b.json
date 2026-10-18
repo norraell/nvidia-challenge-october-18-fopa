@@ -1,0 +1,31 @@
+{
+ "key": "706c768d7e47dcea8671ee4dd94fa51b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The shape of the chest in the Mamatta’va varies in the chest.\ngeneral is the clavicles are present the waiting. In ani-\nmals provided with clavicles, as the QaradaraNA, falls,\nthe spiral, beaver, mole, ante-anteer, hedgehog, and sloth,\nthe shape of the crosshead to the human, we is\npossible, and flattened before and behind. In those void\nof clavicle it is compasses laterally, from the smaller inc-\ncuration of the tibia, and the titanium makes a remain. The ster-\nable prominence, so that the transverse or intercross dis-\nnum, under is less proportionally, and the dense vertebral is\ngreater proportionally, that in man and the claviculated\nstimulus. In the long-sized animals, as the giraffe and\nthose of the stunk, this prominence of the starum is\nsufficient to give it a level-like appearance (_borne cerima-_\ntas). In the converse animals the chest presents its greatest longitudinal extent.",
+ "content": "{\n  \"faithful\": \"The shape of the chest in the Mammalia varies in general as the clavicles are present or wanting. In animals provided with clavicles, as the Quadrumana, bats, the squirrel, beaver, mole, ant-eater, hedgehog, and sloth, the shape of the chest approaches to the human, or is conical, and flattened before and behind. In those void of clavicles it is compressed laterally, from the smaller incurvation of the ribs; and the sternum makes a remarkable prominence, so that the transverse or intercostal diameter is less proportionally, and the sterno-vertebral is greater proportionally, than in man and the claviculated animals. In the long-legged animals, as the giraffe and those of the stag kind, this prominence of the sternum is sufficient to give it a keel-like appearance (thorax carinatus). In the carnivorous animals the chest presents its greatest longitudinal extent.\",\n  \"modern\": \"The shape of the chest in the Mammalia varies in general as the clavicles are present or wanting. In animals provided with clavicles, as the Quadrumana, bats, the squirrel, beaver, mole, ant-eater, hedgehog, and sloth, the shape of the chest approaches to the human, or is conical, and flattened before and behind. In those void of clavicles it is compressed laterally, from the smaller incurvation of the ribs; and the sternum makes a remarkable prominence, so that the transverse or intercostal diameter is less proportionally, and the sterno-vertebral is greater proportionally, than in man and the claviculated animals. In the long-legged animals, as the giraffe and those of the stag kind, this prominence of the sternum is sufficient to give it a keel-like appearance (thorax carinatus). In the carnivorous animals the chest presents its greatest longitudinal extent.\"\n}",
+ "usage": {
+  "completion_tokens": 403,
+  "prompt_tokens": 844,
+  "total_tokens": 1247,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 324
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The shape of the chest in the Mammalia varies in general as the clavicles are present or wanting. In animals provided with clavicles, as the Quadrumana, bats, the squirrel, beaver, mole, ant-eater, hedgehog, and sloth, the shape of the chest approaches to the human, or is conical, and flattened before and behind. In those void of clavicles it is compressed laterally, from the smaller incurvation of the ribs; and the sternum makes a remarkable prominence, so that the transverse or intercostal diameter is less proportionally, and the sterno-vertebral is greater proportionally, than in man and the claviculated animals. In the long-legged animals, as the giraffe and those of the stag kind, this prominence of the sternum is sufficient to give it a keel-like appearance (thorax carinatus). In the carnivorous animals the chest presents its greatest longitudinal extent.",
+  "modern": "The shape of the chest in the Mammalia varies in general as the clavicles are present or wanting. In animals provided with clavicles, as the Quadrumana, bats, the squirrel, beaver, mole, ant-eater, hedgehog, and sloth, the shape of the chest approaches to the human, or is conical, and flattened before and behind. In those void of clavicles it is compressed laterally, from the smaller incurvation of the ribs; and the sternum makes a remarkable prominence, so that the transverse or intercostal diameter is less proportionally, and the sterno-vertebral is greater proportionally, than in man and the claviculated animals. In the long-legged animals, as the giraffe and those of the stag kind, this prominence of the sternum is sufficient to give it a keel-like appearance (thorax carinatus). In the carnivorous animals the chest presents its greatest longitudinal extent."
+ },
+ "error": null
+}

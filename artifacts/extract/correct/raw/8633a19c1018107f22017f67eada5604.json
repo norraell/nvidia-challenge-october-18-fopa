@@ -1,0 +1,31 @@
+{
+ "key": "8633a19c1018107f22017f67eada5604",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "dipenfully demanded by the native dignity of heroic fong? How much nobler, if he had refilled the tempta-tion of that Gootile demos, which modern poody talking, because moral! I don willke the doubtlets, divine har-many of three great names (how jully joined) of _Wil- ton, Greece,_ and _Rome?_ His verfe, but for his little feck of mortality, in its extreme parts, as his hero had in his heel; like him, had been insulterable, and imoro-tal. But, unfortunately, _that_ was undute to Helicon; as _this_ in Stryx. Harmony as well as duquencais effen-tial to potify, and a murder of a number of us about you. We made by blank verfe is, verfe unfallen, uncurlt; verfe reclaimed, remithrored in the true _language of the girls_ who ever understood, not suffered their Homer to thunder in rhime.",
+ "content": "{\n  \"faithful\": \"dipenfully demanded by the native dignity of heroic fong? How much nobler, if he had refilled the tempta-tion of that Gootile demos, which modern poody talking, because moral! I don willke the doubtlets, divine har-many of three great names (how jully joined) of _Wil- ton, Greece,_ and _Rome?_ His verfe, but for his little feck of mortality, in its extreme parts, as his hero had in his heel; like him, had been insulterable, and imoro-tal. But, unfortunately, _that_ was undute to Helicon; as _this_ in Stryx. Harmony as well as duquencais effen-tial to potify, and a murder of a number of us about you. We made by blank verfe is, verfe unfallen, uncurlt; verfe reclaimed, remithrored in the true _language of the girls_ who ever understood, not suffered their Homer to thunder in rhime.\",\n  \"modern\": \"dipenfully demanded by the native dignity of heroic fong? How much nobler, if he had refilled the temptation of that Gootile demos, which modern poody talking, because moral! I don willke the doubtlets, divine harmony of three great names (how jully joined) of _Wil- ton, Greece,_ and _Rome?_ His verse, but for his little feck of mortality, in its extreme parts, as his hero had in his heel; like him, had been insulterable, and imoro-tal. But, unfortunately, _that_ was undute to Helicon; as _this_ in Stryx. Harmony as well as duquencais effen-tial to potify, and a murder of a number of us about you. We made by blank verse is, verse unfallen, uncurlt; verse reclaimed, remithrored in the true _language of the girls_ who ever understood, not suffered their Homer to thunder in rhime.\"\n}",
+ "usage": {
+  "completion_tokens": 446,
+  "prompt_tokens": 838,
+  "total_tokens": 1284,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "dipenfully demanded by the native dignity of heroic fong? How much nobler, if he had refilled the tempta-tion of that Gootile demos, which modern poody talking, because moral! I don willke the doubtlets, divine har-many of three great names (how jully joined) of _Wil- ton, Greece,_ and _Rome?_ His verfe, but for his little feck of mortality, in its extreme parts, as his hero had in his heel; like him, had been insulterable, and imoro-tal. But, unfortunately, _that_ was undute to Helicon; as _this_ in Stryx. Harmony as well as duquencais effen-tial to potify, and a murder of a number of us about you. We made by blank verfe is, verfe unfallen, uncurlt; verfe reclaimed, remithrored in the true _language of the girls_ who ever understood, not suffered their Homer to thunder in rhime.",
+  "modern": "dipenfully demanded by the native dignity of heroic fong? How much nobler, if he had refilled the temptation of that Gootile demos, which modern poody talking, because moral! I don willke the doubtlets, divine harmony of three great names (how jully joined) of _Wil- ton, Greece,_ and _Rome?_ His verse, but for his little feck of mortality, in its extreme parts, as his hero had in his heel; like him, had been insulterable, and imoro-tal. But, unfortunately, _that_ was undute to Helicon; as _this_ in Stryx. Harmony as well as duquencais effen-tial to potify, and a murder of a number of us about you. We made by blank verse is, verse unfallen, uncurlt; verse reclaimed, remithrored in the true _language of the girls_ who ever understood, not suffered their Homer to thunder in rhime."
+ },
+ "error": null
+}
