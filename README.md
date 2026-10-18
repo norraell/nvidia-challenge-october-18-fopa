@@ -97,6 +97,7 @@ Deploy the embedder and reranker in your Nebius AI Cloud project.
 Use the [Docker recipe](docs/model-service.md) or an organizer-provided image.
 
 Create a separate Nebius Token Factory account for Super 3.5 VL.
+Follow the [Super VL guide](docs/super-vl.md) to add your key and check access.
 Set your URLs and keys in `.env`.
 Keep that file out of Git.
 Use the [Hermes guide](docs/hermes.md) to install the tool stub and model settings.
