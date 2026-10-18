@@ -1,0 +1,41 @@
+{
+  "run_id": "20261018T143322Z-f6-plate-no-caption",
+  "started_at": "2026-10-18T14:33:22Z",
+  "code_revision": "24145b5cd3f4e8dfae84960c17d9eb4c3aa81e7f",
+  "hermes_version": "Hermes Agent v0.22.1+858.g6255980 (2026.9.24) · stable · local 6255980b191e",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "question": "What does this plate show? Compare it with Wikipedia.",
+  "image_inputs": [
+    "artifacts/extract/crops/e1845-01.png"
+  ],
+  "tools_enabled": true,
+  "tool_calls": [
+    {
+      "name": "challenge_compare",
+      "arguments": {
+        "entry_id": "e1845-01"
+      },
+      "result": "{\"entry_id\": \"e1845-01\", \"headword\": null, \"quality\": {\"ocr_suspect_ratio\": 0.0, \"low_quality\": false}, \"match_record\": {\"status\": \"no_candidates\", \"reason\": \"rule: zero BM25 candidates for every query\", \"rerank_margin\": null, \"method_version\": \"m1-tau=-5-delta=0.75\"}, \"britannica\": {\"page_id\": \"britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845\", \"text_start\": \"XVII.\"}, \"match_uncertain\": \"match status is no_candidates\", \"wikipedia\": null, \"shared_terms\": [], \"evidence\": \"missing\", \"missing\": \"wikipedia: no accepted match for this entry\"}",
+      "error": null
+    },
+    {
+      "name": "brit_entry",
+      "arguments": {
+        "entry_id": "e1845-01"
+      },
+      "result": "{\"entry_id\": \"e1845-01\", \"kind\": \"plate\", \"headword\": null, \"page_id\": \"britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845\", \"text\": \"XVII.\", \"text_raw\": \"XVII.\", \"blocks\": [{\"page_id\": \"britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845\", \"bbox\": [0.0, 0.0, 599.4, 791.4], \"cls\": \"Picture\", \"text\": \"XVII.\"}], \"quality\": {\"ocr_suspect_ratio\": 0.0, \"low_quality\": false}, \"crop_path\": \"artifacts/extract/crops/e1845-01.png\", \"continues_from\": null, \"continues_to\": null, \"source\": {\"dataset\": \"NationalLibraryOfScotland/encyclopaedia_britannica_illustrated\", \"dataset_revision\": \"309f765b1ecc83e0a7f7762e44b4a927a7555443\", \"volume_id\": \"193819043\", \"filename\": \"page-1845-a758ad9d45a7.jpg\", \"image_sha256\": \"a758ad9d45a7173d220cf1ae4e2c98e462082a9ad3b0185ff4d8121b5631b0fa\", \"edition\": null}}",
+      "error": null
+    }
+  ],
+  "answer": "The match is uncertain. The match record for entry e1845-01 has status `no_candidates`, with the reason \"rule: zero BM25 candidates for every query\", so no Wikipedia article was matched to this entry. I cannot compare it with Wikipedia.\n\nWhat the plate shows (from the image itself): it is a map plate labeled \"XVII.\" in the top right. It depicts a river basin with tributaries, and the lower right corner of the map reads \"COLUMBIA R\" (Columbia River). The Britannica entry contains no descriptive text — its only content is the plate number \"XVII.\" [B:e1845-01].\n\nBecause there is no matched Wikipedia article, I cannot state what Wikipedia says about it, and I will not fill that gap from memory.",
+  "citations": [
+    {
+      "source": "Britannica",
+      "id": "e1845-01",
+      "sentence": "\" [B:e1845-01]."
+    }
+  ],
+  "finish_reason": "stop",
+  "label": "failure",
+  "notes": "qid=f6-plate-no-caption; entry_id=e1845-01; review: WRONG ANSWER, kept on purpose. The refusal is correct: status no_candidates, no Wikipedia side. The image reading is wrong. The answer says the lower right corner reads 'COLUMBIA R' and that the map shows a river basin with the Columbia River. The crop e1845-01.png shows a faint map with a cartouche reading 'COLOMBIA' (and a second word below it), not the Columbia River. The model made up a place name from a blurry crop and did not label it Inference. Candidate failure case for P4."
+}
