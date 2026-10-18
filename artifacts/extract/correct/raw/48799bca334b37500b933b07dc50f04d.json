@@ -1,0 +1,31 @@
+{
+ "key": "48799bca334b37500b933b07dc50f04d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Of the Hindu paintings the chief merit is brillany of Palm colony, rather than taste in the design on livesiness of sexpression. They imitate most exactly, and are excellent dragstones; and they draw specimens of natural history with main mediastinal and secretory. \"The behavior as acentness with which they imitate every feather of a bird,\" says Tennant, \"For the smallest three on the kind of a plant, vendors them valuable assistants in this department; but further than this they cannot advance one step. If your bird is to be planted on a week on the beach of tree, the draughmanas is at a stand; the object is not be foreshure, and he can supply nothing.\" Since this period, however, the Hindus knew almost attractive in the art of painting; and some of their portraits display taste and expression that would now describe European artists.",
+ "content": "{\n  \"faithful\": \"Of the Hindu paintings the chief merit is brilliancy of colour, rather than taste in the design or liveliness of expression. They imitate most exactly, and are excellent draughtsmen; and they draw specimens of natural history with much neatness and accuracy. \\\"The laborious exactness with which they imitate every feather of a bird,\\\" says Tennant, \\\"or the smallest fibre on the leaf of a plant, renders them valuable assistants in this department; but further than this they cannot advance one step. If your bird is to be placed on a rock or upon the branch of a tree, the draughtsman is at a stand; the object is not before him, and he can supply nothing.\\\" Since this period, however, the Hindus have made great advances in the art of painting; and some of their portraits display taste and expression that would not discredit European artists.\",\n  \"modern\": \"Of the Hindu paintings the chief merit is brilliancy of colour, rather than taste in the design or liveliness of expression. They imitate most exactly, and are excellent draughtsmen; and they draw specimens of natural history with much neatness and accuracy. \\\"The laborious exactness with which they imitate every feather of a bird,\\\" says Tennant, \\\"or the smallest fibre on the leaf of a plant, renders them valuable assistants in this department; but further than this they cannot advance one step. If your bird is to be placed on a rock or upon the branch of a tree, the draughtsman is at a stand; the object is not before him, and he can supply nothing.\\\" Since this period, however, the Hindus have made great advances in the art of painting; and some of their portraits display taste and expression that would not discredit European artists.\"\n}",
+ "usage": {
+  "completion_tokens": 383,
+  "prompt_tokens": 756,
+  "total_tokens": 1139,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Of the Hindu paintings the chief merit is brilliancy of colour, rather than taste in the design or liveliness of expression. They imitate most exactly, and are excellent draughtsmen; and they draw specimens of natural history with much neatness and accuracy. \"The laborious exactness with which they imitate every feather of a bird,\" says Tennant, \"or the smallest fibre on the leaf of a plant, renders them valuable assistants in this department; but further than this they cannot advance one step. If your bird is to be placed on a rock or upon the branch of a tree, the draughtsman is at a stand; the object is not before him, and he can supply nothing.\" Since this period, however, the Hindus have made great advances in the art of painting; and some of their portraits display taste and expression that would not discredit European artists.",
+  "modern": "Of the Hindu paintings the chief merit is brilliancy of colour, rather than taste in the design or liveliness of expression. They imitate most exactly, and are excellent draughtsmen; and they draw specimens of natural history with much neatness and accuracy. \"The laborious exactness with which they imitate every feather of a bird,\" says Tennant, \"or the smallest fibre on the leaf of a plant, renders them valuable assistants in this department; but further than this they cannot advance one step. If your bird is to be placed on a rock or upon the branch of a tree, the draughtsman is at a stand; the object is not before him, and he can supply nothing.\" Since this period, however, the Hindus have made great advances in the art of painting; and some of their portraits display taste and expression that would not discredit European artists."
+ },
+ "error": null
+}

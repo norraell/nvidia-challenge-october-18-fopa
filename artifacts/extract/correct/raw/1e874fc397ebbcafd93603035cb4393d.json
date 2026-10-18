@@ -1,0 +1,31 @@
+{
+ "key": "1e874fc397ebbcafd93603035cb4393d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When a word is repeated again with vehemence in\nthe fane feen, it is called _epizensis_ This figure flews\nthe carefulness of the freaker, and his great concern\nof mind about what he fears and therefore has a na-\ntural tendency to exercise the attention of the audience.\nIt is fuited to exprets anger, furprizes, forrow, and fe-\nveral other affiliates. As when Cicero would experts\nhis indignation against Anthony for having been the\nchief instrument in bringing on the civil war, he fays\nto him: _You, you, Authorism pulled Defer upon the_\ncourt issue. It was that he tells Crafting in his first direc-\ntive against him : _You lives; and live, not to lay afide_,\n_but to paying your racked defying._ And when our Sa-\nviour would expect his great concern and former for\nthe wandche of the Jews, he does it in this pathetic\nmanner: _O Jernjalem, Jerjalem, who kilitl the pro-_\n_phs!_.",
+ "content": "{\n  \"faithful\": \"When a word is repeated again with vehemence in the fane feen, it is called _epizensis_ This figure flews the carefulness of the freaker, and his great concern of mind about what he fears and therefore has a natural tendency to exercise the attention of the audience. It is suited to express anger, surprise, sorrow, and several other affections. As when Cicero would express his indignation against Anthony for having been the chief instrument in bringing on the civil war, he says to him: _You, you, Authorism pulled Defer upon the court issue_. It was that he tells Crafting in his first directive against him: _You lives; and live, not to lay aside, but to paying your racked defying_. And when our Saviour would expect his great concern and former for the wandche of the Jews, he does it in this pathetic manner: _O Jernjalem, Jerjalem, who kilitl the pro-phs!_.\",\n  \"modern\": \"When a word is repeated again with vehemence in the fane feen, it is called _epizensis_ This figure flews the carefulness of the freaker, and his great concern of mind about what he fears and therefore has a natural tendency to exercise the attention of the audience. It is suited to express anger, surprise, sorrow, and several other affections. As when Cicero would express his indignation against Anthony for having been the chief instrument in bringing on the civil war, he says to him: _You, you, Authorism pulled Defer upon the court issue_. It was that he tells Crafting in his first directive against him: _You lives; and live, not to lay aside, but to paying your racked defying_. And when our Saviour would expect his great concern and former for the wandche of the Jews, he does it in this pathetic manner: _O Jernjalem, Jerjalem, who kilitl the pro-phs!_.\"\n}",
+ "usage": {
+  "completion_tokens": 431,
+  "prompt_tokens": 865,
+  "total_tokens": 1296,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 322
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When a word is repeated again with vehemence in the fane feen, it is called _epizensis_ This figure flews the carefulness of the freaker, and his great concern of mind about what he fears and therefore has a natural tendency to exercise the attention of the audience. It is suited to express anger, surprise, sorrow, and several other affections. As when Cicero would express his indignation against Anthony for having been the chief instrument in bringing on the civil war, he says to him: _You, you, Authorism pulled Defer upon the court issue_. It was that he tells Crafting in his first directive against him: _You lives; and live, not to lay aside, but to paying your racked defying_. And when our Saviour would expect his great concern and former for the wandche of the Jews, he does it in this pathetic manner: _O Jernjalem, Jerjalem, who kilitl the pro-phs!_.",
+  "modern": "When a word is repeated again with vehemence in the fane feen, it is called _epizensis_ This figure flews the carefulness of the freaker, and his great concern of mind about what he fears and therefore has a natural tendency to exercise the attention of the audience. It is suited to express anger, surprise, sorrow, and several other affections. As when Cicero would express his indignation against Anthony for having been the chief instrument in bringing on the civil war, he says to him: _You, you, Authorism pulled Defer upon the court issue_. It was that he tells Crafting in his first directive against him: _You lives; and live, not to lay aside, but to paying your racked defying_. And when our Saviour would expect his great concern and former for the wandche of the Jews, he does it in this pathetic manner: _O Jernjalem, Jerjalem, who kilitl the pro-phs!_."
+ },
+ "error": null
+}

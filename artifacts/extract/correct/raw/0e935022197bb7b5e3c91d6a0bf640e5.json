@@ -1,0 +1,31 @@
+{
+ "key": "0e935022197bb7b5e3c91d6a0bf640e5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "EXEGETION, in _Idyldek_, the size of finding, eti-ties in numbers or lines, the roots of the equation of the problem, according as the problem is either numerical or promotional.",
+ "content": "{\n  \"faithful\": \"EXEGETION, in Idyldek, the size of finding, eti-ties in numbers or lines, the roots of the equation of the problem, according as the problem is either numerical or promotional. EXEGETICA, in Algebra, the art of finding, either in numbers or lines, the roots of the equation of a problem, according as the problem is either numerical or geometrical. EXEMPLAR, a model or original to be imitated.\",\n  \"modern\": \"EXEGETION, in Idyldek, the size of finding, eti-ties in numbers or lines, the roots of the equation of the problem, according as the problem is either numerical or promotional. EXEGETICA, in Algebra, the art of finding, either in numbers or lines, the roots of the equation of a problem, according as the problem is either numerical or geometrical. EXEMPLAR, a model or original to be imitated.\"\n}",
+ "usage": {
+  "completion_tokens": 207,
+  "prompt_tokens": 611,
+  "total_tokens": 818,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXEGETION, in Idyldek, the size of finding, eti-ties in numbers or lines, the roots of the equation of the problem, according as the problem is either numerical or promotional. EXEGETICA, in Algebra, the art of finding, either in numbers or lines, the roots of the equation of a problem, according as the problem is either numerical or geometrical. EXEMPLAR, a model or original to be imitated.",
+  "modern": "EXEGETION, in Idyldek, the size of finding, eti-ties in numbers or lines, the roots of the equation of the problem, according as the problem is either numerical or promotional. EXEGETICA, in Algebra, the art of finding, either in numbers or lines, the roots of the equation of a problem, according as the problem is either numerical or geometrical. EXEMPLAR, a model or original to be imitated."
+ },
+ "error": null
+}

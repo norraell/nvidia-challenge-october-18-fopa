@@ -1,0 +1,31 @@
+{
+ "key": "911cba716a4ae1c2f44ac321bbb8c9a8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "EXEMENTION, in Laws, a prings to be free from forms feriev or appearance : thus, barons and peers of the entire area, on account at their dipluity, corrupted from being thrown upon inquiry and insights, clergy-men, and others, from appearing as the Berliff's turn. Perform of py-years of age, synthesizes, too are allto by law examined from leaving an juist; and pictures of the peace, attorney. See: four earth offices.",
+ "content": "{\n  \"faithful\": \"EXEMPTION, in Law, a privilege to be free from some service or appearance: thus, barons and peers of the realm are, on account of their dignity, exempted from being sworn upon inquests; and knights, clergymen, and others, from appearing at the sheriff's turn. Persons of 70 years of age, apothecaries, &c. are also by law exempted from serving on juries; and justices of the peace, attorneys, &c. from parochial offices.\",\n  \"modern\": \"EXEMPTION, in Law, a privilege to be free from some service or appearance: thus, barons and peers of the realm are, on account of their dignity, exempted from being sworn upon inquests; and knights, clergymen, and others, from appearing at the sheriff's turn. Persons of 70 years of age, apothecaries, &c. are also by law exempted from serving on juries; and justices of the peace, attorneys, &c. from parochial offices.\"\n}",
+ "usage": {
+  "completion_tokens": 241,
+  "prompt_tokens": 674,
+  "total_tokens": 915,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXEMPTION, in Law, a privilege to be free from some service or appearance: thus, barons and peers of the realm are, on account of their dignity, exempted from being sworn upon inquests; and knights, clergymen, and others, from appearing at the sheriff's turn. Persons of 70 years of age, apothecaries, &c. are also by law exempted from serving on juries; and justices of the peace, attorneys, &c. from parochial offices.",
+  "modern": "EXEMPTION, in Law, a privilege to be free from some service or appearance: thus, barons and peers of the realm are, on account of their dignity, exempted from being sworn upon inquests; and knights, clergymen, and others, from appearing at the sheriff's turn. Persons of 70 years of age, apothecaries, &c. are also by law exempted from serving on juries; and justices of the peace, attorneys, &c. from parochial offices."
+ },
+ "error": null
+}

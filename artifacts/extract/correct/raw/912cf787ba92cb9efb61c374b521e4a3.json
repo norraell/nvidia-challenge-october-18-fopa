@@ -1,0 +1,31 @@
+{
+ "key": "912cf787ba92cb9efb61c374b521e4a3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Sect. II. _Of Teife._",
+ "content": "{\n  \"faithful\": \"Sect. II. Of Taffe.\",\n  \"modern\": \"Sect. II. Of Tasse.\"\n}",
+ "usage": {
+  "completion_tokens": 33,
+  "prompt_tokens": 574,
+  "total_tokens": 607,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Sect. II. Of Taffe.",
+  "modern": "Sect. II. Of Tasse."
+ },
+ "error": null
+}

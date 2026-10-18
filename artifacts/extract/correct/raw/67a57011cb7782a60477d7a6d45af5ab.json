@@ -1,0 +1,31 @@
+{
+ "key": "67a57011cb7782a60477d7a6d45af5ab",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Telacous animals are not only extremely different in external form, had alls in the mode of their problem. Limtion. Some are viviparous, as the motif of their which people inhabit bivalve shells, multivalves, and even forms of the unitvives, while the others, which form the fire greetate proportions are ostropus. In non point, how ever, they all agree, that whatever be the mode of probilution, whether from an egg, or directly from the uterus of the mother, the fluid is formed on the body of the young animal, and is propontioned to its bulk.",
+ "content": "{\n  \"faithful\": \"Telcaceous animals are not only extremely different in external form, but also in the mode of their production. Some are viviparous, as the mot of tho which inhabit bivalve shells, multivalves, and even fome of the univalves; while the others, which form the far greater proportion, are oviparous. In one point, however, they all agree, that whatever be the mode of production, whether from an egg, or directly from the uterus of the mother, the shell is formed on the body of the young animal, and is proportioned to its bulk.\",\n  \"modern\": \"Telcaceous animals are not only extremely different in external form, but also in the mode of their production. Some are viviparous, as the mot of tho which inhabit bivalve shells, multivalves, and even some of the univalves; while the others, which form the far greater proportion, are oviparous. In one point, however, they all agree, that whatever be the mode of production, whether from an egg, or directly from the uterus of the mother, the shell is formed on the body of the young animal, and is proportioned to its bulk.\"\n}",
+ "usage": {
+  "completion_tokens": 258,
+  "prompt_tokens": 708,
+  "total_tokens": 966,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Telcaceous animals are not only extremely different in external form, but also in the mode of their production. Some are viviparous, as the mot of tho which inhabit bivalve shells, multivalves, and even fome of the univalves; while the others, which form the far greater proportion, are oviparous. In one point, however, they all agree, that whatever be the mode of production, whether from an egg, or directly from the uterus of the mother, the shell is formed on the body of the young animal, and is proportioned to its bulk.",
+  "modern": "Telcaceous animals are not only extremely different in external form, but also in the mode of their production. Some are viviparous, as the mot of tho which inhabit bivalve shells, multivalves, and even some of the univalves; while the others, which form the far greater proportion, are oviparous. In one point, however, they all agree, that whatever be the mode of production, whether from an egg, or directly from the uterus of the mother, the shell is formed on the body of the young animal, and is proportioned to its bulk."
+ },
+ "error": null
+}

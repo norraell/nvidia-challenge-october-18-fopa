@@ -1,0 +1,31 @@
+{
+ "key": "971384e103a8ea247244458ab788834d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "CABENIA, a pre-town of Congo, in Africa, and fubied to the Portuguese: E. Long-129, and B. lat. 4.",
+ "content": "{\n  \"faithful\": \"CABENDA, a port-town of Congo, in Africa, and fubject to the Portuguese: E. long. 12°, and S. lat. 4°.\",\n  \"modern\": \"CABENDA, a port-town of Congo, in Africa, and subject to the Portuguese: E. long. 12°, and S. lat. 4°.\"\n}",
+ "usage": {
+  "completion_tokens": 93,
+  "prompt_tokens": 643,
+  "total_tokens": 736,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "CABENDA, a port-town of Congo, in Africa, and fubject to the Portuguese: E. long. 12°, and S. lat. 4°.",
+  "modern": "CABENDA, a port-town of Congo, in Africa, and subject to the Portuguese: E. long. 12°, and S. lat. 4°."
+ },
+ "error": null
+}

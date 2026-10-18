@@ -1,0 +1,31 @@
+{
+ "key": "a9c288bab1ab0715c390ecf08c9bcf02",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In the mainte he accounts for the great eruption of water in 1755, which he fuppoder to have been oc-water in colored only by an unusual quantity of water falling into 1733, as- the burned fears of the mountains, here needed more for, foam, and afterwards condensed by the coldness of the atmosphere.",
+ "content": "{\n  \"faithful\": \"In this manner he accounts for the great eruption of water in 1755, which he fuppofes to have been occasioned only by an unusual quantity of water falling into the burning focus of the mountain, there rarefied into flame, and afterwards condensed by the coldness of the atmosphere.\",\n  \"modern\": \"In this manner he accounts for the great eruption of water in 1755, which he supposes to have been occasioned only by an unusual quantity of water falling into the burning focus of the mountain, there rarefied into flame, and afterwards condensed by the coldness of the atmosphere.\"\n}",
+ "usage": {
+  "completion_tokens": 139,
+  "prompt_tokens": 637,
+  "total_tokens": 776,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In this manner he accounts for the great eruption of water in 1755, which he fuppofes to have been occasioned only by an unusual quantity of water falling into the burning focus of the mountain, there rarefied into flame, and afterwards condensed by the coldness of the atmosphere.",
+  "modern": "In this manner he accounts for the great eruption of water in 1755, which he supposes to have been occasioned only by an unusual quantity of water falling into the burning focus of the mountain, there rarefied into flame, and afterwards condensed by the coldness of the atmosphere."
+ },
+ "error": null
+}

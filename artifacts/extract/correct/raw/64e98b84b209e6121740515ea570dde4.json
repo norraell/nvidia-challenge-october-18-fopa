@@ -1,0 +1,31 @@
+{
+ "key": "64e98b84b209e6121740515ea570dde4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The most ancient representations of this instrument ages very well with the account of its uncertain the lyre, in particular on the old echelith globes, was re- prefered as made of one entire shell of a tortorise; and that, Amphibus in the celebrated group of the Diver, or Toro, in the Fanerle place at Rome, which is of Greek feulpture, and very high authority, is figured in the fine manner. See Plate EXXL fig. 7.",
+ "content": "{\n  \"faithful\": \"The most ancient representations of this instrument agree very well with the account of its invention: the lyre, in particular on the old celestial globes, was represented as made of one entire shell of a tortoise; and that Amphion in the celebrated group of the Dice, or Toro, in the Farnese palace at Rome, which is of Greek sculpture, and very high antiquity, is figured in the same manner. See Plate CLXI. fig. 9.\",\n  \"modern\": \"The most ancient representations of this instrument agree very well with the account of its invention: the lyre, in particular on the old celestial globes, was represented as made of one entire shell of a tortoise; and that Amphion in the celebrated group of the Dice, or Toro, in the Farnese palace at Rome, which is of Greek sculpture, and very high antiquity, is figured in the same manner. See Plate CLXI. fig. 9.\"\n}",
+ "usage": {
+  "completion_tokens": 203,
+  "prompt_tokens": 686,
+  "total_tokens": 889,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The most ancient representations of this instrument agree very well with the account of its invention: the lyre, in particular on the old celestial globes, was represented as made of one entire shell of a tortoise; and that Amphion in the celebrated group of the Dice, or Toro, in the Farnese palace at Rome, which is of Greek sculpture, and very high antiquity, is figured in the same manner. See Plate CLXI. fig. 9.",
+  "modern": "The most ancient representations of this instrument agree very well with the account of its invention: the lyre, in particular on the old celestial globes, was represented as made of one entire shell of a tortoise; and that Amphion in the celebrated group of the Dice, or Toro, in the Farnese palace at Rome, which is of Greek sculpture, and very high antiquity, is figured in the same manner. See Plate CLXI. fig. 9."
+ },
+ "error": null
+}

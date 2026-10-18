@@ -1,0 +1,31 @@
+{
+ "key": "eddfeadce5782e78c60dcd5f6afaeaa3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Every cable, of what thickness forever it be, is com-poded of three friends, every friend of three ropes; and every rope of three twiffs - the twill is made of more or leds thread, according as the cable is to bo thicker or thinner.",
+ "content": "{\n  \"faithful\": \"Every cable, of what thickness foever it be, is com-posed of three ftrands; every ftrand of three ropes; and every rope of three twifts: the twift is made of more or lefs threads, according as the cable is to be thicker or thinner.\",\n  \"modern\": \"Every cable, of what thickness soever it be, is composed of three strands; every strand of three ropes; and every rope of three twists: the twist is made of more or less threads, according as the cable is to be thicker or thinner.\"\n}",
+ "usage": {
+  "completion_tokens": 127,
+  "prompt_tokens": 637,
+  "total_tokens": 764,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Every cable, of what thickness foever it be, is com-posed of three ftrands; every ftrand of three ropes; and every rope of three twifts: the twift is made of more or lefs threads, according as the cable is to be thicker or thinner.",
+  "modern": "Every cable, of what thickness soever it be, is composed of three strands; every strand of three ropes; and every rope of three twists: the twist is made of more or less threads, according as the cable is to be thicker or thinner."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "85a4091120116cf15ab5939ff587d805",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Steel tempered into flowing cutting tools, fish a schlieb,\npunches, and drills for metal, acquires magnifin fill\nmore flowly by induction, and acquires five of it while\nin contact with the magnet, but it certain it more firms\nby, and finally retains a greater proportion of who it\nhad acquired.",
+ "content": "{\n  \"faithful\": \"Steel tempered for strong cutting tools, fuch as chifels, punches, and drills for metal, acquires magnetifm fill more flowly by induction, and acquires lefs of it while in conta& with the magnet; but it retains it more firmly, and finally retains a greater proportion of what it had acquired.\",\n  \"modern\": \"Steel tempered for strong cutting tools, such as chisels, punches, and drills for metal, acquires magnetism fill more slowly by induction, and acquires less of it while in contact with the magnet; but it retains it more firmly, and finally retains a greater proportion of what it had acquired.\"\n}",
+ "usage": {
+  "completion_tokens": 148,
+  "prompt_tokens": 642,
+  "total_tokens": 790,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Steel tempered for strong cutting tools, fuch as chifels, punches, and drills for metal, acquires magnetifm fill more flowly by induction, and acquires lefs of it while in conta& with the magnet; but it retains it more firmly, and finally retains a greater proportion of what it had acquired.",
+  "modern": "Steel tempered for strong cutting tools, such as chisels, punches, and drills for metal, acquires magnetism fill more slowly by induction, and acquires less of it while in contact with the magnet; but it retains it more firmly, and finally retains a greater proportion of what it had acquired."
+ },
+ "error": null
+}

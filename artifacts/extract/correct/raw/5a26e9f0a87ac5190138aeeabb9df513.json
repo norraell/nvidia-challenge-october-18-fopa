@@ -1,0 +1,31 @@
+{
+ "key": "5a26e9f0a87ac5190138aeeabb9df513",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Meature. cobres ten wherever are equal to three Paris ella. In Perla, and fame parts of the Indies, the guerz where there are two kinds a the royal pueze, called allo the _guers mondifer_, containing two Paris feet ten inches eleven lines, or four-fifths of the Paris eli and the thorter gucet, called simply means, only two finds of the former. At Goa and Ormuz, the meafore is the vars, as fans with this one of the Porugente, having been introduced by them. In Pegu, and some other parts of the Indies, the cando or candi, equal to",
+ "content": "{\n  \"faithful\": \"Measure. cobres ten whereof are equal to three Paris ells. In Perla, and fame parts of the Indies, the guere where there are two kinds a the royal pueze, called allo the _guers mondifer_, containing two Paris feet ten inches eleven lines, or four-fifths of the Paris eli and the thorter gucet, called simply means, only two finds of the former. At Goa and Ormuz, the meafore is the vars, as fans with this one of the Porugente, having been introduced by them. In Pegu, and some other parts of the Indies, the cando or candi, equal to\",\n  \"modern\": \"Measure. cobres ten whereof are equal to three Paris ells. In Perla, and same parts of the Indies, the guere where there are two kinds a the royal pueze, called allo the _guers mondifer_, containing two Paris feet ten inches eleven lines, or four-fifths of the Paris eli and the thorter gucet, called simply means, only two finds of the former. At Goa and Ormuz, the meafore is the vars, as fans with this one of the Portuguese, having been introduced by them. In Pegu, and some other parts of the Indies, the cando or candi, equal to\"\n}",
+ "usage": {
+  "completion_tokens": 291,
+  "prompt_tokens": 716,
+  "total_tokens": 1007,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Measure. cobres ten whereof are equal to three Paris ells. In Perla, and fame parts of the Indies, the guere where there are two kinds a the royal pueze, called allo the _guers mondifer_, containing two Paris feet ten inches eleven lines, or four-fifths of the Paris eli and the thorter gucet, called simply means, only two finds of the former. At Goa and Ormuz, the meafore is the vars, as fans with this one of the Porugente, having been introduced by them. In Pegu, and some other parts of the Indies, the cando or candi, equal to",
+  "modern": "Measure. cobres ten whereof are equal to three Paris ells. In Perla, and same parts of the Indies, the guere where there are two kinds a the royal pueze, called allo the _guers mondifer_, containing two Paris feet ten inches eleven lines, or four-fifths of the Paris eli and the thorter gucet, called simply means, only two finds of the former. At Goa and Ormuz, the meafore is the vars, as fans with this one of the Portuguese, having been introduced by them. In Pegu, and some other parts of the Indies, the cando or candi, equal to"
+ },
+ "error": null
+}

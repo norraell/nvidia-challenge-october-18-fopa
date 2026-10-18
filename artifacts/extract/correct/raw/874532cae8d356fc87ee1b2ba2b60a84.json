@@ -1,0 +1,31 @@
+{
+ "key": "874532cae8d356fc87ee1b2ba2b60a84",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Lightning, we have few always; it is _mattematically couldn’t_, that, when a _returning firele_ comes to be produced by the _fuddro_ removal of the very frong elafic electrical prefi-fore of the electrical atmosphere of a thunder-cloud powerfully charged; the frength of such a retraining _fireks_ mult be enormous.",
+ "content": "{\n  \"faithful\": \"Lightning. we have feen above; it is mathematically evident, that, when a returning froke comes to be produced by the fudden removal of the very ftrong elastic electrical pref- fure of the electrical atmofhphere of a thunder-cloud powerfully charged; the ftrength of fuch a returning froke mutt be enormous.\",\n  \"modern\": \"Lightning. we have seen above; it is mathematically evident, that, when a returning stroke comes to be produced by the sudden removal of the very strong elastic electrical pressure of the electrical atmosphere of a thunder-cloud powerfully charged; the strength of such a returning stroke must be enormous.\"\n}",
+ "usage": {
+  "completion_tokens": 146,
+  "prompt_tokens": 663,
+  "total_tokens": 809,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Lightning. we have feen above; it is mathematically evident, that, when a returning froke comes to be produced by the fudden removal of the very ftrong elastic electrical pref- fure of the electrical atmofhphere of a thunder-cloud powerfully charged; the ftrength of fuch a returning froke mutt be enormous.",
+  "modern": "Lightning. we have seen above; it is mathematically evident, that, when a returning stroke comes to be produced by the sudden removal of the very strong elastic electrical pressure of the electrical atmosphere of a thunder-cloud powerfully charged; the strength of such a returning stroke must be enormous."
+ },
+ "error": null
+}

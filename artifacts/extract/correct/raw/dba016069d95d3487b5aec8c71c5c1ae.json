@@ -1,0 +1,31 @@
+{
+ "key": "dba016069d95d3487b5aec8c71c5c1ae",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Horas, in tea language, is the name of a rope reach-\ning from the middle of a yards in its ceremony or what\ncalled the _predecessor_, and depending about two or\nthree feet under the yard, for the failors to tread upon\nwhich they are holding, resting, holding the fails, op-\ning and the fluidizing fall bombs, etc. It orders, therefore, to keep the horfe more parallel to the yard, it is\nusually fupdated to it at a proper distance, by certain\nroppes called dirtrops, which hang about two feet under\nthe yard, having my eye in their lower ends through\nwhich the horfe place.",
+ "content": "{\n  \"faithful\": \"Horse, in tea language, is the name of a rope reaching from the middle of a yard to its extremity, or what is called the yard-arm, and depending about two or three feet under the yard, for the sailors to tread upon whilst they are loofing, reefing, or furling the sails, rigging out the studding-sail booms, &c. In order, therefore, to keep the horse more parallel to the yard, it is usually fuspended to it at proper distances, by certain ropes called firrups, which hang about two feet under the yard, having an eye in their lower ends through which the horse passes.\",\n  \"modern\": \"Horse, in tea language, is the name of a rope reaching from the middle of a yard to its extremity, or what is called the yard-arm, and depending about two or three feet under the yard, for the sailors to tread upon whilst they are loofing, reefing, or furling the sails, rigging out the studding-sail booms, &c. In order, therefore, to keep the horse more parallel to the yard, it is usually suspended to it at proper distances, by certain ropes called firrups, which hang about two feet under the yard, having an eye in their lower ends through which the horse passes.\"\n}",
+ "usage": {
+  "completion_tokens": 286,
+  "prompt_tokens": 722,
+  "total_tokens": 1008,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Horse, in tea language, is the name of a rope reaching from the middle of a yard to its extremity, or what is called the yard-arm, and depending about two or three feet under the yard, for the sailors to tread upon whilst they are loofing, reefing, or furling the sails, rigging out the studding-sail booms, &c. In order, therefore, to keep the horse more parallel to the yard, it is usually fuspended to it at proper distances, by certain ropes called firrups, which hang about two feet under the yard, having an eye in their lower ends through which the horse passes.",
+  "modern": "Horse, in tea language, is the name of a rope reaching from the middle of a yard to its extremity, or what is called the yard-arm, and depending about two or three feet under the yard, for the sailors to tread upon whilst they are loofing, reefing, or furling the sails, rigging out the studding-sail booms, &c. In order, therefore, to keep the horse more parallel to the yard, it is usually suspended to it at proper distances, by certain ropes called firrups, which hang about two feet under the yard, having an eye in their lower ends through which the horse passes."
+ },
+ "error": null
+}

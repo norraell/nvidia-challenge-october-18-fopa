@@ -1,0 +1,31 @@
+{
+ "key": "30fff5baa4fa077fe261cffc8e903d6a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "We also the same observation confirmed by Helodorous (_Ethiopia, lib_ x. p. 476.) \" The royal letters of the Ethiopians,\" says io.",
+ "content": "{\n  \"faithful\": \"We also the same observation confirmed by Heliodorus (_Ethiopia, lib_ x. p. 476.) \\\" The royal letters of the Ethiopians,\\\" says io.\",\n  \"modern\": \"We also the same observation confirmed by Heliodorus (_Ethiopia, lib_ x. p. 476.) \\\" The royal letters of the Ethiopians,\\\" says io.\"\n}",
+ "usage": {
+  "completion_tokens": 93,
+  "prompt_tokens": 601,
+  "total_tokens": 694,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "We also the same observation confirmed by Heliodorus (_Ethiopia, lib_ x. p. 476.) \" The royal letters of the Ethiopians,\" says io.",
+  "modern": "We also the same observation confirmed by Heliodorus (_Ethiopia, lib_ x. p. 476.) \" The royal letters of the Ethiopians,\" says io."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "e48fdc29c1bc05c43bbf00d0f0d45f72",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "25. Certain actions may be called acceffory, because they are merely preparatory or falsleviance to other actions. Thus, exhibitions al deliberant, at the inflame of an hair again! the creditedors or culodiers of his anceller's writings, are intended only to pave the way for future profesor. An action of transferment is allo of this fort, whereby an action during the pendency of which the defender happens to die, is craved to be transferenced against his representative, in the fame condition in which it stood formally. Upon the purpose death, his her may infinit in the cause again! the defender, upon producing, either a retour or a confirmed tetlament, ac-",
+ "content": "{\n  \"faithful\": \"25. Certain actions may be called acceffory, because they are merely preparatory or falsleviance to other actions. Thus, exhibitions al deliberant, at the inflame of an hair again! the creditedors or culodiers of his anceller's writings, are intended only to pave the way for future profesor. An action of transferment is allo of this fort, whereby an action during the pendency of which the defender happens to die, is craved to be transferenced against his representative, in the fame condition in which it stood formally. Upon the purpose death, his her may infinit in the cause again! the defender, upon producing, either a retour or a confirmed tetlament, ac-\",\n  \"modern\": \"25. Certain actions may be called accessory, because they are merely preparatory or falsleviance to other actions. Thus, exhibitions al deliberant, at the inflame of an hair again! the creditedors or culodiers of his anceller's writings, are intended only to pave the way for future profesor. An action of transferment is allo of this fort, whereby an action during the pendency of which the defender happens to die, is craved to be transferenced against his representative, in the fame condition in which it stood formally. Upon the purpose death, his her may infinit in the cause again! the defender, upon producing, either a retour or a confirmed tetlament, ac-\"\n}",
+ "usage": {
+  "completion_tokens": 312,
+  "prompt_tokens": 738,
+  "total_tokens": 1050,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "25. Certain actions may be called acceffory, because they are merely preparatory or falsleviance to other actions. Thus, exhibitions al deliberant, at the inflame of an hair again! the creditedors or culodiers of his anceller's writings, are intended only to pave the way for future profesor. An action of transferment is allo of this fort, whereby an action during the pendency of which the defender happens to die, is craved to be transferenced against his representative, in the fame condition in which it stood formally. Upon the purpose death, his her may infinit in the cause again! the defender, upon producing, either a retour or a confirmed tetlament, ac-",
+  "modern": "25. Certain actions may be called accessory, because they are merely preparatory or falsleviance to other actions. Thus, exhibitions al deliberant, at the inflame of an hair again! the creditedors or culodiers of his anceller's writings, are intended only to pave the way for future profesor. An action of transferment is allo of this fort, whereby an action during the pendency of which the defender happens to die, is craved to be transferenced against his representative, in the fame condition in which it stood formally. Upon the purpose death, his her may infinit in the cause again! the defender, upon producing, either a retour or a confirmed tetlament, ac-"
+ },
+ "error": null
+}

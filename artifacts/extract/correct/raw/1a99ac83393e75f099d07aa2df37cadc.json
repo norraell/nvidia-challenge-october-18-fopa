@@ -1,0 +1,31 @@
+{
+ "key": "1a99ac83393e75f099d07aa2df37cadc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ExECUTRY, in Sexe Lata, is the snowable else falling to the electron. Under exercices, or noworables, is complicated every thing that moves itself, or can be moved if such as cons, cattle, furniture, ready money, Sec.",
+ "content": "{\n  \"faithful\": \"EXECUTRY, in Scots Law, is the moveable estate falling to the executor. Under executry, or movables, is comprehended every thing that moves itself, or can be moved; such as corn, cattle, furniture, ready money, &c.\",\n  \"modern\": \"EXECUTRY, in Scots Law, is the moveable estate falling to the executor. Under executry, or movables, is comprehended every thing that moves itself, or can be moved; such as corn, cattle, furniture, ready money, &c.\"\n}",
+ "usage": {
+  "completion_tokens": 125,
+  "prompt_tokens": 638,
+  "total_tokens": 763,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXECUTRY, in Scots Law, is the moveable estate falling to the executor. Under executry, or movables, is comprehended every thing that moves itself, or can be moved; such as corn, cattle, furniture, ready money, &c.",
+  "modern": "EXECUTRY, in Scots Law, is the moveable estate falling to the executor. Under executry, or movables, is comprehended every thing that moves itself, or can be moved; such as corn, cattle, furniture, ready money, &c."
+ },
+ "error": null
+}

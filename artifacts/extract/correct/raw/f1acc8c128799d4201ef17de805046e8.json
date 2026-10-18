@@ -1,0 +1,31 @@
+{
+ "key": "f1acc8c128799d4201ef17de805046e8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "We may then ask, if there are any possible means by which the people can make a good choice, besides the _liberty of the press_? The very foundation of a good choice is knowledge. The fuller and more perfect the know- ledge, to better the chance where the Minister interest is absent, of a good choice. How can the people receive the most perfect knowledge relative to the characters of those who present themselves to their choice, not by the formation conveyed freely, and without reserve, from one to another?",
+ "content": "{\n  \"faithful\": \"We may then ask, if there are any possible means by which the people can make a good choice, besides the _liberty of the press_? The very foundation of a good choice is knowledge. The fuller and more perfect the knowledge, the better the chance, where all sinister interest is absent, of a good choice. How can the people receive the most perfect knowledge relative to the characters of those who present themselves to their choice, but by information conveyed freely, and without reserve, from one to another?\",\n  \"modern\": \"We may then ask, if there are any possible means by which the people can make a good choice, besides the liberty of the press? The very foundation of a good choice is knowledge. The fuller and more perfect the knowledge, the better the chance, where all sinister interest is absent, of a good choice. How can the people receive the most perfect knowledge relative to the characters of those who present themselves to their choice, but by information conveyed freely, and without reserve, from one to another?\"\n}",
+ "usage": {
+  "completion_tokens": 223,
+  "prompt_tokens": 686,
+  "total_tokens": 909,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "We may then ask, if there are any possible means by which the people can make a good choice, besides the _liberty of the press_? The very foundation of a good choice is knowledge. The fuller and more perfect the knowledge, the better the chance, where all sinister interest is absent, of a good choice. How can the people receive the most perfect knowledge relative to the characters of those who present themselves to their choice, but by information conveyed freely, and without reserve, from one to another?",
+  "modern": "We may then ask, if there are any possible means by which the people can make a good choice, besides the liberty of the press? The very foundation of a good choice is knowledge. The fuller and more perfect the knowledge, the better the chance, where all sinister interest is absent, of a good choice. How can the people receive the most perfect knowledge relative to the characters of those who present themselves to their choice, but by information conveyed freely, and without reserve, from one to another?"
+ },
+ "error": null
+}

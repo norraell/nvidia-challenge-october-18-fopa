@@ -1,0 +1,31 @@
+{
+ "key": "96d22805f4574f40361db003568eac96",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The vegetable production of Bombay are very in-\nschoolfor significant. Mr Ives fays, that is it felt is fo between\nBombay as not to produce more thing worth mentioning?\nbut afterwards informs us, that its “natural product\nis the uncount tree, from which they extract a li-\nquor called today. This is full and mild when drink\nimmediately, but if the hands long, it golden through,\nand becomes very interesting wherever probably made\nthe term _field_-loaded. For each tree a tax of 20s\na year is paid to the company, which is appropriated-\nweds maintaining the genetics and激 alware?",
+ "content": "{\n  \"faithful\": \"The vegetable productions of Bombay are very insignificant. Mr Ives fays, that its foil is fo barren as not to produce any one thing worth mentioning; but afterwards informs us, that its “natural produce is the cocoa-nut tree, from which they extract a liquor called toddy. This is soft and mild when drunk immediately; but if it stands long, it gathers strength, and becomes very intoxicating; whence probably arose the term tody-headed. For each tree a tax of 20s. a year is paid to the company, which is appropriated towards maintaining the garrison and ships of war.\",\n  \"modern\": \"The vegetable productions of Bombay are very insignificant. Mr Ives says, that its soil is so barren as not to produce any one thing worth mentioning; but afterwards informs us, that its “natural produce is the cocoa-nut tree, from which they extract a liquor called toddy. This is soft and mild when drunk immediately; but if it stands long, it gathers strength, and becomes very intoxicating; whence probably arose the term tody-headed. For each tree a tax of 20s. a year is paid to the company, which is appropriated towards maintaining the garrison and ships of war.\"\n}",
+ "usage": {
+  "completion_tokens": 268,
+  "prompt_tokens": 728,
+  "total_tokens": 996,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The vegetable productions of Bombay are very insignificant. Mr Ives fays, that its foil is fo barren as not to produce any one thing worth mentioning; but afterwards informs us, that its “natural produce is the cocoa-nut tree, from which they extract a liquor called toddy. This is soft and mild when drunk immediately; but if it stands long, it gathers strength, and becomes very intoxicating; whence probably arose the term tody-headed. For each tree a tax of 20s. a year is paid to the company, which is appropriated towards maintaining the garrison and ships of war.",
+  "modern": "The vegetable productions of Bombay are very insignificant. Mr Ives says, that its soil is so barren as not to produce any one thing worth mentioning; but afterwards informs us, that its “natural produce is the cocoa-nut tree, from which they extract a liquor called toddy. This is soft and mild when drunk immediately; but if it stands long, it gathers strength, and becomes very intoxicating; whence probably arose the term tody-headed. For each tree a tax of 20s. a year is paid to the company, which is appropriated towards maintaining the garrison and ships of war."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "6d9a5d5446b4d93c600297610bb79c3d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HUGHES (John), an ingenious and polite wri-\nter, was born in 1677. In the earliest parts of his\nyouish, he continued the difference, poetry, drawing,\nand minds, in each of which he by team made a con-\nfidercable progress() but followed thoof and his other\nfluides only as regarded amendments, except frequent\ncontainment on account of his illust of health. The\nland Chanelhoe Cowper made hint forecerty for the\ncommitons of the peace, not his knowledge, and\nillinguished him with singular marks of his clients.\nHe contained in the farm employment under the end\nof Meschelek, and had it to the day of his death,\nwhich happened in 1719, the very light in which his\ntragedy, entitled _The large of Damar, was first ac-_\ning. He was then ... He realized Pontoredley\ndialogues of the dead, Vertact's evolutions of Portu-\ngal, and the latter of Abrilad and Dolits. He gave\nvery accurate edition of species's works, with his\nlife, a gloffary, and remarks; and wrote several papers\nin the Father, Speichere, and Grandians Mr Duno-\ncombo, who married his father, collected his poems\nand days in a vols 12mo, in 735.",
+ "content": "{\n  \"faithful\": \"HUGHES (John), an ingenious and polite writer, was born in 1677. In the earliest parts of his youth, he cultivated the polite arts, poetry, drawing, and music, in each of which he by turns made a considerable progress; but followed those and his other studies only as agreeable amusements, under frequent confinement on account of his ill state of health. The lord Chancellor Cowper made him secretary for the commissions of the peace without his knowledge, and distinguished him with singular marks of his esteem. He continued in the same employment under the earl of Macclesfield, and held it to the day of his death, which happened in 1719, the very night in which his tragedy, entitled The Siege of Damascus, was first acted. He was then 42. He translated Fontenelle's dialogues of the dead, Vertot's revolutions of Portugal, and the letters of Abelard and Eloisa. He gave a very accurate edition of Spencer's works, with his life, a glossary, and remarks; and wrote several papers in the Tatler, Spectator, and Guardian. Mr Duncombe, who married his sister, collected his poems and plays in 2 vols 12mo, in 1735.\",\n  \"modern\": \"HUGHES (John), an ingenious and polite writer, was born in 1677. In the earliest parts of his youth, he cultivated the polite arts, poetry, drawing, and music, in each of which he by turns made a considerable progress; but followed those and his other studies only as agreeable amusements, under frequent confinement on account of his ill state of health. The lord Chancellor Cowper made him secretary for the commissions of the peace without his knowledge, and distinguished him with singular marks of his esteem. He continued in the same employment under the earl of Macclesfield, and held it to the day of his death, which happened in 1719, the very night in which his tragedy, entitled The Siege of Damascus, was first acted. He was then 42. He translated Fontenelle's dialogues of the dead, Vertot's revolutions of Portugal, and the letters of Abelard and Eloisa. He gave a very accurate edition of Spencer's works, with his life, a glossary, and remarks; and wrote several papers in the Tatler, Spectator, and Guardian. Mr Duncombe, who married his sister, collected his poems and plays in 2 vols 12mo, in 1735.\"\n}",
+ "usage": {
+  "completion_tokens": 549,
+  "prompt_tokens": 963,
+  "total_tokens": 1512,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 363
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HUGHES (John), an ingenious and polite writer, was born in 1677. In the earliest parts of his youth, he cultivated the polite arts, poetry, drawing, and music, in each of which he by turns made a considerable progress; but followed those and his other studies only as agreeable amusements, under frequent confinement on account of his ill state of health. The lord Chancellor Cowper made him secretary for the commissions of the peace without his knowledge, and distinguished him with singular marks of his esteem. He continued in the same employment under the earl of Macclesfield, and held it to the day of his death, which happened in 1719, the very night in which his tragedy, entitled The Siege of Damascus, was first acted. He was then 42. He translated Fontenelle's dialogues of the dead, Vertot's revolutions of Portugal, and the letters of Abelard and Eloisa. He gave a very accurate edition of Spencer's works, with his life, a glossary, and remarks; and wrote several papers in the Tatler, Spectator, and Guardian. Mr Duncombe, who married his sister, collected his poems and plays in 2 vols 12mo, in 1735.",
+  "modern": "HUGHES (John), an ingenious and polite writer, was born in 1677. In the earliest parts of his youth, he cultivated the polite arts, poetry, drawing, and music, in each of which he by turns made a considerable progress; but followed those and his other studies only as agreeable amusements, under frequent confinement on account of his ill state of health. The lord Chancellor Cowper made him secretary for the commissions of the peace without his knowledge, and distinguished him with singular marks of his esteem. He continued in the same employment under the earl of Macclesfield, and held it to the day of his death, which happened in 1719, the very night in which his tragedy, entitled The Siege of Damascus, was first acted. He was then 42. He translated Fontenelle's dialogues of the dead, Vertot's revolutions of Portugal, and the letters of Abelard and Eloisa. He gave a very accurate edition of Spencer's works, with his life, a glossary, and remarks; and wrote several papers in the Tatler, Spectator, and Guardian. Mr Duncombe, who married his sister, collected his poems and plays in 2 vols 12mo, in 1735."
+ },
+ "error": null
+}

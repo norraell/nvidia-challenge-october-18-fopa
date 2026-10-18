@@ -1,0 +1,31 @@
+{
+ "key": "1071adb65d7c1b212ae977647e3c3831",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Amida (une groge), a principal city of Méopomisnia (Libre Notias) y'_Amanda_ (Polandry); frutated on a high mountain, on the beaches of Afyrits, on the Yrys, you ever receive the Symphian— It was taken from the Romans in the time of the emperor Conflars, by Scarye Ring of Perita. The logic is fold to have call him 20.00 men, however, he reduced it to fuch ruin, that the emperor afterwards wept over it. According to Jamaimia Macrellana, the city may reside, like chiff offers were crucified; and the refl, with the soldiers and inhabitants, either put to the foreword or carried into registry, except our billionam landlir, and two orthree more, who, in the dead of the night, escaped through a polsum upterced by the enemy. The inhabits of Zollibs, however, being obliged to leave than own city by Jovian’s treaty with",
+ "content": "{\n  \"faithful\": \"Amida (une groge), a principal city of Méopomisnia (Libre Notias) y'_Amanda_ (Polandry); frutated on a high mountain, on the beaches of Afyrits, on the Yrys, you ever receive the Symphian— It was taken from the Romans in the time of the emperor Conflars, by Scarye Ring of Perita. The logic is fold to have call him 20.00 men, however, he reduced it to fuch ruin, that the emperor afterwards wept over it. According to Jamaimia Macrellana, the city may reside, like chiff offers were crucified; and the refl, with the soldiers and inhabitants, either put to the foreword or carried into registry, except our billionam landlir, and two orthree more, who, in the dead of the night, escaped through a polsum upterced by the enemy. The inhabits of Zollibs, however, being obliged to leave than own city by Jovian’s treaty with\",\n  \"modern\": \"Amida (une groge), a principal city of Méopomisnia (Libre Notias) y'_Amanda_ (Polandry); frutated on a high mountain, on the beaches of Afyrits, on the Yrys, you ever receive the Symphian— It was taken from the Romans in the time of the emperor Conflars, by Scarye Ring of Perita. The logic is fold to have call him 20.00 men, however, he reduced it to such ruin, that the emperor afterwards wept over it. According to Jamaimia Macrellana, the city may reside, like chiff offers were crucified; and the rest, with the soldiers and inhabitants, either put to the sword or carried into captivity, except our historian himself, and two or three more, who, in the dead of the night, escaped through a postern unperceived by the enemy. The inhabitants of Zollibs, however, being obliged to leave their own city by Jovian’s treaty with\"\n}",
+ "usage": {
+  "completion_tokens": 450,
+  "prompt_tokens": 824,
+  "total_tokens": 1274,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 302
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Amida (une groge), a principal city of Méopomisnia (Libre Notias) y'_Amanda_ (Polandry); frutated on a high mountain, on the beaches of Afyrits, on the Yrys, you ever receive the Symphian— It was taken from the Romans in the time of the emperor Conflars, by Scarye Ring of Perita. The logic is fold to have call him 20.00 men, however, he reduced it to fuch ruin, that the emperor afterwards wept over it. According to Jamaimia Macrellana, the city may reside, like chiff offers were crucified; and the refl, with the soldiers and inhabitants, either put to the foreword or carried into registry, except our billionam landlir, and two orthree more, who, in the dead of the night, escaped through a polsum upterced by the enemy. The inhabits of Zollibs, however, being obliged to leave than own city by Jovian’s treaty with",
+  "modern": "Amida (une groge), a principal city of Méopomisnia (Libre Notias) y'_Amanda_ (Polandry); frutated on a high mountain, on the beaches of Afyrits, on the Yrys, you ever receive the Symphian— It was taken from the Romans in the time of the emperor Conflars, by Scarye Ring of Perita. The logic is fold to have call him 20.00 men, however, he reduced it to such ruin, that the emperor afterwards wept over it. According to Jamaimia Macrellana, the city may reside, like chiff offers were crucified; and the rest, with the soldiers and inhabitants, either put to the sword or carried into captivity, except our historian himself, and two or three more, who, in the dead of the night, escaped through a postern unperceived by the enemy. The inhabitants of Zollibs, however, being obliged to leave their own city by Jovian’s treaty with"
+ },
+ "error": null
+}

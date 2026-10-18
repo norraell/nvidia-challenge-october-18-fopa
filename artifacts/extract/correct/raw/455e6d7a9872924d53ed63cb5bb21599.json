@@ -1,0 +1,31 @@
+{
+ "key": "455e6d7a9872924d53ed63cb5bb21599",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ERANARCHIA, a public officer among the ancient Greek, which bullets was to pedide over and direct the alms and provins made for the poor. Cornelius Nepos, in his lit of Espainindodas, deferibes his office thus; when any period was reduced so poverty, taken captive, or had a daughter to marry, which he could not effect for want of money, etc. the eranarcha call- ed an offender of friends and neighbours, and tax- ed each according to his means and ethars, to contri- bute towards his relief.",
+ "content": "{\n  \"faithful\": \"ERANARCHIA, a public officer among the ancient Greeks, whose business was to preside over and direct the alms and provisions made for the poor. Cornelius Nepos, in his life of Epaminondas, describes his office thus: when any person was reduced to poverty, taken captive, or had a daughter to marry, which he could not effect for want of money, &c. the eranarcha called an assembly of friends and neighbours, and taxed each according to his means and estate, to contribute towards his relief.\",\n  \"modern\": \"ERANARCHIA, a public officer among the ancient Greeks, whose business was to preside over and direct the alms and provisions made for the poor. Cornelius Nepos, in his life of Epaminondas, describes his office thus: when any person was reduced to poverty, taken captive, or had a daughter to marry, which he could not effect for want of money, &c. the eranarcha called an assembly of friends and neighbours, and taxed each according to his means and estate, to contribute towards his relief.\"\n}",
+ "usage": {
+  "completion_tokens": 235,
+  "prompt_tokens": 698,
+  "total_tokens": 933,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ERANARCHIA, a public officer among the ancient Greeks, whose business was to preside over and direct the alms and provisions made for the poor. Cornelius Nepos, in his life of Epaminondas, describes his office thus: when any person was reduced to poverty, taken captive, or had a daughter to marry, which he could not effect for want of money, &c. the eranarcha called an assembly of friends and neighbours, and taxed each according to his means and estate, to contribute towards his relief.",
+  "modern": "ERANARCHIA, a public officer among the ancient Greeks, whose business was to preside over and direct the alms and provisions made for the poor. Cornelius Nepos, in his life of Epaminondas, describes his office thus: when any person was reduced to poverty, taken captive, or had a daughter to marry, which he could not effect for want of money, &c. the eranarcha called an assembly of friends and neighbours, and taxed each according to his means and estate, to contribute towards his relief."
+ },
+ "error": null
+}

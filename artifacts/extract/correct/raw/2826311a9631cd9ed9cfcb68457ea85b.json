@@ -1,0 +1,31 @@
+{
+ "key": "2826311a9631cd9ed9cfcb68457ea85b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The horf died by transers and filmmers, alfo called\nthe Ig, ira piece of wood cut hollow and rounds,\nfour or five feet long, and placed slippers upon which\nthey per their dens et get of the dirty hair, flesh,&.",
+ "content": "{\n  \"faithful\": \"The horfe ufed by tanners and fkinners, alfo called the leg, is a piece of wood cut hollow and roundifh, four or five feet long, and placed aflope; upon which they pare their fkins to get off the dirt, hair, flefh, &c. Horfe is alfo ufed in carpentry, for a piece of wood\",\n  \"modern\": \"The horse used by tanners and skinners, also called the leg, is a piece of wood cut hollow and roundish, four or five feet long, and placed aslope; upon which they pare their skins to get off the dirt, hair, flesh, &c. Horse is also used in carpentry, for a piece of wood\"\n}",
+ "usage": {
+  "completion_tokens": 165,
+  "prompt_tokens": 621,
+  "total_tokens": 786,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The horfe ufed by tanners and fkinners, alfo called the leg, is a piece of wood cut hollow and roundifh, four or five feet long, and placed aflope; upon which they pare their fkins to get off the dirt, hair, flefh, &c. Horfe is alfo ufed in carpentry, for a piece of wood",
+  "modern": "The horse used by tanners and skinners, also called the leg, is a piece of wood cut hollow and roundish, four or five feet long, and placed aslope; upon which they pare their skins to get off the dirt, hair, flesh, &c. Horse is also used in carpentry, for a piece of wood"
+ },
+ "error": null
+}

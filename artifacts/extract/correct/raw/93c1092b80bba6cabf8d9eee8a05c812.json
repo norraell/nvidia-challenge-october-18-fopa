@@ -1,0 +1,31 @@
+{
+ "key": "93c1092b80bba6cabf8d9eee8a05c812",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Under the parallel Qaz waves, is flew the proper method of fixing that obfluent exactly in the meridian, but where the oblorer has no convivency of this kind, it will be proper to use a guarda quadrant; by means of which the altitude of a flare mulb be ob-hered a little before its puffage over the meridian, every minute, if polibbs, until its greatest or lealt altitude be bad, by which means, though we have not the true polition of the meridian, yet we know the meridian altitude of the flar. But although this method is very good, yet if a flatter splits by the meridian near the zenith, we cannot have its meridian altitude by repeated observations every minute, unless by chance, because in every minutes can now, the altriche arguments (z minutes of a degree i) and in thefe kind of observations, the inconvenient limitation of the oblerver, the variation of the flar's azimuth feveral de-",
+ "content": "{\n  \"faithful\": \"Under the parallel Qaz waves, is flew the proper method of fixing that obfluent exactly in the meridian, but where the oblorer has no convivency of this kind, it will be proper to use a guarda quadrant; by means of which the altitude of a flare mulb be ob-hered a little before its puffage over the meridian, every minute, if polibbs, until its greatest or lealt altitude be bad, by which means, though we have not the true polition of the meridian, yet we know the meridian altitude of the flar. But although this method is very good, yet if a flatter splits by the meridian near the zenith, we cannot have its meridian altitude by repeated observations every minute, unless by chance, because in every minutes can now, the altriche arguments (z minutes of a degree i) and in thefe kind of observations, the inconvenient limitation of the oblerver, the variation of the flar's azimuth feveral de-\",\n  \"modern\": \"Under the parallel Qaz waves, is flew the proper method of fixing that obfluent exactly in the meridian, but where the oblorer has no convivency of this kind, it will be proper to use a guarda quadrant; by means of which the altitude of a flare mulb be ob-hered a little before its puffage over the meridian, every minute, if polibbs, until its greatest or lealt altitude be bad, by which means, though we have not the true polition of the meridian, yet we know the meridian altitude of the flar. But although this method is very good, yet if a flatter splits by the meridian near the zenith, we cannot have its meridian altitude by repeated observations every minute, unless by chance, because in every minutes can now, the altriche arguments (z minutes of a degree i) and in thefe kind of observations, the inconvenient limitation of the oblerver, the variation of the flar's azimuth feveral de-\"\n}",
+ "usage": {
+  "completion_tokens": 443,
+  "prompt_tokens": 852,
+  "total_tokens": 1295,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 338
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Under the parallel Qaz waves, is flew the proper method of fixing that obfluent exactly in the meridian, but where the oblorer has no convivency of this kind, it will be proper to use a guarda quadrant; by means of which the altitude of a flare mulb be ob-hered a little before its puffage over the meridian, every minute, if polibbs, until its greatest or lealt altitude be bad, by which means, though we have not the true polition of the meridian, yet we know the meridian altitude of the flar. But although this method is very good, yet if a flatter splits by the meridian near the zenith, we cannot have its meridian altitude by repeated observations every minute, unless by chance, because in every minutes can now, the altriche arguments (z minutes of a degree i) and in thefe kind of observations, the inconvenient limitation of the oblerver, the variation of the flar's azimuth feveral de-",
+  "modern": "Under the parallel Qaz waves, is flew the proper method of fixing that obfluent exactly in the meridian, but where the oblorer has no convivency of this kind, it will be proper to use a guarda quadrant; by means of which the altitude of a flare mulb be ob-hered a little before its puffage over the meridian, every minute, if polibbs, until its greatest or lealt altitude be bad, by which means, though we have not the true polition of the meridian, yet we know the meridian altitude of the flar. But although this method is very good, yet if a flatter splits by the meridian near the zenith, we cannot have its meridian altitude by repeated observations every minute, unless by chance, because in every minutes can now, the altriche arguments (z minutes of a degree i) and in thefe kind of observations, the inconvenient limitation of the oblerver, the variation of the flar's azimuth feveral de-"
+ },
+ "error": null
+}

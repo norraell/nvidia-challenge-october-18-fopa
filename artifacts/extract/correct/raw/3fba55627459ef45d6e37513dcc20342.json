@@ -1,0 +1,31 @@
+{
+ "key": "3fba55627459ef45d6e37513dcc20342",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "If a beam of light SF, (No. 32.) that comes from the fun, paths into a dark room through F a round hole in a window fluter EG ; this beam proceeding straight forwards, and falling upon a paper as Y, would there make a round picture of the fun. This picture would be a confufed one indeed, if the hole is a large one and there is no lens in the hole. However, as this round f spotlight a a picture of the fun, we shall hereafter, notwithflanking its condition, call it by this name. Now it a glafs prifm ABC is placed between the hole in the window-fluiter and the paper at Y, the rays of this term; by the refraction which they differ in the prifm, will be bent from their fruit courte, and instead of going to io as to fall upon the paper at Y, they will be turned upwards, and the picture of the fun produced by them will fall up- on a paper MN that is placed above Y. If all the rays",
+ "content": "{\n  \"faithful\": \"If a beam of light SF, (No. 32.) that comes from the fun, paths into a dark room through F a round hole in a window fluter EG ; this beam proceeding straight forwards, and falling upon a paper as Y, would there make a round picture of the fun. This picture would be a confufed one indeed, if the hole is a large one and there is no lens in the hole. However, as this round f spotlight a a picture of the fun, we shall hereafter, notwithflanking its condition, call it by this name. Now it a glafs prifm ABC is placed between the hole in the window-fluiter and the paper at Y, the rays of this term; by the refraction which they differ in the prifm, will be bent from their fruit courte, and instead of going to io as to fall upon the paper at Y, they will be turned upwards, and the picture of the fun produced by them will fall up- on a paper MN that is placed above Y. If all the rays\",\n  \"modern\": \"If a beam of light SF, (No. 32.) that comes from the sun, paths into a dark room through F a round hole in a window shutter EG ; this beam proceeding straight forwards, and falling upon a paper as Y, would there make a round picture of the sun. This picture would be a confused one indeed, if the hole is a large one and there is no lens in the hole. However, as this round spot of light is a picture of the sun, we shall hereafter, notwithstanding its condition, call it by this name. Now if a glass prism ABC is placed between the hole in the window-shutter and the paper at Y, the rays of this beam, by the refraction which they suffer in the prism, will be bent from their straight course, and instead of going on so as to fall upon the paper at Y, they will be turned upwards, and the picture of the sun produced by them will fall upon a paper MN that is placed above Y. If all the rays\"\n}",
+ "usage": {
+  "completion_tokens": 447,
+  "prompt_tokens": 899,
+  "total_tokens": 1346,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 376
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "If a beam of light SF, (No. 32.) that comes from the fun, paths into a dark room through F a round hole in a window fluter EG ; this beam proceeding straight forwards, and falling upon a paper as Y, would there make a round picture of the fun. This picture would be a confufed one indeed, if the hole is a large one and there is no lens in the hole. However, as this round f spotlight a a picture of the fun, we shall hereafter, notwithflanking its condition, call it by this name. Now it a glafs prifm ABC is placed between the hole in the window-fluiter and the paper at Y, the rays of this term; by the refraction which they differ in the prifm, will be bent from their fruit courte, and instead of going to io as to fall upon the paper at Y, they will be turned upwards, and the picture of the fun produced by them will fall up- on a paper MN that is placed above Y. If all the rays",
+  "modern": "If a beam of light SF, (No. 32.) that comes from the sun, paths into a dark room through F a round hole in a window shutter EG ; this beam proceeding straight forwards, and falling upon a paper as Y, would there make a round picture of the sun. This picture would be a confused one indeed, if the hole is a large one and there is no lens in the hole. However, as this round spot of light is a picture of the sun, we shall hereafter, notwithstanding its condition, call it by this name. Now if a glass prism ABC is placed between the hole in the window-shutter and the paper at Y, the rays of this beam, by the refraction which they suffer in the prism, will be bent from their straight course, and instead of going on so as to fall upon the paper at Y, they will be turned upwards, and the picture of the sun produced by them will fall upon a paper MN that is placed above Y. If all the rays"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "8c3bf50bbc31621ce5e822a52d116f4c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The comitia curvida owed its origin to the division which Romulus made of the people into thirty curtu, ten being consumed in every tribe. The curtu answered the next te- aspects to the problem is our cities, being not only separated by proper bounds and limits, but distinguished too by the different places set apart in each for the celebration of religious service, which was performed by particular priest called _extremely,_ one to every citizen.",
+ "content": "{\n  \"faithful\": \"The comitia curiata owed its origin to the division which Romulus made of the people into thirty curiæ, ten being contained in every tribe. The curiæ answered in most respects to the parishes in our cities, being not only separated by proper bounds and limits, but distinguished too by the different places set apart in each for the celebration of religious service, which was performed by particular priests (called curiones), one to every curia.\",\n  \"modern\": \"The comitia curiata owed its origin to the division which Romulus made of the people into thirty curiae, ten being contained in every tribe. The curiae answered in most respects to the parishes in our cities, being not only separated by proper bounds and limits, but distinguished too by the different places set apart in each for the celebration of religious service, which was performed by particular priests (called curiones), one to every curia.\"\n}",
+ "usage": {
+  "completion_tokens": 197,
+  "prompt_tokens": 654,
+  "total_tokens": 851,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The comitia curiata owed its origin to the division which Romulus made of the people into thirty curiæ, ten being contained in every tribe. The curiæ answered in most respects to the parishes in our cities, being not only separated by proper bounds and limits, but distinguished too by the different places set apart in each for the celebration of religious service, which was performed by particular priests (called curiones), one to every curia.",
+  "modern": "The comitia curiata owed its origin to the division which Romulus made of the people into thirty curiae, ten being contained in every tribe. The curiae answered in most respects to the parishes in our cities, being not only separated by proper bounds and limits, but distinguished too by the different places set apart in each for the celebration of religious service, which was performed by particular priests (called curiones), one to every curia."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "9e773b458992583934e9ce040ed4c424",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_535: Efential oil of ruse-laaves._ L. L.",
+ "content": "{\n  \"faithful\": \"535. Efential oil of rue-leaves. L. L. oil of rue has a very acrid taste, and\",\n  \"modern\": \"535. Essential oil of rue-leaves. L. L. oil of rue has a very acrid taste, and\"\n}",
+ "usage": {
+  "completion_tokens": 70,
+  "prompt_tokens": 622,
+  "total_tokens": 692,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "535. Efential oil of rue-leaves. L. L. oil of rue has a very acrid taste, and",
+  "modern": "535. Essential oil of rue-leaves. L. L. oil of rue has a very acrid taste, and"
+ },
+ "error": null
+}

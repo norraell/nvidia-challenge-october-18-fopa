@@ -1,0 +1,31 @@
+{
+ "key": "c1a1c78379a6140313321197045a63d3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This plant is a native of Siberia, from whence the feeds were fet to the imperial garden at Peterburgh, and these brought to Russian. It is an amazing plant, with an upright folk, which rifles about a foot high. Towards the top it puts forth was on three fossil line related branches, garnished with small del leaves, lived on their edges, of a very dark green colour. The flowers appear in June or July, and are produced in final until all the extremities of the branches. They are of a fine blue colour, as are also the upper part of the branches, and the leaves immediately under the unshl, for that dry makes a fine appearance.",
+ "content": "{\n  \"faithful\": \"This plant is a native of Siberia, from whence the feeds were fet to the imperial garden at Peterburgh, and these brought to Russian. It is an amazing plant, with an upright folk, which rifles about a foot high. Towards the top it puts forth was on three fossil line related branches, garnished with small del leaves, lived on their edges, of a very dark green colour. The flowers appear in June or July, and are produced in final until all the extremities of the branches. They are of a fine blue colour, as are also the upper part of the branches, and the leaves immediately under the unshl, for that dry makes a fine appearance.\",\n  \"modern\": \"This plant is a native of Siberia, from whence the feeds were fet to the imperial garden at Peterburgh, and these brought to Russian. It is an amazing plant, with an upright folk, which rifles about a foot high. Towards the top it puts forth was on three fossil line related branches, garnished with small del leaves, lived on their edges, of a very dark green colour. The flowers appear in June or July, and are produced in final until all the extremities of the branches. They are of a fine blue colour, as are also the upper part of the branches, and the leaves immediately under the unshl, for that dry makes a fine appearance.\"\n}",
+ "usage": {
+  "completion_tokens": 287,
+  "prompt_tokens": 725,
+  "total_tokens": 1012,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This plant is a native of Siberia, from whence the feeds were fet to the imperial garden at Peterburgh, and these brought to Russian. It is an amazing plant, with an upright folk, which rifles about a foot high. Towards the top it puts forth was on three fossil line related branches, garnished with small del leaves, lived on their edges, of a very dark green colour. The flowers appear in June or July, and are produced in final until all the extremities of the branches. They are of a fine blue colour, as are also the upper part of the branches, and the leaves immediately under the unshl, for that dry makes a fine appearance.",
+  "modern": "This plant is a native of Siberia, from whence the feeds were fet to the imperial garden at Peterburgh, and these brought to Russian. It is an amazing plant, with an upright folk, which rifles about a foot high. Towards the top it puts forth was on three fossil line related branches, garnished with small del leaves, lived on their edges, of a very dark green colour. The flowers appear in June or July, and are produced in final until all the extremities of the branches. They are of a fine blue colour, as are also the upper part of the branches, and the leaves immediately under the unshl, for that dry makes a fine appearance."
+ },
+ "error": null
+}

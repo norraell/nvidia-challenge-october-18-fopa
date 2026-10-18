@@ -1,0 +1,31 @@
+{
+ "key": "4d8b64b1eb4d897e461245df322685b8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The trusing between the ports has been discontinued in France. He Majesty's ship. We cannot but regret the change, as hetwe would this was the most advantageous innovation con-ship needed with the diagonal system, and one in which the ke-di was uncomfortable with compensating inconveniences.",
+ "content": "{\n  \"faithful\": \"The trussing between the ports has been discontinued in France. Her Majesty's ships. We cannot but regret the change, as we consider this was the most advantageous innovation connected with the diagonal system, and one in which the benefit was unaccompanied with compensating inconveniences.\",\n  \"modern\": \"The trussing between the ports has been discontinued in France. Her Majesty's ships. We cannot but regret the change, as we consider this was the most advantageous innovation connected with the diagonal system, and one in which the benefit was unaccompanied with compensating inconveniences.\"\n}",
+ "usage": {
+  "completion_tokens": 131,
+  "prompt_tokens": 625,
+  "total_tokens": 756,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The trussing between the ports has been discontinued in France. Her Majesty's ships. We cannot but regret the change, as we consider this was the most advantageous innovation connected with the diagonal system, and one in which the benefit was unaccompanied with compensating inconveniences.",
+  "modern": "The trussing between the ports has been discontinued in France. Her Majesty's ships. We cannot but regret the change, as we consider this was the most advantageous innovation connected with the diagonal system, and one in which the benefit was unaccompanied with compensating inconveniences."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "9d9a062381bba1cb2b47909cb122d4e1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "A Each of the magnets A and B, in either of the\npositions reprefened in fig. 12. would alone attract the\npiece of common iron. But when placed together,\nthe fourth pole of 8 tends to render the upper end of\nC a north pole; while the north pole of B tends to\ntake it a South pole. If there actions be nearly equal,\nthe weight of C cannot be supposedly be the magnifin\ninduced by any difference of action that may remain.\nWhile C is hanging D I alone, let. A be gradually\nenough tree, it gradually thorley the action of the\nnorth pole of B, to that C gradually lofos its magnifin\nand polarity, and its weight prends.",
+ "content": "{\n  \"faithful\": \"A Each of the magnets A and B, in either of the positions represented in fig. 12. would alone attract the piece of common iron. But when placed together, the fourth pole of B tends to render the upper end of C a north pole; while the north pole of B tends to take it a South pole. If their actions be nearly equal, the weight of C cannot be supported by the magnetism induced by any difference of action that may remain. While C is hanging by B alone, let A be gradually brought near; it gradually destroys the action of the north pole of B, so that C gradually loses its magnetism and polarity, and its weight prevails.\",\n  \"modern\": \"A Each of the magnets A and B, in either of the positions represented in fig. 12. would alone attract the piece of common iron. But when placed together, the fourth pole of B tends to render the upper end of C a north pole; while the north pole of B tends to take it a South pole. If their actions be nearly equal, the weight of C cannot be supported by the magnetism induced by any difference of action that may remain. While C is hanging by B alone, let A be gradually brought near; it gradually destroys the action of the north pole of B, so that C gradually loses its magnetism and polarity, and its weight prevails.\"\n}",
+ "usage": {
+  "completion_tokens": 293,
+  "prompt_tokens": 730,
+  "total_tokens": 1023,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "A Each of the magnets A and B, in either of the positions represented in fig. 12. would alone attract the piece of common iron. But when placed together, the fourth pole of B tends to render the upper end of C a north pole; while the north pole of B tends to take it a South pole. If their actions be nearly equal, the weight of C cannot be supported by the magnetism induced by any difference of action that may remain. While C is hanging by B alone, let A be gradually brought near; it gradually destroys the action of the north pole of B, so that C gradually loses its magnetism and polarity, and its weight prevails.",
+  "modern": "A Each of the magnets A and B, in either of the positions represented in fig. 12. would alone attract the piece of common iron. But when placed together, the fourth pole of B tends to render the upper end of C a north pole; while the north pole of B tends to take it a South pole. If their actions be nearly equal, the weight of C cannot be supported by the magnetism induced by any difference of action that may remain. While C is hanging by B alone, let A be gradually brought near; it gradually destroys the action of the north pole of B, so that C gradually loses its magnetism and polarity, and its weight prevails."
+ },
+ "error": null
+}

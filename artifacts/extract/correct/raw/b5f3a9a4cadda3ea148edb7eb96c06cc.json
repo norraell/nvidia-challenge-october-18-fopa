@@ -1,0 +1,31 @@
+{
+ "key": "b5f3a9a4cadda3ea148edb7eb96c06cc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ENDORSE, in heraldry, or ordinary, containing the eighth of a pale, which Legie faya is only ufel when a pale at between two of them.",
+ "content": "{\n  \"faithful\": \"ENDORSE, in heraldry, an ordinary, containing the eighth part of a pale, which Leigh fays is only ufed when a pale is between two of them.\",\n  \"modern\": \"ENDORSE, in heraldry, an ordinary, containing the eighth part of a pale, which Leigh fays is only used when a pale is between two of them.\"\n}",
+ "usage": {
+  "completion_tokens": 86,
+  "prompt_tokens": 612,
+  "total_tokens": 698,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ENDORSE, in heraldry, an ordinary, containing the eighth part of a pale, which Leigh fays is only ufed when a pale is between two of them.",
+  "modern": "ENDORSE, in heraldry, an ordinary, containing the eighth part of a pale, which Leigh fays is only used when a pale is between two of them."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "2073f1ff2af3212b270ca482095ac200",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Thoos. attended, walking as mourners. The queen and princesses also assisted at the ceremony of people including the public bodies, mountains and ascidental, amoured to many thousands. An interesting part of the ceremony was the performance of a woman written by the sculptor’s initiale and the friend of Manchester.",
+ "content": "{\n  \"faithful\": \"Thoos. attended, walking as mourners. The queen and princesses also assisted at the ceremony, and the concourse of people, including the public bodies, municipal and academical, amounted to many thousands. An interesting part of the ceremony was the performance of a requiem written by the sculptor's intimate and dear friend Ehlenschlager.\",\n  \"modern\": \"Those. attended, walking as mourners. The queen and princesses also assisted at the ceremony, and the concourse of people, including the public bodies, municipal and academical, amounted to many thousands. An interesting part of the ceremony was the performance of a requiem written by the sculptor's intimate and dear friend Ehlenschlager.\"\n}",
+ "usage": {
+  "completion_tokens": 157,
+  "prompt_tokens": 646,
+  "total_tokens": 803,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Thoos. attended, walking as mourners. The queen and princesses also assisted at the ceremony, and the concourse of people, including the public bodies, municipal and academical, amounted to many thousands. An interesting part of the ceremony was the performance of a requiem written by the sculptor's intimate and dear friend Ehlenschlager.",
+  "modern": "Those. attended, walking as mourners. The queen and princesses also assisted at the ceremony, and the concourse of people, including the public bodies, municipal and academical, amounted to many thousands. An interesting part of the ceremony was the performance of a requiem written by the sculptor's intimate and dear friend Ehlenschlager."
+ },
+ "error": null
+}

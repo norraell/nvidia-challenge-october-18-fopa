@@ -1,0 +1,31 @@
+{
+ "key": "3c6150733c31212e793b7d51244e49d0",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "RECTION, in a general fence, the art of railing or e- levating any thing, as the creation of a perpendicular, or. It is all collected in a figurative leafe, as the creo- tion of a abhorgic, inauguralus, etc.",
+ "content": "{\n  \"faithful\": \"ERECTION, in a general fenfe, the art of raifing or e- levating any thing, as the erection of a perpendicular, &c. It is alfo ufed in a figurative fenfe, as the erec- tion of a bishopric, marquifate, &c.\",\n  \"modern\": \"ERECTION, in a general sense, the art of raising or elevating any thing, as the erection of a perpendicular, &c. It is also used in a figurative sense, as the erection of a bishopric, marquisate, &c.\"\n}",
+ "usage": {
+  "completion_tokens": 132,
+  "prompt_tokens": 641,
+  "total_tokens": 773,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ERECTION, in a general fenfe, the art of raifing or e- levating any thing, as the erection of a perpendicular, &c. It is alfo ufed in a figurative fenfe, as the erec- tion of a bishopric, marquifate, &c.",
+  "modern": "ERECTION, in a general sense, the art of raising or elevating any thing, as the erection of a perpendicular, &c. It is also used in a figurative sense, as the erection of a bishopric, marquisate, &c."
+ },
+ "error": null
+}

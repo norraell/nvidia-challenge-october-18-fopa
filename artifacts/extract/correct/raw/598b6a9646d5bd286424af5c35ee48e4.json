@@ -1,0 +1,31 @@
+{
+ "key": "598b6a9646d5bd286424af5c35ee48e4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The true nature of artisticening thus fo little knowo, it is no wonder to find chemills differing very much as to the clafe of a natural bodies in which I ought to be placed. Avicans and a great member of other clash it with the fulphurts; Albertus Magnus and his follow- er, among the flats. Deber conflicts it as kind of pop, on faina fulphureos body. Later experiments, however, have made residents, that white are the conflict for some such unusual to playable, and that by diminishing the history, the acid becomes more and more apperate, while, on the contrary, by augmenting the pana- entity of playingthe role, present by of playingthe role. For information the metal- licorn. With respect to the fulphurous nature of arleni; it appear, indeed that the regulardif, as well as organism and realger, are infamable filialances; but it is not lo with white arnico. This inflammabri- , therefore, which arleni in a certain date has in common with zinc and several other than others, will not denominate ir fulphuircous, any more than those of other bodies which yields the concourty property ofin- malmality can be determined (_fulphur._",
+ "content": "{\n  \"faithful\": \"The true nature of artisticening thus fo little knowo, it is no wonder to find chemills differing very much as to the clafe of a natural bodies in which I ought to be placed. Avicans and a great member of other clash it with the fulphurts; Albertus Magnus and his follow- er, among the flats. Deber conflicts it as kind of pop, on faina fulphureos body. Later experiments, however, have made residents, that white are the conflict for some such unusual to playable, and that by diminishing the history, the acid becomes more and more apperate, while, on the contrary, by augmenting the pana- entity of playingthe role, present by of playingthe role. For information the metal- licorn. With respect to the fulphurous nature of arleni; it appear, indeed that the regulardif, as well as organism and realger, are infamable filialances; but it is not lo with white arnico. This inflammabri- , therefore, which arleni in a certain date has in common with zinc and several other than others, will not denominate ir fulphuircous, any more than those of other bodies which yields the concourty property ofin- malmality can be determined (_fulphur._\",\n  \"modern\": \"The true nature of artisticening thus so little known, it is no wonder to find chemists differing very much as to the class of natural bodies in which it ought to be placed. Avicenna and a great number of others class it with the sulphurs; Albertus Magnus and his follower, among the salts. Becher confides it as a kind of foam, or falcigenous body. Later experiments, however, have made it evident, that white arsenic conflicts of an acid united to phlogiston; and that by diminishing the latter, the acid becomes more and more apparent; while, on the contrary, by augmenting the quantity of phlogistic matter, the arsenic assumes the metallic form. With respect to the fulphurous nature of arsenic, it appears, indeed that the regulus itself, as well as orpiment and realgar, are inflammable substances; but it is not so with white arsenic. This inflammability, therefore, which arsenic in a certain state has in common with zinc and several other metals, will not denominate it sulphureous, any more than those of other bodies which possess the common property of inflammability can be denominated sulphur.\"\n}",
+ "usage": {
+  "completion_tokens": 534,
+  "prompt_tokens": 993,
+  "total_tokens": 1527,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 416
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The true nature of artisticening thus fo little knowo, it is no wonder to find chemills differing very much as to the clafe of a natural bodies in which I ought to be placed. Avicans and a great member of other clash it with the fulphurts; Albertus Magnus and his follow- er, among the flats. Deber conflicts it as kind of pop, on faina fulphureos body. Later experiments, however, have made residents, that white are the conflict for some such unusual to playable, and that by diminishing the history, the acid becomes more and more apperate, while, on the contrary, by augmenting the pana- entity of playingthe role, present by of playingthe role. For information the metal- licorn. With respect to the fulphurous nature of arleni; it appear, indeed that the regulardif, as well as organism and realger, are infamable filialances; but it is not lo with white arnico. This inflammabri- , therefore, which arleni in a certain date has in common with zinc and several other than others, will not denominate ir fulphuircous, any more than those of other bodies which yields the concourty property ofin- malmality can be determined (_fulphur._",
+  "modern": "The true nature of artisticening thus so little known, it is no wonder to find chemists differing very much as to the class of natural bodies in which it ought to be placed. Avicenna and a great number of others class it with the sulphurs; Albertus Magnus and his follower, among the salts. Becher confides it as a kind of foam, or falcigenous body. Later experiments, however, have made it evident, that white arsenic conflicts of an acid united to phlogiston; and that by diminishing the latter, the acid becomes more and more apparent; while, on the contrary, by augmenting the quantity of phlogistic matter, the arsenic assumes the metallic form. With respect to the fulphurous nature of arsenic, it appears, indeed that the regulus itself, as well as orpiment and realgar, are inflammable substances; but it is not so with white arsenic. This inflammability, therefore, which arsenic in a certain state has in common with zinc and several other metals, will not denominate it sulphureous, any more than those of other bodies which possess the common property of inflammability can be denominated sulphur."
+ },
+ "error": null
+}

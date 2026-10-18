@@ -1,0 +1,31 @@
+{
+ "key": "351ed83d27433f13f6a9e1ca1b0469ab",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "2. This falls is in nonfrentacyrdia, the form of which has had been determined. When it is propelled to the air, it is converted into fulphate of ammonia and magenails. It is leef fulphin in water than either of the two fulphite of which it is formed. By the action of heat, fulphurous acid is given on, aculusful fulphite of ammonia is fublimed, and there remains behind pure",
+ "content": "{\n  \"faithful\": \"2. This fult is in tranfparent cryftals, the form of which has not been determined. When it is expofed to the air, it is converted into fulpbate of ammonia and magnesia. It is lefs fuble in water than either of the two fulpbites of which it is formed. By the action of heat, fulphurous acid is given out, acidulous fulpbite of ammonia is fublimed, and there remains behind pure\",\n  \"modern\": \"2. This salt is in transparent crystals, the form of which has not been determined. When it is exposed to the air, it is converted into sulphate of ammonia and magnesia. It is less soluble in water than either of the two sulphites of which it is formed. By the action of heat, sulphurous acid is given out, acidulous sulphite of ammonia is sublimed, and there remains behind pure\"\n}",
+ "usage": {
+  "completion_tokens": 208,
+  "prompt_tokens": 685,
+  "total_tokens": 893,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "2. This fult is in tranfparent cryftals, the form of which has not been determined. When it is expofed to the air, it is converted into fulpbate of ammonia and magnesia. It is lefs fuble in water than either of the two fulpbites of which it is formed. By the action of heat, fulphurous acid is given out, acidulous fulpbite of ammonia is fublimed, and there remains behind pure",
+  "modern": "2. This salt is in transparent crystals, the form of which has not been determined. When it is exposed to the air, it is converted into sulphate of ammonia and magnesia. It is less soluble in water than either of the two sulphites of which it is formed. By the action of heat, sulphurous acid is given out, acidulous sulphite of ammonia is sublimed, and there remains behind pure"
+ },
+ "error": null
+}

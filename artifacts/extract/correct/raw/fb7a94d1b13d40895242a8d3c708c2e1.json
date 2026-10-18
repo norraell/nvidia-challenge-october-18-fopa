@@ -1,0 +1,31 @@
+{
+ "key": "fb7a94d1b13d40895242a8d3c708c2e1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1. The compound of fulphurous acid and magnella is formed by pataling fulphurous acid gas into two parts of water, with one of carbonate of magnella. A violent effervescent takes place, with the evolution of heat. The fulphite of magnella is formed, and precipitated to the bottom in the fate of powder / but with an excess of acid it is reaffilatively, and crytallizes.",
+ "content": "{\n  \"faithful\": \"1. The compound of fulphurous acid and magnella is formed by pataling fulphurous acid gas into two parts of water, with one of carbonate of magnella. A violent effervescent takes place, with the evolution of heat. The fulphite of magnella is formed, and precipitated to the bottom in the fate of powder / but with an excess of acid it is reaffilatively, and crytallizes.\",\n  \"modern\": \"1. The compound of sulphurous acid and magnesia is formed by passing sulphurous acid gas into two parts of water, with one of carbonate of magnesia. A violent effervescence takes place, with the evolution of heat. The sulphite of magnesia is formed, and precipitated to the bottom in the state of powder; but with an excess of acid it is redissolved, and crystallizes.\"\n}",
+ "usage": {
+  "completion_tokens": 192,
+  "prompt_tokens": 675,
+  "total_tokens": 867,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1. The compound of fulphurous acid and magnella is formed by pataling fulphurous acid gas into two parts of water, with one of carbonate of magnella. A violent effervescent takes place, with the evolution of heat. The fulphite of magnella is formed, and precipitated to the bottom in the fate of powder / but with an excess of acid it is reaffilatively, and crytallizes.",
+  "modern": "1. The compound of sulphurous acid and magnesia is formed by passing sulphurous acid gas into two parts of water, with one of carbonate of magnesia. A violent effervescence takes place, with the evolution of heat. The sulphite of magnesia is formed, and precipitated to the bottom in the state of powder; but with an excess of acid it is redissolved, and crystallizes."
+ },
+ "error": null
+}

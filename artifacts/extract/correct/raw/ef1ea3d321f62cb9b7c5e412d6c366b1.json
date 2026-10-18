@@ -1,0 +1,31 @@
+{
+ "key": "ef1ea3d321f62cb9b7c5e412d6c366b1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "THONF.ANS, ThOMSTS, or Chiffistur of St Thomas, a people of the Ealt-Infer, who, according to the tradious received the Gorgeel for St Thomas. Upon the arrival of the Portuguese at Calising, in her first marriage to the Indier, they met with ancient Chiffans, who pre tended to be defended from shale covered by StThomas. \"The Thomas’s being informed is a new people arrived a momg them, who bore a particular veneration for the",
+ "content": "{\n  \"faithful\": \"THOMANS, Thomists, or Christians of St Thomas, a people of the East-Indies, who, according to the tradition, received the Gospel from St Thomas. Upon the arrival of the Portuguese at Calicut, in their first voyage to the Indies, they met with ancient Christians, who pretended to be descended from those converted by St Thomas. The Thomans being informed of a new people arrived among them, who bore a particular veneration for the\",\n  \"modern\": \"THOMANS, Thomists, or Christians of St Thomas, a people of the East-Indies, who, according to the tradition, received the Gospel from St Thomas. Upon the arrival of the Portuguese at Calicut, in their first voyage to the Indies, they met with ancient Christians, who pretended to be descended from those converted by St Thomas. The Thomans being informed of a new people arrived among them, who bore a particular veneration for the\"\n}",
+ "usage": {
+  "completion_tokens": 203,
+  "prompt_tokens": 700,
+  "total_tokens": 903,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "THOMANS, Thomists, or Christians of St Thomas, a people of the East-Indies, who, according to the tradition, received the Gospel from St Thomas. Upon the arrival of the Portuguese at Calicut, in their first voyage to the Indies, they met with ancient Christians, who pretended to be descended from those converted by St Thomas. The Thomans being informed of a new people arrived among them, who bore a particular veneration for the",
+  "modern": "THOMANS, Thomists, or Christians of St Thomas, a people of the East-Indies, who, according to the tradition, received the Gospel from St Thomas. Upon the arrival of the Portuguese at Calicut, in their first voyage to the Indies, they met with ancient Christians, who pretended to be descended from those converted by St Thomas. The Thomans being informed of a new people arrived among them, who bore a particular veneration for the"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "0b14acab39d54be5de64cf2ba7bce53e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Ataraxy, a term ed by the floes and fequips, to denote that calmness of mind which feureus us from all emotions arising from vanity and fell-conceit.",
+ "content": "{\n  \"faithful\": \"ATARAXY, a term ufed by the ftoics and fceptics, to denote that calmnefs of mind which fecures us from all emotions arifing from vanity and felf-conceit.\",\n  \"modern\": \"ATARAXY, a term used by the stoics and skeptics, to denote that calmness of mind which secures us from all emotions arising from vanity and self-conceit.\"\n}",
+ "usage": {
+  "completion_tokens": 101,
+  "prompt_tokens": 617,
+  "total_tokens": 718,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ATARAXY, a term ufed by the ftoics and fceptics, to denote that calmnefs of mind which fecures us from all emotions arifing from vanity and felf-conceit.",
+  "modern": "ATARAXY, a term used by the stoics and skeptics, to denote that calmness of mind which secures us from all emotions arising from vanity and self-conceit."
+ },
+ "error": null
+}

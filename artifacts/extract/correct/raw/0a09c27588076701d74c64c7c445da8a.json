@@ -1,0 +1,31 @@
+{
+ "key": "0a09c27588076701d74c64c7c445da8a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Black, abdominal oval, forehead white, and leaps on gocuit, its prey. 84. It is to be found frequently in woods about Vienna; abdommed with two compressed dots.",
+ "content": "{\n  \"faithful\": \"Black, abdomen oval, forehead white, and leaps on gocuit, its prey. 84. It is to be found frequently in woods about Vienna; abdomen marked with two compressed dots.\",\n  \"modern\": \"Black, abdomen oval, forehead white, and leaps on gocuit, its prey. 84. It is to be found frequently in woods about Vienna; abdomen marked with two compressed dots.\"\n}",
+ "usage": {
+  "completion_tokens": 97,
+  "prompt_tokens": 625,
+  "total_tokens": 722,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Black, abdomen oval, forehead white, and leaps on gocuit, its prey. 84. It is to be found frequently in woods about Vienna; abdomen marked with two compressed dots.",
+  "modern": "Black, abdomen oval, forehead white, and leaps on gocuit, its prey. 84. It is to be found frequently in woods about Vienna; abdomen marked with two compressed dots."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "4c8e9d91759dfea4c57f465f8899b654",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "gentle suborfics, thorax marked with a large depressed circular spot; abdominal oval; legs equal.",
+ "content": "{\n  \"faithful\": \"gentle sudorific ; thorax marked with a large depressed circular spot ; abdomen oval ; legs equal.\",\n  \"modern\": \"gentle sudorific ; thorax marked with a large depressed circular spot ; abdomen oval ; legs equal.\"\n}",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 612,
+  "total_tokens": 671,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "gentle sudorific ; thorax marked with a large depressed circular spot ; abdomen oval ; legs equal.",
+  "modern": "gentle sudorific ; thorax marked with a large depressed circular spot ; abdomen oval ; legs equal."
+ },
+ "error": null
+}

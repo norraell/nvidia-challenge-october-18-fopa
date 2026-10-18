@@ -1,0 +1,31 @@
+{
+ "key": "fb7ffad493699810b89c1fe8b3a47564",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When it is required that the frequency of a mineral Support of should be heated without the contact of charcoal, the plain.",
+ "content": "{\n  \"faithful\": \"When it is required that the fragment of a mineral Support of should be heated without the contact of charcoal, the platina. fragment is exposed to the flame in a small spoon of pla-\",\n  \"modern\": \"When it is required that the fragment of a mineral Support of should be heated without the contact of charcoal, the platina. fragment is exposed to the flame in a small spoon of pla-\"\n}",
+ "usage": {
+  "completion_tokens": 93,
+  "prompt_tokens": 628,
+  "total_tokens": 721,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When it is required that the fragment of a mineral Support of should be heated without the contact of charcoal, the platina. fragment is exposed to the flame in a small spoon of pla-",
+  "modern": "When it is required that the fragment of a mineral Support of should be heated without the contact of charcoal, the platina. fragment is exposed to the flame in a small spoon of pla-"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "9be6d4a6c6f08c76cf3ff509e3dbdd3c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Nor are the adulterations of thefe kinds of prepara-tions easily disconoable. The groffer abubic indeed may be readily detected, thus if the oil is mixed with fpirit of wine, it will turn milky on the addition of water ; if with spearful oils, rectificil spirit will differ the eficient, and leave the ober behind; if with oil of turpentine, no dipping a piece of paper in the mixture, and drying it with a gentle heat, the turpen- we will be betrayed by its final). But the more fubble artift have corrected other methods ofophilisation, which elude all trials of this kind.",
+ "content": "{\n  \"faithful\": \"Nor are the adulterations of thefe kinds of prepara-tions easily disconoable. The groffer abubic indeed may be readily detected, thus if the oil is mixed with fpirit of wine, it will turn milky on the addition of water ; if with spearful oils, rectificil spirit will differ the eficient, and leave the ober behind; if with oil of turpentine, no dipping a piece of paper in the mixture, and drying it with a gentle heat, the turpen- we will be betrayed by its final). But the more fubble artift have corrected other methods ofophilisation, which elude all trials of this kind.\",\n  \"modern\": \"Nor are the adulterations of these kinds of preparations easily discoverable. The grosser abuses indeed may be readily detected, thus if the oil is mixed with spirit of wine, it will turn milky on the addition of water; if with expressed oils, rectified spirit will dissolve the essential, and leave the other behind; if with oil of turpentine, on dipping a piece of paper in the mixture, and drying it with a gentle heat, the turpentine will be betrayed by its smell. But the more subtle artists have contrived other methods of sophistication, which elude all trials of this kind.\"\n}",
+ "usage": {
+  "completion_tokens": 284,
+  "prompt_tokens": 720,
+  "total_tokens": 1004,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Nor are the adulterations of thefe kinds of prepara-tions easily disconoable. The groffer abubic indeed may be readily detected, thus if the oil is mixed with fpirit of wine, it will turn milky on the addition of water ; if with spearful oils, rectificil spirit will differ the eficient, and leave the ober behind; if with oil of turpentine, no dipping a piece of paper in the mixture, and drying it with a gentle heat, the turpen- we will be betrayed by its final). But the more fubble artift have corrected other methods ofophilisation, which elude all trials of this kind.",
+  "modern": "Nor are the adulterations of these kinds of preparations easily discoverable. The grosser abuses indeed may be readily detected, thus if the oil is mixed with spirit of wine, it will turn milky on the addition of water; if with expressed oils, rectified spirit will dissolve the essential, and leave the other behind; if with oil of turpentine, on dipping a piece of paper in the mixture, and drying it with a gentle heat, the turpentine will be betrayed by its smell. But the more subtle artists have contrived other methods of sophistication, which elude all trials of this kind."
+ },
+ "error": null
+}

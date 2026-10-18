@@ -1,0 +1,31 @@
+{
+ "key": "55a62b85119d7b935519e47d19aa8540",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Among the Christians likewise, a certain fort of magic is, by miflake, called cabbula, which confits in using improper certain puffages of ferripture for magic operations, or in forming magic characters or figures with flars and talifiments.",
+ "content": "{\n  \"faithful\": \"Among the Christians likewise, a certain fort of magic is, by miflake, called cabbula, which confits in ufing improperly certain palfages of fcripture for magic operations, or in forming magic characters or figures with ftars and talifmans.\",\n  \"modern\": \"Among the Christians likewise, a certain fort of magic is, by mistake, called cabbula, which consists in using improperly certain passages of scripture for magic operations, or in forming magic characters or figures with stars and talismans.\"\n}",
+ "usage": {
+  "completion_tokens": 122,
+  "prompt_tokens": 636,
+  "total_tokens": 758,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Among the Christians likewise, a certain fort of magic is, by miflake, called cabbula, which confits in ufing improperly certain palfages of fcripture for magic operations, or in forming magic characters or figures with ftars and talifmans.",
+  "modern": "Among the Christians likewise, a certain fort of magic is, by mistake, called cabbula, which consists in using improperly certain passages of scripture for magic operations, or in forming magic characters or figures with stars and talismans."
+ },
+ "error": null
+}

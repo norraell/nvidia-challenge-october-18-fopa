@@ -1,0 +1,31 @@
+{
+ "key": "00da3083119bdc7338d845b9acd68db2",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HELLENISTIC, OF HARRISTIC LANDOABT, that ufed by the Greenian Jews who lived in Egypt and other parts where the Greek tango prevailed. In this lan- gauge it is fail the Septragint was written, and all the books of the New Telmaners; and that it was thus denominated to these that it was Greek filled with He- brafinn and Syriacifine.",
+ "content": "{\n  \"faithful\": \"HELLENISTIC, or HELLENISTIC LANGUAGE, that ufed by the Grecian Jews who lived in Egypt and other parts where the Greek tongue prevailed. In this language it is faid the Septuagint was written, and all the books of the New Testament; and that it was thus denominated to fhew that it was Greek filled with Hebraifms and Syriacifms.\",\n  \"modern\": \"HELLENISTIC, or HELLENISTIC LANGUAGE, that used by the Grecian Jews who lived in Egypt and other parts where the Greek tongue prevailed. In this language it is said the Septuagint was written, and all the books of the New Testament; and that it was thus denominated to show that it was Greek filled with Hebraisms and Syriacisms.\"\n}",
+ "usage": {
+  "completion_tokens": 190,
+  "prompt_tokens": 677,
+  "total_tokens": 867,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HELLENISTIC, or HELLENISTIC LANGUAGE, that ufed by the Grecian Jews who lived in Egypt and other parts where the Greek tongue prevailed. In this language it is faid the Septuagint was written, and all the books of the New Testament; and that it was thus denominated to fhew that it was Greek filled with Hebraifms and Syriacifms.",
+  "modern": "HELLENISTIC, or HELLENISTIC LANGUAGE, that used by the Grecian Jews who lived in Egypt and other parts where the Greek tongue prevailed. In this language it is said the Septuagint was written, and all the books of the New Testament; and that it was thus denominated to show that it was Greek filled with Hebraisms and Syriacisms."
+ },
+ "error": null
+}

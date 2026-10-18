@@ -1,0 +1,31 @@
+{
+ "key": "b8c94ce72d23e1d51c10fc134e8ba370",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "object at fg upon a white wall, a fiecet or a fireen of white paper, provided the object is farther from the less than its principal focus. To make this picture appear, dificent and brighty, it must have no other light fall up- on it but what comes through the lens kl ; and for this reason the whole apparatus is to be placed in a dark, room EFGH. The lens A mull be very convex, fo that the object de may be very near to it, and yet not be near- orthan its principal focus; for by this means, as the object is near to the lens, the picture fg will be at a great distance from it , and consequently the picture will be much bigger than the object. Since the picture is inverted in respect of the object, in order to make the picture appear with the right end upwards, it is neceflary that the object de should be placed with the wrong end upwards.",
+ "content": "{\n  \"faithful\": \"object at fg upon a white wall, a fiecet or a fireen of white paper, provided the object is farther from the less than its principal focus. To make this picture appear, dificent and brighty, it must have no other light fall up- on it but what comes through the lens kl ; and for this reason the whole apparatus is to be placed in a dark, room EFGH. The lens A mull be very convex, fo that the object de may be very near to it, and yet not be near- orthan its principal focus; for by this means, as the object is near to the lens, the picture fg will be at a great distance from it , and consequently the picture will be much bigger than the object. Since the picture is inverted in respect of the object, in order to make the picture appear with the right end upwards, it is neceflary that the object de should be placed with the wrong end upwards.\",\n  \"modern\": \"object at fg upon a white wall, a fiecet or a fireen of white paper, provided the object is farther from the less than its principal focus. To make this picture appear, dificent and brighty, it must have no other light fall up- on it but what comes through the lens kl ; and for this reason the whole apparatus is to be placed in a dark, room EFGH. The lens A must be very convex, so that the object de may be very near to it, and yet not be nearer than its principal focus; for by this means, as the object is near to the lens, the picture fg will be at a great distance from it, and consequently the picture will be much bigger than the object. Since the picture is inverted in respect of the object, in order to make the picture appear with the right end upwards, it is necessary that the object de should be placed with the wrong end upwards.\"\n}",
+ "usage": {
+  "completion_tokens": 402,
+  "prompt_tokens": 851,
+  "total_tokens": 1253,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 354
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "object at fg upon a white wall, a fiecet or a fireen of white paper, provided the object is farther from the less than its principal focus. To make this picture appear, dificent and brighty, it must have no other light fall up- on it but what comes through the lens kl ; and for this reason the whole apparatus is to be placed in a dark, room EFGH. The lens A mull be very convex, fo that the object de may be very near to it, and yet not be near- orthan its principal focus; for by this means, as the object is near to the lens, the picture fg will be at a great distance from it , and consequently the picture will be much bigger than the object. Since the picture is inverted in respect of the object, in order to make the picture appear with the right end upwards, it is neceflary that the object de should be placed with the wrong end upwards.",
+  "modern": "object at fg upon a white wall, a fiecet or a fireen of white paper, provided the object is farther from the less than its principal focus. To make this picture appear, dificent and brighty, it must have no other light fall up- on it but what comes through the lens kl ; and for this reason the whole apparatus is to be placed in a dark, room EFGH. The lens A must be very convex, so that the object de may be very near to it, and yet not be nearer than its principal focus; for by this means, as the object is near to the lens, the picture fg will be at a great distance from it, and consequently the picture will be much bigger than the object. Since the picture is inverted in respect of the object, in order to make the picture appear with the right end upwards, it is necessary that the object de should be placed with the wrong end upwards."
+ },
+ "error": null
+}

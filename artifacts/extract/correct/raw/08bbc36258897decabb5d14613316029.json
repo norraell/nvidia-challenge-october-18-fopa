@@ -1,0 +1,31 @@
+{
+ "key": "08bbc36258897decabb5d14613316029",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "2. The crythals of this fall are and the form of free frozen grains, it has a bitter, acids, and ammonated tafte. It is lefs deliquent in the air than either of the confluent fats, and lefs foluble in water. It requires 11 parts of cold water as differs it, but lefs of boiling water. It crytallizes on cooling.",
+ "content": "{\n  \"faithful\": \"2. The crythals of this fall are and the form of free frozen grains, it has a bitter, acids, and ammonated tafte. It is lefs deliquent in the air than either of the confluent fats, and lefs foluble in water. It requires 11 parts of cold water as differs it, but lefs of boiling water. It crytallizes on cooling.\",\n  \"modern\": \"2. The crythals of this fall are and the form of free frozen grains, it has a bitter, acids, and ammonated tafte. It is less delinquent in the air than either of the confluent fats, and less soluble in water. It requires 11 parts of cold water as differs it, but less of boiling water. It crystallizes on cooling.\"\n}",
+ "usage": {
+  "completion_tokens": 180,
+  "prompt_tokens": 678,
+  "total_tokens": 858,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "2. The crythals of this fall are and the form of free frozen grains, it has a bitter, acids, and ammonated tafte. It is lefs deliquent in the air than either of the confluent fats, and lefs foluble in water. It requires 11 parts of cold water as differs it, but lefs of boiling water. It crytallizes on cooling.",
+  "modern": "2. The crythals of this fall are and the form of free frozen grains, it has a bitter, acids, and ammonated tafte. It is less delinquent in the air than either of the confluent fats, and less soluble in water. It requires 11 parts of cold water as differs it, but less of boiling water. It crystallizes on cooling."
+ },
+ "error": null
+}

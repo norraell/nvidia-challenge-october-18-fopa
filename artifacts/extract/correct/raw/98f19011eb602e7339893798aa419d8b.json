@@ -1,0 +1,31 @@
+{
+ "key": "98f19011eb602e7339893798aa419d8b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "What the doctor thus calculates, from deposition, with regard to mandind, he actually experimented op-on horfes, dogs, fallow-does, cz, by fixing tubes, in<y_0.1734><class_Text>\n\n<x_0.5459><y_0.0625>cerifices opened in their veins and arteries ; by obfer-ving into federal heights, or which the blood rode in these tubes, as they lay on the ground, y and by mea- firing the capacities of the ventricles of the heart, and orifice of the arteries. And, that the reader may the more readily compare the faid eliminates together, he has given a table of them, ranged in the following order.",
+ "content": "{\n  \"faithful\": \"What the doctor thus calculates, from deposition, with regard to mandind, he actually experimented op-on horfes, dogs, fallow-does, cz, by fixing tubes, in<y_0.1734><class_Text>\\n\\n<x_0.5459><y_0.0625>cerifices opened in their veins and arteries ; by obfer-ving into federal heights, or which the blood rode in these tubes, as they lay on the ground, y and by mea- firing the capacities of the ventricles of the heart, and orifice of the arteries. And, that the reader may the more readily compare the faid eliminates together, he has given a table of them, ranged in the following order.\",\n  \"modern\": \"What the doctor thus calculates, from deposition, with regard to mankind, he actually experimented upon horses, dogs, fallow-does, etc., by fixing tubes, in orifices opened in their veins and arteries; by observing into federal heights, or which the blood rode in these tubes, as they lay on the ground, and by measuring the capacities of the ventricles of the heart, and orifice of the arteries. And, that the reader may the more readily compare the said estimates together, he has given a table of them, ranged in the following order.\"\n}",
+ "usage": {
+  "completion_tokens": 288,
+  "prompt_tokens": 766,
+  "total_tokens": 1054,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 308
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "What the doctor thus calculates, from deposition, with regard to mandind, he actually experimented op-on horfes, dogs, fallow-does, cz, by fixing tubes, in<y_0.1734><class_Text>\n\n<x_0.5459><y_0.0625>cerifices opened in their veins and arteries ; by obfer-ving into federal heights, or which the blood rode in these tubes, as they lay on the ground, y and by mea- firing the capacities of the ventricles of the heart, and orifice of the arteries. And, that the reader may the more readily compare the faid eliminates together, he has given a table of them, ranged in the following order.",
+  "modern": "What the doctor thus calculates, from deposition, with regard to mankind, he actually experimented upon horses, dogs, fallow-does, etc., by fixing tubes, in orifices opened in their veins and arteries; by observing into federal heights, or which the blood rode in these tubes, as they lay on the ground, and by measuring the capacities of the ventricles of the heart, and orifice of the arteries. And, that the reader may the more readily compare the said estimates together, he has given a table of them, ranged in the following order."
+ },
+ "error": null
+}

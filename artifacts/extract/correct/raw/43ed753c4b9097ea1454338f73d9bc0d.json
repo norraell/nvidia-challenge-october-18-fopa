@@ -1,0 +1,31 @@
+{
+ "key": "43ed753c4b9097ea1454338f73d9bc0d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Thorax hairy, and of an ash colour; the abdomen oval, black, and spotted with red. 95. A native of America; large, the thorax oval, legs black, thighs pale.",
+ "content": "{\n  \"faithful\": \"Thorax hairy, and of an ash colour; the abdomen oval, black, and spotted with red. 95. A native of America; large, the thorax oval, legs black, thighs pale.\",\n  \"modern\": \"Thorax hairy, and of an ash color; the abdomen oval, black, and spotted with red. 95. A native of America; large, the thorax oval, legs black, thighs pale.\"\n}",
+ "usage": {
+  "completion_tokens": 103,
+  "prompt_tokens": 619,
+  "total_tokens": 722,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Thorax hairy, and of an ash colour; the abdomen oval, black, and spotted with red. 95. A native of America; large, the thorax oval, legs black, thighs pale.",
+  "modern": "Thorax hairy, and of an ash color; the abdomen oval, black, and spotted with red. 95. A native of America; large, the thorax oval, legs black, thighs pale."
+ },
+ "error": null
+}

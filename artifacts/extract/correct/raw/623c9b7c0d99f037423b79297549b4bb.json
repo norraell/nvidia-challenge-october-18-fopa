@@ -1,0 +1,31 @@
+{
+ "key": "623c9b7c0d99f037423b79297549b4bb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "\"That a kind of civil we being kinded in the city, Lampard thought he had now a lived in commonable opport niy of making himself matter of the fast of the search, and doubting but the concept of such an important place would be allowed by that of the whole se- archate. Having therefore drawn together all his budget men, he apparently apparent before Ravenna, and and also chiefly believed in. The search itself expedited does take Ka- furpife, as it finally cortopedizedness had been min- named for many years between the scenes and the Lombard kings. However, he defended the place that fish coming and revolution, thus Lampard's defaling of friends, broke up the finger and led his army against Claffis, at a final diference from Ravenna, which",
+ "content": "{\n  \"faithful\": \"That a kind of civil we being kinded in the city, Lampard thought he had now a lived in commonable opport niy of making himself matter of the fast of the search, and doubting but the concept of such an important place would be allowed by that of the whole se- archate. Having therefore drawn together all his budget men, he apparently apparent before Ravenna, and and also chiefly believed in. The search itself expedited does take Ka- furpife, as it finally cortopedizedness had been min- named for many years between the scenes and the Lombard kings. However, he defended the place that fish coming and revolution, thus Lampard's defaling of friends, broke up the finger and led his army against Claffis, at a final diference from Ravenna, which\",\n  \"modern\": \"That a kind of civil we being kinded in the city, Lampard thought he had now a lived in commonable opportunity of making himself matter of the fast of the search, and doubting but the concept of such an important place would be allowed by that of the whole searchate. Having therefore drawn together all his budget men, he apparently apparent before Ravenna, and and also chiefly believed in. The search itself expedited does take Kafurpife, as it finally cortopedizedness had been min- named for many years between the scenes and the Lombard kings. However, he defended the place that fish coming and revolution, thus Lampard's defaling of friends, broke up the finger and led his army against Claffis, at a final diference from Ravenna, which\"\n}",
+ "usage": {
+  "completion_tokens": 343,
+  "prompt_tokens": 750,
+  "total_tokens": 1093,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "That a kind of civil we being kinded in the city, Lampard thought he had now a lived in commonable opport niy of making himself matter of the fast of the search, and doubting but the concept of such an important place would be allowed by that of the whole se- archate. Having therefore drawn together all his budget men, he apparently apparent before Ravenna, and and also chiefly believed in. The search itself expedited does take Ka- furpife, as it finally cortopedizedness had been min- named for many years between the scenes and the Lombard kings. However, he defended the place that fish coming and revolution, thus Lampard's defaling of friends, broke up the finger and led his army against Claffis, at a final diference from Ravenna, which",
+  "modern": "That a kind of civil we being kinded in the city, Lampard thought he had now a lived in commonable opportunity of making himself matter of the fast of the search, and doubting but the concept of such an important place would be allowed by that of the whole searchate. Having therefore drawn together all his budget men, he apparently apparent before Ravenna, and and also chiefly believed in. The search itself expedited does take Kafurpife, as it finally cortopedizedness had been min- named for many years between the scenes and the Lombard kings. However, he defended the place that fish coming and revolution, thus Lampard's defaling of friends, broke up the finger and led his army against Claffis, at a final diference from Ravenna, which"
+ },
+ "error": null
+}

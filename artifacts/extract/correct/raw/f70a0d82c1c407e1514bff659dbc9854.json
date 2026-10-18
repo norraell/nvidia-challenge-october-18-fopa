@@ -1,0 +1,31 @@
+{
+ "key": "f70a0d82c1c407e1514bff659dbc9854",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This is the most pondense of all the known effen-tial oils, but ribs in distillation with efficient cafe: it appears limpid as water, has a moderately pungent taste, a very fragment (well), exactly remember that of the inflates. If hands greatly commended a a flourir, and for purifying the blood and joves: it is like- wife topped to be of review in humoural ashmas and coughs. The dole is from one chop to eight or ten , though Geoffroy goes as far as so.",
+ "content": "{\n  \"faithful\": \"This is the most ponderous of all the known essential oils, but rises in distillation with sufficient ease: it appears limpid as water, has a moderately pungent taste, a very fragrant smell, exactly resembling that of the laffafras. It finds greatly commended as a fudorific, and for purifying the blood and juices: it is likewise supposed to be of service in humourous asthmas and coughs. The dose is from one drop to eight or ten, though Geoffroy goes as far as 20.\",\n  \"modern\": \"This is the most ponderous of all the known essential oils, but rises in distillation with sufficient ease: it appears limpid as water, has a moderately pungent taste, a very fragrant smell, exactly resembling that of the laffafras. It finds greatly commended as a sudorific, and for purifying the blood and juices: it is likewise supposed to be of service in humorous asthmas and coughs. The dose is from one drop to eight or ten, though Geoffroy goes as far as 20.\"\n}",
+ "usage": {
+  "completion_tokens": 242,
+  "prompt_tokens": 680,
+  "total_tokens": 922,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This is the most ponderous of all the known essential oils, but rises in distillation with sufficient ease: it appears limpid as water, has a moderately pungent taste, a very fragrant smell, exactly resembling that of the laffafras. It finds greatly commended as a fudorific, and for purifying the blood and juices: it is likewise supposed to be of service in humourous asthmas and coughs. The dose is from one drop to eight or ten, though Geoffroy goes as far as 20.",
+  "modern": "This is the most ponderous of all the known essential oils, but rises in distillation with sufficient ease: it appears limpid as water, has a moderately pungent taste, a very fragrant smell, exactly resembling that of the laffafras. It finds greatly commended as a sudorific, and for purifying the blood and juices: it is likewise supposed to be of service in humorous asthmas and coughs. The dose is from one drop to eight or ten, though Geoffroy goes as far as 20."
+ },
+ "error": null
+}

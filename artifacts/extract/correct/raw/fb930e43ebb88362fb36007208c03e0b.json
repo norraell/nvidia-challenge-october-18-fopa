@@ -1,0 +1,31 @@
+{
+ "key": "fb930e43ebb88362fb36007208c03e0b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Acrs, in logics is particularly underhood of an operation of the human mind. Thus to difern and examine, are acts of the understanding; to judge and at firm, are due of the will. There are voluntary and fpoantous acts, the former are produced by the o- peration of the foul, the latter without its priority or participation.",
+ "content": "{\n  \"faithful\": \"Acts, in logic, is particularly underfoot of an operation of the human mind. Thus to discern and examine, are acts of the understanding; to judge and affirm, are acts of the will. There are voluntary and spontaneous acts; the former are produced by the operation of the soul, the latter without its priority or participation.\",\n  \"modern\": \"Acts, in logic, is particularly underfoot of an operation of the human mind. Thus to discern and examine, are acts of the understanding; to judge and affirm, are acts of the will. There are voluntary and spontaneous acts; the former are produced by the operation of the soul, the latter without its priority or participation.\"\n}",
+ "usage": {
+  "completion_tokens": 149,
+  "prompt_tokens": 648,
+  "total_tokens": 797,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Acts, in logic, is particularly underfoot of an operation of the human mind. Thus to discern and examine, are acts of the understanding; to judge and affirm, are acts of the will. There are voluntary and spontaneous acts; the former are produced by the operation of the soul, the latter without its priority or participation.",
+  "modern": "Acts, in logic, is particularly underfoot of an operation of the human mind. Thus to discern and examine, are acts of the understanding; to judge and affirm, are acts of the will. There are voluntary and spontaneous acts; the former are produced by the operation of the soul, the latter without its priority or participation."
+ },
+ "error": null
+}

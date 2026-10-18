@@ -1,0 +1,31 @@
+{
+ "key": "91516241c917640a5903e417264123bf",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The goat is an animal of more fugacity than the fleece. Instead of having an autopity, at mankind, they voluntarily simple earth, them, and carefully named. Even an inhabited countries, they literary no favage diffusions. In the year 1608, an English vel-fel having put in to the Bland of Bonavilla, two ac- grote cung aboard, and offered gratis to the captain as many",
+ "content": "{\n  \"faithful\": \"The goat is an animal of more fagaity than the fleece. Instead of having an antipathy at mankind, they voluntarily mingle with them, and are easily tamed. Even in uninhabited countries, they betray no favage difpositions. In the year 1698, an English vefel having put in to the ifland of Bonavilla, two ne-groes came aboard, and offered gratis to the captain as many\",\n  \"modern\": \"The goat is an animal of more fagaity than the fleece. Instead of having an antipathy at mankind, they voluntarily mingle with them, and are easily tamed. Even in uninhabited countries, they betray no savage dispositions. In the year 1698, an English vessel having put in to the island of Bonavilla, two negroes came aboard, and offered gratis to the captain as many\"\n}",
+ "usage": {
+  "completion_tokens": 202,
+  "prompt_tokens": 679,
+  "total_tokens": 881,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The goat is an animal of more fagaity than the fleece. Instead of having an antipathy at mankind, they voluntarily mingle with them, and are easily tamed. Even in uninhabited countries, they betray no favage difpositions. In the year 1698, an English vefel having put in to the ifland of Bonavilla, two ne-groes came aboard, and offered gratis to the captain as many",
+  "modern": "The goat is an animal of more fagaity than the fleece. Instead of having an antipathy at mankind, they voluntarily mingle with them, and are easily tamed. Even in uninhabited countries, they betray no savage dispositions. In the year 1698, an English vessel having put in to the island of Bonavilla, two negroes came aboard, and offered gratis to the captain as many"
+ },
+ "error": null
+}

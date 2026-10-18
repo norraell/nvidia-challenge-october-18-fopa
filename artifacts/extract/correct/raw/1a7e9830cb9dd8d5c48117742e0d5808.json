@@ -1,0 +1,31 @@
+{
+ "key": "1a7e9830cb9dd8d5c48117742e0d5808",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "which compole it a this cabbula is divided into three kinds, the gemartie, the uncommon, and the tenuta or themurah. The fifth whereof confits in taking the letters of a Hebrew word for ciphers or arithmetical numbers, and explaining every word by the arithmetic caling of the letters wherein it is composed. The fecond fort of cabbals, called notaricon, confits in takking every particular letter of a word for an entire edition; and the third, called themumafi, _I.e._ changes, confits in making different transfodions or changes of letters, placing one for the other, or one before the other.",
+ "content": "{\n  \"faithful\": \"which compole it a this cabbula is divided into three kinds, the gemartie, the uncommon, and the tenuta or themurah. The fifth whereof confits in taking the letters of a Hebrew word for ciphers or arithmetical numbers, and explaining every word by the arithmetic caling of the letters wherein it is composed. The fecond fort of cabbals, called notaricon, confits in takking every particular letter of a word for an entire edition; and the third, called themumafi, _I.e._ changes, confits in making different transfodions or changes of letters, placing one for the other, or one before the other.\",\n  \"modern\": \"which compole it a this cabbula is divided into three kinds, the gemartie, the uncommon, and the tenuta or themurah. The fifth whereof confits in taking the letters of a Hebrew word for ciphers or arithmetical numbers, and explaining every word by the arithmetic caling of the letters wherein it is composed. The second fort of cabbals, called notaricon, confits in taking every particular letter of a word for an entire edition; and the third, called themumafi, i.e. changes, confits in making different transpositions or changes of letters, placing one for the other, or one before the other.\"\n}",
+ "usage": {
+  "completion_tokens": 297,
+  "prompt_tokens": 710,
+  "total_tokens": 1007,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "which compole it a this cabbula is divided into three kinds, the gemartie, the uncommon, and the tenuta or themurah. The fifth whereof confits in taking the letters of a Hebrew word for ciphers or arithmetical numbers, and explaining every word by the arithmetic caling of the letters wherein it is composed. The fecond fort of cabbals, called notaricon, confits in takking every particular letter of a word for an entire edition; and the third, called themumafi, _I.e._ changes, confits in making different transfodions or changes of letters, placing one for the other, or one before the other.",
+  "modern": "which compole it a this cabbula is divided into three kinds, the gemartie, the uncommon, and the tenuta or themurah. The fifth whereof confits in taking the letters of a Hebrew word for ciphers or arithmetical numbers, and explaining every word by the arithmetic caling of the letters wherein it is composed. The second fort of cabbals, called notaricon, confits in taking every particular letter of a word for an entire edition; and the third, called themumafi, i.e. changes, confits in making different transpositions or changes of letters, placing one for the other, or one before the other."
+ },
+ "error": null
+}

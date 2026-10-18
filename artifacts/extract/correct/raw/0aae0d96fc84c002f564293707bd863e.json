@@ -1,0 +1,31 @@
+{
+ "key": "0aae0d96fc84c002f564293707bd863e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Heat its us is properly a fanitation, excited by the action of fire, or is it the effect of fire on our organs of feeling. Hence it follows, that what we call heat is a particular idea or modification of our own mind, and not any thing exfiling is that you in the body that occasions it. Heat, frys Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it. In effect, heat in the body that",
+ "content": "{\n  \"faithful\": \"Heat its us is properly a fenfation, excited by the action of fire, or is it the effect of fire on our organs of feeling. Hence it follows, that what we call heat is a particular idea or modification of our own mind, and not any thing exifling in that you in the body that occasions it. Heat, fays Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it. In effect, heat in the body that\",\n  \"modern\": \"Heat its us is properly a sensation, excited by the action of fire, or is it the effect of fire on our organs of feeling. Hence it follows, that what we call heat is a particular idea or modification of our own mind, and not any thing existing in that you in the body that occasions it. Heat, says Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it. In effect, heat in the body that\"\n}",
+ "usage": {
+  "completion_tokens": 220,
+  "prompt_tokens": 682,
+  "total_tokens": 902,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Heat its us is properly a fenfation, excited by the action of fire, or is it the effect of fire on our organs of feeling. Hence it follows, that what we call heat is a particular idea or modification of our own mind, and not any thing exifling in that you in the body that occasions it. Heat, fays Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it. In effect, heat in the body that",
+  "modern": "Heat its us is properly a sensation, excited by the action of fire, or is it the effect of fire on our organs of feeling. Hence it follows, that what we call heat is a particular idea or modification of our own mind, and not any thing existing in that you in the body that occasions it. Heat, says Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it. In effect, heat in the body that"
+ },
+ "error": null
+}

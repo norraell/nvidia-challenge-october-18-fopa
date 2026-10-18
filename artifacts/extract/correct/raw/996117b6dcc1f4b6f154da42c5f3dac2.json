@@ -1,0 +1,31 @@
+{
+ "key": "996117b6dcc1f4b6f154da42c5f3dac2",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Heat, with respect to our conditions, or the effect produced on us by a hot body, is eliminated by ir reda- tion to the organ of feeling; no object appearing to be hot, unless it heat exceed that of our body. When the fans things to different perform or at different times to the flame perlon, full appear both hot and cold. The degree of heat is measured by the expansion of the air, or spirit in the thermometer.",
+ "content": "{\n  \"faithful\": \"Heat, with respect to our conditions, or the effect produced on us by a hot body, is estimated by its relation to the organ of feeling; no object appearing to be hot, unless its heat exceed that of our body. Whence the same thing to different persons, or at different times to the same person, shall appear both hot and cold. The degree of heat is measured by the expansion of the air, or spirit in the thermometer.\",\n  \"modern\": \"Heat, with respect to our conditions, or the effect produced on us by a hot body, is estimated by its relation to the organ of feeling; no object appearing to be hot, unless its heat exceed that of our body. Whence the same thing to different persons, or at different times to the same person, shall appear both hot and cold. The degree of heat is measured by the expansion of the air, or spirit in the thermometer.\"\n}",
+ "usage": {
+  "completion_tokens": 197,
+  "prompt_tokens": 672,
+  "total_tokens": 869,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Heat, with respect to our conditions, or the effect produced on us by a hot body, is estimated by its relation to the organ of feeling; no object appearing to be hot, unless its heat exceed that of our body. Whence the same thing to different persons, or at different times to the same person, shall appear both hot and cold. The degree of heat is measured by the expansion of the air, or spirit in the thermometer.",
+  "modern": "Heat, with respect to our conditions, or the effect produced on us by a hot body, is estimated by its relation to the organ of feeling; no object appearing to be hot, unless its heat exceed that of our body. Whence the same thing to different persons, or at different times to the same person, shall appear both hot and cold. The degree of heat is measured by the expansion of the air, or spirit in the thermometer."
+ },
+ "error": null
+}

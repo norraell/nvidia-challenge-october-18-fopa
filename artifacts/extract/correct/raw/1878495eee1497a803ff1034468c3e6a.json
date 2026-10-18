@@ -1,0 +1,31 @@
+{
+ "key": "1878495eee1497a803ff1034468c3e6a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In general, any two of the three parallel forces AB, DO, CK, are to each other in the reciprocal proportion of the parts of OD, interconnect and their direction and the direction of the third.",
+ "content": "{\n  \"faithful\": \"In general, any two of the three parallel forces AB, DO, CK, are to each other in the reciprocal proportion of the parts of CD, intercepted between their directions and the direction of the third.\",\n  \"modern\": \"In general, any two of the three parallel forces AB, DO, CK, are to each other in the reciprocal proportion of the parts of CD, intercepted between their directions and the direction of the third.\"\n}",
+ "usage": {
+  "completion_tokens": 97,
+  "prompt_tokens": 608,
+  "total_tokens": 705,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In general, any two of the three parallel forces AB, DO, CK, are to each other in the reciprocal proportion of the parts of CD, intercepted between their directions and the direction of the third.",
+  "modern": "In general, any two of the three parallel forces AB, DO, CK, are to each other in the reciprocal proportion of the parts of CD, intercepted between their directions and the direction of the third."
+ },
+ "error": null
+}

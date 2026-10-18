@@ -1,0 +1,31 @@
+{
+ "key": "2d2de66ec97a8a3d15c21153fc126726",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Horos is alo a cant name introduced into the mas-\nagement of batteries, the chance or benefit of a\nticket or number for one or more days, soon consider\ntion, if it be drawn a prize within the time ceremonies\nfor, of returning to the false or undrawn tickets—To\ndetermine the value of a horfe ) multiply the amount\nof the prizes in the lottery by the time the horfe is ha-\nred for, and from the produce fabricated the amount of\nthe number of prizes by the value of an undrawn tic-\nket into the time of the horfe., the remaining being\ndivided by the number of tickets onto the whole time of\ndrawing, the quotient is the value of the horfe. See\nBoryss.",
+ "content": "{\n  \"faithful\": \"Horse is also a cant name introduced into the management of lotteries, for the chance or benefit of a ticket or number for one or more days, upon condition, if it be drawn a prize within the time covenanted for, of returning to the seller an undrawn ticket.—To determine the value of a horse, multiply the amount of the prizes in the lottery by the time the horse is hired for, and from the product subtract the amount of the number of prizes by the value of an undrawn ticket into the time of the horse; the remainder being divided by the number of tickets into the whole time of drawing, the quotient is the value of the horse. See Lottery.\",\n  \"modern\": \"Horse is also a cant name introduced into the management of lotteries, for the chance or benefit of a ticket or number for one or more days, upon condition, if it be drawn a prize within the time covenanted for, of returning to the seller an undrawn ticket.—To determine the value of a horse, multiply the amount of the prizes in the lottery by the time the horse is hired for, and from the product subtract the amount of the number of prizes by the value of an undrawn ticket into the time of the horse; the remainder being divided by the number of tickets into the whole time of drawing, the quotient is the value of the horse. See Lottery.\"\n}",
+ "usage": {
+  "completion_tokens": 297,
+  "prompt_tokens": 736,
+  "total_tokens": 1033,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Horse is also a cant name introduced into the management of lotteries, for the chance or benefit of a ticket or number for one or more days, upon condition, if it be drawn a prize within the time covenanted for, of returning to the seller an undrawn ticket.—To determine the value of a horse, multiply the amount of the prizes in the lottery by the time the horse is hired for, and from the product subtract the amount of the number of prizes by the value of an undrawn ticket into the time of the horse; the remainder being divided by the number of tickets into the whole time of drawing, the quotient is the value of the horse. See Lottery.",
+  "modern": "Horse is also a cant name introduced into the management of lotteries, for the chance or benefit of a ticket or number for one or more days, upon condition, if it be drawn a prize within the time covenanted for, of returning to the seller an undrawn ticket.—To determine the value of a horse, multiply the amount of the prizes in the lottery by the time the horse is hired for, and from the product subtract the amount of the number of prizes by the value of an undrawn ticket into the time of the horse; the remainder being divided by the number of tickets into the whole time of drawing, the quotient is the value of the horse. See Lottery."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "b89ad33e6f1f92ea7c0026536b87715f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Berlin. All his time was consecrated to some serious occupation, with the exception of one hour in the evening, which he employed in making and receiving visits. His greatest employment was in cultivating his garden. A warm and strong friend, he gave many proofs of gratitude to those protectors, who had previously assisted him in his studies. He has been reproached with being insecible; but in spite of some slight blemishes, the memory of Blfinger will be always due to his countrysmen, and honored by all Germans. Wurtemburg reckons him among the greatest men which she has produced, and proposes him as a model to the statement and her man of letters. He was more married, and left no issue. He died at Settargar the 18th of February 1750. His works, besides various Papers published in the Memoirs of the St Petersburg and Paris Academies of Science, are :",
+ "content": "{\n  \"faithful\": \"Berlin. All his time was consecrated to some serious occupation, with the exception of one hour in the evening, which he employed in making and receiving visits. His greatest employment was in cultivating his garden. A warm and strong friend, he gave many proofs of gratitude to those protectors, who had previously assisted him in his studies. He has been reproached with being insecible; but in spite of some slight blemishes, the memory of Blfinger will be always due to his countrysmen, and honored by all Germans. Wurtemburg reckons him among the greatest men which she has produced, and proposes him as a model to the statement and her man of letters. He was more married, and left no issue. He died at Settargar the 18th of February 1750. His works, besides various Papers published in the Memoirs of the St Petersburg and Paris Academies of Science, are :\",\n  \"modern\": \"Berlin. All his time was consecrated to some serious occupation, with the exception of one hour in the evening, which he employed in making and receiving visits. His greatest employment was in cultivating his garden. A warm and strong friend, he gave many proofs of gratitude to those protectors, who had previously assisted him in his studies. He has been reproached with being insecible; but in spite of some slight blemishes, the memory of Blfinger will be always due to his countrysmen, and honored by all Germans. Wurtemburg reckons him among the greatest men which she has produced, and proposes him as a model to the statement and her man of letters. He was more married, and left no issue. He died at Settargar the 18th of February 1750. His works, besides various Papers published in the Memoirs of the St Petersburg and Paris Academies of Science, are :\"\n}",
+ "usage": {
+  "completion_tokens": 405,
+  "prompt_tokens": 837,
+  "total_tokens": 1242,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 342
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Berlin. All his time was consecrated to some serious occupation, with the exception of one hour in the evening, which he employed in making and receiving visits. His greatest employment was in cultivating his garden. A warm and strong friend, he gave many proofs of gratitude to those protectors, who had previously assisted him in his studies. He has been reproached with being insecible; but in spite of some slight blemishes, the memory of Blfinger will be always due to his countrysmen, and honored by all Germans. Wurtemburg reckons him among the greatest men which she has produced, and proposes him as a model to the statement and her man of letters. He was more married, and left no issue. He died at Settargar the 18th of February 1750. His works, besides various Papers published in the Memoirs of the St Petersburg and Paris Academies of Science, are :",
+  "modern": "Berlin. All his time was consecrated to some serious occupation, with the exception of one hour in the evening, which he employed in making and receiving visits. His greatest employment was in cultivating his garden. A warm and strong friend, he gave many proofs of gratitude to those protectors, who had previously assisted him in his studies. He has been reproached with being insecible; but in spite of some slight blemishes, the memory of Blfinger will be always due to his countrysmen, and honored by all Germans. Wurtemburg reckons him among the greatest men which she has produced, and proposes him as a model to the statement and her man of letters. He was more married, and left no issue. He died at Settargar the 18th of February 1750. His works, besides various Papers published in the Memoirs of the St Petersburg and Paris Academies of Science, are :"
+ },
+ "error": null
+}

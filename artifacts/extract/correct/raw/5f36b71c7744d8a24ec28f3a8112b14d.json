@@ -1,0 +1,31 @@
+{
+ "key": "5f36b71c7744d8a24ec28f3a8112b14d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Or, the pressures on the points_ C _and D, in the direc tion of the training force A, or the increally proportioned to the portions of DE Intercepted By Al._",
+ "content": "{\n  \"faithful\": \"Or, the pressures on the points C and D, in the direction of the straining force Ab, are reciprocally proportional to the portions of DC intercepted by Ab.\",\n  \"modern\": \"Or, the pressures on the points C and D, in the direction of the straining force Ab, are reciprocally proportional to the portions of DC intercepted by Ab.\"\n}",
+ "usage": {
+  "completion_tokens": 83,
+  "prompt_tokens": 626,
+  "total_tokens": 709,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Or, the pressures on the points C and D, in the direction of the straining force Ab, are reciprocally proportional to the portions of DC intercepted by Ab.",
+  "modern": "Or, the pressures on the points C and D, in the direction of the straining force Ab, are reciprocally proportional to the portions of DC intercepted by Ab."
+ },
+ "error": null
+}

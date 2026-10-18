@@ -1,0 +1,31 @@
+{
+ "key": "f790575d34cc7488ea3e9b85cd46431c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The people being met together, and murted by the request of good news from the magnent, which may necessary in all the assemblies, the cognitive business to be proposed to them was publicly read. After this, if none of the misti- trates requested, upon the order of him who presided in the comitia, the people divided into their proper cursu, and can be pulled off the matters and then the curtu being called out, as it happened by lot, gave their votes man by man, in ancient times were now, and afterwards by tables; the most votes in every curts going for the voice of the whole curtu, and the most curlar for the general consent of the people.",
+ "content": "{\n  \"faithful\": \"The people being met together, and murted by the request of good news from the magnent, which may necessary in all the assemblies, the cognitive business to be proposed to them was publicly read. After this, if none of the misti- trates requested, upon the order of him who presided in the comitia, the people divided into their proper cursu, and can be pulled off the matters and then the curtu being called out, as it happened by lot, gave their votes man by man, in ancient times were now, and afterwards by tables; the most votes in every curts going for the voice of the whole curtu, and the most curlar for the general consent of the people.\",\n  \"modern\": \"The people being met together, and murted by the request of good news from the magnent, which may necessary in all the assemblies, the cognitive business to be proposed to them was publicly read. After this, if none of the misti- trates requested, upon the order of him who presided in the comitia, the people divided into their proper cursu, and can be pulled off the matters and then the curtu being called out, as it happened by lot, gave their votes man by man, in ancient times were now, and afterwards by tables; the most votes in every curts going for the voice of the whole curtu, and the most curlar for the general consent of the people.\"\n}",
+ "usage": {
+  "completion_tokens": 309,
+  "prompt_tokens": 726,
+  "total_tokens": 1035,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The people being met together, and murted by the request of good news from the magnent, which may necessary in all the assemblies, the cognitive business to be proposed to them was publicly read. After this, if none of the misti- trates requested, upon the order of him who presided in the comitia, the people divided into their proper cursu, and can be pulled off the matters and then the curtu being called out, as it happened by lot, gave their votes man by man, in ancient times were now, and afterwards by tables; the most votes in every curts going for the voice of the whole curtu, and the most curlar for the general consent of the people.",
+  "modern": "The people being met together, and murted by the request of good news from the magnent, which may necessary in all the assemblies, the cognitive business to be proposed to them was publicly read. After this, if none of the misti- trates requested, upon the order of him who presided in the comitia, the people divided into their proper cursu, and can be pulled off the matters and then the curtu being called out, as it happened by lot, gave their votes man by man, in ancient times were now, and afterwards by tables; the most votes in every curts going for the voice of the whole curtu, and the most curlar for the general consent of the people."
+ },
+ "error": null
+}

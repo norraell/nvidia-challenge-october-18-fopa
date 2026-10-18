@@ -1,0 +1,31 @@
+{
+ "key": "c39c4a54f45db1d526ec1fbdbf38550d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "of one-fourth of the contents of the veffly a bound\nfourth two hours afterwards; a third fourth after ten\nhours and a half of eleven hours; and the reffi after\ntwelve hours affiliation, who formed the conditions.",
+ "content": "{\n  \"faithful\": \"of one-fourth of the contents of the veffly a bound fourth two hours afterwards; a third fourth after ten hours and a half of eleven hours; and the reffi after twelve hours affiliation, who formed the conditions.\",\n  \"modern\": \"of one-fourth of the contents of the vessel a bound fourth two hours afterwards; a third fourth after ten hours and a half of eleven hours; and the residue after twelve hours affiliation, who formed the conditions.\"\n}",
+ "usage": {
+  "completion_tokens": 104,
+  "prompt_tokens": 626,
+  "total_tokens": 730,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "of one-fourth of the contents of the veffly a bound fourth two hours afterwards; a third fourth after ten hours and a half of eleven hours; and the reffi after twelve hours affiliation, who formed the conditions.",
+  "modern": "of one-fourth of the contents of the vessel a bound fourth two hours afterwards; a third fourth after ten hours and a half of eleven hours; and the residue after twelve hours affiliation, who formed the conditions."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "2d5b48aa9b5dce1f5d15129f926f535f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "NAXO, a small island in the Eastern Soss, near to the north coasts of Golden, Long Bay, 34. 2. Lat. 1. 28. N.",
+ "content": "{\n  \"faithful\": \"NAXO, a small island in the Eastern Soss, near to the north coasts of Golden, Long Bay, 34. 2. Lat. 1. 28. N. Greeks. Long. 25. 51. E. Lat. 37. 8. N. NAYO, a small island in the Eastern Seas, near to the north coast of Celebes. Long. 124. 24. E. Lat. 1. 24. N. NAYRES are the nobility of the Malabar coast. We\",\n  \"modern\": \"NAXO, a small island in the Eastern Soss, near to the north coasts of Golden, Long Bay, 34. 2. Lat. 1. 28. N. Greeks. Long. 25. 51. E. Lat. 37. 8. N. NAYO, a small island in the Eastern Seas, near to the north coast of Celebes. Long. 124. 24. E. Lat. 1. 24. N. NAYRES are the nobility of the Malabar coast. We\"\n}",
+ "usage": {
+  "completion_tokens": 269,
+  "prompt_tokens": 633,
+  "total_tokens": 902,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "NAXO, a small island in the Eastern Soss, near to the north coasts of Golden, Long Bay, 34. 2. Lat. 1. 28. N. Greeks. Long. 25. 51. E. Lat. 37. 8. N. NAYO, a small island in the Eastern Seas, near to the north coast of Celebes. Long. 124. 24. E. Lat. 1. 24. N. NAYRES are the nobility of the Malabar coast. We",
+  "modern": "NAXO, a small island in the Eastern Soss, near to the north coasts of Golden, Long Bay, 34. 2. Lat. 1. 28. N. Greeks. Long. 25. 51. E. Lat. 37. 8. N. NAYO, a small island in the Eastern Seas, near to the north coast of Celebes. Long. 124. 24. E. Lat. 1. 24. N. NAYRES are the nobility of the Malabar coast. We"
+ },
+ "error": null
+}

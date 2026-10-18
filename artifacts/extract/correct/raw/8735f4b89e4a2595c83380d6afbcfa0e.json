@@ -1,0 +1,31 @@
+{
+ "key": "8735f4b89e4a2595c83380d6afbcfa0e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The ordinary or common origin worn by the knights, is a flat of four River points, and over them a green circled, borders and offered through pink, containing the find motto, and in the camera is a thilfe proper, all which is embroidered on their left breastf, and womb with the collay, with a great method over the shoulder, and brought under the right arm i pender thereto is the iimage of St Andrew, with his crois, in a purple robe, within an oral of gold canamelled very, with the former motto - but femonettes they were, existed in the June manner, a hittle crowned.",
+ "content": "{\n  \"faithful\": \"The ordinary or common origin worn by the knights, is a flat of four River points, and over them a green circled, borders and offered through pink, containing the find motto, and in the camera is a thilfe proper, all which is embroidered on their left breastf, and womb with the collay, with a great method over the shoulder, and brought under the right arm i pender thereto is the iimage of St Andrew, with his crois, in a purple robe, within an oral of gold canamelled very, with the former motto - but femonettes they were, existed in the June manner, a hittle crowned.\",\n  \"modern\": \"The ordinary or common origin worn by the knights, is a flat of four River points, and over them a green circled, borders and offered through pink, containing the find motto, and in the camera is a thilfe proper, all which is embroidered on their left breastf, and womb with the collay, with a great method over the shoulder, and brought under the right arm i pender thereto is the iimage of St Andrew, with his crois, in a purple robe, within an oral of gold canamelled very, with the former motto - but femonettes they were, existed in the June manner, a hittle crowned.\"\n}",
+ "usage": {
+  "completion_tokens": 283,
+  "prompt_tokens": 713,
+  "total_tokens": 996,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The ordinary or common origin worn by the knights, is a flat of four River points, and over them a green circled, borders and offered through pink, containing the find motto, and in the camera is a thilfe proper, all which is embroidered on their left breastf, and womb with the collay, with a great method over the shoulder, and brought under the right arm i pender thereto is the iimage of St Andrew, with his crois, in a purple robe, within an oral of gold canamelled very, with the former motto - but femonettes they were, existed in the June manner, a hittle crowned.",
+  "modern": "The ordinary or common origin worn by the knights, is a flat of four River points, and over them a green circled, borders and offered through pink, containing the find motto, and in the camera is a thilfe proper, all which is embroidered on their left breastf, and womb with the collay, with a great method over the shoulder, and brought under the right arm i pender thereto is the iimage of St Andrew, with his crois, in a purple robe, within an oral of gold canamelled very, with the former motto - but femonettes they were, existed in the June manner, a hittle crowned."
+ },
+ "error": null
+}

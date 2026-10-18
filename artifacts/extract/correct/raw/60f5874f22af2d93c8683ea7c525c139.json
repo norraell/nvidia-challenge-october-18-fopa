@@ -1,0 +1,31 @@
+{
+ "key": "60f5874f22af2d93c8683ea7c525c139",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The Mareaama with long mobile talk have often to\nor these small superheavy bones placed in the lower\nsurface of the junctions of several of the coveged ver-\nteères, from the six 44 sth to the 7th or Still. These\nseasonal bones give attachment to muscles. In the\nbeaver, which employs its tail as a travel, the transverse\nprocesses are remarkable for size, while the bone spinous\nprocesses are large than the upperes—and arrangements\nwhich enables it to depress the tall forcibly when it beats\nthe ground.",
+ "content": "{\n  \"faithful\": \"The MAMMALIA with long mobile tails have often two or three small supernumerary bones placed on the lower surface of the junctions of several of the coccygeal vertebrae, from the 3d or 4th to the 7th or 8th. These sesamoid bones give attachment to muscles. In the beaver, which employs its tail as a trowel, the transverse processes are remarkable for size, while the lower spinous processes are larger than the upper ones,—an arrangement which enables it to depress the tail forcibly when it beats the ground.\",\n  \"modern\": \"The MAMMALIA with long mobile tails have often two or three small supernumerary bones placed on the lower surface of the junctions of several of the coccygeal vertebrae, from the 3d or 4th to the 7th or 8th. These sesamoid bones give attachment to muscles. In the beaver, which employs its tail as a trowel, the transverse processes are remarkable for size, while the lower spinous processes are larger than the upper ones,—an arrangement which enables it to depress the tail forcibly when it beats the ground.\"\n}",
+ "usage": {
+  "completion_tokens": 255,
+  "prompt_tokens": 689,
+  "total_tokens": 944,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The MAMMALIA with long mobile tails have often two or three small supernumerary bones placed on the lower surface of the junctions of several of the coccygeal vertebrae, from the 3d or 4th to the 7th or 8th. These sesamoid bones give attachment to muscles. In the beaver, which employs its tail as a trowel, the transverse processes are remarkable for size, while the lower spinous processes are larger than the upper ones,—an arrangement which enables it to depress the tail forcibly when it beats the ground.",
+  "modern": "The MAMMALIA with long mobile tails have often two or three small supernumerary bones placed on the lower surface of the junctions of several of the coccygeal vertebrae, from the 3d or 4th to the 7th or 8th. These sesamoid bones give attachment to muscles. In the beaver, which employs its tail as a trowel, the transverse processes are remarkable for size, while the lower spinous processes are larger than the upper ones,—an arrangement which enables it to depress the tail forcibly when it beats the ground."
+ },
+ "error": null
+}

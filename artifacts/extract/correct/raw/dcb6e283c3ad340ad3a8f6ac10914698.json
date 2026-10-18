@@ -1,0 +1,31 @@
+{
+ "key": "dcb6e283c3ad340ad3a8f6ac10914698",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Steel made as hard as possible, is much longer in ac-\nquiring all the magnifin which limple juxtaposition\ncan give to it. It acquires less than the formerly but it\nretains is with great firmness, and finally retains a much\ngreater proportion.",
+ "content": "{\n  \"faithful\": \"Steel made as hard as poffible, is much longer in ac-quiring all the magnifim which limple juxtapofition can give to it. It acquires lefs than the former; but it retains it with great firmnefs, and finally retains a much greater proportion.\",\n  \"modern\": \"Steel made as hard as possible, is much longer in acquiring all the magnifim which simple juxtaposition can give to it. It acquires less than the former; but it retains it with great firmness, and finally retains a much greater proportion.\"\n}",
+ "usage": {
+  "completion_tokens": 125,
+  "prompt_tokens": 640,
+  "total_tokens": 765,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Steel made as hard as poffible, is much longer in ac-quiring all the magnifim which limple juxtapofition can give to it. It acquires lefs than the former; but it retains it with great firmnefs, and finally retains a much greater proportion.",
+  "modern": "Steel made as hard as possible, is much longer in acquiring all the magnifim which simple juxtaposition can give to it. It acquires less than the former; but it retains it with great firmness, and finally retains a much greater proportion."
+ },
+ "error": null
+}

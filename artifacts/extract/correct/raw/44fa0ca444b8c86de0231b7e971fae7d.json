@@ -1,0 +1,31 @@
+{
+ "key": "44fa0ca444b8c86de0231b7e971fae7d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "NAXIA, the ancient Nazos, is one of the largest and most fertile of the islands in the Archeology, known as the Cyclades. Its greatest length from north to south is several miles, and its greatest breadth about twelve miles. The north point is in latitude 37.12. Although there was one of a most qualitative opportunity yet the island is divertified by hills, valleys, and plains, and is well wooded and western. Besides the city of the name, it contains thirty- five villages, and a population of about 17,000 persons. It produces core equal to our monthly consumption, and a square of the fruits, and cheese. Large quantities of oranges and lemons are exported. There is no port on the island for July later.",
+ "content": "{\n  \"faithful\": \"NAXIA, the ancient Naxos, is one of the largest and most fertile of the islands in the Archipelago, known as the Cyclades. Its greatest length from north to south is seventeen miles, and its greatest breadth about twelve miles. The north point is in latitude 37. 12. Although the rocks are of a most repulsive appearance, yet the island is diversified by hills, valleys, and plains, and is well wooded and watered. Besides the city of the name, it contains thirty-five villages, and a population of about 17,000 persons. It produces corn equal to six months' consumption, and a surplus of oil, fruits, and cheese. Large quantities of oranges and lemons are exported. There is no port on the island for ships to enter.\",\n  \"modern\": \"NAXIA, the ancient Naxos, is one of the largest and most fertile of the islands in the Archipelago, known as the Cyclades. Its greatest length from north to south is seventeen miles, and its greatest breadth about twelve miles. The north point is in latitude 37. 12. Although the rocks are of a most repulsive appearance, yet the island is diversified by hills, valleys, and plains, and is well wooded and watered. Besides the city of the name, it contains thirty-five villages, and a population of about 17,000 persons. It produces corn equal to six months' consumption, and a surplus of oil, fruits, and cheese. Large quantities of oranges and lemons are exported. There is no port on the island for ships to enter.\"\n}",
+ "usage": {
+  "completion_tokens": 355,
+  "prompt_tokens": 841,
+  "total_tokens": 1196,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 376
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "NAXIA, the ancient Naxos, is one of the largest and most fertile of the islands in the Archipelago, known as the Cyclades. Its greatest length from north to south is seventeen miles, and its greatest breadth about twelve miles. The north point is in latitude 37. 12. Although the rocks are of a most repulsive appearance, yet the island is diversified by hills, valleys, and plains, and is well wooded and watered. Besides the city of the name, it contains thirty-five villages, and a population of about 17,000 persons. It produces corn equal to six months' consumption, and a surplus of oil, fruits, and cheese. Large quantities of oranges and lemons are exported. There is no port on the island for ships to enter.",
+  "modern": "NAXIA, the ancient Naxos, is one of the largest and most fertile of the islands in the Archipelago, known as the Cyclades. Its greatest length from north to south is seventeen miles, and its greatest breadth about twelve miles. The north point is in latitude 37. 12. Although the rocks are of a most repulsive appearance, yet the island is diversified by hills, valleys, and plains, and is well wooded and watered. Besides the city of the name, it contains thirty-five villages, and a population of about 17,000 persons. It produces corn equal to six months' consumption, and a surplus of oil, fruits, and cheese. Large quantities of oranges and lemons are exported. There is no port on the island for ships to enter."
+ },
+ "error": null
+}

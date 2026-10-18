@@ -1,0 +1,31 @@
+{
+ "key": "fac2ddcae21119f11d65e000f45321de",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BYSSSUS, in antiquity, that fine Egyptian then whirco- of the tunes of the jewith prints we make.",
+ "content": "{\n  \"faithful\": \"BYSSUS; in antiquity, that fine Egyptian linen whereof the tunics of the Jewish priests were made.\",\n  \"modern\": \"BYSSUS; in antiquity, that fine Egyptian linen whereof the tunics of the Jewish priests were made.\"\n}",
+ "usage": {
+  "completion_tokens": 61,
+  "prompt_tokens": 624,
+  "total_tokens": 685,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BYSSUS; in antiquity, that fine Egyptian linen whereof the tunics of the Jewish priests were made.",
+  "modern": "BYSSUS; in antiquity, that fine Egyptian linen whereof the tunics of the Jewish priests were made."
+ },
+ "error": null
+}

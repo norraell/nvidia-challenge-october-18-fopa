@@ -1,0 +1,31 @@
+{
+ "key": "98ca42c4c39bb56a11f9bce735d90b38",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The firing _Ikshorn_ then, being added to thefe, and anwfering to our Do on the third line in the bafe, extended the complex downwards, and give the ancient lyre a regular feries of five founds in the Dorian mode, the mother of all the Greek mokes and the top fringes called _Popular and Parteypar_, compelling andlii our B and C in the bafe, completed the heptachody, or even founds, B, G, D, E, F, G, A, a compuls that received no addition till after the time of Findar, who calls the infrument then in die the _feven-tongued lyre._",
+ "content": "{\n  \"faithful\": \"The firing lichanos, then, being added to thefe, and anfwering to our D on the third line in the bafe, extended the compafs downwards, and gave the ancient lyre a regular feries of five founds in the Dorian mode, the moft ancient of all the Greek modes; and the two frings called Hypate and Parhypate, correfponding with our B and C in the bafe, completed the heptachord, or feven founds, B, C, D, E, F, G, A, a compafs that received no addition till after the time of Pindar, who calls the inftrument then in ufe the feven-tongued lyre.\",\n  \"modern\": \"The firing lichanos, then, being added to these, and answering to our D on the third line in the base, extended the compass downwards, and gave the ancient lyre a regular series of five sounds in the Dorian mode, the most ancient of all the Greek modes; and the two strings called Hypate and Parhypate, corresponding with our B and C in the base, completed the heptachord, or seven sounds, B, C, D, E, F, G, A, a compass that received no addition till after the time of Pindar, who calls the instrument then in use the seven-tongued lyre.\"\n}",
+ "usage": {
+  "completion_tokens": 309,
+  "prompt_tokens": 723,
+  "total_tokens": 1032,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The firing lichanos, then, being added to thefe, and anfwering to our D on the third line in the bafe, extended the compafs downwards, and gave the ancient lyre a regular feries of five founds in the Dorian mode, the moft ancient of all the Greek modes; and the two frings called Hypate and Parhypate, correfponding with our B and C in the bafe, completed the heptachord, or feven founds, B, C, D, E, F, G, A, a compafs that received no addition till after the time of Pindar, who calls the inftrument then in ufe the feven-tongued lyre.",
+  "modern": "The firing lichanos, then, being added to these, and answering to our D on the third line in the base, extended the compass downwards, and gave the ancient lyre a regular series of five sounds in the Dorian mode, the most ancient of all the Greek modes; and the two strings called Hypate and Parhypate, corresponding with our B and C in the base, completed the heptachord, or seven sounds, B, C, D, E, F, G, A, a compass that received no addition till after the time of Pindar, who calls the instrument then in use the seven-tongued lyre."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "dee7053df215c6ca9ec62905d289acb7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There is no merchant-thup, however weak, but has at half three cables; namely, the chief cable, or cable of the flies-anchor, a common cable, and a finaler on<y_0.6633><class_Text>\n\n<x_0.4844><y_0.6648>Cable is alfo fluid of ropes, which fever to nife heavy loads, by the help of Granatry pulling, and other engines. The name of cable is finally given to dish as have, at leal, three inches in diameter; thofe that are left as one only called ropes of different names, according to their site.",
+ "content": "{\n  \"faithful\": \"There is no merchant-ship, however weak, but has at least three cables; namely, the chief cable, or cable of the fleet-anchor, a common cable, and a smaller one. Cable is also made of ropes, which serve to raise heavy loads, by the help of cranes, pulleys, and other engines. The name of cable is usually given to such as have, at least, three inches in diameter; those that are less are only called ropes of different names, according to their use.\",\n  \"modern\": \"There is no merchant-ship, however weak, but has at least three cables; namely, the chief cable, or cable of the fleet-anchor, a common cable, and a smaller one. Cable is also made of ropes, which serve to raise heavy loads, by the help of cranes, pulleys, and other engines. The name of cable is usually given to such as have, at least, three inches in diameter; those that are less are only called ropes of different names, according to their use.\"\n}",
+ "usage": {
+  "completion_tokens": 227,
+  "prompt_tokens": 722,
+  "total_tokens": 949,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There is no merchant-ship, however weak, but has at least three cables; namely, the chief cable, or cable of the fleet-anchor, a common cable, and a smaller one. Cable is also made of ropes, which serve to raise heavy loads, by the help of cranes, pulleys, and other engines. The name of cable is usually given to such as have, at least, three inches in diameter; those that are less are only called ropes of different names, according to their use.",
+  "modern": "There is no merchant-ship, however weak, but has at least three cables; namely, the chief cable, or cable of the fleet-anchor, a common cable, and a smaller one. Cable is also made of ropes, which serve to raise heavy loads, by the help of cranes, pulleys, and other engines. The name of cable is usually given to such as have, at least, three inches in diameter; those that are less are only called ropes of different names, according to their use."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "33e5f1b9eee90c02aa19fcc5b0355414",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "What is wanted is, that all the people, or as many of them as possible, should estimate correctly the consequences of the acts proposed or done by their representative, and also that they should know what sets might have been proposed, if the best were not proposed, from which better consequences would have followed. This end would be accomplished most effectively, if those who are actually significantly could point out to those who are in danger of mistakes, the true conclusions; and, show- ing the weight of evidence to be in their favour, should obtain its them the universal agent.",
+ "content": "{\n  \"faithful\": \"What is wanted is, that all the people, or as many of them as possible, should estimate correctly the consequences of the acts proposed or done by their representative, and also that they should know what acts might have been proposed, if the best were not proposed, from which better consequences would have followed. This end would be accomplished most effectually, if those who are sufficiently enlightened would point out to those who are in danger of mistakes, the true conclusions; and, showing the weight of evidence to be in their favour, should obtain for them the universal assent.\",\n  \"modern\": \"What is wanted is, that all the people, or as many of them as possible, should estimate correctly the consequences of the acts proposed or done by their representative, and also that they should know what acts might have been proposed, if the best were not proposed, from which better consequences would have followed. This end would be accomplished most effectually, if those who are sufficiently enlightened would point out to those who are in danger of mistakes, the true conclusions; and, showing the weight of evidence to be in their favour, should obtain for them the universal assent.\"\n}",
+ "usage": {
+  "completion_tokens": 243,
+  "prompt_tokens": 705,
+  "total_tokens": 948,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "What is wanted is, that all the people, or as many of them as possible, should estimate correctly the consequences of the acts proposed or done by their representative, and also that they should know what acts might have been proposed, if the best were not proposed, from which better consequences would have followed. This end would be accomplished most effectually, if those who are sufficiently enlightened would point out to those who are in danger of mistakes, the true conclusions; and, showing the weight of evidence to be in their favour, should obtain for them the universal assent.",
+  "modern": "What is wanted is, that all the people, or as many of them as possible, should estimate correctly the consequences of the acts proposed or done by their representative, and also that they should know what acts might have been proposed, if the best were not proposed, from which better consequences would have followed. This end would be accomplished most effectually, if those who are sufficiently enlightened would point out to those who are in danger of mistakes, the true conclusions; and, showing the weight of evidence to be in their favour, should obtain for them the universal assent."
+ },
+ "error": null
+}

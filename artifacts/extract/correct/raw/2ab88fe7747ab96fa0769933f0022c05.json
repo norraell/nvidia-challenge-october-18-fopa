@@ -1,0 +1,31 @@
+{
+ "key": "2ab88fe7747ab96fa0769933f0022c05",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "If thoughts of this nature prevailed; if ancients and moderates were no longer confidered as matters and pupils,",
+ "content": "{\n  \"faithful\": \"If thoughts of this nature prevailed; if ancients and moderates were no longer confidered as matters and pupils,\",\n  \"modern\": \"If thoughts of this nature prevailed; if ancients and moderates were no longer considered as matters and pupils,\"\n}",
+ "usage": {
+  "completion_tokens": 63,
+  "prompt_tokens": 628,
+  "total_tokens": 691,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "If thoughts of this nature prevailed; if ancients and moderates were no longer confidered as matters and pupils,",
+  "modern": "If thoughts of this nature prevailed; if ancients and moderates were no longer considered as matters and pupils,"
+ },
+ "error": null
+}

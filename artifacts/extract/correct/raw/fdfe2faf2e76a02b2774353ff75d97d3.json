@@ -1,0 +1,31 @@
+{
+ "key": "fdfe2faf2e76a02b2774353ff75d97d3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Buxcoow-will. The frats of earth and minerals, in the parts adjacent to Buxton, are peat-mols, blue clay, iron, and coal, mixed with filpular and brazzl. The warm waters there, as preferers are the ban, which takes in federal water-franges; St Am’s well, a hot and cold spring riding up into the fame receptele, and Ilgham-well.",
+ "content": "{\n  \"faithful\": \"Buxton-wells. The strata of earth and minerals, in the parts adjacent to Buxton, are peat-mofs, blue clay, iron, and coal, mixed with fulphur and brazil. The warm waters there, at prefent, are the bath, which takes in feveral warm fprings; St Ann's well, a hot and cold fpring rifing up into the fame recep-tacle; and Bingham-well.\",\n  \"modern\": \"Buxton-wells. The strata of earth and minerals, in the parts adjacent to Buxton, are peat-mofs, blue clay, iron, and coal, mixed with sulphur and brazil. The warm waters there, at present, are the bath, which takes in several warm springs; St Ann's well, a hot and cold spring rising up into the same receptacle; and Bingham-well.\"\n}",
+ "usage": {
+  "completion_tokens": 189,
+  "prompt_tokens": 664,
+  "total_tokens": 853,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Buxton-wells. The strata of earth and minerals, in the parts adjacent to Buxton, are peat-mofs, blue clay, iron, and coal, mixed with fulphur and brazil. The warm waters there, at prefent, are the bath, which takes in feveral warm fprings; St Ann's well, a hot and cold fpring rifing up into the fame recep-tacle; and Bingham-well.",
+  "modern": "Buxton-wells. The strata of earth and minerals, in the parts adjacent to Buxton, are peat-mofs, blue clay, iron, and coal, mixed with sulphur and brazil. The warm waters there, at present, are the bath, which takes in several warm springs; St Ann's well, a hot and cold spring rising up into the same receptacle; and Bingham-well."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "5675d46e7aff2d31a65c22a730d5e206",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Butteflies are used against the angles of fleeples and other buildings of flone, 6e, on the confiile, and along the walls of fuch buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no butteffes were placed againft them. They are also placed for a lupport and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbys, cz.",
+ "content": "{\n  \"faithful\": \"Butterflies are used against the angles of fleeples and other buildings of flone, &c. on the confile, and along the walls of fuch buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no butteffes were placed againft them. They are also placed for a lupport and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbys, cz.\",\n  \"modern\": \"Butterflies are used against the angles of fleeples and other buildings of stone, &c. on the confile, and along the walls of such buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no buttresses were placed against them. They are also placed for a support and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbeys, cz.\"\n}",
+ "usage": {
+  "completion_tokens": 217,
+  "prompt_tokens": 692,
+  "total_tokens": 909,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Butterflies are used against the angles of fleeples and other buildings of flone, &c. on the confile, and along the walls of fuch buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no butteffes were placed againft them. They are also placed for a lupport and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbys, cz.",
+  "modern": "Butterflies are used against the angles of fleeples and other buildings of stone, &c. on the confile, and along the walls of such buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no buttresses were placed against them. They are also placed for a support and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbeys, cz."
+ },
+ "error": null
+}

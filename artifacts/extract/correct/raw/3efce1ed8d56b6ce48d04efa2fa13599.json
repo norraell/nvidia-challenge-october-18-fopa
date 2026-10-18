@@ -1,0 +1,31 @@
+{
+ "key": "3efce1ed8d56b6ce48d04efa2fa13599",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ENGINE, Sì mechanics, its a compound machine, made of one or more mechanical powers, as levers, pullies, ferws, &. in order to raise, cat, or fulanany any weight, or produce any effect which could not be easily effected otherwise. The word is formed of the",
+ "content": "{\n  \"faithful\": \"ENGINE, in mechanics, is a compound machine, made of one or more mechanical powers, as levers, pullies, crews, &c. in order to raise, cast, or sustain any weight, or produce any effect which could not be easily effected otherwise. The word is formed of the\",\n  \"modern\": \"ENGINE, in mechanics, is a compound machine, made of one or more mechanical powers, as levers, pulleys, crews, &c. in order to raise, cast, or sustain any weight, or produce any effect which could not be easily effected otherwise. The word is formed of the\"\n}",
+ "usage": {
+  "completion_tokens": 140,
+  "prompt_tokens": 646,
+  "total_tokens": 786,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ENGINE, in mechanics, is a compound machine, made of one or more mechanical powers, as levers, pullies, crews, &c. in order to raise, cast, or sustain any weight, or produce any effect which could not be easily effected otherwise. The word is formed of the",
+  "modern": "ENGINE, in mechanics, is a compound machine, made of one or more mechanical powers, as levers, pulleys, crews, &c. in order to raise, cast, or sustain any weight, or produce any effect which could not be easily effected otherwise. The word is formed of the"
+ },
+ "error": null
+}

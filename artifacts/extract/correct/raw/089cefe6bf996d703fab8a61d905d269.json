@@ -1,0 +1,31 @@
+{
+ "key": "089cefe6bf996d703fab8a61d905d269",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "THORAX, in anatomy. See Anatomy, p. 277.",
+ "content": "{\n  \"faithful\": \"THORAX, in anatomy. See Anatomy, p. 277. THORACIC buft. See Anatomy, p. 282. THORAX, in anatomy. See Anatomy, p. 27. THORN, a city of Poland, in the province of rea\",\n  \"modern\": \"THORAX, in anatomy. See Anatomy, p. 277. THORACIC buft. See Anatomy, p. 282. THORAX, in anatomy. See Anatomy, p. 27. THORN, a city of Poland, in the province of rea\"\n}",
+ "usage": {
+  "completion_tokens": 153,
+  "prompt_tokens": 603,
+  "total_tokens": 756,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 284
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "THORAX, in anatomy. See Anatomy, p. 277. THORACIC buft. See Anatomy, p. 282. THORAX, in anatomy. See Anatomy, p. 27. THORN, a city of Poland, in the province of rea",
+  "modern": "THORAX, in anatomy. See Anatomy, p. 277. THORACIC buft. See Anatomy, p. 282. THORAX, in anatomy. See Anatomy, p. 27. THORN, a city of Poland, in the province of rea"
+ },
+ "error": null
+}

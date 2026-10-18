@@ -1,0 +1,31 @@
+{
+ "key": "97e4993f2cc9d2bf76a2bf3e59bcf79a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "2. _De Harmonia Animi et Corporis Humani mazi mè prestabilità Commentato Hypothetica_. Francfort on the Rain, 722, in 8vo. This work was inserted in the Exrangatory Index in Rome in 1734.",
+ "content": "{\n  \"faithful\": \"2. De Harmoniá Animi et Corporis Humani maxime præstabilitá Commentatio Hypothetica. Francfort on the Main, 1723, in 8vo. This work was inserted in the Expurgatory Index at Rome in 1784.\",\n  \"modern\": \"2. De Harmonia Animi et Corporis Humani maxime prestabilita Commentatio Hypothetica. Francfort on the Main, 1723, in 8vo. This work was inserted in the Expurgatory Index at Rome in 1784.\"\n}",
+ "usage": {
+  "completion_tokens": 139,
+  "prompt_tokens": 628,
+  "total_tokens": 767,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "2. De Harmoniá Animi et Corporis Humani maxime præstabilitá Commentatio Hypothetica. Francfort on the Main, 1723, in 8vo. This work was inserted in the Expurgatory Index at Rome in 1784.",
+  "modern": "2. De Harmonia Animi et Corporis Humani maxime prestabilita Commentatio Hypothetica. Francfort on the Main, 1723, in 8vo. This work was inserted in the Expurgatory Index at Rome in 1784."
+ },
+ "error": null
+}

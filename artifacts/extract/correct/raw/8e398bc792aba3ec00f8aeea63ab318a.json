@@ -1,0 +1,31 @@
+{
+ "key": "8e398bc792aba3ec00f8aeea63ab318a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The two things are these prineses it remarkable for an ex- pedition into Arabic Policy, called by the Mohamar dan writers the war of the elephant, and which was undertaken on the following occasion: The temple of Mecca, situated nearly in the middle of the Arabian peninsula, had been held in the greatest western tourists for near 1200 years, probably from the notion entertained by the people in the neighbourhood, that Adam pitched his tent on that spot. Here also was a black stone supposed to possess extraordinary sanctity, as be ing that on which Jacob laid his head when he had the vision of angels. The most probable account of the real origin of this temple, according to Mr Bruce, is, that it was built by Sesostris, and that he himself was worshipped them under the name of Chris.",
+ "content": "{\n  \"faithful\": \"The two things are these princes it remarkable for an expedition into Arabia Felix, called by the Mohamme- dan writers the war of the elephant, and which was undertaken on the following occasion: The temple of Mecca, situated nearly in the middle of the Arabian peninsula, had been held in the greatest veneration for near 1200 years, probably from the notion entertained by the people in the neighbourhood, that Adam pitched his tent on that spot. Here also was a black stone supposed to possess extraordinary sanctity, as being that on which Jacob laid his head when he had the vision of angels. The most probable account of the real origin of this temple, according to Mr Bruce, is, that it was built by Sesostris, and that he himself was worshipped there under the name of Osiris.\",\n  \"modern\": \"The two things are these princes it remarkable for an expedition into Arabia Felix, called by the Mohammedan writers the war of the elephant, and which was undertaken on the following occasion: The temple of Mecca, situated nearly in the middle of the Arabian peninsula, had been held in the greatest veneration for near 1200 years, probably from the notion entertained by the people in the neighbourhood, that Adam pitched his tent on that spot. Here also was a black stone supposed to possess extraordinary sanctity, as being that on which Jacob laid his head when he had the vision of angels. The most probable account of the real origin of this temple, according to Mr Bruce, is, that it was built by Sesostris, and that he himself was worshipped there under the name of Osiris.\"\n}",
+ "usage": {
+  "completion_tokens": 346,
+  "prompt_tokens": 979,
+  "total_tokens": 1325,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 508
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The two things are these princes it remarkable for an expedition into Arabia Felix, called by the Mohamme- dan writers the war of the elephant, and which was undertaken on the following occasion: The temple of Mecca, situated nearly in the middle of the Arabian peninsula, had been held in the greatest veneration for near 1200 years, probably from the notion entertained by the people in the neighbourhood, that Adam pitched his tent on that spot. Here also was a black stone supposed to possess extraordinary sanctity, as being that on which Jacob laid his head when he had the vision of angels. The most probable account of the real origin of this temple, according to Mr Bruce, is, that it was built by Sesostris, and that he himself was worshipped there under the name of Osiris.",
+  "modern": "The two things are these princes it remarkable for an expedition into Arabia Felix, called by the Mohammedan writers the war of the elephant, and which was undertaken on the following occasion: The temple of Mecca, situated nearly in the middle of the Arabian peninsula, had been held in the greatest veneration for near 1200 years, probably from the notion entertained by the people in the neighbourhood, that Adam pitched his tent on that spot. Here also was a black stone supposed to possess extraordinary sanctity, as being that on which Jacob laid his head when he had the vision of angels. The most probable account of the real origin of this temple, according to Mr Bruce, is, that it was built by Sesostris, and that he himself was worshipped there under the name of Osiris."
+ },
+ "error": null
+}

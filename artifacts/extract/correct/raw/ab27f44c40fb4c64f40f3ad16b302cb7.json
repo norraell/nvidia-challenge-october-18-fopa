@@ -1,0 +1,31 @@
+{
+ "key": "ab27f44c40fb4c64f40f3ad16b302cb7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "We think outfellow authorified to lay that this attraction\nof the headlines for iron, or this tendency of iron\nto the headline, is a secondary phenomenon, and is the\n_conference_ of the proper disposition of the induced mag-\nnetimin. The proofs already given of the compound\nmatters of this phenomena, namely, that is arise from\nthe excess of two attributions above two repetitions, need\n(we imagine) no addition. But the following condir-\nactions place the matter beyond doubt.",
+ "content": "{\n  \"faithful\": \"We think ourfelves authorifed to fay that this attraction of the loadfione for iron, or this tendency of iron to the loadfione, is a fecondary phenomenon, and is the confequence of the proper difpofition of the induced magnetifm. The proofs already given of the compound nature of this phenomenon, namely, that it arifes from the excess of two attractions above two repulsions, need (we imagine) no addition. But the following confiderations place the matter beyond doubt.\",\n  \"modern\": \"We think ourselves authorized to say that this attraction of the loadstone for iron, or this tendency of iron to the loadstone, is a secondary phenomenon, and is the consequence of the proper disposition of the induced magnetism. The proofs already given of the compound nature of this phenomenon, namely, that it arises from the excess of two attractions above two repulsions, need (we imagine) no addition. But the following considerations place the matter beyond doubt.\"\n}",
+ "usage": {
+  "completion_tokens": 216,
+  "prompt_tokens": 673,
+  "total_tokens": 889,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "We think ourfelves authorifed to fay that this attraction of the loadfione for iron, or this tendency of iron to the loadfione, is a fecondary phenomenon, and is the confequence of the proper difpofition of the induced magnetifm. The proofs already given of the compound nature of this phenomenon, namely, that it arifes from the excess of two attractions above two repulsions, need (we imagine) no addition. But the following confiderations place the matter beyond doubt.",
+  "modern": "We think ourselves authorized to say that this attraction of the loadstone for iron, or this tendency of iron to the loadstone, is a secondary phenomenon, and is the consequence of the proper disposition of the induced magnetism. The proofs already given of the compound nature of this phenomenon, namely, that it arises from the excess of two attractions above two repulsions, need (we imagine) no addition. But the following considerations place the matter beyond doubt."
+ },
+ "error": null
+}

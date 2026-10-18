@@ -1,0 +1,31 @@
+{
+ "key": "dfe9f05e4eee6b4b1aa78f496f8b733b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There are certain animals, as boys, poultry, Sec, which are fed on more offs, and in a trade state, therefore, are fill cheaper than butcher meet. In an improved that they are doctors: for hery here not as yet at least in his country, become an object of separate cultivation.?",
+ "content": "{\n  \"faithful\": \"There are certain animals, as hogs, poultry, &c. which are fed on mere offals, and in a rude state, therefore, are full cheaper than butcher meat. In an improved state they are dearer; for they have not as yet, at least in this country, become an object of separate cultivation.\",\n  \"modern\": \"There are certain animals, as hogs, poultry, &c. which are fed on mere offals, and in a rude state, therefore, are full cheaper than butcher meat. In an improved state they are dearer; for they have not as yet, at least in this country, become an object of separate cultivation.\"\n}",
+ "usage": {
+  "completion_tokens": 149,
+  "prompt_tokens": 629,
+  "total_tokens": 778,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There are certain animals, as hogs, poultry, &c. which are fed on mere offals, and in a rude state, therefore, are full cheaper than butcher meat. In an improved state they are dearer; for they have not as yet, at least in this country, become an object of separate cultivation.",
+  "modern": "There are certain animals, as hogs, poultry, &c. which are fed on mere offals, and in a rude state, therefore, are full cheaper than butcher meat. In an improved state they are dearer; for they have not as yet, at least in this country, become an object of separate cultivation."
+ },
+ "error": null
+}

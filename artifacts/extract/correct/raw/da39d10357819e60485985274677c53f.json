@@ -1,0 +1,31 @@
+{
+ "key": "da39d10357819e60485985274677c53f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "\" When a perfon standing on the ground holds a Lightning pair of Mr Canton's balls in his hand, while a highly charged thunder-cloud is fufpended over his head; the angle made by the balla indicates the _electrical fate_ of this portion or the quantity of natural electricity of which his body as at the time deprived, by the action of the (_politively_) charged cloud hanging over him. But we have never feen the repollion of the balls to fulfillment, as to contain any the apprehensions that the return of his natural electric matter, however fudden, could be attached with his injury to him a nor would be be flexible of any common use the bulk fuddily coming together; the 'a fpark might un-doubtedly be perceived, at that infants, were he infuried, and placed in the four manner with the author when he tried the above-related experiment.",
+ "content": "{\n  \"faithful\": \"When a person standing on the ground holds a pair of Mr Canton's balls in his hand, while a highly charged thunder-cloud is suspended over his head; the angle made by the balls indicates the electrical state of that person, or the quantity of natural electricity of which his body is at that time deprived, by the action of the (positively) charged cloud hanging over him. But we have never seen the repulsion of the balls to fulfillment, as to contain any the apprehensions that the return of his natural electric matter, however sudden, could be attended with injury to him; nor would he be sensible of any commotion on the balls suddenly coming together; tho' a spark might undoubtedly be perceived, at that instant, were he insulated, and placed in the same manner with the author when he tried the above-related experiment.\",\n  \"modern\": \"When a person standing on the ground holds a pair of Mr Canton's balls in his hand, while a highly charged thunder-cloud is suspended over his head; the angle made by the balls indicates the electrical state of that person, or the quantity of natural electricity of which his body is at that time deprived, by the action of the (positively) charged cloud hanging over him. But we have never seen the repulsion of the balls to fulfillment, as to contain any the apprehensions that the return of his natural electric matter, however sudden, could be attended with injury to him; nor would he be sensible of any commotion on the balls suddenly coming together; tho' a spark might undoubtedly be perceived, at that instant, were he insulated, and placed in the same manner with the author when he tried the above-related experiment.\"\n}",
+ "usage": {
+  "completion_tokens": 349,
+  "prompt_tokens": 790,
+  "total_tokens": 1139,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 302
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When a person standing on the ground holds a pair of Mr Canton's balls in his hand, while a highly charged thunder-cloud is suspended over his head; the angle made by the balls indicates the electrical state of that person, or the quantity of natural electricity of which his body is at that time deprived, by the action of the (positively) charged cloud hanging over him. But we have never seen the repulsion of the balls to fulfillment, as to contain any the apprehensions that the return of his natural electric matter, however sudden, could be attended with injury to him; nor would he be sensible of any commotion on the balls suddenly coming together; tho' a spark might undoubtedly be perceived, at that instant, were he insulated, and placed in the same manner with the author when he tried the above-related experiment.",
+  "modern": "When a person standing on the ground holds a pair of Mr Canton's balls in his hand, while a highly charged thunder-cloud is suspended over his head; the angle made by the balls indicates the electrical state of that person, or the quantity of natural electricity of which his body is at that time deprived, by the action of the (positively) charged cloud hanging over him. But we have never seen the repulsion of the balls to fulfillment, as to contain any the apprehensions that the return of his natural electric matter, however sudden, could be attended with injury to him; nor would he be sensible of any commotion on the balls suddenly coming together; tho' a spark might undoubtedly be perceived, at that instant, were he insulated, and placed in the same manner with the author when he tried the above-related experiment."
+ },
+ "error": null
+}

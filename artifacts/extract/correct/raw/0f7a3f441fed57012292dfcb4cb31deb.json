@@ -1,0 +1,31 @@
+{
+ "key": "0f7a3f441fed57012292dfcb4cb31deb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1. This triple falls is formed by decomposing the fulphite of ammonia by magnella or the fulphite of magenae by ammonium. In foliation in the cold / or, by mixing together the folutions of the two falls.",
+ "content": "{\n  \"faithful\": \"1. This triple falt is formed by decomposing the fulphite of ammonia by magnesia, or the fulphite of magnesia by ammonia, in solution in the cold; or, by mixing together the solutions of the two falts.\",\n  \"modern\": \"1. This triple salt is formed by decomposing the sulphite of ammonia by magnesia, or the sulphite of magnesia by ammonia, in solution in the cold; or, by mixing together the solutions of the two salts.\"\n}",
+ "usage": {
+  "completion_tokens": 113,
+  "prompt_tokens": 626,
+  "total_tokens": 739,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1. This triple falt is formed by decomposing the fulphite of ammonia by magnesia, or the fulphite of magnesia by ammonia, in solution in the cold; or, by mixing together the solutions of the two falts.",
+  "modern": "1. This triple salt is formed by decomposing the sulphite of ammonia by magnesia, or the sulphite of magnesia by ammonia, in solution in the cold; or, by mixing together the solutions of the two salts."
+ },
+ "error": null
+}

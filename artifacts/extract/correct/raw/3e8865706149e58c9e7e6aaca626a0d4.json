@@ -1,0 +1,31 @@
+{
+ "key": "3e8865706149e58c9e7e6aaca626a0d4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Purs fome human urine into a glats lethic j fet it in a water bath, and difllr till there remain only about a function path of how you want, or able separate the urine in a pan feet in the _bal neam maria_ differ to reduced to the fame quantity. With this first nothing will ex- back but an initial phlegns, families houses like unipe. Xhi refridonium will, as the evaporation advances, because of a darker and darker roller, and at half acquire an al-mell black colors. Alongside this voldum with three its weight of fluids, and dilit is in a case for it in everbearing furnaces, with the usual precautions. At left there will come over a little more infidelp plegy like the fug-mer. When the matter is already, why a whole spirit will rise. After this spirit, white vapours will appear on interesting this free, a yellow oily liquor will come off, trickling down in veins i and together with the liquide a concrete volatile fate, which will likely to the fides of the receiver. At left there will come over a deep-colored feid old. In the resort there will remain a falling earthy colatum, which being illustrated, will yield some fen-fat.",
+ "content": "{\n  \"faithful\": \"Pur fome human urine into a glats alembic, fet it in a water bath, and diftill till there remain only about a fourth part of what you put in, or elfe evaporate the urine in a pan fet in the balneum mariae till it be reduced to the fame quantity. With this heat nothing will exhale but an infipid phlegm, fmelting however like urine. The refiduum will, as the evaporation advances, become of a darker and darker ruffet, and at laft acquire an almoft black colour. Mingle this refiduum with thrice its weight of fand, and diffil it in a retort fet in a reverberating furnace, with the ufual precautions. At firft there will come over a little more infipid phlegm like the former. When the matter is almoft dry, a volatile fpirit will rife. After this fpirit, white vapours will appear on increasing the fire; a yellow oily liquor will come off, trickling down in veins; and together with this liquor a concrete volatile falt, which will ftick to the fides of the receiver. At laft there will come over a deep-coloured fetid oil. In the retort there will remain a faline earthy refiduum, which being lixiviated will yield fome fea-falt.\",\n  \"modern\": \"Put some human urine into a glass alembic, set it in a water bath, and distill till there remain only about a fourth part of what you put in, or else evaporate the urine in a pan set in the balneum mariae till it be reduced to the same quantity. With this heat nothing will exhale but an insipid phlegm, smelling however like urine. The residue will, as the evaporation advances, become of a darker and darker ruffet, and at last acquire an almost black colour. Mingle this residue with thrice its weight of sand, and distill it in a retort set in a reverberating furnace, with the usual precautions. At first there will come over a little more insipid phlegm like the former. When the matter is almost dry, a volatile spirit will rise. After this spirit, white vapours will appear on increasing the fire; a yellow oily liquor will come off, trickling down in veins; and together with this liquor a concrete volatile salt, which will stick to the sides of the receiver. At last there will come over a deep-coloured fetid oil. In the retort there will remain a saline earthy residue, which being lixiviated will yield some sea-salt.\"\n}",
+ "usage": {
+  "completion_tokens": 576,
+  "prompt_tokens": 990,
+  "total_tokens": 1566,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 422
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Pur fome human urine into a glats alembic, fet it in a water bath, and diftill till there remain only about a fourth part of what you put in, or elfe evaporate the urine in a pan fet in the balneum mariae till it be reduced to the fame quantity. With this heat nothing will exhale but an infipid phlegm, fmelting however like urine. The refiduum will, as the evaporation advances, become of a darker and darker ruffet, and at laft acquire an almoft black colour. Mingle this refiduum with thrice its weight of fand, and diffil it in a retort fet in a reverberating furnace, with the ufual precautions. At firft there will come over a little more infipid phlegm like the former. When the matter is almoft dry, a volatile fpirit will rife. After this fpirit, white vapours will appear on increasing the fire; a yellow oily liquor will come off, trickling down in veins; and together with this liquor a concrete volatile falt, which will ftick to the fides of the receiver. At laft there will come over a deep-coloured fetid oil. In the retort there will remain a faline earthy refiduum, which being lixiviated will yield fome fea-falt.",
+  "modern": "Put some human urine into a glass alembic, set it in a water bath, and distill till there remain only about a fourth part of what you put in, or else evaporate the urine in a pan set in the balneum mariae till it be reduced to the same quantity. With this heat nothing will exhale but an insipid phlegm, smelling however like urine. The residue will, as the evaporation advances, become of a darker and darker ruffet, and at last acquire an almost black colour. Mingle this residue with thrice its weight of sand, and distill it in a retort set in a reverberating furnace, with the usual precautions. At first there will come over a little more insipid phlegm like the former. When the matter is almost dry, a volatile spirit will rise. After this spirit, white vapours will appear on increasing the fire; a yellow oily liquor will come off, trickling down in veins; and together with this liquor a concrete volatile salt, which will stick to the sides of the receiver. At last there will come over a deep-coloured fetid oil. In the retort there will remain a saline earthy residue, which being lixiviated will yield some sea-salt."
+ },
+ "error": null
+}

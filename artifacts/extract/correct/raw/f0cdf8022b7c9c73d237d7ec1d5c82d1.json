@@ -1,0 +1,31 @@
+{
+ "key": "f0cdf8022b7c9c73d237d7ec1d5c82d1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When those actions failed from their defects and the names of the theories in the provinces, the change which took habenam place on their circumstances was remarkably and by either they a natural influence, could not but produce an equally fertile a remarkable change on their hiding out and most the romanem. The great outlines might fill remain, but wish gave they could not now find to be filled up in a different tip to chi- manner. Here, however, the records of all delivery arely.",
+ "content": "{\n  \"faithful\": \"When those nations failed from their defects and forfeits, over-ran the Roman empire, and established themselves in its provinces, the change which took place on their circumstances was remarkable; and by a natural influence, it could not but produce an equally remarkable change on their habits, customs, and manners. The great outlines might fill remain; but they could not now fail to be filled up in a different manner. Here, however, the records of history are variously admitted to bear arms.\",\n  \"modern\": \"When those nations failed from their defects and forfeits, over-ran the Roman empire, and established themselves in its provinces, the change which took place on their circumstances was remarkable; and by a natural influence, it could not but produce an equally remarkable change on their habits, customs, and manners. The great outlines might fill remain; but they could not now fail to be filled up in a different manner. Here, however, the records of history are variously admitted to bear arms.\"\n}",
+ "usage": {
+  "completion_tokens": 213,
+  "prompt_tokens": 670,
+  "total_tokens": 883,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When those nations failed from their defects and forfeits, over-ran the Roman empire, and established themselves in its provinces, the change which took place on their circumstances was remarkable; and by a natural influence, it could not but produce an equally remarkable change on their habits, customs, and manners. The great outlines might fill remain; but they could not now fail to be filled up in a different manner. Here, however, the records of history are variously admitted to bear arms.",
+  "modern": "When those nations failed from their defects and forfeits, over-ran the Roman empire, and established themselves in its provinces, the change which took place on their circumstances was remarkable; and by a natural influence, it could not but produce an equally remarkable change on their habits, customs, and manners. The great outlines might fill remain; but they could not now fail to be filled up in a different manner. Here, however, the records of history are variously admitted to bear arms."
+ },
+ "error": null
+}

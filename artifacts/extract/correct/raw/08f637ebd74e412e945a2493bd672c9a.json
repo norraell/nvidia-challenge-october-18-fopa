@@ -1,0 +1,31 @@
+{
+ "key": "08f637ebd74e412e945a2493bd672c9a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ABCD (No. 31.) is a tin lantern, with a tube nklm fixed in the field of it. This tube conflicts of two joints, one of which dips into the others and by drawing this joint out, or pulling it in, the tube may be made longer or shorter. At kl in the end of the moveable joint of the tube, a convex lens is fixed, and an object painted with transparent colors upon a piece of thin glafs is pla- edat de homewhere in the immovable joint of the tube; fo that as the tube is lengthened or fluorescent, the lens will be either at a greater or a left distance from this transferen object. In the field of the lantern three is a very convex lens bbc, which ferries to call a very frong light from the candle within the lantern upon the object de. New when the rays, which fringe through the objet de, diverge from the several points as Å, a, sc. in the object, and fall upon the lens kl, they will be made to converge to as many points fj, g &e. on the other ride of the lens, and will point an inverted picture of the",
+ "content": "{\n  \"faithful\": \"ABCD (No. 31.) is a tin lantern, with a tube nklm fixed in the field of it. This tube conflicts of two joints, one of which dips into the others and by drawing this joint out, or pulling it in, the tube may be made longer or shorter. At kl in the end of the moveable joint of the tube, a convex lens is fixed, and an object painted with transparent colors upon a piece of thin glafs is pla- edat de homewhere in the immovable joint of the tube; fo that as the tube is lengthened or fluorescent, the lens will be either at a greater or a left distance from this transferen object. In the field of the lantern three is a very convex lens bbc, which ferries to call a very frong light from the candle within the lantern upon the object de. New when the rays, which fringe through the objet de, diverge from the several points as Å, a, sc. in the object, and fall upon the lens kl, they will be made to converge to as many points fj, g &e. on the other ride of the lens, and will point an inverted picture of the\",\n  \"modern\": \"ABCD (No. 31.) is a tin lantern, with a tube nklm fixed in the field of it. This tube conflicts of two joints, one of which dips into the others and by drawing this joint out, or pulling it in, the tube may be made longer or shorter. At kl in the end of the moveable joint of the tube, a convex lens is fixed, and an object painted with transparent colors upon a piece of thin glass is placed at de somewhere in the immovable joint of the tube; so that as the tube is lengthened or shortened, the lens will be either at a greater or a left distance from this transparent object. In the field of the lantern there is a very convex lens bbc, which serves to call a very strong light from the candle within the lantern upon the object de. Now when the rays, which shine through the object de, diverge from the several points as A, a, etc. in the object, and fall upon the lens kl, they will be made to converge to as many points f, g, etc. on the other side of the lens, and will point an inverted picture of the\"\n}",
+ "usage": {
+  "completion_tokens": 506,
+  "prompt_tokens": 948,
+  "total_tokens": 1454,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 398
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ABCD (No. 31.) is a tin lantern, with a tube nklm fixed in the field of it. This tube conflicts of two joints, one of which dips into the others and by drawing this joint out, or pulling it in, the tube may be made longer or shorter. At kl in the end of the moveable joint of the tube, a convex lens is fixed, and an object painted with transparent colors upon a piece of thin glafs is pla- edat de homewhere in the immovable joint of the tube; fo that as the tube is lengthened or fluorescent, the lens will be either at a greater or a left distance from this transferen object. In the field of the lantern three is a very convex lens bbc, which ferries to call a very frong light from the candle within the lantern upon the object de. New when the rays, which fringe through the objet de, diverge from the several points as Å, a, sc. in the object, and fall upon the lens kl, they will be made to converge to as many points fj, g &e. on the other ride of the lens, and will point an inverted picture of the",
+  "modern": "ABCD (No. 31.) is a tin lantern, with a tube nklm fixed in the field of it. This tube conflicts of two joints, one of which dips into the others and by drawing this joint out, or pulling it in, the tube may be made longer or shorter. At kl in the end of the moveable joint of the tube, a convex lens is fixed, and an object painted with transparent colors upon a piece of thin glass is placed at de somewhere in the immovable joint of the tube; so that as the tube is lengthened or shortened, the lens will be either at a greater or a left distance from this transparent object. In the field of the lantern there is a very convex lens bbc, which serves to call a very strong light from the candle within the lantern upon the object de. Now when the rays, which shine through the object de, diverge from the several points as A, a, etc. in the object, and fall upon the lens kl, they will be made to converge to as many points f, g, etc. on the other side of the lens, and will point an inverted picture of the"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "cb8ddfbbb4d165fd05f371d54537ef67",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Ancare Bruder,_ Roman majority, were, according to Prifice, lower and lets honourable feats al-lotted for the _judica redenia_, or inferior judges, who upon being admitted of the emperor's council, were dig- nished by him with the title _amisi_.",
+ "content": "{\n  \"faithful\": \"_Amicable Benches,_ in Roman antiquity, were, according to Pitiscus, lower and less honourable feats allotted for the _judices pedanei_, or inferior judges, who, upon being admitted of the emperor's council, were dignified by him with the title _amici_.\",\n  \"modern\": \"Amicable Benches, in Roman antiquity, were, according to Pitiscus, lower and less honourable feats allotted for the judices pedanei, or inferior judges, who, upon being admitted of the emperor's council, were dignified by him with the title amici.\"\n}",
+ "usage": {
+  "completion_tokens": 137,
+  "prompt_tokens": 653,
+  "total_tokens": 790,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_Amicable Benches,_ in Roman antiquity, were, according to Pitiscus, lower and less honourable feats allotted for the _judices pedanei_, or inferior judges, who, upon being admitted of the emperor's council, were dignified by him with the title _amici_.",
+  "modern": "Amicable Benches, in Roman antiquity, were, according to Pitiscus, lower and less honourable feats allotted for the judices pedanei, or inferior judges, who, upon being admitted of the emperor's council, were dignified by him with the title amici."
+ },
+ "error": null
+}

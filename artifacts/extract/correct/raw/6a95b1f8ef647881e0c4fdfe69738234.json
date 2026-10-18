@@ -1,0 +1,31 @@
+{
+ "key": "6a95b1f8ef647881e0c4fdfe69738234",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Sometimes are two sorts of pounds, piese nottile lbs, and tpes grossosibb. The latter at teeth pert here's than the far visited the central 100 ha, per section 30-929 lb, avoids, or the station of 100 lac. peso grosso = 76-88. The latter is of for bed, very small, and the former for girls, given, and articles of small bulk. The palms o al 4722 Brit. inches, and then resta the canna posed by possessions of pinit, the cumma genus of the merc-ots = 12 pat, and the national tenants ema a realmal. Of tournaments 98 matches a sport i must = 23-18 bushals. Also 100 points a 2 barliar 1 mezzarols of wine = 32-67 is, gil; and 64 quarterout a 4 quarter + idul battle = 14 22 is gali.",
+ "content": "{\n  \"faithful\": \"Sometimes are two sorts of pounds, piese nottile lbs, and tpes grossosibb. The latter at teeth pert here's than the far visited the central 100 ha, per section 30-929 lb, avoids, or the station of 100 lac. peso grosso = 76-88. The latter is of for bed, very small, and the former for girls, given, and articles of small bulk. The palms o al 4722 Brit. inches, and then resta the canna posed by possessions of pinit, the cumma genus of the merc-ots = 12 pat, and the national tenants ema a realmal. Of tournaments 98 matches a sport i must = 23-18 bushals. Also 100 points a 2 barliar 1 mezzarols of wine = 32-67 is, gil; and 64 quarterout a 4 quarter + idul battle = 14 22 is gali.\",\n  \"modern\": \"Sometimes are two sorts of pounds, piese nottile lbs, and tpes grossosibb. The latter at teeth pert here's than the far visited the central 100 ha, per section 30-929 lb, avoids, or the station of 100 lac. peso grosso = 76-88. The latter is of for bed, very small, and the former for girls, given, and articles of small bulk. The palms o al 4722 Brit. inches, and then resta the canna posed by possessions of pinit, the cumma genus of the merc-ots = 12 pat, and the national tenants ema a realmal. Of tournaments 98 matches a sport i must = 23-18 bushels. Also 100 points a 2 barliar 1 mezzarols of wine = 32-67 is, gil; and 64 quarterout a 4 quarter + idul battle = 14 22 is gali.\"\n}",
+ "usage": {
+  "completion_tokens": 462,
+  "prompt_tokens": 806,
+  "total_tokens": 1268,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Sometimes are two sorts of pounds, piese nottile lbs, and tpes grossosibb. The latter at teeth pert here's than the far visited the central 100 ha, per section 30-929 lb, avoids, or the station of 100 lac. peso grosso = 76-88. The latter is of for bed, very small, and the former for girls, given, and articles of small bulk. The palms o al 4722 Brit. inches, and then resta the canna posed by possessions of pinit, the cumma genus of the merc-ots = 12 pat, and the national tenants ema a realmal. Of tournaments 98 matches a sport i must = 23-18 bushals. Also 100 points a 2 barliar 1 mezzarols of wine = 32-67 is, gil; and 64 quarterout a 4 quarter + idul battle = 14 22 is gali.",
+  "modern": "Sometimes are two sorts of pounds, piese nottile lbs, and tpes grossosibb. The latter at teeth pert here's than the far visited the central 100 ha, per section 30-929 lb, avoids, or the station of 100 lac. peso grosso = 76-88. The latter is of for bed, very small, and the former for girls, given, and articles of small bulk. The palms o al 4722 Brit. inches, and then resta the canna posed by possessions of pinit, the cumma genus of the merc-ots = 12 pat, and the national tenants ema a realmal. Of tournaments 98 matches a sport i must = 23-18 bushels. Also 100 points a 2 barliar 1 mezzarols of wine = 32-67 is, gil; and 64 quarterout a 4 quarter + idul battle = 14 22 is gali."
+ },
+ "error": null
+}

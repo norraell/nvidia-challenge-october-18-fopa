@@ -1,0 +1,31 @@
+{
+ "key": "c548aeef6610ec15ad84cb41a005a91b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ATEGUA, or ATEGUA, an ancient town of Spain, placed by fame in the road from Antiquars, now Antquers, a Filipin, or Seville, or others near Aleala Reil; which left in the more probable fi-tuation, because the flumen fallum, now the Salado, was in its neighborhood. Now _Teleda Prins, or Yrtede._",
+ "content": "{\n  \"faithful\": \"ATEGUA, or ATEGUA, an ancient town of Spain, placed by fame in the road from Antiquars, now Antquers, a Filipin, or Seville, or others near Aleala Reil; which left in the more probable fi-tuation, because the flumen fallum, now the Salado, was in its neighborhood. Now _Teleda Prins, or Yrtede._\",\n  \"modern\": \"ATEGUA, or ATEGUA, an ancient town of Spain, placed by fame in the road from Antiquars, now Antquers, a Filipin, or Seville, or others near Aleala Reil; which left in the more probable situation, because the flumen fallum, now the Salado, was in its neighborhood. Now Teleda Prins, or Yrtede.\"\n}",
+ "usage": {
+  "completion_tokens": 185,
+  "prompt_tokens": 678,
+  "total_tokens": 863,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ATEGUA, or ATEGUA, an ancient town of Spain, placed by fame in the road from Antiquars, now Antquers, a Filipin, or Seville, or others near Aleala Reil; which left in the more probable fi-tuation, because the flumen fallum, now the Salado, was in its neighborhood. Now _Teleda Prins, or Yrtede._",
+  "modern": "ATEGUA, or ATEGUA, an ancient town of Spain, placed by fame in the road from Antiquars, now Antquers, a Filipin, or Seville, or others near Aleala Reil; which left in the more probable situation, because the flumen fallum, now the Salado, was in its neighborhood. Now Teleda Prins, or Yrtede."
+ },
+ "error": null
+}

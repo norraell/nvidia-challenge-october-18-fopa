@@ -1,0 +1,31 @@
+{
+ "key": "495f2bd8666547dae0aae0d59f8c98f6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "be totally cled up, or the cranium in that part not be\nto hard as the rest for four years after. This is made\nrefs is found to be incredied upon the child’s catching\ncold. When the differdit continuer long, it is repu-\nted a drop of webendo and flour life, in this case\nit is usual to rub the head now and then with warm\nrum or bowled, mixed with the white one leg against\npain oil. Sometimes the different suffer from a col-\nlection of waters in the head called an _hydrosepholes_.",
+ "content": "{\n  \"faithful\": \"be totally cled up, or the cranium in that part not be to hard as the rest for four years after. This is made refs is found to be incredied upon the child’s catching cold. When the differdit continuer long, it is reputed a drop of webendo and flour life, in this case it is usual to rub the head now and then with warm rum or bowled, mixed with the white one leg against pain oil. Sometimes the different suffer from a collection of waters in the head called an _hydrosepholes_.\",\n  \"modern\": \"be totally closed up, or the cranium in that part not be too hard as the rest for some years after. This openness is found to be increased upon the child's catching cold. When the disease continues long, it is reputed a sign of weakness and short life. In this case, it is usual to rub the head now and then with warm rum or brandy, mixed with the white of an egg and palm oil. Sometimes the disorder arises from a collection of waters in the head called an hydrocephalus.\"\n}",
+ "usage": {
+  "completion_tokens": 235,
+  "prompt_tokens": 691,
+  "total_tokens": 926,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "be totally cled up, or the cranium in that part not be to hard as the rest for four years after. This is made refs is found to be incredied upon the child’s catching cold. When the differdit continuer long, it is reputed a drop of webendo and flour life, in this case it is usual to rub the head now and then with warm rum or bowled, mixed with the white one leg against pain oil. Sometimes the different suffer from a collection of waters in the head called an _hydrosepholes_.",
+  "modern": "be totally closed up, or the cranium in that part not be too hard as the rest for some years after. This openness is found to be increased upon the child's catching cold. When the disease continues long, it is reputed a sign of weakness and short life. In this case, it is usual to rub the head now and then with warm rum or brandy, mixed with the white of an egg and palm oil. Sometimes the disorder arises from a collection of waters in the head called an hydrocephalus."
+ },
+ "error": null
+}

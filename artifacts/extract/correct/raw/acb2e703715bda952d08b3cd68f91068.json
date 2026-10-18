@@ -1,0 +1,31 @@
+{
+ "key": "acb2e703715bda952d08b3cd68f91068",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In making the oblorations, a model glafs mulb uefd for preserving the eyes i and which may be thus prepared. Take two equal and well political round prices of glafs into the farles of one of which, all round its limb, glue a palkboard ring: then put the other piece of glafs into the smoke of a lamp, taking it several times time, and putting it in again, left the heat thould break it, until the smoke be fo thick, that the lamp can favorably be free through it, but the smoke mult not be all over of the same thickets, that fito a place may be obtain anfering to the splendour of the fun. This being done, the glafs, thus blackened, mult e glued to the pathboard of abovementand, with its black fide next to the other glafs, that the smoke may not be ribbed off.",
+ "content": "{\n  \"faithful\": \"In making the oblorations, a model glafs mulb uefd for preserving the eyes i and which may be thus prepared. Take two equal and well political round prices of glafs into the farles of one of which, all round its limb, glue a palkboard ring: then put the other piece of glafs into the smoke of a lamp, taking it several times time, and putting it in again, left the heat thould break it, until the smoke be fo thick, that the lamp can favorably be free through it, but the smoke mult not be all over of the same thickets, that fito a place may be obtain anfering to the splendour of the fun. This being done, the glafs, thus blackened, mult e glued to the pathboard of abovementand, with its black fide next to the other glafs, that the smoke may not be ribbed off.\",\n  \"modern\": \"In making the oblorations, a model glass mulb used for preserving the eyes i and which may be thus prepared. Take two equal and well political round pieces of glass into the farles of one of which, all round its limb, glue a palkboard ring: then put the other piece of glass into the smoke of a lamp, taking it several times time, and putting it in again, left the heat thould break it, until the smoke be fo thick, that the lamp can favorably be free through it, but the smoke mult not be all over of the same thickets, that fito a place may be obtain anfering to the splendour of the fun. This being done, the glass, thus blackened, mult e glued to the pathboard of abovementand, with its black side next to the other glass, that the smoke may not be ribbed off.\"\n}",
+ "usage": {
+  "completion_tokens": 393,
+  "prompt_tokens": 776,
+  "total_tokens": 1169,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In making the oblorations, a model glafs mulb uefd for preserving the eyes i and which may be thus prepared. Take two equal and well political round prices of glafs into the farles of one of which, all round its limb, glue a palkboard ring: then put the other piece of glafs into the smoke of a lamp, taking it several times time, and putting it in again, left the heat thould break it, until the smoke be fo thick, that the lamp can favorably be free through it, but the smoke mult not be all over of the same thickets, that fito a place may be obtain anfering to the splendour of the fun. This being done, the glafs, thus blackened, mult e glued to the pathboard of abovementand, with its black fide next to the other glafs, that the smoke may not be ribbed off.",
+  "modern": "In making the oblorations, a model glass mulb used for preserving the eyes i and which may be thus prepared. Take two equal and well political round pieces of glass into the farles of one of which, all round its limb, glue a palkboard ring: then put the other piece of glass into the smoke of a lamp, taking it several times time, and putting it in again, left the heat thould break it, until the smoke be fo thick, that the lamp can favorably be free through it, but the smoke mult not be all over of the same thickets, that fito a place may be obtain anfering to the splendour of the fun. This being done, the glass, thus blackened, mult e glued to the pathboard of abovementand, with its black side next to the other glass, that the smoke may not be ribbed off."
+ },
+ "error": null
+}

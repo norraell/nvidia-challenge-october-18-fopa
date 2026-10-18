@@ -1,0 +1,31 @@
+{
+ "key": "9ead3b1a88b8bbb8c0eda38245677389",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Thowments was rather above the middle height, firmly build, with broad shoulders. The owner of his face was rather square. His general expression was calm and thoughtful, and very pleasing. His eyes were light and penetrating; his mouth wide and usually enjoyable. He wore his hair, and had grown nearly white in large masses divided over his fine than forefoot, and killing on each side, something like a lion’s mane, nearly to his shoulders.",
+ "content": "{\n  \"faithful\": \"Thorwaldsen was rather above the middle height, firmly built, with broad shoulders. The outline of his face was rather square. His general expression was calm and thoughtful, and very pleasing. His eyes were light and penetrating; his mouth wide and usually closely shut. He wore his hair, which had grown nearly white, in large masses divided over his fine broad forehead, and falling on each side, something like a lion's mane, nearly to his shoulders.\",\n  \"modern\": \"Thorwaldsen was rather above the middle height, firmly built, with broad shoulders. The outline of his face was rather square. His general expression was calm and thoughtful, and very pleasing. His eyes were light and penetrating; his mouth wide and usually closely shut. He wore his hair, which had grown nearly white, in large masses divided over his fine broad forehead, and falling on each side, something like a lion's mane, nearly to his shoulders.\"\n}",
+ "usage": {
+  "completion_tokens": 199,
+  "prompt_tokens": 664,
+  "total_tokens": 863,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Thorwaldsen was rather above the middle height, firmly built, with broad shoulders. The outline of his face was rather square. His general expression was calm and thoughtful, and very pleasing. His eyes were light and penetrating; his mouth wide and usually closely shut. He wore his hair, which had grown nearly white, in large masses divided over his fine broad forehead, and falling on each side, something like a lion's mane, nearly to his shoulders.",
+  "modern": "Thorwaldsen was rather above the middle height, firmly built, with broad shoulders. The outline of his face was rather square. His general expression was calm and thoughtful, and very pleasing. His eyes were light and penetrating; his mouth wide and usually closely shut. He wore his hair, which had grown nearly white, in large masses divided over his fine broad forehead, and falling on each side, something like a lion's mane, nearly to his shoulders."
+ },
+ "error": null
+}

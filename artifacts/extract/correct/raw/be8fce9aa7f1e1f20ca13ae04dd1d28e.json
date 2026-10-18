@@ -1,0 +1,31 @@
+{
+ "key": "be8fce9aa7f1e1f20ca13ae04dd1d28e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ATHCIEVE. This item is derived from the French _abarne_, i.c. to fish or make an end of his figurities, in heredity, to prefer green schemes or ex-ploids.",
+ "content": "{\n  \"faithful\": \"ATCHIEVE. This term is derived from the French achever, i. e. to finish or make an end of; but signifies, in heraldry, to perform great actions or exploits.\",\n  \"modern\": \"ATCHIEVE. This term is derived from the French achever, i. e. to finish or make an end of; but signifies, in heraldry, to perform great actions or exploits.\"\n}",
+ "usage": {
+  "completion_tokens": 95,
+  "prompt_tokens": 626,
+  "total_tokens": 721,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ATCHIEVE. This term is derived from the French achever, i. e. to finish or make an end of; but signifies, in heraldry, to perform great actions or exploits.",
+  "modern": "ATCHIEVE. This term is derived from the French achever, i. e. to finish or make an end of; but signifies, in heraldry, to perform great actions or exploits."
+ },
+ "error": null
+}

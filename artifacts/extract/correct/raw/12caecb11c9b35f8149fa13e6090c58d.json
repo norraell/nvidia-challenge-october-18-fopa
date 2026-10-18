@@ -1,0 +1,31 @@
+{
+ "key": "12caecb11c9b35f8149fa13e6090c58d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "on pieces of mother of pearl as they are imported from China, China, and with precisely the fame refute. They ap- peated to be compelled of the fame grafiations matter such as carbonate of lime. In all the thiefs of this description which were named in aside, the membranes parts retained the each figure of the field, and they appeared different to be compelled of fibres, arranged in a parallel direction, correponding to the configuration of the flank.",
+ "content": "{\n  \"faithful\": \"on pieces of mother of pearl as they are imported from China, China, and with precisely the fame refute. They ap- peated to be compelled of the fame grafiations matter such as carbonate of lime. In all the thiefs of this description which were named in aside, the membranes parts retained the each figure of the field, and they appeared different to be compelled of fibres, arranged in a parallel direction, correponding to the configuration of the flank.\",\n  \"modern\": \"on pieces of mother of pearl as they are imported from China, China, and with precisely the same refute. They appeared to be composed of the same gelatinous matter such as carbonate of lime. In all the shells of this description which were immersed in acids, the membranaceous parts retained the exact figure of the shell, and they appeared distinctly to be composed of fibres, arranged in a parallel direction, corresponding to the configuration of the shell.\"\n}",
+ "usage": {
+  "completion_tokens": 201,
+  "prompt_tokens": 685,
+  "total_tokens": 886,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "on pieces of mother of pearl as they are imported from China, China, and with precisely the fame refute. They ap- peated to be compelled of the fame grafiations matter such as carbonate of lime. In all the thiefs of this description which were named in aside, the membranes parts retained the each figure of the field, and they appeared different to be compelled of fibres, arranged in a parallel direction, correponding to the configuration of the flank.",
+  "modern": "on pieces of mother of pearl as they are imported from China, China, and with precisely the same refute. They appeared to be composed of the same gelatinous matter such as carbonate of lime. In all the shells of this description which were immersed in acids, the membranaceous parts retained the exact figure of the shell, and they appeared distinctly to be composed of fibres, arranged in a parallel direction, corresponding to the configuration of the shell."
+ },
+ "error": null
+}

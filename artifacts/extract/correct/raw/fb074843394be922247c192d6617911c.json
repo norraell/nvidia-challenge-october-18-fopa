@@ -1,0 +1,31 @@
+{
+ "key": "fb074843394be922247c192d6617911c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "According to the proportion mentioned by Hectus, and which afterwards obtained, whereby the aurer exchanged for _5_ denarii its value",
+ "content": "{\n  \"faithful\": \"According to the proportion mentioned by Tacitus, and which afterwards obtained, whereby the aureus exchanged for 25 denarii, its value\",\n  \"modern\": \"According to the proportion mentioned by Tacitus, and which afterwards obtained, whereby the aureus exchanged for 25 denarii, its value\"\n}",
+ "usage": {
+  "completion_tokens": 71,
+  "prompt_tokens": 607,
+  "total_tokens": 678,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "According to the proportion mentioned by Tacitus, and which afterwards obtained, whereby the aureus exchanged for 25 denarii, its value",
+  "modern": "According to the proportion mentioned by Tacitus, and which afterwards obtained, whereby the aureus exchanged for 25 denarii, its value"
+ },
+ "error": null
+}

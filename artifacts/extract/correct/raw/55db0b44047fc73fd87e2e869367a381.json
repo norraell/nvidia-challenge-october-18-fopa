@@ -1,0 +1,31 @@
+{
+ "key": "55db0b44047fc73fd87e2e869367a381",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "250. \"The fire muff be taken from beneath the re-\ntort as soon as the definition a fabulist, not only to\nprevent the effect of the gefone vapour, which fill\ncontinue flowly to escape, from selling on the sides of\nthe tub, but likewise disfigned the restore or bodies\nreceive a quantity of warm water, which is to be\npound in up or the neck. There is no need to form\nan excess of quantity and the hotter the veffles are an\nbetter. It is effential, however, that it be not poured\nin cold, for fear of breaking while. The adapter\nis then to be knitted from the neck of the under tube,\nIf it is repeated photos’s and in order that to vapour\nmay escape into the workshop, a kick of hate or a cook\nmay be applied to the bank of the adopter. The find\nhand easily permits the resort to our ruled and returned\nagain to its place as well as the application of the lins\nor Dopper to the neck of the adopter, this lift being\nruled with one hand while the coat is put in with the\nother.",
+ "content": "{\n  \"faithful\": \"250. The fire must be taken from beneath the retort as soon as the distillation is finished, not only to prevent the effect of the gaseous vapours, which will continue slowly to escape, from settling on the sides of the tub, but likewise to difpose the retorts or bodies to receive a quantity of warm water, which is to be poured in up to the neck. There is no need to form an excess of quantity, and the hotter the vessels are the better. It is essential, however, that it be not poured in cold, for fear of breaking the glass. The adapter is then to be unfastened from the neck of the leaden tube, if the operator chooses; and in order that no vapour may escape into the workshop, a bit of lute or a cork may be applied to the beak of the adopter. The hand easily permits the retort to be raised and returned again to its place as well as the application of the lute or flopper to the neck of the adopter, this last being raised with one hand while the cork is put in with the other.\",\n  \"modern\": \"250. The fire must be taken from beneath the retort as soon as the distillation is finished, not only to prevent the effect of the gaseous vapors, which will continue slowly to escape, from settling on the sides of the tub, but likewise to dispose the retorts or bodies to receive a quantity of warm water, which is to be poured in up to the neck. There is no need to form an excess of quantity, and the hotter the vessels are the better. It is essential, however, that it be not poured in cold, for fear of breaking the glass. The adapter is then to be unfastened from the neck of the leaden tube, if the operator chooses; and in order that no vapor may escape into the workshop, a bit of lute or a cork may be applied to the beak of the adopter. The hand easily permits the retort to be raised and returned again to its place as well as the application of the lute or flopper to the neck of the adopter, this last being raised with one hand while the cork is put in with the other.\"\n}",
+ "usage": {
+  "completion_tokens": 472,
+  "prompt_tokens": 840,
+  "total_tokens": 1312,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "250. The fire must be taken from beneath the retort as soon as the distillation is finished, not only to prevent the effect of the gaseous vapours, which will continue slowly to escape, from settling on the sides of the tub, but likewise to difpose the retorts or bodies to receive a quantity of warm water, which is to be poured in up to the neck. There is no need to form an excess of quantity, and the hotter the vessels are the better. It is essential, however, that it be not poured in cold, for fear of breaking the glass. The adapter is then to be unfastened from the neck of the leaden tube, if the operator chooses; and in order that no vapour may escape into the workshop, a bit of lute or a cork may be applied to the beak of the adopter. The hand easily permits the retort to be raised and returned again to its place as well as the application of the lute or flopper to the neck of the adopter, this last being raised with one hand while the cork is put in with the other.",
+  "modern": "250. The fire must be taken from beneath the retort as soon as the distillation is finished, not only to prevent the effect of the gaseous vapors, which will continue slowly to escape, from settling on the sides of the tub, but likewise to dispose the retorts or bodies to receive a quantity of warm water, which is to be poured in up to the neck. There is no need to form an excess of quantity, and the hotter the vessels are the better. It is essential, however, that it be not poured in cold, for fear of breaking the glass. The adapter is then to be unfastened from the neck of the leaden tube, if the operator chooses; and in order that no vapor may escape into the workshop, a bit of lute or a cork may be applied to the beak of the adopter. The hand easily permits the retort to be raised and returned again to its place as well as the application of the lute or flopper to the neck of the adopter, this last being raised with one hand while the cork is put in with the other."
+ },
+ "error": null
+}

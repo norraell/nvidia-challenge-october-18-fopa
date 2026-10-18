@@ -1,0 +1,31 @@
+{
+ "key": "2ec941f77bb6d2ef9b14407929c6b575",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The latter are again divided into two other fields; pure rabbinills, explain the ferripure, in its a rural feeling, by grammar, history, and traditions, and cabbullits, who, to difcover hidden mythical fenles, which, they foppefe God to have coached therein, make all of the cabbals, and the mythical methods at bove mentioned.",
+ "content": "{\n  \"faithful\": \"The latter are again divided into two other fields; pure rabbinists, explain the scripture, in its natural sense, by grammar, history, and tradition; and cabbalists, who, to discover hidden mythical fancies, which they suppose God to have couched therein, make use of the cabbala, and the mythical methods above mentioned.\",\n  \"modern\": \"The latter are again divided into two other fields; pure rabbinists, explain the scripture, in its natural sense, by grammar, history, and tradition; and cabbalists, who, to discover hidden mythical fancies, which they suppose God to have couched therein, make use of the cabbala, and the mythical methods above mentioned.\"\n}",
+ "usage": {
+  "completion_tokens": 163,
+  "prompt_tokens": 665,
+  "total_tokens": 828,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The latter are again divided into two other fields; pure rabbinists, explain the scripture, in its natural sense, by grammar, history, and tradition; and cabbalists, who, to discover hidden mythical fancies, which they suppose God to have couched therein, make use of the cabbala, and the mythical methods above mentioned.",
+  "modern": "The latter are again divided into two other fields; pure rabbinists, explain the scripture, in its natural sense, by grammar, history, and tradition; and cabbalists, who, to discover hidden mythical fancies, which they suppose God to have couched therein, make use of the cabbala, and the mythical methods above mentioned."
+ },
+ "error": null
+}

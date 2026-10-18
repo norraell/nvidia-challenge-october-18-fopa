@@ -1,0 +1,31 @@
+{
+ "key": "d120473e19ccb3e16e161c98925e8234",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "After this victory it was imagined, that one rein-German forment name of Britli troops would terminate these wonti- ing in favor of the duties, said that enforcement was good with quickly fent. The British army in Germany was sug- claims forced to upwards of $2000 men, and financial hopes of consult were generally entrusted. Their hopes, however, even foul found be bell founded. The allies were defeated at Cortach; i but reterved their honour at Erdorf. A victory at Warburgh followed shortly after, and another at Zienberg: but then they fat- fund a defeat at Compen; after which, both fides re- tired into winter-quarters.",
+ "content": "{\n  \"faithful\": \"After this victory it was imagined, that one reinforcement of British troops would terminate the war in favour of the allies; and that reinforcement was quickly sent. The British army in Germany was augmented to upwards of 30,000 men, and sanguine hopes of conquest were generally entertained. Their hopes, however, were soon found to be ill founded. The allies were defeated at Corbach; but retrieved their honour at Exdorf. A victory at Warburgh followed shortly after, and another at Zierenberg: but then they suffered a defeat at Compen; after which, both sides retired into winter-quarters.\",\n  \"modern\": \"After this victory it was imagined, that one reinforcement of British troops would terminate the war in favor of the allies; and that reinforcement was quickly sent. The British army in Germany was augmented to upwards of 30,000 men, and sanguine hopes of conquest were generally entertained. Their hopes, however, were soon found to be ill founded. The allies were defeated at Corbach; but retrieved their honour at Exdorf. A victory at Warburgh followed shortly after, and another at Zierenberg: but then they suffered a defeat at Compen; after which, both sides retired into winter-quarters.\"\n}",
+ "usage": {
+  "completion_tokens": 267,
+  "prompt_tokens": 731,
+  "total_tokens": 998,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "After this victory it was imagined, that one reinforcement of British troops would terminate the war in favour of the allies; and that reinforcement was quickly sent. The British army in Germany was augmented to upwards of 30,000 men, and sanguine hopes of conquest were generally entertained. Their hopes, however, were soon found to be ill founded. The allies were defeated at Corbach; but retrieved their honour at Exdorf. A victory at Warburgh followed shortly after, and another at Zierenberg: but then they suffered a defeat at Compen; after which, both sides retired into winter-quarters.",
+  "modern": "After this victory it was imagined, that one reinforcement of British troops would terminate the war in favor of the allies; and that reinforcement was quickly sent. The British army in Germany was augmented to upwards of 30,000 men, and sanguine hopes of conquest were generally entertained. Their hopes, however, were soon found to be ill founded. The allies were defeated at Corbach; but retrieved their honour at Exdorf. A victory at Warburgh followed shortly after, and another at Zierenberg: but then they suffered a defeat at Compen; after which, both sides retired into winter-quarters."
+ },
+ "error": null
+}

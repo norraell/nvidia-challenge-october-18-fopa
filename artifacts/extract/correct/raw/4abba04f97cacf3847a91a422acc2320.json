@@ -1,0 +1,31 @@
+{
+ "key": "4abba04f97cacf3847a91a422acc2320",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BUS', a town of Daughane, in France, situated on the confined Florence; E. long, 3° 20, and N. lat. 44° 25°.",
+ "content": "{\n  \"faithful\": \"BUYS, a town of Dauphine, in France, situated on the confines of Provence; E. long. 5° 20', and N. lat. 44° 25'.\",\n  \"modern\": \"BUYS, a town of Dauphine, in France, situated on the confines of Provence; E. long. 5° 20', and N. lat. 44° 25'.\"\n}",
+ "usage": {
+  "completion_tokens": 105,
+  "prompt_tokens": 643,
+  "total_tokens": 748,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 298
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BUYS, a town of Dauphine, in France, situated on the confines of Provence; E. long. 5° 20', and N. lat. 44° 25'.",
+  "modern": "BUYS, a town of Dauphine, in France, situated on the confines of Provence; E. long. 5° 20', and N. lat. 44° 25'."
+ },
+ "error": null
+}

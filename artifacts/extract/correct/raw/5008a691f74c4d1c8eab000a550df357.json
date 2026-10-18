@@ -1,0 +1,31 @@
+{
+ "key": "5008a691f74c4d1c8eab000a550df357",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "11. Where the wife is deborn in that fort of debts, while if it had been due to the trouble, excelled the _juu mariis, e.g._ in bonds bearing intellect, which, as we fault afterward fee (claims, for contain particulars as the results of the hufland and wife, postwithstanding of the enactment of the flatature 1661, which renders them movement in certain other reflects, like hufland is liable only for the bypassing intents, and chule that may grow upon the debt during the marriages; because the obligation for her debts must be communicated to the intent it, has in its class. Is the hufland alone who is liable in personal diligence for his wife’s debts, while the marriages lobbifies the wife, who as the greater debtor, is free from all political execution upon them while file is _volite vivo_.",
+ "content": "{\n  \"faithful\": \"11. Where the wife is debtor in that fort of debt, which, if it had been due to her, would have excluded the juu marilis, e.g. in bonds bearing intellect, which, as we shall afterwards fee (claims, for contain particulars as the results of the hufland and wife, notwithstanding of the enactment of the flatature 1661, which renders them movement in certain other reflects, like hufland is liable only for the bypassing intents, and chule that may grow upon the debt during the marriages; because the obligation for her debts must be communicated to the intent it, has in its class. Is the hufland alone who is liable in personal diligence for his wife’s debts, while the marriages lobbifies the wife, who as the greater debtor, is free from all political execution upon them while file is volite vivo.\",\n  \"modern\": \"11. Where the wife is debtor in that fort of debt, which, if it had been due to her, would have excluded the juu marilis, e.g. in bonds bearing intellect, which, as we shall afterwards fee (claims, for contain particulars as the results of the hufland and wife, notwithstanding of the enactment of the flatature 1661, which renders them movement in certain other reflects, like hufland is liable only for the bypassing intents, and chule that may grow upon the debt during the marriages; because the obligation for her debts must be communicated to the intent it, has in its class. Is the hufland alone who is liable in personal diligence for his wife’s debts, while the marriages lobbifies the wife, who as the greater debtor, is free from all political execution upon them while file is volite vivo.\"\n}",
+ "usage": {
+  "completion_tokens": 393,
+  "prompt_tokens": 760,
+  "total_tokens": 1153,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "11. Where the wife is debtor in that fort of debt, which, if it had been due to her, would have excluded the juu marilis, e.g. in bonds bearing intellect, which, as we shall afterwards fee (claims, for contain particulars as the results of the hufland and wife, notwithstanding of the enactment of the flatature 1661, which renders them movement in certain other reflects, like hufland is liable only for the bypassing intents, and chule that may grow upon the debt during the marriages; because the obligation for her debts must be communicated to the intent it, has in its class. Is the hufland alone who is liable in personal diligence for his wife’s debts, while the marriages lobbifies the wife, who as the greater debtor, is free from all political execution upon them while file is volite vivo.",
+  "modern": "11. Where the wife is debtor in that fort of debt, which, if it had been due to her, would have excluded the juu marilis, e.g. in bonds bearing intellect, which, as we shall afterwards fee (claims, for contain particulars as the results of the hufland and wife, notwithstanding of the enactment of the flatature 1661, which renders them movement in certain other reflects, like hufland is liable only for the bypassing intents, and chule that may grow upon the debt during the marriages; because the obligation for her debts must be communicated to the intent it, has in its class. Is the hufland alone who is liable in personal diligence for his wife’s debts, while the marriages lobbifies the wife, who as the greater debtor, is free from all political execution upon them while file is volite vivo."
+ },
+ "error": null
+}

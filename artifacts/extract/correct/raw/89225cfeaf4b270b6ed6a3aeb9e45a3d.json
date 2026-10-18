@@ -1,0 +1,31 @@
+{
+ "key": "89225cfeaf4b270b6ed6a3aeb9e45a3d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ENERGY, a term of Greek origin, fignifying the power, virus, or efficacy of a thing. It is alfo ufed, figarratively to denote emplain of epected.",
+ "content": "{\n  \"faithful\": \"ENERGY, a term of Greek origin, fignifying the power, virtue, or efficacy of a thing. It is alfo ufed, figuratively, to denote emphasis of fpeech.\",\n  \"modern\": \"ENERGY, a term of Greek origin, signifying the power, virtue, or efficacy of a thing. It is also used, figuratively, to denote emphasis of speech.\"\n}",
+ "usage": {
+  "completion_tokens": 94,
+  "prompt_tokens": 633,
+  "total_tokens": 727,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ENERGY, a term of Greek origin, fignifying the power, virtue, or efficacy of a thing. It is alfo ufed, figuratively, to denote emphasis of fpeech.",
+  "modern": "ENERGY, a term of Greek origin, signifying the power, virtue, or efficacy of a thing. It is also used, figuratively, to denote emphasis of speech."
+ },
+ "error": null
+}

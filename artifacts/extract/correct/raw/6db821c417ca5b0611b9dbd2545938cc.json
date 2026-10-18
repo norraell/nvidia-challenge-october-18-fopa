@@ -1,0 +1,31 @@
+{
+ "key": "6db821c417ca5b0611b9dbd2545938cc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ENGLAND), the founder division of the illand of Great Britain. Including Wales, is at a triangular form, and lies between the 50^ and 55^ degrees of north latitudes, extending about 400 miles length from fourth to north, and in the place, it is 300 miles in breadth. It is bounded by Scotland on the north; by the English Channel on the fourth, dividing it from France by the German Sea on the city; and on the well by St George's, or the Irish, Chanel.",
+ "content": "{\n  \"faithful\": \"ENGLAND, the fother division of the ifland of Great Britain. Including Wales, it is of a triangular form, and lies between the 50th and 55th degrees of north latitude, extending about 400 miles in length from fouth to north, and in fome places it is 300 miles in breadth. It is bounded by Scotland on the north; by the Englih Channel on the fouth, dividing it from France; by the German Sea on the eaft; and on the weft by St George's, or the Irish, Channel.\",\n  \"modern\": \"ENGLAND, the southern division of the island of Great Britain. Including Wales, it is of a triangular form, and lies between the 50th and 55th degrees of north latitude, extending about 400 miles in length from south to north, and in some places it is 300 miles in breadth. It is bounded by Scotland on the north; by the English Channel on the south, dividing it from France; by the German Sea on the east; and on the west by St George's, or the Irish, Channel.\"\n}",
+ "usage": {
+  "completion_tokens": 256,
+  "prompt_tokens": 694,
+  "total_tokens": 950,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ENGLAND, the fother division of the ifland of Great Britain. Including Wales, it is of a triangular form, and lies between the 50th and 55th degrees of north latitude, extending about 400 miles in length from fouth to north, and in fome places it is 300 miles in breadth. It is bounded by Scotland on the north; by the Englih Channel on the fouth, dividing it from France; by the German Sea on the eaft; and on the weft by St George's, or the Irish, Channel.",
+  "modern": "ENGLAND, the southern division of the island of Great Britain. Including Wales, it is of a triangular form, and lies between the 50th and 55th degrees of north latitude, extending about 400 miles in length from south to north, and in some places it is 300 miles in breadth. It is bounded by Scotland on the north; by the English Channel on the south, dividing it from France; by the German Sea on the east; and on the west by St George's, or the Irish, Channel."
+ },
+ "error": null
+}

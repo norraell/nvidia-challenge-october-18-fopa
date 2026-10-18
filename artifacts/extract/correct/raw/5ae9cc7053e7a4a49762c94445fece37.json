@@ -1,0 +1,31 @@
+{
+ "key": "5ae9cc7053e7a4a49762c94445fece37",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The name of Nazarene belongs to Jesus Christ, not only because of his having lived the greater part of his life at Nazareth, and became this city has always been smaller, and as his country, but also because the prophets had foretold that he should be called to Nazarem (Mattie i; 28). “ And he came and done in a city called Nazareth, that might be frilibled which was spoken by the prophets. He shall be called to Nazarem.” We find in particular passage in the prophets where it is as that the Messiah should be called a Nazarene; and St Matthew only quotes",
+ "content": "{\n  \"faithful\": \"The name of Nazarene belongs to Jesus Christ, not only because of his having lived the greater part of his life at Nazareth, and because this city has always been smaller, and as his country, but also because the prophets had foretold that he should be called to Nazarem (Mattie i; 28). “ And he came and done in a city called Nazareth, that might be frilibled which was spoken by the prophets. He shall be called to Nazarem.” We find in particular passage in the prophets where it is as that the Messiah should be called a Nazarene; and St Matthew only quotes\",\n  \"modern\": \"The name of Nazarene belongs to Jesus Christ, not only because of his having lived the greater part of his life at Nazareth, and because this city has always been smaller, and as his country, but also because the prophets had foretold that he should be called to Nazarem (Mattie i; 28). “ And he came and done in a city called Nazareth, that might be frilibled which was spoken by the prophets. He shall be called to Nazarem.” We find in particular passage in the prophets where it is as that the Messiah should be called a Nazarene; and St Matthew only quotes\"\n}",
+ "usage": {
+  "completion_tokens": 277,
+  "prompt_tokens": 698,
+  "total_tokens": 975,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The name of Nazarene belongs to Jesus Christ, not only because of his having lived the greater part of his life at Nazareth, and because this city has always been smaller, and as his country, but also because the prophets had foretold that he should be called to Nazarem (Mattie i; 28). “ And he came and done in a city called Nazareth, that might be frilibled which was spoken by the prophets. He shall be called to Nazarem.” We find in particular passage in the prophets where it is as that the Messiah should be called a Nazarene; and St Matthew only quotes",
+  "modern": "The name of Nazarene belongs to Jesus Christ, not only because of his having lived the greater part of his life at Nazareth, and because this city has always been smaller, and as his country, but also because the prophets had foretold that he should be called to Nazarem (Mattie i; 28). “ And he came and done in a city called Nazareth, that might be frilibled which was spoken by the prophets. He shall be called to Nazarem.” We find in particular passage in the prophets where it is as that the Messiah should be called a Nazarene; and St Matthew only quotes"
+ },
+ "error": null
+}

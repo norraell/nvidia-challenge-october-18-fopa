@@ -1,0 +1,31 @@
+{
+ "key": "082934d4e37e2a2164333be86432b915",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Effaying weighed, and made of paper not impregnated with alum. It is to be dried at frift with a gentle heat, but afterwards expelled for five minutes to a beat of 10:00 On cooling, it to the weights together with the fiter; the brown weight of which mult afterwards be fobricked. The fedmena is both included in bottle for a filter than once impregnated with false matter cannot be freed from it again without great difficulty, especially if an internal of one burns intervents.",
+ "content": "{\n  \"faithful\": \"Effaying weighed, and made of paper not impregnated with alum. It is to be dried at frift with a gentle heat, but afterwards expelled for five minutes to a beat of 10:00 On cooling, it to the weights together with the fiter; the brown weight of which mult afterwards be fobricked. The fedmena is both included in bottle for a filter than once impregnated with false matter cannot be freed from it again without great difficulty, especially if an internal of one burns intervents.\",\n  \"modern\": \"Effaying weighed, and made of paper not impregnated with alum. It is to be dried at first with a gentle heat, but afterwards expelled for five minutes to a beat of 10:00 On cooling, it to the weights together with the filter; the brown weight of which must afterwards be subtracted. The sediment is both included in bottle for a filter than once impregnated with saline matter cannot be freed from it again without great difficulty, especially if an interval of some hours intervenes.\"\n}",
+ "usage": {
+  "completion_tokens": 228,
+  "prompt_tokens": 699,
+  "total_tokens": 927,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Effaying weighed, and made of paper not impregnated with alum. It is to be dried at frift with a gentle heat, but afterwards expelled for five minutes to a beat of 10:00 On cooling, it to the weights together with the fiter; the brown weight of which mult afterwards be fobricked. The fedmena is both included in bottle for a filter than once impregnated with false matter cannot be freed from it again without great difficulty, especially if an internal of one burns intervents.",
+  "modern": "Effaying weighed, and made of paper not impregnated with alum. It is to be dried at first with a gentle heat, but afterwards expelled for five minutes to a beat of 10:00 On cooling, it to the weights together with the filter; the brown weight of which must afterwards be subtracted. The sediment is both included in bottle for a filter than once impregnated with saline matter cannot be freed from it again without great difficulty, especially if an interval of some hours intervenes."
+ },
+ "error": null
+}

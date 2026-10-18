@@ -1,0 +1,31 @@
+{
+ "key": "bdde40ab052c8f5df9aacc6e2130df14",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There is also more to think that all the phlogition of the charred matter is not employed in the production of fulphur in this, phofhorus, but that frame parts of it re-maning in the literal era can be coak.. The block colour of the unikalid phorhorus, and the red lipstick is emits white burning, sufficiently prove this, small air hunters.",
+ "content": "{\n  \"faithful\": \"There is also more to think that all the phlogition of the charred matter is not employed in the production of fulphur in this, phofhorus, but that frame parts of it re-maning in the literal era can be coak.. The block colour of the unikalid phorhorus, and the red lipstick is emits white burning, sufficiently prove this, small air hunters.\",\n  \"modern\": \"There is also more to think that all the phlogition of the charred matter is not employed in the production of fulphur in this, phosphorus, but that frame parts of it remaining in the literal era can be coak. The block colour of the unikalid phosphorus, and the red lipstick is emits white burning, sufficiently prove this, small air hunters.\"\n}",
+ "usage": {
+  "completion_tokens": 175,
+  "prompt_tokens": 647,
+  "total_tokens": 822,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There is also more to think that all the phlogition of the charred matter is not employed in the production of fulphur in this, phofhorus, but that frame parts of it re-maning in the literal era can be coak.. The block colour of the unikalid phorhorus, and the red lipstick is emits white burning, sufficiently prove this, small air hunters.",
+  "modern": "There is also more to think that all the phlogition of the charred matter is not employed in the production of fulphur in this, phosphorus, but that frame parts of it remaining in the literal era can be coak. The block colour of the unikalid phosphorus, and the red lipstick is emits white burning, sufficiently prove this, small air hunters."
+ },
+ "error": null
+}

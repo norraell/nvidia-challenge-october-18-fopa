@@ -1,0 +1,31 @@
+{
+ "key": "866ee5826be2468884c7213eb2181894",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Exercile increase the circulation of the blood, attte-mates and divides the fluids, and promotes a regular prefieren, as well as due therefore of all the ha-murss for it accederces the animal fruits, and facilitates their distribution into all the flavor of the body, therefore the parts, creates an appetite, and helps de-gellion. Where is artists, the thief who asculmon thanhame to excels are generally very robust, and fell-dom subject to diabetes.",
+ "content": "{\n  \"faithful\": \"Exercise increases the circulation of the blood, attenuates and divides the fluids, and promotes a regular perspiration, as well as a due secretion of all the humours; for it accelerates the animal spirits, and facilitates their distribution into all the fibres of the body, strengthens the parts, creates an appetite, and helps digestion. Whence it arises, that those who accustom themselves to exercise are generally very robust, and seldom subject to diseases.\",\n  \"modern\": \"Exercise increases the circulation of the blood, attenuates and divides the fluids, and promotes a regular perspiration, as well as a due secretion of all the humours; for it accelerates the animal spirits, and facilitates their distribution into all the fibres of the body, strengthens the parts, creates an appetite, and helps digestion. Whence it arises, that those who accustom themselves to exercise are generally very robust, and seldom subject to diseases.\"\n}",
+ "usage": {
+  "completion_tokens": 197,
+  "prompt_tokens": 678,
+  "total_tokens": 875,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Exercise increases the circulation of the blood, attenuates and divides the fluids, and promotes a regular perspiration, as well as a due secretion of all the humours; for it accelerates the animal spirits, and facilitates their distribution into all the fibres of the body, strengthens the parts, creates an appetite, and helps digestion. Whence it arises, that those who accustom themselves to exercise are generally very robust, and seldom subject to diseases.",
+  "modern": "Exercise increases the circulation of the blood, attenuates and divides the fluids, and promotes a regular perspiration, as well as a due secretion of all the humours; for it accelerates the animal spirits, and facilitates their distribution into all the fibres of the body, strengthens the parts, creates an appetite, and helps digestion. Whence it arises, that those who accustom themselves to exercise are generally very robust, and seldom subject to diseases."
+ },
+ "error": null
+}

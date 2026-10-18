@@ -1,0 +1,31 @@
+{
+ "key": "3faa77eb6de13b574d0769c270ba0e4f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1. _Ores of Gold._ This metal occurs in the bowels of the earth native, poffelling a complete metallic forms of the area although in general the small particles of it are for in-of gold.",
+ "content": "{\n  \"faithful\": \"1. Ores of Gold. This metal occurs in the bowels of the earth native, poffelling a complete metallic form, although in general the small particles of it are fo in- of gold.\",\n  \"modern\": \"1. Ores of Gold. This metal occurs in the bowels of the earth native, possessing a complete metallic form, although in general the small particles of it are so in- of gold.\"\n}",
+ "usage": {
+  "completion_tokens": 97,
+  "prompt_tokens": 627,
+  "total_tokens": 724,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1. Ores of Gold. This metal occurs in the bowels of the earth native, poffelling a complete metallic form, although in general the small particles of it are fo in- of gold.",
+  "modern": "1. Ores of Gold. This metal occurs in the bowels of the earth native, possessing a complete metallic form, although in general the small particles of it are so in- of gold."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "a6d651786e5e8e666d79f7be13cf2bbb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Soon after this, the prophet _Tuf/f/j_ who had fortotold the deflection of the Spaniards, was not only declared the delivery of his country, but had a considerable activity decreed him, with the liberty of exercising a projectile motion unmelded. It was not long, how ever, before the manabouts, and some interpreters of the law, makes a strong opposition against him; remost- fritating to the bashy, how ridiculous and Canadian it was to their nation, to defend the defence of it to a poor former-celler, which had been obtained by the current players of an comment faint of their own profefi- tion. But that the bashwa and his downward femen, and of policy, to give into this limitation, yet the im- preflion which Yufe’s predlifessons and their late accom- plillment had made upon the mind of the common people, proved too fringe to her melanzie, and the fifi- of duration and comparing has face got into facts credit among them, that not only their great liathens, but their profits, manabouts, and tuntions, have applied friendées to that study, and digidist it with the name of _Allement Residence._",
+ "content": "{\n  \"faithful\": \"Soon after this, the prophet Yufef, who had foretold the defection of the Spaniards, was not only declared the deliverer of his country, but had a considerable activity decreed him, with the liberty of exercising a projectile motion unmolefted. It was not long, however, before the marabouts, and some interpreters of the law, made a strong opposition against him; remonstrating to the bashaw, how ridiculous and scandalous it was to their nation, to defend the defence of it to a poor fortune-teller, which had been obtained by the fervent prayers of an eminent saint of their own profession. But tho' the bashaw and his douwan seemed, out of policy, to give into this last notion, yet the impression which Yufef's predictions and their late accomplishment had made upon the minds of the common people, proved too strong to be eradicated; and the spirit of divination and conjuring has since got into such credit among them, that not only their great statesmen, but their priests, marabouts, and fantoons, have applied themselves to that study, and dignified it with the name of Mahomet's Revelations.\",\n  \"modern\": \"Soon after this, the prophet Yufef, who had foretold the defection of the Spaniards, was not only declared the deliverer of his country, but had a considerable activity decreed him, with the liberty of exercising a projectile motion unmolefted. It was not long, however, before the marabouts, and some interpreters of the law, made a strong opposition against him; remonstrating to the bashaw, how ridiculous and scandalous it was to their nation, to defend the defence of it to a poor fortune-teller, which had been obtained by the fervent prayers of an eminent saint of their own profession. But tho' the bashaw and his douwan seemed, out of policy, to give into this last notion, yet the impression which Yufef's predictions and their late accomplishment had made upon the minds of the common people, proved too strong to be eradicated; and the spirit of divination and conjuring has since got into such credit among them, that not only their great statesmen, but their priests, marabouts, and fantoons, have applied themselves to that study, and dignified it with the name of Mahomet's Revelations.\"\n}",
+ "usage": {
+  "completion_tokens": 513,
+  "prompt_tokens": 949,
+  "total_tokens": 1462,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 382
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Soon after this, the prophet Yufef, who had foretold the defection of the Spaniards, was not only declared the deliverer of his country, but had a considerable activity decreed him, with the liberty of exercising a projectile motion unmolefted. It was not long, however, before the marabouts, and some interpreters of the law, made a strong opposition against him; remonstrating to the bashaw, how ridiculous and scandalous it was to their nation, to defend the defence of it to a poor fortune-teller, which had been obtained by the fervent prayers of an eminent saint of their own profession. But tho' the bashaw and his douwan seemed, out of policy, to give into this last notion, yet the impression which Yufef's predictions and their late accomplishment had made upon the minds of the common people, proved too strong to be eradicated; and the spirit of divination and conjuring has since got into such credit among them, that not only their great statesmen, but their priests, marabouts, and fantoons, have applied themselves to that study, and dignified it with the name of Mahomet's Revelations.",
+  "modern": "Soon after this, the prophet Yufef, who had foretold the defection of the Spaniards, was not only declared the deliverer of his country, but had a considerable activity decreed him, with the liberty of exercising a projectile motion unmolefted. It was not long, however, before the marabouts, and some interpreters of the law, made a strong opposition against him; remonstrating to the bashaw, how ridiculous and scandalous it was to their nation, to defend the defence of it to a poor fortune-teller, which had been obtained by the fervent prayers of an eminent saint of their own profession. But tho' the bashaw and his douwan seemed, out of policy, to give into this last notion, yet the impression which Yufef's predictions and their late accomplishment had made upon the minds of the common people, proved too strong to be eradicated; and the spirit of divination and conjuring has since got into such credit among them, that not only their great statesmen, but their priests, marabouts, and fantoons, have applied themselves to that study, and dignified it with the name of Mahomet's Revelations."
+ },
+ "error": null
+}

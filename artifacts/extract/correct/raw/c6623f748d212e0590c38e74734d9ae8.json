@@ -1,0 +1,31 @@
+{
+ "key": "c6623f748d212e0590c38e74734d9ae8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Ortial ferer has not any mark to direct him: hence after- momers are obliged to enlighten the crois-hairs artifi, in order to render them vifible, and this with- out letting the luminous body interfere with the ob- jefe which they intend to view , and, for doing this, two ways are propofel.",
+ "content": "{\n  \"faithful\": \"Ortial ferer has not any mark to direct him: hence after- momers are obliged to enlighten the crois-hairs artifi, in order to render them vifible, and this with- out letting the luminous body interfere with the ob- jefe which they intend to view , and, for doing this, two ways are propofel.\",\n  \"modern\": \"Ortial ferer has not any mark to direct him: hence after- momers are obliged to enlighten the crois-hairs artifi, in order to render them visible, and this without letting the luminous body interfere with the object which they intend to view, and, for doing this, two ways are proposed.\"\n}",
+ "usage": {
+  "completion_tokens": 153,
+  "prompt_tokens": 654,
+  "total_tokens": 807,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Ortial ferer has not any mark to direct him: hence after- momers are obliged to enlighten the crois-hairs artifi, in order to render them vifible, and this with- out letting the luminous body interfere with the ob- jefe which they intend to view , and, for doing this, two ways are propofel.",
+  "modern": "Ortial ferer has not any mark to direct him: hence after- momers are obliged to enlighten the crois-hairs artifi, in order to render them visible, and this without letting the luminous body interfere with the object which they intend to view, and, for doing this, two ways are proposed."
+ },
+ "error": null
+}

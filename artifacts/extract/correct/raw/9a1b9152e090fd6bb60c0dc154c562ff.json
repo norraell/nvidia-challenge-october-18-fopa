@@ -1,0 +1,31 @@
+{
+ "key": "9a1b9152e090fd6bb60c0dc154c562ff",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "is litre or cubic decimetre = 10 diclitres = 100 centiltes = 27/430 Brit. cubic inches, and so liere was nearly I Brit. Als. Also lo litre as 10 dec metres a 1 becollires ≈ 27/10/7 lb. bubels s and 22 becollires are nearly equal to 11 Brit; quarters, the satellites no 10 kiltser or cubic meters at 3hr 34:300698 Brit. quarters.",
+ "content": "{\n  \"faithful\": \"is litre or cubic decimetre = 10 decilitres = 100 centilitres = 27/430 Brit. cubic inches, and so litre was nearly 1 Brit. Als. Also 10 litre as 10 decimetres a 1 hectolitres ≈ 27/10/7 lb. bubels s and 22 hectolitres are nearly equal to 11 Brit. quarters, the satellites no 10 kiltser or cubic meters at 3hr 34:300698 Brit. quarters.\",\n  \"modern\": \"is litre or cubic decimetre = 10 decilitres = 100 centilitres = 27/430 Brit. cubic inches, and so litre was nearly 1 Brit. Als. Also 10 litre as 10 decimetres a 1 hectolitres ≈ 27/10/7 lb. bubels s and 22 hectolitres are nearly equal to 11 Brit. quarters, the satellites no 10 kiltser or cubic meters at 3hr 34:300698 Brit. quarters.\"\n}",
+ "usage": {
+  "completion_tokens": 271,
+  "prompt_tokens": 707,
+  "total_tokens": 978,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "is litre or cubic decimetre = 10 decilitres = 100 centilitres = 27/430 Brit. cubic inches, and so litre was nearly 1 Brit. Als. Also 10 litre as 10 decimetres a 1 hectolitres ≈ 27/10/7 lb. bubels s and 22 hectolitres are nearly equal to 11 Brit. quarters, the satellites no 10 kiltser or cubic meters at 3hr 34:300698 Brit. quarters.",
+  "modern": "is litre or cubic decimetre = 10 decilitres = 100 centilitres = 27/430 Brit. cubic inches, and so litre was nearly 1 Brit. Als. Also 10 litre as 10 decimetres a 1 hectolitres ≈ 27/10/7 lb. bubels s and 22 hectolitres are nearly equal to 11 Brit. quarters, the satellites no 10 kiltser or cubic meters at 3hr 34:300698 Brit. quarters."
+ },
+ "error": null
+}

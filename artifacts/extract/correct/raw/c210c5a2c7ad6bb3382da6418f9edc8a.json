@@ -1,0 +1,31 @@
+{
+ "key": "c210c5a2c7ad6bb3382da6418f9edc8a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Tuz thehell or covering of telacous animals, has been considered as in fome marine analogues to the bones of other animals, although it formation and growth are very different, since it feres as a hole coupport to the mulches, which are attached to its inter-fortified. The principal side of the shell, however, is to force as a covering or defense to the animal.",
+ "content": "{\n  \"faithful\": \"The fhell or covering of teftaceous animals, has been confidered as in fome meafure analogous to the bones of other animals, although its formation and growth are very different, fince it ferves as a bafe or fuppport to the mucles, which are attached to its internal furface. The principal ufe of the fhell, however, is to ferve as a covering or defence to the animal.\",\n  \"modern\": \"The shell or covering of testaceous animals, has been considered as in some measure analogous to the bones of other animals, although its formation and growth are very different, since it serves as a base or support to the muscles, which are attached to its internal surface. The principal use of the shell, however, is to serve as a covering or defence to the animal.\"\n}",
+ "usage": {
+  "completion_tokens": 180,
+  "prompt_tokens": 655,
+  "total_tokens": 835,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The fhell or covering of teftaceous animals, has been confidered as in fome meafure analogous to the bones of other animals, although its formation and growth are very different, fince it ferves as a bafe or fuppport to the mucles, which are attached to its internal furface. The principal ufe of the fhell, however, is to ferve as a covering or defence to the animal.",
+  "modern": "The shell or covering of testaceous animals, has been considered as in some measure analogous to the bones of other animals, although its formation and growth are very different, since it serves as a base or support to the muscles, which are attached to its internal surface. The principal use of the shell, however, is to serve as a covering or defence to the animal."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "a91a1fbccd5ea08eaaa0da58fe631538",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "WILLLAMSBURG, e town of North America, in Virginia, and formerly capital of that fact. It is fuated between two rocks; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the chief advantage of not being able to bring large wells, and she want of enterprin in the inhabitants, has occhedinal as decay. Here is a college, designed for the education of the Indians, but which, as account of their services to learning, overau-fered the purple. It is 60 miles east of Richmond. W. Long, 76, 30, N. Las 27, 10.",
+ "content": "{\n  \"faithful\": \"WILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10.\",\n  \"modern\": \"WILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10.\"\n}",
+ "usage": {
+  "completion_tokens": 317,
+  "prompt_tokens": 734,
+  "total_tokens": 1051,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "WILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10.",
+  "modern": "WILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "e4a2996a0db5f0b58074d995d6f2f172",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Marked with triangular black spots on the back of torantsis, the abdomen; the legs spotted with black. 34. A native of the south of Europe, particularly Italy and Barbary. It is found in screens in agriculture soil; its bite was formerly supposed to be combble by nothing but remains; though it occasions a great deal of pain, it is almost never fatal.",
+ "content": "{\n  \"faithful\": \"79. A native of Britain. Marked with triangular black spots on the back of tarantula, the abdomen; the legs spotted with black. 34. A native of the south of Europe, particularly Italy and Barbary. It is found in caverns in argillaceous soil; its bite was formerly supposed to be curable by nothing but music; though it occasions a great deal of pain, it is almost never fatal.\",\n  \"modern\": \"79. A native of Britain. Marked with triangular black spots on the back of tarantula, the abdomen; the legs spotted with black. 34. A native of the south of Europe, particularly Italy and Barbary. It is found in caverns in argillaceous soil; its bite was formerly supposed to be curable by nothing but music; though it occasions a great deal of pain, it is almost never fatal.\"\n}",
+ "usage": {
+  "completion_tokens": 195,
+  "prompt_tokens": 672,
+  "total_tokens": 867,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "79. A native of Britain. Marked with triangular black spots on the back of tarantula, the abdomen; the legs spotted with black. 34. A native of the south of Europe, particularly Italy and Barbary. It is found in caverns in argillaceous soil; its bite was formerly supposed to be curable by nothing but music; though it occasions a great deal of pain, it is almost never fatal.",
+  "modern": "79. A native of Britain. Marked with triangular black spots on the back of tarantula, the abdomen; the legs spotted with black. 34. A native of the south of Europe, particularly Italy and Barbary. It is found in caverns in argillaceous soil; its bite was formerly supposed to be curable by nothing but music; though it occasions a great deal of pain, it is almost never fatal."
+ },
+ "error": null
+}

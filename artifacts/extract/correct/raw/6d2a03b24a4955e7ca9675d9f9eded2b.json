@@ -1,0 +1,31 @@
+{
+ "key": "6d2a03b24a4955e7ca9675d9f9eded2b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Bochthia gives a different history of the feels, and tells me, that the flyton did no long remains in fact narrow limits as a tetrachold. Chorobus, the fan of Athis, or Arys, king of Lydia, added a fifth firing; Hyguns, a firstly, Terpandera, a favorite and, at large), Erythema of Samoa, an eighth. But all their accounts are irreconcileable with Momars, hymn to Mercury, where the chelys, or reduce, the invention of which he earlier or than god, is fast to have had been fittings. There are many clamans among the musicians of ancient Greece, to the things that were afterwards added to thefly, by which the date, in the time of Alfoxcoras, was extended to two offices. Athamus, more than once, peaks of the nine fingerling inflamments, and Lon OlChoja rtagies and lyrics pace and philosopher, who fitf recited his pieces in the 8zd olympiad, 452 B. C. mentions, in some refer quoted in Dr. David, the ten- firginged lyrs, a prodt that, the third conjoint tetr- chord was added to the scale in his time, which was about 50 years after Pythagoras is fuppelled to have confinational the death.",
+ "content": "{\n  \"faithful\": \"Bochthia gives a different history of the feels, and tells me, that the flyton did no long remains in fact narrow limits as a tetrachord. Chorobus, the fan of Athis, or Arys, king of Lydia, added a fifth firing; Hyguns, a firstly, Terpandera, a favorite and, at large), Erythema of Samoa, an eighth. But all their accounts are irreconcileable with Momars, hymn to Mercury, where the chelys, or reduce, the invention of which he earlier or than god, is fast to have had been fittings. There are many clamans among the musicians of ancient Greece, to the things that were afterwards added to thefly, by which the date, in the time of Alfoxcoras, was extended to two offices. Athamus, more than once, peaks of the nine fingerling inflamments, and Lon OlChoja rtagies and lyrics pace and philosopher, who fitf recited his pieces in the 8zd olympiad, 452 B. C. mentions, in some refer quoted in Dr. David, the ten- firginged lyrs, a prodt that, the third conjoint tetr- chord was added to the scale in his time, which was about 50 years after Pythagoras is fuppelled to have confinational the death.\",\n  \"modern\": \"Bochthia gives a different history of the feels, and tells me, that the flyton did no long remains in fact narrow limits as a tetrachord. Chorobus, the fan of Athis, or Arys, king of Lydia, added a fifth firing; Hyguns, a firstly, Terpandera, a favorite and, at large), Erythema of Samoa, an eighth. But all their accounts are irreconcileable with Momars, hymn to Mercury, where the chelys, or reduce, the invention of which he earlier or than god, is fast to have had been fittings. There are many clamans among the musicians of ancient Greece, to the things that were afterwards added to thefly, by which the date, in the time of Alfoxcoras, was extended to two offices. Athamus, more than once, peaks of the nine fingerling inflamments, and Lon OlChoja rtagies and lyrics pace and philosopher, who fitf recited his pieces in the 8zd olympiad, 452 B. C. mentions, in some refer quoted in Dr. David, the ten- firginged lyrs, a prodt that, the third conjoint tetr- chord was added to the scale in his time, which was about 50 years after Pythagoras is fuppelled to have confinational the death.\"\n}",
+ "usage": {
+  "completion_tokens": 603,
+  "prompt_tokens": 977,
+  "total_tokens": 1580,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 382
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Bochthia gives a different history of the feels, and tells me, that the flyton did no long remains in fact narrow limits as a tetrachord. Chorobus, the fan of Athis, or Arys, king of Lydia, added a fifth firing; Hyguns, a firstly, Terpandera, a favorite and, at large), Erythema of Samoa, an eighth. But all their accounts are irreconcileable with Momars, hymn to Mercury, where the chelys, or reduce, the invention of which he earlier or than god, is fast to have had been fittings. There are many clamans among the musicians of ancient Greece, to the things that were afterwards added to thefly, by which the date, in the time of Alfoxcoras, was extended to two offices. Athamus, more than once, peaks of the nine fingerling inflamments, and Lon OlChoja rtagies and lyrics pace and philosopher, who fitf recited his pieces in the 8zd olympiad, 452 B. C. mentions, in some refer quoted in Dr. David, the ten- firginged lyrs, a prodt that, the third conjoint tetr- chord was added to the scale in his time, which was about 50 years after Pythagoras is fuppelled to have confinational the death.",
+  "modern": "Bochthia gives a different history of the feels, and tells me, that the flyton did no long remains in fact narrow limits as a tetrachord. Chorobus, the fan of Athis, or Arys, king of Lydia, added a fifth firing; Hyguns, a firstly, Terpandera, a favorite and, at large), Erythema of Samoa, an eighth. But all their accounts are irreconcileable with Momars, hymn to Mercury, where the chelys, or reduce, the invention of which he earlier or than god, is fast to have had been fittings. There are many clamans among the musicians of ancient Greece, to the things that were afterwards added to thefly, by which the date, in the time of Alfoxcoras, was extended to two offices. Athamus, more than once, peaks of the nine fingerling inflamments, and Lon OlChoja rtagies and lyrics pace and philosopher, who fitf recited his pieces in the 8zd olympiad, 452 B. C. mentions, in some refer quoted in Dr. David, the ten- firginged lyrs, a prodt that, the third conjoint tetr- chord was added to the scale in his time, which was about 50 years after Pythagoras is fuppelled to have confinational the death."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "0b2b3c722c350ae8bc32912903ee3baa",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The hedge-hog has a very uncommon method of defending himself from the attacks of other animals being purified of little through or agility, lie does not attempt to fly from to affill in corners; but stretch his brillies, and rolls himself up like a ball, exposing no-",
+ "content": "{\n  \"faithful\": \"The hedge-hog has a very uncommon method of defending himself from the attacks of other animals being purfled of little ftrength or agility, he does not attempt to fly from or affail his enemies; but erects his briftles, and rolls himself up like a ball, exposing no-\",\n  \"modern\": \"The hedge-hog has a very uncommon method of defending himself from the attacks of other animals being purfled of little strength or agility, he does not attempt to fly from or affail his enemies; but erects his bristles, and rolls himself up like a ball, exposing no-\"\n}",
+ "usage": {
+  "completion_tokens": 141,
+  "prompt_tokens": 630,
+  "total_tokens": 771,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The hedge-hog has a very uncommon method of defending himself from the attacks of other animals being purfled of little ftrength or agility, he does not attempt to fly from or affail his enemies; but erects his briftles, and rolls himself up like a ball, exposing no-",
+  "modern": "The hedge-hog has a very uncommon method of defending himself from the attacks of other animals being purfled of little strength or agility, he does not attempt to fly from or affail his enemies; but erects his bristles, and rolls himself up like a ball, exposing no-"
+ },
+ "error": null
+}

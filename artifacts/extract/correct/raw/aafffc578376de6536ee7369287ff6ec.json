@@ -1,0 +1,31 @@
+{
+ "key": "aafffc578376de6536ee7369287ff6ec",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "E R A ( sit)",
+ "content": "{\n  \"faithful\": \"E R A ( sit) ( 5 1 1 )\",\n  \"modern\": \"E R A ( sit) ( 5 1 1 )\"\n}",
+ "usage": {
+  "completion_tokens": 45,
+  "prompt_tokens": 610,
+  "total_tokens": 655,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "E R A ( sit) ( 5 1 1 )",
+  "modern": "E R A ( sit) ( 5 1 1 )"
+ },
+ "error": null
+}

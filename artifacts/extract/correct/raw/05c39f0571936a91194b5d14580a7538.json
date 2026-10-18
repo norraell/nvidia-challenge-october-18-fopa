@@ -1,0 +1,31 @@
+{
+ "key": "05c39f0571936a91194b5d14580a7538",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The New George of 520 and the Queen Charlotte of 20 tons, commanded by Captain Portlock and Dixon, who forced under Captain Cook in his left voyage, were fitted out by a variety of gentlemen in England, who obtained a privilege to trade to the workwell south of America, from the South-Sean and East India companies.",
+ "content": "{\n  \"faithful\": \"The King George of 320, and the Queen Charlotte of 200 tons, commanded by Captains Portlock and Dixon, who served under Captain Cook in his last voyage, were fitted out by a society of gentlemen in England, who obtained a privilege to trade to the north-west coast of America, from the South-Sea and East India companies.\",\n  \"modern\": \"The King George of 320, and the Queen Charlotte of 200 tons, commanded by Captains Portlock and Dixon, who served under Captain Cook in his last voyage, were fitted out by a society of gentlemen in England, who obtained a privilege to trade to the north-west coast of America, from the South-Sea and East India companies.\"\n}",
+ "usage": {
+  "completion_tokens": 163,
+  "prompt_tokens": 644,
+  "total_tokens": 807,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The King George of 320, and the Queen Charlotte of 200 tons, commanded by Captains Portlock and Dixon, who served under Captain Cook in his last voyage, were fitted out by a society of gentlemen in England, who obtained a privilege to trade to the north-west coast of America, from the South-Sea and East India companies.",
+  "modern": "The King George of 320, and the Queen Charlotte of 200 tons, commanded by Captains Portlock and Dixon, who served under Captain Cook in his last voyage, were fitted out by a society of gentlemen in England, who obtained a privilege to trade to the north-west coast of America, from the South-Sea and East India companies."
+ },
+ "error": null
+}

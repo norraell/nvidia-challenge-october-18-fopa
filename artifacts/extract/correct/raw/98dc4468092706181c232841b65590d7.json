@@ -1,0 +1,31 @@
+{
+ "key": "98dc4468092706181c232841b65590d7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This deadline note our author, with very great probability, fuppaid to be occasioned by the esplo- fons of the internal fire, or, as he calls is, the focus of the volume, which, filking squall the files of their domestic cavares, the found products are received through their cavities, and probably multiplied in an extraordinary memory. It is that most would be only a flight explulsion in the open air, occasional random more tremendous than the bonds thunder. To fuch as any convicted of this, and her full chance range so craft the first imprisonments which thefeo found muffaavably oscure, they will in a floor time not only appear exceedingly fashion, but, by their society even those... what agreeable. \"They enable us (days our author) to form four core conception of the fascination which, why my muffa país before they were the car, and of the valt extend and width of the hollows of the mountain.\"",
+ "content": "{\n  \"faithful\": \"This dreadful noise, our author, with very great probability, supposes to be occasioned by the explosions of the internal fire, or, as he calls it, the focus of the volcano; which, striking against the sides of these immense caverns, the sounds produced are re-echoed through their cavities, and probably multiplied in an extraordinary manner; and that what would be only a flight explosion in the open air, occasions a sound more tremendous than the loudest thunder. To such as are convinced of this, and have sufficient courage to revisit the first impressions which these founds must unavoidably occasion, they will in a short time not only appear exceedingly sublime, but, by their variety, even fore-what agreeable. They enable us (says our author) to form some conception of the space through which they must pass before they reach the ear, and of the vast extent and width of the hollows of the mountain.\",\n  \"modern\": \"This dreadful noise, our author, with very great probability, supposes to be occasioned by the explosions of the internal fire, or, as he calls it, the focus of the volcano; which, striking against the sides of these immense caverns, the sounds produced are re-echoed through their cavities, and probably multiplied in an extraordinary manner; and that what would be only a flight explosion in the open air, occasions a sound more tremendous than the loudest thunder. To such as are convinced of this, and have sufficient courage to revisit the first impressions which these founds must unavoidably occasion, they will in a short time not only appear exceedingly sublime, but, by their variety, even fore-what agreeable. They enable us (says our author) to form some conception of the space through which they must pass before they reach the ear, and of the vast extent and width of the hollows of the mountain.\"\n}",
+ "usage": {
+  "completion_tokens": 401,
+  "prompt_tokens": 788,
+  "total_tokens": 1189,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 287
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This dreadful noise, our author, with very great probability, supposes to be occasioned by the explosions of the internal fire, or, as he calls it, the focus of the volcano; which, striking against the sides of these immense caverns, the sounds produced are re-echoed through their cavities, and probably multiplied in an extraordinary manner; and that what would be only a flight explosion in the open air, occasions a sound more tremendous than the loudest thunder. To such as are convinced of this, and have sufficient courage to revisit the first impressions which these founds must unavoidably occasion, they will in a short time not only appear exceedingly sublime, but, by their variety, even fore-what agreeable. They enable us (says our author) to form some conception of the space through which they must pass before they reach the ear, and of the vast extent and width of the hollows of the mountain.",
+  "modern": "This dreadful noise, our author, with very great probability, supposes to be occasioned by the explosions of the internal fire, or, as he calls it, the focus of the volcano; which, striking against the sides of these immense caverns, the sounds produced are re-echoed through their cavities, and probably multiplied in an extraordinary manner; and that what would be only a flight explosion in the open air, occasions a sound more tremendous than the loudest thunder. To such as are convinced of this, and have sufficient courage to revisit the first impressions which these founds must unavoidably occasion, they will in a short time not only appear exceedingly sublime, but, by their variety, even fore-what agreeable. They enable us (says our author) to form some conception of the space through which they must pass before they reach the ear, and of the vast extent and width of the hollows of the mountain."
+ },
+ "error": null
+}

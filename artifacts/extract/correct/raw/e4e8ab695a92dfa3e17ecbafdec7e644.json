@@ -1,0 +1,31 @@
+{
+ "key": "e4e8ab695a92dfa3e17ecbafdec7e644",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "37. By rendering the veffels for immersion lo tight\nas to prevent the possibility of the cleaps of the gas.",
+ "content": "{\n  \"faithful\": \"37. By rendering the veffels for immersion fo tight as to prevent the possibility of the cleaps of the gas. This inconvenience may be avoided in two ways; 1ft, By rendering the veffels for immersion fo tight as to prevent the possibility of the efcape of the gas, 2dly, By diffolving in the water fome fubftance\",\n  \"modern\": \"37. By rendering the vessels for immersion so tight as to prevent the possibility of the cleaps of the gas. This inconvenience may be avoided in two ways; 1st, By rendering the vessels for immersion so tight as to prevent the possibility of the escape of the gas, 2dly, By dissolving in the water some substance\"\n}",
+ "usage": {
+  "completion_tokens": 168,
+  "prompt_tokens": 610,
+  "total_tokens": 778,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "37. By rendering the veffels for immersion fo tight as to prevent the possibility of the cleaps of the gas. This inconvenience may be avoided in two ways; 1ft, By rendering the veffels for immersion fo tight as to prevent the possibility of the efcape of the gas, 2dly, By diffolving in the water fome fubftance",
+  "modern": "37. By rendering the vessels for immersion so tight as to prevent the possibility of the cleaps of the gas. This inconvenience may be avoided in two ways; 1st, By rendering the vessels for immersion so tight as to prevent the possibility of the escape of the gas, 2dly, By dissolving in the water some substance"
+ },
+ "error": null
+}

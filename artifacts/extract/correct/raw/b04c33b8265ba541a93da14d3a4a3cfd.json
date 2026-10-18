@@ -1,0 +1,31 @@
+{
+ "key": "b04c33b8265ba541a93da14d3a4a3cfd",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "During the conquests of the calipts, the Jews were for some time everywhere driven out of their dominiens, suppressed such a degree that they ultimately left them. Ethiopia offered them an asylum \"Number or and in this country they became so powerful, that a Jew to address in honor of Judainn seemed ready to take objects\". One family had always preserved and indepoc- created.",
+ "content": "{\n  \"faithful\": \"During the conquests of the caliphs, the Jews were for some time everywhere driven out of their dominions, or oppressed to such a degree that they voluntarily left them. Ethiopia offered them an asylum: Number of and in this country they became so powerful, that a revolution in favour of Judaism seemed ready to take place. One family had always preserved an indepen-\",\n  \"modern\": \"During the conquests of the caliphs, the Jews were for some time everywhere driven out of their dominions, or oppressed to such a degree that they voluntarily left them. Ethiopia offered them an asylum: Number of and in this country they became so powerful, that a revolution in favour of Judaism seemed ready to take place. One family had always preserved an indepen-\"\n}",
+ "usage": {
+  "completion_tokens": 169,
+  "prompt_tokens": 663,
+  "total_tokens": 832,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "During the conquests of the caliphs, the Jews were for some time everywhere driven out of their dominions, or oppressed to such a degree that they voluntarily left them. Ethiopia offered them an asylum: Number of and in this country they became so powerful, that a revolution in favour of Judaism seemed ready to take place. One family had always preserved an indepen-",
+  "modern": "During the conquests of the caliphs, the Jews were for some time everywhere driven out of their dominions, or oppressed to such a degree that they voluntarily left them. Ethiopia offered them an asylum: Number of and in this country they became so powerful, that a revolution in favour of Judaism seemed ready to take place. One family had always preserved an indepen-"
+ },
+ "error": null
+}

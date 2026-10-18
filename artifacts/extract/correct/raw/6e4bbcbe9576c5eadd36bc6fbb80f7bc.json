@@ -1,0 +1,31 @@
+{
+ "key": "6e4bbcbe9576c5eadd36bc6fbb80f7bc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Culture._ The feeds of the amethyaites should be flown in autumn as they set up to remain a whole year in the ground if kept till the living. When the plants come up, nothing else is necefitary than to keep them clear of weeds, and to thin them where they are too clede. They ought to be down where they are to re main, as they do not thrive when transparent.",
+ "content": "{\n  \"faithful\": \"Culture. The feeds of the amethyfites should be flown in autumn as they are apt to remain a whole year in the ground if kept till the fpring. When the plants come up, nothing elfe is neceffary than to keep them clear of weeds, and to thin them where they are too clofe. They ought to be fown where they are to remain, as they do not thrive when tranfplanted.\",\n  \"modern\": \"Culture. The seeds of the amethysts should be sown in autumn as they are apt to remain a whole year in the ground if kept till the spring. When the plants come up, nothing else is necessary than to keep them clear of weeds, and to thin them where they are too close. They ought to be sown where they are to remain, as they do not thrive when transplanted.\"\n}",
+ "usage": {
+  "completion_tokens": 189,
+  "prompt_tokens": 669,
+  "total_tokens": 858,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Culture. The feeds of the amethyfites should be flown in autumn as they are apt to remain a whole year in the ground if kept till the fpring. When the plants come up, nothing elfe is neceffary than to keep them clear of weeds, and to thin them where they are too clofe. They ought to be fown where they are to remain, as they do not thrive when tranfplanted.",
+  "modern": "Culture. The seeds of the amethysts should be sown in autumn as they are apt to remain a whole year in the ground if kept till the spring. When the plants come up, nothing else is necessary than to keep them clear of weeds, and to thin them where they are too close. They ought to be sown where they are to remain, as they do not thrive when transplanted."
+ },
+ "error": null
+}

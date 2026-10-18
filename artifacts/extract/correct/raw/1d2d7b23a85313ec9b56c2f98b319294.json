@@ -1,0 +1,31 @@
+{
+ "key": "1d2d7b23a85313ec9b56c2f98b319294",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "2. It is extremely difficult to obtain the muriate of proper magnetic in any regular form. It is either in the late or powder, or very small regular needles or in a kind of jelly. It has a diligenceable bitter tafte. The specific gravity is 1.601.",
+ "content": "{\n  \"faithful\": \"2. It is extremely difficult to obtain the muriate of proper magnetic in any regular form. It is either in the late or powder, or very small regular needles or in a kind of jelly. It has a diligenceable bitter tafte. The specific gravity is 1.601.\",\n  \"modern\": \"2. It is extremely difficult to obtain the muriate of proper magnetic in any regular form. It is either in the late or powder, or very small regular needles or in a kind of jelly. It has a diligenceable bitter taste. The specific gravity is 1.601.\"\n}",
+ "usage": {
+  "completion_tokens": 137,
+  "prompt_tokens": 621,
+  "total_tokens": 758,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 258
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "2. It is extremely difficult to obtain the muriate of proper magnetic in any regular form. It is either in the late or powder, or very small regular needles or in a kind of jelly. It has a diligenceable bitter tafte. The specific gravity is 1.601.",
+  "modern": "2. It is extremely difficult to obtain the muriate of proper magnetic in any regular form. It is either in the late or powder, or very small regular needles or in a kind of jelly. It has a diligenceable bitter taste. The specific gravity is 1.601."
+ },
+ "error": null
+}

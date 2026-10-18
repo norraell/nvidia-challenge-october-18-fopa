@@ -1,0 +1,31 @@
+{
+ "key": "8117369b8d8156fd31bf9d6d121427b3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "6. By marriage, a factory is created between the married pair, which draws after it a mutual commute nation of their civil interests, in as far as in excellent for maintaining it. As the footey falls only for the joints lives of the fact; therefore they have that have the nature of a perpetuity, which our law flyks _heritable_, are not brought under the partnership or communion of goods as a local efter, or bookear by a yearly interest: it is only movable subjects, or the fruits produced by heritable objects during the marriages, that become common to me and wife.",
+ "content": "{\n  \"faithful\": \"6. By marriage, a society is created between the married pair, which draws after it a mutual communication of their civil interests, in as far as is necessary for maintaining it. As the society lasts only for the joint lives of the focii; therefore rights that have the nature of a perpetuity, which our law flies heritable, are not brought under the partnership or communion of goods; as a land-ellate, or bonds bearing a yearly interest: it is only moveable subjects, or the fruits produced by heritable subjects during the marriage, that become common to man and wife.\",\n  \"modern\": \"6. By marriage, a society is created between the married pair, which draws after it a mutual communication of their civil interests, in as far as is necessary for maintaining it. As the society lasts only for the joint lives of the focii; therefore rights that have the nature of a perpetuity, which our law flies heritable, are not brought under the partnership or communion of goods; as a land-ellate, or bonds bearing a yearly interest: it is only moveable subjects, or the fruits produced by heritable subjects during the marriage, that become common to man and wife.\"\n}",
+ "usage": {
+  "completion_tokens": 255,
+  "prompt_tokens": 702,
+  "total_tokens": 957,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "6. By marriage, a society is created between the married pair, which draws after it a mutual communication of their civil interests, in as far as is necessary for maintaining it. As the society lasts only for the joint lives of the focii; therefore rights that have the nature of a perpetuity, which our law flies heritable, are not brought under the partnership or communion of goods; as a land-ellate, or bonds bearing a yearly interest: it is only moveable subjects, or the fruits produced by heritable subjects during the marriage, that become common to man and wife.",
+  "modern": "6. By marriage, a society is created between the married pair, which draws after it a mutual communication of their civil interests, in as far as is necessary for maintaining it. As the society lasts only for the joint lives of the focii; therefore rights that have the nature of a perpetuity, which our law flies heritable, are not brought under the partnership or communion of goods; as a land-ellate, or bonds bearing a yearly interest: it is only moveable subjects, or the fruits produced by heritable subjects during the marriage, that become common to man and wife."
+ },
+ "error": null
+}

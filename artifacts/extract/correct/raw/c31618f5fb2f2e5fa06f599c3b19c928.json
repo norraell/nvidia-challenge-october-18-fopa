@@ -1,0 +1,31 @@
+{
+ "key": "c31618f5fb2f2e5fa06f599c3b19c928",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "the kingdom, and was already the highest subject in it. Abysinia.",
+ "content": "{\n  \"faithful\": \"the kingdom, and was already the highest subject in it. Abyssinia. Scarce was he seated on the throne, however, when a\",\n  \"modern\": \"the kingdom, and was already the highest subject in it. Abyssinia. Scarce was he seated on the throne, however, when a\"\n}",
+ "usage": {
+  "completion_tokens": 77,
+  "prompt_tokens": 607,
+  "total_tokens": 684,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "the kingdom, and was already the highest subject in it. Abyssinia. Scarce was he seated on the throne, however, when a",
+  "modern": "the kingdom, and was already the highest subject in it. Abyssinia. Scarce was he seated on the throne, however, when a"
+ },
+ "error": null
+}

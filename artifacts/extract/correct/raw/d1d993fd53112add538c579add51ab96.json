@@ -1,0 +1,31 @@
+{
+ "key": "d1d993fd53112add538c579add51ab96",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flapper the fides of a building, wall, 6e, on the outside, where it is either very high, or has any considerable load to fultain on the other fide, as a bank of earth, eC",
+ "content": "{\n  \"faithful\": \"BUTTRESS, a kind of butment built archwife, or a mafs of flone or brick, ferving to prop or fupport the fides of a building, wall, &c. on the outside, where it is either very high, or has any confiderable load to fupport on the other fide, as a bank of earth, &c.\",\n  \"modern\": \"BUTTRESS, a kind of butment built archwife, or a mass of stone or brick, serving to prop or support the sides of a building, wall, &c. on the outside, where it is either very high, or has any considerable load to support on the other side, as a bank of earth, &c.\"\n}",
+ "usage": {
+  "completion_tokens": 166,
+  "prompt_tokens": 670,
+  "total_tokens": 836,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BUTTRESS, a kind of butment built archwife, or a mafs of flone or brick, ferving to prop or fupport the fides of a building, wall, &c. on the outside, where it is either very high, or has any confiderable load to fupport on the other fide, as a bank of earth, &c.",
+  "modern": "BUTTRESS, a kind of butment built archwife, or a mass of stone or brick, serving to prop or support the sides of a building, wall, &c. on the outside, where it is either very high, or has any considerable load to support on the other side, as a bank of earth, &c."
+ },
+ "error": null
+}

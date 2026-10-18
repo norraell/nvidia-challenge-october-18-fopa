@@ -1,0 +1,31 @@
+{
+ "key": "c33ef4d54a77351c91e5d4027ae07c72",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HUESCAR, or Guuscar, a town of Spain, in the\nkingdom of Granada, feated on a plain in W. Long.\n1..45, N. Lat. 32.",
+ "content": "{\n  \"faithful\": \"HUESCAR, or GUESCAR, a town of Spain, in the kingdom of Granada, feated on a plain in W. Long. 1. 45. N. Lat. 37. 32.\",\n  \"modern\": \"HUESCAR, or GUESCAR, a town of Spain, in the kingdom of Granada, seated on a plain in W. Long. 1. 45. N. Lat. 37. 32.\"\n}",
+ "usage": {
+  "completion_tokens": 112,
+  "prompt_tokens": 614,
+  "total_tokens": 726,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HUESCAR, or GUESCAR, a town of Spain, in the kingdom of Granada, feated on a plain in W. Long. 1. 45. N. Lat. 37. 32.",
+  "modern": "HUESCAR, or GUESCAR, a town of Spain, in the kingdom of Granada, seated on a plain in W. Long. 1. 45. N. Lat. 37. 32."
+ },
+ "error": null
+}

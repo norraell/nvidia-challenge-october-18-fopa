@@ -1,0 +1,31 @@
+{
+ "key": "3ceefef79fbd9b7c6099a6d9af30c549",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "5: The idea—This animal has the figure and gracefulness of the horse, claimed to the firstness of the flag. He is about 7 feet long, from the point of the muzzle to the origin of the tall, and about, feet high. The colon of his him is beautiful and uniform, con- filing of alternate parallel rings of black and white dipuled in the melt regular manner, as reprefeden in the place, lEXXY, fig.3]. He is generally left than the horse, and larger than the afsl.",
+ "content": "{\n  \"faithful\": \"5: The idea—This animal has the figure and gracefulness of the horse, claimed to the firstness of the flag. He is about 7 feet long, from the point of the muzzle to the origin of the tall, and about, feet high. The colon of his him is beautiful and uniform, con- filing of alternate parallel rings of black and white dipuled in the melt regular manner, as reprefeden in the place, lEXXY, fig.3]. He is generally left than the horse, and larger than the afsl.\",\n  \"modern\": \"5: The idea—This animal has the figure and gracefulness of the horse, claimed to the firstness of the flag. He is about 7 feet long, from the point of the muzzle to the origin of the tall, and about, feet high. The colon of his him is beautiful and uniform, con- filing of alternate parallel rings of black and white dipuled in the melt regular manner, as reprefeden in the place, lEXXY, fig.3]. He is generally left than the horse, and larger than the afsl.\"\n}",
+ "usage": {
+  "completion_tokens": 245,
+  "prompt_tokens": 693,
+  "total_tokens": 938,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "5: The idea—This animal has the figure and gracefulness of the horse, claimed to the firstness of the flag. He is about 7 feet long, from the point of the muzzle to the origin of the tall, and about, feet high. The colon of his him is beautiful and uniform, con- filing of alternate parallel rings of black and white dipuled in the melt regular manner, as reprefeden in the place, lEXXY, fig.3]. He is generally left than the horse, and larger than the afsl.",
+  "modern": "5: The idea—This animal has the figure and gracefulness of the horse, claimed to the firstness of the flag. He is about 7 feet long, from the point of the muzzle to the origin of the tall, and about, feet high. The colon of his him is beautiful and uniform, con- filing of alternate parallel rings of black and white dipuled in the melt regular manner, as reprefeden in the place, lEXXY, fig.3]. He is generally left than the horse, and larger than the afsl."
+ },
+ "error": null
+}

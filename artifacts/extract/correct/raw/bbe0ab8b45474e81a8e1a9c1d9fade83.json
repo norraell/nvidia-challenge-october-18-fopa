@@ -1,0 +1,31 @@
+{
+ "key": "bbe0ab8b45474e81a8e1a9c1d9fade83",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "I love Swiffly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.",
+ "content": "{\n  \"faithful\": \"I love Swiffly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.\",\n  \"modern\": \"I love Swiffly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.\"\n}",
+ "usage": {
+  "completion_tokens": 411,
+  "prompt_tokens": 816,
+  "total_tokens": 1227,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "I love Swiffly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.",
+  "modern": "I love Swiffly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense."
+ },
+ "error": null
+}

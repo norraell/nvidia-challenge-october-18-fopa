@@ -1,0 +1,31 @@
+{
+ "key": "bf5def083d6c3891eb26f600f97e5a6e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Formerly the Dutch and German cabinets were much allemented in France, but are now quite out of fibre, as well as the cabinets of ebony, which came from Venice.",
+ "content": "{\n  \"faithful\": \"Formerly the Dutch and German cabinets were much esteemed in France, but are now quite out of date, as well as the cabinets of ebony, which came from Venice.\",\n  \"modern\": \"Formerly the Dutch and German cabinets were much esteemed in France, but are now quite out of date, as well as the cabinets of ebony, which came from Venice.\"\n}",
+ "usage": {
+  "completion_tokens": 87,
+  "prompt_tokens": 620,
+  "total_tokens": 707,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Formerly the Dutch and German cabinets were much esteemed in France, but are now quite out of date, as well as the cabinets of ebony, which came from Venice.",
+  "modern": "Formerly the Dutch and German cabinets were much esteemed in France, but are now quite out of date, as well as the cabinets of ebony, which came from Venice."
+ },
+ "error": null
+}

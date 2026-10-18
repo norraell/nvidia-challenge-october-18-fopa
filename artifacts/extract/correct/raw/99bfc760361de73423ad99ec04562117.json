@@ -1,0 +1,31 @@
+{
+ "key": "99bfc760361de73423ad99ec04562117",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "laws among theft people. Before his time they had Lombarda been governed only by problems but Richard, in imi-tation of the Romans and Gohay undertook the pub- filing of writers have s and to thold which he needed, many were added by the leading providers. Greatina prefiers the method which the Lombards followed in making laws, so that which are prohibited by the Ro- there themselves. Among the latter the emperor was the role langversj is that whatever plodef him land the forces of a law. But the Lombard kings did not allow that you to themelfes, fines their laws were created in public charities, covered for the purpo’s, here they be been extremely examined and approved of by all the local of the kingdom. From their alien- bible were excluded the scientific order, and the pro- ple is that the legitimate power was ladged in the king and nobo alone.",
+ "content": "{\n  \"faithful\": \"laws among the people. Before his time they had Lombards been governed only by problems but Richard, in imitation of the Romans and Goths undertook the publishing of writers have s and to thold which he needed, many were added by the leading providers. Greatina prefers the method which the Lombards followed in making laws, so that which are prohibited by the Romans themselves. Among the latter the emperor was the role langversj is that whatever pleased him land the forces of a law. But the Lombard kings did not allow that you to themselves, fines their laws were created in public charities, covered for the purpose, here they be been extremely examined and approved of by all the local of the kingdom. From their alienable were excluded the scientific order, and the people is that the legitimate power was lodged in the king and nobles alone.\",\n  \"modern\": \"laws among the people. Before his time they had Lombards been governed only by problems but Richard, in imitation of the Romans and Goths undertook the publishing of writers have s and to thold which he needed, many were added by the leading providers. Greatina prefers the method which the Lombards followed in making laws, so that which are prohibited by the Romans themselves. Among the latter the emperor was the role langversj is that whatever pleased him land the forces of a law. But the Lombard kings did not allow that you to themselves, fines their laws were created in public charities, covered for the purpose, here they be been extremely examined and approved of by all the local of the kingdom. From their alienable were excluded the scientific order, and the people is that the legitimate power was lodged in the king and nobles alone.\"\n}",
+ "usage": {
+  "completion_tokens": 357,
+  "prompt_tokens": 801,
+  "total_tokens": 1158,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 310
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "laws among the people. Before his time they had Lombards been governed only by problems but Richard, in imitation of the Romans and Goths undertook the publishing of writers have s and to thold which he needed, many were added by the leading providers. Greatina prefers the method which the Lombards followed in making laws, so that which are prohibited by the Romans themselves. Among the latter the emperor was the role langversj is that whatever pleased him land the forces of a law. But the Lombard kings did not allow that you to themselves, fines their laws were created in public charities, covered for the purpose, here they be been extremely examined and approved of by all the local of the kingdom. From their alienable were excluded the scientific order, and the people is that the legitimate power was lodged in the king and nobles alone.",
+  "modern": "laws among the people. Before his time they had Lombards been governed only by problems but Richard, in imitation of the Romans and Goths undertook the publishing of writers have s and to thold which he needed, many were added by the leading providers. Greatina prefers the method which the Lombards followed in making laws, so that which are prohibited by the Romans themselves. Among the latter the emperor was the role langversj is that whatever pleased him land the forces of a law. But the Lombard kings did not allow that you to themselves, fines their laws were created in public charities, covered for the purpose, here they be been extremely examined and approved of by all the local of the kingdom. From their alienable were excluded the scientific order, and the people is that the legitimate power was lodged in the king and nobles alone."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "3fe9a8140cb12b6dfaed4d289d8f8965",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "140 IN treating of the feeling, we mean to confine ourselves to the external ones of touch, triple, fineing, hearing, and vision. The word [only], when applied to their lives, fears us imply not only the forlation occurred in the limited by certain impurities made on the body, but likewise the organ defined to receive and transmit basic ingredients in the forbidden. Each of these organs being at a peculiar threat, is if dependible only of particular impretions, which will be pointed out as we proceed to define each of them fe parately.",
+ "content": "{\n  \"faithful\": \"140 IN treating of the fenfes, we mean to confine ourfelves to the external ones of touch, tafte, fmelling, hearing, and vision. The word fenfe, when applied to thefe five, feems to imply not only the fenfation excited in the mind by certain impreffions made on the body, but likewife the organ defined to receive and tranfmit thefe impreffions to the fenforium. Each of thefe organs being of a peculiar ftructure, is fufceptible only of particular impreffions, which will be pointed out as we proceed to defcribe each of them fe parately.\",\n  \"modern\": \"140 IN treating of the senses, we mean to confine ourselves to the external ones of touch, taste, smelling, hearing, and vision. The word sense, when applied to these five, seems to imply not only the sensation excited in the mind by certain impressions made on the body, but likewise the organ defined to receive and transmit these impressions to the sensorium. Each of these organs being of a peculiar structure, is susceptible only of particular impressions, which will be pointed out as we proceed to describe each of them separately.\"\n}",
+ "usage": {
+  "completion_tokens": 262,
+  "prompt_tokens": 706,
+  "total_tokens": 968,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "140 IN treating of the fenfes, we mean to confine ourfelves to the external ones of touch, tafte, fmelling, hearing, and vision. The word fenfe, when applied to thefe five, feems to imply not only the fenfation excited in the mind by certain impreffions made on the body, but likewife the organ defined to receive and tranfmit thefe impreffions to the fenforium. Each of thefe organs being of a peculiar ftructure, is fufceptible only of particular impreffions, which will be pointed out as we proceed to defcribe each of them fe parately.",
+  "modern": "140 IN treating of the senses, we mean to confine ourselves to the external ones of touch, taste, smelling, hearing, and vision. The word sense, when applied to these five, seems to imply not only the sensation excited in the mind by certain impressions made on the body, but likewise the organ defined to receive and transmit these impressions to the sensorium. Each of these organs being of a peculiar structure, is susceptible only of particular impressions, which will be pointed out as we proceed to describe each of them separately."
+ },
+ "error": null
+}

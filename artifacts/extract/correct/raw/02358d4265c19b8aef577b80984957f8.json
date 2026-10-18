@@ -1,0 +1,31 @@
+{
+ "key": "02358d4265c19b8aef577b80984957f8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "• The beams of the several decks are attached to the shiny’s side in the following manner.",
+ "content": "{\n  \"faithful\": \"The beams of the several decks are attached to the ship's side in the following manner.\",\n  \"modern\": \"The beams of the several decks are attached to the ship's side in the following manner.\"\n}",
+ "usage": {
+  "completion_tokens": 51,
+  "prompt_tokens": 616,
+  "total_tokens": 667,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The beams of the several decks are attached to the ship's side in the following manner.",
+  "modern": "The beams of the several decks are attached to the ship's side in the following manner."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "3f860c5fca0cdb5fb07459830127f4bc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The number and shape of the ribs varied in the differ. The ribs\ndid tribes, in number, indeed, the riba always correspond\nwith that of the coral cerebretne. Thus, in the Qaradara NAJZODRAGA, RODSTATA, EENSTATA, and DCIMAMATIA,\nthey vary from 18 to 10 pair with one three exceptions,\nthe glutton byrena, and ante-teier. In the Chinese monkey,\ncommon bat, and armadillo, they are a pair less than in",
+ "content": "{\n  \"faithful\": \"The number and shape of the ribs varies in the differ-ent tribes. In number, indeed, the ribs always correspond with that of the costal vertebrae. Thus, in the QUADRUMANA, ZOOPHAGA, RODENTIA, EDENTATA, and RUMINANTIA, they vary from 12 to 15 pair, with only three exceptions, the glutton, hyena, and ant-eater. In the Chinese monkey, common bat, and armadillo, they are a pair less than in\",\n  \"modern\": \"The number and shape of the ribs varies in the different tribes. In number, indeed, the ribs always correspond with that of the costal vertebrae. Thus, in the QUADRUMANA, ZOOPHAGA, RODENTIA, EDENTATA, and RUMINANTIA, they vary from 12 to 15 pair, with only three exceptions, the glutton, hyena, and ant-eater. In the Chinese monkey, common bat, and armadillo, they are a pair less than in\"\n}",
+ "usage": {
+  "completion_tokens": 245,
+  "prompt_tokens": 684,
+  "total_tokens": 929,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The number and shape of the ribs varies in the differ-ent tribes. In number, indeed, the ribs always correspond with that of the costal vertebrae. Thus, in the QUADRUMANA, ZOOPHAGA, RODENTIA, EDENTATA, and RUMINANTIA, they vary from 12 to 15 pair, with only three exceptions, the glutton, hyena, and ant-eater. In the Chinese monkey, common bat, and armadillo, they are a pair less than in",
+  "modern": "The number and shape of the ribs varies in the different tribes. In number, indeed, the ribs always correspond with that of the costal vertebrae. Thus, in the QUADRUMANA, ZOOPHAGA, RODENTIA, EDENTATA, and RUMINANTIA, they vary from 12 to 15 pair, with only three exceptions, the glutton, hyena, and ant-eater. In the Chinese monkey, common bat, and armadillo, they are a pair less than in"
+ },
+ "error": null
+}

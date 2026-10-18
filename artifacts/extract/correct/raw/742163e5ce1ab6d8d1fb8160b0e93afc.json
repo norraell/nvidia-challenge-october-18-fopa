@@ -1,0 +1,31 @@
+{
+ "key": "742163e5ce1ab6d8d1fb8160b0e93afc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Abdown white, and brown behind, and marked round the edge with six small projections. 70. A native of South America.",
+ "content": "{\n  \"faithful\": \"Abdomen white, and brown behind, and marked round the edge with six small projections. 70. A native of South America.\",\n  \"modern\": \"Abdomen white, and brown behind, and marked round the edge with six small projections. 70. A native of South America.\"\n}",
+ "usage": {
+  "completion_tokens": 71,
+  "prompt_tokens": 611,
+  "total_tokens": 682,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Abdomen white, and brown behind, and marked round the edge with six small projections. 70. A native of South America.",
+  "modern": "Abdomen white, and brown behind, and marked round the edge with six small projections. 70. A native of South America."
+ },
+ "error": null
+}

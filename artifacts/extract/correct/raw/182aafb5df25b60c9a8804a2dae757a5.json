@@ -1,0 +1,31 @@
+{
+ "key": "182aafb5df25b60c9a8804a2dae757a5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Another... These were at one time very large, unpainly Lincoln animals, with an immense threat of very long wolf. By breed, crossing them with the Leicester the character of the breed has been entirely changed, and very greatly for the better. It is now, in fact, a minority of the Leicester, with larger frame and heavier fleece than the pure breed. Sheep of",
+ "content": "{\n  \"faithful\": \"Another... These were at one time very large, unpainly Lincoln animals, with an immense threat of very long wolf. By breed, crossing them with the Leicester the character of the breed has been entirely changed, and very greatly for the better. It is now, in fact, a minority of the Leicester, with larger frame and heavier fleece than the pure breed. Sheep of\",\n  \"modern\": \"Another... These were at one time very large, unpainly Lincoln animals, with an immense threat of very long wolf. By breed, crossing them with the Leicester the character of the breed has been entirely changed, and very greatly for the better. It is now, in fact, a minority of the Leicester, with larger frame and heavier fleece than the pure breed. Sheep of\"\n}",
+ "usage": {
+  "completion_tokens": 173,
+  "prompt_tokens": 652,
+  "total_tokens": 825,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Another... These were at one time very large, unpainly Lincoln animals, with an immense threat of very long wolf. By breed, crossing them with the Leicester the character of the breed has been entirely changed, and very greatly for the better. It is now, in fact, a minority of the Leicester, with larger frame and heavier fleece than the pure breed. Sheep of",
+  "modern": "Another... These were at one time very large, unpainly Lincoln animals, with an immense threat of very long wolf. By breed, crossing them with the Leicester the character of the breed has been entirely changed, and very greatly for the better. It is now, in fact, a minority of the Leicester, with larger frame and heavier fleece than the pure breed. Sheep of"
+ },
+ "error": null
+}

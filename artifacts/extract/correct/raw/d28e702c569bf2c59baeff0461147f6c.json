@@ -1,0 +1,31 @@
+{
+ "key": "d28e702c569bf2c59baeff0461147f6c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Abyssinie her affairs entirely to Frumentis, who made use of his influence to define the Christian religion through- out the country, and at last was appointed bishop of Axuma. It is said, however, that the court and principal people. I don’t run nation in general, related into idolary, which continued to prevail till the year 231 when they were again converted by their king Adal or Atlas.",
+ "content": "{\n  \"faithful\": \"Abyssinia her affairs entirely to Frumentius, who made use of his influence to diffuse the Christian religion throughout the country, and at last was appointed bishop of Axuma. It is said, however, that the court and principal people, if not the nation in general, relapsed into idolatry, which continued to prevail till the year 521, when they were again converted by their king Adad or Aidog.\",\n  \"modern\": \"Abyssinia her affairs entirely to Frumentius, who made use of his influence to diffuse the Christian religion throughout the country, and at last was appointed bishop of Axuma. It is said, however, that the court and principal people, if not the nation in general, relapsed into idolatry, which continued to prevail till the year 521, when they were again converted by their king Adad or Aidog.\"\n}",
+ "usage": {
+  "completion_tokens": 195,
+  "prompt_tokens": 672,
+  "total_tokens": 867,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Abyssinia her affairs entirely to Frumentius, who made use of his influence to diffuse the Christian religion throughout the country, and at last was appointed bishop of Axuma. It is said, however, that the court and principal people, if not the nation in general, relapsed into idolatry, which continued to prevail till the year 521, when they were again converted by their king Adad or Aidog.",
+  "modern": "Abyssinia her affairs entirely to Frumentius, who made use of his influence to diffuse the Christian religion throughout the country, and at last was appointed bishop of Axuma. It is said, however, that the court and principal people, if not the nation in general, relapsed into idolatry, which continued to prevail till the year 521, when they were again converted by their king Adad or Aidog."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "3c3a082a32d3217130758fb10545033d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The Symptom attending arénic when followed are, nausea, jackets, and resting to vomitals, about half extending the hour after it is taken. There are followed by vine, less vomitings, biceps, and pain in the stomach and bowel. Convivilon and palises of the limbs perfectly associated, which became best could force, palpitations of the heart, extreme anxiety, proflation of through, lifted and periods of the mouth and throat, lots of re- tion, and at fall death. If the quantity takes you en- diderable, the patient dies in fewer or eight hours after taking it; and the flowach and ultinctures are found, and then difficile to be recorded and performed. When this is not the cafe, violent protective symptoms from one after article is followed, for the bodres of whole who are poisoned by it generally have abundance of red or purple spots even before death. It remarkably inflames the coats of the Ilomach, and the patre- fation",
+ "content": "{\n  \"faithful\": \"The Symptom attending arénic when followed are, nausea, jackets, and resting to vomitals, about half extending the hour after it is taken. There are followed by vine, less vomitings, biceps, and pain in the stomach and bowel. Convivilon and palises of the limbs perfectly associated, which became best could force, palpitations of the heart, extreme anxiety, proflation of through, lifted and periods of the mouth and throat, lots of re- tion, and at fall death. If the quantity takes you en- diderable, the patient dies in fewer or eight hours after taking it; and the flowach and ultinctures are found, and then difficile to be recorded and performed. When this is not the cafe, violent protective symptoms from one after article is followed, for the bodres of whole who are poisoned by it generally have abundance of red or purple spots even before death. It remarkably inflames the coats of the Ilomach, and the patre- fation\",\n  \"modern\": \"The Symptom attending arsenic when followed are, nausea, jackets, and resting to vomitals, about half extending the hour after it is taken. There are followed by vine, less vomitings, biceps, and pain in the stomach and bowel. Convivilon and palises of the limbs perfectly associated, which became best could force, palpitations of the heart, extreme anxiety, proflation of through, lifted and periods of the mouth and throat, lots of re- tion, and at fall death. If the quantity takes you en- diderable, the patient dies in fewer or eight hours after taking it; and the flowach and ultinctures are found, and then difficile to be recorded and performed. When this is not the cafe, violent protective symptoms from one after article is followed, for the bodres of whole who are poisoned by it generally have abundance of red or purple spots even before death. It remarkably inflames the coats of the Ilomach, and the patre- fation\"\n}",
+ "usage": {
+  "completion_tokens": 439,
+  "prompt_tokens": 820,
+  "total_tokens": 1259,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 306
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The Symptom attending arénic when followed are, nausea, jackets, and resting to vomitals, about half extending the hour after it is taken. There are followed by vine, less vomitings, biceps, and pain in the stomach and bowel. Convivilon and palises of the limbs perfectly associated, which became best could force, palpitations of the heart, extreme anxiety, proflation of through, lifted and periods of the mouth and throat, lots of re- tion, and at fall death. If the quantity takes you en- diderable, the patient dies in fewer or eight hours after taking it; and the flowach and ultinctures are found, and then difficile to be recorded and performed. When this is not the cafe, violent protective symptoms from one after article is followed, for the bodres of whole who are poisoned by it generally have abundance of red or purple spots even before death. It remarkably inflames the coats of the Ilomach, and the patre- fation",
+  "modern": "The Symptom attending arsenic when followed are, nausea, jackets, and resting to vomitals, about half extending the hour after it is taken. There are followed by vine, less vomitings, biceps, and pain in the stomach and bowel. Convivilon and palises of the limbs perfectly associated, which became best could force, palpitations of the heart, extreme anxiety, proflation of through, lifted and periods of the mouth and throat, lots of re- tion, and at fall death. If the quantity takes you en- diderable, the patient dies in fewer or eight hours after taking it; and the flowach and ultinctures are found, and then difficile to be recorded and performed. When this is not the cafe, violent protective symptoms from one after article is followed, for the bodres of whole who are poisoned by it generally have abundance of red or purple spots even before death. It remarkably inflames the coats of the Ilomach, and the patre- fation"
+ },
+ "error": null
+}

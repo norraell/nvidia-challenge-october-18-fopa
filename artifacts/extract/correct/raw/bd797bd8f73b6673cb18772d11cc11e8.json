@@ -1,0 +1,31 @@
+{
+ "key": "bd797bd8f73b6673cb18772d11cc11e8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Light Horns_ are regiments of cavalry mounted on\nlight fruit horches, which may see final and lightly ac-\ncutout. They were first infed in 1757). The deno-\nmanism and hence, chat anxietly they were lightly\narmed, in comparison of the royal guards, which were\narned at all points.",
+ "content": "{\n  \"faithful\": \"Light-Horse, are regiments of cavalry, mounted on light swift horses, whose men are small and lightly accoutred. They were first raised in 1757. The denomination arose hence, that anciently they were lightly armed, in comparison of the royal guards, which were armed at all points.\",\n  \"modern\": \"Light-Horse, are regiments of cavalry, mounted on light swift horses, whose men are small and lightly accoutred. They were first raised in 1757. The denomination arose hence, that anciently they were lightly armed, in comparison of the royal guards, which were armed at all points.\"\n}",
+ "usage": {
+  "completion_tokens": 143,
+  "prompt_tokens": 648,
+  "total_tokens": 791,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Light-Horse, are regiments of cavalry, mounted on light swift horses, whose men are small and lightly accoutred. They were first raised in 1757. The denomination arose hence, that anciently they were lightly armed, in comparison of the royal guards, which were armed at all points.",
+  "modern": "Light-Horse, are regiments of cavalry, mounted on light swift horses, whose men are small and lightly accoutred. They were first raised in 1757. The denomination arose hence, that anciently they were lightly armed, in comparison of the royal guards, which were armed at all points."
+ },
+ "error": null
+}

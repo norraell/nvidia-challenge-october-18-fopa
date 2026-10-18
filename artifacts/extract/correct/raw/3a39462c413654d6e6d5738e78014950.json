@@ -1,0 +1,31 @@
+{
+ "key": "3a39462c413654d6e6d5738e78014950",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The Imperial Eagle, Captain Barkley, fitted by a factory of gentleman in Olson, failed from Othera the latter end of November 1786; went into the bay of All States’s from themes, without touching any where, or the Sandwich Illands, and arrived in Nova ka the beginning of June 5 from theme to the fourth, as far as 1297 by in which faces to different forms good and spacious hairbon. In the last of 49° 60 folhis female mate, purifier, and two females, who were open a trading game with the long boys, and in producing trilling themselves adhere unarmed, were cut off by the native. This place them as the Emerald, Don Antonio Morales calls the _Ide id to Dolor_; where the Spaniards going above to water, werello attskid and can off.",
+ "content": "{\n  \"faithful\": \"The Imperial Eagle, Captain Barkley, fitted by a factory of gentleman in Olson, failed from Othera the latter end of November 1786; went into the bay of All States’s from themes, without touching any where, or the Sandwich Illands, and arrived in Nova ka the beginning of June 5 from theme to the fourth, as far as 1297 by in which faces to different forms good and spacious hairbon. In the last of 49° 60 folhis female mate, purifier, and two females, who were open a trading game with the long boys, and in producing trilling themselves adhere unarmed, were cut off by the native. This place them as the Emerald, Don Antonio Morales calls the _Ide id to Dolor_; where the Spaniards going above to water, werello attskid and can off.\",\n  \"modern\": \"The Imperial Eagle, Captain Barkley, fitted by a factory of gentleman in Olson, failed from Othera the latter end of November 1786; went into the bay of All States’s from themes, without touching any where, or the Sandwich Islands, and arrived in Nova ka the beginning of June 5 from theme to the fourth, as far as 1297 by in which faces to different forms good and spacious hairbon. In the last of 49° 60 folhis female mate, purifier, and two females, who were open a trading game with the long boys, and in producing trilling themselves adhere unarmed, were cut off by the native. This place them as the Emerald, Don Antonio Morales calls the _Ide id to Dolor_; where the Spaniards going above to water, werello attskid and can off.\"\n}",
+ "usage": {
+  "completion_tokens": 378,
+  "prompt_tokens": 765,
+  "total_tokens": 1143,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The Imperial Eagle, Captain Barkley, fitted by a factory of gentleman in Olson, failed from Othera the latter end of November 1786; went into the bay of All States’s from themes, without touching any where, or the Sandwich Illands, and arrived in Nova ka the beginning of June 5 from theme to the fourth, as far as 1297 by in which faces to different forms good and spacious hairbon. In the last of 49° 60 folhis female mate, purifier, and two females, who were open a trading game with the long boys, and in producing trilling themselves adhere unarmed, were cut off by the native. This place them as the Emerald, Don Antonio Morales calls the _Ide id to Dolor_; where the Spaniards going above to water, werello attskid and can off.",
+  "modern": "The Imperial Eagle, Captain Barkley, fitted by a factory of gentleman in Olson, failed from Othera the latter end of November 1786; went into the bay of All States’s from themes, without touching any where, or the Sandwich Islands, and arrived in Nova ka the beginning of June 5 from theme to the fourth, as far as 1297 by in which faces to different forms good and spacious hairbon. In the last of 49° 60 folhis female mate, purifier, and two females, who were open a trading game with the long boys, and in producing trilling themselves adhere unarmed, were cut off by the native. This place them as the Emerald, Don Antonio Morales calls the _Ide id to Dolor_; where the Spaniards going above to water, werello attskid and can off."
+ },
+ "error": null
+}

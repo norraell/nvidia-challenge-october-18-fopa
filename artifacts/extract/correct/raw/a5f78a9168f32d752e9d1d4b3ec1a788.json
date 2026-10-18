@@ -1,0 +1,31 @@
+{
+ "key": "a5f78a9168f32d752e9d1d4b3ec1a788",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "AMHAN, or AVARA, a province of Anything, field to extend so leagues from raft in welf. It is considered as the most noble in the whole empire, both on account of its being the ideal reference of the A- bythnis monuments, and among a particular dialect different from all the craft, which by reason of the emperor being brought up in the previous works because the language of the course and of the police people. Here is the famed rock Amba-gelthen, where the young morachs were formerly confined. See AvaA.",
+ "content": "{\n  \"faithful\": \"AMHAR, or AMHARA, a province of Abyssinia, said to extend 40 leagues from east to west. It is considered as the most noble in the whole empire, both on account of its being the usual residence of the Abyssinian monarchs, and having a particular dialect different from all the rest, which, by reason of the emperors being brought up in this province, is become the language of the court and of the politer people. Here is the famed rock Amba-geihen, where the young monarchs were formerly confined. See Amba.\",\n  \"modern\": \"AMHAR, or AMHARA, a province of Abyssinia, said to extend 40 leagues from east to west. It is considered as the most noble in the whole empire, both on account of its being the usual residence of the Abyssinian monarchs, and having a particular dialect different from all the rest, which, by reason of the emperors being brought up in this province, is become the language of the court and of the politer people. Here is the famed rock Amba-geihen, where the young monarchs were formerly confined. See Amba.\"\n}",
+ "usage": {
+  "completion_tokens": 265,
+  "prompt_tokens": 707,
+  "total_tokens": 972,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "AMHAR, or AMHARA, a province of Abyssinia, said to extend 40 leagues from east to west. It is considered as the most noble in the whole empire, both on account of its being the usual residence of the Abyssinian monarchs, and having a particular dialect different from all the rest, which, by reason of the emperors being brought up in this province, is become the language of the court and of the politer people. Here is the famed rock Amba-geihen, where the young monarchs were formerly confined. See Amba.",
+  "modern": "AMHAR, or AMHARA, a province of Abyssinia, said to extend 40 leagues from east to west. It is considered as the most noble in the whole empire, both on account of its being the usual residence of the Abyssinian monarchs, and having a particular dialect different from all the rest, which, by reason of the emperors being brought up in this province, is become the language of the court and of the politer people. Here is the famed rock Amba-geihen, where the young monarchs were formerly confined. See Amba."
+ },
+ "error": null
+}

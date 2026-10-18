@@ -1,0 +1,31 @@
+{
+ "key": "b00095a2553c797ee43fb363581e115a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "St Thomas is all a town of Guiana, in South America, flattened on the river Oromoky, foljetoft Spain.",
+ "content": "{\n  \"faithful\": \"St Thomas is also a town of Guiana, in South America, situated on the river Oronoko; subject to Spain.\",\n  \"modern\": \"St Thomas is also a town of Guiana, in South America, situated on the river Oronoko; subject to Spain.\"\n}",
+ "usage": {
+  "completion_tokens": 67,
+  "prompt_tokens": 624,
+  "total_tokens": 691,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "St Thomas is also a town of Guiana, in South America, situated on the river Oronoko; subject to Spain.",
+  "modern": "St Thomas is also a town of Guiana, in South America, situated on the river Oronoko; subject to Spain."
+ },
+ "error": null
+}

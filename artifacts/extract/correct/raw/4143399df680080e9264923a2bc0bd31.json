@@ -1,0 +1,31 @@
+{
+ "key": "4143399df680080e9264923a2bc0bd31",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "CHAP.II. _Of the Source of Wealth._",
+ "content": "{\n  \"faithful\": \"CHAP.II. _Of the Source of Wealth._ CHAP. II. Of the Sources of Wealth.\",\n  \"modern\": \"CHAP.II. Of the Source of Wealth. CHAP. II. Of the Sources of Wealth.\"\n}",
+ "usage": {
+  "completion_tokens": 64,
+  "prompt_tokens": 582,
+  "total_tokens": 646,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "CHAP.II. _Of the Source of Wealth._ CHAP. II. Of the Sources of Wealth.",
+  "modern": "CHAP.II. Of the Source of Wealth. CHAP. II. Of the Sources of Wealth."
+ },
+ "error": null
+}

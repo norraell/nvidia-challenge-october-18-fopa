@@ -1,0 +1,31 @@
+{
+ "key": "3a774a30f4fc737095625c44f2ff115e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BYRHUS, in zodogy, an order of infects belonging to the order of coloroptera. The feelers are clavated, pretty folkl, and a little compelled. These are five species, all of which are to be found on particular plants and principally disfiguplified from each other by the colour and figure of the clytra or cruttaccous wing cases.",
+ "content": "{\n  \"faithful\": \"BYRRHUS, in zoology, an order of insects belonging to the order of coleoptera. The feelers are clavated, pretty folid, and a little comprefsed. There are five species, all of which are to be found on particular plants, and principally diftinguifhed from each other by the colour and figure of the elytra or crustaceous wing cafes.\",\n  \"modern\": \"BYRRHUS, in zoology, an order of insects belonging to the order of coleoptera. The feelers are clavated, pretty solid, and a little compressed. There are five species, all of which are to be found on particular plants, and principally distinguished from each other by the colour and figure of the elytra or crustaceous wing cases.\"\n}",
+ "usage": {
+  "completion_tokens": 171,
+  "prompt_tokens": 661,
+  "total_tokens": 832,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BYRRHUS, in zoology, an order of insects belonging to the order of coleoptera. The feelers are clavated, pretty folid, and a little comprefsed. There are five species, all of which are to be found on particular plants, and principally diftinguifhed from each other by the colour and figure of the elytra or crustaceous wing cafes.",
+  "modern": "BYRRHUS, in zoology, an order of insects belonging to the order of coleoptera. The feelers are clavated, pretty solid, and a little compressed. There are five species, all of which are to be found on particular plants, and principally distinguished from each other by the colour and figure of the elytra or crustaceous wing cases."
+ },
+ "error": null
+}

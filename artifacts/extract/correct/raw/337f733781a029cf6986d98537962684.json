@@ -1,0 +1,31 @@
+{
+ "key": "337f733781a029cf6986d98537962684",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The new amperor in- texts to revenge la death.",
+ "content": "{\n  \"faithful\": \"The new emperor intends to revenge his death.\",\n  \"modern\": \"The new emperor intends to revenge his death.\"\n}",
+ "usage": {
+  "completion_tokens": 33,
+  "prompt_tokens": 585,
+  "total_tokens": 618,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The new emperor intends to revenge his death.",
+  "modern": "The new emperor intends to revenge his death."
+ },
+ "error": null
+}

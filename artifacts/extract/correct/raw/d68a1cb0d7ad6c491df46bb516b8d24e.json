@@ -1,0 +1,31 @@
+{
+ "key": "d68a1cb0d7ad6c491df46bb516b8d24e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The finokes, as reproefident in the figure, ifles from all quarters, other form chains or holes detected over the whole crater. But the situation of the principal mouth is in the midfit of the three eminence. Its diameter, when one matter visited this mountain, was about the foot, and in filled with finde that po- thing remarkable could be discovered. From the height of the rocks flattened on the lift rate of the print, and on which the human targets are respectfully, all the way to the rock z on the right, the distance is no more than good too. Our author offered that the cone is exactly in the midmiddle of the plain, and is situated more towards the north than the fourth. He did not attempt to cross the central valley, or account of the defender of the ground, and that there are also objets apparently worthy of the rifle he mull run in to doing. If the seventh view he took, it was only deferred that there are now lying in several years of its though the best which otherwise prevailed freedom to be very interfeu.",
+ "content": "{\n  \"faithful\": \"The finokes, as reproefident in the figure, ifles from all quarters, other form chains or holes detected over the whole crater. But the situation of the principal mouth is in the midfit of the three eminence. Its diameter, when one matter visited this mountain, was about the foot, and in filled with finde that po- thing remarkable could be discovered. From the height of the rocks flattened on the lift rate of the print, and on which the human targets are respectfully, all the way to the rock z on the right, the distance is no more than good too. Our author offered that the cone is exactly in the midmiddle of the plain, and is situated more towards the north than the fourth. He did not attempt to cross the central valley, or account of the defender of the ground, and that there are also objets apparently worthy of the rifle he mull run in to doing. If the seventh view he took, it was only deferred that there are now lying in several years of its though the best which otherwise prevailed freedom to be very interfeu.\",\n  \"modern\": \"The finokes, as reproefident in the figure, ifles from all quarters, other form chains or holes detected over the whole crater. But the situation of the principal mouth is in the midfit of the three eminence. Its diameter, when one matter visited this mountain, was about the foot, and in filled with finde that po- thing remarkable could be discovered. From the height of the rocks flattened on the lift rate of the print, and on which the human targets are respectfully, all the way to the rock z on the right, the distance is no more than good too. Our author offered that the cone is exactly in the midmiddle of the plain, and is situated more towards the north than the fourth. He did not attempt to cross the central valley, or account of the defender of the ground, and that there are also objets apparently worthy of the rifle he mull run in to doing. If the seventh view he took, it was only deferred that there are now lying in several years of its though the best which otherwise prevailed freedom to be very interfeu.\"\n}",
+ "usage": {
+  "completion_tokens": 457,
+  "prompt_tokens": 847,
+  "total_tokens": 1304,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 325
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The finokes, as reproefident in the figure, ifles from all quarters, other form chains or holes detected over the whole crater. But the situation of the principal mouth is in the midfit of the three eminence. Its diameter, when one matter visited this mountain, was about the foot, and in filled with finde that po- thing remarkable could be discovered. From the height of the rocks flattened on the lift rate of the print, and on which the human targets are respectfully, all the way to the rock z on the right, the distance is no more than good too. Our author offered that the cone is exactly in the midmiddle of the plain, and is situated more towards the north than the fourth. He did not attempt to cross the central valley, or account of the defender of the ground, and that there are also objets apparently worthy of the rifle he mull run in to doing. If the seventh view he took, it was only deferred that there are now lying in several years of its though the best which otherwise prevailed freedom to be very interfeu.",
+  "modern": "The finokes, as reproefident in the figure, ifles from all quarters, other form chains or holes detected over the whole crater. But the situation of the principal mouth is in the midfit of the three eminence. Its diameter, when one matter visited this mountain, was about the foot, and in filled with finde that po- thing remarkable could be discovered. From the height of the rocks flattened on the lift rate of the print, and on which the human targets are respectfully, all the way to the rock z on the right, the distance is no more than good too. Our author offered that the cone is exactly in the midmiddle of the plain, and is situated more towards the north than the fourth. He did not attempt to cross the central valley, or account of the defender of the ground, and that there are also objets apparently worthy of the rifle he mull run in to doing. If the seventh view he took, it was only deferred that there are now lying in several years of its though the best which otherwise prevailed freedom to be very interfeu."
+ },
+ "error": null
+}

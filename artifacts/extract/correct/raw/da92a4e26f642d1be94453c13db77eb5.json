@@ -1,0 +1,31 @@
+{
+ "key": "da92a4e26f642d1be94453c13db77eb5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "## 2. Sculpture Meafures reduced into English.",
+ "content": "{\n  \"faithful\": \"2. Sculpture Meafures reduced into English.\",\n  \"modern\": \"2. Sculpture Measures reduced into English.\"\n}",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 580,
+  "total_tokens": 615,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "2. Sculpture Meafures reduced into English.",
+  "modern": "2. Sculpture Measures reduced into English."
+ },
+ "error": null
+}

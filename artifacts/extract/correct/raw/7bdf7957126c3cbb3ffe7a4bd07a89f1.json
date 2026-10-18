@@ -1,0 +1,31 @@
+{
+ "key": "7bdf7957126c3cbb3ffe7a4bd07a89f1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Executive in the two of Scotland. See Law _Index._ Exerction, in the French mutus; is uifed to denote the manner of finging, or of the performance of a long. \"As to the manner of finging, called in France overs-tion, no nation may, with any probability disputes with the French. If the French, by their comments with the Italian hasn gained a bobier competition, the Italiana have made their advantage of the French, in learning of them a more polite, moving, and exqui-fine execution. St Bernardo",
+ "content": "{\n  \"faithful\": \"Executive in the two of Scotland. See Law _Index._ Exerction, in the French mutus; is uifed to denote the manner of finging, or of the performance of a long. \\\"As to the manner of finging, called in France overs-tion, no nation may, with any probability disputes with the French. If the French, by their comments with the Italian hasn gained a bobier competition, the Italiana have made their advantage of the French, in learning of them a more polite, moving, and exqui-fine execution. St Bernardo\",\n  \"modern\": \"Executive in the two of Scotland. See Law _Index._ Exerction, in the French mutus; is used to denote the manner of finging, or of the performance of a long. \\\"As to the manner of finging, called in France overs-tion, no nation may, with any probability disputes with the French. If the French, by their comments with the Italian hasn gained a bobier competition, the Italiana have made their advantage of the French, in learning of them a more polite, moving, and exqui-fine execution. St Bernardo\"\n}",
+ "usage": {
+  "completion_tokens": 249,
+  "prompt_tokens": 697,
+  "total_tokens": 946,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Executive in the two of Scotland. See Law _Index._ Exerction, in the French mutus; is uifed to denote the manner of finging, or of the performance of a long. \"As to the manner of finging, called in France overs-tion, no nation may, with any probability disputes with the French. If the French, by their comments with the Italian hasn gained a bobier competition, the Italiana have made their advantage of the French, in learning of them a more polite, moving, and exqui-fine execution. St Bernardo",
+  "modern": "Executive in the two of Scotland. See Law _Index._ Exerction, in the French mutus; is used to denote the manner of finging, or of the performance of a long. \"As to the manner of finging, called in France overs-tion, no nation may, with any probability disputes with the French. If the French, by their comments with the Italian hasn gained a bobier competition, the Italiana have made their advantage of the French, in learning of them a more polite, moving, and exqui-fine execution. St Bernardo"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "7c80cbb569f30ee39fdc19dfa099928f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "* diadema Abdomen nearly globale and reddish; brown, mark- ed with a white cross composed of dots. 1. A native of Europe, on trees; it is a very beautiful insect.",
+ "content": "{\n  \"faithful\": \"* diadema Abdomen nearly globular and reddish; brown, marked with a white cross composed of dots. 1. A native of Europe, on trees; it is a very beautiful insect.\",\n  \"modern\": \"* diadema Abdomen nearly globular and reddish; brown, marked with a white cross composed of dots. 1. A native of Europe, on trees; it is a very beautiful insect.\"\n}",
+ "usage": {
+  "completion_tokens": 97,
+  "prompt_tokens": 612,
+  "total_tokens": 709,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "* diadema Abdomen nearly globular and reddish; brown, marked with a white cross composed of dots. 1. A native of Europe, on trees; it is a very beautiful insect.",
+  "modern": "* diadema Abdomen nearly globular and reddish; brown, marked with a white cross composed of dots. 1. A native of Europe, on trees; it is a very beautiful insect."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "266e873c199ebdbfaa06bba8c035c20e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The three finest influences the white-man ufes, are the laminating engines: the machine for making the imperfections on the edges of coins, and that null.",
+ "content": "{\n  \"faithful\": \"The three finest instruments the mint-man ufes, are the laminating engine; the machine for making the impreffions on the edges of coins; and the mill.\",\n  \"modern\": \"The three finest instruments the mint-man uses, are the laminating engine; the machine for making the impressions on the edges of coins; and the mill.\"\n}",
+ "usage": {
+  "completion_tokens": 81,
+  "prompt_tokens": 603,
+  "total_tokens": 684,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The three finest instruments the mint-man ufes, are the laminating engine; the machine for making the impreffions on the edges of coins; and the mill.",
+  "modern": "The three finest instruments the mint-man uses, are the laminating engine; the machine for making the impressions on the edges of coins; and the mill."
+ },
+ "error": null
+}

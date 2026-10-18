@@ -1,0 +1,31 @@
+{
+ "key": "b44af0a28dd7ee7db9f3e503b7be14ca",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "parts of the country that border on Italy or France, a cor-\ntune French in Italian prevails. The two predominant se\nregions are Calvinia and Sprayer. Of the former we are the\ncentons of Zurich and Berne, the town of St Galli, Geneva, Malhland’s and Mali, the principality of Nuofstadt, the\ngener part of Buli, Schaffaudins, the country of the Gris\nfoas, the Thurgun, Toggenburg, Glaris, and the Rhine valley. I\nthe Services of Appeares with a small part of Sabo\nshum, and lines places at the countries of Canada and Dur-\ngans. The refl of the Swifs cantons, allies and dependents\nare People for the dejection of words there is an univer-\nfly at Bali, and scadoniais e zurücke, Beren, Lauderians and\nGeneva, heldes gymnaliums and échelle illulites, both in the\nRipih and Decerbat cantons. There are also focéeste a-\nmong them for the improvement of the German language\nand the fiecences.",
+ "content": "{\n  \"faithful\": \"parts of the country that border on Italy or France, a corrupt French or Italian prevails. The two predominant religions are Calvinism and Popery. Of the former are the cantons of Zurich and Berne, the town of St Gall, Geneva, Mulhausen and Biel, the principality of Neufchatel, the greater part of Bâle, Schaffhausen, the country of the Grisons, the Thurgau, Toggenburg, Glaris, and the Rhine valley; the frontiers of Appenzell, with a small part of Solothurn, and some places in the countries of Baden and Sargans. The rest of the Swiss cantons, allies and dependents, are Popish. For the education of youth there is an university at Bâle, and academies at Zurich, Berne, Lausanne, and Geneva, besides gymnasiums and scholæ illustres, both in the Popish and Protestant cantons. There are also societies among them for the improvement of the German language and the sciences.\",\n  \"modern\": \"parts of the country that border on Italy or France, a corrupt French or Italian prevails. The two predominant religions are Calvinism and Popery. Of the former are the cantons of Zurich and Berne, the town of St Gall, Geneva, Mulhausen and Biel, the principality of Neufchatel, the greater part of Basel, Schaffhausen, the country of the Grisons, the Thurgau, Toggenburg, Glaris, and the Rhine valley; the frontiers of Appenzell, with a small part of Solothurn, and some places in the countries of Baden and Sargans. The rest of the Swiss cantons, allies and dependents, are Popish. For the education of youth there is an university at Basel, and academies at Zurich, Berne, Lausanne, and Geneva, besides gymnasiums and scholæ illustres, both in the Popish and Protestant cantons. There are also societies among them for the improvement of the German language and the sciences.\"\n}",
+ "usage": {
+  "completion_tokens": 429,
+  "prompt_tokens": 867,
+  "total_tokens": 1296,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "parts of the country that border on Italy or France, a corrupt French or Italian prevails. The two predominant religions are Calvinism and Popery. Of the former are the cantons of Zurich and Berne, the town of St Gall, Geneva, Mulhausen and Biel, the principality of Neufchatel, the greater part of Bâle, Schaffhausen, the country of the Grisons, the Thurgau, Toggenburg, Glaris, and the Rhine valley; the frontiers of Appenzell, with a small part of Solothurn, and some places in the countries of Baden and Sargans. The rest of the Swiss cantons, allies and dependents, are Popish. For the education of youth there is an university at Bâle, and academies at Zurich, Berne, Lausanne, and Geneva, besides gymnasiums and scholæ illustres, both in the Popish and Protestant cantons. There are also societies among them for the improvement of the German language and the sciences.",
+  "modern": "parts of the country that border on Italy or France, a corrupt French or Italian prevails. The two predominant religions are Calvinism and Popery. Of the former are the cantons of Zurich and Berne, the town of St Gall, Geneva, Mulhausen and Biel, the principality of Neufchatel, the greater part of Basel, Schaffhausen, the country of the Grisons, the Thurgau, Toggenburg, Glaris, and the Rhine valley; the frontiers of Appenzell, with a small part of Solothurn, and some places in the countries of Baden and Sargans. The rest of the Swiss cantons, allies and dependents, are Popish. For the education of youth there is an university at Basel, and academies at Zurich, Berne, Lausanne, and Geneva, besides gymnasiums and scholæ illustres, both in the Popish and Protestant cantons. There are also societies among them for the improvement of the German language and the sciences."
+ },
+ "error": null
+}

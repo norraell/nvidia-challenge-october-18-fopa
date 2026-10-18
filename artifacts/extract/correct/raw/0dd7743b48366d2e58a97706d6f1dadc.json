@@ -1,0 +1,31 @@
+{
+ "key": "0dd7743b48366d2e58a97706d6f1dadc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "AMIGALLE, in a general lenic, denotes any thing done in a friendly manner, or to promote peace.",
+ "content": "{\n  \"faithful\": \"AMICABLE, in a general fenfe, denotes any thing done in a friendly manner, or to promote peace.\",\n  \"modern\": \"AMICABLE, in a general sense, denotes any thing done in a friendly manner, or to promote peace.\"\n}",
+ "usage": {
+  "completion_tokens": 62,
+  "prompt_tokens": 586,
+  "total_tokens": 648,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 260
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "AMICABLE, in a general fenfe, denotes any thing done in a friendly manner, or to promote peace.",
+  "modern": "AMICABLE, in a general sense, denotes any thing done in a friendly manner, or to promote peace."
+ },
+ "error": null
+}

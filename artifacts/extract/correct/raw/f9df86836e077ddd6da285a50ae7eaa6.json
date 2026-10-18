@@ -1,0 +1,31 @@
+{
+ "key": "f9df86836e077ddd6da285a50ae7eaa6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "3 A partire ploile fee free from either of these limits Of a single\ntive characters, and laid out in a common limple farm, \"am.\nSome of the greatest beaches that nature we to be found\nIn the fields, and attend an ordinary date of cultiva-\ntion : wood and water may there be exhibited in feve-\nalifornia and dispositions; see may enlarge our divide\nthe incolores and give them fresh dropers and boundaries\nries as we please ; everyone may be an agreeable foot;\ntogether, they may comprise beautiful towns in arables,\nthe picture, and then needs, you proceed one another;\nand now and then a little wild may be intermed with-\nont important may become in there, which is not\nmanful in an included country, whether it safe from\nneglect or improvers, I here in its place.",
+ "content": "{\n  \"faithful\": \"3: A part may alfo be free from either of thefe imitati-ve characters, and laid out in a common fimple farm, am. Some of the greatest beauties of nature are to be found in the fields, and attend an ordinary date of cultivation: wood and water may there be exhibited in feve-ral forms and difpofitions; we may enlarge or divide the incolures and give them fuch fhapes and boundaries as we please; every one may be an agreeable fpot; together, they may compofe beautiful views; the arable, the pafture, and the mead, may fucceed one another; and now and then a little wild may be intermixed without impropriety; every beauty, in fhort, which is not unufual in an inclofed country, whether it arife from neglect or improvement, is here in its place.\",\n  \"modern\": \"3: A part may also be free from either of these imitative characters, and laid out in a common simple farm, am. Some of the greatest beauties of nature are to be found in the fields, and attend an ordinary date of cultivation: wood and water may there be exhibited in several forms and dispositions; we may enlarge or divide the inclosures and give them such shapes and boundaries as we please; every one may be an agreeable spot; together, they may compose beautiful views; the arable, the pasture, and the mead, may succeed one another; and now and then a little wild may be intermixed without impropriety; every beauty, in short, which is not unusual in an inclosed country, whether it arise from neglect or improvement, is here in its place.\"\n}",
+ "usage": {
+  "completion_tokens": 372,
+  "prompt_tokens": 743,
+  "total_tokens": 1115,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "3: A part may alfo be free from either of thefe imitati-ve characters, and laid out in a common fimple farm, am. Some of the greatest beauties of nature are to be found in the fields, and attend an ordinary date of cultivation: wood and water may there be exhibited in feve-ral forms and difpofitions; we may enlarge or divide the incolures and give them fuch fhapes and boundaries as we please; every one may be an agreeable fpot; together, they may compofe beautiful views; the arable, the pafture, and the mead, may fucceed one another; and now and then a little wild may be intermixed without impropriety; every beauty, in fhort, which is not unufual in an inclofed country, whether it arife from neglect or improvement, is here in its place.",
+  "modern": "3: A part may also be free from either of these imitative characters, and laid out in a common simple farm, am. Some of the greatest beauties of nature are to be found in the fields, and attend an ordinary date of cultivation: wood and water may there be exhibited in several forms and dispositions; we may enlarge or divide the inclosures and give them such shapes and boundaries as we please; every one may be an agreeable spot; together, they may compose beautiful views; the arable, the pasture, and the mead, may succeed one another; and now and then a little wild may be intermixed without impropriety; every beauty, in short, which is not unusual in an inclosed country, whether it arise from neglect or improvement, is here in its place."
+ },
+ "error": null
+}

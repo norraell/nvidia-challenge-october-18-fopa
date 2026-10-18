@@ -1,0 +1,31 @@
+{
+ "key": "1bc41b99c478f9433db14a10b2286e13",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ExECUTON, a section nominated by te statues, to take care to one his will and whatever executed per performed, and his effects dipofied of according to the te-nor of the vill. See law.",
+ "content": "{\n  \"faithful\": \"EXECUTOR, a person nominated by a testator, to take care to fee his will and testament executed or performed, and his effects difpofed of according to the tenor of the will. See LAW.\",\n  \"modern\": \"EXECUTOR, a person nominated by a testator, to take care to fee his will and testament executed or performed, and his effects disposed of according to the tenor of the will. See LAW.\"\n}",
+ "usage": {
+  "completion_tokens": 103,
+  "prompt_tokens": 612,
+  "total_tokens": 715,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXECUTOR, a person nominated by a testator, to take care to fee his will and testament executed or performed, and his effects difpofed of according to the tenor of the will. See LAW.",
+  "modern": "EXECUTOR, a person nominated by a testator, to take care to fee his will and testament executed or performed, and his effects disposed of according to the tenor of the will. See LAW."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "e559c7331ac49dc9efbe5317444dcd71",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "2 Idly. By chocks, represented in Plate CCCCLV. (m.,) which are placed under all the shelf-pieces in walls of the beams, except the drop in such a manner as to receive the up and down arm of the iron knes. The lower ends of those under the span-deck-pipe step on the ends of the otp-bears; and those of the several decks above, step on the projecting part of the splashing beams. The chosen between the they and gun docks, and of their being driven into their respective places very tightly, thereby eating the pillars. Another advantage attending them is the great tendency to stiffen the shiny side, and to prevent the beans-ends from playing on the fasteners when the sihry is rolling or retaining under press of call.",
+ "content": "{\n  \"faithful\": \"2 Idly. By chocks, represented in Plate CCCCLV. (m.,) which are placed under all the shelf-pieces in walls of the beams, except the drop in such a manner as to receive the up and down arm of the iron knes. The lower ends of those under the span-deck-pipe step on the ends of the otp-bears; and those of the several decks above, step on the projecting part of the splashing beams. The chosen between the they and gun docks, and of their being driven into their respective places very tightly, thereby eating the pillars. Another advantage attending them is the great tendency to stiffen the shiny side, and to prevent the beans-ends from playing on the fasteners when the sihry is rolling or retaining under press of call.\",\n  \"modern\": \"2 Idly. By chocks, represented in Plate CCCCLV. (m.,) which are placed under all the shelf-pieces in walls of the beams, except the drop in such a manner as to receive the up and down arm of the iron knees. The lower ends of those under the span-deck-pipe step on the ends of the otp-bears; and those of the several decks above, step on the projecting part of the splashing beams. The chosen between the they and gun docks, and of their being driven into their respective places very tightly, thereby eating the pillars. Another advantage attending them is the great tendency to stiffen the shiny side, and to prevent the beans-ends from playing on the fasteners when the sihry is rolling or retaining under press of call.\"\n}",
+ "usage": {
+  "completion_tokens": 348,
+  "prompt_tokens": 746,
+  "total_tokens": 1094,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "2 Idly. By chocks, represented in Plate CCCCLV. (m.,) which are placed under all the shelf-pieces in walls of the beams, except the drop in such a manner as to receive the up and down arm of the iron knes. The lower ends of those under the span-deck-pipe step on the ends of the otp-bears; and those of the several decks above, step on the projecting part of the splashing beams. The chosen between the they and gun docks, and of their being driven into their respective places very tightly, thereby eating the pillars. Another advantage attending them is the great tendency to stiffen the shiny side, and to prevent the beans-ends from playing on the fasteners when the sihry is rolling or retaining under press of call.",
+  "modern": "2 Idly. By chocks, represented in Plate CCCCLV. (m.,) which are placed under all the shelf-pieces in walls of the beams, except the drop in such a manner as to receive the up and down arm of the iron knees. The lower ends of those under the span-deck-pipe step on the ends of the otp-bears; and those of the several decks above, step on the projecting part of the splashing beams. The chosen between the they and gun docks, and of their being driven into their respective places very tightly, thereby eating the pillars. Another advantage attending them is the great tendency to stiffen the shiny side, and to prevent the beans-ends from playing on the fasteners when the sihry is rolling or retaining under press of call."
+ },
+ "error": null
+}

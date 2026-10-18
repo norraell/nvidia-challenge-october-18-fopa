@@ -1,0 +1,31 @@
+{
+ "key": "cc1bf57f8f8acad13511ac5563958e63",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "See\nCook's\nHouse-\nrive, 93\nIt\nErrrag-\nwages\naccess\nin\nforce\na pachily\nof\nthe pole.",
+ "content": "{\n  \"faithful\": \"See Cook's Difcefionaries, n° 21 Parringfton's arguments in favour of a possibility of reaching the pole.\",\n  \"modern\": \"See Cook's Dictionaries, n° 21 Parrington's arguments in favour of a possibility of reaching the pole.\"\n}",
+ "usage": {
+  "completion_tokens": 71,
+  "prompt_tokens": 615,
+  "total_tokens": 686,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "See Cook's Difcefionaries, n° 21 Parringfton's arguments in favour of a possibility of reaching the pole.",
+  "modern": "See Cook's Dictionaries, n° 21 Parrington's arguments in favour of a possibility of reaching the pole."
+ },
+ "error": null
+}

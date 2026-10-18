@@ -1,0 +1,31 @@
+{
+ "key": "acbda0bf4492ec138142aaa70cb2f751",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "3. The fireplaces, or Cretan fleep, has fruit ceri- nated horses, twilled in a firal manner. It is a native of Mount folia.",
+ "content": "{\n  \"faithful\": \"3. The ftrepliceros, or Cretan fleep, has ftrate carinated horns, twilted in a fpiral manner. It is a native of Mount Iola.\",\n  \"modern\": \"3. The strepliceros, or Cretan sleep, has strate carinated horns, twilted in a spiral manner. It is a native of Mount Iola.\"\n}",
+ "usage": {
+  "completion_tokens": 92,
+  "prompt_tokens": 607,
+  "total_tokens": 699,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "3. The ftrepliceros, or Cretan fleep, has ftrate carinated horns, twilted in a fpiral manner. It is a native of Mount Iola.",
+  "modern": "3. The strepliceros, or Cretan sleep, has strate carinated horns, twilted in a spiral manner. It is a native of Mount Iola."
+ },
+ "error": null
+}

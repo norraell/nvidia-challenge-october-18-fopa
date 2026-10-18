@@ -1,0 +1,31 @@
+{
+ "key": "d72920e2c332b6f5a0cfbccfb6636cb5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Let o and d’ then be the motions of the particles in two confine infinite. They would be in equilibrio if urged only by the forces d’r. Therefore if y be the point where the particles which define the one: FM begins to change their velocity, the profiles in D would be equal to the profile when the fluid contained in the canal y EMD would exert, if each particle were folicted by its force d’r. The question is therefore reduced to the finding the curvature in the canal y EMD, and the accelerating force d’r in its different parts.",
+ "content": "{\n  \"faithful\": \"Let o and d’ then be the motions of the particles in two confine infinite. They would be in equilibrio if urged only by the forces d’r. Therefore if y be the point where the particles which define the one: FM begins to change their velocity, the profiles in D would be equal to the profile when the fluid contained in the canal y EMD would exert, if each particle were folicted by its force d’r. The question is therefore reduced to the finding the curvature in the canal y EMD, and the accelerating force d’r in its different parts.\",\n  \"modern\": \"Let o and d’ then be the motions of the particles in two confine infinite. They would be in equilibrio if urged only by the forces d’r. Therefore if y be the point where the particles which define the one: FM begins to change their velocity, the profiles in D would be equal to the profile when the fluid contained in the canal y EMD would exert, if each particle were solicited by its force d’r. The question is therefore reduced to the finding the curvature in the canal y EMD, and the accelerating force d’r in its different parts.\"\n}",
+ "usage": {
+  "completion_tokens": 252,
+  "prompt_tokens": 695,
+  "total_tokens": 947,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Let o and d’ then be the motions of the particles in two confine infinite. They would be in equilibrio if urged only by the forces d’r. Therefore if y be the point where the particles which define the one: FM begins to change their velocity, the profiles in D would be equal to the profile when the fluid contained in the canal y EMD would exert, if each particle were folicted by its force d’r. The question is therefore reduced to the finding the curvature in the canal y EMD, and the accelerating force d’r in its different parts.",
+  "modern": "Let o and d’ then be the motions of the particles in two confine infinite. They would be in equilibrio if urged only by the forces d’r. Therefore if y be the point where the particles which define the one: FM begins to change their velocity, the profiles in D would be equal to the profile when the fluid contained in the canal y EMD would exert, if each particle were solicited by its force d’r. The question is therefore reduced to the finding the curvature in the canal y EMD, and the accelerating force d’r in its different parts."
+ },
+ "error": null
+}

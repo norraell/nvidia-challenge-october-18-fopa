@@ -1,0 +1,31 @@
+{
+ "key": "be41cf6bf1a7751fd6c7742ec297cb1a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "(b) \" The author does indeed produce a living evidence, in the cafe of a person at Vienna, who, he has been credibly informed, received an electrical shock, by having held one hand accidentally in contact with an intercepted metallic coaching mind, at the infant that a thunder-cloud exploited at the influence, as was considered, or above half an English milk. He likewise observes, that a very strong, bright, and fulden firek (ce fpars) of electric fire has been been, by levels electrificants, to pais in the internal, or interruption, purposefully left in the concluding rod of a book at the infant do a distant explosions, and ‘when it was fully proved, by the sharp point of the conductor not being melted, or even tuged,' that the conductor itself had not been effect — \"Other observations, however, do not by any means prove the magnitude or danger, of the returning broke, but merely its _esiflessen_ which we do not contiti.\"",
+ "content": "{\n  \"faithful\": \"(b) \\\" The author does indeed produce a living evidence, in the cafe of a person at Vienna, who, he has been credibly informed, received an electrical shock, by having held one hand accidentally in contact with an intercepted metallic coaching mind, at the infant that a thunder-cloud exploited at the influence, as was considered, or above half an English milk. He likewise observes, that a very strong, bright, and fulden firek (ce fpars) of electric fire has been been, by levels electrificants, to pais in the internal, or interruption, purposefully left in the concluding rod of a book at the infant do a distant explosions, and ‘when it was fully proved, by the sharp point of the conductor not being melted, or even tuged,' that the conductor itself had not been effect — \\\"Other observations, however, do not by any means prove the magnitude or danger, of the returning broke, but merely its _esiflessen_ which we do not contiti.\\\"\",\n  \"modern\": \"(b) \\\" The author does indeed produce a living evidence, in the cafe of a person at Vienna, who, he has been credibly informed, received an electrical shock, by having held one hand accidentally in contact with an intercepted metallic coaching mind, at the infant that a thunder-cloud exploited at the influence, as was considered, or above half an English milk. He likewise observes, that a very strong, bright, and fulden firek (ce fpars) of electric fire has been been, by levels electrificants, to pais in the internal, or interruption, purposefully left in the concluding rod of a book at the infant do a distant explosions, and ‘when it was fully proved, by the sharp point of the conductor not being melted, or even tuged,' that the conductor itself had not been effect — \\\"Other observations, however, do not by any means prove the magnitude or danger, of the returning broke, but merely its _esiflessen_ which we do not contiti.\\\"\"\n}",
+ "usage": {
+  "completion_tokens": 429,
+  "prompt_tokens": 828,
+  "total_tokens": 1257,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 322
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "(b) \" The author does indeed produce a living evidence, in the cafe of a person at Vienna, who, he has been credibly informed, received an electrical shock, by having held one hand accidentally in contact with an intercepted metallic coaching mind, at the infant that a thunder-cloud exploited at the influence, as was considered, or above half an English milk. He likewise observes, that a very strong, bright, and fulden firek (ce fpars) of electric fire has been been, by levels electrificants, to pais in the internal, or interruption, purposefully left in the concluding rod of a book at the infant do a distant explosions, and ‘when it was fully proved, by the sharp point of the conductor not being melted, or even tuged,' that the conductor itself had not been effect — \"Other observations, however, do not by any means prove the magnitude or danger, of the returning broke, but merely its _esiflessen_ which we do not contiti.\"",
+  "modern": "(b) \" The author does indeed produce a living evidence, in the cafe of a person at Vienna, who, he has been credibly informed, received an electrical shock, by having held one hand accidentally in contact with an intercepted metallic coaching mind, at the infant that a thunder-cloud exploited at the influence, as was considered, or above half an English milk. He likewise observes, that a very strong, bright, and fulden firek (ce fpars) of electric fire has been been, by levels electrificants, to pais in the internal, or interruption, purposefully left in the concluding rod of a book at the infant do a distant explosions, and ‘when it was fully proved, by the sharp point of the conductor not being melted, or even tuged,' that the conductor itself had not been effect — \"Other observations, however, do not by any means prove the magnitude or danger, of the returning broke, but merely its _esiflessen_ which we do not contiti.\""
+ },
+ "error": null
+}

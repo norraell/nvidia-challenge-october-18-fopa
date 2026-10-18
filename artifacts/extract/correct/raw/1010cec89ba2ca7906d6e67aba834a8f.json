@@ -1,0 +1,31 @@
+{
+ "key": "1010cec89ba2ca7906d6e67aba834a8f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Among the curities of Bombay Mr Ives mentions Curidioles\na large temple or both tortured kept as the governed in his\nboat, the age of which was upwards of 20 years. Bland\nFrugs, which abound every where through the Fall\nIndies, are very large as Bombay. One author fav\none that preferred 22 inches from the extremities of\nthe front and final feet when extended it and its popo-\nfar that its weight would not have been life into four\nor five pounds. On the fe-shore round the illand are\na great variety of beautiful shells, particularly the fort\ncalled second-type, rounded corps, held in great re-\nferment among the lades fome time ago. Several pounds\nSteiling are fail to have taken given by a relatively for\none of the field when the Communisme Lellice col-\nlection of wells was fold by auction.",
+ "content": "{\n  \"faithful\": \"Among the curities of Bombay Mr Ives mentions Curidioles a large temple or both tortured kept as the governed in his boat, the age of which was upwards of 20 years. Bland Frugs, which abound every where through the Fall Indies, are very large as Bombay. One author fav one that preferred 22 inches from the extremities of the front and final feet when extended it and its popo-far that its weight would not have been life into four or five pounds. On the fe-shore round the illand are a great variety of beautiful shells, particularly the fort called second-type, rounded corps, held in great re-ferment among the lades fome time ago. Several pounds Steiling are fail to have taken given by a relatively for one of the field when the Communisme Lellice collection of wells was fold by auction.\",\n  \"modern\": \"Among the curities of Bombay Mr Ives mentions Curidioles a large temple or both tortured kept as the governed in his boat, the age of which was upwards of 20 years. Bland Frugs, which abound every where through the Fall Indies, are very large as Bombay. One author fav one that preferred 22 inches from the extremities of the front and final feet when extended it and its popo-far that its weight would not have been life into four or five pounds. On the fe-shore round the illand are a great variety of beautiful shells, particularly the fort called second-type, rounded corps, held in great re-ferment among the lades some time ago. Several pounds Steiling are fail to have taken given by a relatively for one of the field when the Communisme Lellice collection of wells was fold by auction.\"\n}",
+ "usage": {
+  "completion_tokens": 370,
+  "prompt_tokens": 775,
+  "total_tokens": 1145,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Among the curities of Bombay Mr Ives mentions Curidioles a large temple or both tortured kept as the governed in his boat, the age of which was upwards of 20 years. Bland Frugs, which abound every where through the Fall Indies, are very large as Bombay. One author fav one that preferred 22 inches from the extremities of the front and final feet when extended it and its popo-far that its weight would not have been life into four or five pounds. On the fe-shore round the illand are a great variety of beautiful shells, particularly the fort called second-type, rounded corps, held in great re-ferment among the lades fome time ago. Several pounds Steiling are fail to have taken given by a relatively for one of the field when the Communisme Lellice collection of wells was fold by auction.",
+  "modern": "Among the curities of Bombay Mr Ives mentions Curidioles a large temple or both tortured kept as the governed in his boat, the age of which was upwards of 20 years. Bland Frugs, which abound every where through the Fall Indies, are very large as Bombay. One author fav one that preferred 22 inches from the extremities of the front and final feet when extended it and its popo-far that its weight would not have been life into four or five pounds. On the fe-shore round the illand are a great variety of beautiful shells, particularly the fort called second-type, rounded corps, held in great re-ferment among the lades some time ago. Several pounds Steiling are fail to have taken given by a relatively for one of the field when the Communisme Lellice collection of wells was fold by auction."
+ },
+ "error": null
+}

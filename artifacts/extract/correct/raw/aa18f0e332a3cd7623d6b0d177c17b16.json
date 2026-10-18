@@ -1,0 +1,31 @@
+{
+ "key": "aa18f0e332a3cd7623d6b0d177c17b16",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "fasnata. Of a silver color; the abdomen marked with yel- lowish bandes; the legs surrounded with brown rings. 49. A native of the island of Malachi",
+ "content": "{\n  \"faithful\": \"fasciata. Of a silver colour; the abdomen marked with yellowish bands; the legs surrounded with brown rings. 48. A native of the island of Madeira.\",\n  \"modern\": \"fasciata. Of a silver color; the abdomen marked with yellowish bands; the legs surrounded with brown rings. 48. A native of the island of Madeira.\"\n}",
+ "usage": {
+  "completion_tokens": 85,
+  "prompt_tokens": 630,
+  "total_tokens": 715,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "fasciata. Of a silver colour; the abdomen marked with yellowish bands; the legs surrounded with brown rings. 48. A native of the island of Madeira.",
+  "modern": "fasciata. Of a silver color; the abdomen marked with yellowish bands; the legs surrounded with brown rings. 48. A native of the island of Madeira."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "d17542c3af29b5f6057830a5637ceade",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "WILLUMSMSTADLY as fees-port town of Holland. It is a handsome frong place, and the harbor is well frequented. It was built by Willimpin price of Oman in 1583 I and in 1733 included to the flashside of Erland. The river near which it is built is called _Butterliot or Holland Day_ , and is one of the bulwals of the Dutch on the life of Pakistan, where they always keep a garrition. This place made a gallant defence in 1759 against the French, who were obliged to take the firege. It is 15 miles northcraft of Bergenea-Zoon, and 12 southwell of Dorte. E. Lang, 4-30, N. Las 51, 39.",
+ "content": "{\n  \"faithful\": \"WILLIAMSTADT, a fea-port town of Holland. It is a handsome strong place, and the harbour is well frequented. It was built by William prince of Orange in 1583, and in 1733 belonged to the stadtholder of Friesland. The river near which it is built is called Butterfleet or Holland Diep, and is one of the bulwarks of the Dutch on the side of Brabant, where they always keep a garrison. This place made a gallant defence in 1793 against the French, who were obliged to raise the siege. It is 15 miles north-east of Bergen-op-Zoom, and 12 south-west of Dort. E. Long. 4. 30. N. Lat. 51. 39.\",\n  \"modern\": \"WILLIAMSTADT, a sea-port town of Holland. It is a handsome strong place, and the harbor is well frequented. It was built by William prince of Orange in 1583, and in 1733 belonged to the stadtholder of Friesland. The river near which it is built is called Butterfleet or Holland Diep, and is one of the bulwarks of the Dutch on the side of Brabant, where they always keep a garrison. This place made a gallant defense in 1793 against the French, who were obliged to raise the siege. It is 15 miles north-east of Bergen-op-Zoom, and 12 south-west of Dort. E. Long. 4. 30. N. Lat. 51. 39.\"\n}",
+ "usage": {
+  "completion_tokens": 364,
+  "prompt_tokens": 757,
+  "total_tokens": 1121,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "WILLIAMSTADT, a fea-port town of Holland. It is a handsome strong place, and the harbour is well frequented. It was built by William prince of Orange in 1583, and in 1733 belonged to the stadtholder of Friesland. The river near which it is built is called Butterfleet or Holland Diep, and is one of the bulwarks of the Dutch on the side of Brabant, where they always keep a garrison. This place made a gallant defence in 1793 against the French, who were obliged to raise the siege. It is 15 miles north-east of Bergen-op-Zoom, and 12 south-west of Dort. E. Long. 4. 30. N. Lat. 51. 39.",
+  "modern": "WILLIAMSTADT, a sea-port town of Holland. It is a handsome strong place, and the harbor is well frequented. It was built by William prince of Orange in 1583, and in 1733 belonged to the stadtholder of Friesland. The river near which it is built is called Butterfleet or Holland Diep, and is one of the bulwarks of the Dutch on the side of Brabant, where they always keep a garrison. This place made a gallant defense in 1793 against the French, who were obliged to raise the siege. It is 15 miles north-east of Bergen-op-Zoom, and 12 south-west of Dort. E. Long. 4. 30. N. Lat. 51. 39."
+ },
+ "error": null
+}

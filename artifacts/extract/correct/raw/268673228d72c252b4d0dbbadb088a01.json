@@ -1,0 +1,31 @@
+{
+ "key": "268673228d72c252b4d0dbbadb088a01",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Origin of the Strain on a Tbe beam.",
+ "content": "{\n  \"faithful\": \"Origin of the Strain on a Tbe beam.\",\n  \"modern\": \"Origin of the Strain on a The beam.\"\n}",
+ "usage": {
+  "completion_tokens": 36,
+  "prompt_tokens": 580,
+  "total_tokens": 616,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Origin of the Strain on a Tbe beam.",
+  "modern": "Origin of the Strain on a The beam."
+ },
+ "error": null
+}

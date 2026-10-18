@@ -1,0 +1,31 @@
+{
+ "key": "88f541619eb93ba55ffee4c02b88101b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1. This compound of miruric acid and magnella found was formerly called _mirice, left of magnella_, and was not confounded with the muriate of lime, with which it is frequently recommended. The difference between thefe two falls was flat printed and by Dr Blacks, and Bergman afterwards examined the nature and proper ties of muriate of magnella. The falls is obtained by differing magnella in muricate acid till they are fatuated, and then evaporating the solution. Small irregular crystals are obtained. This falls exists in the waters of the ocean, and in mineral waters, along with the marinate of folds and lime.",
+ "content": "{\n  \"faithful\": \"1. This compound of muriatic acid and magnesia found was formerly called marine salt of magnesia, and was not confounded with the muriate of lime, with which it is frequently accompanied. The difference between these two salts was first pointed out by Dr Black, and Bergman afterwards examined the nature and properties of muriate of magnesia. The salt is obtained by dissolving magnesia in muriatic acid till they are saturated, and then evaporating the solution. Small irregular crystals are obtained. This salt exists in the waters of the ocean, and in mineral waters, along with the muriates of soda and lime.\",\n  \"modern\": \"1. This compound of muriatic acid and magnesia found was formerly called marine salt of magnesia, and was not confounded with the muriate of lime, with which it is frequently accompanied. The difference between these two salts was first pointed out by Dr Black, and Bergman afterwards examined the nature and properties of muriate of magnesia. The salt is obtained by dissolving magnesia in muriatic acid till they are saturated, and then evaporating the solution. Small irregular crystals are obtained. This salt exists in the waters of the ocean, and in mineral waters, along with the muriates of soda and lime.\"\n}",
+ "usage": {
+  "completion_tokens": 269,
+  "prompt_tokens": 698,
+  "total_tokens": 967,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1. This compound of muriatic acid and magnesia found was formerly called marine salt of magnesia, and was not confounded with the muriate of lime, with which it is frequently accompanied. The difference between these two salts was first pointed out by Dr Black, and Bergman afterwards examined the nature and properties of muriate of magnesia. The salt is obtained by dissolving magnesia in muriatic acid till they are saturated, and then evaporating the solution. Small irregular crystals are obtained. This salt exists in the waters of the ocean, and in mineral waters, along with the muriates of soda and lime.",
+  "modern": "1. This compound of muriatic acid and magnesia found was formerly called marine salt of magnesia, and was not confounded with the muriate of lime, with which it is frequently accompanied. The difference between these two salts was first pointed out by Dr Black, and Bergman afterwards examined the nature and properties of muriate of magnesia. The salt is obtained by dissolving magnesia in muriatic acid till they are saturated, and then evaporating the solution. Small irregular crystals are obtained. This salt exists in the waters of the ocean, and in mineral waters, along with the muriates of soda and lime."
+ },
+ "error": null
+}

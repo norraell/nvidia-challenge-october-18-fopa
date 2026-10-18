@@ -1,0 +1,31 @@
+{
+ "key": "883733dfb713be2d6ebcdf19f3962144",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In the opinion of thefe men, there is not a word, letter, or accent in the law, without fome mystery in it. The Jies are divided into two general feels, the karaice, who refute to receive either tradition or the talmud, or any thing but the pure text of ferripture; and the rabbinills, or talmudits, who, befedes this, receive the traditions of the ancients, and follow the talmud.",
+ "content": "{\n  \"faithful\": \"In the opinion of thefe men, there is not a word, letter, or accent in the law, without fome mystery in it. The Jews are divided into two general feels, the karaites, who refuse to receive either tradition or the talmud, or any thing but the pure text of scripture; and the rabbinists, or talmudists, who, besides this, receive the traditions of the ancients, and follow the talmud.\",\n  \"modern\": \"In the opinion of these men, there is not a word, letter, or accent in the law, without some mystery in it. The Jews are divided into two general sects, the Karaites, who refuse to receive either tradition or the Talmud, or anything but the pure text of Scripture; and the Rabbinists, or Talmudists, who, besides this, receive the traditions of the ancients, and follow the Talmud.\"\n}",
+ "usage": {
+  "completion_tokens": 200,
+  "prompt_tokens": 671,
+  "total_tokens": 871,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In the opinion of thefe men, there is not a word, letter, or accent in the law, without fome mystery in it. The Jews are divided into two general feels, the karaites, who refuse to receive either tradition or the talmud, or any thing but the pure text of scripture; and the rabbinists, or talmudists, who, besides this, receive the traditions of the ancients, and follow the talmud.",
+  "modern": "In the opinion of these men, there is not a word, letter, or accent in the law, without some mystery in it. The Jews are divided into two general sects, the Karaites, who refuse to receive either tradition or the Talmud, or anything but the pure text of Scripture; and the Rabbinists, or Talmudists, who, besides this, receive the traditions of the ancients, and follow the Talmud."
+ },
+ "error": null
+}

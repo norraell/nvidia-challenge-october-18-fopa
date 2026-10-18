@@ -1,0 +1,31 @@
+{
+ "key": "2b97ef8648981c8598fb06d264354fe2",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "\"Nevertheless, as the lists which connect the adopter\nwith the rester of downward different towards the end\nof the operation, it would be more proident to leave\nevery thing in its place, for fear of damaging thief\nhates. This danger is greater when the adopters is of\nlead, because the great length of this additional piece\ntends to force the hitting full now on the account.\nIf it be required to proceed immediately to a new dif\nutilities, the reason or basis with a capable e pan\nmult be immediately taken from the furnace, and un-\nthe fluidbulated in its place ready prepared during the\nformer distillation. This specifically requires a double\nfet of veffels.",
+ "content": "{\n  \"faithful\": \"Nevertheless, as the lists which connect the adopter with the rester of downward different towards the end of the operation, it would be more proident to leave every thing in its place, for fear of damaging thief hates. This danger is greater when the adopters is of lead, because the great length of this additional piece tends to force the hitting full now on the account. If it be required to proceed immediately to a new dif utilities, the reason or basis with a capable e pan mult be immediately taken from the furnace, and un- the fluidbulated in its place ready prepared during the former distillation. This specifically requires a double fet of veffels.\",\n  \"modern\": \"Nevertheless, as the lists which connect the adopter with the rester of downward different towards the end of the operation, it would be more prudent to leave every thing in its place, for fear of damaging thief hates. This danger is greater when the adopters is of lead, because the great length of this additional piece tends to force the hitting full now on the account. If it be required to proceed immediately to a new dif utilities, the reason or basis with a capable e pan must be immediately taken from the furnace, and un- the fluidbulated in its place ready prepared during the former distillation. This specifically requires a double set of vessels.\"\n}",
+ "usage": {
+  "completion_tokens": 280,
+  "prompt_tokens": 723,
+  "total_tokens": 1003,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Nevertheless, as the lists which connect the adopter with the rester of downward different towards the end of the operation, it would be more proident to leave every thing in its place, for fear of damaging thief hates. This danger is greater when the adopters is of lead, because the great length of this additional piece tends to force the hitting full now on the account. If it be required to proceed immediately to a new dif utilities, the reason or basis with a capable e pan mult be immediately taken from the furnace, and un- the fluidbulated in its place ready prepared during the former distillation. This specifically requires a double fet of veffels.",
+  "modern": "Nevertheless, as the lists which connect the adopter with the rester of downward different towards the end of the operation, it would be more prudent to leave every thing in its place, for fear of damaging thief hates. This danger is greater when the adopters is of lead, because the great length of this additional piece tends to force the hitting full now on the account. If it be required to proceed immediately to a new dif utilities, the reason or basis with a capable e pan must be immediately taken from the furnace, and un- the fluidbulated in its place ready prepared during the former distillation. This specifically requires a double set of vessels."
+ },
+ "error": null
+}

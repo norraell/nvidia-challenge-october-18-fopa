@@ -1,0 +1,31 @@
+{
+ "key": "170b9609ad5fb479f7b6aabea2f7e3a4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "REENLD STREET, one of the four famous ways which the Romanes made in England, called _Stretim Rescrown_, because it began in the country of the _Leon_ who inhabited Norfolk, Suffolk, and Gaulridgeshire.",
+ "content": "{\n  \"faithful\": \"IKENILD STREET, one of the four famous ways which the Romans made in England, called Stratum Icenorum, because it began in the country of the Iceni, who inhabited Norfolk, Suffolk, and Cambridgeshire.\",\n  \"modern\": \"IKENILD STREET, one of the four famous ways which the Romans made in England, called Stratum Icenorum, because it began in the country of the Iceni, who inhabited Norfolk, Suffolk, and Cambridgeshire.\"\n}",
+ "usage": {
+  "completion_tokens": 115,
+  "prompt_tokens": 626,
+  "total_tokens": 741,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "IKENILD STREET, one of the four famous ways which the Romans made in England, called Stratum Icenorum, because it began in the country of the Iceni, who inhabited Norfolk, Suffolk, and Cambridgeshire.",
+  "modern": "IKENILD STREET, one of the four famous ways which the Romans made in England, called Stratum Icenorum, because it began in the country of the Iceni, who inhabited Norfolk, Suffolk, and Cambridgeshire."
+ },
+ "error": null
+}

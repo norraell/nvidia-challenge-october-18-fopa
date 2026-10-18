@@ -1,0 +1,31 @@
+{
+ "key": "7320611a883b711ba716b0d20d72ae65",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "To the defense of Mary, a returns were made befe flace and indisporaffitions of the field of the evidence produced to her prejudice. In the course of the trial, however, there occurred some incidents which defence to be rotated. By Lord Erleigh, who was willing to disconnect her, charged her with a fixed relation of conveying her claims and titles to England to the king of Spain. But though, in a discounted humonism with the fen, the had threatened to dinhent him, and had even corpoined on the failed, with her feet fetre friends, it appears that this project to be eradicated as only a transient effect of redefensement and puffion. She indeed acknowledged, that the Spaniard profited to have pretensions to the kingdom of England, and that a book in justification of them had been communicated to her. She declared, however, thus the had incorrect the displacement of many by disapproving of this book, and that no conveyance of her titles to the Spanish had been ever executed.",
+ "content": "{\n  \"faithful\": \"To the defense of Mary, a returns were made before place and indisporaffitions of the field of the evidence produced to her prejudice. In the course of the trial, however, there occurred some incidents which defence to be rotated. By Lord Erleigh, who was willing to disconnect her, charged her with a fixed relation of conveying her claims and titles to England to the king of Spain. But though, in a discounted humonism with the fen, the had threatened to dinhent him, and had even corpoined on the failed, with her feet fetre friends, it appears that this project to be eradicated as only a transient effect of redefensement and puffion. She indeed acknowledged, that the Spaniard profited to have pretensions to the kingdom of England, and that a book in justification of them had been communicated to her. She declared, however, thus the had incorrect the displacement of many by disapproving of this book, and that no conveyance of her titles to the Spanish had been ever executed.\",\n  \"modern\": \"To the defense of Mary, a returns were made before place and indisporaffitions of the field of the evidence produced to her prejudice. In the course of the trial, however, there occurred some incidents which defence to be rotated. By Lord Erleigh, who was willing to disconnect her, charged her with a fixed relation of conveying her claims and titles to England to the king of Spain. But though, in a discounted humonism with the fen, the had threatened to dinhent him, and had even corpoined on the failed, with her feet fetre friends, it appears that this project to be eradicated as only a transient effect of redefensement and puffion. She indeed acknowledged, that the Spaniard profited to have pretensions to the kingdom of England, and that a book in justification of them had been communicated to her. She declared, however, thus the had incorrect the displacement of many by disapproving of this book, and that no conveyance of her titles to the Spanish had been ever executed.\"\n}",
+ "usage": {
+  "completion_tokens": 437,
+  "prompt_tokens": 876,
+  "total_tokens": 1313,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 362
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "To the defense of Mary, a returns were made before place and indisporaffitions of the field of the evidence produced to her prejudice. In the course of the trial, however, there occurred some incidents which defence to be rotated. By Lord Erleigh, who was willing to disconnect her, charged her with a fixed relation of conveying her claims and titles to England to the king of Spain. But though, in a discounted humonism with the fen, the had threatened to dinhent him, and had even corpoined on the failed, with her feet fetre friends, it appears that this project to be eradicated as only a transient effect of redefensement and puffion. She indeed acknowledged, that the Spaniard profited to have pretensions to the kingdom of England, and that a book in justification of them had been communicated to her. She declared, however, thus the had incorrect the displacement of many by disapproving of this book, and that no conveyance of her titles to the Spanish had been ever executed.",
+  "modern": "To the defense of Mary, a returns were made before place and indisporaffitions of the field of the evidence produced to her prejudice. In the course of the trial, however, there occurred some incidents which defence to be rotated. By Lord Erleigh, who was willing to disconnect her, charged her with a fixed relation of conveying her claims and titles to England to the king of Spain. But though, in a discounted humonism with the fen, the had threatened to dinhent him, and had even corpoined on the failed, with her feet fetre friends, it appears that this project to be eradicated as only a transient effect of redefensement and puffion. She indeed acknowledged, that the Spaniard profited to have pretensions to the kingdom of England, and that a book in justification of them had been communicated to her. She declared, however, thus the had incorrect the displacement of many by disapproving of this book, and that no conveyance of her titles to the Spanish had been ever executed."
+ },
+ "error": null
+}

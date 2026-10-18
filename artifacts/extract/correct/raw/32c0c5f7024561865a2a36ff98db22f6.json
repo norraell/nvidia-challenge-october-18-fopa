@@ -1,0 +1,31 @@
+{
+ "key": "32c0c5f7024561865a2a36ff98db22f6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The new, ewes, and weather, when one year old, lofs the two foreseeh of the under jaw; fix months after- wards, they lofe the two foreseeh next to thele; and at the age of three years, the teeth are all replaced. The age of a ram may likewise be delivered by their home, which always appears the left year, and frequently saboon as they are brought forth. Their horse uniformly ac- quite an additional ring every year as longer the creature lives. The ews commonly have an horses, but a kind of long protubrances in place of them: However, fome of them have two, and some four hors.",
+ "content": "{\n  \"faithful\": \"The ram, ewe, and wether, when one year old, lose the two foreteeth of the under jaw; fix months afterwards, they lose the two foreteeth next to these; and at the age of three years, the teeth are all replaced. The age of a ram may likewise be discovered by their horns, which always appear the first year, and frequently as soon as they are brought forth. Their horns uniformly acquire an additional ring every year as long as the creature lives. The ewes commonly have no horns, but a kind of long protuberances in place of them: However, some of them have two, and some four horns.\",\n  \"modern\": \"The ram, ewe, and wether, when one year old, lose the two foreteeth of the under jaw; six months afterwards, they lose the two foreteeth next to these; and at the age of three years, the teeth are all replaced. The age of a ram may likewise be discovered by their horns, which always appear the first year, and frequently as soon as they are brought forth. Their horns uniformly acquire an additional ring every year as long as the creature lives. The ewes commonly have no horns, but a kind of long protuberances in place of them: However, some of them have two, and some four horns.\"\n}",
+ "usage": {
+  "completion_tokens": 285,
+  "prompt_tokens": 720,
+  "total_tokens": 1005,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The ram, ewe, and wether, when one year old, lose the two foreteeth of the under jaw; fix months afterwards, they lose the two foreteeth next to these; and at the age of three years, the teeth are all replaced. The age of a ram may likewise be discovered by their horns, which always appear the first year, and frequently as soon as they are brought forth. Their horns uniformly acquire an additional ring every year as long as the creature lives. The ewes commonly have no horns, but a kind of long protuberances in place of them: However, some of them have two, and some four horns.",
+  "modern": "The ram, ewe, and wether, when one year old, lose the two foreteeth of the under jaw; six months afterwards, they lose the two foreteeth next to these; and at the age of three years, the teeth are all replaced. The age of a ram may likewise be discovered by their horns, which always appear the first year, and frequently as soon as they are brought forth. Their horns uniformly acquire an additional ring every year as long as the creature lives. The ewes commonly have no horns, but a kind of long protuberances in place of them: However, some of them have two, and some four horns."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "99297a5eced97d136cee11c07cf60b86",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ENTILADE, in the art of war, is ufed in freak- ing of treencies, or other places, which may be four- ed by the enemy’s first along their whole length. In concluding the approaches at a large, care and be a ken than the trenches be not confined from any work of the place. See TANSWE.",
+ "content": "{\n  \"faithful\": \"ENFILADE, in the art of war, is ufed in fpeaking of trenches, or other places, which may be fcoured by the enemy's fhot along their whole length. In conducting the approaches at a fiege, care muft be taken that the trenches be not enfiladed from any work of the place. See TRENCHES.\",\n  \"modern\": \"ENFILADE, in the art of war, is used in speaking of trenches, or other places, which may be scoured by the enemy's shot along their whole length. In conducting the approaches at a siege, care must be taken that the trenches be not enfiladed from any work of the place. See TRENCHES.\"\n}",
+ "usage": {
+  "completion_tokens": 165,
+  "prompt_tokens": 647,
+  "total_tokens": 812,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ENFILADE, in the art of war, is ufed in fpeaking of trenches, or other places, which may be fcoured by the enemy's fhot along their whole length. In conducting the approaches at a fiege, care muft be taken that the trenches be not enfiladed from any work of the place. See TRENCHES.",
+  "modern": "ENFILADE, in the art of war, is used in speaking of trenches, or other places, which may be scoured by the enemy's shot along their whole length. In conducting the approaches at a siege, care must be taken that the trenches be not enfiladed from any work of the place. See TRENCHES."
+ },
+ "error": null
+}

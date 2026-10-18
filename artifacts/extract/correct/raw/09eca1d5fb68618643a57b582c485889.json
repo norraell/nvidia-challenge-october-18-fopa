@@ -1,0 +1,31 @@
+{
+ "key": "09eca1d5fb68618643a57b582c485889",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HUGHILY, a town of Afai, in the kingdom of\nBangels, feated on the molt velocity branch of the in-\nver changes. It is of large extent, reaching about\ntwo miles along the river, flat, and dress a great trade\nall all the commodities of this country, affirming cik\ncargos for 50 to Ohio annually, besides what is\nthough to cartages so the neighboring towns,\nSolitpere is brought hitner from Patnia in refels above\n50 yards long and five broad. The inhabitants are\nchely linking but there are also Deutsche Forge,\nilib, and other Europens. E. Long. 87, 55. N.\nLas 24.0.",
+ "content": "{\n  \"faithful\": \"HUGHILY, a town of Afai, in the kingdom of Bangels, feated on the molt velocity branch of the inver changes. It is of large extent, reaching about two miles along the river, flat, and dress a great trade all all the commodities of this country, affirming cik cargos for 50 to Ohio annually, besides what is though to cartages so the neighboring towns, Solitpere is brought hitner from Patnia in refels above 50 yards long and five broad. The inhabitants are chely linking but there are also Deutsche Forge, ilib, and other Europens. E. Long. 87, 55. N. Las 24.0.\",\n  \"modern\": \"HUGHILY, a town of Afai, in the kingdom of Bangels, feated on the molt velocity branch of the inver changes. It is of large extent, reaching about two miles along the river, flat, and dress a great trade all all the commodities of this country, affirming cik cargos for 50 to Ohio annually, besides what is though to cartages so the neighboring towns, Solitpere is brought hitner from Patnia in refels above 50 yards long and five broad. The inhabitants are chely linking but there are also Deutsche Forge, ilib, and other Europens. E. Long. 87, 55. N. Las 24.0.\"\n}",
+ "usage": {
+  "completion_tokens": 317,
+  "prompt_tokens": 749,
+  "total_tokens": 1066,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HUGHILY, a town of Afai, in the kingdom of Bangels, feated on the molt velocity branch of the inver changes. It is of large extent, reaching about two miles along the river, flat, and dress a great trade all all the commodities of this country, affirming cik cargos for 50 to Ohio annually, besides what is though to cartages so the neighboring towns, Solitpere is brought hitner from Patnia in refels above 50 yards long and five broad. The inhabitants are chely linking but there are also Deutsche Forge, ilib, and other Europens. E. Long. 87, 55. N. Las 24.0.",
+  "modern": "HUGHILY, a town of Afai, in the kingdom of Bangels, feated on the molt velocity branch of the inver changes. It is of large extent, reaching about two miles along the river, flat, and dress a great trade all all the commodities of this country, affirming cik cargos for 50 to Ohio annually, besides what is though to cartages so the neighboring towns, Solitpere is brought hitner from Patnia in refels above 50 yards long and five broad. The inhabitants are chely linking but there are also Deutsche Forge, ilib, and other Europens. E. Long. 87, 55. N. Las 24.0."
+ },
+ "error": null
+}

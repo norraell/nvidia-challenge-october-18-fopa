@@ -1,0 +1,31 @@
+{
+ "key": "0b1ab7140c5eb7eeb7138079b223c9de",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This oil is a sexy hot, stimulating medicine. It is fometines given as a fudorlic and diuretic, in the dole of two or three drops in larger doses, it is apt to greetly heat the body, coactalion pain of the head, an effusion of the fenect and liquor of the parasite glands. It has nevertheless been of late taken in considerable dofer (along with honey or other convict wolhic) against the delicate ; and, as is field, with good facects. Some have recommended it against vertical ruminants - but here I is has produced mir- chievous consequences, influming the parts and ag-gravating the diforder. Externally it is not unfre",
+ "content": "{\n  \"faithful\": \"This oil is a very hot, stimulating medicine. It is fometimes given as a fudorific and diuretic, in the dole of two or three drops: in larger dofes, it is apt to greatly heat the body, occasion pain of the head, an effusion of the femen and liquor of the profitate glands. It has nevertheless been of late taken in confiderable dofes (along with honey or other convenient vehicles) against the feticaca; and, as is faid, with good fuccefs. Some have recommended it against venereal runnings: but here it has produced mischievous consequences, inflaming the parts and aggravating the diforder. Externally it is not unfre-\",\n  \"modern\": \"This oil is a very hot, stimulating medicine. It is sometimes given as a sudorific and diuretic, in the dose of two or three drops: in larger doses, it is apt to greatly heat the body, occasion pain of the head, an effusion of the semen and liquor of the prostate glands. It has nevertheless been of late taken in considerable doses (along with honey or other convenient vehicles) against the sciatica; and, as is said, with good success. Some have recommended it against venereal runnings: but here it has produced mischievous consequences, inflaming the parts and aggravating the disorder. Externally it is not unfre-\"\n}",
+ "usage": {
+  "completion_tokens": 311,
+  "prompt_tokens": 743,
+  "total_tokens": 1054,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This oil is a very hot, stimulating medicine. It is fometimes given as a fudorific and diuretic, in the dole of two or three drops: in larger dofes, it is apt to greatly heat the body, occasion pain of the head, an effusion of the femen and liquor of the profitate glands. It has nevertheless been of late taken in confiderable dofes (along with honey or other convenient vehicles) against the feticaca; and, as is faid, with good fuccefs. Some have recommended it against venereal runnings: but here it has produced mischievous consequences, inflaming the parts and aggravating the diforder. Externally it is not unfre-",
+  "modern": "This oil is a very hot, stimulating medicine. It is sometimes given as a sudorific and diuretic, in the dose of two or three drops: in larger doses, it is apt to greatly heat the body, occasion pain of the head, an effusion of the semen and liquor of the prostate glands. It has nevertheless been of late taken in considerable doses (along with honey or other convenient vehicles) against the sciatica; and, as is said, with good success. Some have recommended it against venereal runnings: but here it has produced mischievous consequences, inflaming the parts and aggravating the disorder. Externally it is not unfre-"
+ },
+ "error": null
+}

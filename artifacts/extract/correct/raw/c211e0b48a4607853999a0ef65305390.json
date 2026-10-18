@@ -1,0 +1,31 @@
+{
+ "key": "c211e0b48a4607853999a0ef65305390",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The principal pieces of the machine (fig. x.), to damp coins on the edges, are two fiecl laminae, about a fine thick. One half of the legends, of the ring, is engraved on the thickness of one of the laminain, and the other half on the thickelsof the other; and their two laminar and freightly, although the phanchet marked with them he circular.",
+ "content": "{\n  \"faithful\": \"The principal pieces of the machine (fig. x.), to damp coins on the edges, are two fiecl laminae, about a fine thick. One half of the legends, of the ring, is engraved on the thickness of one of the laminain, and the other half on the thickelsof the other; and their two laminar and freightly, although the phanchet marked with them he circular.\",\n  \"modern\": \"The principal pieces of the machine (fig. x.), to damp coins on the edges, are two steel laminae, about a fine thick. One half of the legends, of the ring, is engraved on the thickness of one of the laminas, and the other half on the thickness of the other; and their two laminas are straight, although the planchet marked with them be circular.\"\n}",
+ "usage": {
+  "completion_tokens": 182,
+  "prompt_tokens": 659,
+  "total_tokens": 841,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The principal pieces of the machine (fig. x.), to damp coins on the edges, are two fiecl laminae, about a fine thick. One half of the legends, of the ring, is engraved on the thickness of one of the laminain, and the other half on the thickelsof the other; and their two laminar and freightly, although the phanchet marked with them he circular.",
+  "modern": "The principal pieces of the machine (fig. x.), to damp coins on the edges, are two steel laminae, about a fine thick. One half of the legends, of the ring, is engraved on the thickness of one of the laminas, and the other half on the thickness of the other; and their two laminas are straight, although the planchet marked with them be circular."
+ },
+ "error": null
+}

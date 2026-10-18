@@ -1,0 +1,31 @@
+{
+ "key": "4e6416d5c2ba0ea6119410355f93040b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "We may now take an example a little one plain and Other exlemonary. The mean beautiful object is nature perhaps, samples. Is the counterance of a young and powerful woman-- and we are not apt to first to imagine that, independently of all associations, the forms and colors which it displays are in themselves leaving end engaging, and would appear charming to all beholders, with whatever other qualities or impressions they might happen to be connected. A very little reflection, however, will probably be sufficient",
+ "content": "{\n  \"faithful\": \"We may now take an example a little less plain and Other ex- elementary. The most beautiful object in nature, perhaps, is the countenance of a young and beautiful woman; and we are apt at first to imagine, that, independently of all associations, the forms and colours which it displays are in themselves lovely and engaging, and would appear charming to all beholders, with whatever other qualities or impressions they might happen to be connected. A very little reflection, however, will probably be sufficient\",\n  \"modern\": \"We may now take an example a little less plain and Other ex- elementary. The most beautiful object in nature, perhaps, is the countenance of a young and beautiful woman; and we are apt at first to imagine, that, independently of all associations, the forms and colors which it displays are in themselves lovely and engaging, and would appear charming to all beholders, with whatever other qualities or impressions they might happen to be connected. A very little reflection, however, will probably be sufficient\"\n}",
+ "usage": {
+  "completion_tokens": 217,
+  "prompt_tokens": 674,
+  "total_tokens": 891,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "We may now take an example a little less plain and Other ex- elementary. The most beautiful object in nature, perhaps, is the countenance of a young and beautiful woman; and we are apt at first to imagine, that, independently of all associations, the forms and colours which it displays are in themselves lovely and engaging, and would appear charming to all beholders, with whatever other qualities or impressions they might happen to be connected. A very little reflection, however, will probably be sufficient",
+  "modern": "We may now take an example a little less plain and Other ex- elementary. The most beautiful object in nature, perhaps, is the countenance of a young and beautiful woman; and we are apt at first to imagine, that, independently of all associations, the forms and colors which it displays are in themselves lovely and engaging, and would appear charming to all beholders, with whatever other qualities or impressions they might happen to be connected. A very little reflection, however, will probably be sufficient"
+ },
+ "error": null
+}

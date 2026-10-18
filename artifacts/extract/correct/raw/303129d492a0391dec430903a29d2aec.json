@@ -1,0 +1,31 @@
+{
+ "key": "303129d492a0391dec430903a29d2aec",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Where fenestens could wish the word with which\nit began, it is called _spanialphs_. As in that expref-\ntion of Phants, « Virte comans all things, he wanna\nno good thing who like virtue.\" The figure is the\nfame, but the principle not fo honeln, in the advice\nwhich we find given by the-miler in Horos, when he\nfays, \" Get money if you can, possibly, but however,\nget money.\" This figure adds a force to an expref-\ntion, when the principal thing designed to be courvye-\ned is thus repeated, by being it fall upon the mind.\nAnd it begins the beauty of it, when the fenestone\nhas an agreeable turn arising from two opposite parts.\nAs in Cicero's commenting Cofar: \" We have few\nyour colony remained by the way, your own\nlived in the city we have not femen.\" Hermogenes\ncalls this * circle, because the fenestence returna\non the fame work, as that converted figure is form-\ned by the orbicular motion of a line to the fame\npoints.",
+ "content": "{\n  \"faithful\": \"Where fenestence could wish the word with which it began, it is called _spanialphs_. As in that expref- tion of Phants, « Virte comans all things, he wanna no good thing who like virtue.\\\" The figure is the fame, but the principle not fo honeln, in the advice which we find given by the-miler in Horos, when he fays, \\\" Get money if you can, possibly, but however, get money.\\\" This figure adds a force to an expref- tion, when the principal thing designed to be courvye- ed is thus repeated, by being it fall upon the mind. And it begins the beauty of it, when the fenestone has an agreeable turn arising from two opposite parts. As in Cicero's commenting Cofar: \\\" We have few your colony remained by the way, your own lived in the city we have not femen.\\\" Hermogenes calls this * circle, because the fenestence returna on the fame work, as that converted figure is form- ed by the orbicular motion of a line to the fame points.\",\n  \"modern\": \"Where fenestence could wish the word with which it began, it is called _spanialphs_. As in that expression of Phants, « Virtue contains all things, he wants no good thing who likes virtue.\\\" The figure is the same, but the principle not so honorable, in the advice which we find given by the miler in Horace, when he says, \\\"Get money if you can, possibly, but however, get money.\\\" This figure adds a force to an expression, when the principal thing designed to be conveyed is thus repeated, by leaving it fall upon the mind. And it heightens the beauty of it, when the fenestone has an agreeable turn arising from two opposite parts. As in Cicero's compliment to Caesar: \\\"We have few your colony remained by the way, your own lived in the city we have not feen.\\\" Hermogenes calls this a circle, because the fenestence returns again to the same word, as that geometrical figure is formed by the orbicular motion of a line to the same point.\"\n}",
+ "usage": {
+  "completion_tokens": 468,
+  "prompt_tokens": 906,
+  "total_tokens": 1374,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 362
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Where fenestence could wish the word with which it began, it is called _spanialphs_. As in that expref- tion of Phants, « Virte comans all things, he wanna no good thing who like virtue.\" The figure is the fame, but the principle not fo honeln, in the advice which we find given by the-miler in Horos, when he fays, \" Get money if you can, possibly, but however, get money.\" This figure adds a force to an expref- tion, when the principal thing designed to be courvye- ed is thus repeated, by being it fall upon the mind. And it begins the beauty of it, when the fenestone has an agreeable turn arising from two opposite parts. As in Cicero's commenting Cofar: \" We have few your colony remained by the way, your own lived in the city we have not femen.\" Hermogenes calls this * circle, because the fenestence returna on the fame work, as that converted figure is form- ed by the orbicular motion of a line to the fame points.",
+  "modern": "Where fenestence could wish the word with which it began, it is called _spanialphs_. As in that expression of Phants, « Virtue contains all things, he wants no good thing who likes virtue.\" The figure is the same, but the principle not so honorable, in the advice which we find given by the miler in Horace, when he says, \"Get money if you can, possibly, but however, get money.\" This figure adds a force to an expression, when the principal thing designed to be conveyed is thus repeated, by leaving it fall upon the mind. And it heightens the beauty of it, when the fenestone has an agreeable turn arising from two opposite parts. As in Cicero's compliment to Caesar: \"We have few your colony remained by the way, your own lived in the city we have not feen.\" Hermogenes calls this a circle, because the fenestence returns again to the same word, as that geometrical figure is formed by the orbicular motion of a line to the same point."
+ },
+ "error": null
+}

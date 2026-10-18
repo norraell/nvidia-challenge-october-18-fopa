@@ -1,0 +1,31 @@
+{
+ "key": "14077dbb6d3386e170092458eb0ff8f5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "\"It is much convenient to disregage the rettors or\nbodies that they are full warm, which continues to\nbe the odds the next morning after distillation, in con-\nference of the heat of the fluid bath. If they be left\nto cool entirely, the filphate of folda will crystallize,\nand it will be necessary to dilutive in hot water fish",
+ "content": "{\n  \"faithful\": \"It is much convenient to disengage the retorts or bodies while they are still warm, which continues to be the case the next morning after distillation, in consequence of the heat of the sand bath. If they be left to cool entirely, the sulphate of soda will crystallize, and it will be necessary to dissolve in hot water such as will be danger of losing great part of the contents.\",\n  \"modern\": \"It is much convenient to disengage the retorts or bodies while they are still warm, which continues to be the case the next morning after distillation, in consequence of the heat of the sand bath. If they be left to cool entirely, the sulphate of soda will crystallize, and it will be necessary to dissolve in hot water such as will be danger of losing great part of the contents.\"\n}",
+ "usage": {
+  "completion_tokens": 173,
+  "prompt_tokens": 662,
+  "total_tokens": 835,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "It is much convenient to disengage the retorts or bodies while they are still warm, which continues to be the case the next morning after distillation, in consequence of the heat of the sand bath. If they be left to cool entirely, the sulphate of soda will crystallize, and it will be necessary to dissolve in hot water such as will be danger of losing great part of the contents.",
+  "modern": "It is much convenient to disengage the retorts or bodies while they are still warm, which continues to be the case the next morning after distillation, in consequence of the heat of the sand bath. If they be left to cool entirely, the sulphate of soda will crystallize, and it will be necessary to dissolve in hot water such as will be danger of losing great part of the contents."
+ },
+ "error": null
+}

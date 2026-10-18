@@ -1,0 +1,31 @@
+{
+ "key": "762e28975d66d1f4ea147fe930086686",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Molter of the Horns._ See Marxer.",
+ "content": "{\n  \"faithful\": \"_Molter of the Horns._ See Marxer. ADIER, DRAGOONS, and GUARDS. Master of the HORSE. See MASTER. Light HORSE, are regiments of cavalry.\",\n  \"modern\": \"Molter of the Horns. See Marxer. ADIER, DRAGOONS, and GUARDS. Master of the HORSE. See MASTER. Light HORSE, are regiments of cavalry.\"\n}",
+ "usage": {
+  "completion_tokens": 111,
+  "prompt_tokens": 602,
+  "total_tokens": 713,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_Molter of the Horns._ See Marxer. ADIER, DRAGOONS, and GUARDS. Master of the HORSE. See MASTER. Light HORSE, are regiments of cavalry.",
+  "modern": "Molter of the Horns. See Marxer. ADIER, DRAGOONS, and GUARDS. Master of the HORSE. See MASTER. Light HORSE, are regiments of cavalry."
+ },
+ "error": null
+}

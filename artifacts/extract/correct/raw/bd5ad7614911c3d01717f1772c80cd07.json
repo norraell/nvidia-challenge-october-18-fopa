@@ -1,0 +1,31 @@
+{
+ "key": "bd5ad7614911c3d01717f1772c80cd07",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "## 10. Eyes placed thus,",
+ "content": "{\n  \"faithful\": \"10. Eyes placed thus, : : :\",\n  \"modern\": \"10. Eyes placed thus, : : :\"\n}",
+ "usage": {
+  "completion_tokens": 37,
+  "prompt_tokens": 600,
+  "total_tokens": 637,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "10. Eyes placed thus, : : :",
+  "modern": "10. Eyes placed thus, : : :"
+ },
+ "error": null
+}

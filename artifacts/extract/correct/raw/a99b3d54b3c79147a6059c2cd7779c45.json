@@ -1,0 +1,28 @@
+{
+ "key": "a99b3d54b3c79147a6059c2cd7779c45",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "but to pronounce femeence against Mary. The com- millifrons unanimously concurred in delivering it as their verdict or judgment, that the \"was a party to judgment the conspiracy of Bologony, and that the had com-pafiled and imagined matters within the realm of Engi- landending to the hard, death, and delivered of the royal portion of Elizabeth, in opposition to the feature framed for her protection.\" Upon the fame day in which this extraordinary femeence was given, the com- millions and the judges of England lifted a decla- ration which imported, that it was not to derogate in any degree from the titles and honour of the King of Stots.",
+ "content": "{\n  \"faithful\": \"but to pronounce femeence against Mary. The com- millifrons unanimously concurred in delivering it as their verdict or judgment, that the \"was a party to judgment the conspiracy of Bologony, and that the had com-pafiled and imagined matters within the realm of Engi- landending to the hard, death, and delivered of the royal portion of Elizabeth, in opposition to the feature framed for her protection.\" Upon the fame day in which this extraordinary femeence was given, the com- millions and the judges of England lifted a decla- ration which imported, that it was not to derogate in any degree from the titles and honour of the King of Stots.\",\n  \"modern\": \"but to pronounce femeence against Mary. The commissioners unanimously concurred in delivering it as their verdict or judgment, that she was a party to the conspiracy of Babington, and that she had compassed and imagined matters within the realm of England tending to the hurt, death, and destruction of the royal person of Elizabeth, in opposition to the statute framed for her protection. Upon the same day in which this extraordinary sentence was given, the commissioners and the judges of England issued a declaration which imported, that it was not to derogate in any degree from the titles and honour of the king of Scots.\"\n}",
+ "usage": {
+  "completion_tokens": 284,
+  "prompt_tokens": 719,
+  "total_tokens": 1003,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": null,
+ "error": null
+}

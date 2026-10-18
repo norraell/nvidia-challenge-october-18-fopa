@@ -1,0 +1,31 @@
+{
+ "key": "a74d5b2d813423d6a34895a2b3f218c5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HELSINGIC CHARACTER, a peculiar kind of character, found inferited on flones in the province of Hel- fingia s the Runic and Hellingic characters may be easily transformed into each other.",
+ "content": "{\n  \"faithful\": \"HELSINGIC CHARACTER, a peculiar kind of character, found inscribed on stones in the province of Helsingia: the Runic and Helsingic characters may be easily transformed into each other.\",\n  \"modern\": \"HELSINGIC CHARACTER, a peculiar kind of character, found inscribed on stones in the province of Helsingia: the Runic and Helsingic characters may be easily transformed into each other.\"\n}",
+ "usage": {
+  "completion_tokens": 95,
+  "prompt_tokens": 620,
+  "total_tokens": 715,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HELSINGIC CHARACTER, a peculiar kind of character, found inscribed on stones in the province of Helsingia: the Runic and Helsingic characters may be easily transformed into each other.",
+  "modern": "HELSINGIC CHARACTER, a peculiar kind of character, found inscribed on stones in the province of Helsingia: the Runic and Helsingic characters may be easily transformed into each other."
+ },
+ "error": null
+}

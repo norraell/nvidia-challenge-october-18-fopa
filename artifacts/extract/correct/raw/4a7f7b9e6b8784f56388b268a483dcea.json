@@ -1,0 +1,31 @@
+{
+ "key": "4a7f7b9e6b8784f56388b268a483dcea",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Sore hinternation mention, that the Ethiopian moarchs enslined the destes of Mahomet soon after the imported made the appearance; In this season set to be well-founded, jung it is certain that the No- _Julhi_ or Ethiopian governor of Yemen embraced Ma- homestants, and that he was related to the royal family. On this invasion, however, the Ethiopian has still the footing they once had in Arabia;; the governors being expelled by Mahomet and his succursers. They fled to the African state of the Had se with members Ethiopians of their subjects, where they erected several small king-driven eat domes, as Adelaide, Wypo, Hadea, Mara, and others of Arabia, which side continues.",
+ "content": "{\n  \"faithful\": \"Some historians mention, that the Ethiopian monarchs embraced the doctrines of Mahomet soon after the impostor made his appearance; but this seems not to be well-founded; though it is certain that the Najashi or Ethiopian governor of Yemen embraced Mahometanism, and that he was related to the royal family. On this occasion, however, the Ethiopians lost all the footing they once had in Arabia; the governors being expelled by Mahomet and his successors. They fled to the African side of the Red sea with numbers of their subjects, where they erected several small king-driven cut doms, as Adel, Wypo, Hadea, Mara, and others, of Arabia, which still continue.\",\n  \"modern\": \"Some historians mention, that the Ethiopian monarchs embraced the doctrines of Mahomet soon after the impostor made his appearance; but this seems not to be well-founded; though it is certain that the Najashi or Ethiopian governor of Yemen embraced Mahometanism, and that he was related to the royal family. On this occasion, however, the Ethiopians lost all the footing they once had in Arabia; the governors being expelled by Mahomet and his successors. They fled to the African side of the Red sea with numbers of their subjects, where they erected several small king-driven cut doms, as Adel, Wypo, Hadea, Mara, and others, of Arabia, which still continue.\"\n}",
+ "usage": {
+  "completion_tokens": 303,
+  "prompt_tokens": 722,
+  "total_tokens": 1025,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Some historians mention, that the Ethiopian monarchs embraced the doctrines of Mahomet soon after the impostor made his appearance; but this seems not to be well-founded; though it is certain that the Najashi or Ethiopian governor of Yemen embraced Mahometanism, and that he was related to the royal family. On this occasion, however, the Ethiopians lost all the footing they once had in Arabia; the governors being expelled by Mahomet and his successors. They fled to the African side of the Red sea with numbers of their subjects, where they erected several small king-driven cut doms, as Adel, Wypo, Hadea, Mara, and others, of Arabia, which still continue.",
+  "modern": "Some historians mention, that the Ethiopian monarchs embraced the doctrines of Mahomet soon after the impostor made his appearance; but this seems not to be well-founded; though it is certain that the Najashi or Ethiopian governor of Yemen embraced Mahometanism, and that he was related to the royal family. On this occasion, however, the Ethiopians lost all the footing they once had in Arabia; the governors being expelled by Mahomet and his successors. They fled to the African side of the Red sea with numbers of their subjects, where they erected several small king-driven cut doms, as Adel, Wypo, Hadea, Mara, and others, of Arabia, which still continue."
+ },
+ "error": null
+}

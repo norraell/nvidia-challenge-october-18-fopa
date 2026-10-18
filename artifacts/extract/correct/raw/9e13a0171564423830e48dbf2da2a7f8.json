@@ -1,0 +1,31 @@
+{
+ "key": "9e13a0171564423830e48dbf2da2a7f8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "We have hitherto toppofed that a particle of light, as it comes from the fun, is the leaf particular iron which light can be separated. But we mull now correct this top-polition, by thawing, that a particle of light, as it comes from the fun, is, properly speaking, a bundle of rays, which may be farated from one another. Therefore, for the future, by a ray of light we mull be understood to mean, not that collection of particles which we have hitherto called by this name, but the leaf particles in- to which light can be farated.",
+ "content": "{\n  \"faithful\": \"We have hitherto fuppofed that a particle of light, as it comes from the fun, is the leaf particular into which light can be feperated. But we mull now correct this fuppofition, by fhewing, that a particle of light, as it comes from the fun, is, properly fpeaking, a bundle of rays, which may be feperated from one another. Therefore, for the future, by a ray of light we mull be underftood to mean, not that collection of particles which we have hitherto called by this name, but the leaf particles into which light can be feperated.\",\n  \"modern\": \"We have hitherto supposed that a particle of light, as it comes from the sun, is the least particle into which light can be separated. But we must now correct this supposition, by showing, that a particle of light, as it comes from the sun, is, properly speaking, a bundle of rays, which may be separated from one another. Therefore, for the future, by a ray of light we must be understood to mean, not that collection of particles which we have hitherto called by this name, but the least particles into which light can be separated.\"\n}",
+ "usage": {
+  "completion_tokens": 261,
+  "prompt_tokens": 689,
+  "total_tokens": 950,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "We have hitherto fuppofed that a particle of light, as it comes from the fun, is the leaf particular into which light can be feperated. But we mull now correct this fuppofition, by fhewing, that a particle of light, as it comes from the fun, is, properly fpeaking, a bundle of rays, which may be feperated from one another. Therefore, for the future, by a ray of light we mull be underftood to mean, not that collection of particles which we have hitherto called by this name, but the leaf particles into which light can be feperated.",
+  "modern": "We have hitherto supposed that a particle of light, as it comes from the sun, is the least particle into which light can be separated. But we must now correct this supposition, by showing, that a particle of light, as it comes from the sun, is, properly speaking, a bundle of rays, which may be separated from one another. Therefore, for the future, by a ray of light we must be understood to mean, not that collection of particles which we have hitherto called by this name, but the least particles into which light can be separated."
+ },
+ "error": null
+}

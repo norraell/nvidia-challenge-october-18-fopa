@@ -1,0 +1,31 @@
+{
+ "key": "b60a38e891aef86b36aab5b71a5065e4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "on the banks of the Hyddarpes, and a third on the Ace-since, both navigable rivers, falling into the Indus after they have united their streams. By means of these cities, it recorded not only to keep the adjacent com-ins in awe, but to promote a commercial intercourse betwix different parts both by land and water. With view view, also, on the return to Sues, ha surveyed in person the corner of the Diplomat and Parking, causing the marates or dams to be removed which the Persian monarcha had built to distract the separation of those rivers, in conformity to means of their superstition, that it was unlawful to eddie any of the elements,which they imagined was done by integration. After the navigation was opened in this manner, he proposed that the valuable commodities of India should be imported to the other parts of his dominions by means of the Persian gulf; while through the Red sea they were con-veyed to Alexandria in Egypt, and theme dispersed all were Europe.",
+ "content": "{\n  \"faithful\": \"on the banks of the Hyddarpes, and a third on the Ace-since, both navigable rivers, falling into the Indus after they have united their streams. By means of these cities, it recorded not only to keep the adjacent com-ins in awe, but to promote a commercial intercourse betwix different parts both by land and water. With view view, also, on the return to Sues, ha surveyed in person the corner of the Diplomat and Parking, causing the marates or dams to be removed which the Persian monarcha had built to distract the separation of those rivers, in conformity to means of their superstition, that it was unlawful to eddie any of the elements,which they imagined was done by integration. After the navigation was opened in this manner, he proposed that the valuable commodities of India should be imported to the other parts of his dominions by means of the Persian gulf; while through the Red sea they were con-veyed to Alexandria in Egypt, and theme dispersed all were Europe.\",\n  \"modern\": \"on the banks of the Hyddarpes, and a third on the Ace-since, both navigable rivers, falling into the Indus after they have united their streams. By means of these cities, it recorded not only to keep the adjacent com-ins in awe, but to promote a commercial intercourse betwix different parts both by land and water. With view view, also, on the return to Sues, ha surveyed in person the corner of the Diplomat and Parking, causing the marates or dams to be removed which the Persian monarcha had built to distract the separation of those rivers, in conformity to means of their superstition, that it was unlawful to eddie any of the elements,which they imagined was done by integration. After the navigation was opened in this manner, he proposed that the valuable commodities of India should be imported to the other parts of his dominions by means of the Persian gulf; while through the Red sea they were con-veyed to Alexandria in Egypt, and theme dispersed all were Europe.\"\n}",
+ "usage": {
+  "completion_tokens": 437,
+  "prompt_tokens": 854,
+  "total_tokens": 1291,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 342
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "on the banks of the Hyddarpes, and a third on the Ace-since, both navigable rivers, falling into the Indus after they have united their streams. By means of these cities, it recorded not only to keep the adjacent com-ins in awe, but to promote a commercial intercourse betwix different parts both by land and water. With view view, also, on the return to Sues, ha surveyed in person the corner of the Diplomat and Parking, causing the marates or dams to be removed which the Persian monarcha had built to distract the separation of those rivers, in conformity to means of their superstition, that it was unlawful to eddie any of the elements,which they imagined was done by integration. After the navigation was opened in this manner, he proposed that the valuable commodities of India should be imported to the other parts of his dominions by means of the Persian gulf; while through the Red sea they were con-veyed to Alexandria in Egypt, and theme dispersed all were Europe.",
+  "modern": "on the banks of the Hyddarpes, and a third on the Ace-since, both navigable rivers, falling into the Indus after they have united their streams. By means of these cities, it recorded not only to keep the adjacent com-ins in awe, but to promote a commercial intercourse betwix different parts both by land and water. With view view, also, on the return to Sues, ha surveyed in person the corner of the Diplomat and Parking, causing the marates or dams to be removed which the Persian monarcha had built to distract the separation of those rivers, in conformity to means of their superstition, that it was unlawful to eddie any of the elements,which they imagined was done by integration. After the navigation was opened in this manner, he proposed that the valuable commodities of India should be imported to the other parts of his dominions by means of the Persian gulf; while through the Red sea they were con-veyed to Alexandria in Egypt, and theme dispersed all were Europe."
+ },
+ "error": null
+}

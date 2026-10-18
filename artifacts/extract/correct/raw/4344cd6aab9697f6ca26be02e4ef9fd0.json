@@ -1,0 +1,31 @@
+{
+ "key": "4344cd6aab9697f6ca26be02e4ef9fd0",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Health composed of nuclear-depart—Shells of this description were subjected to familiar experiments with this former. When the common oyster was expelled to a red heat, the effects were the fans as those which were produced by the fame processis on the facies of patches from Madeira. The foliation of the hallmark shell was also funlier, except only little the gelatinous parts are of a greater confidence. When the river, muffel was burnt a crushing, the melted much make, with a frongu find all burnt born or cartilage; the shell become of a dark gray colour, and exfoliated. By foliation in the acids, the proportion of carbonic matter Separated was greatest, and but of carbonaceous oil line obtained was left, than from the other shells on which experiments were made.",
+ "content": "{\n  \"faithful\": \"Shells composed of mother-of-pearl.—Shells of this description were subjected to similar experiments with the former. When the common oyster was exposed to a red heat, the effects were the fame as those which were produced by the fame process on the species of patches from Madeira. The foliation of the unburnt shell was also similar, excepting only that the gelatinous part was of a greater confiderency. When the river muffel was burnt in a crucible, it emitted much fmoke, with a ftrong fmell of burnt horn or cartilage; the fhell became of a dark gray colour, and exfoliated. By foliation in the acids, the proportion of carbonic matter separated was greater, and that of carbonate of lime obtained was lefs, than from the other fhells on which experiments were made.\",\n  \"modern\": \"Shells composed of mother-of-pearl.—Shells of this description were subjected to similar experiments with the former. When the common oyster was exposed to a red heat, the effects were the same as those which were produced by the same process on the species of patches from Madeira. The foliation of the unburnt shell was also similar, excepting only that the gelatinous part was of a greater consistency. When the river muffel was burnt in a crucible, it emitted much smoke, with a strong smell of burnt horn or cartilage; the shell became of a dark gray colour, and exfoliated. By foliation in the acids, the proportion of carbonic matter separated was greater, and that of carbonate of lime obtained was less, than from the other shells on which experiments were made.\"\n}",
+ "usage": {
+  "completion_tokens": 353,
+  "prompt_tokens": 748,
+  "total_tokens": 1101,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Shells composed of mother-of-pearl.—Shells of this description were subjected to similar experiments with the former. When the common oyster was exposed to a red heat, the effects were the fame as those which were produced by the fame process on the species of patches from Madeira. The foliation of the unburnt shell was also similar, excepting only that the gelatinous part was of a greater confiderency. When the river muffel was burnt in a crucible, it emitted much fmoke, with a ftrong fmell of burnt horn or cartilage; the fhell became of a dark gray colour, and exfoliated. By foliation in the acids, the proportion of carbonic matter separated was greater, and that of carbonate of lime obtained was lefs, than from the other fhells on which experiments were made.",
+  "modern": "Shells composed of mother-of-pearl.—Shells of this description were subjected to similar experiments with the former. When the common oyster was exposed to a red heat, the effects were the same as those which were produced by the same process on the species of patches from Madeira. The foliation of the unburnt shell was also similar, excepting only that the gelatinous part was of a greater consistency. When the river muffel was burnt in a crucible, it emitted much smoke, with a strong smell of burnt horn or cartilage; the shell became of a dark gray colour, and exfoliated. By foliation in the acids, the proportion of carbonic matter separated was greater, and that of carbonate of lime obtained was less, than from the other shells on which experiments were made."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "c421f20ecd1c65d221d9876cb7655d59",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The parents who had all liberty of voting over such Romans citizens and belonged to the curtu, or actually lived in the city, and confirmed to the customs and their of their proper cursu and all were excluded who dwell without the bounds of the city, or retained the ceremonies of their own country even, although they had been consumed with the _ja créaviside_ (See Grimes). The place where the cursus met was the conditions a pard of the forum. No fixed time was appointed for holding pay of the comitia, but they were conversed as business required.",
+ "content": "{\n  \"faithful\": \"The persons who had the liberty of voting were such Roman citizens as belonged to the curia, or actually lived in the city, and conformed to the customs and rites of their proper curia; and all were excluded who dwelt without the bounds of the city, or retained the ceremonies of their own country, even although they had been honoured with the jus civitatis. (See CRIZENS.) The place where the curia met was the comitium, a part of the forum. No fixed time was appointed for holding any of the comitia, but they were convened as business required.\",\n  \"modern\": \"The persons who had the liberty of voting were such Roman citizens as belonged to the curia, or actually lived in the city, and conformed to the customs and rites of their proper curia; and all were excluded who dwelt without the bounds of the city, or retained the ceremonies of their own country, even although they had been honoured with the jus civitatis. (See CRIZENS.) The place where the curia met was the comitium, a part of the forum. No fixed time was appointed for holding any of the comitia, but they were convened as business required.\"\n}",
+ "usage": {
+  "completion_tokens": 267,
+  "prompt_tokens": 684,
+  "total_tokens": 951,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The persons who had the liberty of voting were such Roman citizens as belonged to the curia, or actually lived in the city, and conformed to the customs and rites of their proper curia; and all were excluded who dwelt without the bounds of the city, or retained the ceremonies of their own country, even although they had been honoured with the jus civitatis. (See CRIZENS.) The place where the curia met was the comitium, a part of the forum. No fixed time was appointed for holding any of the comitia, but they were convened as business required.",
+  "modern": "The persons who had the liberty of voting were such Roman citizens as belonged to the curia, or actually lived in the city, and conformed to the customs and rites of their proper curia; and all were excluded who dwelt without the bounds of the city, or retained the ceremonies of their own country, even although they had been honoured with the jus civitatis. (See CRIZENS.) The place where the curia met was the comitium, a part of the forum. No fixed time was appointed for holding any of the comitia, but they were convened as business required."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "6ff76b050812851a5015204266b79e45",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "CABLE, a thick, large, frong rope, commonly of horn, which fever to keep a flap at anchor.",
+ "content": "{\n  \"faithful\": \"CABLE, a thick, large, ftrong rope, commonly of hemp, which ferves to keep a fhip at anchor.\",\n  \"modern\": \"CABLE, a thick, large, strong rope, commonly of hemp, which serves to keep a ship at anchor.\"\n}",
+ "usage": {
+  "completion_tokens": 69,
+  "prompt_tokens": 629,
+  "total_tokens": 698,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "CABLE, a thick, large, ftrong rope, commonly of hemp, which ferves to keep a fhip at anchor.",
+  "modern": "CABLE, a thick, large, strong rope, commonly of hemp, which serves to keep a ship at anchor."
+ },
+ "error": null
+}

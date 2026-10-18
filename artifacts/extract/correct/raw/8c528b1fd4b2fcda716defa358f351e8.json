@@ -1,0 +1,31 @@
+{
+ "key": "8c528b1fd4b2fcda716defa358f351e8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Button attempted to find out a north-well pallage to the Call Indies. It lies between 80° and 100° W, long, and between 60° and 60° N. lat.",
+ "content": "{\n  \"faithful\": \"Button attempted to find out a north-weft paffage to the Eaft Indies. It lies between 80° and 100° W. long. and between 60° and 66° N. lat.\",\n  \"modern\": \"Button attempted to find out a north-west passage to the East Indies. It lies between 80° and 100° W. long. and between 60° and 66° N. lat.\"\n}",
+ "usage": {
+  "completion_tokens": 111,
+  "prompt_tokens": 646,
+  "total_tokens": 757,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 298
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Button attempted to find out a north-weft paffage to the Eaft Indies. It lies between 80° and 100° W. long. and between 60° and 66° N. lat.",
+  "modern": "Button attempted to find out a north-west passage to the East Indies. It lies between 80° and 100° W. long. and between 60° and 66° N. lat."
+ },
+ "error": null
+}

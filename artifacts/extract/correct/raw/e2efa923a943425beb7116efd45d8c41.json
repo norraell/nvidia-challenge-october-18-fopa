@@ -1,0 +1,31 @@
+{
+ "key": "e2efa923a943425beb7116efd45d8c41",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "CABILAN, the man of a kingdom and city of India, beyond the Ganges.",
+ "content": "{\n  \"faithful\": \"CABLAN, the name of a kingdom and city of India, beyond the Ganges.\",\n  \"modern\": \"CABLAN, the name of a kingdom and city of India, beyond the Ganges.\"\n}",
+ "usage": {
+  "completion_tokens": 53,
+  "prompt_tokens": 617,
+  "total_tokens": 670,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "CABLAN, the name of a kingdom and city of India, beyond the Ganges.",
+  "modern": "CABLAN, the name of a kingdom and city of India, beyond the Ganges."
+ },
+ "error": null
+}

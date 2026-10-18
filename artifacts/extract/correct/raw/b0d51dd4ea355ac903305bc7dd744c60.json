@@ -1,0 +1,31 @@
+{
+ "key": "b0d51dd4ea355ac903305bc7dd744c60",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HUESNE, or Hussx, a familiardan in the Dul-\ntie Box, in the Sound, where was the famous obr-\nvatory of Tycho Brake. E. Long 13. 5. Nat.\n15.54.",
+ "content": "{\n  \"faithful\": \"HUESNE, or HVENA, a fmall ifland in the Bal- tic Sea, in the Sound, where was the famous obfer- vatory of Tycho Brahe. E. Long. 13. 5. N. Lat. 55. 54.\",\n  \"modern\": \"HUESNE, or HVENA, a small island in the Baltic Sea, in the Sound, where was the famous observatory of Tycho Brahe. E. Long. 13. 5. N. Lat. 55. 54.\"\n}",
+ "usage": {
+  "completion_tokens": 134,
+  "prompt_tokens": 621,
+  "total_tokens": 755,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HUESNE, or HVENA, a fmall ifland in the Bal- tic Sea, in the Sound, where was the famous obfer- vatory of Tycho Brahe. E. Long. 13. 5. N. Lat. 55. 54.",
+  "modern": "HUESNE, or HVENA, a small island in the Baltic Sea, in the Sound, where was the famous observatory of Tycho Brahe. E. Long. 13. 5. N. Lat. 55. 54."
+ },
+ "error": null
+}

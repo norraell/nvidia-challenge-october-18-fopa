@@ -1,0 +1,31 @@
+{
+ "key": "3101c7da8a567d424ecc815dc41f6c57",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "of the leaves and wood has been recommended as a powerful fiducifie; but is not now used by prestitioners. The wood is of a hard clole texture, and is greatly used by mechanics for toßls of various kinds.",
+ "content": "{\n  \"faithful\": \"of the leaves and wood has been recommended as a powerful fudorific; but is not now used by practitioners. The wood is of a hard close texture, and is greatly used by mechanics for tools of various kinds.\",\n  \"modern\": \"of the leaves and wood has been recommended as a powerful fudorific; but is not now used by practitioners. The wood is of a hard close texture, and is greatly used by mechanics for tools of various kinds.\"\n}",
+ "usage": {
+  "completion_tokens": 105,
+  "prompt_tokens": 616,
+  "total_tokens": 721,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "of the leaves and wood has been recommended as a powerful fudorific; but is not now used by practitioners. The wood is of a hard close texture, and is greatly used by mechanics for tools of various kinds.",
+  "modern": "of the leaves and wood has been recommended as a powerful fudorific; but is not now used by practitioners. The wood is of a hard close texture, and is greatly used by mechanics for tools of various kinds."
+ },
+ "error": null
+}

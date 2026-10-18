@@ -1,0 +1,31 @@
+{
+ "key": "3e7e07a992aee689e6ea1e36beb1f56a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Cornay—Combine diversity of weights and measures is 10 found in the various states lines which this extensive coun- is divided, and the most important of them will be found instantly. But now a few of their students, though differing in amount, are similar in their multiples and additions. the weights, 100 percent 32 st pomings = 16oz quantities 1 moz = 16 courses = 2 marks a 1 commercial lb, j and 5700 ms, 280 wrc= 408 arms = 3 z oz., a 1 spolents ib, e, 43cz eten xon = 02 bolings a 260 omings a 64 questions - lots ał oz of ocz = 4 Colgorne mark– 2-500 grains try. By this do and allow we needed, and the distance of the last expressed 3d parts are carried as in British, but the finances of silver by the keys. For forgetting there is a cant of 3417 pg. view. Of measures, 144 inches a 12 feet = 6 oils a 2 chatter = ruthe, a tubular and even up averages over a 1238 Brit. inches, the eg mine a 10,129 Brit, also, the latter mine a 6639, and the specific and an Irish. yds. The Rhinand morgon of ot = 40,18 Brit. say, yd.",
+ "content": "{\n  \"faithful\": \"Cornay—Considerable diversity of weights and measures is found in the various states into which this extensive coun-try is divided, and the most important of them will be found instantly. But now a few of their standards, though differing in amount, are similar in their multiples and subdivisions. the weights, 1024 hellers = 312 pfennings = 128 quintins = 16 ounces = 2 marks = 12 oz. = 1 apothecaries' lb.; and 5700 grains = 288 scruples = 96 drachms = 12 oz. = 1 apothecaries' lb.; 4352 eschen = 512 hellers = 256 pfennings = 64 quintins = 16 lots = 8 oz. = 1 Cologne mark = 3608 grains troy. By this d and silver are weighed; and the fineness of gold is expressed 24 parts or carats as in Britain, but the fineness of silver by 16 parts. For jewellery there is a carat of 3-171 grs. troy. Of measures, 144 inches = 12 feet = 6 ells = 2 klafter = 4 ruthe. the Rhinland foot used by surveyors = 12-36 Brit. inches; the mile = 10,126 Brit. yds., the short mile = 6859, and the geographical mile = 8101 Brit. yds. The Rhinland morgen of 10 = 10,185 Brit. sq. yds.\",\n  \"modern\": \"Cornay—Considerable diversity of weights and measures is found in the various states into which this extensive country is divided, and the most important of them will be found instantly. But now a few of their standards, though differing in amount, are similar in their multiples and subdivisions. the weights, 1024 hellers = 312 pfennings = 128 quintins = 16 ounces = 2 marks = 12 oz. = 1 apothecaries' lb.; and 5700 grains = 288 scruples = 96 drachms = 12 oz. = 1 apothecaries' lb.; 4352 eschen = 512 hellers = 256 pfennings = 64 quintins = 16 lots = 8 oz. = 1 Cologne mark = 3608 grains troy. By this d and silver are weighed; and the fineness of gold is expressed 24 parts or carats as in Britain, but the fineness of silver by 16 parts. For jewellery there is a carat of 3-171 grs. troy. Of measures, 144 inches = 12 feet = 6 ells = 2 klafter = 4 ruthe. the Rhinland foot used by surveyors = 12-36 Brit. inches; the mile = 10,126 Brit. yds., the short mile = 6859, and the geographical mile = 8101 Brit. yds. The Rhinland morgen of 10 = 10,185 Brit. sq. yds.\"\n}",
+ "usage": {
+  "completion_tokens": 761,
+  "prompt_tokens": 917,
+  "total_tokens": 1678,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Cornay—Considerable diversity of weights and measures is found in the various states into which this extensive coun-try is divided, and the most important of them will be found instantly. But now a few of their standards, though differing in amount, are similar in their multiples and subdivisions. the weights, 1024 hellers = 312 pfennings = 128 quintins = 16 ounces = 2 marks = 12 oz. = 1 apothecaries' lb.; and 5700 grains = 288 scruples = 96 drachms = 12 oz. = 1 apothecaries' lb.; 4352 eschen = 512 hellers = 256 pfennings = 64 quintins = 16 lots = 8 oz. = 1 Cologne mark = 3608 grains troy. By this d and silver are weighed; and the fineness of gold is expressed 24 parts or carats as in Britain, but the fineness of silver by 16 parts. For jewellery there is a carat of 3-171 grs. troy. Of measures, 144 inches = 12 feet = 6 ells = 2 klafter = 4 ruthe. the Rhinland foot used by surveyors = 12-36 Brit. inches; the mile = 10,126 Brit. yds., the short mile = 6859, and the geographical mile = 8101 Brit. yds. The Rhinland morgen of 10 = 10,185 Brit. sq. yds.",
+  "modern": "Cornay—Considerable diversity of weights and measures is found in the various states into which this extensive country is divided, and the most important of them will be found instantly. But now a few of their standards, though differing in amount, are similar in their multiples and subdivisions. the weights, 1024 hellers = 312 pfennings = 128 quintins = 16 ounces = 2 marks = 12 oz. = 1 apothecaries' lb.; and 5700 grains = 288 scruples = 96 drachms = 12 oz. = 1 apothecaries' lb.; 4352 eschen = 512 hellers = 256 pfennings = 64 quintins = 16 lots = 8 oz. = 1 Cologne mark = 3608 grains troy. By this d and silver are weighed; and the fineness of gold is expressed 24 parts or carats as in Britain, but the fineness of silver by 16 parts. For jewellery there is a carat of 3-171 grs. troy. Of measures, 144 inches = 12 feet = 6 ells = 2 klafter = 4 ruthe. the Rhinland foot used by surveyors = 12-36 Brit. inches; the mile = 10,126 Brit. yds., the short mile = 6859, and the geographical mile = 8101 Brit. yds. The Rhinland morgen of 10 = 10,185 Brit. sq. yds."
+ },
+ "error": null
+}

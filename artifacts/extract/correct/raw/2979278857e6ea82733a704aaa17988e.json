@@ -1,0 +1,31 @@
+{
+ "key": "2979278857e6ea82733a704aaa17988e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "CABIRI, a term in the biology of the ancient Pagars, figuring great and powerful gods, being a name given to the gods of Samotbracia. They were allo worthipped in other parts of Greece, as Lemos and Thehees, where the cabinets were celebrated in honour of them; the fests go are laid to be, in number, four, viz. Axieros, Axiocerla, Axiocerfius, and Calinila.",
+ "content": "{\n  \"faithful\": \"CABIRI, a term in the theology of the ancient Pagans, signifying great and powerful gods; being a name given to the gods of Samothracia. They were also worshipped in other parts of Greece, as Lemnos and Thebes, where the cabiria were celebrated in honour of them: these gods are said to be, in number, four, viz. Axieros, Axioerfa, Axioerfus, and Camillus.\",\n  \"modern\": \"CABIRI, a term in the theology of the ancient Pagans, signifying great and powerful gods; being a name given to the gods of Samothracia. They were also worshipped in other parts of Greece, as Lemnos and Thebes, where the cabiria were celebrated in honour of them: these gods are said to be, in number, four, viz. Axieros, Axioerfa, Axioerfus, and Camillus.\"\n}",
+ "usage": {
+  "completion_tokens": 207,
+  "prompt_tokens": 665,
+  "total_tokens": 872,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "CABIRI, a term in the theology of the ancient Pagans, signifying great and powerful gods; being a name given to the gods of Samothracia. They were also worshipped in other parts of Greece, as Lemnos and Thebes, where the cabiria were celebrated in honour of them: these gods are said to be, in number, four, viz. Axieros, Axioerfa, Axioerfus, and Camillus.",
+  "modern": "CABIRI, a term in the theology of the ancient Pagans, signifying great and powerful gods; being a name given to the gods of Samothracia. They were also worshipped in other parts of Greece, as Lemnos and Thebes, where the cabiria were celebrated in honour of them: these gods are said to be, in number, four, viz. Axieros, Axioerfa, Axioerfus, and Camillus."
+ },
+ "error": null
+}

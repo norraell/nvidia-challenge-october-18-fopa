@@ -1,0 +1,31 @@
+{
+ "key": "b112822d9c9253dc003d24065d2b109b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "141 In this feature of touch may be defined to be the faculty of diltinguling certain properties of bodies by the feel. In a general accepted, this definition might perhaps not properly be extended to every part of the body political of identifying (又), it is commonly combined to the nervous pupils, and consequently of exciting differences in the fenision communes. But the origin of touch, like all the other feels, it not equally distinct in every part of the body, or in every subjects, being in force much more equitable than it to others.",
+ "content": "{\n  \"faithful\": \"141 In this feature of touch may be defined to be the faculty of distinguishing certain properties of bodies by the feel. In a general accepted, this definition might perhaps not properly be extended to every part of the body political of identifying (又), it is commonly combined to the nervous pupils, and consequently of exciting differences in the fenision communes. But the origin of touch, like all the other feels, it not equally distinct in every part of the body, or in every subjects, being in force much more equitable than it to others.\",\n  \"modern\": \"141 In this feature of touch may be defined to be the faculty of distinguishing certain properties of bodies by the feel. In a general accepted, this definition might perhaps not properly be extended to every part of the body political of identifying (又), it is commonly combined to the nervous pupils, and consequently of exciting differences in the fenision communes. But the origin of touch, like all the other feels, it not equally distinct in every part of the body, or in every subjects, being in force much more equitable than it to others.\"\n}",
+ "usage": {
+  "completion_tokens": 235,
+  "prompt_tokens": 693,
+  "total_tokens": 928,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 280
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "141 In this feature of touch may be defined to be the faculty of distinguishing certain properties of bodies by the feel. In a general accepted, this definition might perhaps not properly be extended to every part of the body political of identifying (又), it is commonly combined to the nervous pupils, and consequently of exciting differences in the fenision communes. But the origin of touch, like all the other feels, it not equally distinct in every part of the body, or in every subjects, being in force much more equitable than it to others.",
+  "modern": "141 In this feature of touch may be defined to be the faculty of distinguishing certain properties of bodies by the feel. In a general accepted, this definition might perhaps not properly be extended to every part of the body political of identifying (又), it is commonly combined to the nervous pupils, and consequently of exciting differences in the fenision communes. But the origin of touch, like all the other feels, it not equally distinct in every part of the body, or in every subjects, being in force much more equitable than it to others."
+ },
+ "error": null
+}

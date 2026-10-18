@@ -1,0 +1,31 @@
+{
+ "key": "a41be90129914c9c24bb7d107ce01244",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Pada–Colher is generally sold by weight, as also liquids, except wines and spirits, which at all the three presidents are sold by British measures. Of the Bengal weights, the attacks = 100 years a 1 factory storeau = 747 if the award, or two thirds of a British bear. One manner manual is one that greater than the body, and mainly British. Gold and silver are weighted by the new telo or vice of 130 gram trasy. Two cables a getz = 1 Brit. yds. The case or end Doping a ~500 cycles, and 1000 sq. the 20 cotton as 1 blight. At Bombay of sees a 1 mmand = the quarter of British Brit, and 32 inchs around 2 cars, yds, which, corn is counted at 343 Brit. bushels. At Madras, 320 polinses a 1 via a 21 min, avvol, and the overalls of the world. The avid 130 fls and the British artist is una for cloth; and in land measure, 24 maumes a 1 cavry = 6400 Brit. sq. yds. Also 320 measures = 400 macrats = 1 go parals = 1 goarse",
+ "content": "{\n  \"faithful\": \"Pada–Colher is generally sold by weight, as also liquids, except wines and spirits, which at all the three presidents are sold by British measures. Of the Bengal weights, the attacks = 100 years a 1 factory storeau = 747 if the award, or two thirds of a British bear. One manner manual is one that greater than the body, and mainly British. Gold and silver are weighted by the new telo or vice of 130 gram trasy. Two cables a getz = 1 Brit. yds. The case or end Doping a ~500 cycles, and 1000 sq. the 20 cotton as 1 blight. At Bombay of sees a 1 mmand = the quarter of British Brit, and 32 inchs around 2 cars, yds, which, corn is counted at 343 Brit. bushels. At Madras, 320 polinses a 1 via a 21 min, avvol, and the overalls of the world. The avid 130 fls and the British artist is una for cloth; and in land measure, 24 maumes a 1 cavry = 6400 Brit. sq. yds. Also 320 measures = 400 macrats = 1 go parals = 1 goarse\",\n  \"modern\": \"Pada–Colher is generally sold by weight, as also liquids, except wines and spirits, which at all the three presidents are sold by British measures. Of the Bengal weights, the attacks = 100 years a 1 factory storeau = 747 if the award, or two thirds of a British bear. One manner manual is one that greater than the body, and mainly British. Gold and silver are weighted by the new telo or vice of 130 gram trasy. Two cables a getz = 1 Brit. yds. The case or end Doping a ~500 cycles, and 1000 sq. the 20 cotton as 1 blight. At Bombay of sees a 1 mmand = the quarter of British Brit, and 32 inchs around 2 cars, yds, which, corn is counted at 343 Brit. bushels. At Madras, 320 polinses a 1 via a 21 min, avvol, and the overalls of the world. The avid 130 fls and the British artist is una for cloth; and in land measure, 24 maumes a 1 cavry = 6400 Brit. sq. yds. Also 320 measures = 400 macrats = 1 go parals = 1 goarse\"\n}",
+ "usage": {
+  "completion_tokens": 609,
+  "prompt_tokens": 873,
+  "total_tokens": 1482,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Pada–Colher is generally sold by weight, as also liquids, except wines and spirits, which at all the three presidents are sold by British measures. Of the Bengal weights, the attacks = 100 years a 1 factory storeau = 747 if the award, or two thirds of a British bear. One manner manual is one that greater than the body, and mainly British. Gold and silver are weighted by the new telo or vice of 130 gram trasy. Two cables a getz = 1 Brit. yds. The case or end Doping a ~500 cycles, and 1000 sq. the 20 cotton as 1 blight. At Bombay of sees a 1 mmand = the quarter of British Brit, and 32 inchs around 2 cars, yds, which, corn is counted at 343 Brit. bushels. At Madras, 320 polinses a 1 via a 21 min, avvol, and the overalls of the world. The avid 130 fls and the British artist is una for cloth; and in land measure, 24 maumes a 1 cavry = 6400 Brit. sq. yds. Also 320 measures = 400 macrats = 1 go parals = 1 goarse",
+  "modern": "Pada–Colher is generally sold by weight, as also liquids, except wines and spirits, which at all the three presidents are sold by British measures. Of the Bengal weights, the attacks = 100 years a 1 factory storeau = 747 if the award, or two thirds of a British bear. One manner manual is one that greater than the body, and mainly British. Gold and silver are weighted by the new telo or vice of 130 gram trasy. Two cables a getz = 1 Brit. yds. The case or end Doping a ~500 cycles, and 1000 sq. the 20 cotton as 1 blight. At Bombay of sees a 1 mmand = the quarter of British Brit, and 32 inchs around 2 cars, yds, which, corn is counted at 343 Brit. bushels. At Madras, 320 polinses a 1 via a 21 min, avvol, and the overalls of the world. The avid 130 fls and the British artist is una for cloth; and in land measure, 24 maumes a 1 cavry = 6400 Brit. sq. yds. Also 320 measures = 400 macrats = 1 go parals = 1 goarse"
+ },
+ "error": null
+}

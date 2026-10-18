@@ -1,0 +1,31 @@
+{
+ "key": "61646573b0d105bd49096c5fc4e705f7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "men, horses, and other creatures, fevimming on the waves; at which he was fo dihertered, that abandon- ing his tests, artillery, and all his heavy bagages, to see enemy, he marched at the head of his Army, though in no fault diforer, towards Cape _Middos_, in order to embark in those few vehicles which had outweather- ed the forms. But Haffan, who had used his motions to be watched, allowed him just time to get to the floors, when the failed out and attacked the Spaniards in the multit of their hurry and condition to get into their flaps, killing great numbers, and bringing away a full greater number of capitars; after which he recened in stumpt to Algiers, where he celebrated with great rejoicing his injury deliverance from both difi- trots and danger.",
+ "content": "{\n  \"faithful\": \"men, horses, and other creatures, fevimming on the waves; at which he was fo dihertered, that abandon- ing his tests, artillery, and all his heavy bagages, to see enemy, he marched at the head of his Army, though in no fault diforer, towards Cape _Middos_, in order to embark in those few vehicles which had outweather- ed the forms. But Haffan, who had used his motions to be watched, allowed him just time to get to the floors, when the failed out and attacked the Spaniards in the multit of their hurry and condition to get into their flaps, killing great numbers, and bringing away a full greater number of capitars; after which he recened in stumpt to Algiers, where he celebrated with great rejoicing his injury deliverance from both difi- trots and danger.\",\n  \"modern\": \"men, horses, and other creatures, swimming on the waves; at which he was so disheartened, that abandoning his tents, artillery, and all his heavy baggage, to the enemy, he marched at the head of his army, though in no small disorder, towards Cape Malabux, in order to re-embark in those few vessels which had outweathered the storm. But Haffan, who had caused his motions to be watched, allowed him just time to get to the shore, when he sallied out and attacked the Spaniards in the midst of their hurry and confusion to get into their ships, killing great numbers, and bringing away a still greater number of captives; after which he returned in triumph to Algiers, where he celebrated with great rejoicings his happy deliverance from such distress and danger.\"\n}",
+ "usage": {
+  "completion_tokens": 368,
+  "prompt_tokens": 764,
+  "total_tokens": 1132,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "men, horses, and other creatures, fevimming on the waves; at which he was fo dihertered, that abandon- ing his tests, artillery, and all his heavy bagages, to see enemy, he marched at the head of his Army, though in no fault diforer, towards Cape _Middos_, in order to embark in those few vehicles which had outweather- ed the forms. But Haffan, who had used his motions to be watched, allowed him just time to get to the floors, when the failed out and attacked the Spaniards in the multit of their hurry and condition to get into their flaps, killing great numbers, and bringing away a full greater number of capitars; after which he recened in stumpt to Algiers, where he celebrated with great rejoicing his injury deliverance from both difi- trots and danger.",
+  "modern": "men, horses, and other creatures, swimming on the waves; at which he was so disheartened, that abandoning his tents, artillery, and all his heavy baggage, to the enemy, he marched at the head of his army, though in no small disorder, towards Cape Malabux, in order to re-embark in those few vessels which had outweathered the storm. But Haffan, who had caused his motions to be watched, allowed him just time to get to the shore, when he sallied out and attacked the Spaniards in the midst of their hurry and confusion to get into their ships, killing great numbers, and bringing away a still greater number of captives; after which he returned in triumph to Algiers, where he celebrated with great rejoicings his happy deliverance from such distress and danger."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "d6b4e743d7edf8ba1cc713aecaa6e612",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "(a) This might have been the case in the time of Pennant, from whom the above account is taken. It is not so now, although the population has increased to nearly 12,000. Isla indeed enjoys the peculiar advantages of being not only a grazing but it com own country, and can thus afford a very considerable exportation of both species of produce. The number of cattle are expected for exceeds that stated above by Pennant.",
+ "content": "{\n  \"faithful\": \"(a) This might have been the case in the time of Pennant, from whom the above account is taken. It is not so now, although the population has increased to nearly 12,000. Isla indeed enjoys the peculiar advantages of being not only a grazing but it com own country, and can thus afford a very considerable exportation of both species of produce. The number of cattle are expected for exceeds that stated above by Pennant.\",\n  \"modern\": \"(a) This might have been the case in the time of Pennant, from whom the above account is taken. It is not so now, although the population has increased to nearly 12,000. Isla indeed enjoys the peculiar advantages of being not only a grazing but its own country, and can thus afford a very considerable exportation of both species of produce. The number of cattle are expected for exceeds that stated above by Pennant.\"\n}",
+ "usage": {
+  "completion_tokens": 198,
+  "prompt_tokens": 2561,
+  "total_tokens": 2759,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 2168
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "(a) This might have been the case in the time of Pennant, from whom the above account is taken. It is not so now, although the population has increased to nearly 12,000. Isla indeed enjoys the peculiar advantages of being not only a grazing but it com own country, and can thus afford a very considerable exportation of both species of produce. The number of cattle are expected for exceeds that stated above by Pennant.",
+  "modern": "(a) This might have been the case in the time of Pennant, from whom the above account is taken. It is not so now, although the population has increased to nearly 12,000. Isla indeed enjoys the peculiar advantages of being not only a grazing but its own country, and can thus afford a very considerable exportation of both species of produce. The number of cattle are expected for exceeds that stated above by Pennant."
+ },
+ "error": null
+}

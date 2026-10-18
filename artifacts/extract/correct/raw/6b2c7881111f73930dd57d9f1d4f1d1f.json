@@ -1,0 +1,31 @@
+{
+ "key": "6b2c7881111f73930dd57d9f1d4f1d1f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The conferve of mini retains the safe and virtues\nof the herb. It is given in weakouts of the stomach\nand perhaps to omit; and not unfrequently deea\nfervice in fome cafes of this kind, where the warmer\nand more active preparations of mini would be leis\nproper.",
+ "content": "{\n  \"faithful\": \"The conferve of mint retains the taste and virtues of the herb. It is given in weaknesses of the stomach and retchings to vomit; and not unfrequently does service in some cases of this kind, where the warmer and more active preparations of mint would be less proper.\",\n  \"modern\": \"The conserve of mint retains the taste and virtues of the herb. It is given in weaknesses of the stomach and retchings to vomit; and not unfrequently does service in some cases of this kind, where the warmer and more active preparations of mint would be less proper.\"\n}",
+ "usage": {
+  "completion_tokens": 130,
+  "prompt_tokens": 659,
+  "total_tokens": 789,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The conferve of mint retains the taste and virtues of the herb. It is given in weaknesses of the stomach and retchings to vomit; and not unfrequently does service in some cases of this kind, where the warmer and more active preparations of mint would be less proper.",
+  "modern": "The conserve of mint retains the taste and virtues of the herb. It is given in weaknesses of the stomach and retchings to vomit; and not unfrequently does service in some cases of this kind, where the warmer and more active preparations of mint would be less proper."
+ },
+ "error": null
+}

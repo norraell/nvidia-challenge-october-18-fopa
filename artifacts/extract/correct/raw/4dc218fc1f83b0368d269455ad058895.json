@@ -1,0 +1,31 @@
+{
+ "key": "4dc218fc1f83b0368d269455ad058895",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Pulio Rey, that the byllas is the clearelt and moft beautiful, the whistel, froongel, and molt glolly fore of linesy that it is not made of any thing mortal, that is softy, of wool, or the skin of way animal, but that it comes out of the earth, and becomes always white, and more thinning, when it is waffed as it fluid he.",
+ "content": "{\n  \"faithful\": \"Philo fays, that the byffus is the clearest and moft beautiful, the whitelt, ftrongelt, and moft gloffy fort of linen; that it is not made of any thing mortal, that is to fay, of wool, or the fkin of any animal, but that it comes out of the earth, and becomes always whiter, and more fhining, when it is wafhed as it fhould be.\",\n  \"modern\": \"Philo says, that the byssus is the clearest and most beautiful, the whitest, strongest, and most glossy sort of linen; that it is not made of any thing mortal, that is to say, of wool, or the skin of any animal, but that it comes out of the earth, and becomes always whiter, and more shining, when it is washed as it should be.\"\n}",
+ "usage": {
+  "completion_tokens": 199,
+  "prompt_tokens": 672,
+  "total_tokens": 871,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Philo fays, that the byffus is the clearest and moft beautiful, the whitelt, ftrongelt, and moft gloffy fort of linen; that it is not made of any thing mortal, that is to fay, of wool, or the fkin of any animal, but that it comes out of the earth, and becomes always whiter, and more fhining, when it is wafhed as it fhould be.",
+  "modern": "Philo says, that the byssus is the clearest and most beautiful, the whitest, strongest, and most glossy sort of linen; that it is not made of any thing mortal, that is to say, of wool, or the skin of any animal, but that it comes out of the earth, and becomes always whiter, and more shining, when it is washed as it should be."
+ },
+ "error": null
+}

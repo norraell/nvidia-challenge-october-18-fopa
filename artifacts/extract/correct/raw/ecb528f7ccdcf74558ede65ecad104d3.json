@@ -1,0 +1,31 @@
+{
+ "key": "ecb528f7ccdcf74558ede65ecad104d3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "DANAE, in antiquity, a coin famewhat more than an obolus, died to be put into the mouths of the dead, to pay their patige over the river Acheron.",
+ "content": "{\n  \"faithful\": \"DANAE, in antiquity, a coin fomewhat more than an obolus, ufed to be put into the mouths of the dead, to pay their pafsage over the river Acheron.\",\n  \"modern\": \"DANAE, in antiquity, a coin somewhat more than an obolus, used to be put into the mouths of the dead, to pay their passage over the river Acheron.\"\n}",
+ "usage": {
+  "completion_tokens": 97,
+  "prompt_tokens": 609,
+  "total_tokens": 706,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "DANAE, in antiquity, a coin fomewhat more than an obolus, ufed to be put into the mouths of the dead, to pay their pafsage over the river Acheron.",
+  "modern": "DANAE, in antiquity, a coin somewhat more than an obolus, used to be put into the mouths of the dead, to pay their passage over the river Acheron."
+ },
+ "error": null
+}

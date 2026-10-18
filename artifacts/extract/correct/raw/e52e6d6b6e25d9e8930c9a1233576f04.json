@@ -1,0 +1,31 @@
+{
+ "key": "e52e6d6b6e25d9e8930c9a1233576f04",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The femme of Sparta were forbidden the excerite of any mean on mechanical employment, and therefore the whole care of fupplying the city with necefairs develop upon the filters.",
+ "content": "{\n  \"faithful\": \"The freemen of Sparta were forbidden the exercise of any mean or mechanical employment, and therefore the whole care of supplying the city with necessaries devolved upon the Helots.\",\n  \"modern\": \"The freemen of Sparta were forbidden the exercise of any mean or mechanical employment, and therefore the whole care of supplying the city with necessaries devolved upon the Helots.\"\n}",
+ "usage": {
+  "completion_tokens": 85,
+  "prompt_tokens": 613,
+  "total_tokens": 698,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The freemen of Sparta were forbidden the exercise of any mean or mechanical employment, and therefore the whole care of supplying the city with necessaries devolved upon the Helots.",
+  "modern": "The freemen of Sparta were forbidden the exercise of any mean or mechanical employment, and therefore the whole care of supplying the city with necessaries devolved upon the Helots."
+ },
+ "error": null
+}

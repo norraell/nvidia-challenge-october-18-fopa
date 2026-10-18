@@ -1,0 +1,31 @@
+{
+ "key": "79444a7f5d4ae66dea6b9e36e8de54fe",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Heats the hot body, according to 'S Gravefunde, is an agitation of the parts of the body, made by means of the fire contained in it: by fuch an agitation a mo- tion is produced in our bodies, which excite the idea of heat in our mind! To this heat in respect of us is nothing but that idea, and in the hot body nothing but motion. If fuch motion expel the fire in right liner, is gives us the idea of light; it in a various and irregular motion, only heat.",
+ "content": "{\n  \"faithful\": \"Heats the hot body, according to 'S Gravefunde, is an agitation of the parts of the body, made by means of the fire contained in it: by fuch an agitation a mo- tion is produced in our bodies, which excite the idea of heat in our mind! To this heat in respect of us is nothing but that idea, and in the hot body nothing but motion. If fuch motion expel the fire in right liner, is gives us the idea of light; it in a various and irregular motion, only heat.\",\n  \"modern\": \"Heats the hot body, according to 'S Gravefunde, is an agitation of the parts of the body, made by means of the fire contained in it: by such an agitation a motion is produced in our bodies, which excites the idea of heat in our mind. To this heat in respect of us is nothing but that idea, and in the hot body nothing but motion. If such motion expel the fire in right lines, it gives us the idea of light; it in a various and irregular motion, only heat.\"\n}",
+ "usage": {
+  "completion_tokens": 240,
+  "prompt_tokens": 682,
+  "total_tokens": 922,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Heats the hot body, according to 'S Gravefunde, is an agitation of the parts of the body, made by means of the fire contained in it: by fuch an agitation a mo- tion is produced in our bodies, which excite the idea of heat in our mind! To this heat in respect of us is nothing but that idea, and in the hot body nothing but motion. If fuch motion expel the fire in right liner, is gives us the idea of light; it in a various and irregular motion, only heat.",
+  "modern": "Heats the hot body, according to 'S Gravefunde, is an agitation of the parts of the body, made by means of the fire contained in it: by such an agitation a motion is produced in our bodies, which excites the idea of heat in our mind. To this heat in respect of us is nothing but that idea, and in the hot body nothing but motion. If such motion expel the fire in right lines, it gives us the idea of light; it in a various and irregular motion, only heat."
+ },
+ "error": null
+}

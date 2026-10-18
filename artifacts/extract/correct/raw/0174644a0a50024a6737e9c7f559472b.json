@@ -1,0 +1,31 @@
+{
+ "key": "0174644a0a50024a6737e9c7f559472b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "§ 1. CONSERVES.",
+ "content": "{\n  \"faithful\": \"§ 1. CONSERVES.\",\n  \"modern\": \"§ 1. CONSERVES.\"\n}",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 592,
+  "total_tokens": 627,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "§ 1. CONSERVES.",
+  "modern": "§ 1. CONSERVES."
+ },
+ "error": null
+}

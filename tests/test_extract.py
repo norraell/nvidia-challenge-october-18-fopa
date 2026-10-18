@@ -202,8 +202,8 @@ def test_extract_writes_valid_records_crops_and_resumes(tmp_path):
     coverage = json.loads((out / "coverage.json").read_text(encoding="utf-8"))
     assert coverage["dropped_blocks"][0]["text"] == "7 ABACUS."
     assert coverage["cer"]["status"] == "no eligible pages"  # one short entry: under 150 words
-    assert coverage["latex"] == {"status": "not compiled", "compiler": None, "tex_files": 1, "compiled": 0,
-                                 "failed": [], "skipped_pages": []}
+    assert coverage["latex"] == {"status": "not compiled on this machine; 0 existing PDFs kept", "compiler": None,
+                                 "tex_files": 1, "compiled": 0, "failed": [], "skipped_pages": []}
     assert r"\subsection*{ABACUS}" in (out / "latex" / "0007.tex").read_text(encoding="utf-8")
 
 
