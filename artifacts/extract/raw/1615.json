@@ -1,0 +1,51 @@
+{
+ "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1615",
+ "row_index": 1615,
+ "filename": "page-1615-664ff8d7d9b2.jpg",
+ "image_sha256": "664ff8d7d9b21a4369b87ea0530c1d02a28e471fbf47881d5d787ac60f0826fd",
+ "model": "nvidia/nemotron-3.5-parse",
+ "latency_ms": 360,
+ "attempts": 1,
+ "finish_reason": "stop",
+ "parsed_at": "2026-10-18T12:51:25+00:00",
+ "error": null,
+ "reply": {
+  "id": "chatcmpl-e8727276-10ef-482b-b21c-87abdbe4d30c",
+  "object": "chat.completion",
+  "created": 1792327884,
+  "model": "nvidia/nemotron-3.5-parse",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "<x_0.0><y_0.0><x_0.998><y_0.9984><class_Picture>",
+     "refusal": null,
+     "annotations": null,
+     "audio": null,
+     "function_call": null,
+     "reasoning": null
+    },
+    "logprobs": null,
+    "finish_reason": "stop",
+    "stop_reason": null,
+    "token_ids": null,
+    "routed_experts": null
+   }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.26.0-d51b4524",
+  "usage": {
+   "prompt_tokens": 508,
+   "total_tokens": 514,
+   "completion_tokens": 6,
+   "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null,
+  "ec_transfer_params": null,
+  "metrics": null
+ }
+}
