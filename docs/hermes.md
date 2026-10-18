@@ -101,6 +101,27 @@ It writes `artifacts/agent/env.json` with the Hermes version and the model ID fr
 A failed attempt also leaves a record, with the error in `notes`.
 The runner fails a run if it finds the key value or an `Authorization` header in the record.
 
+Check the question set before you run it:
+
+```bash
+uv run python -m nemotron_challenge.agent_review check
+```
+
+The check needs at least 14 questions, one image, two tools-on and tools-off pairs, and entries with status `rejected` or `no_candidates` and with `low_quality=true`.
+It also needs one question without an `entry_id`.
+It reports each missing item and each unknown `entry_id`.
+
+After you read a run, set its label and notes:
+
+```bash
+uv run python -m nemotron_challenge.agent_review review RUN_ID --label failure --notes "The Wikipedia citation does not support sentence 2."
+uv run python -m nemotron_challenge.agent_review review NEW_RUN_ID --label success --notes "Fixed the policy." --repairs OLD_RUN_ID
+```
+
+The command appends your notes to the notes that the runner wrote.
+It changes no other field and refuses to write key material.
+Keep the wrong runs.
+
 The Hermes plugin runs in the Hermes Python environment.
 That environment has no `lancedb`, so `brit_search` uses keyword search and says so in its result.
 The plugin finds `nemotron_challenge` through `CHALLENGE_REPO_ROOT`.
