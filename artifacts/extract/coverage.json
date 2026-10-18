@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:31:08+00:00",
+  "generated_at": "2026-10-18T14:02:09+00:00",
   "pages_total": 100,
   "pages_by_status": {
     "blank": 3,
@@ -1003,7 +1003,7 @@
     }
   ],
   "cer": {
-    "status": "missing gold",
+    "status": "partial",
     "method": "fitting alignment of the full gold text inside the page's Parse text; lowercase, long s as s, whitespace collapsed; CER = edit distance / gold characters",
     "selection": "5 random ok pages with >= 150 body words, seed 7",
     "selected_rows": [
@@ -1014,15 +1014,76 @@
       2473
     ],
     "missing_gold_rows": [
-      251,
       523,
       1327,
       1649,
       2473
     ],
-    "pages": [],
-    "mean_cer": null,
-    "top_substitutions": []
+    "pages": [
+      {
+        "row_index": 251,
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+        "gold_path": "artifacts/extract/gold/0251.txt",
+        "cer": 0.1383,
+        "distance": 153,
+        "gold_chars": 1106,
+        "pred_start": 0,
+        "pred_end": 1102
+      }
+    ],
+    "mean_cer": 0.1383,
+    "top_substitutions": [
+      {
+        "gold": "o",
+        "parse": "e",
+        "count": 4
+      },
+      {
+        "gold": "n",
+        "parse": "a",
+        "count": 4
+      },
+      {
+        "gold": "o",
+        "parse": "i",
+        "count": 3
+      },
+      {
+        "gold": "e",
+        "parse": "s",
+        "count": 3
+      },
+      {
+        "gold": "f",
+        "parse": "l",
+        "count": 3
+      },
+      {
+        "gold": "r",
+        "parse": "d",
+        "count": 2
+      },
+      {
+        "gold": "n",
+        "parse": "s",
+        "count": 2
+      },
+      {
+        "gold": "c",
+        "parse": "e",
+        "count": 2
+      },
+      {
+        "gold": "l",
+        "parse": "b",
+        "count": 2
+      },
+      {
+        "gold": "f",
+        "parse": "r",
+        "count": 2
+      }
+    ]
   },
   "latex": {
     "status": "compiled",
