@@ -1,6 +1,8 @@
 """Evaluate: select three success and three failure cases from saved runs and record reproduction data."""
 from __future__ import annotations
 
+DONE = True
+
 from datetime import datetime, timezone
 import json
 from pathlib import Path

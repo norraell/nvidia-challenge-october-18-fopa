@@ -1,6 +1,8 @@
 """Transform pipeline artifacts into static site JSON and assets for GitHub Pages."""
 from __future__ import annotations
 
+DONE = True
+
 import json
 from pathlib import Path
 import shutil

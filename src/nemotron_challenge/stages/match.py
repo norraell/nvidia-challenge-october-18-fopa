@@ -9,6 +9,8 @@ Relevance scores do not establish factual agreement. See docs/match-plan.md sect
 """
 from __future__ import annotations
 
+DONE = True
+
 import base64
 from collections.abc import Callable, Mapping
 from dataclasses import dataclass

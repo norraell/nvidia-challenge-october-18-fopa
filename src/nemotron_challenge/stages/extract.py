@@ -20,6 +20,8 @@ Set EXTRACT_SKIP_LATEX=1 to write the .tex files without compiling them.
 """
 from __future__ import annotations
 
+DONE = True
+
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import base64

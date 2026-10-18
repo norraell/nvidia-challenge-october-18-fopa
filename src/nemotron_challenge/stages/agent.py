@@ -5,6 +5,8 @@ artifacts/agent/runs/{run_id}.json. A failed attempt also leaves a record.
 """
 from __future__ import annotations
 
+DONE = True
+
 import json
 import os
 import re
@@ -99,6 +101,10 @@ def profile_home(root: Path, tools: bool) -> Path:
         shutil.copy(home / "config.yaml", plain / "config.yaml")
     # The plugin stays in this profile for its trace hook. challenge_run.json sets "tools": false, so it registers no tools.
     shutil.copytree(home / "plugins" / "nemotron-challenge", plain / "plugins" / "nemotron-challenge", dirs_exist_ok=True)
+    # Without this line the model writes calls to tools it does not have. It carries no answer policy.
+    note = root / "integrations" / "hermes" / "SOUL.notools.md"
+    if note.is_file():
+        shutil.copy(note, plain / "SOUL.md")
     return plain
 
 

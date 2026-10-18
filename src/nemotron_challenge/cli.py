@@ -77,7 +77,13 @@ def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     try:
         if args.command == "stages":
-            result = [{"stage": stage, "status": "TODO", "guide": f"docs/milestones.md#{stage}"} for stage in tasks.STAGES]
+            import importlib
+            rows = []
+            for stage in tasks.STAGES:
+                mod = importlib.import_module(f"nemotron_challenge.stages.{stage}")
+                status = "done" if getattr(mod, "DONE", False) else "TODO"
+                rows.append({"stage": stage, "status": status, "guide": f"docs/milestones.md#{stage}"})
+            result = rows
         elif args.command == "data":
             from .data import fetch_sample, load_manifest
 

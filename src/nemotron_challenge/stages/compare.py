@@ -1,6 +1,8 @@
 """Compare vocabulary, word frequencies, and semantic drift across matched sources."""
 from __future__ import annotations
 
+DONE = True
+
 from collections import Counter
 import json
 import math

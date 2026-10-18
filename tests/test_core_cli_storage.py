@@ -31,10 +31,10 @@ def test_live_doctor_reports_missing_resources(monkeypatch):
     assert report["inference"] == "not tested"
 
 
-def test_stages_list_has_todos(capsys):
+def test_stages_list_all_done(capsys):
     assert main(["stages"]) == 0
     rows = json.loads(capsys.readouterr().out)
-    assert len(rows) == 6 and all(row["status"] == "TODO" for row in rows)
+    assert len(rows) == 6 and all(row["status"] == "done" for row in rows)
 
 
 def test_keys_are_not_exposed_by_settings_repr():
