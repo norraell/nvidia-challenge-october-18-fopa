@@ -16,3 +16,13 @@ model_overrides:
     "nvidia/Nemotron-3.5-Super-VL":
       supports_tools: true
       supports_vision: true
+
+# Hermes defers plugin tools behind tool_search by default. Load the team tools directly.
+tools:
+  tool_search:
+    enabled: "off"
+
+agent:
+  coding_context: "off"
+  # Attach --image files to the user turn for the vision model.
+  image_input_mode: native

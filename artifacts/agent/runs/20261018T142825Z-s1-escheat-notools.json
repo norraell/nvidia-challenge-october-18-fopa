@@ -1,0 +1,16 @@
+{
+  "run_id": "20261018T142825Z-s1-escheat-notools",
+  "started_at": "2026-10-18T14:28:25Z",
+  "code_revision": "24145b5cd3f4e8dfae84960c17d9eb4c3aa81e7f",
+  "hermes_version": "Hermes Agent v0.22.1+858.g6255980 (2026.9.24) · stable · local 6255980b191e",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "question": "Escheat: compare what Britannica and Wikipedia say about who receives the property, and say what changed in the meaning of the term.",
+  "image_inputs": [],
+  "tools_enabled": false,
+  "tool_calls": [],
+  "answer": "I'll look for existing source material on escheat in the project, then fetch the Britannica and Wikipedia entries to compare who receives the property and how the meaning changed.\n \n<|tool_call>call:google_search:1{\"queries\":[\"escheat Britannica who receives property\", \"escheat Wikipedia who receives property escheator state crown\"]}<|tool_call|>\n\n<|tool_call>call:bash:2{\"command\":\"find /Users/oskarschloesinger/Development/dev_bob/nvidia-challenge-october-18-fopa -type f | head -50 && echo '---' && ls /Users/oskarschloesinger/Development/dev_bob/nvidia-challenge-october-18-fopa/docs 2>/dev/null || echo 'no docs dir'<|tool_call|>",
+  "citations": [],
+  "finish_reason": "stop",
+  "label": "failure",
+  "notes": "qid=s1-escheat-notools; entry_id=e1473-08; review: Tools-off twin of s1-escheat, first attempt, run with no SOUL note. The model wrote Google and bash tool calls as plain text and returned no answer. This was a profile fault: the model did not know it had no tools. Fixed by integrations/hermes/SOUL.notools.md. See the rerun 20261018T144836Z-s1-escheat-notools."
+}

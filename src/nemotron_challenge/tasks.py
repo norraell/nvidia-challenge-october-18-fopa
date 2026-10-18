@@ -25,7 +25,7 @@ def compare(settings: Settings, work_dir: Path) -> dict[str, Any]:
 
 
 def agent(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: implement your Hermes tools and evidence checks."""
+    """Run the saved questions through Hermes and save a RunRecord for each."""
     return stages.agent.run(settings, work_dir)
 
 

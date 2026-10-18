@@ -1,0 +1,1103 @@
+{
+  "generated_at": "2026-10-18T14:55:37+00:00",
+  "pages_total": 100,
+  "pages_by_status": {
+    "blank": 3,
+    "failed": 2,
+    "illegible": 1,
+    "ok": 94
+  },
+  "entries_total": 270,
+  "entries_by_kind": {
+    "continuation": 83,
+    "cross_reference": 8,
+    "entry": 159,
+    "plate": 20
+  },
+  "orphan_continuations": [
+    "e0013-01",
+    "e0104-01",
+    "e0115-01",
+    "e0217-01",
+    "e0220-01",
+    "e0247-01",
+    "e0251-01",
+    "e0257-01",
+    "e0261-01",
+    "e0266-01",
+    "e0268-01",
+    "e0318-01",
+    "e0383-01",
+    "e0403-01",
+    "e0473-01",
+    "e0493-01",
+    "e0499-01",
+    "e0513-01",
+    "e0546-01",
+    "e0560-01",
+    "e0604-01",
+    "e0611-01",
+    "e0681-01",
+    "e0713-01",
+    "e0756-01",
+    "e0851-01",
+    "e0914-01",
+    "e0944-01",
+    "e1017-01",
+    "e1032-01",
+    "e1102-01",
+    "e1166-01",
+    "e1214-01",
+    "e1250-01",
+    "e1268-01",
+    "e1284-01",
+    "e1298-01",
+    "e1324-01",
+    "e1344-01",
+    "e1415-01",
+    "e1422-01",
+    "e1430-01",
+    "e1466-01",
+    "e1580-01",
+    "e1614-01",
+    "e1649-01",
+    "e1670-01",
+    "e1678-01",
+    "e1680-01",
+    "e1722-01",
+    "e1765-01",
+    "e1803-01",
+    "e1805-01",
+    "e1818-01",
+    "e1828-01",
+    "e1904-01",
+    "e1910-01",
+    "e1933-01",
+    "e1939-01",
+    "e1942-01",
+    "e1945-01",
+    "e2001-01",
+    "e2087-01",
+    "e2108-01",
+    "e2131-01",
+    "e2155-01",
+    "e2171-01",
+    "e2250-01",
+    "e2296-01",
+    "e2307-01",
+    "e2402-01",
+    "e2424-01",
+    "e2446-01",
+    "e2448-01",
+    "e2464-01",
+    "e2473-01",
+    "e2479-01",
+    "e2493-01",
+    "e2524-01",
+    "e2569-01"
+  ],
+  "linked_continuations": [
+    "e0258-01",
+    "e2570-01"
+  ],
+  "low_quality_entries": [
+    "e0651-01",
+    "e0651-02",
+    "e0651-03",
+    "e0651-04",
+    "e0651-05",
+    "e2001-07"
+  ],
+  "dropped_blocks": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+      "row_index": 13,
+      "cls": "Page-header",
+      "text": "292 SHIP-BUILDING.",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+      "row_index": 104,
+      "cls": "Page-header",
+      "text": "WEIGHTS AND MEASURES.",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+      "row_index": 104,
+      "cls": "Text",
+      "text": "853",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115",
+      "row_index": 115,
+      "cls": "Page-header",
+      "text": "6goa BLEACHING. Part II.",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:217",
+      "row_index": 217,
+      "cls": "Page-header",
+      "text": "FAR [ 107] FAR",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:217",
+      "row_index": 217,
+      "cls": "Page-footer",
+      "text": "5   O2   +4",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:220",
+      "row_index": 220,
+      "cls": "Page-footer",
+      "text": "No 133.",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+      "row_index": 251,
+      "cls": "Page-header",
+      "text": "SWI [ 248] SYD",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+      "row_index": 251,
+      "cls": "Section-header",
+      "text": "Switect- land.",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:261",
+      "row_index": 261,
+      "cls": "Page-header",
+      "text": "222",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:261",
+      "row_index": 261,
+      "cls": "Page-footer",
+      "text": "C. Eye",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:266",
+      "row_index": 266,
+      "cls": "Caption",
+      "text": "art III.",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:268",
+      "row_index": 268,
+      "cls": "Page-header",
+      "text": "LA U [ 6oz ] L AU",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:318",
+      "row_index": 318,
+      "cls": "Page-header",
+      "text": "N I L 75 J N I L",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:318",
+      "row_index": 318,
+      "cls": "Page-footer",
+      "text": "2",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:318",
+      "row_index": 318,
+      "cls": "Page-footer",
+      "text": "1",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:383",
+      "row_index": 383,
+      "cls": "Page-header",
+      "text": "110 Nature of Wash, Sc.",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+      "row_index": 403,
+      "cls": "Page-header",
+      "text": "PHILLOOGY.",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+      "row_index": 403,
+      "cls": "Page-header",
+      "text": "375",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:473",
+      "row_index": 473,
+      "cls": "Page-header",
+      "text": "466",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493",
+      "row_index": 493,
+      "cls": "Page-header",
+      "text": "L A [ 159] T L A",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:499",
+      "row_index": 499,
+      "cls": "Page-header",
+      "text": "I N D T A",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523",
+      "row_index": 523,
+      "cls": "Page-header",
+      "text": "EN G [ 2729] E N G",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:560",
+      "row_index": 560,
+      "cls": "Page-header",
+      "text": "AMI [ 619] A M I",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:560",
+      "row_index": 560,
+      "cls": "Page-footer",
+      "text": "4 F-2",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:563",
+      "row_index": 563,
+      "cls": "Title",
+      "text": "ACT [ 97] ACT",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:563",
+      "row_index": 563,
+      "cls": "Caption",
+      "text": "Vou. I. Part I.",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:563",
+      "row_index": 563,
+      "cls": "Page-footer",
+      "text": "_Neurse_",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604",
+      "row_index": 604,
+      "cls": "Page-header",
+      "text": "T H O T H R",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:611",
+      "row_index": 611,
+      "cls": "Page-header",
+      "text": "R E S 752 T RES",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651",
+      "row_index": 651,
+      "cls": "Page-header",
+      "text": "HELMINTHOLOGY. Plate CCLI",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651",
+      "row_index": 651,
+      "cls": "Page-footer",
+      "text": "Sthold Owner Walls Instagram from",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:681",
+      "row_index": 681,
+      "cls": "Page-header",
+      "text": "O P T I C S. 427",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713",
+      "row_index": 713,
+      "cls": "Title",
+      "text": "**OYI ( 447)** **OUS**",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713",
+      "row_index": 713,
+      "cls": "Page-footer",
+      "text": "_Vol. III._ No. 28. 2",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713",
+      "row_index": 713,
+      "cls": "Page-footer",
+      "text": "5 U 1",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756",
+      "row_index": 756,
+      "cls": "Page-header",
+      "text": "MAGNETISM.",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756",
+      "row_index": 756,
+      "cls": "Page-header",
+      "text": "129",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851",
+      "row_index": 851,
+      "cls": "Page-header",
+      "text": "5550",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:914",
+      "row_index": 914,
+      "cls": "Page-header",
+      "text": "A R A  [ 182 ] A R A",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:944",
+      "row_index": 944,
+      "cls": "Page-header",
+      "text": "M E A [ 715] M E A",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+      "row_index": 1017,
+      "cls": "Page-header",
+      "text": "H E L",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+      "row_index": 1017,
+      "cls": "Page-header",
+      "text": "( 781 )",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+      "row_index": 1017,
+      "cls": "Section-header",
+      "text": "HEM",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032",
+      "row_index": 1032,
+      "cls": "Page-header",
+      "text": "HE A ( 776 )",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032",
+      "row_index": 1032,
+      "cls": "Page-footer",
+      "text": "It",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1102",
+      "row_index": 1102,
+      "cls": "Page-header",
+      "text": "182 COM COM",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166",
+      "row_index": 1166,
+      "cls": "Page-header",
+      "text": "**LIBERTY OF THE PRESS.**",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166",
+      "row_index": 1166,
+      "cls": "Text",
+      "text": "279",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214",
+      "row_index": 1214,
+      "cls": "Page-header",
+      "text": "DAM [ 658]",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214",
+      "row_index": 1214,
+      "cls": "Caption",
+      "text": "DAM",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250",
+      "row_index": 1250,
+      "cls": "Page-header",
+      "text": "COI I 130 | COI",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250",
+      "row_index": 1250,
+      "cls": "Page-footer",
+      "text": "Thu",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268",
+      "row_index": 1268,
+      "cls": "Page-header",
+      "text": "66",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268",
+      "row_index": 1268,
+      "cls": "Page-header",
+      "text": "NAZ",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268",
+      "row_index": 1268,
+      "cls": "Page-header",
+      "text": "NAZ",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284",
+      "row_index": 1284,
+      "cls": "Page-header",
+      "text": "S C O [ 865 ]",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1298",
+      "row_index": 1298,
+      "cls": "Page-header",
+      "text": "452 EdWARDS",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327",
+      "row_index": 1327,
+      "cls": "Page-footer",
+      "text": "4 T 2",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1344",
+      "row_index": 1344,
+      "cls": "Text",
+      "text": "Horfs",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1415",
+      "row_index": 1415,
+      "cls": "Page-header",
+      "text": "ET H  [ 797 ] E T H",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422",
+      "row_index": 1422,
+      "cls": "Page-header",
+      "text": "**ED U** **[ 353 1 E D U**",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422",
+      "row_index": 1422,
+      "cls": "Page-footer",
+      "text": "You. VI. Part. I.",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1430",
+      "row_index": 1430,
+      "cls": "Page-header",
+      "text": "EGY [ 368 ] E G Y",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1466",
+      "row_index": 1466,
+      "cls": "Page-header",
+      "text": "E S S [ 729 ] E S S",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+      "row_index": 1473,
+      "cls": "Page-header",
+      "text": "ESC 1723 I ESC",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+      "row_index": 1473,
+      "cls": "Page-footer",
+      "text": "4 X Z R longer",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1580",
+      "row_index": 1580,
+      "cls": "Section-header",
+      "text": "TRIGONOMETRY.",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1580",
+      "row_index": 1580,
+      "cls": "Page-footer",
+      "text": "THROXEN",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "row_index": 1614,
+      "cls": "Page-header",
+      "text": "T H O ( 896 )",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "row_index": 1614,
+      "cls": "Picture",
+      "text": "T HO",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "row_index": 1614,
+      "cls": "Page-footer",
+      "text": "THORN",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1649",
+      "row_index": 1649,
+      "cls": "Page-header",
+      "text": "CH I 671 CHI",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1670",
+      "row_index": 1670,
+      "cls": "Page-header",
+      "text": "G-AP [ 141] C A P",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1678",
+      "row_index": 1678,
+      "cls": "Page-header",
+      "text": "B I L",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1678",
+      "row_index": 1678,
+      "cls": "Page-header",
+      "text": "B I L",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1678",
+      "row_index": 1678,
+      "cls": "Page-header",
+      "text": "503",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1680",
+      "row_index": 1680,
+      "cls": "Page-header",
+      "text": "C ARPENTRY. 631",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1722",
+      "row_index": 1722,
+      "cls": "Page-header",
+      "text": "A R S 354 7 A R S",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765",
+      "row_index": 1765,
+      "cls": "Page-header",
+      "text": "KAL [ 421]",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765",
+      "row_index": 1765,
+      "cls": "Page-footer",
+      "text": "3",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765",
+      "row_index": 1765,
+      "cls": "Page-footer",
+      "text": "wank",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805",
+      "row_index": 1805,
+      "cls": "Page-header",
+      "text": "EXE [ 375 ] EXE",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818",
+      "row_index": 1818,
+      "cls": "Page-header",
+      "text": "BLOW-PIPE 713",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818",
+      "row_index": 1818,
+      "cls": "Page-footer",
+      "text": "VOL. IV. 4 x",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1828",
+      "row_index": 1828,
+      "cls": "Page-header",
+      "text": "BEAUTY. 489",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1828",
+      "row_index": 1828,
+      "cls": "Page-footer",
+      "text": "5 q",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1910",
+      "row_index": 1910,
+      "cls": "Page-header",
+      "text": "L I G [ 4230 ] L I G",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1933",
+      "row_index": 1933,
+      "cls": "Page-header",
+      "text": "5706",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1933",
+      "row_index": 1933,
+      "cls": "Page-header",
+      "text": "Part III.",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939",
+      "row_index": 1939,
+      "cls": "Page-header",
+      "text": "6056",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939",
+      "row_index": 1939,
+      "cls": "Title",
+      "text": "**PHAR MACY.**",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939",
+      "row_index": 1939,
+      "cls": "Caption",
+      "text": "Part II.",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939",
+      "row_index": 1939,
+      "cls": "Page-footer",
+      "text": "**Molt**",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942",
+      "row_index": 1942,
+      "cls": "Page-header",
+      "text": "6046",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942",
+      "row_index": 1942,
+      "cls": "Title",
+      "text": "PHAR MACY.",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942",
+      "row_index": 1942,
+      "cls": "Section-header",
+      "text": "Part II.",
+      "reason": "inside top or bottom 6% with 4 or fewer tokens or numeric text"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1945",
+      "row_index": 1945,
+      "cls": "Page-header",
+      "text": "Part III. U P T I C S. 5605",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1945",
+      "row_index": 1945,
+      "cls": "Page-footer",
+      "text": "greca",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+      "row_index": 2001,
+      "cls": "Page-header",
+      "text": "S I L [ 355 ]",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2087",
+      "row_index": 2087,
+      "cls": "Page-header",
+      "text": "BRITAIN. 571",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2108",
+      "row_index": 2108,
+      "cls": "Page-header",
+      "text": "B R I  [ 645 J B R F",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2131",
+      "row_index": 2131,
+      "cls": "Page-header",
+      "text": "BOM [ 353 BOM",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155",
+      "row_index": 2155,
+      "cls": "Page-header",
+      "text": "B L I [ 301] B LI",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155",
+      "row_index": 2155,
+      "cls": "Page-footer",
+      "text": "67",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "row_index": 2171,
+      "cls": "Page-header",
+      "text": "A S T [ 852] A S T",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+      "row_index": 2250,
+      "cls": "Page-footer",
+      "text": "END OF THE FIRST VOLUME.",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277",
+      "row_index": 2277,
+      "cls": "Page-header",
+      "text": "Chap. VI.",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277",
+      "row_index": 2277,
+      "cls": "Page-header",
+      "text": "271",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2296",
+      "row_index": 2296,
+      "cls": "Page-header",
+      "text": "**POL [ 93 ]**",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2307",
+      "row_index": 2307,
+      "cls": "Page-header",
+      "text": "**AL G** **241** **A L G**",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2402",
+      "row_index": 2402,
+      "cls": "Page-header",
+      "text": "A N A T O M Y. 3",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+      "row_index": 2424,
+      "cls": "Page-header",
+      "text": "AGRICULTURE. 245",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+      "row_index": 2424,
+      "cls": "Page-footer",
+      "text": "VOL. IL",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+      "row_index": 2424,
+      "cls": "Page-footer",
+      "text": "2 x",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2446",
+      "row_index": 2446,
+      "cls": "Page-header",
+      "text": "C H E M I S SI T R Y. 17",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2448",
+      "row_index": 2448,
+      "cls": "Page-header",
+      "text": "**C O M ( 255 ) C O M**",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464",
+      "row_index": 2464,
+      "cls": "Page-footer",
+      "text": "az:",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2479",
+      "row_index": 2479,
+      "cls": "Page-header",
+      "text": "948 L A W.",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2493",
+      "row_index": 2493,
+      "cls": "Page-header",
+      "text": "598",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2493",
+      "row_index": 2493,
+      "cls": "Page-footer",
+      "text": "9. Muriate",
+      "reason": "class Page-footer"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524",
+      "row_index": 2524,
+      "cls": "Page-header",
+      "text": "408",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524",
+      "row_index": 2524,
+      "cls": "Page-header",
+      "text": "**HINDUSTAN.**",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2569",
+      "row_index": 2569,
+      "cls": "Page-header",
+      "text": "ABY S SINIA. 57",
+      "reason": "class Page-header"
+    },
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2570",
+      "row_index": 2570,
+      "cls": "Page-header",
+      "text": "88 ABYSSINIA.",
+      "reason": "class Page-header"
+    }
+  ],
+  "unparsed_chars_by_row": {},
+  "parse_latency_ms": {
+    "p50": 3299,
+    "p95": 4962
+  },
+  "failed_pages": [
+    {
+      "row_index": 452,
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:452",
+      "error": "ProtocolError: chat response is incomplete; inspect the token budget and finish_reason"
+    },
+    {
+      "row_index": 2243,
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2243",
+      "error": "ProtocolError: chat response is incomplete; inspect the token budget and finish_reason"
+    }
+  ],
+  "cer": {
+    "status": "partial",
+    "method": "fitting alignment of the full gold text inside the page's Parse text; lowercase, long s as s, whitespace collapsed; CER = edit distance / gold characters",
+    "selection": "5 random ok pages with >= 150 body words, seed 7",
+    "selected_rows": [
+      251,
+      523,
+      1327,
+      1649,
+      2473
+    ],
+    "missing_gold_rows": [
+      523,
+      1327,
+      1649,
+      2473
+    ],
+    "pages": [
+      {
+        "row_index": 251,
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+        "gold_path": "artifacts/extract/gold/0251.txt",
+        "cer": 0.1383,
+        "distance": 153,
+        "gold_chars": 1106,
+        "pred_start": 0,
+        "pred_end": 1102
+      }
+    ],
+    "mean_cer": 0.1383,
+    "top_substitutions": [
+      {
+        "gold": "o",
+        "parse": "e",
+        "count": 4
+      },
+      {
+        "gold": "n",
+        "parse": "a",
+        "count": 4
+      },
+      {
+        "gold": "o",
+        "parse": "i",
+        "count": 3
+      },
+      {
+        "gold": "e",
+        "parse": "s",
+        "count": 3
+      },
+      {
+        "gold": "f",
+        "parse": "l",
+        "count": 3
+      },
+      {
+        "gold": "r",
+        "parse": "d",
+        "count": 2
+      },
+      {
+        "gold": "n",
+        "parse": "s",
+        "count": 2
+      },
+      {
+        "gold": "c",
+        "parse": "e",
+        "count": 2
+      },
+      {
+        "gold": "l",
+        "parse": "b",
+        "count": 2
+      },
+      {
+        "gold": "f",
+        "parse": "r",
+        "count": 2
+      }
+    ]
+  },
+  "latex": {
+    "status": "not compiled",
+    "compiler": null,
+    "tex_files": 94,
+    "compiled": 0,
+    "failed": [],
+    "skipped_pages": [
+      374,
+      452,
+      651,
+      1615,
+      2077,
+      2243
+    ]
+  }
+}

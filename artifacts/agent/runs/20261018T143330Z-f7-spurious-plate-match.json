@@ -1,0 +1,65 @@
+{
+  "run_id": "20261018T143330Z-f7-spurious-plate-match",
+  "started_at": "2026-10-18T14:33:30Z",
+  "code_revision": "24145b5cd3f4e8dfae84960c17d9eb4c3aa81e7f",
+  "hermes_version": "Hermes Agent v0.22.1+858.g6255980 (2026.9.24) · stable · local 6255980b191e",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "question": "This plate shows a numbered Britannica plate. What does Wikipedia say about it?",
+  "image_inputs": [
+    "artifacts/extract/crops/e2209-01.png"
+  ],
+  "tools_enabled": true,
+  "tool_calls": [
+    {
+      "name": "challenge_compare",
+      "arguments": {
+        "entry_id": "e2209-01"
+      },
+      "result": "{\"entry_id\": \"e2209-01\", \"headword\": null, \"quality\": {\"ocr_suspect_ratio\": 0.0, \"low_quality\": false}, \"match_record\": {\"status\": \"matched\", \"reason\": \"rule: rerank top-1 logit -4.266 >= tau -5 and margin 1.497 >= 0.75\", \"rerank_margin\": 1.4965968132019043, \"method_version\": \"m1-tau=-5-delta=0.75\"}, \"britannica\": {\"page_id\": \"britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209\", \"text_start\": \"Plate. XLVI\"}, \"wikipedia\": {\"page_id\": \"379483\", \"revision_id\": \"1352506212\", \"title\": \"Plate\", \"url\": \"https://en.wikipedia.org/wiki/Plate\", \"text_start\": \"Plate may refer to:\\n\\nPlate (dishware), broad, mainly flat vessel commonly used to serve food\\n\\nPlates, tableware, dishes or dishware used for setting a table, serving food and dining\\n\\nPlate, the content of such a plate (for example: rice plate)\\n\\nPlate, to present food, on a plate\\n\\nPlate, forequarter cut of beef\\n\\nPlate, Germany, municipality in Parchim, Mecklenburg-Vorpommern, Germany\\n\\nPlate, borough of Lüchow, Lower Saxony, Germany\\n\\nRiver Plate (disambiguation)\\n\\nTourelle de la Plate, lighthouse in France\\n\\nPlate (anatomy), several meanings\\n\\nDental plate, also known as dentures\\n\\nDynamic compression plate, metallic plate used in orthopedics to fix bone\\n\\nMicrotiter plate (or microplate or microwell plate), flat plate with multiple \\\"wells\\\" used as small test tubes\\n\\nOrthopedic plate, internal fixation used in orthopaedic surgery\\n\\nPetri dish or Petri plate, shallow dish on which biological cultures may be grown and/or viewed\\n\\nTectonic plate, pieces of Earth's crust and uppermost mantle, together referred to as the lithosphere\\n\\nPlate tectonics, the study of the movement of such plates\\n\\nPlate, physical approximation of a theoretical plate in separation processes\\n\\nPlate electrode, type of electrode used in vacuum tubes\\n\\nPlate (structure), concept used in continuum mechanics as part of the plate theory\\n\\nPlate trick, mathematical demonstration of quaternions and particle spins\\n\\nWilhelmy plate, used to measure tension at an interface between air and a liquid or between two liquids\\n\\nAnchor \"}, \"shared_terms\": [], \"drift_method\": \"token_log_ratio_min_3x_entry_length\"}",
+      "error": null
+    },
+    {
+      "name": "brit_entry",
+      "arguments": {
+        "entry_id": "e2209-01"
+      },
+      "result": "{\"entry_id\": \"e2209-01\", \"kind\": \"plate\", \"headword\": null, \"page_id\": \"britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209\", \"text\": \"Plate. XLVI\", \"text_raw\": \"Plate. XLVI\", \"blocks\": [{\"page_id\": \"britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209\", \"bbox\": [0.0, 0.0, 599.4, 809.3], \"cls\": \"Picture\", \"text\": \"Plate. XLVI\"}], \"quality\": {\"ocr_suspect_ratio\": 0.0, \"low_quality\": false}, \"crop_path\": \"artifacts/extract/crops/e2209-01.png\", \"continues_from\": null, \"continues_to\": null, \"source\": {\"dataset\": \"NationalLibraryOfScotland/encyclopaedia_britannica_illustrated\", \"dataset_revision\": \"309f765b1ecc83e0a7f7762e44b4a927a7555443\", \"volume_id\": \"144133901\", \"filename\": \"page-2209-1ee9bc409f67.jpg\", \"image_sha256\": \"1ee9bc409f6798b0e4f4e45d63d75caae5197059df72701387ee24385cbff28e\", \"edition\": null}}",
+      "error": null
+    },
+    {
+      "name": "wiki_article",
+      "arguments": {
+        "page_id": "379483",
+        "offset": 0
+      },
+      "result": "{\"page_id\": \"379483\", \"revision_id\": \"1352506212\", \"title\": \"Plate\", \"url\": \"https://en.wikipedia.org/wiki/Plate\", \"offset\": 0, \"text\": \"Plate may refer to:\\n\\nPlate (dishware), broad, mainly flat vessel commonly used to serve food\\n\\nPlates, tableware, dishes or dishware used for setting a table, serving food and dining\\n\\nPlate, the content of such a plate (for example: rice plate)\\n\\nPlate, to present food, on a plate\\n\\nPlate, forequarter cut of beef\\n\\nPlate, Germany, municipality in Parchim, Mecklenburg-Vorpommern, Germany\\n\\nPlate, borough of Lüchow, Lower Saxony, Germany\\n\\nRiver Plate (disambiguation)\\n\\nTourelle de la Plate, lighthouse in France\\n\\nPlate (anatomy), several meanings\\n\\nDental plate, also known as dentures\\n\\nDynamic compression plate, metallic plate used in orthopedics to fix bone\\n\\nMicrotiter plate (or microplate or microwell plate), flat plate with multiple \\\"wells\\\" used as small test tubes\\n\\nOrthopedic plate, internal fixation used in orthopaedic surgery\\n\\nPetri dish or Petri plate, shallow dish on which biological cultures may be grown and/or viewed\\n\\nTectonic plate, pieces of Earth's crust and uppermost mantle, together referred to as the lithosphere\\n\\nPlate tectonics, the study of the movement of such plates\\n\\nPlate, physical approximation of a theoretical plate in separation processes\\n\\nPlate electrode, type of electrode used in vacuum tubes\\n\\nPlate (structure), concept used in continuum mechanics as part of the plate theory\\n\\nPlate trick, mathematical demonstration of quaternions and particle spins\\n\\nWilhelmy plate, used to measure tension at an interface between air and a liquid or between two liquids\\n\\nAnchor plate, large plate connected to a tie rod or bolt for structural reinforcement\\n\\nSill plate, the bottom horizontal member of a wall or building to which vertical members are attached\\n\\nWall plate, vertical component used in building construction\\n\\nAnodes, electrodes used in vacuum tubes (thermionic valves) and similar devices\\n\\nPhotographic plate, medium from which a photograph may be developed\\n\\nPlate camera, early type of camera that used photographic plates\\n\\nPrinting plate, printing medium:\\n\\nPlate, in Intaglio (printmaking), the direct opposite of a relief print\\n\\nPlate, in lithography, method of printing originally based on the immiscibility of oil and water\\n\\nPlate, a (part of a) \\\" tipped-in page \\\", separately-printed page in a book used to carry one or more images\\n\\nApproach plate, chart used by a pilot to perform an instrument approach and landing on a runway\\n\\nPlate B, Plate C,..., Plate H, loading gauges used on North American railroads\\n\\nPlate (metal), rectangular flat metal stock that is more than 6 mm or 0.25 in thick, not as thin as sheet metal\\n\\nPlate, element of a folding machine\\n\\nPlate armour, body armor made from metal plates\\n\\nVehicle registration plate (license plate), sign attached to a vehicle in order to identify it\\n\\nL-plate (learner plate), sign attached to a vehicle to indicate that the driver has a provisional driving license\\n\\nPlated, item with a deposition of metallic layers\\n\\nHome plate, location on a baseball field\\n\\nSeveral trophies, e.g.,\\n\\nAnnapolis Subscription Plate, in horse racing\\n\\nCounty Championship Plate, in rugby union\\n\\nMandela Challenge Plate, in rugby union\\n\\nWeight plate, flat, heavy object, usually made of iron, used in strength training or weightlifting\\n\\nPlate (surname)\\n\\nPlate, in heraldry, Roundel argent (white/silver)\", \"next_offset\": null, \"total_chars\": 3277, \"source\": \"cache\"}",
+      "error": null
+    }
+  ],
+  "answer": "The match for entry e2209-01 is confirmed: it is matched to the Wikipedia article \"Plate\" (page 379483, revision 1352506212) [W:379483@1352506212].\n\nHowever, the Britannica entry e2209-01 contains no descriptive text at all — its only text is the plate label \"Plate. XLVI\" [B:e2209-01]. Because of that, the match record found zero shared terms between the two sources, so there is no substantive content to compare.\n\nWhat Wikipedia says about \"Plate\": it is a disambiguation page. \"Plate may refer to:\" and then lists many meanings, including dishware, a cut of beef, places in Germany, tectonic plates, orthopedic plates, photographic plates, printing plates, vehicle registration plates, and more [W:379483@1352506212].\n\nOne listed sense is closest to a numbered encyclopedia plate: \"Plate, a (part of a) 'tipped-in page', separately-printed page in a book used to carry one or more images\" [W:379483@1352506212].\n\nInference: Wikipedia does not have an article specifically about this numbered Britannica plate; the matched article is a general disambiguation page, and the nearest relevant sense describes a plate as a separately printed image page in a book. Neither source gives any detail about what Plate XLVI depicts.",
+  "citations": [
+    {
+      "source": "Wikipedia",
+      "id": "379483@1352506212",
+      "sentence": "The match for entry e2209-01 is confirmed: it is matched to the Wikipedia article \"Plate\" (page 379483, revision 1352506212) [W:379483@1352506212]."
+    },
+    {
+      "source": "Britannica",
+      "id": "e2209-01",
+      "sentence": "XLVI\" [B:e2209-01]."
+    },
+    {
+      "source": "Wikipedia",
+      "id": "379483@1352506212",
+      "sentence": "\"Plate may refer to:\" and then lists many meanings, including dishware, a cut of beef, places in Germany, tectonic plates, orthopedic plates, photographic plates, printing plates, vehicle registration plates, and more [W:379483@1352506212]."
+    },
+    {
+      "source": "Wikipedia",
+      "id": "379483@1352506212",
+      "sentence": "One listed sense is closest to a numbered encyclopedia plate: \"Plate, a (part of a) 'tipped-in page', separately-printed page in a book used to carry one or more images\" [W:379483@1352506212]."
+    }
+  ],
+  "finish_reason": "stop",
+  "label": "success",
+  "notes": "qid=f7-spurious-plate-match; entry_id=e2209-01; review: Hand check: the match record points to the Wikipedia disambiguation page 'Plate' (379483@1352506212), a bad match that the margin rule accepted. The answer says it is a disambiguation page, that no shared terms exist, and that neither source describes Plate XLVI. The quote about tipped-in pages is in the article. Crop e2209-01.png shows an astronomical diagram, which the answer mentions but does not explain. Shows that a high rerank margin can accept a wrong article. Candidate failure case for P4."
+}

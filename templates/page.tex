@@ -1,10 +1,17 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{hyperref}
+% One Britannica scan as extracted by Nemotron Parse 3.5. Filled by src/nemotron_challenge/stages/latex.py.
+% The TITLE, BODY and SOURCE markers (each wrapped in two percent signs) are replaced. Compile with XeTeX (tectonic).
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=18mm]{geometry}
+\usepackage{fontspec}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlength{\columnsep}{8mm}
 \begin{document}
-\section*{Historical source}
-% TODO: Insert source-supported extracted text and source identifiers.
+\section*{Historical source: %%TITLE%%}
+%%BODY%%
 \section*{Source record}
-% TODO: Add the scan identifier, checksum, and extraction run record.
+%%SOURCE%%
 \end{document}

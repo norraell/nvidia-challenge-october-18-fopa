@@ -1,0 +1,51 @@
+== ready
+{
+  "status": "ready",
+  "production": true,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "precision": "bfloat16"
+}
+== models
+{
+  "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "revision": "582e3bf72aee355e3c59ed89de53543c5b0657ee",
+  "role": "embedder",
+  "dimensions": 2048
+}
+{
+  "id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+  "revision": "b8a9987b05b75db5ad949c825cbcbf6eb7c48b5a",
+  "role": "reranker",
+  "dimensions": null
+}
+== embeddings (query + document)
+{
+  "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "dimensions": 2048,
+  "normalized": true,
+  "n": 1,
+  "first3": [
+    0.008081654086709023,
+    0.024187644943594933,
+    0.004957893863320351
+  ]
+}
+== rerank
+{
+  "model": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+  "score_type": "raw_logit",
+  "results": [
+    {
+      "index": 0,
+      "relevance_score": -5.498958587646484
+    },
+    {
+      "index": 2,
+      "relevance_score": -5.820535659790039
+    },
+    {
+      "index": 1,
+      "relevance_score": -8.170650482177734
+    }
+  ]
+}
