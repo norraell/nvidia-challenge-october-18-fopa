@@ -49,7 +49,7 @@ def doctor(settings: Settings, *, live: bool) -> tuple[dict[str, Any], int]:
     failed = any(check["status"] in {"failed", "missing"} for check in checks)
     return {
         "mode": "live" if live else "offline", "checks": checks,
-        "challenge_stages": "not implemented", "inference": "not tested",
+        "challenge_stages": "see `nemotron-challenge stages`", "inference": "not tested",
     }, int(failed)
 
 
@@ -60,7 +60,7 @@ def parser() -> argparse.ArgumentParser:
     mode = check.add_mutually_exclusive_group()
     mode.add_argument("--offline", action="store_true", help="check packages without network access")
     mode.add_argument("--live", action="store_true", help="check resource catalogs and readiness; does not run inference")
-    sub.add_parser("stages", help="list unfinished challenge milestones")
+    sub.add_parser("stages", help="list the challenge milestones and their run commands")
     run = sub.add_parser("run", help="run a team milestone")
     run.add_argument("stage", choices=tasks.STAGES)
     run.add_argument("--work-dir", type=Path, default=Path("artifacts"))

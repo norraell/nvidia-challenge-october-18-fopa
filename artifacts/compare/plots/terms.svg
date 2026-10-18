@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1320" width="900" height="1320">
+  <style>
+    .title { font-family: sans-serif; font-size: 16px; font-weight: bold; fill: #0f172a; }
+    .subtitle { font-family: sans-serif; font-size: 12px; fill: #64748b; }
+    .label { font-family: sans-serif; font-size: 11px; fill: #1e293b; }
+    .val { font-family: monospace; font-size: 10px; fill: #475569; }
+  </style>
+  <rect width="900" height="1320" fill="#ffffff"/>
+  <text x="40" y="35" class="title">Lexical Drift Analysis: Historical Britannica vs Modern Wikipedia</text>
+  <text x="40" y="55" class="subtitle">Evaluated on 22 matched document pairs | Log2 Frequency Ratio</text>
+  <line x1="450" y1="75" x2="450" y2="1300" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="450" y="80" width="271.2" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="92" text-anchor="end" class="label">black</text>
+  <text x="729.2" y="92" class="val">+6.78</text>
+  <rect x="450" y="104" width="271.2" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="116" text-anchor="end" class="label">eyes</text>
+  <text x="729.2" y="116" class="val">+6.78</text>
+  <rect x="450" y="128" width="264.8" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="140" text-anchor="end" class="label">marked</text>
+  <text x="722.8" y="140" class="val">+6.62</text>
+  <rect x="450" y="152" width="248.4" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="164" text-anchor="end" class="label">branches</text>
+  <text x="706.4" y="164" class="val">+6.21</text>
+  <rect x="450" y="176" width="248.4" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="188" text-anchor="end" class="label">fame</text>
+  <text x="706.4" y="188" class="val">+6.21</text>
+  <rect x="450" y="200" width="248.4" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="212" text-anchor="end" class="label">see</text>
+  <text x="706.4" y="212" class="val">+6.21</text>
+  <rect x="450" y="224" width="238.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="236" text-anchor="end" class="label">abdomen</text>
+  <text x="696.0" y="236" class="val">+5.95</text>
+  <rect x="450" y="248" width="238.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="260" text-anchor="end" class="label">blood</text>
+  <text x="696.0" y="260" class="val">+5.95</text>
+  <rect x="450" y="272" width="238.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="284" text-anchor="end" class="label">figure</text>
+  <text x="696.0" y="284" class="val">+5.95</text>
+  <rect x="450" y="296" width="238.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="308" text-anchor="end" class="label">flowers</text>
+  <text x="696.0" y="308" class="val">+5.95</text>
+  <rect x="450" y="320" width="238.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="332" text-anchor="end" class="label">garnished</text>
+  <text x="696.0" y="332" class="val">+5.95</text>
+  <rect x="450" y="344" width="238.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="356" text-anchor="end" class="label">leaves</text>
+  <text x="696.0" y="356" class="val">+5.95</text>
+  <rect x="450" y="368" width="238.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="380" text-anchor="end" class="label">legs</text>
+  <text x="696.0" y="380" class="val">+5.95</text>
+  <rect x="450" y="392" width="238.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="404" text-anchor="end" class="label">oval</text>
+  <text x="696.0" y="404" class="val">+5.95</text>
+  <rect x="450" y="416" width="170.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="428" text-anchor="end" class="label">placed</text>
+  <text x="628.0" y="428" class="val">+4.25</text>
+  <rect x="450" y="440" width="140.8" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="452" text-anchor="end" class="label">feet</text>
+  <text x="598.8" y="452" class="val">+3.52</text>
+  <rect x="450" y="464" width="140.8" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="476" text-anchor="end" class="label">four</text>
+  <text x="598.8" y="476" class="val">+3.52</text>
+  <rect x="450" y="488" width="130.8" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="500" text-anchor="end" class="label">every</text>
+  <text x="588.8" y="500" class="val">+3.27</text>
+  <rect x="450" y="512" width="130.8" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="524" text-anchor="end" class="label">former</text>
+  <text x="588.8" y="524" class="val">+3.27</text>
+  <rect x="450" y="536" width="130.8" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="548" text-anchor="end" class="label">thorax</text>
+  <text x="588.8" y="548" class="val">+3.27</text>
+  <rect x="450" y="560" width="122.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="572" text-anchor="end" class="label">great</text>
+  <text x="580.0" y="572" class="val">+3.05</text>
+  <rect x="450" y="584" width="118.0" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="596" text-anchor="end" class="label">italica</text>
+  <text x="576.0" y="596" class="val">+2.95</text>
+  <rect x="450" y="608" width="105.6" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="620" text-anchor="end" class="label">three</text>
+  <text x="563.6" y="620" class="val">+2.64</text>
+  <rect x="450" y="632" width="102.8" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="644" text-anchor="end" class="label">thus</text>
+  <text x="560.8" y="644" class="val">+2.57</text>
+  <rect x="450" y="656" width="100.4" height="16" fill="#f59e0b" rx="2"/>
+  <text x="440" y="668" text-anchor="end" class="label">cantons</text>
+  <text x="558.4" y="668" class="val">+2.51</text>
+  <rect x="160.0" y="680" width="290.0" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="692" text-anchor="start" class="label">swiss</text>
+  <text x="152.0" y="692" text-anchor="end" class="val">-7.25</text>
+  <rect x="179.2" y="704" width="270.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="716" text-anchor="start" class="label">plantation</text>
+  <text x="171.2" y="716" text-anchor="end" class="val">-6.77</text>
+  <rect x="188.4" y="728" width="261.6" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="740" text-anchor="start" class="label">creek</text>
+  <text x="180.4" y="740" text-anchor="end" class="val">-6.54</text>
+  <rect x="192.0" y="752" width="258.0" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="764" text-anchor="start" class="label">century</text>
+  <text x="184.0" y="764" text-anchor="end" class="val">-6.45</text>
+  <rect x="199.6" y="776" width="250.4" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="788" text-anchor="start" class="label">peninsula</text>
+  <text x="191.6" y="788" text-anchor="end" class="val">-6.26</text>
+  <rect x="203.6" y="800" width="246.4" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="812" text-anchor="start" class="label">oratory</text>
+  <text x="195.6" y="812" text-anchor="end" class="val">-6.16</text>
+  <rect x="208.4" y="824" width="241.6" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="836" text-anchor="start" class="label">llersj</text>
+  <text x="200.4" y="836" text-anchor="end" class="val">-6.04</text>
+  <rect x="213.2" y="848" width="236.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="860" text-anchor="start" class="label">latin</text>
+  <text x="205.2" y="860" text-anchor="end" class="val">-5.92</text>
+  <rect x="213.2" y="872" width="236.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="884" text-anchor="start" class="label">plateau</text>
+  <text x="205.2" y="884" text-anchor="end" class="val">-5.92</text>
+  <rect x="213.2" y="896" width="236.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="908" text-anchor="start" class="label">silius</text>
+  <text x="205.2" y="908" text-anchor="end" class="val">-5.92</text>
+  <rect x="218.8" y="920" width="231.2" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="932" text-anchor="start" class="label">certification</text>
+  <text x="210.8" y="932" text-anchor="end" class="val">-5.78</text>
+  <rect x="218.8" y="944" width="231.2" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="956" text-anchor="start" class="label">chiskiack</text>
+  <text x="210.8" y="956" text-anchor="end" class="val">-5.78</text>
+  <rect x="218.8" y="968" width="231.2" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="980" text-anchor="start" class="label">palisade</text>
+  <text x="210.8" y="980" text-anchor="end" class="val">-5.78</text>
+  <rect x="224.4" y="992" width="225.6" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1004" text-anchor="start" class="label">common</text>
+  <text x="216.4" y="1004" text-anchor="end" class="val">-5.64</text>
+  <rect x="231.2" y="1016" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1028" text-anchor="start" class="label">area</text>
+  <text x="223.2" y="1028" text-anchor="end" class="val">-5.47</text>
+  <rect x="231.2" y="1040" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1052" text-anchor="start" class="label">confederation</text>
+  <text x="223.2" y="1052" text-anchor="end" class="val">-5.47</text>
+  <rect x="231.2" y="1064" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1076" text-anchor="start" class="label">corporation</text>
+  <text x="223.2" y="1076" text-anchor="end" class="val">-5.47</text>
+  <rect x="231.2" y="1088" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1100" text-anchor="start" class="label">entomologists</text>
+  <text x="223.2" y="1100" text-anchor="end" class="val">-5.47</text>
+  <rect x="231.2" y="1112" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1124" text-anchor="start" class="label">esa</text>
+  <text x="223.2" y="1124" text-anchor="end" class="val">-5.47</text>
+  <rect x="231.2" y="1136" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1148" text-anchor="start" class="label">established</text>
+  <text x="223.2" y="1148" text-anchor="end" class="val">-5.47</text>
+  <rect x="231.2" y="1160" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1172" text-anchor="start" class="label">federal</text>
+  <text x="223.2" y="1172" text-anchor="end" class="val">-5.47</text>
+  <rect x="231.2" y="1184" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1196" text-anchor="start" class="label">modern</text>
+  <text x="223.2" y="1196" text-anchor="end" class="val">-5.47</text>
+  <rect x="231.2" y="1208" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1220" text-anchor="start" class="label">new</text>
+  <text x="223.2" y="1220" text-anchor="end" class="val">-5.47</text>
+  <rect x="231.2" y="1232" width="218.8" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1244" text-anchor="start" class="label">settlement</text>
+  <text x="223.2" y="1244" text-anchor="end" class="val">-5.47</text>
+  <rect x="238.8" y="1256" width="211.2" height="16" fill="#3b82f6" rx="2"/>
+  <text x="460" y="1268" text-anchor="start" class="label">certified</text>
+  <text x="230.8" y="1268" text-anchor="end" class="val">-5.28</text>
+</svg>

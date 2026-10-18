@@ -1,4 +1,4 @@
-"""Offline setup and storage contracts do not implement challenge stages."""
+"""Offline setup, stage listing, and storage contracts."""
 from dataclasses import replace
 import json
 
@@ -18,7 +18,7 @@ def test_offline_doctor_needs_no_secrets_or_network(monkeypatch, capsys):
     assert main(["doctor", "--offline"]) == 0
     data = json.loads(capsys.readouterr().out)
     assert data["inference"] == "not tested"
-    assert data["challenge_stages"] == "not implemented"
+    assert data["challenge_stages"] == "see `nemotron-challenge stages`"
     assert all(row["status"] == "not_tested" for row in data["checks"] if "configured" in row)
 
 

@@ -1,0 +1,12 @@
+[
+  {"id": "q01-entomology", "question": "How does the historical Britannica entry on ENTOMOLOGY define and divide the subject, compared with the modern Wikipedia article? Quote both sources."},
+  {"id": "q02-escheat", "question": "Compare how Britannica and Wikipedia explain ESCHEAT: who receives the property and under what conditions. Cite the exact sentences."},
+  {"id": "q03-buttress", "question": "What does the Britannica entry on BUTTRESS say about the purpose of a buttress, and does the Wikipedia article agree? Quote the evidence."},
+  {"id": "q04-oratory", "question": "Compare the Britannica treatment of ORATORY with the Wikipedia article. Which terms does each source use that the other does not?"},
+  {"id": "q05-huguenots", "question": "How does Britannica explain the origin of the name HUGUENOTS, and what does Wikipedia say about the same question?"},
+  {"id": "q06-buttress-image", "question": "This image is a crop from a Britannica page. Which entry is it? Find that entry in the saved artifacts and compare it with its matched Wikipedia article.", "image": "artifacts/extract/crops/e2250-02.png"},
+  {"id": "q07-magnetism-nomatch", "question": "How does the Britannica treatise on MAGNETISM compare with the Wikipedia article on magnetism?"},
+  {"id": "q08-steam-engine-absent", "question": "Compare what Britannica and Wikipedia say about the steam engine."},
+  {"id": "q09-plate-1845", "question": "Entry e1845-01 is a plate. What Wikipedia article was matched to it, and does the evidence support that match?"},
+  {"id": "q10-atchievement", "question": "Britannica spells it ATCHIEVEMENT. What is the matched Wikipedia article, and how do the two sources describe the heraldic meaning of the word?"}
+]

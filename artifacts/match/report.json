@@ -1,0 +1,3387 @@
+{
+  "disclaimer": "Relevance scores from BM25, the embedder, and the reranker show that two texts treat the same subject. They do not establish factual agreement between Britannica and Wikipedia.",
+  "coverage": {
+    "entries": 270,
+    "pages": 95,
+    "pages_with_match": 17,
+    "by_status": {
+      "rejected": 226,
+      "matched": 22,
+      "skipped": 10,
+      "no_candidates": 12
+    },
+    "by_kind": {
+      "continuation": {
+        "rejected": 80,
+        "matched": 1,
+        "skipped": 2
+      },
+      "entry": {
+        "rejected": 141,
+        "matched": 18
+      },
+      "plate": {
+        "rejected": 5,
+        "no_candidates": 12,
+        "matched": 3
+      },
+      "cross_reference": {
+        "skipped": 8
+      }
+    }
+  },
+  "omissions": [
+    {
+      "entry_id": "e0013-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.154 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "35717335",
+        "title": "Longitudinal framing",
+        "bm25_score": 44.67251205444336,
+        "embed_cosine": 0.27678112921949616,
+        "rerank_logit": -4.8801727294921875
+      }
+    },
+    {
+      "entry_id": "e0104-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.212 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "31038410",
+        "title": "Traditional French units of measurement",
+        "bm25_score": 51.27266311645508,
+        "embed_cosine": 0.24250103774304535,
+        "rerank_logit": -4.926571369171143
+      }
+    },
+    {
+      "entry_id": "e0115-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.086 < tau -5; margin 0.049 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "71192733",
+        "title": "Teapot effect",
+        "bm25_score": 36.69052505493164,
+        "embed_cosine": 0.1836197367682077,
+        "rerank_logit": -6.08554220199585
+      }
+    },
+    {
+      "entry_id": "e0217-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.207 < tau -5; margin 0.036 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "161791",
+        "title": "Bocage",
+        "bm25_score": 43.100128173828125,
+        "embed_cosine": 0.2844310779026527,
+        "rerank_logit": -6.2073235511779785
+      }
+    },
+    {
+      "entry_id": "e0220-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.194 < tau -5; margin 0.090 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "25836768",
+        "title": "James Colnett",
+        "bm25_score": 42.78307342529297,
+        "embed_cosine": 0.28148651320352225,
+        "rerank_logit": -6.193923473358154
+      }
+    },
+    {
+      "entry_id": "e0247-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.078 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "39195497",
+        "title": "Moon-eyed people",
+        "bm25_score": 31.027915954589844,
+        "embed_cosine": 0.13595139720901753,
+        "rerank_logit": -4.5484113693237305
+      }
+    },
+    {
+      "entry_id": "e0247-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.818 < tau -5; margin 0.024 < delta 0.75",
+      "headword": "ETNETN",
+      "top_candidate": {
+        "page_id": "63567",
+        "title": "Mount Ruapehu",
+        "bm25_score": 39.56730651855469,
+        "embed_cosine": 0.14477050352004675,
+        "rerank_logit": -7.818253993988037
+      }
+    },
+    {
+      "entry_id": "e0251-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.765 < tau -5",
+      "headword": "SWIVELS",
+      "top_candidate": {
+        "page_id": "1933308",
+        "title": "Swivel",
+        "bm25_score": 16.532882690429688,
+        "embed_cosine": 0.3608338796579615,
+        "rerank_logit": -6.764636993408203
+      }
+    },
+    {
+      "entry_id": "e0251-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.864 < tau -5; margin 0.228 < delta 0.75",
+      "headword": "SWOONING",
+      "top_candidate": {
+        "page_id": "1305846",
+        "title": "Swordstick",
+        "bm25_score": 42.32199478149414,
+        "embed_cosine": 0.23879832134256032,
+        "rerank_logit": -9.863855361938477
+      }
+    },
+    {
+      "entry_id": "e0251-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.841 < tau -5; margin 0.525 < delta 0.75",
+      "headword": "SYCOPHANT",
+      "top_candidate": {
+        "page_id": "564669",
+        "title": "Thomas Sydenham",
+        "bm25_score": 39.44855499267578,
+        "embed_cosine": 0.3810969169331758,
+        "rerank_logit": -6.8405256271362305
+      }
+    },
+    {
+      "entry_id": "e0257-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.077 < tau -5; margin 0.033 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "1271609",
+        "title": "Sir William Temple, 1st Baronet",
+        "bm25_score": 45.288700103759766,
+        "embed_cosine": 0.3094838284486915,
+        "rerank_logit": -6.077138423919678
+      }
+    },
+    {
+      "entry_id": "e0258-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.043 < tau -5; margin 0.017 < delta 0.75",
+      "headword": "WILLIN",
+      "top_candidate": {
+        "page_id": "25021481",
+        "title": "Edinburgh town walls",
+        "bm25_score": 40.271827697753906,
+        "embed_cosine": 0.2195548261185702,
+        "rerank_logit": -8.042925834655762
+      }
+    },
+    {
+      "entry_id": "e0261-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.100 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "35911987",
+        "title": "Charaxes acraeoides",
+        "bm25_score": 61.6585693359375,
+        "embed_cosine": 0.2791615926136628,
+        "rerank_logit": -4.839543342590332
+      }
+    },
+    {
+      "entry_id": "e0266-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.699 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "5092578",
+        "title": "Marriage law",
+        "bm25_score": 48.724796295166016,
+        "embed_cosine": 0.18490760651873359,
+        "rerank_logit": -3.946899652481079
+      }
+    },
+    {
+      "entry_id": "e0268-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.771 < tau -5; margin 0.058 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "60957179",
+        "title": "Lannea welwitschii",
+        "bm25_score": 67.75704193115234,
+        "embed_cosine": 0.28399320488341073,
+        "rerank_logit": -6.770602703094482
+      }
+    },
+    {
+      "entry_id": "e0270-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.289 < tau -5; margin 0.189 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "379483",
+        "title": "Plate",
+        "bm25_score": 9.687570571899414,
+        "embed_cosine": 0.060601518923764246,
+        "rerank_logit": -8.289440155029297
+      }
+    },
+    {
+      "entry_id": "e0318-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.482 < tau -5",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "21244",
+        "title": "Nile",
+        "bm25_score": 50.32225799560547,
+        "embed_cosine": 0.2128781448147534,
+        "rerank_logit": -5.4815239906311035
+      }
+    },
+    {
+      "entry_id": "e0383-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.291 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "62031142",
+        "title": "Glossary of agriculture",
+        "bm25_score": 48.37372970581055,
+        "embed_cosine": 0.17199402519386944,
+        "rerank_logit": -4.71928071975708
+      }
+    },
+    {
+      "entry_id": "e0383-02",
+      "status": "rejected",
+      "reason": "rule: margin 0.538 < delta 0.75",
+      "headword": "POLITICAL ECONOMY",
+      "top_candidate": {
+        "page_id": "46044",
+        "title": "Political economy",
+        "bm25_score": 14.042532920837402,
+        "embed_cosine": 0.2611104370561946,
+        "rerank_logit": -3.9483208656311035
+      }
+    },
+    {
+      "entry_id": "e0403-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.623 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "6204551",
+        "title": "Ethiopians",
+        "bm25_score": 59.669517517089844,
+        "embed_cosine": 0.22875205375945235,
+        "rerank_logit": -4.085677146911621
+      }
+    },
+    {
+      "entry_id": "e0473-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.942 < tau -5; margin 0.035 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "38160276",
+        "title": "Shell growth in estuaries",
+        "bm25_score": 41.10494613647461,
+        "embed_cosine": 0.14520274887081572,
+        "rerank_logit": -6.941976070404053
+      }
+    },
+    {
+      "entry_id": "e0473-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.300 < tau -5; margin 0.434 < delta 0.75",
+      "headword": "CONCHOLGY",
+      "top_candidate": {
+        "page_id": "18457910",
+        "title": "Mollusc shell",
+        "bm25_score": 39.593482971191406,
+        "embed_cosine": 0.24529598703354957,
+        "rerank_logit": -5.299559593200684
+      }
+    },
+    {
+      "entry_id": "e0493-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.100 < tau -5; margin 0.317 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "361699",
+        "title": "Thomas Pennant",
+        "bm25_score": 34.70305252075195,
+        "embed_cosine": 0.24565587209828557,
+        "rerank_logit": -8.100204467773438
+      }
+    },
+    {
+      "entry_id": "e0493-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.157 < tau -5; margin 0.443 < delta 0.75",
+      "headword": "JILLIEFREE",
+      "top_candidate": {
+        "page_id": "69670",
+        "title": "History of the Gambia",
+        "bm25_score": 39.72322463989258,
+        "embed_cosine": 0.2093616661034387,
+        "rerank_logit": -7.157044410705566
+      }
+    },
+    {
+      "entry_id": "e0493-03",
+      "status": "rejected",
+      "reason": "rule: margin 0.397 < delta 0.75",
+      "headword": "IIN",
+      "top_candidate": {
+        "page_id": "16289653",
+        "title": "IIN",
+        "bm25_score": 20.718801498413086,
+        "embed_cosine": 0.302634609914133,
+        "rerank_logit": -4.4717583656311035
+      }
+    },
+    {
+      "entry_id": "e0493-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.021 < tau -5; margin 0.092 < delta 0.75",
+      "headword": "REENLD STREET",
+      "top_candidate": {
+        "page_id": "144198",
+        "title": "Peddars Way",
+        "bm25_score": 30.524150848388672,
+        "embed_cosine": 0.29560516361848943,
+        "rerank_logit": -10.020923614501953
+      }
+    },
+    {
+      "entry_id": "e0493-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.625 < tau -5",
+      "headword": "HEL",
+      "top_candidate": {
+        "page_id": "538099",
+        "title": "Hel",
+        "bm25_score": 18.77890968322754,
+        "embed_cosine": 0.13307589844176992,
+        "rerank_logit": -5.625370025634766
+      }
+    },
+    {
+      "entry_id": "e0499-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.247 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "39849556",
+        "title": "India (Herodotus)",
+        "bm25_score": 54.37367248535156,
+        "embed_cosine": 0.3094269574635777,
+        "rerank_logit": -4.766669273376465
+      }
+    },
+    {
+      "entry_id": "e0513-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.530 < tau -5; margin 0.043 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "60213",
+        "title": "Robert Curthose",
+        "bm25_score": 48.990440368652344,
+        "embed_cosine": 0.2449257264001294,
+        "rerank_logit": -5.5295820236206055
+      }
+    },
+    {
+      "entry_id": "e0513-02",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e0523-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.581 < tau -5; margin 0.546 < delta 0.75",
+      "headword": "ENDLESS",
+      "top_candidate": {
+        "page_id": "42982630",
+        "title": "Endless",
+        "bm25_score": 13.150465965270996,
+        "embed_cosine": 0.3048253753831797,
+        "rerank_logit": -6.581398963928223
+      }
+    },
+    {
+      "entry_id": "e0523-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.376 < tau -5; margin 0.145 < delta 0.75",
+      "headword": "ENDORSE",
+      "top_candidate": {
+        "page_id": "3052280",
+        "title": "Pale (heraldry)",
+        "bm25_score": 34.165428161621094,
+        "embed_cosine": 0.3427674140237631,
+        "rerank_logit": -8.37595272064209
+      }
+    },
+    {
+      "entry_id": "e0523-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.768 < tau -5; margin 0.610 < delta 0.75",
+      "headword": "ENDORSED",
+      "top_candidate": {
+        "page_id": "9596391",
+        "title": "Welsh heraldry",
+        "bm25_score": 18.615190505981445,
+        "embed_cosine": 0.18911703284765818,
+        "rerank_logit": -9.767602920532227
+      }
+    },
+    {
+      "entry_id": "e0523-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.676 < tau -5; margin 0.171 < delta 0.75",
+      "headword": "ENDOWWERT",
+      "top_candidate": {
+        "page_id": "3087568",
+        "title": "Impropriation",
+        "bm25_score": 23.48434829711914,
+        "embed_cosine": 0.35396778102831766,
+        "rerank_logit": -7.675601959228516
+      }
+    },
+    {
+      "entry_id": "e0523-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.255 < tau -5; margin 0.464 < delta 0.75",
+      "headword": "ENDYMON",
+      "top_candidate": {
+        "page_id": "8739230",
+        "title": "Les surprises de l'Amour",
+        "bm25_score": 7.61530876159668,
+        "embed_cosine": 0.19486301803554484,
+        "rerank_logit": -9.255417823791504
+      }
+    },
+    {
+      "entry_id": "e0523-06",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.665 < tau -5; margin 0.192 < delta 0.75",
+      "headword": "ENERGUMENS",
+      "top_candidate": {
+        "page_id": "475322",
+        "title": "Exorcist",
+        "bm25_score": 8.889068603515625,
+        "embed_cosine": 0.3177779311702916,
+        "rerank_logit": -8.664636611938477
+      }
+    },
+    {
+      "entry_id": "e0523-07",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.627 < tau -5; margin 0.484 < delta 0.75",
+      "headword": "ENERGY",
+      "top_candidate": {
+        "page_id": "11586530",
+        "title": "Energy (disambiguation)",
+        "bm25_score": 8.12159252166748,
+        "embed_cosine": 0.37754398735229217,
+        "rerank_logit": -5.627450942993164
+      }
+    },
+    {
+      "entry_id": "e0523-08",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.055 < tau -5; margin 0.132 < delta 0.75",
+      "headword": "ENFANS RADS",
+      "top_candidate": {
+        "page_id": "24429149",
+        "title": "Nic Rad",
+        "bm25_score": 15.668197631835938,
+        "embed_cosine": 0.1227514310923207,
+        "rerank_logit": -9.054818153381348
+      }
+    },
+    {
+      "entry_id": "e0523-09",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.926 < tau -5; margin 0.220 < delta 0.75",
+      "headword": "ENTILADE",
+      "top_candidate": {
+        "page_id": "47385194",
+        "title": "Traverse (trench warfare)",
+        "bm25_score": 35.080753326416016,
+        "embed_cosine": 0.2795338107976039,
+        "rerank_logit": -9.925642967224121
+      }
+    },
+    {
+      "entry_id": "e0523-10",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.883 < tau -5; margin 0.291 < delta 0.75",
+      "headword": "ENGASTRIMYTHI",
+      "top_candidate": {
+        "page_id": "53258",
+        "title": "Pythia",
+        "bm25_score": 38.632164001464844,
+        "embed_cosine": 0.2903040538423404,
+        "rerank_logit": -7.883420944213867
+      }
+    },
+    {
+      "entry_id": "e0523-11",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.236 < tau -5; margin 0.556 < delta 0.75",
+      "headword": "ENGENDERING",
+      "top_candidate": {
+        "page_id": "31169734",
+        "title": "Engender",
+        "bm25_score": 15.70917797088623,
+        "embed_cosine": 0.178495423570386,
+        "rerank_logit": -10.235909461975098
+      }
+    },
+    {
+      "entry_id": "e0523-12",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.319 < tau -5; margin 0.213 < delta 0.75",
+      "headword": "ENGINE",
+      "top_candidate": {
+        "page_id": "7109569",
+        "title": "Engine (disambiguation)",
+        "bm25_score": 6.035088062286377,
+        "embed_cosine": 0.36186224127700634,
+        "rerank_logit": -5.318713665008545
+      }
+    },
+    {
+      "entry_id": "e0523-13",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.332 < tau -5; margin 0.032 < delta 0.75",
+      "headword": "ENGINEEN",
+      "top_candidate": {
+        "page_id": "614062",
+        "title": "Little England beyond Wales",
+        "bm25_score": 32.614322662353516,
+        "embed_cosine": 0.19347089944024376,
+        "rerank_logit": -5.3324875831604
+      }
+    },
+    {
+      "entry_id": "e0546-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.688 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "581885",
+        "title": "Concurrent user",
+        "bm25_score": 35.6513786315918,
+        "embed_cosine": 0.4181767618659614,
+        "rerank_logit": -3.991931915283203
+      }
+    },
+    {
+      "entry_id": "e0560-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.789 < tau -5; margin 0.193 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "46900081",
+        "title": "Iris korolkowii",
+        "bm25_score": 44.44736099243164,
+        "embed_cosine": 0.2661840092103956,
+        "rerank_logit": -10.78919792175293
+      }
+    },
+    {
+      "entry_id": "e0560-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.600 < tau -5; margin 0.336 < delta 0.75",
+      "headword": "AMHAN",
+      "top_candidate": {
+        "page_id": "34348533",
+        "title": "Muhammad Iqbal",
+        "bm25_score": 32.39414978027344,
+        "embed_cosine": 0.2546359500504065,
+        "rerank_logit": -9.600008010864258
+      }
+    },
+    {
+      "entry_id": "e0560-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -11.783 < tau -5; margin 0.062 < delta 0.75",
+      "headword": "AMIMAYTHUS",
+      "top_candidate": {
+        "page_id": "773959",
+        "title": "Diatomaceous earth",
+        "bm25_score": 35.56031799316406,
+        "embed_cosine": 0.18760818385310207,
+        "rerank_logit": -11.783475875854492
+      }
+    },
+    {
+      "entry_id": "e0560-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.313 < tau -5; margin 0.159 < delta 0.75",
+      "headword": "AMIGALLE",
+      "top_candidate": {
+        "page_id": "981466",
+        "title": "Tunic",
+        "bm25_score": 32.441837310791016,
+        "embed_cosine": 0.2671732388352576,
+        "rerank_logit": -8.31336784362793
+      }
+    },
+    {
+      "entry_id": "e0560-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.878 < tau -5; margin 0.722 < delta 0.75",
+      "headword": "AMCULUM",
+      "top_candidate": {
+        "page_id": "6995018",
+        "title": "Palla (garment)",
+        "bm25_score": 26.77775001525879,
+        "embed_cosine": 0.3398869071740565,
+        "rerank_logit": -8.878362655639648
+      }
+    },
+    {
+      "entry_id": "e0560-06",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.395 < tau -5; margin 0.037 < delta 0.75",
+      "headword": "AMIDA",
+      "top_candidate": {
+        "page_id": "26382868",
+        "title": "Amida (Mesopotamia)",
+        "bm25_score": 18.79152488708496,
+        "embed_cosine": 0.34665104454810713,
+        "rerank_logit": -5.394768238067627
+      }
+    },
+    {
+      "entry_id": "e0563-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.543 < tau -5; margin 0.046 < delta 0.75",
+      "headword": "ACROTELERUTIC",
+      "top_candidate": {
+        "page_id": "186526",
+        "title": "Doxology",
+        "bm25_score": 35.33025360107422,
+        "embed_cosine": 0.19971817565058625,
+        "rerank_logit": -10.54281234741211
+      }
+    },
+    {
+      "entry_id": "e0563-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -11.678 < tau -5; margin 0.254 < delta 0.75",
+      "headword": "AGROTHYMON",
+      "top_candidate": {
+        "page_id": "13912606",
+        "title": "Colorectal polyp",
+        "bm25_score": 28.59250259399414,
+        "embed_cosine": 0.15812973585921877,
+        "rerank_logit": -11.678315162658691
+      }
+    },
+    {
+      "entry_id": "e0563-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.342 < tau -5; margin 0.342 < delta 0.75",
+      "headword": "ACT",
+      "top_candidate": {
+        "page_id": "33632399",
+        "title": "Auto-da-fé",
+        "bm25_score": 32.320457458496094,
+        "embed_cosine": 0.3165415240221281,
+        "rerank_logit": -6.342369079589844
+      }
+    },
+    {
+      "entry_id": "e0604-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.853 < tau -5; margin 0.445 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "16910057",
+        "title": "Funeral of Diana, Princess of Wales",
+        "bm25_score": 41.40781021118164,
+        "embed_cosine": 0.15315607743193904,
+        "rerank_logit": -7.852656841278076
+      }
+    },
+    {
+      "entry_id": "e0604-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.571 < tau -5; margin 0.619 < delta 0.75",
+      "headword": "FHOU",
+      "top_candidate": {
+        "page_id": "313515",
+        "title": "Jacques Auguste de Thou",
+        "bm25_score": 50.895469665527344,
+        "embed_cosine": 0.37931634437416833,
+        "rerank_logit": -6.571074485778809
+      }
+    },
+    {
+      "entry_id": "e0604-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.146 < tau -5; margin 0.093 < delta 0.75",
+      "headword": "THIROCE",
+      "top_candidate": {
+        "page_id": "888364",
+        "title": "Southeast Europe",
+        "bm25_score": 43.419334411621094,
+        "embed_cosine": 0.25274725831632744,
+        "rerank_logit": -7.146359443664551
+      }
+    },
+    {
+      "entry_id": "e0604-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.299 < tau -5; margin 0.429 < delta 0.75",
+      "headword": "THRARESTON",
+      "top_candidate": {
+        "page_id": "68203301",
+        "title": "Church of St Mary the Virgin, Ketton",
+        "bm25_score": 45.280609130859375,
+        "embed_cosine": 0.2833525145243732,
+        "rerank_logit": -7.299239158630371
+      }
+    },
+    {
+      "entry_id": "e0611-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.887 < tau -5; margin 0.065 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "20580",
+        "title": "Motion",
+        "bm25_score": 72.9058609008789,
+        "embed_cosine": 0.17157994478839644,
+        "rerank_logit": -5.887238025665283
+      }
+    },
+    {
+      "entry_id": "e0651-01",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e0651-02",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e0651-03",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e0651-04",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e0651-05",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e0681-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.574 < tau -5; margin 0.058 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "953397",
+        "title": "Real image",
+        "bm25_score": 54.63344955444336,
+        "embed_cosine": 0.25747790386268926,
+        "rerank_logit": -5.573824882507324
+      }
+    },
+    {
+      "entry_id": "e0713-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.027 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "17158563",
+        "title": "Sheep",
+        "bm25_score": 39.350154876708984,
+        "embed_cosine": 0.3183883087300858,
+        "rerank_logit": -4.831606388092041
+      }
+    },
+    {
+      "entry_id": "e0713-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.326 < tau -5; margin 0.179 < delta 0.75",
+      "headword": "OULENEY",
+      "top_candidate": {
+        "page_id": "116820",
+        "title": "Northampton, Massachusetts",
+        "bm25_score": 18.652843475341797,
+        "embed_cosine": 0.14454298235232518,
+        "rerank_logit": -8.325886726379395
+      }
+    },
+    {
+      "entry_id": "e0713-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.631 < tau -5; margin 0.198 < delta 0.75",
+      "headword": "OULC",
+      "top_candidate": {
+        "page_id": "25200654",
+        "title": "Oxford University Liberal Club",
+        "bm25_score": 26.404003143310547,
+        "embed_cosine": 0.19774375513689332,
+        "rerank_logit": -7.630871772766113
+      }
+    },
+    {
+      "entry_id": "e0713-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.033 < tau -5; margin 0.334 < delta 0.75",
+      "headword": "OUNDELE",
+      "top_candidate": {
+        "page_id": "1058335",
+        "title": "Market Deeping",
+        "bm25_score": 18.475452423095703,
+        "embed_cosine": 0.2725886218675185,
+        "rerank_logit": -8.032821655273438
+      }
+    },
+    {
+      "entry_id": "e0713-06",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.331 < tau -5",
+      "headword": "OVOLLO",
+      "top_candidate": {
+        "page_id": "3084322",
+        "title": "Ovolo",
+        "bm25_score": 61.97950744628906,
+        "embed_cosine": 0.4279462621034805,
+        "rerank_logit": -7.330547332763672
+      }
+    },
+    {
+      "entry_id": "e0713-07",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.508 < tau -5; margin 0.222 < delta 0.75",
+      "headword": "OUSTLAGH",
+      "top_candidate": {
+        "page_id": "39237252",
+        "title": "Mozambique–South Africa border",
+        "bm25_score": 25.871585845947266,
+        "embed_cosine": 0.08070715387926201,
+        "rerank_logit": -10.508056640625
+      }
+    },
+    {
+      "entry_id": "e0756-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.305 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "51079",
+        "title": "Magnet",
+        "bm25_score": 63.98754119873047,
+        "embed_cosine": 0.26441068353588965,
+        "rerank_logit": -4.988405704498291
+      }
+    },
+    {
+      "entry_id": "e0756-02",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e0851-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.005 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "8354104",
+        "title": "Vergence (optics)",
+        "bm25_score": 66.71511840820312,
+        "embed_cosine": 0.32497498616176956,
+        "rerank_logit": -4.156681060791016
+      }
+    },
+    {
+      "entry_id": "e0851-02",
+      "status": "rejected",
+      "reason": "rule: margin 0.168 < delta 0.75",
+      "headword": "OPTICS",
+      "top_candidate": {
+        "page_id": "22483",
+        "title": "Optics",
+        "bm25_score": 57.51833724975586,
+        "embed_cosine": 0.1351890897174932,
+        "rerank_logit": -2.9051787853240967
+      }
+    },
+    {
+      "entry_id": "e0914-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.022 < tau -5; margin 0.072 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "4070049",
+        "title": "Tribes of Arabia",
+        "bm25_score": 49.28730773925781,
+        "embed_cosine": 0.20401006552022743,
+        "rerank_logit": -7.022386074066162
+      }
+    },
+    {
+      "entry_id": "e0944-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.287 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "182358",
+        "title": "Cubit",
+        "bm25_score": 41.380977630615234,
+        "embed_cosine": 0.2620251649090228,
+        "rerank_logit": -3.983914375305176
+      }
+    },
+    {
+      "entry_id": "e1017-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.677 < tau -5; margin 0.167 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "5098574",
+        "title": "Hell",
+        "bm25_score": 48.2088737487793,
+        "embed_cosine": 0.2510819658361262,
+        "rerank_logit": -7.676908493041992
+      }
+    },
+    {
+      "entry_id": "e1017-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.002 < tau -5",
+      "headword": "HELLEBORUS",
+      "top_candidate": {
+        "page_id": "874539",
+        "title": "Hellebore",
+        "bm25_score": 63.62882995605469,
+        "embed_cosine": 0.401688429668614,
+        "rerank_logit": -5.002182483673096
+      }
+    },
+    {
+      "entry_id": "e1017-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.281 < tau -5; margin 0.509 < delta 0.75",
+      "headword": "HELLENISM",
+      "top_candidate": {
+        "page_id": "17343517",
+        "title": "Hellenism",
+        "bm25_score": 36.092437744140625,
+        "embed_cosine": 0.3575634266247646,
+        "rerank_logit": -6.281132698059082
+      }
+    },
+    {
+      "entry_id": "e1017-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.766 < tau -5; margin 0.141 < delta 0.75",
+      "headword": "HELLENISTIC",
+      "top_candidate": {
+        "page_id": "11205731",
+        "title": "Hellenistic Judaism",
+        "bm25_score": 38.43088150024414,
+        "embed_cosine": 0.38479278245259246,
+        "rerank_logit": -6.765716075897217
+      }
+    },
+    {
+      "entry_id": "e1017-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.139 < tau -5; margin 0.180 < delta 0.75",
+      "headword": "HELLESPONTS",
+      "top_candidate": {
+        "page_id": "416883",
+        "title": "Battle of Cynossema",
+        "bm25_score": 26.618698120117188,
+        "embed_cosine": 0.2210924212368961,
+        "rerank_logit": -7.139493942260742
+      }
+    },
+    {
+      "entry_id": "e1017-06",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.605 < tau -5; margin 0.088 < delta 0.75",
+      "headword": "HELMET",
+      "top_candidate": {
+        "page_id": "55979268",
+        "title": "Emesa helmet",
+        "bm25_score": 37.890655517578125,
+        "embed_cosine": 0.36009518584894057,
+        "rerank_logit": -5.604996681213379
+      }
+    },
+    {
+      "entry_id": "e1017-07",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.851 < tau -5; margin 0.467 < delta 0.75",
+      "headword": "HELMINTHOLTHUIS",
+      "top_candidate": {
+        "page_id": "236706",
+        "title": "Timeline of paleontology",
+        "bm25_score": 37.309444427490234,
+        "embed_cosine": 0.20670283015825874,
+        "rerank_logit": -9.85087776184082
+      }
+    },
+    {
+      "entry_id": "e1017-08",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.051 < tau -5; margin 0.331 < delta 0.75",
+      "headword": "HELMONT",
+      "top_candidate": {
+        "page_id": "2614147",
+        "title": "Helmont",
+        "bm25_score": 28.13745880126953,
+        "embed_cosine": 0.27631107350847767,
+        "rerank_logit": -5.0512375831604
+      }
+    },
+    {
+      "entry_id": "e1017-09",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.604 < tau -5; margin 0.094 < delta 0.75",
+      "headword": "HELMSSTAT",
+      "top_candidate": {
+        "page_id": "2897450",
+        "title": "Lower Saxon Circle",
+        "bm25_score": 27.95558738708496,
+        "embed_cosine": 0.298574346575052,
+        "rerank_logit": -7.603964805603027
+      }
+    },
+    {
+      "entry_id": "e1017-10",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.704 < tau -5; margin 0.561 < delta 0.75",
+      "headword": "HELOTS",
+      "top_candidate": {
+        "page_id": "236213",
+        "title": "Helots",
+        "bm25_score": 61.08247756958008,
+        "embed_cosine": 0.41372343867769595,
+        "rerank_logit": -7.70368766784668
+      }
+    },
+    {
+      "entry_id": "e1017-11",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.820 < tau -5; margin 0.060 < delta 0.75",
+      "headword": "HELSINGTORDIN",
+      "top_candidate": {
+        "page_id": "254295",
+        "title": "Hamina",
+        "bm25_score": 25.64104461669922,
+        "embed_cosine": 0.27596547945600974,
+        "rerank_logit": -8.820148468017578
+      }
+    },
+    {
+      "entry_id": "e1017-13",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.957 < tau -5; margin 0.706 < delta 0.75",
+      "headword": "HELSINGIC CHARACTER",
+      "top_candidate": {
+        "page_id": "38922361",
+        "title": "Runic (Unicode block)",
+        "bm25_score": 30.260177612304688,
+        "embed_cosine": 0.30530153509176555,
+        "rerank_logit": -8.957479476928711
+      }
+    },
+    {
+      "entry_id": "e1017-14",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.946 < tau -5; margin 0.064 < delta 0.75",
+      "headword": "HELLTON",
+      "top_candidate": {
+        "page_id": "23051755",
+        "title": "2009 Cornwall Council election",
+        "bm25_score": 18.291248321533203,
+        "embed_cosine": 0.24277149886763225,
+        "rerank_logit": -8.946125030517578
+      }
+    },
+    {
+      "entry_id": "e1017-15",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.146 < tau -5; margin 0.045 < delta 0.75",
+      "headword": "HELNOETSLUTS",
+      "top_candidate": {
+        "page_id": "57161",
+        "title": "North Holland",
+        "bm25_score": 30.248579025268555,
+        "embed_cosine": 0.16756749946619096,
+        "rerank_logit": -9.145618438720703
+      }
+    },
+    {
+      "entry_id": "e1017-16",
+      "status": "rejected",
+      "reason": "rule: margin 0.231 < delta 0.75",
+      "headword": "HEMEROBIUS",
+      "top_candidate": {
+        "page_id": "40938403",
+        "title": "Hemerobius",
+        "bm25_score": 31.878520965576172,
+        "embed_cosine": 0.33080735132454137,
+        "rerank_logit": -4.632219314575195
+      }
+    },
+    {
+      "entry_id": "e1032-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.011 < tau -5; margin 0.195 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "36808",
+        "title": "Heart",
+        "bm25_score": 59.236419677734375,
+        "embed_cosine": 0.1391453501623567,
+        "rerank_logit": -5.011368751525879
+      }
+    },
+    {
+      "entry_id": "e1032-02",
+      "status": "rejected",
+      "reason": "rule: margin 0.178 < delta 0.75",
+      "headword": "HEAT",
+      "top_candidate": {
+        "page_id": "1290511",
+        "title": "Heat (disambiguation)",
+        "bm25_score": 8.808121681213379,
+        "embed_cosine": 0.2413636154788078,
+        "rerank_logit": -4.967264652252197
+      }
+    },
+    {
+      "entry_id": "e1102-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.315 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "2593937",
+        "title": "Nicolas François, Count Mollien",
+        "bm25_score": 32.990753173828125,
+        "embed_cosine": 0.1965820229925336,
+        "rerank_logit": -4.998049259185791
+      }
+    },
+    {
+      "entry_id": "e1102-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.662 < tau -5",
+      "headword": "COMITALUS",
+      "top_candidate": {
+        "page_id": "357346",
+        "title": "Hundred (county division)",
+        "bm25_score": 38.1405143737793,
+        "embed_cosine": 0.34729796777752625,
+        "rerank_logit": -7.662420272827148
+      }
+    },
+    {
+      "entry_id": "e1102-03",
+      "status": "rejected",
+      "reason": "rule: margin 0.057 < delta 0.75",
+      "headword": "COMITA",
+      "top_candidate": {
+        "page_id": "1932563",
+        "title": "Curiate assembly",
+        "bm25_score": 32.21586608886719,
+        "embed_cosine": 0.39301752322258343,
+        "rerank_logit": -4.63995361328125
+      }
+    },
+    {
+      "entry_id": "e1166-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.358 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "711728",
+        "title": "Governmentality",
+        "bm25_score": 42.28185272216797,
+        "embed_cosine": 0.17673533179885959,
+        "rerank_logit": -3.438234329223633
+      }
+    },
+    {
+      "entry_id": "e1214-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.143 < tau -5; margin 0.384 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "505455",
+        "title": "Firedamp",
+        "bm25_score": 51.96064376831055,
+        "embed_cosine": 0.35389173005987673,
+        "rerank_logit": -5.143383502960205
+      }
+    },
+    {
+      "entry_id": "e1214-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.958 < tau -5; margin 0.032 < delta 0.75",
+      "headword": "DAMSEL",
+      "top_candidate": {
+        "page_id": "51545665",
+        "title": "Damsel",
+        "bm25_score": 17.58349609375,
+        "embed_cosine": 0.24677344399651432,
+        "rerank_logit": -6.95756721496582
+      }
+    },
+    {
+      "entry_id": "e1214-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.534 < tau -5; margin 0.411 < delta 0.75",
+      "headword": "DANX",
+      "top_candidate": {
+        "page_id": "30876290",
+        "title": "Qianjiang, Chongqing",
+        "bm25_score": 15.021408081054688,
+        "embed_cosine": 0.11970206642535779,
+        "rerank_logit": -9.534300804138184
+      }
+    },
+    {
+      "entry_id": "e1214-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.215 < tau -5; margin 0.395 < delta 0.75",
+      "headword": "DANAE",
+      "top_candidate": {
+        "page_id": "19919977",
+        "title": "Charon's obol",
+        "bm25_score": 31.24367904663086,
+        "embed_cosine": 0.542928314922259,
+        "rerank_logit": -5.215024471282959
+      }
+    },
+    {
+      "entry_id": "e1214-05",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e1250-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.775 < tau -5; margin 0.142 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "145380",
+        "title": "Pilaster",
+        "bm25_score": 33.77094268798828,
+        "embed_cosine": 0.23765471510522504,
+        "rerank_logit": -8.775246620178223
+      }
+    },
+    {
+      "entry_id": "e1250-02",
+      "status": "rejected",
+      "reason": "rule: margin 0.351 < delta 0.75",
+      "headword": "COINAGE",
+      "top_candidate": {
+        "page_id": "24057311",
+        "title": "Coining (mint)",
+        "bm25_score": 64.23725128173828,
+        "embed_cosine": 0.47213354504606697,
+        "rerank_logit": -3.2855136394500732
+      }
+    },
+    {
+      "entry_id": "e1268-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.206 < tau -5; margin 0.229 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "21730353",
+        "title": "Nowa Wieś Reszelska",
+        "bm25_score": 35.991092681884766,
+        "embed_cosine": 0.15869403990735137,
+        "rerank_logit": -7.206005096435547
+      }
+    },
+    {
+      "entry_id": "e1268-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.894 < tau -5; margin 0.401 < delta 0.75",
+      "headword": "NAXIA",
+      "top_candidate": {
+        "page_id": "647483",
+        "title": "Duchy of the Archipelago",
+        "bm25_score": 7.709817409515381,
+        "embed_cosine": 0.2693696469716856,
+        "rerank_logit": -6.894354820251465
+      }
+    },
+    {
+      "entry_id": "e1268-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.172 < tau -5; margin 0.215 < delta 0.75",
+      "headword": "NAXOS",
+      "top_candidate": {
+        "page_id": "62278",
+        "title": "Naxos",
+        "bm25_score": 36.581825256347656,
+        "embed_cosine": 0.3361532754652327,
+        "rerank_logit": -7.172420978546143
+      }
+    },
+    {
+      "entry_id": "e1268-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.634 < tau -5; margin 0.053 < delta 0.75",
+      "headword": "NAXO",
+      "top_candidate": {
+        "page_id": "1483113",
+        "title": "Naxos (disambiguation)",
+        "bm25_score": 16.136585235595703,
+        "embed_cosine": 0.21179159042343268,
+        "rerank_logit": -10.633808135986328
+      }
+    },
+    {
+      "entry_id": "e1268-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.499 < tau -5; margin 0.351 < delta 0.75",
+      "headword": "NAZARRUH",
+      "top_candidate": {
+        "page_id": "43148595",
+        "title": "Church of Saint John the Baptist, Ein Karem",
+        "bm25_score": 35.06906509399414,
+        "embed_cosine": 0.23153864815863565,
+        "rerank_logit": -7.4992170333862305
+      }
+    },
+    {
+      "entry_id": "e1268-06",
+      "status": "rejected",
+      "reason": "rule: margin 0.360 < delta 0.75",
+      "headword": "NAZARRHS",
+      "top_candidate": {
+        "page_id": "1937729",
+        "title": "Matthew 2:23",
+        "bm25_score": 73.2841567993164,
+        "embed_cosine": 0.509917558530236,
+        "rerank_logit": -4.412232875823975
+      }
+    },
+    {
+      "entry_id": "e1284-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.434 < tau -5; margin 0.194 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "10128",
+        "title": "Elizabeth I",
+        "bm25_score": 45.106937408447266,
+        "embed_cosine": 0.18936040012968003,
+        "rerank_logit": -6.433760166168213
+      }
+    },
+    {
+      "entry_id": "e1298-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.022 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "456361",
+        "title": "Edward Plumptre",
+        "bm25_score": 38.01719665527344,
+        "embed_cosine": 0.23278184269421429,
+        "rerank_logit": -4.1782684326171875
+      }
+    },
+    {
+      "entry_id": "e1324-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.291 < tau -5; margin 0.440 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "339558",
+        "title": "Hedge",
+        "bm25_score": 44.60730743408203,
+        "embed_cosine": 0.2975495448438635,
+        "rerank_logit": -5.2907562255859375
+      }
+    },
+    {
+      "entry_id": "e1327-01",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e1327-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.134 < tau -5; margin 0.233 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "30718",
+        "title": "Tide",
+        "bm25_score": 33.26453399658203,
+        "embed_cosine": 0.14738986209934613,
+        "rerank_logit": -10.133874893188477
+      }
+    },
+    {
+      "entry_id": "e1327-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.035 < tau -5",
+      "headword": "HUESCAR",
+      "top_candidate": {
+        "page_id": "5858997",
+        "title": "Huéscar",
+        "bm25_score": 46.863075256347656,
+        "embed_cosine": 0.32676773610054927,
+        "rerank_logit": -5.034839153289795
+      }
+    },
+    {
+      "entry_id": "e1327-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.933 < tau -5; margin 0.429 < delta 0.75",
+      "headword": "HUESNE",
+      "top_candidate": {
+        "page_id": "30027",
+        "title": "Tycho Brahe",
+        "bm25_score": 31.29085922241211,
+        "embed_cosine": 0.315140192387959,
+        "rerank_logit": -5.933492660522461
+      }
+    },
+    {
+      "entry_id": "e1327-06",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.991 < tau -5; margin 0.127 < delta 0.75",
+      "headword": "HUGHILY",
+      "top_candidate": {
+        "page_id": "3345210",
+        "title": "Inland waterways of the United States",
+        "bm25_score": 40.66172409057617,
+        "embed_cosine": 0.0752551122542303,
+        "rerank_logit": -9.9905424118042
+      }
+    },
+    {
+      "entry_id": "e1327-07",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.761 < tau -5; margin 0.094 < delta 0.75",
+      "headword": "HUGOONIA",
+      "top_candidate": {
+        "page_id": "19286928",
+        "title": "On the natural order of plants called Proteaceae",
+        "bm25_score": 42.69452667236328,
+        "embed_cosine": 0.19513310899110617,
+        "rerank_logit": -10.761276245117188
+      }
+    },
+    {
+      "entry_id": "e1344-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.149 < tau -5; margin 0.077 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "69704",
+        "title": "Turkish Van",
+        "bm25_score": 41.43721008300781,
+        "embed_cosine": 0.1211409008228851,
+        "rerank_logit": -6.149361610412598
+      }
+    },
+    {
+      "entry_id": "e1344-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.865 < tau -5; margin 0.025 < delta 0.75",
+      "headword": "HORHOR",
+      "top_candidate": {
+        "page_id": "4005167",
+        "title": "Lotto Super 7",
+        "bm25_score": 38.885353088378906,
+        "embed_cosine": -0.00025261229269425895,
+        "rerank_logit": -6.864770412445068
+      }
+    },
+    {
+      "entry_id": "e1400-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.089 < tau -5; margin 0.012 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "35292793",
+        "title": "Robert Bland",
+        "bm25_score": 19.418777465820312,
+        "embed_cosine": 0.2376772736439154,
+        "rerank_logit": -6.088539123535156
+      }
+    },
+    {
+      "entry_id": "e1415-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.613 < tau -5; margin 0.348 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "155383",
+        "title": "Liriodendron",
+        "bm25_score": 58.12708282470703,
+        "embed_cosine": 0.2387905525360274,
+        "rerank_logit": -5.613064289093018
+      }
+    },
+    {
+      "entry_id": "e1422-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.159 < tau -5; margin 0.049 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "221904",
+        "title": "William Somervile",
+        "bm25_score": 32.577877044677734,
+        "embed_cosine": 0.09808225334687651,
+        "rerank_logit": -5.159035682678223
+      }
+    },
+    {
+      "entry_id": "e1430-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.126 < tau -5; margin 0.021 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "103525",
+        "title": "Hyksos",
+        "bm25_score": 57.049190521240234,
+        "embed_cosine": 0.2690174586090315,
+        "rerank_logit": -5.125608921051025
+      }
+    },
+    {
+      "entry_id": "e1466-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.241 < tau -5; margin 0.216 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "57877",
+        "title": "Sodium hydroxide",
+        "bm25_score": 54.776939392089844,
+        "embed_cosine": 0.14006389827262403,
+        "rerank_logit": -6.24140739440918
+      }
+    },
+    {
+      "entry_id": "e1473-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.746 < tau -5; margin 0.289 < delta 0.75",
+      "headword": "ESARHADDON",
+      "top_candidate": {
+        "page_id": "188740",
+        "title": "Esarhaddon",
+        "bm25_score": 49.01122283935547,
+        "embed_cosine": 0.3419441331562199,
+        "rerank_logit": -7.746437072753906
+      }
+    },
+    {
+      "entry_id": "e1473-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.536 < tau -5",
+      "headword": "ESCAMADE",
+      "top_candidate": {
+        "page_id": "768795",
+        "title": "Escalade",
+        "bm25_score": 34.29930877685547,
+        "embed_cosine": 0.4085174183713602,
+        "rerank_logit": -5.536436557769775
+      }
+    },
+    {
+      "entry_id": "e1473-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.362 < tau -5",
+      "headword": "ESCAPE",
+      "top_candidate": {
+        "page_id": "797344",
+        "title": "Escape",
+        "bm25_score": 8.006436347961426,
+        "embed_cosine": 0.20827759054153153,
+        "rerank_logit": -6.361919403076172
+      }
+    },
+    {
+      "entry_id": "e1473-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -11.211 < tau -5; margin 0.113 < delta 0.75",
+      "headword": "ESCALDOLIN",
+      "top_candidate": {
+        "page_id": "68510260",
+        "title": "Brachystelma tumakurense",
+        "bm25_score": 28.561382293701172,
+        "embed_cosine": 0.20505710269104618,
+        "rerank_logit": -11.211050033569336
+      }
+    },
+    {
+      "entry_id": "e1473-06",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.863 < tau -5",
+      "headword": "ESCHAR",
+      "top_candidate": {
+        "page_id": "1028348",
+        "title": "Eschar",
+        "bm25_score": 30.799762725830078,
+        "embed_cosine": 0.2665080201091554,
+        "rerank_logit": -6.863224506378174
+      }
+    },
+    {
+      "entry_id": "e1473-07",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.679 < tau -5; margin 0.243 < delta 0.75",
+      "headword": "ESCHARA",
+      "top_candidate": {
+        "page_id": "28292088",
+        "title": "10th edition of Systema Naturae",
+        "bm25_score": 4.729370594024658,
+        "embed_cosine": 0.25698745068669865,
+        "rerank_logit": -5.679360866546631
+      }
+    },
+    {
+      "entry_id": "e1580-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.209 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "26563388",
+        "title": "Half-side formula",
+        "bm25_score": 84.01895904541016,
+        "embed_cosine": 0.3034053198958315,
+        "rerank_logit": -3.9106338024139404
+      }
+    },
+    {
+      "entry_id": "e1614-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.562 < tau -5; margin 0.130 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "5131829",
+        "title": "Wetherby Racecourse",
+        "bm25_score": 17.779573440551758,
+        "embed_cosine": 0.22661639806989814,
+        "rerank_logit": -9.561820983886719
+      }
+    },
+    {
+      "entry_id": "e1614-02",
+      "status": "rejected",
+      "reason": "rule: margin 0.505 < delta 0.75",
+      "headword": "THISTLE",
+      "top_candidate": {
+        "page_id": "2193890",
+        "title": "Thistle",
+        "bm25_score": 41.44694519042969,
+        "embed_cosine": 0.22150406015753857,
+        "rerank_logit": -4.85683536529541
+      }
+    },
+    {
+      "entry_id": "e1614-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.521 < tau -5; margin 0.253 < delta 0.75",
+      "headword": "THILSPH",
+      "top_candidate": {
+        "page_id": "2166813",
+        "title": "Iberis",
+        "bm25_score": 30.918624877929688,
+        "embed_cosine": 0.2434876293916901,
+        "rerank_logit": -10.520658493041992
+      }
+    },
+    {
+      "entry_id": "e1614-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.680 < tau -5; margin 0.389 < delta 0.75",
+      "headword": "THONF",
+      "top_candidate": {
+        "page_id": "251667",
+        "title": "Saint Thomas Christians",
+        "bm25_score": 31.54111099243164,
+        "embed_cosine": 0.25659929392974523,
+        "rerank_logit": -6.680028438568115
+      }
+    },
+    {
+      "entry_id": "e1614-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.256 < tau -5; margin 0.059 < delta 0.75",
+      "headword": "THIRSTI",
+      "top_candidate": {
+        "page_id": "49970297",
+        "title": "Meanness",
+        "bm25_score": 27.651395797729492,
+        "embed_cosine": 0.11035558815241255,
+        "rerank_logit": -9.255945205688477
+      }
+    },
+    {
+      "entry_id": "e1614-06",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.860 < tau -5",
+      "headword": "THOMISM",
+      "top_candidate": {
+        "page_id": "838801",
+        "title": "Thomism",
+        "bm25_score": 53.16870880126953,
+        "embed_cosine": 0.41101268199840113,
+        "rerank_logit": -6.859646320343018
+      }
+    },
+    {
+      "entry_id": "e1614-07",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.587 < tau -5; margin 0.202 < delta 0.75",
+      "headword": "THOMISTS",
+      "top_candidate": {
+        "page_id": "18528107",
+        "title": "Pietro Maria Gazzaniga",
+        "bm25_score": 18.62224769592285,
+        "embed_cosine": 0.2682541203214945,
+        "rerank_logit": -7.587335586547852
+      }
+    },
+    {
+      "entry_id": "e1614-09",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.379 < tau -5; margin 0.341 < delta 0.75",
+      "headword": "THONN",
+      "top_candidate": {
+        "page_id": "15888419",
+        "title": "Thonne-la-Long",
+        "bm25_score": 26.51739501953125,
+        "embed_cosine": 0.260950326684335,
+        "rerank_logit": -8.378875732421875
+      }
+    },
+    {
+      "entry_id": "e1649-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.806 < tau -5; margin 0.178 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "63002781",
+        "title": "Egon Flaig",
+        "bm25_score": 33.62263870239258,
+        "embed_cosine": 0.17471217104021322,
+        "rerank_logit": -6.805808067321777
+      }
+    },
+    {
+      "entry_id": "e1670-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.449 < tau -5; margin 0.045 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "8592",
+        "title": "Domitian",
+        "bm25_score": 40.074485778808594,
+        "embed_cosine": 0.14950309988257926,
+        "rerank_logit": -6.449244499206543
+      }
+    },
+    {
+      "entry_id": "e1670-02",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e1670-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.819 < tau -5; margin 0.257 < delta 0.75",
+      "headword": "CAVPANUS",
+      "top_candidate": {
+        "page_id": "6381597",
+        "title": "Galeopsis tetrahit",
+        "bm25_score": 36.47254943847656,
+        "embed_cosine": 0.17664017684874952,
+        "rerank_logit": -7.818552017211914
+      }
+    },
+    {
+      "entry_id": "e1670-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.298 < tau -5",
+      "headword": "CORPA",
+      "top_candidate": {
+        "page_id": "23550397",
+        "title": "Corpa",
+        "bm25_score": 28.764829635620117,
+        "embed_cosine": 0.07246161743829624,
+        "rerank_logit": -6.297651767730713
+      }
+    },
+    {
+      "entry_id": "e1678-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.093 < tau -5; margin 0.069 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "5247795",
+        "title": "Eberhard Louis, Duke of Württemberg",
+        "bm25_score": 35.165924072265625,
+        "embed_cosine": 0.18216068870815197,
+        "rerank_logit": -5.093170642852783
+      }
+    },
+    {
+      "entry_id": "e1680-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.741 < tau -5; margin 0.020 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "228107",
+        "title": "Stress (mechanics)",
+        "bm25_score": 52.07065963745117,
+        "embed_cosine": 0.13527357008754123,
+        "rerank_logit": -5.740922451019287
+      }
+    },
+    {
+      "entry_id": "e1722-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.647 < tau -5; margin 0.040 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "23886",
+        "title": "Phlogiston theory",
+        "bm25_score": 49.02118682861328,
+        "embed_cosine": 0.22842129722480292,
+        "rerank_logit": -5.646790981292725
+      }
+    },
+    {
+      "entry_id": "e1765-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.830 < tau -5; margin 0.121 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "565743",
+        "title": "Economic materialism",
+        "bm25_score": 29.695497512817383,
+        "embed_cosine": 0.07823980696905812,
+        "rerank_logit": -5.830499649047852
+      }
+    },
+    {
+      "entry_id": "e1803-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.668 < tau -5; margin 0.238 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "2321400",
+        "title": "Richard Earlom",
+        "bm25_score": 48.23515319824219,
+        "embed_cosine": 0.2872096436428472,
+        "rerank_logit": -6.668272972106934
+      }
+    },
+    {
+      "entry_id": "e1805-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.262 < tau -5; margin 0.284 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "3661874",
+        "title": "Chief executive (head of government)",
+        "bm25_score": 42.53240203857422,
+        "embed_cosine": 0.16612239987520813,
+        "rerank_logit": -6.261598587036133
+      }
+    },
+    {
+      "entry_id": "e1805-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.465 < tau -5; margin 0.114 < delta 0.75",
+      "headword": "EXEGTES",
+      "top_candidate": {
+        "page_id": "6295613",
+        "title": "Shofetim (parashah)",
+        "bm25_score": 19.26980209350586,
+        "embed_cosine": 0.18902195543545516,
+        "rerank_logit": -10.464700698852539
+      }
+    },
+    {
+      "entry_id": "e1805-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.620 < tau -5; margin 0.405 < delta 0.75",
+      "headword": "EXEGETION",
+      "top_candidate": {
+        "page_id": "537048",
+        "title": "Equation solving",
+        "bm25_score": 33.48398208618164,
+        "embed_cosine": 0.2629358352034951,
+        "rerank_logit": -8.619688987731934
+      }
+    },
+    {
+      "entry_id": "e1805-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.754 < tau -5; margin 0.630 < delta 0.75",
+      "headword": "EXPERFILAR",
+      "top_candidate": {
+        "page_id": "161999",
+        "title": "Idea",
+        "bm25_score": 31.354398727416992,
+        "embed_cosine": 0.20077990518991012,
+        "rerank_logit": -9.754438400268555
+      }
+    },
+    {
+      "entry_id": "e1805-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.689 < tau -5; margin 0.542 < delta 0.75",
+      "headword": "EXEMENTION",
+      "top_candidate": {
+        "page_id": "69673495",
+        "title": "Nicholas de Snyterby",
+        "bm25_score": 35.10554122924805,
+        "embed_cosine": 0.1334271759801245,
+        "rerank_logit": -10.689339637756348
+      }
+    },
+    {
+      "entry_id": "e1805-06",
+      "status": "rejected",
+      "reason": "rule: margin 0.470 < delta 0.75",
+      "headword": "EXERCISE",
+      "top_candidate": {
+        "page_id": "4376965",
+        "title": "Exercise (disambiguation)",
+        "bm25_score": 9.304841995239258,
+        "embed_cosine": 0.1554648857117259,
+        "rerank_logit": -2.78337025642395
+      }
+    },
+    {
+      "entry_id": "e1818-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.328 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "36932276",
+        "title": "Glossary of firelighting",
+        "bm25_score": 48.83301544189453,
+        "embed_cosine": 0.1564203255634836,
+        "rerank_logit": -4.685351371765137
+      }
+    },
+    {
+      "entry_id": "e1828-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.236 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "227400",
+        "title": "Pathetic fallacy",
+        "bm25_score": 56.24154281616211,
+        "embed_cosine": 0.239779550789844,
+        "rerank_logit": -3.985206127166748
+      }
+    },
+    {
+      "entry_id": "e1904-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.129 < tau -5; margin 0.475 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "81774",
+        "title": "Lyre",
+        "bm25_score": 51.5986328125,
+        "embed_cosine": 0.3720988616506663,
+        "rerank_logit": -5.129379749298096
+      }
+    },
+    {
+      "entry_id": "e1910-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.569 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "61344",
+        "title": "Lightning",
+        "bm25_score": 62.40520477294922,
+        "embed_cosine": 0.25228482830617305,
+        "rerank_logit": -3.8164615631103516
+      }
+    },
+    {
+      "entry_id": "e1933-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.898 < tau -5; margin 0.151 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "3822296",
+        "title": "Glossary of rhetorical terms",
+        "bm25_score": 41.67530059814453,
+        "embed_cosine": 0.25028483069780394,
+        "rerank_logit": -7.897916793823242
+      }
+    },
+    {
+      "entry_id": "e1939-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.503 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "307818",
+        "title": "Lavender oil",
+        "bm25_score": 52.910274505615234,
+        "embed_cosine": 0.2828988711257584,
+        "rerank_logit": -4.465457439422607
+      }
+    },
+    {
+      "entry_id": "e1942-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.527 < tau -5; margin 0.003 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "16785947",
+        "title": "Curculigo capitulata",
+        "bm25_score": 43.404945373535156,
+        "embed_cosine": 0.17133631790114623,
+        "rerank_logit": -5.527195453643799
+      }
+    },
+    {
+      "entry_id": "e1945-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.163 < tau -5; margin 0.198 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "47787936",
+        "title": "Schema for horizontal dials",
+        "bm25_score": 39.60302734375,
+        "embed_cosine": 0.13789334385346133,
+        "rerank_logit": -6.163224220275879
+      }
+    },
+    {
+      "entry_id": "e2001-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.099 < tau -5; margin 0.196 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "9326852",
+        "title": "Iłowa",
+        "bm25_score": 33.08024215698242,
+        "embed_cosine": 0.2310921764567051,
+        "rerank_logit": -6.099408149719238
+      }
+    },
+    {
+      "entry_id": "e2001-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.609 < tau -5",
+      "headword": "SILLESIAN EARTH",
+      "top_candidate": {
+        "page_id": "3813656",
+        "title": "Armenian bole",
+        "bm25_score": 32.3328857421875,
+        "embed_cosine": 0.292200444928095,
+        "rerank_logit": -8.609488487243652
+      }
+    },
+    {
+      "entry_id": "e2001-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.889 < tau -5",
+      "headword": "SILICERNIUM",
+      "top_candidate": {
+        "page_id": "1832050",
+        "title": "Roman funerary practices",
+        "bm25_score": 34.546722412109375,
+        "embed_cosine": 0.2772339385577355,
+        "rerank_logit": -10.888528823852539
+      }
+    },
+    {
+      "entry_id": "e2001-07",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e2051-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.427 < tau -5",
+      "headword": "LOM",
+      "top_candidate": {
+        "page_id": "178042",
+        "title": "Lom",
+        "bm25_score": 18.027759552001953,
+        "embed_cosine": 0.08975001034881316,
+        "rerank_logit": -5.426852703094482
+      }
+    },
+    {
+      "entry_id": "e2087-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.353 < tau -5; margin 0.126 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "72106950",
+        "title": "Declaration of Sainte-Adresse",
+        "bm25_score": 47.06227111816406,
+        "embed_cosine": 0.21780194439688136,
+        "rerank_logit": -5.353341102600098
+      }
+    },
+    {
+      "entry_id": "e2093-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.273 < tau -5; margin 0.484 < delta 0.75",
+      "headword": "SENTISTJSEN",
+      "top_candidate": {
+        "page_id": "515983",
+        "title": "The Theory of Moral Sentiments",
+        "bm25_score": 43.15462112426758,
+        "embed_cosine": 0.1689201337876718,
+        "rerank_logit": -6.273141384124756
+      }
+    },
+    {
+      "entry_id": "e2108-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.674 < tau -5; margin 0.024 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "1382097",
+        "title": "Cardinal-Infante Ferdinand of Austria",
+        "bm25_score": 42.302799224853516,
+        "embed_cosine": 0.1738974180571088,
+        "rerank_logit": -6.674090385437012
+      }
+    },
+    {
+      "entry_id": "e2131-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.119 < tau -5; margin 0.078 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "5803262",
+        "title": "Nagothane",
+        "bm25_score": 33.38829040527344,
+        "embed_cosine": 0.09667725465235072,
+        "rerank_logit": -6.118534088134766
+      }
+    },
+    {
+      "entry_id": "e2155-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.730 < tau -5; margin 0.463 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "2337488",
+        "title": "Edward Benlowes",
+        "bm25_score": 20.547462463378906,
+        "embed_cosine": 0.10944179176324532,
+        "rerank_logit": -9.73032283782959
+      }
+    },
+    {
+      "entry_id": "e2155-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.774 < tau -5; margin 0.080 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "4435069",
+        "title": "Outline of wine",
+        "bm25_score": 10.568452835083008,
+        "embed_cosine": 0.2074047984179805,
+        "rerank_logit": -5.774448394775391
+      }
+    },
+    {
+      "entry_id": "e2155-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.919 < tau -5; margin 0.124 < delta 0.75",
+      "headword": "EXSEARATION",
+      "top_candidate": {
+        "page_id": "39355284",
+        "title": "Karol D. Witkowski",
+        "bm25_score": 41.57278060913086,
+        "embed_cosine": 0.1587226379789053,
+        "rerank_logit": -5.919365406036377
+      }
+    },
+    {
+      "entry_id": "e2171-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.766 < tau -5; margin 0.204 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "5976304",
+        "title": "Calmness",
+        "bm25_score": 29.757343292236328,
+        "embed_cosine": 0.31596821044771856,
+        "rerank_logit": -7.765583515167236
+      }
+    },
+    {
+      "entry_id": "e2171-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.670 < tau -5",
+      "headword": "ATARNEA",
+      "top_candidate": {
+        "page_id": "8472111",
+        "title": "Atarneus",
+        "bm25_score": 25.872758865356445,
+        "embed_cosine": 0.3624658959934533,
+        "rerank_logit": -7.669558048248291
+      }
+    },
+    {
+      "entry_id": "e2171-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.097 < tau -5; margin 0.366 < delta 0.75",
+      "headword": "ATAXY",
+      "top_candidate": {
+        "page_id": "49803828",
+        "title": "Georges Dujardin-Beaumetz",
+        "bm25_score": 12.879158020019531,
+        "embed_cosine": 0.13665072021817365,
+        "rerank_logit": -9.09687328338623
+      }
+    },
+    {
+      "entry_id": "e2171-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.986 < tau -5; margin 0.421 < delta 0.75",
+      "headword": "AGCHE",
+      "top_candidate": {
+        "page_id": "204541",
+        "title": "Penny (English coin)",
+        "bm25_score": 31.478342056274414,
+        "embed_cosine": 0.2819052653377121,
+        "rerank_logit": -7.985864639282227
+      }
+    },
+    {
+      "entry_id": "e2171-06",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.531 < tau -5; margin 0.083 < delta 0.75",
+      "headword": "ATHCIEVE",
+      "top_candidate": {
+        "page_id": "30373262",
+        "title": "Rumex scutatus",
+        "bm25_score": 20.342708587646484,
+        "embed_cosine": 0.11224526703272941,
+        "rerank_logit": -10.531466484069824
+      }
+    },
+    {
+      "entry_id": "e2171-07",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.958 < tau -5",
+      "headword": "ATE",
+      "top_candidate": {
+        "page_id": "79071",
+        "title": "Ate (mythology)",
+        "bm25_score": 13.528406143188477,
+        "embed_cosine": 0.4298614993474929,
+        "rerank_logit": -5.9577131271362305
+      }
+    },
+    {
+      "entry_id": "e2171-08",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.236 < tau -5",
+      "headword": "ATEGUA",
+      "top_candidate": {
+        "page_id": "2724826",
+        "title": "List of Roman sites in Spain",
+        "bm25_score": 1.7559969425201416,
+        "embed_cosine": 0.3024780290567906,
+        "rerank_logit": -8.23576831817627
+      }
+    },
+    {
+      "entry_id": "e2171-09",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.770 < tau -5; margin 0.609 < delta 0.75",
+      "headword": "ATELLA",
+      "top_candidate": {
+        "page_id": "1190944",
+        "title": "Atella",
+        "bm25_score": 38.489845275878906,
+        "embed_cosine": 0.35757989062496487,
+        "rerank_logit": -6.769622802734375
+      }
+    },
+    {
+      "entry_id": "e2171-10",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.879 < tau -5; margin 0.027 < delta 0.75",
+      "headword": "A TEMO GUISTO",
+      "top_candidate": {
+        "page_id": "458997",
+        "title": "Flag of Costa Rica",
+        "bm25_score": 17.04961585998535,
+        "embed_cosine": 0.13483151195541748,
+        "rerank_logit": -9.879217147827148
+      }
+    },
+    {
+      "entry_id": "e2171-11",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.069 < tau -5",
+      "headword": "ATERNUM",
+      "top_candidate": {
+        "page_id": "13770710",
+        "title": "Aternum",
+        "bm25_score": 35.105979919433594,
+        "embed_cosine": 0.39263218364477026,
+        "rerank_logit": -5.068836688995361
+      }
+    },
+    {
+      "entry_id": "e2171-13",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.839 < tau -5; margin 0.071 < delta 0.75",
+      "headword": "ATHAMADULET",
+      "top_candidate": {
+        "page_id": "68264027",
+        "title": "Ministries of the Ottoman Empire",
+        "bm25_score": 39.921600341796875,
+        "embed_cosine": 0.2646702884410872,
+        "rerank_logit": -9.83917236328125
+      }
+    },
+    {
+      "entry_id": "e2171-14",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.646 < tau -5; margin 0.629 < delta 0.75",
+      "headword": "THAMANTA",
+      "top_candidate": {
+        "page_id": "74202",
+        "title": "Stork",
+        "bm25_score": 41.21343994140625,
+        "embed_cosine": 0.2534072820902509,
+        "rerank_logit": -8.645997047424316
+      }
+    },
+    {
+      "entry_id": "e2250-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.702 < tau -5; margin 0.271 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "17879896",
+        "title": "Button Islands",
+        "bm25_score": 18.362699508666992,
+        "embed_cosine": 0.18865011824336517,
+        "rerank_logit": -9.701722145080566
+      }
+    },
+    {
+      "entry_id": "e2250-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.832 < tau -5; margin 0.170 < delta 0.75",
+      "headword": "BUTZAW",
+      "top_candidate": {
+        "page_id": "67505824",
+        "title": "Flood-Medal 2013 of the State of Lower Saxony",
+        "bm25_score": 31.46267318725586,
+        "embed_cosine": 0.2602988564583837,
+        "rerank_logit": -8.832164764404297
+      }
+    },
+    {
+      "entry_id": "e2250-04",
+      "status": "rejected",
+      "reason": "rule: margin 0.688 < delta 0.75",
+      "headword": "BUXTON",
+      "top_candidate": {
+        "page_id": "124259",
+        "title": "Buxton",
+        "bm25_score": 39.535587310791016,
+        "embed_cosine": 0.415589873522227,
+        "rerank_logit": -4.076581954956055
+      }
+    },
+    {
+      "entry_id": "e2250-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.207 < tau -5; margin 0.575 < delta 0.75",
+      "headword": "BUXUS",
+      "top_candidate": {
+        "page_id": "334850",
+        "title": "Buxus",
+        "bm25_score": 46.96744155883789,
+        "embed_cosine": 0.4679044608816264,
+        "rerank_logit": -5.207379341125488
+      }
+    },
+    {
+      "entry_id": "e2250-06",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.236 < tau -5",
+      "headword": "BUS",
+      "top_candidate": {
+        "page_id": "3477262",
+        "title": "Bus (disambiguation)",
+        "bm25_score": 9.2868070602417,
+        "embed_cosine": 0.3092724343007569,
+        "rerank_logit": -7.235534191131592
+      }
+    },
+    {
+      "entry_id": "e2250-07",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.605 < tau -5",
+      "headword": "BUZZARD",
+      "top_candidate": {
+        "page_id": "220053",
+        "title": "Buzzard",
+        "bm25_score": 29.938941955566406,
+        "embed_cosine": 0.35716410242060187,
+        "rerank_logit": -5.604862689971924
+      }
+    },
+    {
+      "entry_id": "e2250-08",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.817 < tau -5; margin 0.172 < delta 0.75",
+      "headword": "BYGHOF",
+      "top_candidate": {
+        "page_id": "749822",
+        "title": "Alytus",
+        "bm25_score": 23.87455177307129,
+        "embed_cosine": 0.23253334337949536,
+        "rerank_logit": -8.816524505615234
+      }
+    },
+    {
+      "entry_id": "e2250-09",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.032 < tau -5; margin 0.121 < delta 0.75",
+      "headword": "BYLAWS",
+      "top_candidate": {
+        "page_id": "3029037",
+        "title": "Code enforcement",
+        "bm25_score": 36.93687438964844,
+        "embed_cosine": 0.1859399969571061,
+        "rerank_logit": -8.031524658203125
+      }
+    },
+    {
+      "entry_id": "e2250-10",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.037 < tau -5",
+      "headword": "BYRLAW",
+      "top_candidate": {
+        "page_id": "33796803",
+        "title": "Judiciary of Scotland",
+        "bm25_score": 30.98785972595215,
+        "embed_cosine": 0.2379860545346537,
+        "rerank_logit": -9.036566734313965
+      }
+    },
+    {
+      "entry_id": "e2250-11",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -11.369 < tau -5; margin 0.338 < delta 0.75",
+      "headword": "BYRHUS",
+      "top_candidate": {
+        "page_id": "76683358",
+        "title": "Benhamyia apicalis",
+        "bm25_score": 29.058568954467773,
+        "embed_cosine": 0.24831531881504273,
+        "rerank_logit": -11.36949634552002
+      }
+    },
+    {
+      "entry_id": "e2250-12",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.896 < tau -5",
+      "headword": "BYSUS",
+      "top_candidate": {
+        "page_id": "5042942",
+        "title": "Sea silk",
+        "bm25_score": 11.894841194152832,
+        "embed_cosine": 0.23683025977108377,
+        "rerank_logit": -8.89649772644043
+      }
+    },
+    {
+      "entry_id": "e2250-13",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.127 < tau -5; margin 0.097 < delta 0.75",
+      "headword": "BYSSSUS",
+      "top_candidate": {
+        "page_id": "31473425",
+        "title": "Clothing in ancient Egypt",
+        "bm25_score": 36.547271728515625,
+        "embed_cosine": 0.21251188687649022,
+        "rerank_logit": -10.126937866210938
+      }
+    },
+    {
+      "entry_id": "e2277-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.507 < delta 0.75",
+      "headword": "ANATOMY",
+      "top_candidate": {
+        "page_id": "103073",
+        "title": "Plexus",
+        "bm25_score": 76.01858520507812,
+        "embed_cosine": 0.3920414831660887,
+        "rerank_logit": -4.396259784698486
+      }
+    },
+    {
+      "entry_id": "e2296-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.325 < tau -5; margin 0.416 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "16225974",
+        "title": "Farthest South",
+        "bm25_score": 50.072792053222656,
+        "embed_cosine": 0.2279605896155201,
+        "rerank_logit": -5.324616432189941
+      }
+    },
+    {
+      "entry_id": "e2307-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.133 < tau -5; margin 0.076 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "29214636",
+        "title": "Capture of Algiers (1516)",
+        "bm25_score": 49.696746826171875,
+        "embed_cosine": 0.30648794846362576,
+        "rerank_logit": -6.133200645446777
+      }
+    },
+    {
+      "entry_id": "e2402-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.059 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "2260429",
+        "title": "Tail",
+        "bm25_score": 46.93681335449219,
+        "embed_cosine": 0.1380016390253022,
+        "rerank_logit": -4.45153284072876
+      }
+    },
+    {
+      "entry_id": "e2424-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.453 < tau -5; margin 0.234 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "634526",
+        "title": "Fodder",
+        "bm25_score": 40.68998336791992,
+        "embed_cosine": 0.211897861959646,
+        "rerank_logit": -6.453136920928955
+      }
+    },
+    {
+      "entry_id": "e2424-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.715 < tau -5; margin 0.023 < delta 0.75",
+      "headword": "SIEER",
+      "top_candidate": {
+        "page_id": "20944065",
+        "title": "North Country Cheviot",
+        "bm25_score": 64.55007934570312,
+        "embed_cosine": 0.20274834675547582,
+        "rerank_logit": -6.714856147766113
+      }
+    },
+    {
+      "entry_id": "e2446-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.002 < tau -5; margin 0.341 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "58727",
+        "title": "Alum",
+        "bm25_score": 40.411163330078125,
+        "embed_cosine": 0.17481085038223804,
+        "rerank_logit": -6.00179386138916
+      }
+    },
+    {
+      "entry_id": "e2448-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.201 < tau -5; margin 0.261 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "458981",
+        "title": "Daimon",
+        "bm25_score": 36.504737854003906,
+        "embed_cosine": 0.13847845293253652,
+        "rerank_logit": -6.201272487640381
+      }
+    },
+    {
+      "entry_id": "e2448-02",
+      "status": "no_candidates",
+      "reason": "rule: zero BM25 candidates for every query",
+      "headword": null,
+      "top_candidate": null
+    },
+    {
+      "entry_id": "e2464-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.437 < tau -5; margin 0.134 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "12541",
+        "title": "Gematria",
+        "bm25_score": 50.18756866455078,
+        "embed_cosine": 0.29564000067832974,
+        "rerank_logit": -8.436758041381836
+      }
+    },
+    {
+      "entry_id": "e2464-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.691 < tau -5; margin 0.571 < delta 0.75",
+      "headword": "CABBALLISTS",
+      "top_candidate": {
+        "page_id": "11018726",
+        "title": "Primary texts of Kabbalah",
+        "bm25_score": 49.36617660522461,
+        "embed_cosine": 0.3174154673723677,
+        "rerank_logit": -6.691167831420898
+      }
+    },
+    {
+      "entry_id": "e2464-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -11.712 < tau -5; margin 0.068 < delta 0.75",
+      "headword": "GABENIA",
+      "top_candidate": {
+        "page_id": "354064",
+        "title": "Batavia, Dutch East Indies",
+        "bm25_score": 32.565250396728516,
+        "embed_cosine": 0.12320830087929568,
+        "rerank_logit": -11.712181091308594
+      }
+    },
+    {
+      "entry_id": "e2464-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.522 < tau -5; margin 0.217 < delta 0.75",
+      "headword": "CABENIA",
+      "top_candidate": {
+        "page_id": "14174598",
+        "title": "Portuguese Africa",
+        "bm25_score": 25.182884216308594,
+        "embed_cosine": 0.2463648920796548,
+        "rerank_logit": -9.522322654724121
+      }
+    },
+    {
+      "entry_id": "e2464-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.791 < tau -5",
+      "headword": "CABIDOS",
+      "top_candidate": {
+        "page_id": "16040029",
+        "title": "Cabidos",
+        "bm25_score": 26.664247512817383,
+        "embed_cosine": 0.1682854298125907,
+        "rerank_logit": -8.790575981140137
+      }
+    },
+    {
+      "entry_id": "e2464-07",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.508 < tau -5; margin 0.448 < delta 0.75",
+      "headword": "CABINET",
+      "top_candidate": {
+        "page_id": "227907",
+        "title": "Cabinet",
+        "bm25_score": 9.491351127624512,
+        "embed_cosine": 0.32384754179182307,
+        "rerank_logit": -7.507552146911621
+      }
+    },
+    {
+      "entry_id": "e2464-08",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.273 < tau -5",
+      "headword": "CABIRI",
+      "top_candidate": {
+        "page_id": "82889",
+        "title": "Cabeiri",
+        "bm25_score": 7.077022075653076,
+        "embed_cosine": 0.4115378741668147,
+        "rerank_logit": -6.2729620933532715
+      }
+    },
+    {
+      "entry_id": "e2464-09",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.826 < tau -5",
+      "headword": "CABIRI",
+      "top_candidate": {
+        "page_id": "82889",
+        "title": "Cabeiri",
+        "bm25_score": 34.473289489746094,
+        "embed_cosine": 0.3185496516161665,
+        "rerank_logit": -7.826315402984619
+      }
+    },
+    {
+      "entry_id": "e2464-10",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.988 < tau -5; margin 0.443 < delta 0.75",
+      "headword": "CABILAN",
+      "top_candidate": {
+        "page_id": "1838671",
+        "title": "Gangga Negara",
+        "bm25_score": 18.85431671142578,
+        "embed_cosine": 0.30605901936573476,
+        "rerank_logit": -7.987728118896484
+      }
+    },
+    {
+      "entry_id": "e2464-11",
+      "status": "rejected",
+      "reason": "rule: margin 0.397 < delta 0.75",
+      "headword": "CABLE",
+      "top_candidate": {
+        "page_id": "1488638",
+        "title": "Cable",
+        "bm25_score": 47.2159423828125,
+        "embed_cosine": 0.30647709340572193,
+        "rerank_logit": -4.191747188568115
+      }
+    },
+    {
+      "entry_id": "e2473-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.536 < tau -5; margin 0.027 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "278003",
+        "title": "Mountain zebra",
+        "bm25_score": 41.43051528930664,
+        "embed_cosine": 0.23829418884683784,
+        "rerank_logit": -5.5363616943359375
+      }
+    },
+    {
+      "entry_id": "e2473-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.222 < tau -5; margin 0.355 < delta 0.75",
+      "headword": "ERANARCHIA",
+      "top_candidate": {
+        "page_id": "436633",
+        "title": "Almoner",
+        "bm25_score": 37.74705505371094,
+        "embed_cosine": 0.29093075221585446,
+        "rerank_logit": -9.222430229187012
+      }
+    },
+    {
+      "entry_id": "e2473-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.062 < tau -5; margin 0.328 < delta 0.75",
+      "headword": "ERANTHEUMUJ",
+      "top_candidate": {
+        "page_id": "24644644",
+        "title": "Leptagrostis",
+        "bm25_score": 26.99312973022461,
+        "embed_cosine": 0.2554472578121074,
+        "rerank_logit": -10.062365531921387
+      }
+    },
+    {
+      "entry_id": "e2473-05",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.047 < tau -5; margin 0.591 < delta 0.75",
+      "headword": "RECTION",
+      "top_candidate": {
+        "page_id": "3482238",
+        "title": "Hugh G. Rection",
+        "bm25_score": 25.165964126586914,
+        "embed_cosine": 0.15796177436605013,
+        "rerank_logit": -9.047332763671875
+      }
+    },
+    {
+      "entry_id": "e2473-10",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.938 < tau -5",
+      "headword": "ERFURT",
+      "top_candidate": {
+        "page_id": "9481",
+        "title": "Erfurt",
+        "bm25_score": 33.92092514038086,
+        "embed_cosine": 0.413600504303541,
+        "rerank_logit": -5.938031196594238
+      }
+    },
+    {
+      "entry_id": "e2473-11",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.306 < tau -5",
+      "headword": "ERGOT",
+      "top_candidate": {
+        "page_id": "21445971",
+        "title": "Ergot (horse anatomy)",
+        "bm25_score": 37.44660949707031,
+        "embed_cosine": 0.45217340560570357,
+        "rerank_logit": -7.3060383796691895
+      }
+    },
+    {
+      "entry_id": "e2473-12",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -7.188 < tau -5; margin 0.077 < delta 0.75",
+      "headword": "ERICA",
+      "top_candidate": {
+        "page_id": "59594801",
+        "title": "List of Erica species",
+        "bm25_score": 14.716669082641602,
+        "embed_cosine": 0.2989543072482999,
+        "rerank_logit": -7.187766075134277
+      }
+    },
+    {
+      "entry_id": "e2473-13",
+      "status": "rejected",
+      "reason": "rule: margin 0.135 < delta 0.75",
+      "headword": "ERIDANUS",
+      "top_candidate": {
+        "page_id": "9766",
+        "title": "Eridanus",
+        "bm25_score": 20.702051162719727,
+        "embed_cosine": 0.2883961060685592,
+        "rerank_logit": -4.601243019104004
+      }
+    },
+    {
+      "entry_id": "e2473-14",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -10.670 < tau -5; margin 0.166 < delta 0.75",
+      "headword": "ERRI",
+      "top_candidate": {
+        "page_id": "1766373",
+        "title": "Longhouses of the Indigenous peoples of North America",
+        "bm25_score": 16.361408233642578,
+        "embed_cosine": 0.13209056260322813,
+        "rerank_logit": -10.66960620880127
+      }
+    },
+    {
+      "entry_id": "e2473-15",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -9.915 < tau -5",
+      "headword": "ERGGERON",
+      "top_candidate": {
+        "page_id": "250798",
+        "title": "Geraniaceae",
+        "bm25_score": 42.357566833496094,
+        "embed_cosine": 0.2198435796255198,
+        "rerank_logit": -9.915091514587402
+      }
+    },
+    {
+      "entry_id": "e2473-16",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.025 < tau -5; margin 0.026 < delta 0.75",
+      "headword": "ERNIACEUS",
+      "top_candidate": {
+        "page_id": "70013697",
+        "title": "Erratus",
+        "bm25_score": 41.382080078125,
+        "embed_cosine": 0.20540447221059388,
+        "rerank_logit": -8.024580955505371
+      }
+    },
+    {
+      "entry_id": "e2479-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.106 < tau -5; margin 0.547 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "2391457",
+        "title": "Multiplepoinding",
+        "bm25_score": 40.45073699951172,
+        "embed_cosine": 0.2477256716015659,
+        "rerank_logit": -5.105942726135254
+      }
+    },
+    {
+      "entry_id": "e2493-01",
+      "status": "rejected",
+      "reason": "rule: margin 0.176 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "11146245",
+        "title": "Ammelide",
+        "bm25_score": 51.09270095825195,
+        "embed_cosine": 0.24271126670432344,
+        "rerank_logit": -4.989857196807861
+      }
+    },
+    {
+      "entry_id": "e2493-02",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.553 < tau -5",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "231141",
+        "title": "Sulfurous acid",
+        "bm25_score": 23.969390869140625,
+        "embed_cosine": 0.2865353170157102,
+        "rerank_logit": -5.553133010864258
+      }
+    },
+    {
+      "entry_id": "e2493-03",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.784 < tau -5; margin 0.176 < delta 0.75",
+      "headword": "CHEMISTRY",
+      "top_candidate": {
+        "page_id": "3122670",
+        "title": "Mellitic acid",
+        "bm25_score": 66.8475570678711,
+        "embed_cosine": 0.2803715182944026,
+        "rerank_logit": -5.784034729003906
+      }
+    },
+    {
+      "entry_id": "e2493-04",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -8.027 < tau -5; margin 0.158 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "5015476",
+        "title": "Nitrate test",
+        "bm25_score": 25.78241729736328,
+        "embed_cosine": 0.21676853185348227,
+        "rerank_logit": -8.027332305908203
+      }
+    },
+    {
+      "entry_id": "e2524-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -6.627 < tau -5; margin 0.054 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "725246",
+        "title": "Architecture of Lahore",
+        "bm25_score": 40.79371643066406,
+        "embed_cosine": 0.13613196627996538,
+        "rerank_logit": -6.627410888671875
+      }
+    },
+    {
+      "entry_id": "e2569-01",
+      "status": "rejected",
+      "reason": "rule: top-1 logit -5.025 < tau -5; margin 0.167 < delta 0.75",
+      "headword": null,
+      "top_candidate": {
+        "page_id": "1483621",
+        "title": "Abraha",
+        "bm25_score": 62.553321838378906,
+        "embed_cosine": 0.3754121538358819,
+        "rerank_logit": -5.02541446685791
+      }
+    }
+  ],
+  "repeated_articles": {
+    "expected": [],
+    "suspicious": []
+  },
+  "matches_rescued_by_content_query_only": 5,
+  "plates_text_vs_image": [
+    {
+      "entry_id": "e0270-01",
+      "text_top": "Plate",
+      "text_logit": -8.289440155029297,
+      "image_top": "Plate",
+      "image_logit": -2.654855728149414,
+      "same_top": true,
+      "mean_shift": 5.761
+    },
+    {
+      "entry_id": "e0948-01",
+      "text_top": "Russian monitor Lava",
+      "text_logit": -4.716058254241943,
+      "image_top": "Russian monitor Lava",
+      "image_logit": -3.3649988174438477,
+      "same_top": true,
+      "mean_shift": 3.178
+    },
+    {
+      "entry_id": "e1400-01",
+      "text_top": "Robert Bland",
+      "text_logit": -6.088539123535156,
+      "image_top": "Midwife",
+      "image_logit": -1.7984446287155151,
+      "same_top": false,
+      "mean_shift": 4.738
+    },
+    {
+      "entry_id": "e1845-01",
+      "text_top": "XVII Reserve Corps (German Empire)",
+      "text_logit": -1.4336261749267578,
+      "image_top": "XVII Reserve Corps (German Empire)",
+      "image_logit": -2.6589016914367676,
+      "same_top": true,
+      "mean_shift": -0.292
+    },
+    {
+      "entry_id": "e2155-02",
+      "text_top": "Outline of wine",
+      "text_logit": -5.774448394775391,
+      "image_top": "Wine (disambiguation)",
+      "image_logit": -3.108071804046631,
+      "same_top": false,
+      "mean_shift": 2.884
+    },
+    {
+      "entry_id": "e2209-01",
+      "text_top": "Plate",
+      "text_logit": -4.26576042175293,
+      "image_top": "Plate",
+      "image_logit": -2.936567783355713,
+      "same_top": true,
+      "mean_shift": 2.971
+    },
+    {
+      "entry_id": "e2493-02",
+      "text_top": "Sulfurous acid",
+      "text_logit": -5.553133010864258,
+      "image_top": "Sulfurous acid",
+      "image_logit": -0.7086529731750488,
+      "same_top": true,
+      "mean_shift": 6.237
+    },
+    {
+      "entry_id": "e2493-04",
+      "text_top": "Nitrate test",
+      "text_logit": -8.027332305908203,
+      "image_top": "Nitrate test",
+      "image_logit": -2.7849936485290527,
+      "same_top": true,
+      "mean_shift": 5.224
+    }
+  ],
+  "calibration": {
+    "labels_file": "artifacts/match/labels.csv",
+    "labeled": 30,
+    "labeled_top1_correct": 12,
+    "min_precision": 0.9,
+    "chosen": {
+      "tau": -5.0,
+      "delta": 0.75,
+      "tp": 9,
+      "fp": 0,
+      "fn": 3,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.75,
+      "accepted": 9
+    },
+    "default_rule": {
+      "tau": 2.1,
+      "delta": 0.4,
+      "tp": 0,
+      "fp": 0,
+      "fn": 12,
+      "tn": 18,
+      "precision": 1.0,
+      "recall": 0.0,
+      "accepted": 0
+    },
+    "grid_top": [
+      {
+        "tau": -6.5,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "tn": 18,
+        "precision": 1.0,
+        "recall": 0.75,
+        "accepted": 9
+      },
+      {
+        "tau": -6.25,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "tn": 18,
+        "precision": 1.0,
+        "recall": 0.75,
+        "accepted": 9
+      },
+      {
+        "tau": -6.0,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "tn": 18,
+        "precision": 1.0,
+        "recall": 0.75,
+        "accepted": 9
+      },
+      {
+        "tau": -5.75,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "tn": 18,
+        "precision": 1.0,
+        "recall": 0.75,
+        "accepted": 9
+      },
+      {
+        "tau": -5.5,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "tn": 18,
+        "precision": 1.0,
+        "recall": 0.75,
+        "accepted": 9
+      },
+      {
+        "tau": -5.25,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "tn": 18,
+        "precision": 1.0,
+        "recall": 0.75,
+        "accepted": 9
+      },
+      {
+        "tau": -5.0,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "tn": 18,
+        "precision": 1.0,
+        "recall": 0.75,
+        "accepted": 9
+      },
+      {
+        "tau": -9.0,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 1,
+        "fn": 3,
+        "tn": 17,
+        "precision": 0.9,
+        "recall": 0.75,
+        "accepted": 10
+      },
+      {
+        "tau": -8.75,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 1,
+        "fn": 3,
+        "tn": 17,
+        "precision": 0.9,
+        "recall": 0.75,
+        "accepted": 10
+      },
+      {
+        "tau": -8.5,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 1,
+        "fn": 3,
+        "tn": 17,
+        "precision": 0.9,
+        "recall": 0.75,
+        "accepted": 10
+      },
+      {
+        "tau": -8.25,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 1,
+        "fn": 3,
+        "tn": 17,
+        "precision": 0.9,
+        "recall": 0.75,
+        "accepted": 10
+      },
+      {
+        "tau": -8.0,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 1,
+        "fn": 3,
+        "tn": 17,
+        "precision": 0.9,
+        "recall": 0.75,
+        "accepted": 10
+      },
+      {
+        "tau": -7.75,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 1,
+        "fn": 3,
+        "tn": 17,
+        "precision": 0.9,
+        "recall": 0.75,
+        "accepted": 10
+      },
+      {
+        "tau": -7.5,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 1,
+        "fn": 3,
+        "tn": 17,
+        "precision": 0.9,
+        "recall": 0.75,
+        "accepted": 10
+      },
+      {
+        "tau": -7.25,
+        "delta": 0.75,
+        "tp": 9,
+        "fp": 1,
+        "fn": 3,
+        "tn": 17,
+        "precision": 0.9,
+        "recall": 0.75,
+        "accepted": 10
+      }
+    ],
+    "note": "Precision counts an accepted match as correct only when its page_id equals the labeled correct_page_id. A relevance score never proves factual agreement."
+  },
+  "ablation": {
+    "labeled": 30,
+    "methods": {
+      "bm25_only": {
+        "top1_correct": 2,
+        "top1_accuracy": 0.067
+      },
+      "bm25_embed": {
+        "top1_correct": 6,
+        "top1_accuracy": 0.2
+      },
+      "bm25_embed_rerank": {
+        "top1_correct": 12,
+        "top1_accuracy": 0.4
+      }
+    },
+    "note": "Top-1 accuracy on the labeled sample for the candidate ranked first by BM25 score, by embedding cosine, and by reranker logit. Candidates are the same pooled BM25 set in all three rows."
+  },
+  "failures": [],
+  "summary": {
+    "entries_seen": 270,
+    "status_counts": {
+      "matched": 22,
+      "rejected": 226,
+      "no_candidates": 12,
+      "skipped": 10
+    },
+    "distinct_articles": 22,
+    "repeated_articles": 0,
+    "candidates_per_entry_mean": 27.94,
+    "calls": {
+      "search_calls": 546,
+      "search_cached": 2,
+      "embed_calls": 892,
+      "rerank_calls": 256,
+      "embed_query_chars": 1499,
+      "rerank_query_chars": 1993,
+      "article_fetches": 22
+    },
+    "failed_calls": [],
+    "method_version": "m1-tau=-5-delta=0.75",
+    "articles_fetched": 22,
+    "store_counts": {
+      "entries": 248,
+      "articles": 22
+    },
+    "elapsed_seconds": 855.4,
+    "outputs": {
+      "matches.jsonl": "artifacts/match/matches.jsonl",
+      "candidates.jsonl": "artifacts/match/candidates.jsonl",
+      "report.json": "artifacts/match/report.json",
+      "REPORT.md": "artifacts/match/REPORT.md",
+      "articles.jsonl": "artifacts/match/articles.jsonl"
+    }
+  }
+}

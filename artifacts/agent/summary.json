@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "questions": 4,
+  "completed": [
+    {
+      "run_id": "run-20261018T145107Z-q03-buttress",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "finish_reason": "stop",
+      "tool_calls": 3,
+      "tool_errors": 0,
+      "citations": 4
+    },
+    {
+      "run_id": "run-20261018T145107Z-q04-oratory",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "finish_reason": "stop",
+      "tool_calls": 3,
+      "tool_errors": 0,
+      "citations": 2
+    },
+    {
+      "run_id": "run-20261018T145107Z-q05-huguenots",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "finish_reason": "stop",
+      "tool_calls": 3,
+      "tool_errors": 0,
+      "citations": 2
+    },
+    {
+      "run_id": "run-20261018T145107Z-q08-steam-engine-absent",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "finish_reason": "stop",
+      "tool_calls": 4,
+      "tool_errors": 0,
+      "citations": 1
+    }
+  ],
+  "failed": [],
+  "hermes_version": "Hermes Agent v0.19.0 (2026.7.20); stage loop via ChatClient",
+  "code_revision": "d0d0b26dfd89609e3bb40ac51d157fafcd565e92",
+  "outputs": {
+    "runs": "artifacts/agent/runs",
+    "raw": "artifacts/agent/raw",
+    "failed": "artifacts/agent/failed"
+  },
+  "next": "review each run, then: uv run python scripts/label_runs.py <run_id> success|failure \"reason\""
+}

@@ -94,7 +94,8 @@ def _display_path(path: Path) -> str:
 
 
 def build_case(*, case_id: str, run: RunRecord, run_path: Path, entries: list[EntryRecord],
-               matches: list[MatchRecord], chain: tuple[list[str], str | None]) -> CaseStudy:
+               matches: list[MatchRecord], chain: tuple[list[str], str | None],
+               articles_dir: Path | None = None) -> CaseStudy:
     earlier, repaired_by = chain
     assert run.label in LABELS
     return CaseStudy(
@@ -112,7 +113,7 @@ def build_case(*, case_id: str, run: RunRecord, run_path: Path, entries: list[En
         tool_errors=sum(1 for call in run.tool_calls if call.error),
         finish_reason=run.finish_reason,
         review_notes=run.notes,
-        checks=run_checks(run, entries, matches),
+        checks=run_checks(run, entries, matches, articles_dir),
         earlier_attempts=earlier,
         repaired_by=repaired_by,
         case_path=f"cases/{case_id}.md",
@@ -153,7 +154,8 @@ def evaluate(inputs_dir: Path, repo_dir: Path, fixture_inputs: bool) -> Evaluati
         selected[label] = len(picked)
         for number, run in enumerate(picked, start=1):
             cases.append(build_case(case_id=f"case-{label}-{number}", run=run, run_path=paths[run.run_id],
-                                    entries=entries, matches=matches, chain=chains[run.run_id]))
+                                    entries=entries, matches=matches, chain=chains[run.run_id],
+                                    articles_dir=inputs_dir / "match" / "cache" / "articles"))
     missing = {label: REQUIRED_PER_LABEL - selected[label] for label in LABELS}
     unreviewed = sorted(run.run_id for run in runs if run.label == "unreviewed")
     chosen_ids = {case.run_id for case in cases}

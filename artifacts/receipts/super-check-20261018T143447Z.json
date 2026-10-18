@@ -1,0 +1,97 @@
+{
+  "checked_at": "2026-10-18T14:34:47+00:00",
+  "base_url": "https://api.tokenfactory.nebius.com/v1",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "passed": true,
+  "checks": [
+    {
+      "name": "catalog",
+      "status": "pass",
+      "seconds": 0.17,
+      "model": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    {
+      "name": "text",
+      "status": "pass",
+      "seconds": 0.54,
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 24,
+        "total_tokens": 62,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 34,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0,
+          "created_cache_tokens": 0,
+          "multimodal_tokens": null
+        }
+      },
+      "excerpt": "READY"
+    },
+    {
+      "name": "tool_call",
+      "status": "pass",
+      "seconds": 0.65,
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "finish_reason": "tool_calls",
+      "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 299,
+        "total_tokens": 359,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 31,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0,
+          "created_cache_tokens": 0,
+          "multimodal_tokens": null
+        }
+      },
+      "excerpt": "",
+      "tool": "lookup_entry",
+      "arguments": {
+        "headword": "OPTICS"
+      }
+    },
+    {
+      "name": "vision",
+      "status": "pass",
+      "seconds": 3.86,
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 1002,
+        "prompt_tokens": 537,
+        "total_tokens": 1539,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 995,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0,
+          "created_cache_tokens": 0,
+          "multimodal_tokens": {
+            "image": 496
+          }
+        }
+      },
+      "excerpt": "SHIP-BUILDING",
+      "scan_file": "page-0013-50049db49e8b.jpg",
+      "scan_sha256": "50049db49e8b83dc59735eae8cc35e6df733062d4bcb07c5cb4663d51cade012"
+    }
+  ]
+}

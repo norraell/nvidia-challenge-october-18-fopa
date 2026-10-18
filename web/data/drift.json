@@ -1,44 +1,3578 @@
 {
-  "method": "token_log_ratio",
-  "exclusions": [
-    "low_quality"
-  ],
-  "pairs_used": 3,
-  "brit_tokens": 1540,
-  "wiki_tokens": 2200,
+  "method": "token_log_ratio_min_3x_entry_length",
+  "exclusions": [],
+  "pairs_used": 22,
+  "brit_tokens": 1648,
+  "wiki_tokens": 3695,
   "terms": [
     {
-      "term": "quicksilver",
-      "brit_count": 8,
-      "wiki_count": 1,
-      "brit_per_10k": 51.95,
-      "wiki_per_10k": 4.55,
-      "log_ratio": 3.39,
+      "term": "abdomen",
+      "brit_count": 5,
+      "wiki_count": 0,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 5.95,
       "brit_example": {
-        "entry_id": "e0104-01",
-        "quote": "constructed with a column of quicksilver"
+        "entry_id": "e0261-02",
+        "quote": "Marked with triangular black spots on the back of torantsis, the abdomen; the legs spotted with black."
       },
       "wiki_example": {
-        "page_id": "3845",
-        "revision_id": "12490182",
-        "quote": "Historically known as quicksilver, mercury fills the column"
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
       }
     },
     {
-      "term": "atmosphere",
-      "brit_count": 12,
-      "wiki_count": 15,
-      "brit_per_10k": 77.92,
-      "wiki_per_10k": 68.18,
-      "log_ratio": 0.19,
+      "term": "according",
+      "brit_count": 2,
+      "wiki_count": 3,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 0.55,
       "brit_example": {
-        "entry_id": "e0104-01",
-        "quote": "measuring the weight and pressure of the atmosphere"
+        "entry_id": "e0258-03",
+        "quote": "He appropriated a room as an contrary for driven revoc according to the church of England, whether end of the loyalists in Oxford only without."
       },
       "wiki_example": {
-        "page_id": "3845",
-        "revision_id": "12490182",
-        "quote": "measuring pressure exerted by the atmosphere"
+        "page_id": "996527",
+        "revision_id": "1353828824",
+        "quote": "He was consul in the year of Nero's death (AD 68), and afterward became a close friend and ally of the emperor Vitellius, whom he served, according to Pliny, \" sapienter et comiter \" (\"wisely and amicably\")."
+      }
+    },
+    {
+      "term": "across",
+      "brit_count": 1,
+      "wiki_count": 6,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -1.35,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "As he role early in the morning, that the maybe he pointed across foreign forces, which conclually frequested before he vifited his patients, he procured prayers to be read beyond the secundance times while he lives and at his death settled a ifgood of such pernum to continue them."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "It was located on high ground about halfway across the Virginia Peninsula between the James River and York River."
+      }
+    },
+    {
+      "term": "alps",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is geographically divided among the Swiss Alps, the Swiss Plateau, and the Jura Mountains; the Alps cover most of the country's territory, whereas the majority of its 9 million people are concentrated on the plateau, which hosts many of the largest cities and economic centres, including Zurich, Geneva, Basel, Bern, Lausanne, Winterthur, and Lucerne."
+      }
+    },
+    {
+      "term": "among",
+      "brit_count": 4,
+      "wiki_count": 8,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 21.65,
+      "log_ratio": 0.16,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "There are also foc\u00e9este among them for the improvement of the German language and the fiecences."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is geographically divided among the Swiss Alps, the Swiss Plateau, and the Jura Mountains; the Alps cover most of the country's territory, whereas the majority of its 9 million people are concentrated on the plateau, which hosts many of the largest cities and economic centres, including Zurich, Geneva, Basel, Bern, Lausanne, Winterthur, and Lucerne."
+      }
+    },
+    {
+      "term": "ancient",
+      "brit_count": 2,
+      "wiki_count": 6,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -0.41,
+      "brit_example": {
+        "entry_id": "e1327-03",
+        "quote": "HUESCA, on ancient and considerable towns of Spain, in the kingdom of Granada, fieldsed on a plain in W."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Entomology, from Ancient Greek \u1f14\u03bd\u03c4\u03bf\u03bc\u03bf\u03bd (\u00e9ntomon), meaning \"insect\", and \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos), meaning \"study\", is the branch of zoology that focuses on insects."
+      }
+    },
+    {
+      "term": "archer",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation's growth was encouraged by the completion in 1634 of a continuous fortification, or palisade, across the peninsula a distance of about 6 miles (10 km) between Archer's Hope Creek (later renamed College Creek), which drained southerly to the James River and Queen's Creek, which drained northerly to the York River."
+      }
+    },
+    {
+      "term": "area",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It is a founding member of the European Free Trade Association (EFTA) and participates in the European single market and the Schengen Area."
+      }
+    },
+    {
+      "term": "around",
+      "brit_count": 1,
+      "wiki_count": 11,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 29.77,
+      "log_ratio": -2.2,
+      "brit_example": {
+        "entry_id": "e2250-02",
+        "quote": "They are also placed for a lupport and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbys, cz."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The oldest known farming settlements in Switzerland, which were found at G\u00e4chlingen, date to around 5300 BC."
+      }
+    },
+    {
+      "term": "assembly",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "It was established by an Act of Assembly to provide a link between Jamestown and Chiskiack, a settlement located across the Peninsula on the York River."
+      }
+    },
+    {
+      "term": "athanasia",
+      "brit_count": 1,
+      "wiki_count": 41,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 110.96,
+      "log_ratio": -4.08,
+      "brit_example": {
+        "entry_id": "e2171-15",
+        "quote": "ATHANASIA, GOLDLOCKS, a genus of the polygania aqualia order, belonging to the fyngeneria class of plants."
+      },
+      "wiki_example": {
+        "page_id": "24729562",
+        "revision_id": "1344584892",
+        "quote": "Athanasia is a genus of flowering plants in the daisy family."
+      }
+    },
+    {
+      "term": "back",
+      "brit_count": 4,
+      "wiki_count": 4,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 1.13,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "Eyes placed thus, : Black, thorax marked with a white line on the back\\* density 79."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The Latin name Confoederatio Helvetica was neologised and introduced gradually after the formation of the federal state in 1848, harking back to the Napoleonic Helvetic Republic."
+      }
+    },
+    {
+      "term": "became",
+      "brit_count": 3,
+      "wiki_count": 12,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 32.48,
+      "log_ratio": -0.82,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "In 1604, he became Seeldian profiler of natural philosophy, and the fame year took the degree of dochor of phyfe."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The area occupied by the Helvetii first became part of Rome's Gallia Belgica province and then of its Germania Superior province."
+      }
+    },
+    {
+      "term": "become",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "By September, 1632, population on the south side of the York River had become considerable enough to claim two representatives in the General Assembly."
+      }
+    },
+    {
+      "term": "began",
+      "brit_count": 1,
+      "wiki_count": 5,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -1.1,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "Go am I.\u2019 Where fenestens could wish the word with which it began, it is called _spanialphs_."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The Swiss began to adopt the name for themselves after the Swabian War of 1499, used alongside the term for \"Confederates\", Eidgenossen (literally: comrades by oath), used since the 14th century."
+      }
+    },
+    {
+      "term": "behavior",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "These individuals also have to \"agree to ascribe to a code of ethical behavior\" (ESA Certification Corporation)."
+      }
+    },
+    {
+      "term": "black",
+      "brit_count": 9,
+      "wiki_count": 0,
+      "brit_per_10k": 54.61,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 6.78,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "In form of the above manufacture, and in dieels, butter, fleep, horfes, black cattle, hides, and flans, the experts are considerable and as the imports of the chiely granulated fish, with some Americans at Arielie goods, there is probably a large balance in their favour."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "blood",
+      "brit_count": 5,
+      "wiki_count": 0,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 5.95,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "It is a native of South America, among others, where a preys upon the larger insects, and even small birds, dropping into their nests, and sucking their blood and legs; it is of so enormous a size, that its flag may be compared to the latons of a havk, and its eyes are very large."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "branches",
+      "brit_count": 6,
+      "wiki_count": 0,
+      "brit_per_10k": 36.41,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 6.21,
+      "brit_example": {
+        "entry_id": "e2171-15",
+        "quote": "It rises three or four feet high, finding out many fine branches garnished with pretty long narrow leaves, having form resemblance to thole of buckthown plannian."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "built",
+      "brit_count": 3,
+      "wiki_count": 9,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -0.41,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "It was built by Willimpin price of Oman in 1583 I and in 1733 included to the flashside of Erland."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The Empire built another line of defence at the north border (the so-called Donau-Iller-Rhine-Limes)."
+      }
+    },
+    {
+      "term": "buttress",
+      "brit_count": 1,
+      "wiki_count": 8,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -1.75,
+      "brit_example": {
+        "entry_id": "e2250-02",
+        "quote": "BUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flapper the fides of a building, wall, 6e, on the outside, where it is either very high, or has any considerable load to fultain on the other fide, as a bank of earth, eC Butteflies are used against the angles of fleeples and other buildings of flone, 6e, on the confiile, and along the walls of fuch buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no butteffes were placed againft them."
+      },
+      "wiki_example": {
+        "page_id": "663464",
+        "revision_id": "1346148586",
+        "quote": "A buttress is an architectural structure built against or projecting from a wall which serves to support or reinforce the wall."
+      }
+    },
+    {
+      "term": "buttresses",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "663464",
+        "revision_id": "1346148586",
+        "quote": "Buttresses are fairly common on more ancient (typically Gothic) buildings, as a means of providing support to act against the lateral (sideways) forces arising out of inadequately braced roof structures."
+      }
+    },
+    {
+      "term": "cabin",
+      "brit_count": 2,
+      "wiki_count": 9,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -0.98,
+      "brit_example": {
+        "entry_id": "e2464-06",
+        "quote": "CABIN, in the fea-language, a final room, or apartment, whereby there are a great many in fewelful parts of a flip, particularly on the quarter-deck, and on each side of the fleerage, for the officers of the flip to lie in."
+      },
+      "wiki_example": {
+        "page_id": "1468228",
+        "revision_id": "1326520528",
+        "quote": "A cabin or berthing is an enclosed space generally on a ship or an aircraft."
+      }
+    },
+    {
+      "term": "called",
+      "brit_count": 4,
+      "wiki_count": 9,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -0.0,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "The river near which it is built is called _Butterliot or Holland Day_ , and is one of the bulwals of the Dutch on the life of Pakistan, where they always keep a garrition."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Sometime around the start of the Common Era, the Romans maintained a large camp called Vindonissa, now a ruin at the confluence of the Aare and Reuss rivers, near the town of Windisch."
+      }
+    },
+    {
+      "term": "cantons",
+      "brit_count": 8,
+      "wiki_count": 3,
+      "brit_per_10k": 48.54,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 2.51,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The refl of the Swifs cantons, allies and dependents are People for the dejection of words there is an univerfly at Bali, and scadoniais e zur\u00fccke, Beren, Lauderians and Geneva, heldes gymnaliums and \u00e9chelle illulites, both in the Ripih and Decerbat cantons."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is a federal republic composed of 26 cantons, with Bern serving as the federal city and the seat of the national government."
+      }
+    },
+    {
+      "term": "capital",
+      "brit_count": 1,
+      "wiki_count": 5,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -1.1,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "WILLLAMSBURG, e town of North America, in Virginia, and formerly capital of that fact."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "After serving as a temporary meeting place several times during contingencies of the 17th century when the Capital of the Colony had been located at Jamestown, Middle Plantation became the new Capital of the Virginia Colony in 1699."
+      }
+    },
+    {
+      "term": "captain",
+      "brit_count": 1,
+      "wiki_count": 7,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -1.57,
+      "brit_example": {
+        "entry_id": "e2464-06",
+        "quote": "The great cabin is the chief of \u2019all, and that which properly belongs to the captain, or chief commander."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Years later, Captain Nicholas Martiau, a French engineer employed by the colony, patented the land embracing the site of Yorktown."
+      }
+    },
+    {
+      "term": "century",
+      "brit_count": 0,
+      "wiki_count": 16,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 43.3,
+      "log_ratio": -6.45,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland has maintained a policy of armed neutrality since the 16th century and has not fought an international war since 1815."
+      }
+    },
+    {
+      "term": "certification",
+      "brit_count": 0,
+      "wiki_count": 10,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 27.06,
+      "log_ratio": -5.78,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "In 1994, the Entomological Society of America launched a new professional certification program for the pest control industry called the Associate Certified Entomologist (ACE)."
+      }
+    },
+    {
+      "term": "certified",
+      "brit_count": 0,
+      "wiki_count": 7,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -5.28,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "In 1994, the Entomological Society of America launched a new professional certification program for the pest control industry called the Associate Certified Entomologist (ACE)."
+      }
+    },
+    {
+      "term": "chief",
+      "brit_count": 3,
+      "wiki_count": 4,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 0.72,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "The distance of each landing place is about a mile from the town, which, with the chief advantage of not being able to bring large wells, and she want of enterprin in the inhabitants, has occhedinal as decay."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "At that time, the Chief of the Powhatan Confederacy, Opechancanough, was captured."
+      }
+    },
+    {
+      "term": "chiskiack",
+      "brit_count": 0,
+      "wiki_count": 10,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 27.06,
+      "log_ratio": -5.78,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "It was established by an Act of Assembly to provide a link between Jamestown and Chiskiack, a settlement located across the Peninsula on the York River."
+      }
+    },
+    {
+      "term": "church",
+      "brit_count": 3,
+      "wiki_count": 2,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 5.41,
+      "log_ratio": 1.66,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The public revenues are in general very incredible, arising chiefly from the usual regular, appropriated every where to the foreignee, the domestic, and they gradually, voluntary contributions, the fate of falls, and a land tax; in the Protected cantons, from the church lands alto that were fored at the Reforation."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "As the small town grew, a new Bruton Parish Church was constructed there."
+      }
+    },
+    {
+      "term": "city",
+      "brit_count": 3,
+      "wiki_count": 8,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -0.24,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The women are fail to be generally headline and well-disped, reliable and modelly transk, city, and vascade the conversation."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is a federal republic composed of 26 cantons, with Bern serving as the federal city and the seat of the national government."
+      }
+    },
+    {
+      "term": "code",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It appeared on coins from 1879, inscribed on the Federal Palace in 1902 and after 1948 used in the official seal (e.g., the ISO banking code \"CHF\" for the Swiss franc, the Swiss postage stamps ('HELVETIA') and the country top-level domain \".ch\", are both taken from the state's Latin name)."
+      }
+    },
+    {
+      "term": "college",
+      "brit_count": 2,
+      "wiki_count": 4,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 0.16,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "Here is a college, designed for the education of the Indians, but which, as account of their services to learning, overau-fered the purple."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation's growth was encouraged by the completion in 1634 of a continuous fortification, or palisade, across the peninsula a distance of about 6 miles (10 km) between Archer's Hope Creek (later renamed College Creek), which drained southerly to the James River and Queen's Creek, which drained northerly to the York River."
+      }
+    },
+    {
+      "term": "colony",
+      "brit_count": 1,
+      "wiki_count": 9,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -1.92,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "As in Cicero's commenting Cofar: \" We have few your colony remained by the way, your own lived in the city we have not femen.\" Hermogenes calls this * circle, because the fenestence returna on the fame work, as that converted figure is formed by the orbicular motion of a line to the fame points."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation in the Virginia Colony was the unincorporated town established in 1632 that became Williamsburg in 1699."
+      }
+    },
+    {
+      "term": "common",
+      "brit_count": 0,
+      "wiki_count": 9,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -5.64,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Swiss national identity nonetheless remains fairly cohesive, rooted in a shared historical background, common values such as federalism and direct democracy, and Alpine symbolism."
+      }
+    },
+    {
+      "term": "confederacy",
+      "brit_count": 0,
+      "wiki_count": 7,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -5.28,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The country originates from the Old Swiss Confederacy established in the Late Middle Ages as a defensive and commercial alliance; the Federal Charter of 1291 is considered the country's founding document."
+      }
+    },
+    {
+      "term": "confederation",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe."
+      }
+    },
+    {
+      "term": "considerable",
+      "brit_count": 3,
+      "wiki_count": 2,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 5.41,
+      "log_ratio": 1.66,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "In form of the above manufacture, and in dieels, butter, fleep, horfes, black cattle, hides, and flans, the experts are considerable and as the imports of the chiely granulated fish, with some Americans at Arielie goods, there is probably a large balance in their favour."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "By September, 1632, population on the south side of the York River had become considerable enough to claim two representatives in the General Assembly."
+      }
+    },
+    {
+      "term": "corporation",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "These different programs are known as Public Health Entomology (PHE), Certified IPM Technicians (CITs), and Board Certified Entomologists (BCEs) (ESA Certification Corporation)."
+      }
+    },
+    {
+      "term": "country",
+      "brit_count": 3,
+      "wiki_count": 10,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 27.06,
+      "log_ratio": -0.56,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "parts of the country that border on Italy or France, a cortune French in Italian prevails."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe."
+      }
+    },
+    {
+      "term": "creek",
+      "brit_count": 0,
+      "wiki_count": 17,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 46.01,
+      "log_ratio": -6.54,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation's growth was encouraged by the completion in 1634 of a continuous fortification, or palisade, across the peninsula a distance of about 6 miles (10 km) between Archer's Hope Creek (later renamed College Creek), which drained southerly to the James River and Queen's Creek, which drained northerly to the York River."
+      }
+    },
+    {
+      "term": "day",
+      "brit_count": 2,
+      "wiki_count": 8,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -0.81,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "They mult all provide therefore with arms, clothing, and word traumatic, and appear on the dateted day for exercise, and the feronal cantons and dirithate mult he furished with a futitic ent train of artilities, and all its other implementos of war."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "After Orgetorix's mysterious death, the tribe continued their migration but was decisively defeated by Julius Caesar's armies at the Battle of Bibracte, in present-day eastern France."
+      }
+    },
+    {
+      "term": "derived",
+      "brit_count": 1,
+      "wiki_count": 5,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -1.1,
+      "brit_example": {
+        "entry_id": "e2001-06",
+        "quote": "He was born in the reign of Thierius, and is fogoped to have derived the name of _Italica_ from the place of his birth; but whether he was born at Italica in Spain, or at Cerdinam in Italy, which, according to Scheba, had the name of _Italica_ given it during the Social war, is a point which cannot be known: though, it is his first had happened at either of those places, the grammarina would tell us, that he found have been called _Italicaeta_, and wol _Italica_."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The ISO 3166-1 data codes for Switzerland, CH and CHE, are derived from Latin Confoederatio Helvetica (Helvetic Confederation)."
+      }
+    },
+    {
+      "term": "developed",
+      "brit_count": 0,
+      "wiki_count": 7,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -5.28,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is among the world's most developed countries, with the highest nominal wealth per adult and the eighth-highest gross domestic product (GDP) per capita."
+      }
+    },
+    {
+      "term": "died",
+      "brit_count": 3,
+      "wiki_count": 2,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 5.41,
+      "log_ratio": 1.66,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "His wife allo boating under the frame different the areas of providing for his family, died in 1670."
+      },
+      "wiki_example": {
+        "page_id": "175519",
+        "revision_id": "1353158843",
+        "quote": "Escheat / \u026a s \u02c8 t\u0283 i\u02d0 t / (from Latin excidere ' fall away ') is a common law doctrine that transfers the real property of a person who has died without heirs to the government, or in the United Kingdom, crown."
+      }
+    },
+    {
+      "term": "divided",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is geographically divided among the Swiss Alps, the Swiss Plateau, and the Jura Mountains; the Alps cover most of the country's territory, whereas the majority of its 9 million people are concentrated on the plateau, which hosts many of the largest cities and economic centres, including Zurich, Geneva, Basel, Bern, Lausanne, Winterthur, and Lucerne."
+      }
+    },
+    {
+      "term": "early",
+      "brit_count": 2,
+      "wiki_count": 12,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 32.48,
+      "log_ratio": -1.38,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "As he role early in the morning, that the maybe he pointed across foreign forces, which conclually frequested before he vifited his patients, he procured prayers to be read beyond the secundance times while he lives and at his death settled a ifgood of such pernum to continue them."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The confederation was among the first and few republics of the early modern period, and the only one besides San Marino to survive the Napoleonic Wars."
+      }
+    },
+    {
+      "term": "east",
+      "brit_count": 1,
+      "wiki_count": 6,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -1.35,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "It is 60 miles east of Richmond."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It is bordered by Germany to the north, France to the west, Austria and Liechtenstein to the east, and Italy to the south."
+      }
+    },
+    {
+      "term": "eastern",
+      "brit_count": 1,
+      "wiki_count": 6,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -1.35,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The Switect of the fereral cantons are allowed to engage in the ferice of fuch foreign princes and flatters are in aliance with their eastern or with whom they have made a prevous agreement."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "One of the most prominent La T\u00e8ne tribes were the Helvetii, who primarily occupied the Swiss Plateau, alongside the Rhaetians in the eastern regions."
+      }
+    },
+    {
+      "term": "empire",
+      "brit_count": 1,
+      "wiki_count": 9,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -1.92,
+      "brit_example": {
+        "entry_id": "e2001-06",
+        "quote": "SILLIUS TALIOLOS, CAUS, an ancient Roman poet, and author of an epic poem in 17 books, which con-tains an hilloy of the second Ponte was, to famous for having decided the empire of the world in favour of the Romanes."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Swiss independence from the Holy Roman Empire was formally recognized in the Peace of Westphalia in 1648."
+      }
+    },
+    {
+      "term": "end",
+      "brit_count": 3,
+      "wiki_count": 3,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.12,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "He appropriated a room as an contrary for driven revoc according to the church of England, whether end of the loyalists in Oxford only without."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "At the end of the fourth century, the increased Germanic pressure forced the Romans to abandon the linear defence concept."
+      }
+    },
+    {
+      "term": "england",
+      "brit_count": 1,
+      "wiki_count": 6,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -1.35,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "He appropriated a room as an contrary for driven revoc according to the church of England, whether end of the loyalists in Oxford only without."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Colonel John Page, a merchant who had emigrated from Middlesex, England with his wife Alice Lucken Page in 1650, was largely responsible for building Middle Plantation into a substantial town."
+      }
+    },
+    {
+      "term": "english",
+      "brit_count": 1,
+      "wiki_count": 7,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -1.57,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "WILLINS (D Thomas), a celebrated English Myckling, was born at Great Bodwin, in WildHere, in 1611, and fludied at Chrift-church college, Oxford."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The English name Switzerland compounds Switzer, an obsolete term for a Swiss person which was in use during the 16th to 19th centuries, with the common English suffix -land denoting a region or country."
+      }
+    },
+    {
+      "term": "entomological",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Early entomological works associated with the naming and classification of species followed the practice of maintaining cabinets of curiosity, predominantly in Europe."
+      }
+    },
+    {
+      "term": "entomologists",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Those who study entomology are known as entomologists."
+      }
+    },
+    {
+      "term": "entomology",
+      "brit_count": 1,
+      "wiki_count": 17,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 46.01,
+      "log_ratio": -2.82,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "ENTOMOLOGY."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Entomology, from Ancient Greek \u1f14\u03bd\u03c4\u03bf\u03bc\u03bf\u03bd (\u00e9ntomon), meaning \"insect\", and \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos), meaning \"study\", is the branch of zoology that focuses on insects."
+      }
+    },
+    {
+      "term": "era",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The name Helvetica is derived from the Helvetii, a Gaulish tribe living on the Swiss Plateau before the Roman era."
+      }
+    },
+    {
+      "term": "esa",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "These different programs are known as Public Health Entomology (PHE), Certified IPM Technicians (CITs), and Board Certified Entomologists (BCEs) (ESA Certification Corporation)."
+      }
+    },
+    {
+      "term": "escheat",
+      "brit_count": 1,
+      "wiki_count": 5,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -1.1,
+      "brit_example": {
+        "entry_id": "e1473-08",
+        "quote": "ESCHEAT, in law, signifies any lands or tenparts that cafinally fail to a Lord within his manor."
+      },
+      "wiki_example": {
+        "page_id": "175519",
+        "revision_id": "1353158843",
+        "quote": "Escheat / \u026a s \u02c8 t\u0283 i\u02d0 t / (from Latin excidere ' fall away ') is a common law doctrine that transfers the real property of a person who has died without heirs to the government, or in the United Kingdom, crown."
+      }
+    },
+    {
+      "term": "established",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The country originates from the Old Swiss Confederacy established in the Late Middle Ages as a defensive and commercial alliance; the Federal Charter of 1291 is considered the country's founding document."
+      }
+    },
+    {
+      "term": "europe",
+      "brit_count": 8,
+      "wiki_count": 3,
+      "brit_per_10k": 48.54,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 2.51,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The cantons never keep any binding croops, except for a few garrimsy but their militits is reckoned to be the belt regulations of any in Europe."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe."
+      }
+    },
+    {
+      "term": "even",
+      "brit_count": 2,
+      "wiki_count": 6,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -0.41,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "It is a native of South America, among others, where a preys upon the larger insects, and even small birds, dropping into their nests, and sucking their blood and legs; it is of so enormous a size, that its flag may be compared to the latons of a havk, and its eyes are very large."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The long of Swiss German is historically and still often today spelled \u27e8 y \u27e9 rather than \u27e8 ii \u27e9, preserving the original identity of the two names even in writing."
+      }
+    },
+    {
+      "term": "every",
+      "brit_count": 5,
+      "wiki_count": 1,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 2.71,
+      "log_ratio": 3.27,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The public revenues are in general very incredible, arising chiefly from the usual regular, appropriated every where to the foreignee, the domestic, and they gradually, voluntary contributions, the fate of falls, and a land tax; in the Protected cantons, from the church lands alto that were fored at the Reforation."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "As with this, they also have to fulfill a certain number of educational requirements every 12 months (ESA Certification Corporation)."
+      }
+    },
+    {
+      "term": "eyes",
+      "brit_count": 9,
+      "wiki_count": 0,
+      "brit_per_10k": 54.61,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 6.78,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "Eyes placed thus, : Black, thorax marked with a white line on the back\\* density 79."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "fame",
+      "brit_count": 6,
+      "wiki_count": 0,
+      "brit_per_10k": 36.41,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 6.21,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "In 1604, he became Seeldian profiler of natural philosophy, and the fame year took the degree of dochor of phyfe."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "federal",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is a federal republic composed of 26 cantons, with Bern serving as the federal city and the seat of the national government."
+      }
+    },
+    {
+      "term": "fee",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "175519",
+        "revision_id": "1353158843",
+        "quote": "In feudal England, escheat referred to the situation where the tenant of a fee (or \"fief\") died without an heir or committed a felony."
+      }
+    },
+    {
+      "term": "feet",
+      "brit_count": 6,
+      "wiki_count": 1,
+      "brit_per_10k": 36.41,
+      "wiki_per_10k": 2.71,
+      "log_ratio": 3.52,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "Soon after he farfetment in London, his only for Thomas falling into a companion, the feet him to Monopolier in France for the recovery of his health; and it proved fucetful."
+      },
+      "wiki_example": {
+        "page_id": "2892406",
+        "revision_id": "1323191816",
+        "quote": "Ateste (Ancient Greek: \u1f08\u03c4\u03b5\u03c3\u03c4\u1f10) (modern Este, Italy) was an ancient town of Venetia, at the southern foot of the Euganean hills, 43 feet above sea-level and 22 miles southwest of Patavium (modern Padua)."
+      }
+    },
+    {
+      "term": "feudal",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "175519",
+        "revision_id": "1353158843",
+        "quote": "It originally applied to a number of situations where a legal interest in land was destroyed by operation of law, so that the ownership of the land reverted to the immediately superior feudal lord."
+      }
+    },
+    {
+      "term": "figure",
+      "brit_count": 5,
+      "wiki_count": 0,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 5.95,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "And Cicero, in the charge which she brings against Mark Authority before the feature, makes life of this figure, when he fays, \" Do you lament the deltruth of three Roman amics\" The author of this detective was Anthony."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "first",
+      "brit_count": 4,
+      "wiki_count": 8,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 21.65,
+      "log_ratio": 0.16,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "He was one of the first members of the Royal Society, and from made his name illustrious by his excellent writings."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The confederation was among the first and few republics of the early modern period, and the only one besides San Marino to survive the Napoleonic Wars."
+      }
+    },
+    {
+      "term": "flowers",
+      "brit_count": 5,
+      "wiki_count": 0,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 5.95,
+      "brit_example": {
+        "entry_id": "e2171-15",
+        "quote": "The branches are generally terminated by yellow flowers formed into a kind of tunnel."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "following",
+      "brit_count": 4,
+      "wiki_count": 6,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 16.24,
+      "log_ratio": 0.57,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "When the following fenestene begins with the fam word with which the former concluded, it is termed anadbigfix."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Following the Napoleonic Wars, Switzerland restored its pre-revolutionary system, but by 1830 faced growing division and conflict between liberal and conservative movements; this culminated in a new constitution in 1848 that established the current federal system and enshrined principles such as individual rights, separation of powers, and parliamentary bicameralism."
+      }
+    },
+    {
+      "term": "form",
+      "brit_count": 2,
+      "wiki_count": 3,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 0.55,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "In form of the above manufacture, and in dieels, butter, fleep, horfes, black cattle, hides, and flans, the experts are considerable and as the imports of the chiely granulated fish, with some Americans at Arielie goods, there is probably a large balance in their favour."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The state of Switzerland took its present form with the adoption of the Swiss Federal Constitution in 1848."
+      }
+    },
+    {
+      "term": "former",
+      "brit_count": 5,
+      "wiki_count": 1,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 2.71,
+      "log_ratio": 3.27,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "Of the former we are the centons of Zurich and Berne, the town of St Galli, Geneva, Malhland\u2019s and Mali, the principality of Nuofstadt, the gener part of Buli, Schaffaudins, the country of the Gris foas, the Thurgun, Toggenburg, Glaris, and the Rhine valley."
+      },
+      "wiki_example": {
+        "page_id": "350407",
+        "revision_id": "1056850807",
+        "quote": "Oratory may also refer to: Eloquence, fluent, forcible, elegant, or persuasive speaking Rhetoric, the art of discourse Oratory (worship), a public or private place of divine worship, akin to a chapel The Oratory, Liverpool, a former mortuary chapel in Liverpool, England Birmingham Oratory London Oratory Oxford Oratory York Oratory Petergate House More House Saint Joseph's Oratory, Montreal, Canada Oratory of the Good Shepherd (Anglican) Oratory of Jesus, or \"French Oratory\" (Roman Catholic) Oratory of Saint Philip Neri (Roman Catholic) Teologisk Oratorium (Lutheran)"
+      }
+    },
+    {
+      "term": "found",
+      "brit_count": 4,
+      "wiki_count": 5,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 13.53,
+      "log_ratio": 0.82,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "It is found in screens in agriculture soil; its bite was formerly supposed to be combble by nothing but remains; though it occasions a great deal of pain, it is almost never fatal."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The oldest known farming settlements in Switzerland, which were found at G\u00e4chlingen, date to around 5300 BC."
+      }
+    },
+    {
+      "term": "four",
+      "brit_count": 6,
+      "wiki_count": 1,
+      "brit_per_10k": 36.41,
+      "wiki_per_10k": 2.71,
+      "log_ratio": 3.52,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "A native of Europe, on oak and other trees; abdommed marked with four impressed dots on the back; papilla three."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The country encompasses four principal linguistic and cultural regions\u2014 German, French, Italian, and Romansh \u2014reflecting a long-standing tradition of multilingualism and cultural pluralism."
+      }
+    },
+    {
+      "term": "france",
+      "brit_count": 3,
+      "wiki_count": 4,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 0.72,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "parts of the country that border on Italy or France, a cortune French in Italian prevails."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It is bordered by Germany to the north, France to the west, Austria and Liechtenstein to the east, and Italy to the south."
+      }
+    },
+    {
+      "term": "french",
+      "brit_count": 2,
+      "wiki_count": 9,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -0.98,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "parts of the country that border on Italy or France, a cortune French in Italian prevails."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The country encompasses four principal linguistic and cultural regions\u2014 German, French, Italian, and Romansh \u2014reflecting a long-standing tradition of multilingualism and cultural pluralism."
+      }
+    },
+    {
+      "term": "garnished",
+      "brit_count": 5,
+      "wiki_count": 0,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 5.95,
+      "brit_example": {
+        "entry_id": "e2171-15",
+        "quote": "It rises three or four feet high, finding out many fine branches garnished with pretty long narrow leaves, having form resemblance to thole of buckthown plannian."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "generally",
+      "brit_count": 4,
+      "wiki_count": 2,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 5.41,
+      "log_ratio": 2.07,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "In their periods they are generally tall, roahik, and wellness is, but their complications are now of the belt, and clubs that live in the neighborhood of the mountains are fidjekt to wens."
+      },
+      "wiki_example": {
+        "page_id": "996527",
+        "revision_id": "1353828824",
+        "quote": "Silius was generally believed to have voluntarily and enthusiastically become an informer under Nero, prosecuting in court persons whom the emperor wished condemned."
+      }
+    },
+    {
+      "term": "german",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "There are also foc\u00e9este among them for the improvement of the German language and the fiecences."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The country encompasses four principal linguistic and cultural regions\u2014 German, French, Italian, and Romansh \u2014reflecting a long-standing tradition of multilingualism and cultural pluralism."
+      }
+    },
+    {
+      "term": "given",
+      "brit_count": 3,
+      "wiki_count": 2,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 5.41,
+      "log_ratio": 1.66,
+      "brit_example": {
+        "entry_id": "e1327-08",
+        "quote": "HUGUENOTS, an application given by way of concept to the referred or Protestant Calvinifts of France."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "In 1630, grants of 600 acres each were given for would later be known as Bellfield Plantation to John West and Kings Creek Plantation to John Utie."
+      }
+    },
+    {
+      "term": "governor",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Sir Thomas Dale, then governor, in a letter to the Earl of Salisbury, recommended the establishment of a fortified settlement at Chiskiack, some twenty miles (32 km) up the York River from Point Comfort."
+      }
+    },
+    {
+      "term": "great",
+      "brit_count": 8,
+      "wiki_count": 2,
+      "brit_per_10k": 48.54,
+      "wiki_per_10k": 5.41,
+      "log_ratio": 3.05,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "A great may thus always returning from foreign ferivs."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "It was soon renamed Williamsburg in honor of King William III of Great Britain, and is today the site of the Historic District known as Colonial Williamsburg."
+      }
+    },
+    {
+      "term": "greek",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "La T\u00e8ne culture developed and flourished during the late Iron Age from around 450 BC, possibly influenced by Greek and Etruscan civilisations."
+      }
+    },
+    {
+      "term": "health",
+      "brit_count": 1,
+      "wiki_count": 5,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -1.1,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "Soon after he farfetment in London, his only for Thomas falling into a companion, the feet him to Monopolier in France for the recovery of his health; and it proved fucetful."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "These different programs are known as Public Health Entomology (PHE), Certified IPM Technicians (CITs), and Board Certified Entomologists (BCEs) (ESA Certification Corporation)."
+      }
+    },
+    {
+      "term": "helvetii",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The name Helvetica is derived from the Helvetii, a Gaulish tribe living on the Swiss Plateau before the Roman era."
+      }
+    },
+    {
+      "term": "high",
+      "brit_count": 4,
+      "wiki_count": 3,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.52,
+      "brit_example": {
+        "entry_id": "e2171-15",
+        "quote": "It rises three or four feet high, finding out many fine branches garnished with pretty long narrow leaves, having form resemblance to thole of buckthown plannian."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The toponym Schwyz itself was first attested in 972, as Old High German Suittes, perhaps related to swedan 'to burn' (cf."
+      }
+    },
+    {
+      "term": "highest",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is among the world's most developed countries, with the highest nominal wealth per adult and the eighth-highest gross domestic product (GDP) per capita."
+      }
+    },
+    {
+      "term": "hope",
+      "brit_count": 1,
+      "wiki_count": 6,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -1.35,
+      "brit_example": {
+        "entry_id": "e2171-15",
+        "quote": "The dentants grows naturally at the Cape of God Hope."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation's growth was encouraged by the completion in 1634 of a continuous fortification, or palisade, across the peninsula a distance of about 6 miles (10 km) between Archer's Hope Creek (later renamed College Creek), which drained southerly to the James River and Queen's Creek, which drained northerly to the York River."
+      }
+    },
+    {
+      "term": "house",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "He died at his house in So Bharti's in Oregon, and was buried near her in fifathmande abby."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Also in 1634, James City Shire was established by the House of Burgesses to include Middle Plantation and the surrounding area."
+      }
+    },
+    {
+      "term": "houses",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "By 1200, the Swiss Plateau comprised the dominions of the houses of Savoy, Z\u00e4hringer, Habsburg, and Kyburg."
+      }
+    },
+    {
+      "term": "including",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is geographically divided among the Swiss Alps, the Swiss Plateau, and the Jura Mountains; the Alps cover most of the country's territory, whereas the majority of its 9 million people are concentrated on the plateau, which hosts many of the largest cities and economic centres, including Zurich, Geneva, Basel, Bern, Lausanne, Winterthur, and Lucerne."
+      }
+    },
+    {
+      "term": "individuals",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "While not true entomologists in the traditional sense, individuals who attain the ACE certification may be referred to as ACEs or Associate Certified Entomologists."
+      }
+    },
+    {
+      "term": "insect",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Entomology, from Ancient Greek \u1f14\u03bd\u03c4\u03bf\u03bc\u03bf\u03bd (\u00e9ntomon), meaning \"insect\", and \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos), meaning \"study\", is the branch of zoology that focuses on insects."
+      }
+    },
+    {
+      "term": "insects",
+      "brit_count": 2,
+      "wiki_count": 12,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 32.48,
+      "log_ratio": -1.38,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "It is a native of South America, among others, where a preys upon the larger insects, and even small birds, dropping into their nests, and sucking their blood and legs; it is of so enormous a size, that its flag may be compared to the latons of a havk, and its eyes are very large."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Entomology, from Ancient Greek \u1f14\u03bd\u03c4\u03bf\u03bc\u03bf\u03bd (\u00e9ntomon), meaning \"insect\", and \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos), meaning \"study\", is the branch of zoology that focuses on insects."
+      }
+    },
+    {
+      "term": "italica",
+      "brit_count": 4,
+      "wiki_count": 1,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 2.71,
+      "log_ratio": 2.95,
+      "brit_example": {
+        "entry_id": "e2001-06",
+        "quote": "He was born in the reign of Thierius, and is fogoped to have derived the name of _Italica_ from the place of his birth; but whether he was born at Italica in Spain, or at Cerdinam in Italy, which, according to Scheba, had the name of _Italica_ given it during the Social war, is a point which cannot be known: though, it is his first had happened at either of those places, the grammarina would tell us, that he found have been called _Italicaeta_, and wol _Italica_."
+      },
+      "wiki_example": {
+        "page_id": "996527",
+        "revision_id": "1353828824",
+        "quote": "Italica, in the Roman province of Hispania (modern Spain) was once considered the prime candidate based on his cognomen, Italicus, but if that were the case, Latin usage would have demanded the form Italicensis, and it is highly improbable that Martial would have failed to name him among the literary celebrities of Spain in the latter half of the 1st century."
+      }
+    },
+    {
+      "term": "italy",
+      "brit_count": 4,
+      "wiki_count": 3,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.52,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "parts of the country that border on Italy or France, a cortune French in Italian prevails."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It is bordered by Germany to the north, France to the west, Austria and Liechtenstein to the east, and Italy to the south."
+      }
+    },
+    {
+      "term": "james",
+      "brit_count": 1,
+      "wiki_count": 10,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 27.06,
+      "log_ratio": -2.07,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "It is fuated between two rocks; one falling into James, and the other into York River."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "It was located on high ground about halfway across the Virginia Peninsula between the James River and York River."
+      }
+    },
+    {
+      "term": "jamestown",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "It was established by an Act of Assembly to provide a link between Jamestown and Chiskiack, a settlement located across the Peninsula on the York River."
+      }
+    },
+    {
+      "term": "john",
+      "brit_count": 1,
+      "wiki_count": 8,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -1.75,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "As in the following influence: _Let us_ _think to price too good for truth y forth cannot be_ _bought too dies._ So in that suffage of St John: He come to his own, and his own received him not."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "But, during the era of relative peace, which began with the marriage of John Rolfe and Pocahontas in 1614, nothing was immediately done to implement the suggestion."
+      }
+    },
+    {
+      "term": "king",
+      "brit_count": 1,
+      "wiki_count": 7,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -1.57,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "When that city was parturient for the king, the among other scholars, bore must be his Majidity, and devoted his three hours to the flyt of phyfeic."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The Habsburgs under King Rudolph I (Holy Roman Emperor in 1273) laid claim to the Kyburg lands and annexed them, extending their territory to the eastern Swiss Plateau."
+      }
+    },
+    {
+      "term": "kingdom",
+      "brit_count": 2,
+      "wiki_count": 3,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 0.55,
+      "brit_example": {
+        "entry_id": "e1327-03",
+        "quote": "HUESCA, on ancient and considerable towns of Spain, in the kingdom of Granada, fieldsed on a plain in W."
+      },
+      "wiki_example": {
+        "page_id": "68298",
+        "revision_id": "1331057656",
+        "quote": "It was the capital of the Kingdom of Aragon between 1096 and 1118."
+      }
+    },
+    {
+      "term": "known",
+      "brit_count": 1,
+      "wiki_count": 11,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 29.77,
+      "log_ratio": -2.2,
+      "brit_example": {
+        "entry_id": "e2001-06",
+        "quote": "He was born in the reign of Thierius, and is fogoped to have derived the name of _Italica_ from the place of his birth; but whether he was born at Italica in Spain, or at Cerdinam in Italy, which, according to Scheba, had the name of _Italica_ given it during the Social war, is a point which cannot be known: though, it is his first had happened at either of those places, the grammarina would tell us, that he found have been called _Italicaeta_, and wol _Italica_."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It is known for its chocolate and cheese production, well-developed tourism industry, and growing startup sector."
+      }
+    },
+    {
+      "term": "land",
+      "brit_count": 1,
+      "wiki_count": 22,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 59.54,
+      "log_ratio": -3.19,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The public revenues are in general very incredible, arising chiefly from the usual regular, appropriated every where to the foreignee, the domestic, and they gradually, voluntary contributions, the fate of falls, and a land tax; in the Protected cantons, from the church lands alto that were fored at the Reforation."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The English name Switzerland compounds Switzer, an obsolete term for a Swiss person which was in use during the 16th to 19th centuries, with the common English suffix -land denoting a region or country."
+      }
+    },
+    {
+      "term": "language",
+      "brit_count": 2,
+      "wiki_count": 4,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 0.16,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "There are also foc\u00e9este among them for the improvement of the German language and the fiecences."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Swiss nationhood transcends language, ethnicity, and religion, leading to Switzerland being described as a Willensnation (\"nation of volition\") rather than a conventional nation state."
+      }
+    },
+    {
+      "term": "large",
+      "brit_count": 4,
+      "wiki_count": 9,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -0.0,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "In form of the above manufacture, and in dieels, butter, fleep, horfes, black cattle, hides, and flans, the experts are considerable and as the imports of the chiely granulated fish, with some Americans at Arielie goods, there is probably a large balance in their favour."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Sometime around the start of the Common Era, the Romans maintained a large camp called Vindonissa, now a ruin at the confluence of the Aare and Reuss rivers, near the town of Windisch."
+      }
+    },
+    {
+      "term": "later",
+      "brit_count": 1,
+      "wiki_count": 10,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 27.06,
+      "log_ratio": -2.07,
+      "brit_example": {
+        "entry_id": "e1473-08",
+        "quote": "In later once cats, there were no here inhibiting of the blood of the fork tettatory or puchader, to which hers alone the grant of the feed extended: in the other, the tenant, by perpetrating an atrocious crime, showed that he was no"
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "In 15 BC, Tiberius (later the second Roman emperor) and his brother Drusus conquered the Alps, integrating them into the Roman Empire."
+      }
+    },
+    {
+      "term": "latin",
+      "brit_count": 0,
+      "wiki_count": 11,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 29.77,
+      "log_ratio": -5.92,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The ISO 3166-1 data codes for Switzerland, CH and CHE, are derived from Latin Confoederatio Helvetica (Helvetic Confederation)."
+      }
+    },
+    {
+      "term": "leaves",
+      "brit_count": 5,
+      "wiki_count": 0,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 5.95,
+      "brit_example": {
+        "entry_id": "e2171-15",
+        "quote": "It rises three or four feet high, finding out many fine branches garnished with pretty long narrow leaves, having form resemblance to thole of buckthown plannian."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "left",
+      "brit_count": 5,
+      "wiki_count": 2,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 5.41,
+      "log_ratio": 2.38,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "As thus: _Ruse concord was left, friendship was left,_ _fidelity was left, liberty was left, all was left_."
+      },
+      "wiki_example": {
+        "page_id": "175519",
+        "revision_id": "1353158843",
+        "quote": "It serves to ensure that property is not left in \"limbo\" without recognized ownership."
+      }
+    },
+    {
+      "term": "legal",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "175519",
+        "revision_id": "1353158843",
+        "quote": "It originally applied to a number of situations where a legal interest in land was destroyed by operation of law, so that the ownership of the land reverted to the immediately superior feudal lord."
+      }
+    },
+    {
+      "term": "legs",
+      "brit_count": 5,
+      "wiki_count": 0,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 5.95,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "gentle suborfics, thorax marked with a large depressed circular spot; abdominal oval; legs equal."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "life",
+      "brit_count": 2,
+      "wiki_count": 7,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -0.62,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "The river near which it is built is called _Butterliot or Holland Day_ , and is one of the bulwals of the Dutch on the life of Pakistan, where they always keep a garrition."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Zurich, Geneva and Basel rank among the highest in quality of life, albeit with some of the highest costs of living."
+      }
+    },
+    {
+      "term": "like",
+      "brit_count": 4,
+      "wiki_count": 3,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.52,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "As in that expreftion of Phants, \u00ab Virte comans all things, he wanna no good thing who like virtue.\" The figure is the fame, but the principle not fo honeln, in the advice which we find given by the-miler in Horos, when he fays, \" Get money if you can, possibly, but however, get money.\" This figure adds a force to an expreftion, when the principal thing designed to be courvyeed is thus repeated, by being it fall upon the mind."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Repeated raids by the Alamanni tribes provoked the ruin of the Roman towns and economy, forcing the population to shelter near Roman fortresses, like the Castrum Rauracense near Augusta Raurica."
+      }
+    },
+    {
+      "term": "line",
+      "brit_count": 2,
+      "wiki_count": 3,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 0.55,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "Eyes placed thus, : Black, thorax marked with a white line on the back\\* density 79."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The Empire built another line of defence at the north border (the so-called Donau-Iller-Rhine-Limes)."
+      }
+    },
+    {
+      "term": "llersj",
+      "brit_count": 0,
+      "wiki_count": 12,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 32.48,
+      "log_ratio": -6.04,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "24729562",
+        "revision_id": "1344584892",
+        "quote": "Athanasia is a genus of flowering plants in the daisy family."
+      }
+    },
+    {
+      "term": "located",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe."
+      }
+    },
+    {
+      "term": "london",
+      "brit_count": 3,
+      "wiki_count": 2,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 5.41,
+      "log_ratio": 1.66,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "In 1605 after the first of London, he traveled to Wilminker; and his practice became greater than that of any of the physicians his contemporaries."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "He also helped found the Royal Entomological Society in London in 1833, one of the earliest such societies in the world; earlier antecedents, such as the Aurelian society date back to the 1740s."
+      }
+    },
+    {
+      "term": "long",
+      "brit_count": 5,
+      "wiki_count": 3,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.84,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "Long, 76, 30, N."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The country encompasses four principal linguistic and cultural regions\u2014 German, French, Italian, and Romansh \u2014reflecting a long-standing tradition of multilingualism and cultural pluralism."
+      }
+    },
+    {
+      "term": "lower",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation was described as a place where \"clear and crystal springs burst from the champagne soil.\" Middle Plantation was located on a ridge at the western edge of a geographic plateau of the Tidewater Region of southeastern Virginia, from which the land of the coastal plain slopes eastward down to sea level at the lower end of the Virginia Peninsula."
+      }
+    },
+    {
+      "term": "made",
+      "brit_count": 3,
+      "wiki_count": 3,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.12,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The Switect of the fereral cantons are allowed to engage in the ferice of fuch foreign princes and flatters are in aliance with their eastern or with whom they have made a prevous agreement."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "With this labor, palisades, six miles (10 km) in length, were run from creek to creek, and, on the ridge between, a settlement to be called Middle Plantation was made."
+      }
+    },
+    {
+      "term": "many",
+      "brit_count": 5,
+      "wiki_count": 4,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 1.45,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The trade of Switzerland is greatly promoted by many navigable lakes and rivers."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is geographically divided among the Swiss Alps, the Swiss Plateau, and the Jura Mountains; the Alps cover most of the country's territory, whereas the majority of its 9 million people are concentrated on the plateau, which hosts many of the largest cities and economic centres, including Zurich, Geneva, Basel, Bern, Lausanne, Winterthur, and Lucerne."
+      }
+    },
+    {
+      "term": "marked",
+      "brit_count": 8,
+      "wiki_count": 0,
+      "brit_per_10k": 48.54,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 6.62,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "gentle suborfics, thorax marked with a large depressed circular spot; abdominal oval; legs equal."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "may",
+      "brit_count": 3,
+      "wiki_count": 7,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -0.06,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "A great may thus always returning from foreign ferivs."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "While not true entomologists in the traditional sense, individuals who attain the ACE certification may be referred to as ACEs or Associate Certified Entomologists."
+      }
+    },
+    {
+      "term": "middle",
+      "brit_count": 1,
+      "wiki_count": 20,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 54.13,
+      "log_ratio": -3.06,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "_Epandas_, is the freedom of a fenestor, or repeating in backwares, fo that it is taken in the two half fagerets for it both begins and ends with the fame words, and the fame word is likewise repeated in the middle."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The country originates from the Old Swiss Confederacy established in the Late Middle Ages as a defensive and commercial alliance; the Federal Charter of 1291 is considered the country's founding document."
+      }
+    },
+    {
+      "term": "miles",
+      "brit_count": 2,
+      "wiki_count": 10,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 27.06,
+      "log_ratio": -1.13,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "It is 60 miles east of Richmond."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation's growth was encouraged by the completion in 1634 of a continuous fortification, or palisade, across the peninsula a distance of about 6 miles (10 km) between Archer's Hope Creek (later renamed College Creek), which drained southerly to the James River and Queen's Creek, which drained northerly to the York River."
+      }
+    },
+    {
+      "term": "modern",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The confederation was among the first and few republics of the early modern period, and the only one besides San Marino to survive the Napoleonic Wars."
+      }
+    },
+    {
+      "term": "much",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "In fany, there is not a people in Europe who want much che valdier is better."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "As much of the lower peninsula to the east was becoming settled, this was a natural point for the English settlers who established Jamestown and the Virginia Colony beginning in 1607 to build a line of defense during early conflicts with the Native Americans."
+      }
+    },
+    {
+      "term": "name",
+      "brit_count": 4,
+      "wiki_count": 18,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 48.71,
+      "log_ratio": -0.99,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "He was one of the first members of the Royal Society, and from made his name illustrious by his excellent writings."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The English name Switzerland compounds Switzer, an obsolete term for a Swiss person which was in use during the 16th to 19th centuries, with the common English suffix -land denoting a region or country."
+      }
+    },
+    {
+      "term": "native",
+      "brit_count": 8,
+      "wiki_count": 4,
+      "brit_per_10k": 48.54,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 2.11,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "A native of Britain."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "As much of the lower peninsula to the east was becoming settled, this was a natural point for the English settlers who established Jamestown and the Virginia Colony beginning in 1607 to build a line of defense during early conflicts with the Native Americans."
+      }
+    },
+    {
+      "term": "natural",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "In 1604, he became Seeldian profiler of natural philosophy, and the fame year took the degree of dochor of phyfe."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "As much of the lower peninsula to the east was becoming settled, this was a natural point for the English settlers who established Jamestown and the Virginia Colony beginning in 1607 to build a line of defense during early conflicts with the Native Americans."
+      }
+    },
+    {
+      "term": "near",
+      "brit_count": 2,
+      "wiki_count": 4,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 0.16,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "The river near which it is built is called _Butterliot or Holland Day_ , and is one of the bulwals of the Dutch on the life of Pakistan, where they always keep a garrition."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Sometime around the start of the Common Era, the Romans maintained a large camp called Vindonissa, now a ruin at the confluence of the Aare and Reuss rivers, near the town of Windisch."
+      }
+    },
+    {
+      "term": "new",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Following the Napoleonic Wars, Switzerland restored its pre-revolutionary system, but by 1830 faced growing division and conflict between liberal and conservative movements; this culminated in a new constitution in 1848 that established the current federal system and enshrined principles such as individual rights, separation of powers, and parliamentary bicameralism."
+      }
+    },
+    {
+      "term": "north",
+      "brit_count": 1,
+      "wiki_count": 7,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -1.57,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "WILLLAMSBURG, e town of North America, in Virginia, and formerly capital of that fact."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It is bordered by Germany to the north, France to the west, Austria and Liechtenstein to the east, and Italy to the south."
+      }
+    },
+    {
+      "term": "number",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "Every man enulis voluntarily, and for what number of years he pleties' as the expiration of which he is at liberty to return home."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Because the class Insecta contains a very large number of species (over 330,000 species of beetles alone) and the characteristics distinguishing them are unfamiliar, and often subtle (or invisible without a microscope), this is often very difficult even for a specialist."
+      }
+    },
+    {
+      "term": "old",
+      "brit_count": 1,
+      "wiki_count": 7,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -1.57,
+      "brit_example": {
+        "entry_id": "e2250-02",
+        "quote": "They are also placed for a lupport and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbys, cz."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The country originates from the Old Swiss Confederacy established in the Late Middle Ages as a defensive and commercial alliance; the Federal Charter of 1291 is considered the country's founding document."
+      }
+    },
+    {
+      "term": "one",
+      "brit_count": 5,
+      "wiki_count": 12,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 32.48,
+      "log_ratio": -0.1,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "Every male from 16 to 05 i enrolled, and about one third of them regimented."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The confederation was among the first and few republics of the early modern period, and the only one besides San Marino to survive the Napoleonic Wars."
+      }
+    },
+    {
+      "term": "oratory",
+      "brit_count": 0,
+      "wiki_count": 13,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 35.18,
+      "log_ratio": -6.16,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "350407",
+        "revision_id": "1056850807",
+        "quote": "Oratory is a type of public speaking."
+      }
+    },
+    {
+      "term": "order",
+      "brit_count": 3,
+      "wiki_count": 3,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.12,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "Is the authority of this order weakened?"
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Under Governor John Harvey, at a meeting held at Jamestown, October 8, 1630, Governor Harvey and the Governor's Council, \"for the securing and taking in a tract of land called the forest, bordering upon the cheife residence of ye Pamunkey King, the most dangerous head of ye Indyan enemy,\" did \"after much consultation thereof had, decree and sett down several proportions of land for such commanders, and fifty acres per poll for all other persons who ye first yeare and five and twenty acres who the second yeare, should adventure or be adventured to seate and inhabit on the southern side of Pamunkey River, now called York, and formerly known by the Indyan name of Chiskiack, as a reward and encouragement for this their undertaking.\" Under this order, houses were built on both sides of King's Creek, and extended rapidly up and down the south side of the York River."
+      }
+    },
+    {
+      "term": "oval",
+      "brit_count": 5,
+      "wiki_count": 0,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 5.95,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "gentle suborfics, thorax marked with a large depressed circular spot; abdominal oval; legs equal."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "ownership",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "175519",
+        "revision_id": "1353158843",
+        "quote": "It serves to ensure that property is not left in \"limbo\" without recognized ownership."
+      }
+    },
+    {
+      "term": "page",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Colonel John Page, a merchant who had emigrated from Middlesex, England with his wife Alice Lucken Page in 1650, was largely responsible for building Middle Plantation into a substantial town."
+      }
+    },
+    {
+      "term": "palisade",
+      "brit_count": 0,
+      "wiki_count": 10,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 27.06,
+      "log_ratio": -5.78,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation's growth was encouraged by the completion in 1634 of a continuous fortification, or palisade, across the peninsula a distance of about 6 miles (10 km) between Archer's Hope Creek (later renamed College Creek), which drained southerly to the James River and Queen's Creek, which drained northerly to the York River."
+      }
+    },
+    {
+      "term": "part",
+      "brit_count": 4,
+      "wiki_count": 8,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 21.65,
+      "log_ratio": 0.16,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "Of the former we are the centons of Zurich and Berne, the town of St Galli, Geneva, Malhland\u2019s and Mali, the principality of Nuofstadt, the gener part of Buli, Schaffaudins, the country of the Gris foas, the Thurgun, Toggenburg, Glaris, and the Rhine valley."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The area occupied by the Helvetii first became part of Rome's Gallia Belgica province and then of its Germania Superior province."
+      }
+    },
+    {
+      "term": "peninsula",
+      "brit_count": 0,
+      "wiki_count": 14,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 37.89,
+      "log_ratio": -6.26,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "It was located on high ground about halfway across the Virginia Peninsula between the James River and York River."
+      }
+    },
+    {
+      "term": "people",
+      "brit_count": 5,
+      "wiki_count": 3,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.84,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The refl of the Swifs cantons, allies and dependents are People for the dejection of words there is an univerfly at Bali, and scadoniais e zur\u00fccke, Beren, Lauderians and Geneva, heldes gymnaliums and \u00e9chelle illulites, both in the Ripih and Decerbat cantons."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is geographically divided among the Swiss Alps, the Swiss Plateau, and the Jura Mountains; the Alps cover most of the country's territory, whereas the majority of its 9 million people are concentrated on the plateau, which hosts many of the largest cities and economic centres, including Zurich, Geneva, Basel, Bern, Lausanne, Winterthur, and Lucerne."
+      }
+    },
+    {
+      "term": "place",
+      "brit_count": 5,
+      "wiki_count": 7,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 18.94,
+      "log_ratio": 0.67,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "The distance of each landing place is about a mile from the town, which, with the chief advantage of not being able to bring large wells, and she want of enterprin in the inhabitants, has occhedinal as decay."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "After serving as a temporary meeting place several times during contingencies of the 17th century when the Capital of the Colony had been located at Jamestown, Middle Plantation became the new Capital of the Virginia Colony in 1699."
+      }
+    },
+    {
+      "term": "placed",
+      "brit_count": 10,
+      "wiki_count": 1,
+      "brit_per_10k": 60.68,
+      "wiki_per_10k": 2.71,
+      "log_ratio": 4.25,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "Eyes placed thus, : Black, thorax marked with a white line on the back\\* density 79."
+      },
+      "wiki_example": {
+        "page_id": "28777761",
+        "revision_id": "1347832688",
+        "quote": "An achievement comprises not only the arms displayed on the escutcheon, the central element, but also the following elements surrounding it (from top to bottom): Slogan or war-cry, if possessed Mantle and pavilion Crest placed atop a: Torse (or cap of maintenance as a special honour) Mantling Helm of appropriate variety; if holder of higher rank than a baronet, issuing from a: Coronet or crown (not used by baronets), of appropriate variety."
+      }
+    },
+    {
+      "term": "plan",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Governor Francis Wyatt and his council wrote to the Earl of Southampton that they had a plan of \"winning the forest\" by running a pale between the James and York from Martin's Hundred to Chiskiack."
+      }
+    },
+    {
+      "term": "plantation",
+      "brit_count": 0,
+      "wiki_count": 20,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 54.13,
+      "log_ratio": -6.77,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation in the Virginia Colony was the unincorporated town established in 1632 that became Williamsburg in 1699."
+      }
+    },
+    {
+      "term": "plateau",
+      "brit_count": 0,
+      "wiki_count": 11,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 29.77,
+      "log_ratio": -5.92,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is geographically divided among the Swiss Alps, the Swiss Plateau, and the Jura Mountains; the Alps cover most of the country's territory, whereas the majority of its 9 million people are concentrated on the plateau, which hosts many of the largest cities and economic centres, including Zurich, Geneva, Basel, Bern, Lausanne, Winterthur, and Lucerne."
+      }
+    },
+    {
+      "term": "pliny",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "The natural Roman philosopher Pliny the Elder (23\u201379 CE) wrote a book on the kinds of insects, while the scientist of Kufa, Ibn al-A'r\u0101b\u012b (760\u2013845 CE) wrote a book on flies, Kit\u0101b al-Dab\u0101b (\u0643\u062a\u0627\u0628 \u0627\u0644\u0630\u0628\u0627\u0628)."
+      }
+    },
+    {
+      "term": "point",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e2001-06",
+        "quote": "He was born in the reign of Thierius, and is fogoped to have derived the name of _Italica_ from the place of his birth; but whether he was born at Italica in Spain, or at Cerdinam in Italy, which, according to Scheba, had the name of _Italica_ given it during the Social war, is a point which cannot be known: though, it is his first had happened at either of those places, the grammarina would tell us, that he found have been called _Italicaeta_, and wol _Italica_."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "At this point, the land portion of the Peninsula was relatively narrow between two creeks which drained into the James River and the York River."
+      }
+    },
+    {
+      "term": "present",
+      "brit_count": 0,
+      "wiki_count": 7,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -5.28,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The state of Switzerland took its present form with the adoption of the Swiss Federal Constitution in 1848."
+      }
+    },
+    {
+      "term": "province",
+      "brit_count": 1,
+      "wiki_count": 7,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -1.57,
+      "brit_example": {
+        "entry_id": "e1017-12",
+        "quote": "HELSINGIA, a province of Sweden, bounded by the Botnhic gulph on the cafl, and by Dalecarila on the well."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The area occupied by the Helvetii first became part of Rome's Gallia Belgica province and then of its Germania Superior province."
+      }
+    },
+    {
+      "term": "public",
+      "brit_count": 1,
+      "wiki_count": 7,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -1.57,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The public revenues are in general very incredible, arising chiefly from the usual regular, appropriated every where to the foreignee, the domestic, and they gradually, voluntary contributions, the fate of falls, and a land tax; in the Protected cantons, from the church lands alto that were fored at the Reforation."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "These different programs are known as Public Health Entomology (PHE), Certified IPM Technicians (CITs), and Board Certified Entomologists (BCEs) (ESA Certification Corporation)."
+      }
+    },
+    {
+      "term": "published",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Ulisse Aldrovandi 's De Animalibus Insectis (Concerning Insect Animals) was published in 1602."
+      }
+    },
+    {
+      "term": "referred",
+      "brit_count": 1,
+      "wiki_count": 6,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -1.35,
+      "brit_example": {
+        "entry_id": "e1327-08",
+        "quote": "HUGUENOTS, an application given by way of concept to the referred or Protestant Calvinifts of France."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "The field is also referred to as insectology in American English, while in British English insectology implies the study of the relationships between insects and humans."
+      }
+    },
+    {
+      "term": "region",
+      "brit_count": 0,
+      "wiki_count": 7,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -5.28,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The English name Switzerland compounds Switzer, an obsolete term for a Swiss person which was in use during the 16th to 19th centuries, with the common English suffix -land denoting a region or country."
+      }
+    },
+    {
+      "term": "regions",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The two predominant se regions are Calvinia and Sprayer."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The country encompasses four principal linguistic and cultural regions\u2014 German, French, Italian, and Romansh \u2014reflecting a long-standing tradition of multilingualism and cultural pluralism."
+      }
+    },
+    {
+      "term": "republic",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e2001-06",
+        "quote": "His sacred, and charader recommended him to the highethnics in the republic, even to the confidity, of which he was poffied when Nono died."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is a federal republic composed of 26 cantons, with Bern serving as the federal city and the seat of the national government."
+      }
+    },
+    {
+      "term": "river",
+      "brit_count": 2,
+      "wiki_count": 17,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 46.01,
+      "log_ratio": -1.88,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "It is fuated between two rocks; one falling into James, and the other into York River."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "It was located on high ground about halfway across the Virginia Peninsula between the James River and York River."
+      }
+    },
+    {
+      "term": "roman",
+      "brit_count": 2,
+      "wiki_count": 16,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 43.3,
+      "log_ratio": -1.79,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "And Cicero, in the charge which she brings against Mark Authority before the feature, makes life of this figure, when he fays, \" Do you lament the deltruth of three Roman amics\" The author of this detective was Anthony."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Swiss independence from the Holy Roman Empire was formally recognized in the Peace of Westphalia in 1648."
+      }
+    },
+    {
+      "term": "second",
+      "brit_count": 1,
+      "wiki_count": 5,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -1.1,
+      "brit_example": {
+        "entry_id": "e2001-06",
+        "quote": "SILLIUS TALIOLOS, CAUS, an ancient Roman poet, and author of an epic poem in 17 books, which con-tains an hilloy of the second Ponte was, to famous for having decided the empire of the world in favour of the Romanes."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "In 15 BC, Tiberius (later the second Roman emperor) and his brother Drusus conquered the Alps, integrating them into the Roman Empire."
+      }
+    },
+    {
+      "term": "see",
+      "brit_count": 6,
+      "wiki_count": 0,
+      "brit_per_10k": 36.41,
+      "wiki_per_10k": 0.0,
+      "log_ratio": 6.21,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "Switzerland is never unproceeded with, able and see preferred effect and address."
+      },
+      "wiki_example": {
+        "page_id": "",
+        "revision_id": "",
+        "quote": ""
+      }
+    },
+    {
+      "term": "settlement",
+      "brit_count": 0,
+      "wiki_count": 8,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -5.47,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The Swiss German name of the country, Schwiiz, is homophonous to that of the canton and the settlement, but distinguished by the use of the definite article (d'Schwiiz for the Confederation, but simply Schwyz for the canton and the town)."
+      }
+    },
+    {
+      "term": "several",
+      "brit_count": 2,
+      "wiki_count": 6,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -0.41,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The principal manufactures are fluff and toboyen, lines of several forks, here, threads, folk, and worried fleidings, neckoloths cotton fluffy, gloves, handkerchiefs, flisks of feveralters, cold and five brecords, a variety of woollen manufactures, lats, paper, leather of alflor, earthous wers, poredain, toys, watches, clocks, and other hardwares, &c."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It performs highly on several international metrics, including economic competitiveness, democratic governance, and press freedom."
+      }
+    },
+    {
+      "term": "side",
+      "brit_count": 1,
+      "wiki_count": 5,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -1.1,
+      "brit_example": {
+        "entry_id": "e2464-06",
+        "quote": "CABIN, in the fea-language, a final room, or apartment, whereby there are a great many in fewelful parts of a flip, particularly on the quarter-deck, and on each side of the fleerage, for the officers of the flip to lie in."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The earliest known tribes formed the Hallstatt and La T\u00e8ne cultures, named after the archaeological site of La T\u00e8ne on the north side of Lake Neuch\u00e2tel."
+      }
+    },
+    {
+      "term": "silius",
+      "brit_count": 0,
+      "wiki_count": 11,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 29.77,
+      "log_ratio": -5.92,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "996527",
+        "revision_id": "1353828824",
+        "quote": "Tiberius Catius Asconius Silius Italicus (Latin:, c."
+      }
+    },
+    {
+      "term": "since",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland has maintained a policy of armed neutrality since the 16th century and has not fought an international war since 1815."
+      }
+    },
+    {
+      "term": "site",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The earliest known tribes formed the Hallstatt and La T\u00e8ne cultures, named after the archaeological site of La T\u00e8ne on the north side of Lake Neuch\u00e2tel."
+      }
+    },
+    {
+      "term": "society",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "He was one of the first members of the Royal Society, and from made his name illustrious by his excellent writings."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "He also helped found the Royal Entomological Society in London in 1833, one of the earliest such societies in the world; earlier antecedents, such as the Aurelian society date back to the 1740s."
+      }
+    },
+    {
+      "term": "south",
+      "brit_count": 2,
+      "wiki_count": 5,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -0.15,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "A native of the south of Europe, particularly Italy and Barbary."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It is bordered by Germany to the north, France to the west, Austria and Liechtenstein to the east, and Italy to the south."
+      }
+    },
+    {
+      "term": "spain",
+      "brit_count": 2,
+      "wiki_count": 3,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 0.55,
+      "brit_example": {
+        "entry_id": "e1327-03",
+        "quote": "HUESCA, on ancient and considerable towns of Spain, in the kingdom of Granada, fieldsed on a plain in W."
+      },
+      "wiki_example": {
+        "page_id": "68298",
+        "revision_id": "1331057656",
+        "quote": "Huesca (Spanish:; Aragonese: Uesca) is a city in north-eastern Spain, within the autonomous community of Aragon."
+      }
+    },
+    {
+      "term": "species",
+      "brit_count": 2,
+      "wiki_count": 9,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -0.98,
+      "brit_example": {
+        "entry_id": "e2171-15",
+        "quote": "Of this genus, Dr.Limous mentions 11 _Species_ of which the followingic are by Mr Millerreckoned worthy of a place in those gardens where there are convenience for preferring tender plants, as some of the species will outlive the waters of this country."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Over 1.3 million insect species have been described by entomology."
+      }
+    },
+    {
+      "term": "state",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Swiss nationhood transcends language, ethnicity, and religion, leading to Switzerland being described as a Willensnation (\"nation of volition\") rather than a conventional nation state."
+      }
+    },
+    {
+      "term": "study",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Entomology, from Ancient Greek \u1f14\u03bd\u03c4\u03bf\u03bc\u03bf\u03bd (\u00e9ntomon), meaning \"insect\", and \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos), meaning \"study\", is the branch of zoology that focuses on insects."
+      }
+    },
+    {
+      "term": "swiss",
+      "brit_count": 0,
+      "wiki_count": 28,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 75.78,
+      "log_ratio": -7.25,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe."
+      }
+    },
+    {
+      "term": "switzerland",
+      "brit_count": 3,
+      "wiki_count": 22,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 59.54,
+      "log_ratio": -1.68,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The trade of Switzerland is greatly promoted by many navigable lakes and rivers."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe."
+      }
+    },
+    {
+      "term": "tenant",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e1473-08",
+        "quote": "In later once cats, there were no here inhibiting of the blood of the fork tettatory or puchader, to which hers alone the grant of the feed extended: in the other, the tenant, by perpetrating an atrocious crime, showed that he was no"
+      },
+      "wiki_example": {
+        "page_id": "175519",
+        "revision_id": "1353158843",
+        "quote": "The sense is of a feudal estate in land falling-out of the possession by a tenant into the possession of the lord."
+      }
+    },
+    {
+      "term": "term",
+      "brit_count": 1,
+      "wiki_count": 9,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -1.92,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "That term of preffin both beauty traits, and flews areesdirafs of thought."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The English name Switzerland compounds Switzer, an obsolete term for a Swiss person which was in use during the 16th to 19th centuries, with the common English suffix -land denoting a region or country."
+      }
+    },
+    {
+      "term": "territory",
+      "brit_count": 1,
+      "wiki_count": 5,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -1.1,
+      "brit_example": {
+        "entry_id": "e2171-12",
+        "quote": "ATESTE, a town in the territory of Veneto in Italy, now called _Rje_."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland is geographically divided among the Swiss Alps, the Swiss Plateau, and the Jura Mountains; the Alps cover most of the country's territory, whereas the majority of its 9 million people are concentrated on the plateau, which hosts many of the largest cities and economic centres, including Zurich, Geneva, Basel, Bern, Lausanne, Winterthur, and Lucerne."
+      }
+    },
+    {
+      "term": "thomas",
+      "brit_count": 2,
+      "wiki_count": 3,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 0.55,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "WILLINS (D Thomas), a celebrated English Myckling, was born at Great Bodwin, in WildHere, in 1611, and fludied at Chrift-church college, Oxford."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Sir Thomas Dale, then governor, in a letter to the Earl of Salisbury, recommended the establishment of a fortified settlement at Chiskiack, some twenty miles (32 km) up the York River from Point Comfort."
+      }
+    },
+    {
+      "term": "thorax",
+      "brit_count": 5,
+      "wiki_count": 1,
+      "brit_per_10k": 30.34,
+      "wiki_per_10k": 2.71,
+      "log_ratio": 3.27,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "gentle suborfics, thorax marked with a large depressed circular spot; abdominal oval; legs equal."
+      },
+      "wiki_example": {
+        "page_id": "262601",
+        "revision_id": "1348986839",
+        "quote": "The thorax (pl.: thoraces or thoraxes) or chest is a part of the anatomy of mammals and other tetrapod animals located b"
+      }
+    },
+    {
+      "term": "three",
+      "brit_count": 6,
+      "wiki_count": 2,
+      "brit_per_10k": 36.41,
+      "wiki_per_10k": 5.41,
+      "log_ratio": 2.64,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "When that city was parturient for the king, the among other scholars, bore must be his Majidity, and devoted his three hours to the flyt of phyfeic."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "The latter was settled by Sir John Harvey at the mouth of Wormeley's Creek, about three miles (5 km) below the present Yorktown."
+      }
+    },
+    {
+      "term": "thunb",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "24729562",
+        "revision_id": "1344584892",
+        "quote": "Athanasia flexuosa Thunb."
+      }
+    },
+    {
+      "term": "thus",
+      "brit_count": 11,
+      "wiki_count": 4,
+      "brit_per_10k": 66.75,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 2.57,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "A great may thus always returning from foreign ferivs."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Thus, the town of Yorktown at once assumed importance."
+      }
+    },
+    {
+      "term": "time",
+      "brit_count": 1,
+      "wiki_count": 6,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -1.35,
+      "brit_example": {
+        "entry_id": "e1933-02",
+        "quote": "\" Ida (fay fys) with Cymosphalus and her priefs, lemons, bemanns, and fcks her loft for, jer strenians beat their breatls, and insure the grief of the unhappy mother; in a little time the four is found, upon which they all repieces."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "At that time, 73 of the settlers were slain in Martin's Hundred at Wolstenholme Towne, situated on the James about 6 miles (10 km) below Jamestown."
+      }
+    },
+    {
+      "term": "town",
+      "brit_count": 6,
+      "wiki_count": 7,
+      "brit_per_10k": 36.41,
+      "wiki_per_10k": 18.94,
+      "log_ratio": 0.92,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "Of the former we are the centons of Zurich and Berne, the town of St Galli, Geneva, Malhland\u2019s and Mali, the principality of Nuofstadt, the gener part of Buli, Schaffaudins, the country of the Gris foas, the Thurgun, Toggenburg, Glaris, and the Rhine valley."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The Swiss German name of the country, Schwiiz, is homophonous to that of the canton and the settlement, but distinguished by the use of the definite article (d'Schwiiz for the Confederation, but simply Schwyz for the canton and the town)."
+      }
+    },
+    {
+      "term": "towns",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e1327-03",
+        "quote": "HUESCA, on ancient and considerable towns of Spain, in the kingdom of Granada, fieldsed on a plain in W."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Towns such as Aventicum, Iulia Equestris and Augusta Raurica reached a remarkable size, while hundreds of agricultural estates (Villae rusticae) were established in the countryside."
+      }
+    },
+    {
+      "term": "trade",
+      "brit_count": 2,
+      "wiki_count": 4,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 10.83,
+      "log_ratio": 0.16,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The trade of Switzerland is greatly promoted by many navigable lakes and rivers."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It is a founding member of the European Free Trade Association (EFTA) and participates in the European single market and the Schengen Area."
+      }
+    },
+    {
+      "term": "tribes",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The earliest known tribes formed the Hallstatt and La T\u00e8ne cultures, named after the archaeological site of La T\u00e8ne on the north side of Lake Neuch\u00e2tel."
+      }
+    },
+    {
+      "term": "two",
+      "brit_count": 6,
+      "wiki_count": 12,
+      "brit_per_10k": 36.41,
+      "wiki_per_10k": 32.48,
+      "log_ratio": 0.16,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The two predominant se regions are Calvinia and Sprayer."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The long of Swiss German is historically and still often today spelled \u27e8 y \u27e9 rather than \u27e8 ii \u27e9, preserving the original identity of the two names even in writing."
+      }
+    },
+    {
+      "term": "upon",
+      "brit_count": 3,
+      "wiki_count": 3,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.12,
+      "brit_example": {
+        "entry_id": "e0261-02",
+        "quote": "It is a native of South America, among others, where a preys upon the larger insects, and even small birds, dropping into their nests, and sucking their blood and legs; it is of so enormous a size, that its flag may be compared to the latons of a havk, and its eyes are very large."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Under Governor John Harvey, at a meeting held at Jamestown, October 8, 1630, Governor Harvey and the Governor's Council, \"for the securing and taking in a tract of land called the forest, bordering upon the cheife residence of ye Pamunkey King, the most dangerous head of ye Indyan enemy,\" did \"after much consultation thereof had, decree and sett down several proportions of land for such commanders, and fifty acres per poll for all other persons who ye first yeare and five and twenty acres who the second yeare, should adventure or be adventured to seate and inhabit on the southern side of Pamunkey River, now called York, and formerly known by the Indyan name of Chiskiack, as a reward and encouragement for this their undertaking.\" Under this order, houses were built on both sides of King's Creek, and extended rapidly up and down the south side of the York River."
+      }
+    },
+    {
+      "term": "use",
+      "brit_count": 2,
+      "wiki_count": 8,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 21.65,
+      "log_ratio": -0.81,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "Except in Zuricha, Bern, Bull, and Schaffaudines, where the people are more industrations, have a greater trade and are richer than in the others, shall use it was."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The English name Switzerland compounds Switzer, an obsolete term for a Swiss person which was in use during the 16th to 19th centuries, with the common English suffix -land denoting a region or country."
+      }
+    },
+    {
+      "term": "used",
+      "brit_count": 1,
+      "wiki_count": 7,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 18.94,
+      "log_ratio": -1.57,
+      "brit_example": {
+        "entry_id": "e2250-02",
+        "quote": "BUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flapper the fides of a building, wall, 6e, on the outside, where it is either very high, or has any considerable load to fultain on the other fide, as a bank of earth, eC Butteflies are used against the angles of fleeples and other buildings of flone, 6e, on the confiile, and along the walls of fuch buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no butteffes were placed againft them."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The Swiss began to adopt the name for themselves after the Swabian War of 1499, used alongside the term for \"Confederates\", Eidgenossen (literally: comrades by oath), used since the 14th century."
+      }
+    },
+    {
+      "term": "virginia",
+      "brit_count": 1,
+      "wiki_count": 9,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 24.36,
+      "log_ratio": -1.92,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "WILLLAMSBURG, e town of North America, in Virginia, and formerly capital of that fact."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "Middle Plantation in the Virginia Colony was the unincorporated town established in 1632 that became Williamsburg in 1699."
+      }
+    },
+    {
+      "term": "wall",
+      "brit_count": 1,
+      "wiki_count": 4,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 10.83,
+      "log_ratio": -0.79,
+      "brit_example": {
+        "entry_id": "e2250-02",
+        "quote": "BUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flapper the fides of a building, wall, 6e, on the outside, where it is either very high, or has any considerable load to fultain on the other fide, as a bank of earth, eC Butteflies are used against the angles of fleeples and other buildings of flone, 6e, on the confiile, and along the walls of fuch buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no butteffes were placed againft them."
+      },
+      "wiki_example": {
+        "page_id": "663464",
+        "revision_id": "1346148586",
+        "quote": "A buttress is an architectural structure built against or projecting from a wall which serves to support or reinforce the wall."
+      }
+    },
+    {
+      "term": "war",
+      "brit_count": 3,
+      "wiki_count": 5,
+      "brit_per_10k": 18.2,
+      "wiki_per_10k": 13.53,
+      "log_ratio": 0.41,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "They mult all provide therefore with arms, clothing, and word traumatic, and appear on the dateted day for exercise, and the feronal cantons and dirithate mult he furished with a futitic ent train of artilities, and all its other implementos of war."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland has maintained a policy of armed neutrality since the 16th century and has not fought an international war since 1815."
+      }
+    },
+    {
+      "term": "well",
+      "brit_count": 4,
+      "wiki_count": 3,
+      "brit_per_10k": 24.27,
+      "wiki_per_10k": 8.12,
+      "log_ratio": 1.52,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "The women are fail to be generally headline and well-disped, reliable and modelly transk, city, and vascade the conversation."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "It is known for its chocolate and cheese production, well-developed tourism industry, and growing startup sector."
+      }
+    },
+    {
+      "term": "western",
+      "brit_count": 0,
+      "wiki_count": 5,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 13.53,
+      "log_ratio": -4.81,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe."
+      }
+    },
+    {
+      "term": "william",
+      "brit_count": 0,
+      "wiki_count": 6,
+      "brit_per_10k": 0.0,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -5.07,
+      "brit_example": {
+        "entry_id": "",
+        "quote": ""
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "In 1693, Middle Plantation was selected as the site of the new College of William & Mary."
+      }
+    },
+    {
+      "term": "without",
+      "brit_count": 2,
+      "wiki_count": 6,
+      "brit_per_10k": 12.14,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -0.41,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "He appropriated a room as an contrary for driven revoc according to the church of England, whether end of the loyalists in Oxford only without."
+      },
+      "wiki_example": {
+        "page_id": "59238",
+        "revision_id": "1353043526",
+        "quote": "Because the class Insecta contains a very large number of species (over 330,000 species of beetles alone) and the characteristics distinguishing them are unfamiliar, and often subtle (or invisible without a microscope), this is often very difficult even for a specialist."
+      }
+    },
+    {
+      "term": "years",
+      "brit_count": 1,
+      "wiki_count": 6,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 16.24,
+      "log_ratio": -1.35,
+      "brit_example": {
+        "entry_id": "e0251-01",
+        "quote": "Every man enulis voluntarily, and for what number of years he pleties' as the expiration of which he is at liberty to return home."
+      },
+      "wiki_example": {
+        "page_id": "26748",
+        "revision_id": "1353279456",
+        "quote": "The oldest traces of hominid existence in Switzerland date to about 150,000 years ago."
+      }
+    },
+    {
+      "term": "york",
+      "brit_count": 1,
+      "wiki_count": 16,
+      "brit_per_10k": 6.07,
+      "wiki_per_10k": 43.3,
+      "log_ratio": -2.74,
+      "brit_example": {
+        "entry_id": "e0258-03",
+        "quote": "It is fuated between two rocks; one falling into James, and the other into York River."
+      },
+      "wiki_example": {
+        "page_id": "1343479",
+        "revision_id": "1333711617",
+        "quote": "It was located on high ground about halfway across the Virginia Peninsula between the James River and York River."
       }
     }
   ]
