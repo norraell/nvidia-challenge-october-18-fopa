@@ -4,7 +4,7 @@
  "filename": "page-0452-233256cb3c3c.jpg",
  "image_sha256": "233256cb3c3c25e03e847aa65e26f3e82cd05f8ef6e302c7ce69fe42a042f2cf",
  "model": "nvidia/nemotron-3.5-parse",
- "latency_ms": 15131,
+ "latency_ms": 12407,
  "attempts": 1,
  "finish_reason": null,
  "parsed_at": null,

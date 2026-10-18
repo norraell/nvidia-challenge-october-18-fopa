@@ -183,6 +183,7 @@ def normalize(text: str) -> str:
     """Long s to s, join line-end hyphens, drop markdown emphasis, collapse whitespace."""
     text = text.replace("ſ", "s").replace("**", "").replace("__", "")
     text = re.sub(r"(\w)[-¬]\s*\n\s*(\w)", r"\1\2", text)
+    text = re.sub(r"(\w)[-¬] (?=[a-zſ])", r"\1", text)  # Parse also writes line-end hyphens as "au- thors"
     return re.sub(r"\s+", " ", text).strip()
 
 

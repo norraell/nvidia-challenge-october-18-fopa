@@ -6,9 +6,17 @@ Outputs under <work_dir>/extract/ (issue #2):
   entries.jsonl             EntryRecords in page and reading order
   crops/{entry_id}.png      union of the entry's block boxes, padded 8 px, grayscale
                             (the scans are grayscale paper; RGB PNGs were 2.7 times larger)
-  coverage.json             counts, dropped blocks, failures, latency
+  coverage.json             counts, dropped blocks, failures, latency, CER, LaTeX results
+  gold/{row_index:04d}.txt  hand transcriptions for CER (typed by a person; see gold/README.md)
+  latex/{row_index:04d}.tex and .pdf   one document per ok scan
+
+Blank pages: Parse returns a full-page Picture block for an empty sheet (rows 374, 1615, 2077),
+so "no text blocks" alone would also catch uncaptioned engravings. A page is blank when no
+block has text and every picture region is nearly flat (grayscale standard deviation below 15).
+Measured: blank sheets 5.9 to 12.1; the faintest real plate (a map, row 1845) 16.9; engravings 29+.
 
 Set EXTRACT_LIMIT=N to process only the first N manifest scans.
+Set EXTRACT_SKIP_LATEX=1 to write the .tex files without compiling them.
 """
 from __future__ import annotations
 
@@ -21,12 +29,13 @@ from pathlib import Path
 import time
 from typing import Any
 
-from PIL import Image
+from PIL import Image, ImageStat
 
 from ..clients import ParseClient, ProtocolError, ServiceError
 from ..config import PARSE_MODEL, Settings
 from ..contracts import EntryRecord, PageRecord
 from ..data import file_sha256, load_manifest
+from . import cer, latex
 from .segment import segment
 
 MAX_IN_FLIGHT = 4
@@ -34,6 +43,22 @@ RETRIES = 3
 CROP_PADDING = 8
 CROP_MAX_SIDE = 2048
 CROP_MAX_BYTES = 8 * 1024 * 1024
+BLANK_STDDEV = 15.0
+
+
+def is_blank(entries: list[dict[str, Any]], scan: Path) -> bool:
+    """No text anywhere, and every picture region is nearly flat paper."""
+    if any(e["text"].strip() for e in entries) or any(b["text"].strip() for e in entries for b in e["blocks"]):
+        return False
+    with Image.open(scan) as image:
+        gray = image.convert("L")
+        for entry in entries:
+            for block in entry["blocks"]:
+                x0, y0, x1, y1 = block["bbox"]
+                region = gray.crop((int(x0), int(y0), max(int(x1), int(x0) + 1), max(int(y1), int(y0) + 1)))
+                if ImageStat.Stat(region).stddev[0] >= BLANK_STDDEV:
+                    return False
+    return True
 
 
 def _retry_delay(exc: ServiceError, attempt: int) -> float:
@@ -129,7 +154,8 @@ def _percentile(values: list[int], share: float) -> int | None:
     return ordered[min(len(ordered) - 1, round(share * (len(ordered) - 1)))]
 
 
-def extract(pages: list[dict[str, Any]], scan_dir: Path, work_dir: Path, client: ParseClient) -> dict[str, Any]:
+def extract(pages: list[dict[str, Any]], scan_dir: Path, work_dir: Path, client: ParseClient,
+            compile_latex: bool = False) -> dict[str, Any]:
     out = work_dir / "extract"
     raw_dir = out / "raw"
     with ThreadPoolExecutor(max_workers=MAX_IN_FLIGHT) as pool:
@@ -163,8 +189,9 @@ def extract(pages: list[dict[str, Any]], scan_dir: Path, work_dir: Path, client:
             dropped.extend(result["dropped"])
             if result["unparsed_chars"]:
                 unparsed[str(page["row_index"])] = result["unparsed_chars"]
-            if result["kept_blocks"] == 0 or not entries:
+            if result["kept_blocks"] == 0 or not entries or is_blank(entries, scan):
                 row["status"] = "blank"
+                entries = []
             elif all(e["quality"]["low_quality"] for e in entries):
                 row["status"] = "illegible"
             else:
@@ -196,6 +223,10 @@ def extract(pages: list[dict[str, Any]], scan_dir: Path, work_dir: Path, client:
     (out / "pages.jsonl").write_text("".join(r.model_dump_json() + "\n" for r in page_records), encoding="utf-8")
     (out / "entries.jsonl").write_text("".join(r.model_dump_json() + "\n" for r in entry_records), encoding="utf-8")
 
+    entries_by_id = {entry["entry_id"]: entry for entry in all_entries}
+    cer_report = cer.report(page_rows, entries_by_id, out / "gold")
+    latex_report = latex.build(page_rows, entries_by_id, out, compile_pdf=compile_latex)
+
     def count(values: list[str]) -> dict[str, int]:
         return {value: values.count(value) for value in sorted(set(values))}
 
@@ -214,10 +245,16 @@ def extract(pages: list[dict[str, Any]], scan_dir: Path, work_dir: Path, client:
         "parse_latency_ms": {"p50": _percentile(latencies, 0.5), "p95": _percentile(latencies, 0.95)},
         "failed_pages": [{"row_index": r["row_index"], "page_id": r["page_id"], "error": r["error"]}
                          for r in page_rows if r["status"] == "failed"],
+        "cer": cer_report,
+        "latex": latex_report,
     }
     (out / "coverage.json").write_text(json.dumps(coverage, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return {"pages": len(page_rows), "pages_by_status": coverage["pages_by_status"],
             "entries": len(all_entries), "entries_by_kind": coverage["entries_by_kind"],
+            "cer": {"status": cer_report["status"], "mean_cer": cer_report["mean_cer"],
+                    "missing_gold_rows": cer_report["missing_gold_rows"]},
+            "latex": {key: latex_report[key] for key in ("status", "tex_files", "compiled")} | {
+                "failed": len(latex_report["failed"])},
             "output_dir": out.as_posix()}
 
 
@@ -230,4 +267,5 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     if not any(scan_dir.glob("*.jpg")):
         raise FileNotFoundError("no scans found in data/raw/britannica. Run `nemotron-challenge data fetch` first.")
     with ParseClient(settings.parse_base_url, settings.parse_api_key, timeout=300) as client:
-        return extract(pages, scan_dir, Path(work_dir), client)
+        return extract(pages, scan_dir, Path(work_dir), client,
+                       compile_latex=os.environ.get("EXTRACT_SKIP_LATEX", "").strip() != "1")

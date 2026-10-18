@@ -139,6 +139,8 @@ def test_normalization():
     assert normalize("an inſtrument for meaſuring") == "an instrument for measuring"
     assert normalize("repre-\nsenting the  figure\n of") == "representing the figure of"
     assert normalize("**ABACUS**, a table") == "ABACUS, a table"
+    assert normalize("thus au- thors mention endlefs rolls") == "thus authors mention endlefs rolls"
+    assert normalize("SWIVEL- Cannon") == "SWIVEL- Cannon"  # a capital after the hyphen is not a line break
 
 
 def test_ocr_suspect_ratio_ignores_numbers_and_punctuation():
@@ -199,6 +201,26 @@ def test_extract_writes_valid_records_crops_and_resumes(tmp_path):
         assert crop.size == (int(288.0 + 8) - int(60.0 - 8), int(330.4 + 8) - int(181.7 - 8))
     coverage = json.loads((out / "coverage.json").read_text(encoding="utf-8"))
     assert coverage["dropped_blocks"][0]["text"] == "7 ABACUS."
+    assert coverage["cer"]["status"] == "no eligible pages"  # one short entry: under 150 words
+    assert coverage["latex"] == {"status": "not compiled", "compiler": None, "tex_files": 1, "compiled": 0,
+                                 "failed": [], "skipped_pages": []}
+    assert r"\subsection*{ABACUS}" in (out / "latex" / "0007.tex").read_text(encoding="utf-8")
+
+
+def test_blank_sheet_with_full_page_picture_is_blank_but_engraving_is_a_plate(tmp_path):
+    from nemotron_challenge.stages.extract import is_blank
+
+    picture = [{"text": "", "kind": "plate", "blocks": [{"bbox": [0.0, 0.0, 600.0, 800.0], "text": "", "cls": "Picture"}]}]
+    blank = tmp_path / "blank.jpg"
+    Image.new("L", (600, 800), 225).save(blank, format="JPEG")
+    engraving = tmp_path / "engraving.png"
+    image = Image.new("L", (600, 800), 225)
+    image.paste(0, (100, 100, 500, 700))  # dark printed area
+    image.save(engraving, format="PNG")
+    assert is_blank(picture, blank)
+    assert not is_blank(picture, engraving)
+    captioned = [dict(picture[0], text="Plate XVII.")]
+    assert not is_blank(captioned, blank)
 
 
 def test_failed_parse_is_recorded_not_raised(tmp_path):
