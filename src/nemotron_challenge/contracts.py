@@ -96,3 +96,118 @@ class WikiSearch(BaseModel):
     corpus_revision: str
     count: int = Field(ge=0)
     hits: list[WikiHit]
+
+
+class ParseRun(Contract):
+    model: str
+    latency_ms: int
+    finish_reason: str
+    raw_path: str                      # artifacts/extract/raw/{row_index:04d}.json
+
+
+class PageRecord(Contract):            # artifacts/extract/pages.jsonl, one per manifest scan (100 rows)
+    page_id: str                       # manifest page_id, e.g. britannica:<rev>:train:13
+    row_index: int
+    volume_id: str
+    filename: str
+    image_sha256: str
+    width: int
+    height: int
+    status: Literal["ok", "blank", "illegible", "failed"]
+    parse: ParseRun | None
+    error: str | None = None
+    entry_ids: list[str]
+
+
+class Block(Contract):
+    page_id: str
+    bbox: list[float] = Field(min_length=4, max_length=4)   # x0,y0,x1,y1 in source-image pixels
+    cls: str                           # Parse class as returned (Text, Section-header, Picture, ...)
+    text: str
+
+
+class EntryRecord(Contract):           # artifacts/extract/entries.jsonl
+    entry_id: str                      # "e{row_index:04d}-{n:02d}", n = reading order on first page
+    kind: Literal["entry", "continuation", "plate", "cross_reference"]
+    headword: str | None
+    text: str                          # normalized (long s -> s, line-end hyphens joined)
+    text_raw: str                      # exact Parse text, concatenated blocks
+    blocks: list[Block] = Field(min_length=1)
+    crop_path: str                     # artifacts/extract/crops/{entry_id}.png
+    continues_from: str | None = None
+    continues_to: str | None = None
+    quality: dict[str, float | bool | str] = Field(default_factory=dict)
+
+
+class WikiRef(Contract):
+    page_id: str
+    revision_id: str
+    title: str
+    url: str
+
+
+class CandidateScore(Contract):
+    wiki: WikiRef
+    bm25_rank: int
+    bm25_score: float
+    excerpt: str
+    excerpt_offset: int
+    embed_cosine: float | None = None
+    embed_rank: int | None = None
+    rerank_logit: float | None = None
+    rerank_rank: int | None = None
+
+
+class MatchRecord(Contract):           # artifacts/match/matches.jsonl, one per EntryRecord
+    entry_id: str
+    status: Literal["matched", "rejected", "no_candidates", "skipped"]
+    reason: str                        # human-readable rule that fired
+    queries: list[str]
+    candidates: list[CandidateScore]   # every pooled candidate, all scores kept
+    match: WikiRef | None
+    rerank_margin: float | None
+    method_version: str
+
+
+class TermRow(Contract):
+    term: str
+    brit_count: int
+    wiki_count: int
+    brit_per_10k: float
+    wiki_per_10k: float
+    log_ratio: float
+    brit_example: dict[str, str]       # {"entry_id", "quote"}
+    wiki_example: dict[str, str]       # {"page_id", "revision_id", "quote"}
+
+
+class DriftReport(Contract):           # artifacts/compare/drift.json
+    method: str
+    exclusions: list[str]
+    pairs_used: int
+    brit_tokens: int
+    wiki_tokens: int
+    terms: list[TermRow]
+
+
+class ToolCall(Contract):
+    name: str
+    arguments: dict[str, Any]
+    result: str
+    error: str | None = None
+
+
+class RunRecord(Contract):             # artifacts/agent/runs/{run_id}.json
+    run_id: str
+    started_at: str                    # ISO 8601 UTC
+    code_revision: str                 # git SHA
+    hermes_version: str
+    model: str                         # model ID from the reply, not from config
+    question: str
+    image_inputs: list[str]
+    tools_enabled: bool
+    tool_calls: list[ToolCall]
+    answer: str
+    citations: list[dict[str, str]]
+    finish_reason: str
+    label: Literal["unreviewed", "success", "failure"] = "unreviewed"
+    notes: str = ""

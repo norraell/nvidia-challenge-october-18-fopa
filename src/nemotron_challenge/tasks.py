@@ -3,42 +3,37 @@ from pathlib import Path
 from typing import Any
 
 from .config import Settings
+from . import stages
+from .stages import _unfinished
 
 STAGES = ("extract", "match", "compare", "agent", "site", "evaluate")
 
 
-def _unfinished(stage: str) -> None:
-    raise NotImplementedError(
-        f"TODO: implement the {stage} milestone. Read docs/milestones.md#{stage}. "
-        "The starter has no result for this stage."
-    )
-
-
 def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
     """TODO: define your extraction and entry segmentation process."""
-    _unfinished("extract")
+    return stages.extract.run(settings, work_dir)
 
 
 def match(settings: Settings, work_dir: Path) -> dict[str, Any]:
     """TODO: define how your team finds and verifies article matches."""
-    _unfinished("match")
+    return stages.match.run(settings, work_dir)
 
 
 def compare(settings: Settings, work_dir: Path) -> dict[str, Any]:
     """TODO: define your vocabulary, frequency, or topic comparison."""
-    _unfinished("compare")
+    return stages.compare.run(settings, work_dir)
 
 
 def agent(settings: Settings, work_dir: Path) -> dict[str, Any]:
     """TODO: implement your Hermes tools and evidence checks."""
-    _unfinished("agent")
+    return stages.agent.run(settings, work_dir)
 
 
 def site(settings: Settings, work_dir: Path) -> dict[str, Any]:
     """TODO: build your LaTeX documents and static website."""
-    _unfinished("site")
+    return stages.site.run(settings, work_dir)
 
 
 def evaluate(settings: Settings, work_dir: Path) -> dict[str, Any]:
     """TODO: review your results and document successes and failures."""
-    _unfinished("evaluate")
+    return stages.evaluate.run(settings, work_dir)
