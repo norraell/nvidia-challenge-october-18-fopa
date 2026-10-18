@@ -114,12 +114,15 @@ def parse_stream(stdout: str) -> dict[str, Any]:
     return result
 
 
-def parse_quiet(stdout: str) -> dict[str, Any]:
-    """`chat -Q` prints the answer, then a `session_id: ID` line."""
-    match = re.search(r"^session_id:\s*(\S+)\s*$", stdout, re.MULTILINE)
-    if not match:
-        return {"text": stdout.strip()}
-    return {"text": stdout[:match.start()].strip(), "session_id": match.group(1)}
+def parse_quiet(stdout: str, stderr: str = "") -> dict[str, Any]:
+    """`chat -Q` prints the answer on stdout and a `session_id: ID` line on stderr.
+
+    The line may also appear in stdout, so the parser checks both and removes it from the answer.
+    """
+    pattern = re.compile(r"^session_id:\s*(\S+)\s*$", re.MULTILINE)
+    found = pattern.search(stderr) or pattern.search(stdout)
+    text = pattern.sub("", stdout).strip()
+    return {"text": text, "session_id": found.group(1)} if found else {"text": text}
 
 
 def export_session(binary: str, env: dict[str, str], session_id: str) -> dict[str, Any]:
@@ -214,7 +217,7 @@ def attempt(question: Question, *, root: Path, work_dir: Path, binary: str, vers
                        "--format", "stream-json", "--max-turns", str(MAX_TURNS)]
         try:
             done = subprocess.run(command, capture_output=True, text=True, timeout=RUN_TIMEOUT_SECONDS, env=env, cwd=root)
-            result = parse_quiet(done.stdout) if question.image else parse_stream(done.stdout)
+            result = parse_quiet(done.stdout, done.stderr) if question.image else parse_stream(done.stdout)
             answer = (result.get("text") or "").strip()
             if done.returncode != 0 or result.get("error"):
                 detail = result.get("error") or done.stderr.strip()[-300:] or "no error text"

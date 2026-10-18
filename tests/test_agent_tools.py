@@ -84,6 +84,15 @@ def test_brit_search_falls_back_to_keyword_and_says_so(plugin, work):
     assert len(first["text_start"]) <= 300
 
 
+def test_brit_search_ranks_a_headword_hit_above_repeated_common_words(plugin, work):
+    entries = work / "extract" / "entries.jsonl"
+    rows = [json.loads(line) for line in entries.read_text().splitlines()]
+    long_row = dict(rows[0], entry_id="e9999-01", headword=None, text="the lands of the lord " * 40)
+    entries.write_text("\n".join(json.dumps(r) for r in rows + [long_row]) + "\n")
+    result = call(plugin.handle_brit_search, query="abacus lands lord", k=3)
+    assert result["entries"][0]["headword"] == "ABACUS"
+
+
 def test_brit_search_rejects_bad_input_and_empty_result(plugin, work):
     assert call(plugin.handle_brit_search, query="x" * 501)["evidence"] == "missing"
     assert "k must be" in call(plugin.handle_brit_search, query="abacus", k=11)["error"]

@@ -38,7 +38,7 @@ text = {{"ok": "Britannica says X [B:e0104-01]. Wikipedia says Y [W:3845@1249018
         "empty": "", "leak": "key is " + os.environ["SUPER_API_KEY"], "noreply": "answer",
         "bearer": "Authorization: Bearer abcdefgh12345678"}}.get(mode, "answer")
 if "-Q" in args:
-    print(text); print(); print("session_id: sess"); sys.exit(0)
+    print(text); print("\\nsession_id: sess", file=sys.stderr); sys.exit(0)
 print(json.dumps({{"type": "result", "session_id": "sess", "exit_code": 0, "text": text}}))
 '''
 
@@ -162,7 +162,9 @@ def test_image_question_passes_image_and_records_it(env, monkeypatch, tmp_path):
     monkeypatch.setattr(agent.subprocess, "run", spy)
     agent.run(settings(), env)
     assert seen["command"][seen["command"].index("--image") + 1] == str(image)
-    assert runs(env)[0].image_inputs == [str(image)]
+    record = runs(env)[0]
+    assert record.image_inputs == [str(image)]
+    assert [call.name for call in record.tool_calls] == ["challenge_compare"]  # The session line is on stderr.
 
 
 def test_question_file_errors(env):

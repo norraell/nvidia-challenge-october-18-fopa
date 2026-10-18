@@ -221,14 +221,16 @@ def _match_revision(page_id: str) -> str | None:
 # ---------------------------------------------------------------- brit_search
 
 def _keyword_search(query: str, k: int, entries: dict[str, Any]) -> list[Any]:
-    words = [w for w in re.findall(r"\w+", query.lower()) if len(w) > 1]
+    words = sorted({w for w in re.findall(r"\w+", query.lower()) if len(w) > 1})
     scored = []
     for entry in entries.values():
-        haystack = f"{entry.headword or ''} {entry.text}".lower()
-        hits = sum(haystack.count(w) for w in words)
-        head_bonus = 5 if entry.headword and entry.headword.lower() in query.lower() else 0
-        if hits or head_bonus:
-            scored.append((hits + head_bonus, entry.entry_id, entry))
+        head = set(re.findall(r"\w+", (entry.headword or "").lower()))
+        text = entry.text.lower()
+        # A headword hit counts most. Then distinct query words in the text. Repeats add a little.
+        score = 10 * sum(w in head for w in words) + 2 * sum(w in text for w in words)
+        score += min(sum(text.count(w) for w in words), 5)
+        if score > min(sum(text.count(w) for w in words), 5):
+            scored.append((score, entry.entry_id, entry))
     scored.sort(key=lambda row: (-row[0], row[1]))
     return [row[2] for row in scored[:k]]
 
