@@ -79,6 +79,7 @@ def transform_artifacts_to_site_data(
                     "reason": match.reason,
                     "method_version": match.method_version,
                     "rerank_margin": match.rerank_margin,
+                    "queries": match.queries,
                     "matched_wiki": match.match.model_dump() if match.match else None,
                     "candidates": [
                         {

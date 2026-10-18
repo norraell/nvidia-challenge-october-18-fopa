@@ -44,10 +44,15 @@ def test_internal_links_resolve():
     index_html = (web_dir / "index.html").read_text()
     arch_html = (web_dir / "architecture.html").read_text()
 
-    # Verify link from index.html to architecture.html
-    assert 'href="architecture.html"' in index_html
-    # Verify return link from architecture.html to index.html
-    assert 'href="index.html"' in arch_html
+    app_js = (web_dir / "app.js").read_text()
+
+    # The Pipeline view embeds the architecture diagram.
+    assert 'href="#pipeline"' in index_html
+    assert 'src="architecture.html"' in app_js
+    assert "<svg" in arch_html
+    # The app loads every data file that the site stage writes.
+    for name in ("pages", "drift", "cases"):
+        assert name in app_js
 
 
 def test_stage_site_transform_runner(tmp_path):

@@ -1,514 +1,346 @@
-// Britannica · Wikipedia Cross-Era Lens Application Logic
+// Britannica-Wiki Lens. Reads the JSON that `nemotron-challenge run site` writes to data/.
+// Routes: #viewer?p=<row_index>&e=<entry_id>  #match?e=<entry_id>  #analytics  #agent?r=<run_id>  #pipeline
 
-let state = {
-  pages: [],
-  drift: null,
-  cases: [],
-  selectedPageIndex: 0,
-  selectedEntryId: null,
-  selectedCaseId: null,
-  isLatexRawView: false,
+const $view = document.getElementById('view');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => `&#${c.charCodeAt(0)};`);
+const pct = n => `${Math.round(n * 100)}%`;
+const fmt = (n, d = 2) => (n == null ? '–' : Number(n).toFixed(d));
+let D; // { pages, drift, runs }
+
+// Lucide icon paths (24x24, stroke). Decorative unless a label is given.
+const ICONS = {
+  warn: '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
+  ban: '<circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/>',
+  play: '<polygon points="6 3 20 12 6 21 6 3"/>',
+  up: '<path d="m18 15-6-6-6 6"/>',
+  down: '<path d="m6 9 6 6 6-6"/>',
+  ext: '<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
+  plus: '<path d="M5 12h14"/><path d="M12 5v14"/>',
+  minus: '<path d="M5 12h14"/>',
+  check: '<path d="M20 6 9 17l-5-5"/>',
+  wrench: '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>',
+  image: '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.09-3.09a2 2 0 0 0-2.82 0L6 21"/>',
+  dot: '<circle cx="12" cy="12" r="4"/>',
+};
+const icon = (n, cls = 'h-4 w-4') => `<svg class="${cls} inline-block shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[n]}</svg>`;
+
+// ---------- Data helpers ----------
+const allEntries = () => D.pages.flatMap(p => p.entries.map(e => ({ ...e, page: p })));
+const findEntry = id => allEntries().find(e => e.entry_id === id);
+const entryByCrop = path => allEntries().find(e => e.crop_path === path);
+const cropUrl = e => `crops/${e.crop_path.split('/').pop()}`;
+const label = e => e.headword || (e.kind === 'plate' ? 'Plate' : e.kind === 'continuation' ? 'Continuation' : e.entry_id);
+const lowQ = e => e.quality?.low_quality === true;
+const pageAspect = p => `aspect-ratio:${p.width} / ${p.height}`;
+const bboxStyle = (p, [x0, y0, x1, y1]) =>
+  `left:${(x0 / p.width) * 100}%;top:${(y0 / p.height) * 100}%;width:${((x1 - x0) / p.width) * 100}%;height:${((y1 - y0) / p.height) * 100}%`;
+const boxKind = e => (e.kind === 'plate' ? 'illustration' : 'heading');
+const wikiUrl = (pageId, revisionId) => {
+  for (const e of allEntries()) {
+    const c = e.match?.candidates.find(c => c.page_id === pageId);
+    if (c) return c.url;
+  }
+  return revisionId ? `https://en.wikipedia.org/w/index.php?oldid=${revisionId}` : `https://en.wikipedia.org/?curid=${pageId}`;
 };
 
-// Initialization
-document.addEventListener("DOMContentLoaded", async () => {
-  setupTabs();
-  await loadData();
-  renderAll();
-});
+const chip = (cls, html, href) => {
+  const ext = href?.startsWith('http');
+  return `<a ${href ? `href="${esc(href)}"` : ''} ${ext ? 'target="_blank" rel="noopener"' : ''}
+     class="inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[13px] font-bold transition-colors ${cls}">${html}${ext ? icon('ext', 'h-3 w-3') : ''}</a>`;
+};
+const britChip = (entryId, text) => {
+  const e = findEntry(entryId);
+  return chip('bg-brit-soft text-brit hover:bg-brit hover:text-white', `Britannica · ${esc(text ?? (e ? label(e) : entryId))}`,
+    e ? `#viewer?p=${e.page.row_index}&e=${e.entry_id}` : null);
+};
+const wikiChip = (pageId, revisionId, text) =>
+  chip('bg-wiki-soft text-wiki hover:bg-wiki hover:text-white', `Wikipedia · ${esc(text ?? `${pageId}@${revisionId}`)}`, wikiUrl(pageId, revisionId));
 
-// Setup Navigation Tabs
-function setupTabs() {
-  const tabs = document.querySelectorAll("#nav-tabs .tab-btn");
-  tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      const view = tab.getAttribute("data-view");
-      tabs.forEach(t => t.classList.remove("active"));
-      tab.classList.add("active");
+const card = (title, body, extra = '') =>
+  `<section class="rise rounded-xl border border-line bg-card p-5 shadow-sm ${extra}">
+     <h2 class="mb-4 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-sub">${title}</h2>${body}</section>`;
+const stat = (name, value, cls = 'text-fg') =>
+  `<div class="rounded-lg border border-line bg-card px-4 py-2"><div class="text-[11px] uppercase tracking-wider text-sub">${name}</div><div class="text-lg font-bold ${cls}">${value}</div></div>`;
+const btn = (active, activeCls = 'bg-wiki text-white') =>
+  `cursor-pointer rounded-md px-3 py-1.5 text-sm transition-colors ${active ? activeCls : 'bg-muted text-fg hover:bg-line'}`;
+const empty = msg => `<p class="rounded-xl border border-dashed border-line bg-card p-8 text-center text-sub">${msg}</p>`;
 
-      document.querySelectorAll(".view-panel").forEach(panel => {
-        panel.classList.add("hidden");
-      });
-      const activePanel = document.getElementById(`view-${view}`);
-      if (activePanel) {
-        activePanel.classList.remove("hidden");
-      }
-    });
-  });
-
-  // Handle deep-link hashtag (e.g. #entry?e=e0013-01)
-  window.addEventListener("hashchange", handleHashRouting);
+// ---------- 1. Archive Viewer ----------
+function texSource(page) {
+  // ponytail: escapes the LaTeX specials only; the compiled PDF comes from the extract stage.
+  const t = s => String(s ?? '').replace(/([%&_#$])/g, '\\$1').replace(/ſ/g, 's');
+  return `\\documentclass[twocolumn]{article}\n\\begin{document}\n` +
+    page.entries.map(e => e.kind === 'plate'
+      ? `\\begin{figure}\\caption{${t(e.text)}}\\end{figure}`
+      : `\\section*{${t(label(e))}}\n${t(e.text)}`).join('\n\n') + `\n\\end{document}`;
 }
 
-function handleHashRouting() {
-  const hash = window.location.hash;
-  if (hash.startsWith("#entry?e=")) {
-    const entryId = hash.replace("#entry?e=", "");
-    selectEntryById(entryId);
-    // Switch to match view
-    const matchTab = document.querySelector('[data-view="match"]');
-    if (matchTab) matchTab.click();
-  }
-}
+const entryParagraph = e => {
+  if (e.kind === 'plate')
+    return `<figure class="my-2 flex items-center justify-center gap-2 border-y border-[#e5dcc7] py-3 text-sm italic text-sub">${icon('image')} ${esc(e.text)}</figure>`;
+  const h = e.headword && e.text.toUpperCase().startsWith(e.headword.toUpperCase()) ? e.headword.length : 0;
+  return `<p class="text-justify text-[17px] leading-snug ${e.kind === 'continuation' ? 'italic text-sub' : ''}">` +
+    (h ? `<span class="font-bold tracking-wider">${esc(e.text.slice(0, h))}</span>${esc(e.text.slice(h))}` : esc(e.text)) + `</p>`;
+};
 
-// Data Fetching
-async function loadData() {
-  try {
-    const [pagesRes, driftRes, casesRes] = await Promise.all([
-      fetch("data/pages.json"),
-      fetch("data/drift.json"),
-      fetch("data/cases.json"),
-    ]);
+function viewer(q) {
+  if (!D.pages.length) return ($view.innerHTML = empty('No extracted pages yet. Run <code>nemotron-challenge run extract</code> and <code>run site</code>.'));
+  const page = D.pages.find(p => String(p.row_index) === q.get('p')) || D.pages[0];
+  const sel = q.get('e');
+  const raw = q.get('raw') === '1';
+  const zoom = +(q.get('z') || 1);
+  const link = o => '#viewer?' + new URLSearchParams({ p: page.row_index, ...(sel && { e: sel }), ...(raw && { raw: 1 }), z: zoom, ...o });
+  const heads = page.entries.filter(e => e.kind === 'entry').length;
+  const warns = page.entries.filter(lowQ).length;
 
-    state.pages = await pagesRes.json();
-    state.drift = await driftRes.json();
-    state.cases = await casesRes.json();
+  const boxes = page.entries.flatMap(e => e.blocks.filter(b => b.page_id === page.page_id).map(b => `
+    <a href="${link({ e: e.entry_id })}" aria-label="${esc(label(e))}${lowQ(e) ? ', low OCR quality' : ''}"
+      class="box ${boxKind(e)} ${lowQ(e) ? 'warn' : ''} ${e.entry_id === sel ? 'active' : ''}" style="${bboxStyle(page, b.bbox)}">
+      <span class="absolute -top-6 left-0 inline-flex items-center gap-1 whitespace-nowrap rounded bg-fg/85 px-1.5 py-0.5 text-[11px] text-white">
+        ${lowQ(e) ? icon('warn', 'h-3 w-3 text-amber-300') : ''}${esc(label(e))}</span>
+      <span class="ocr block h-full overflow-hidden p-1.5 font-serif text-[11px] leading-tight text-fg/70">${esc(b.text)}</span></a>`)).join('');
 
-    // Check if any non-fixture data is loaded to control MOCK DATA badge
-    const hasOnlyFixtures = state.pages.every(p => 
-      p.entries.every(e => e.quality && e.quality.fixture)
-    );
-    const badge = document.getElementById("fixture-badge");
-    if (badge && !hasOnlyFixtures) {
-      badge.remove();
-    }
-  } catch (err) {
-    console.error("Failed to load mock data:", err);
-  }
-}
+  const rendered = page.entries.map(e => `
+    <a href="${link({ e: e.entry_id })}" class="mb-4 block break-inside-avoid rounded ${e.entry_id === sel ? '-mx-2 bg-brit-soft px-2 ring-1 ring-brit' : 'hover:bg-[#f3ead7]'}">
+      ${entryParagraph(e)}
+      ${lowQ(e) ? `<span class="mt-1 flex items-center gap-1 font-sans text-xs text-brit">${icon('warn', 'h-3 w-3')} Low OCR quality (suspect tokens ${pct(e.quality.ocr_suspect_ratio ?? 0)})</span>` : ''}
+    </a>`).join('');
 
-function renderAll() {
-  if (!state.pages || state.pages.length === 0) return;
-  renderArchiveView();
-  renderMatchView();
-  renderAnalyticsView();
-  renderAgentView();
-  handleHashRouting();
-}
-
-// --- VIEW 1: ARCHIVE VIEWER ---
-function renderArchiveView() {
-  const pageSelect = document.getElementById("page-select");
-  pageSelect.innerHTML = "";
-  state.pages.forEach((page, idx) => {
-    const opt = document.createElement("option");
-    opt.value = idx;
-    opt.textContent = `Page ${page.row_index} (${page.entries.length} entries) - ${page.filename}`;
-    pageSelect.appendChild(opt);
-  });
-
-  pageSelect.addEventListener("change", (e) => {
-    state.selectedPageIndex = parseInt(e.target.value, 10);
-    updateArchivePage();
-  });
-
-  document.getElementById("toggle-latex-src").addEventListener("click", () => {
-    state.isLatexRawView = !state.isLatexRawView;
-    const rendered = document.getElementById("latex-rendered-pane");
-    const raw = document.getElementById("latex-raw-pane");
-    const btn = document.getElementById("toggle-latex-src");
-    if (state.isLatexRawView) {
-      rendered.classList.add("hidden");
-      raw.classList.remove("hidden");
-      btn.textContent = "View Rendered Document";
-    } else {
-      rendered.classList.remove("hidden");
-      raw.classList.add("hidden");
-      btn.textContent = "View LaTeX Source";
-    }
-  });
-
-  updateArchivePage();
-}
-
-function updateArchivePage() {
-  const page = state.pages[state.selectedPageIndex];
-  if (!page) return;
-
-  // Metadata
-  document.getElementById("meta-row").textContent = page.row_index;
-  document.getElementById("meta-vol").textContent = page.volume_id;
-  document.getElementById("meta-latency").textContent = page.parse ? page.parse.latency_ms : "N/A";
-  document.getElementById("meta-model").textContent = page.parse ? page.parse.model : "nvidia/nemotron-3.5-parse";
-
-  // Scan SVG BBoxes
-  const bboxGroup = document.getElementById("svg-bboxes");
-  bboxGroup.innerHTML = "";
-
-  page.entries.forEach(entry => {
-    entry.blocks.forEach(block => {
-      const [x0, y0, x1, y1] = block.bbox;
-      const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-      rect.setAttribute("x", x0);
-      rect.setAttribute("y", y0);
-      rect.setAttribute("width", x1 - x0);
-      rect.setAttribute("height", y1 - y0);
-      rect.setAttribute("fill", block.cls === "Picture" ? "rgba(168, 85, 247, 0.15)" : "rgba(56, 189, 248, 0.15)");
-      rect.setAttribute("stroke", block.cls === "Picture" ? "#9333ea" : "#0284c7");
-      rect.setAttribute("stroke-width", "4");
-      rect.setAttribute("class", "cursor-pointer transition-all hover:opacity-80");
-      rect.setAttribute("data-entry-id", entry.entry_id);
-
-      const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
-      title.textContent = `${entry.headword || entry.kind} (${block.cls})`;
-      rect.appendChild(title);
-
-      rect.addEventListener("click", () => {
-        highlightEntryInDoc(entry.entry_id);
-      });
-
-      bboxGroup.appendChild(rect);
-
-      // Label text
-      const txt = document.createElementNS("http://www.w3.org/2000/svg", "text");
-      txt.setAttribute("x", x0 + 10);
-      txt.setAttribute("y", y0 + 35);
-      txt.setAttribute("font-size", "28");
-      txt.setAttribute("font-weight", "bold");
-      txt.setAttribute("fill", block.cls === "Picture" ? "#7e22ce" : "#0369a1");
-      txt.textContent = entry.headword || `[${entry.kind}]`;
-      bboxGroup.appendChild(txt);
-    });
-  });
-
-  // Rendered LaTeX entries
-  const entriesContainer = document.getElementById("latex-entries");
-  entriesContainer.innerHTML = "";
-  let rawTex = `% Generated from Nemotron Parse 3.5\\n\\documentclass[twocolumn]{article}\\n\\usepackage{graphicx,multicol}\\n\\begin{document}\\n\\title{Encyclopaedia Britannica Page ${page.row_index}}\\n\\maketitle\\n\\n`;
-
-  page.entries.forEach(entry => {
-    const div = document.createElement("div");
-    div.id = `doc-${entry.entry_id}`;
-    div.className = "p-3 rounded transition-colors duration-200 border border-transparent";
-
-    if (entry.kind === "plate") {
-      div.innerHTML = `
-        <div class="border border-purple-200 bg-purple-50/50 p-4 rounded text-center my-3">
-          <div class="text-xs uppercase font-bold tracking-wider text-purple-700 mb-1">Plate Figure</div>
-          <p class="text-xs italic text-slate-700">${entry.text}</p>
-          <div class="mt-2 text-[10px] text-slate-400 font-mono">Crop: ${entry.crop_path}</div>
-        </div>
-      `;
-      rawTex += `\\begin{figure}[h]\\n\\centering\\n% \\includegraphics[width=\\linewidth]{${entry.crop_path}}\\n\\caption{${escapeLatex(entry.text)}}\\n\\end{figure}\\n\\n`;
-    } else {
-      const headwordHtml = entry.headword ? `<strong class="font-bold text-slate-900 tracking-wide">${entry.headword}</strong>, ` : "";
-      const bodyText = entry.text.replace(new RegExp(`^${entry.headword}[,.]?\\s*`, "i"), "");
-      div.innerHTML = `
-        <div class="text-xs leading-relaxed">
-          ${headwordHtml}
-          <span>${bodyText}</span>
-        </div>
-      `;
-      rawTex += `\\section*{${escapeLatex(entry.headword || entry.kind)}}\\n${escapeLatex(entry.text)}\\n\\n`;
-    }
-
-    entriesContainer.appendChild(div);
-  });
-
-  rawTex += `\\end{document}`;
-  document.getElementById("latex-raw-code").textContent = rawTex;
-}
-
-function escapeLatex(str) {
-  if (!str) return "";
-  return str
-    .replace(/\\/g, "\\textbackslash ")
-    .replace(/[%$&_#{}]/g, "\\$&")
-    .replace(/~/g, "\\textasciitilde ")
-    .replace(/\^/g, "\\textasciicircum ");
-}
-
-function highlightEntryInDoc(entryId) {
-  document.querySelectorAll("#latex-entries > div").forEach(el => {
-    el.classList.remove("bg-amber-100", "border-amber-400");
-  });
-  const el = document.getElementById(`doc-${entryId}`);
-  if (el) {
-    el.classList.add("bg-amber-100", "border-amber-400");
-    el.scrollIntoView({ behavior: "smooth", block: "center" });
-  }
-}
-
-// --- VIEW 2: MATCH EXPLORER ---
-function renderMatchView() {
-  const filter = document.getElementById("match-filter");
-  filter.addEventListener("change", () => updateMatchList());
-  updateMatchList();
-}
-
-function getAllEntries() {
-  const list = [];
-  state.pages.forEach(p => {
-    p.entries.forEach(e => {
-      list.push({ ...e, page_row: p.row_index });
-    });
-  });
-  return list;
-}
-
-function updateMatchList() {
-  const filterVal = document.getElementById("match-filter").value;
-  const entries = getAllEntries();
-  const filtered = entries.filter(e => {
-    if (filterVal === "all") return true;
-    return e.match && e.match.status === filterVal;
-  });
-
-  document.getElementById("entries-count").textContent = `${filtered.length} entries`;
-  const container = document.getElementById("entries-list");
-  container.innerHTML = "";
-
-  filtered.forEach(entry => {
-    const card = document.createElement("div");
-    const isSelected = state.selectedEntryId === entry.entry_id;
-    const status = entry.match ? entry.match.status : "unmatched";
-    
-    let statusBadge = "";
-    if (status === "matched") statusBadge = `<span class="px-1.5 py-0.5 rounded text-[10px] font-semibold bg-emerald-100 text-emerald-800">MATCHED</span>`;
-    else if (status === "rejected") statusBadge = `<span class="px-1.5 py-0.5 rounded text-[10px] font-semibold bg-rose-100 text-rose-800">REJECTED</span>`;
-    else statusBadge = `<span class="px-1.5 py-0.5 rounded text-[10px] font-semibold bg-slate-100 text-slate-600">NO CANDIDATES</span>`;
-
-    card.className = `p-3 rounded-lg border text-left cursor-pointer transition-all ${
-      isSelected ? "border-indigo-500 bg-indigo-50/50 shadow-sm" : "border-slate-200 bg-white hover:border-slate-300"
-    }`;
-
-    card.innerHTML = `
-      <div class="flex justify-between items-start mb-1">
-        <span class="font-bold text-xs text-slate-900">${entry.headword || `[${entry.kind}]`}</span>
-        ${statusBadge}
+  const selected = page.entries.find(e => e.entry_id === sel);
+  $view.innerHTML = `
+    <div class="mb-5 flex flex-wrap items-end gap-3">
+      <div>
+        <p class="mb-1 text-xs uppercase tracking-wider text-sub">Scan (manifest row)</p>
+        <div class="flex flex-wrap gap-1">${D.pages.map(p => `<a href="#viewer?p=${p.row_index}" class="${btn(p === page)}">${p.row_index}${p.status !== 'ok' ? ` · ${esc(p.status)}` : ''}</a>`).join('')}</div>
       </div>
-      <div class="text-[11px] text-slate-500 line-clamp-2 mb-2">${entry.text}</div>
-      <div class="flex justify-between items-center text-[10px] text-slate-400 font-mono">
-        <span>ID: ${entry.entry_id}</span>
-        <span>Page: ${entry.page_row}</span>
+      <div class="ml-auto flex flex-wrap gap-2">
+        ${stat('Entries', heads)}
+        ${stat('Parse 3.5 latency', page.parse ? `${(page.parse.latency_ms / 1000).toFixed(2)} s` : '–')}
+        ${stat('Status', esc(page.status), page.status === 'ok' ? 'text-ok' : 'text-brit')}
+        ${stat('Low-quality entries', warns, warns ? 'text-brit' : 'text-ok')}
       </div>
-    `;
-
-    card.addEventListener("click", () => {
-      selectEntryById(entry.entry_id);
-    });
-
-    container.appendChild(card);
-  });
-
-  if (!state.selectedEntryId && filtered.length > 0) {
-    selectEntryById(filtered[0].entry_id);
-  }
-}
-
-function selectEntryById(entryId) {
-  state.selectedEntryId = entryId;
-  const entries = getAllEntries();
-  const entry = entries.find(e => e.entry_id === entryId);
-  if (!entry) return;
-
-  // Refresh selection visual in list
-  updateMatchDetails(entry);
-}
-
-function updateMatchDetails(entry) {
-  // Update Candidates Column
-  const candPane = document.getElementById("candidates-list");
-  candPane.innerHTML = "";
-
-  const candidates = entry.match ? entry.match.candidates : [];
-  if (candidates.length === 0) {
-    candPane.innerHTML = `
-      <div class="p-6 text-center text-slate-400 text-xs italic bg-slate-50 rounded-lg border border-dashed border-slate-200">
-        No candidates retrieved from BM25 / pre-indexed Wikipedia API.
-      </div>
-    `;
-  } else {
-    candidates.forEach((cand, idx) => {
-      const item = document.createElement("div");
-      item.className = "p-3 bg-white border border-slate-200 rounded-lg space-y-2 shadow-xs";
-      item.innerHTML = `
-        <div class="flex justify-between items-center text-xs">
-          <a href="${cand.url}" target="_blank" class="font-semibold text-indigo-600 hover:underline">
-            #${idx + 1} ${cand.title}
-          </a>
-          <span class="text-[10px] text-slate-400 font-mono">BM25 Rank: ${cand.bm25_rank}</span>
-        </div>
-        <p class="text-[11px] text-slate-600 line-clamp-2">${cand.excerpt}</p>
-        <div class="grid grid-cols-2 gap-2 text-[10px] font-mono pt-1 border-t border-slate-100 text-slate-500">
-          <div>Embed Cosine: <strong class="text-slate-700">${cand.embed_cosine ?? "N/A"}</strong></div>
-          <div>Rerank Logit: <strong class="text-slate-700">${cand.rerank_logit ?? "N/A"}</strong></div>
-        </div>
-      `;
-      candPane.appendChild(item);
-    });
-  }
-
-  // Update Decision Column
-  const decisionPane = document.getElementById("match-decision-pane");
-  const match = entry.match;
-  if (!match) {
-    decisionPane.innerHTML = `<div class="text-xs text-slate-400 italic">No match record found.</div>`;
-    return;
-  }
-
-  let statusColor = match.status === "matched" ? "emerald" : (match.status === "rejected" ? "rose" : "slate");
-  decisionPane.innerHTML = `
-    <div class="p-4 rounded-lg bg-${statusColor}-50 border border-${statusColor}-200 space-y-3">
-      <div class="flex justify-between items-center">
-        <span class="text-xs font-bold uppercase tracking-wider text-${statusColor}-800">Status: ${match.status}</span>
-        <span class="text-[10px] font-mono text-slate-500">${match.method_version}</span>
-      </div>
-      <div class="text-xs text-slate-700">
-        <strong>Decision Rule:</strong>
-        <p class="mt-0.5 font-mono text-[11px] text-slate-600 bg-white/70 p-1.5 rounded">${match.reason}</p>
-      </div>
-      <div class="text-xs text-slate-700">
-        <strong>Rerank Margin (Top 1 - Top 2):</strong>
-        <span class="ml-1 font-mono font-bold text-slate-900">${match.rerank_margin !== null ? match.rerank_margin : "N/A"}</span>
-      </div>
-      ${match.matched_wiki ? `
-        <div class="p-3 bg-white rounded border border-${statusColor}-300">
-          <div class="text-[10px] uppercase font-bold text-slate-400 mb-1">Final Matched Article</div>
-          <div class="text-sm font-bold text-slate-900">
-            <a href="${match.matched_wiki.url}" target="_blank" class="text-indigo-600 hover:underline">
-              ${match.matched_wiki.title}
-            </a>
-          </div>
-          <div class="text-[10px] text-slate-500 font-mono mt-1">
-            Page ID: ${match.matched_wiki.page_id} · Rev: ${match.matched_wiki.revision_id}
-          </div>
-        </div>
-      ` : `
-        <div class="p-3 bg-white/50 rounded border border-slate-200 text-xs text-slate-500 italic">
-          No Wikipedia article accepted under decision policy.
-        </div>
-      `}
     </div>
-  `;
+    <div class="grid gap-5 lg:grid-cols-2">
+      ${card(`<span class="h-2 w-2 rounded-full bg-brit"></span>Scan · volume ${esc(page.volume_id)}, row ${page.row_index}
+        <span class="ml-auto flex items-center gap-1 normal-case tracking-normal">
+          <a href="${link({ z: Math.max(1, zoom - 0.25) })}" aria-label="Zoom out" class="rounded p-1.5 hover:bg-muted">${icon('minus')}</a>
+          <span class="w-10 text-center">${pct(zoom)}</span>
+          <a href="${link({ z: Math.min(2.5, zoom + 0.25) })}" aria-label="Zoom in" class="rounded p-1.5 hover:bg-muted">${icon('plus')}</a></span>`,
+        `<div class="max-h-[74vh] overflow-auto rounded-lg bg-muted p-3"><div class="mx-auto" style="width:min(${zoom * 100}%, ${zoom * 50}vh)">
+           <div class="page relative rounded ${page.image_url ? '' : 'noscan'}" style="${pageAspect(page)}">
+             ${page.image_url ? `<img src="${esc(page.image_url)}" alt="Scan ${esc(page.filename)}" class="absolute inset-0 h-full w-full rounded object-cover" onerror="this.parentNode.classList.add('noscan'); this.remove()">` : ''}
+             ${boxes}
+           </div></div></div>
+         <ul class="mt-3 flex flex-wrap gap-4 text-xs text-sub">
+           <li class="flex items-center gap-1.5"><span class="h-3 w-3 border-2 border-wiki"></span>Entry</li>
+           <li class="flex items-center gap-1.5"><span class="h-3 w-3 border-2 border-tool"></span>Plate</li>
+           <li class="flex items-center gap-1.5"><span class="h-3 w-3 border-2 border-dashed border-brit"></span>Low OCR quality</li></ul>
+         <dl class="mt-4 grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 border-t border-line pt-3 text-xs">
+           <dt class="text-sub">Page ID</dt><dd class="break-all font-mono">${esc(page.page_id)}</dd>
+           <dt class="text-sub">Parse model</dt><dd class="font-mono">${esc(page.parse?.model ?? '–')}</dd>
+           ${selected ? `<dt class="text-sub">Selected</dt><dd>${esc(selected.entry_id)} · ${esc(selected.kind)}
+             ${selected.match ? `· <a class="font-bold text-wiki underline-offset-2 hover:underline" href="#match?e=${selected.entry_id}">See match →</a>` : ''}</dd>` : ''}
+         </dl>`)}
+      ${card(`<span class="h-2 w-2 rounded-full bg-wiki"></span>${page.latex_pdf_url && !raw ? 'Compiled LaTeX (PDF)' : raw ? 'LaTeX source' : 'Extracted text · LaTeX layout'}
+        <a href="${link({ raw: raw ? 0 : 1 })}" class="ml-auto rounded-md border border-line px-2.5 py-1 normal-case tracking-normal text-wiki hover:bg-muted">${raw ? 'Rendered view' : 'Raw source'}</a>`,
+        page.latex_pdf_url && !raw
+          ? `<iframe src="${esc(page.latex_pdf_url)}" title="Compiled LaTeX PDF" class="h-[74vh] w-full rounded-lg border border-line"></iframe>`
+          : raw
+          ? `<pre class="max-h-[74vh] overflow-auto whitespace-pre-wrap rounded-lg bg-fg p-4 text-xs leading-relaxed text-emerald-300">${esc(texSource(page))}</pre>`
+          : `<div class="latex max-h-[74vh] overflow-auto rounded-lg border border-[#e5dcc7] bg-[#FBF7EE] p-8 font-serif text-fg">
+               <p class="mb-4 border-b border-[#e5dcc7] pb-2 text-center text-xs uppercase tracking-[0.3em] text-sub" style="column-span:all">Encyclopædia Britannica · volume ${esc(page.volume_id)}</p>${rendered}</div>`)}
+    </div>`;
 }
 
-// --- VIEW 3: COMPARATIVE ANALYTICS ---
-function renderAnalyticsView() {
-  if (!state.drift) return;
+// ---------- 2. Match Explorer ----------
+// Britannica entry is the query. Stages: BM25 (shared API) → Embed VL cosine → Rerank VL → decision rule.
+function match(q) {
+  const entries = allEntries().filter(e => e.match);
+  if (!entries.length) return ($view.innerHTML = empty('No match records yet. Run <code>nemotron-challenge run match</code> and <code>run site</code>.'));
+  const e = entries.find(x => x.entry_id === q.get('e')) || entries[0];
+  const m = e.match;
+  const by = key => m.candidates.filter(c => c[key] != null).sort((a, b) => a[key] - b[key]);
+  const bm25 = by('bm25_rank'), embed = by('embed_rank'), rerank = by('rerank_rank');
+  const maxBm25 = Math.max(...bm25.map(c => c.bm25_score), 1e-9);
+  const logits = rerank.map(c => c.rerank_logit);
+  const [lo, hi] = [Math.min(...logits), Math.max(...logits)];
+  const norm = v => (hi > lo ? (v - lo) / (hi - lo) : 1);
+  const bar = (v, color) => `<div class="mt-1.5 h-2 rounded-full bg-muted"><div class="h-2 rounded-full ${color}" style="width:${pct(Math.max(0, Math.min(1, v)))}"></div></div>`;
+  const step = (n, text) => `<span class="flex h-6 w-6 items-center justify-center rounded-full bg-fg text-[11px] text-white">${n}</span>${text}`;
+  const move = (from, to) => {
+    if (from == null || to == null) return '';
+    const d = from - to;
+    return d > 0 ? `<span class="inline-flex items-center text-xs font-bold text-ok" aria-label="up ${d}">${icon('up', 'h-3 w-3')}${d}</span>`
+      : d < 0 ? `<span class="inline-flex items-center text-xs font-bold text-bad" aria-label="down ${-d}">${icon('down', 'h-3 w-3')}${-d}</span>`
+      : `<span class="text-xs text-sub">±0</span>`;
+  };
+  const isMatch = c => m.matched_wiki && c.page_id === m.matched_wiki.page_id;
+  const statusCls = { matched: 'bg-ok-soft text-ok', rejected: 'bg-bad-soft text-bad', no_candidates: 'bg-muted text-sub', skipped: 'bg-muted text-sub' }[m.status];
 
-  document.getElementById("drift-pairs").textContent = state.drift.pairs_used;
-  document.getElementById("drift-brit-tokens").textContent = state.drift.brit_tokens.toLocaleString();
-  document.getElementById("drift-wiki-tokens").textContent = state.drift.wiki_tokens.toLocaleString();
-
-  const tbody = document.getElementById("drift-table-body");
-  tbody.innerHTML = "";
-
-  state.drift.terms.forEach(t => {
-    const tr = document.createElement("tr");
-    tr.className = "hover:bg-slate-50";
-
-    const isArchaic = t.log_ratio > 0;
-    const ratioBadge = isArchaic 
-      ? `<span class="px-2 py-0.5 rounded text-[11px] font-bold bg-amber-100 text-amber-800 font-mono">+${t.log_ratio.toFixed(2)}</span>`
-      : `<span class="px-2 py-0.5 rounded text-[11px] font-bold bg-blue-100 text-blue-800 font-mono">${t.log_ratio.toFixed(2)}</span>`;
-
-    tr.innerHTML = `
-      <td class="py-3 px-3 font-bold text-slate-900">${t.term}</td>
-      <td class="py-3 px-3 text-right font-mono text-slate-700">${t.brit_count}</td>
-      <td class="py-3 px-3 text-right font-mono text-slate-500">${t.brit_per_10k.toFixed(1)}</td>
-      <td class="py-3 px-3 text-right font-mono text-slate-700">${t.wiki_count}</td>
-      <td class="py-3 px-3 text-right font-mono text-slate-500">${t.wiki_per_10k.toFixed(1)}</td>
-      <td class="py-3 px-3 text-center">${ratioBadge}</td>
-      <td class="py-3 px-3 space-y-1 max-w-md">
-        <div class="text-[11px] text-amber-900 bg-amber-50/60 p-1 rounded border-l-2 border-amber-400">
-          <strong class="font-semibold text-amber-700">Britannica [${t.brit_example.entry_id}]:</strong> "${t.brit_example.quote}"
+  $view.innerHTML = `
+    <div class="mb-5 flex flex-wrap items-end gap-3">
+      <label class="text-xs uppercase tracking-wider text-sub">Britannica entry (query)
+        <select onchange="location.hash='#match?e='+this.value" class="mt-1 block cursor-pointer rounded-md border border-line bg-card px-3 py-2 text-sm normal-case tracking-normal text-fg">
+          ${entries.map(x => `<option value="${x.entry_id}" ${x === e ? 'selected' : ''}>${esc(label(x))} · ${esc(x.match.status)} · row ${x.page.row_index}</option>`).join('')}
+        </select></label>
+      <p class="ml-auto max-w-xl text-sm text-sub">Britannica → Wikipedia. The shared API returns BM25 keyword hits; Embed VL scores them against the entry text and page crop;
+        Rerank VL orders the shortlist. Rerank scores are raw logits: they rank relevance, they do not prove factual agreement.</p>
+    </div>
+    <div class="grid gap-5 lg:grid-cols-2 2xl:grid-cols-4">
+      ${card(step('A', 'Britannica entry'), `
+        <h3 class="font-serif text-3xl font-semibold text-brit">${esc(label(e))}</h3>
+        <p class="mt-1 text-xs text-sub">${esc(e.entry_id)} · volume ${esc(e.page.volume_id)}, row ${e.page.row_index}${lowQ(e) ? ' · <span class="text-brit">low OCR quality</span>' : ''}</p>
+        <div class="mt-4 flex gap-4">
+          <div class="page relative w-24 shrink-0 overflow-hidden rounded" style="${pageAspect(e.page)}" title="Entry crop sent to Embed VL">
+            <img src="${esc(cropUrl(e))}" alt="" class="absolute inset-0 h-full w-full object-contain" onerror="this.remove()">
+            ${e.blocks.filter(b => b.page_id === e.page.page_id).map(b => `<div class="box ${boxKind(e)} active" style="${bboxStyle(e.page, b.bbox)}"></div>`).join('')}
+          </div>
+          <blockquote class="max-h-48 overflow-auto border-l-2 border-brit pl-3 font-serif text-[16px] italic leading-snug">“${esc(e.text)}”</blockquote>
         </div>
-        <div class="text-[11px] text-blue-900 bg-blue-50/60 p-1 rounded border-l-2 border-blue-400">
-          <strong class="font-semibold text-blue-700">Wikipedia:</strong> "${t.wiki_example.quote}"
-        </div>
-      </td>
-    `;
-    tbody.appendChild(tr);
+        ${m.queries?.length ? `<p class="mt-4 text-[11px] font-bold uppercase tracking-wider text-sub">BM25 queries (pooled)</p>
+          ${m.queries.map(x => `<code class="mt-1 block rounded-md bg-muted p-2 text-xs">${esc(x)}</code>`).join('')}` : ''}
+        <a href="#viewer?p=${e.page.row_index}&e=${e.entry_id}" class="mt-4 inline-block text-sm font-bold text-brit underline-offset-2 hover:underline">Open in Archive Viewer →</a>`)}
+      ${card(step('B', `Wikipedia API · BM25 · top ${Math.min(6, bm25.length)} of ${bm25.length}`), bm25.length ? bm25.slice(0, 6).map(c => {
+        const dropped = c.embed_rank == null;
+        return `<div class="mb-3.5 ${dropped ? 'opacity-60' : ''}"><div class="flex justify-between gap-2 text-sm"><span><span class="text-sub">#${c.bm25_rank}</span> ${esc(c.title)}</span><span class="tabular-nums text-sub">${fmt(c.bm25_score, 1)}</span></div>
+          ${bar(c.bm25_score / maxBm25, 'bg-sub/40')}${dropped ? `<p class="mt-1 text-xs text-bad">Keyword hit, not scored by Embed VL</p>` : ''}</div>`;
+      }).join('') : `<p class="text-sm text-sub">No BM25 candidates.</p>`)}
+      ${card(step('C', `Embed VL · cosine · top ${Math.min(5, embed.length)} of ${embed.length}`), embed.length ? embed.slice(0, 5).map(c => `
+        <div class="mb-3.5"><div class="flex items-center justify-between gap-2 text-sm"><span><span class="text-sub">#${c.bm25_rank}→#${c.embed_rank}</span> ${esc(c.title)} ${move(c.bm25_rank, c.embed_rank)}</span><span class="tabular-nums text-sub">${fmt(c.embed_cosine)}</span></div>
+        ${bar(c.embed_cosine, 'bg-wiki/60')}</div>`).join('') : `<p class="text-sm text-sub">Not scored.</p>`)}
+      ${card(step('D', 'Rerank VL · raw logit'), (rerank.length ? rerank.map(c => `
+        <div class="mb-3 ${isMatch(c) ? '-mx-2 rounded-lg bg-ok-soft p-2' : ''}">
+          <div class="flex items-center justify-between gap-2 text-sm">
+            <span><span class="text-sub">#${c.embed_rank ?? '–'}→#${c.rerank_rank}</span> ${isMatch(c) ? '<b>' : ''}${esc(c.title)}${isMatch(c) ? '</b>' : ''} ${move(c.embed_rank, c.rerank_rank)}</span>
+            <span class="tabular-nums text-sub">${fmt(c.rerank_logit)}</span></div>
+          ${bar(norm(c.rerank_logit), isMatch(c) ? 'bg-ok' : 'bg-sub/40')}</div>`).join('') : `<p class="text-sm text-sub">Not reranked.</p>`) + `
+        <div class="mt-4 space-y-2 border-t border-line pt-4 text-sm">
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[13px] font-bold ${statusCls}">${icon(m.status === 'matched' ? 'check' : 'ban', 'h-3.5 w-3.5')} ${esc(m.status.replace('_', ' '))}</span>
+            ${m.matched_wiki ? chip('bg-wiki text-white hover:bg-wiki/90', esc(m.matched_wiki.title), m.matched_wiki.url) : ''}
+          </div>
+          <p class="text-xs text-sub">${esc(m.reason)}${m.rerank_margin != null ? ` · margin ${fmt(m.rerank_margin)}` : ''}</p>
+          <p class="font-mono text-[11px] text-sub">${esc(m.method_version)}</p>
+        </div>`)}
+    </div>`;
+}
+
+// ---------- 3. Analytics ----------
+function analytics() {
+  const d = D.drift;
+  if (!d.terms.length) return ($view.innerHTML = empty('No comparison results yet. Run <code>nemotron-challenge run compare</code> and <code>run site</code>.'));
+  const terms = [...d.terms].sort((a, b) => b.log_ratio - a.log_ratio);
+  const max = Math.max(...terms.map(t => Math.abs(t.log_ratio)), 1e-9);
+  const bars = terms.map(t => {
+    const brit = t.log_ratio > 0;
+    return `<div class="relative h-8" title="${esc(t.term)}: Britannica ${t.brit_per_10k} vs Wikipedia ${t.wiki_per_10k} per 10k tokens">
+      <div class="absolute top-1.5 h-5 rounded ${brit ? 'bg-brit' : 'bg-wiki'}" style="${brit ? 'right' : 'left'}:50%;width:${(Math.abs(t.log_ratio) / max) * 48}%"></div>
+      <span class="absolute top-1.5 text-sm ${brit ? 'left-1/2 pl-2' : 'right-1/2 pr-2 text-right'}">
+        <span class="font-serif text-base italic">${esc(t.term)}</span> <span class="text-xs tabular-nums text-sub">${fmt(t.brit_per_10k, 1)} / ${fmt(t.wiki_per_10k, 1)}</span></span></div>`;
+  }).join('');
+  const quotes = [...d.terms].sort((a, b) => Math.abs(b.log_ratio) - Math.abs(a.log_ratio)).slice(0, 4);
+
+  $view.innerHTML = `<div class="grid gap-5 lg:grid-cols-3">
+    ${card('Word frequency shift · log₂ ratio of rates per 10k tokens', `
+      <div class="mb-3 flex justify-between text-xs font-bold"><span class="text-wiki">← More frequent in Wikipedia</span><span class="text-brit">More frequent in Britannica →</span></div>
+      <div class="relative"><div class="absolute inset-y-0 left-1/2 w-px bg-line"></div>${bars}</div>`, 'lg:col-span-2')}
+    ${card('Method', `
+      <div class="grid grid-cols-2 gap-2">${stat('Matched pairs', d.pairs_used)}${stat('Terms kept', d.terms.length)}
+        ${stat('Britannica tokens', d.brit_tokens.toLocaleString())}${stat('Wikipedia tokens', d.wiki_tokens.toLocaleString())}</div>
+      <p class="mt-4 text-sm"><span class="font-bold">Method:</span> <code>${esc(d.method)}</code></p>
+      <p class="mt-2 text-sm"><span class="font-bold">Exclusions:</span> ${d.exclusions.length ? d.exclusions.map(esc).join(', ') : 'none'}</p>`)}
+    ${card('Dual-quote viewer · strongest shifts', `<div class="grid gap-6 xl:grid-cols-2">` + quotes.map(t => `
+      <div><h3 class="mb-2 font-serif text-xl font-semibold italic">${esc(t.term)}</h3>
+      <div class="grid gap-3 md:grid-cols-2">
+        <blockquote class="rounded-lg border-l-4 border-brit bg-brit-soft/60 p-4 font-serif text-[17px] italic leading-snug">“${esc(t.brit_example.quote)}”
+          <div class="mt-3 font-sans not-italic">${britChip(t.brit_example.entry_id)}</div></blockquote>
+        <blockquote class="rounded-lg border-l-4 border-wiki bg-wiki-soft/60 p-4 text-[15px] leading-snug">“${esc(t.wiki_example.quote)}”
+          <div class="mt-3">${wikiChip(t.wiki_example.page_id, t.wiki_example.revision_id)}</div></blockquote>
+      </div></div>`).join('') + `</div>`, 'lg:col-span-3')}
+  </div>`;
+}
+
+// ---------- 4. Agent Console ----------
+// Replays saved Hermes runs. Live questions run in the Hermes CLI; the site never calls a model.
+const prettyJson = s => { try { return JSON.stringify(JSON.parse(s), null, 2); } catch { return s; } };
+const citeInline = text => esc(text)
+  .replace(/\[B:([\w-]+)\]/g, (_, id) => britChip(id, id))
+  .replace(/\[W:(\d+)@(\d+)\]/g, (_, p, r) => wikiChip(p, r, `${p}@${r}`));
+const citationChip = c => {
+  if ((c.source || '').toLowerCase().startsWith('brit')) return britChip(c.id ?? c.entry_id, c.id ?? c.entry_id);
+  const [p, r] = String(c.id ?? '').split('@');
+  return wikiChip(c.page_id ?? p, c.revision_id ?? r);
+};
+
+let replayTimer;
+function agent(q) {
+  clearTimeout(replayTimer);
+  if (!D.runs.length) return ($view.innerHTML = empty('No agent runs yet. Run <code>nemotron-challenge run agent</code> and <code>run site</code>.'));
+  const r = D.runs.find(x => x.run_id === q.get('r')) || D.runs[0];
+  const role = (who, cls) => `<p class="mb-1 text-[11px] font-bold uppercase tracking-wider ${cls}">${who}</p>`;
+  const verdict = {
+    success: `<p class="mb-3 inline-flex items-center gap-1.5 rounded-full bg-ok-soft px-3 py-1 text-xs font-bold text-ok">${icon('check', 'h-3.5 w-3.5')} Reviewed · success</p>`,
+    failure: `<p class="mb-3 inline-flex items-center gap-1.5 rounded-full bg-bad px-3 py-1 text-xs font-bold text-white">${icon('ban', 'h-3.5 w-3.5')} Reviewed · failure</p>`,
+    unreviewed: `<p class="mb-3 inline-flex items-center gap-1.5 rounded-full bg-muted px-3 py-1 text-xs font-bold text-sub">${icon('dot', 'h-3.5 w-3.5')} Not reviewed</p>`,
+  }[r.label];
+
+  const steps = [
+    `<div class="rise ml-auto max-w-2xl">${role('Researcher', 'text-right text-sub')}<div class="rounded-xl rounded-tr-sm bg-wiki p-4 text-white">${esc(r.question)}</div></div>`,
+    ...r.image_inputs.map(path => {
+      const e = entryByCrop(path);
+      return `<div class="rise flex items-center gap-4 rounded-xl border border-line bg-card p-3 text-sm">
+        <span class="relative flex h-16 w-16 shrink-0 items-center justify-center rounded bg-muted text-sub">${icon('image', 'h-8 w-8')}
+          ${e ? `<img src="${esc(cropUrl(e))}" alt="" class="absolute inset-0 h-16 w-16 rounded bg-muted object-contain" onerror="this.remove()">` : ''}</span>
+        <div>${role('Image input → Super VL', 'text-sub')}${e ? `<b>${esc(label(e))}</b> <span class="text-sub">· ${esc(e.entry_id)}</span>` : `<span class="font-mono text-xs">${esc(path)}</span>`}</div></div>`;
+    }),
+    ...r.tool_calls.map(t => `<div class="rise rounded-xl border ${t.error ? 'border-bad/40 bg-bad-soft' : 'border-tool/30 bg-tool-soft'} p-4 text-sm">
+      <p class="flex items-center gap-2 font-bold ${t.error ? 'text-bad' : 'text-tool'}">${icon(t.error ? 'warn' : 'wrench')} Tool call${t.error ? ' · error' : ''}</p>
+      <code class="mt-1 block font-mono text-[13px] text-tool">${esc(t.name)}(${esc(JSON.stringify(t.arguments))})</code>
+      <pre class="mt-2 max-h-64 overflow-auto whitespace-pre-wrap rounded-lg bg-card p-3 font-mono text-xs text-fg">${esc(t.error ?? prettyJson(t.result))}</pre></div>`),
+    `<div class="rise max-w-3xl">${role(`Hermes · ${esc(r.model)}`, 'text-sub')}
+      <div class="rounded-xl rounded-tl-sm border-2 ${r.label === 'failure' ? 'border-bad' : r.label === 'success' ? 'border-ok' : 'border-line'} bg-card p-5">
+      ${verdict}
+      <p class="text-[15px] leading-relaxed">${citeInline(r.answer)}</p>
+      ${r.citations.length ? `<div class="mt-4 flex flex-wrap gap-2 border-t border-line pt-3">${r.citations.map(citationChip).join('')}</div>` : ''}
+      ${r.notes ? `<p class="mt-3 text-xs text-sub"><span class="font-bold">Review note:</span> ${esc(r.notes)}</p>` : ''}</div></div>`,
+  ];
+
+  const tab = x => `<a href="#agent?r=${encodeURIComponent(x.run_id)}" class="${btn(x === r, x.label === 'success' ? 'bg-ok text-white' : x.label === 'failure' ? 'bg-bad text-white' : 'bg-wiki text-white')} inline-flex items-center gap-1.5">
+    ${icon(x.label === 'success' ? 'check' : x.label === 'failure' ? 'ban' : 'dot', 'h-3.5 w-3.5')}${esc(x.run_id)}</a>`;
+  $view.innerHTML = `
+    <div class="mb-5 flex flex-wrap items-center gap-1.5">
+      ${D.runs.map(tab).join('')}
+      <button id="replay" class="ml-auto inline-flex cursor-pointer items-center gap-1.5 rounded-md bg-brit px-4 py-1.5 text-sm font-bold text-white transition-colors hover:bg-brit/90">${icon('play', 'h-3.5 w-3.5')} Replay</button>
+    </div>
+    <p class="mb-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-sub">
+      <span class="font-bold uppercase tracking-[0.12em]">Recorded run</span>
+      <span>${esc(new Date(r.started_at).toLocaleString())}</span><span>${esc(r.hermes_version)}</span>
+      <span>tools ${r.tools_enabled ? 'on' : 'off'}</span><span>finish: ${esc(r.finish_reason)}</span>
+      <span class="font-mono">rev ${esc(r.code_revision.slice(0, 7))}</span></p>
+    <div id="stream" class="mx-auto flex max-w-4xl flex-col gap-4" aria-live="polite"></div>`;
+
+  const stream = document.getElementById('stream');
+  const show = (i = 0) => { stream.innerHTML = steps.slice(0, i).join(''); if (i < steps.length) replayTimer = setTimeout(() => show(i + 1), 800); };
+  stream.innerHTML = steps.join('');
+  document.getElementById('replay').onclick = () => { clearTimeout(replayTimer); show(1); };
+}
+
+// ---------- Pipeline ----------
+const pipeline = () => { $view.innerHTML = `<iframe src="architecture.html" title="Pipeline architecture" class="h-[84vh] w-full rounded-xl border border-line bg-card"></iframe>`; };
+
+// ---------- Router ----------
+const routes = { viewer, match, analytics, agent, pipeline };
+function route() {
+  const [name, qs] = location.hash.slice(1).split('?');
+  const r = routes[name] ? name : 'viewer';
+  document.querySelectorAll('#nav a').forEach(a => {
+    const on = a.hash === '#' + r;
+    a.className = `rounded-md px-3 py-2 transition-colors ${on ? 'bg-wiki font-bold text-white' : 'text-sub hover:bg-muted hover:text-fg'}`;
+    on ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current');
   });
+  routes[r](new URLSearchParams(qs));
 }
 
-// --- VIEW 4: AGENT CONSOLE ---
-function renderAgentView() {
-  if (!state.cases || state.cases.length === 0) return;
-
-  const switcher = document.getElementById("case-switcher");
-  switcher.innerHTML = "";
-
-  state.cases.forEach((c, idx) => {
-    const btn = document.createElement("button");
-    const isSuccess = c.type === "success" || c.label === "success";
-    btn.className = `px-3 py-1 text-xs font-semibold rounded-md border transition-all ${
-      idx === 0 
-        ? "bg-slate-900 text-white border-slate-900" 
-        : "bg-white text-slate-700 border-slate-300 hover:bg-slate-50"
-    }`;
-    btn.textContent = `${isSuccess ? "✓" : "✗"} ${c.run_id}: ${c.category || c.label}`;
-    btn.addEventListener("click", () => {
-      document.querySelectorAll("#case-switcher button").forEach(b => {
-        b.className = "px-3 py-1 text-xs font-semibold rounded-md border bg-white text-slate-700 border-slate-300 hover:bg-slate-50";
-      });
-      btn.className = "px-3 py-1 text-xs font-semibold rounded-md border bg-slate-900 text-white border-slate-900";
-      showCase(c);
-    });
-    switcher.appendChild(btn);
-  });
-
-  showCase(state.cases[0]);
-}
-
-function showCase(run) {
-  document.getElementById("agent-run-id").textContent = run.run_id;
-  document.getElementById("agent-started-at").textContent = run.started_at;
-  document.getElementById("agent-model").textContent = run.model;
-
-  const badge = document.getElementById("agent-label-badge");
-  const isSuccess = run.label === "success" || run.type === "success";
-  badge.textContent = isSuccess ? "SUCCESSFUL GROUNDING" : "CALIBRATED REFUSAL / FAILURE";
-  badge.className = `px-2 py-0.5 rounded text-xs font-semibold uppercase tracking-wider ${
-    isSuccess ? "bg-emerald-100 text-emerald-800" : "bg-amber-100 text-amber-800"
-  }`;
-
-  document.getElementById("agent-question").textContent = run.question;
-  document.getElementById("agent-answer").textContent = run.answer;
-  document.getElementById("agent-notes").textContent = run.notes;
-
-  // Tool Calls
-  const toolContainer = document.getElementById("agent-tool-calls");
-  toolContainer.innerHTML = "";
-  if (run.tool_calls && run.tool_calls.length > 0) {
-    run.tool_calls.forEach(tc => {
-      const box = document.createElement("div");
-      box.className = "p-2.5 bg-slate-100 rounded border border-slate-200 text-xs font-mono";
-      box.innerHTML = `
-        <div class="flex items-center space-x-2 text-indigo-700 font-bold mb-1">
-          <span>⚡ Tool Invocation:</span>
-          <span>${tc.name}</span>
-        </div>
-        <div class="text-[11px] text-slate-600">Args: ${JSON.stringify(tc.arguments)}</div>
-        <div class="text-[11px] text-slate-800 mt-1">Result: ${tc.result}</div>
-      `;
-      toolContainer.appendChild(box);
-    });
-  } else {
-    toolContainer.innerHTML = `<div class="text-xs text-slate-400 italic">No tools called.</div>`;
-  }
-
-  // Citations
-  const citContainer = document.getElementById("agent-citations");
-  citContainer.innerHTML = "";
-  if (run.citations && run.citations.length > 0) {
-    run.citations.forEach(cit => {
-      const card = document.createElement("div");
-      const isBrit = cit.source.toLowerCase().includes("britannica");
-      card.className = `p-3 rounded border text-xs ${
-        isBrit ? "bg-amber-50/70 border-amber-200 text-amber-900" : "bg-blue-50/70 border-blue-200 text-blue-900"
-      }`;
-      card.innerHTML = `
-        <div class="font-bold flex justify-between items-center mb-1">
-          <span>${cit.source}</span>
-          <span class="font-mono text-[10px]">${cit.id}</span>
-        </div>
-        <p class="italic text-[11px]">"${cit.quote}"</p>
-      `;
-      citContainer.appendChild(card);
-    });
-  } else {
-    citContainer.innerHTML = `<div class="text-xs text-slate-400 italic">No citations recorded.</div>`;
-  }
-}
+Promise.all(['pages', 'drift', 'cases'].map(f => fetch(`data/${f}.json`).then(r => { if (!r.ok) throw new Error(`${f}.json: HTTP ${r.status}`); return r.json(); })))
+  .then(([pages, drift, runs]) => { D = { pages, drift, runs }; addEventListener('hashchange', route); route(); })
+  .catch(err => { $view.innerHTML = `<p class="text-bad">Failed to load data (${esc(err.message)}). Serve the folder over HTTP: <code>python3 -m http.server -d web</code></p>`; });

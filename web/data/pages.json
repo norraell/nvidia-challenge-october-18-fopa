@@ -46,6 +46,10 @@
           "reason": "rule: rerank top-1 logit >= 2.1 and margin >= 0.4",
           "method_version": "m1-tau=2.1-delta=0.4",
           "rerank_margin": 0.9,
+          "queries": [
+            "ABACUS",
+            "ABACUS among the ancients was a table"
+          ],
           "matched_wiki": {
             "page_id": "1024",
             "revision_id": "11823901",
@@ -99,6 +103,9 @@
           "reason": "rule: zero BM25 candidates found for fragment",
           "method_version": "m1-tau=2.1-delta=0.4",
           "rerank_margin": null,
+          "queries": [
+            "arithmetic operations mechanical aids merchants"
+          ],
           "matched_wiki": null,
           "candidates": []
         }
@@ -152,6 +159,10 @@
           "reason": "rule: rerank top-1 logit >= 2.1 and margin >= 0.4",
           "method_version": "m1-tau=2.1-delta=0.4",
           "rerank_margin": 1.2,
+          "queries": [
+            "BAROMETER",
+            "BAROMETER instrument measuring weight pressure atmosphere"
+          ],
           "matched_wiki": {
             "page_id": "3845",
             "revision_id": "12490182",
@@ -204,6 +215,9 @@
           "reason": "rule: plate caption matched on instrument topic",
           "method_version": "m1-tau=2.1-delta=0.4",
           "rerank_margin": 0.6,
+          "queries": [
+            "Torricellian tube portable wheel barometer"
+          ],
           "matched_wiki": {
             "page_id": "3845",
             "revision_id": "12490182",
@@ -276,6 +290,10 @@
           "reason": "rule: rerank top-1 logit below threshold tau=2.1",
           "method_version": "m1-tau=2.1-delta=0.4",
           "rerank_margin": 0.2,
+          "queries": [
+            "CALORIC",
+            "CALORIC modern chemical theory elastic fluid"
+          ],
           "matched_wiki": null,
           "candidates": [
             {
