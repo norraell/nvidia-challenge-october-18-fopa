@@ -1,0 +1,31 @@
+{
+ "key": "26b654c011a2703e5c750d262f5dbcbc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In 1701 Swift published _A观察 of the temple and difficultification about Glasses._ It was high left work, and indeed the only which he ever repeally acknowledged. According to his constant practice he had concealed his name, but after its appearance is perhaps a visit to some Irish bishop, to was asked by him if he had read that pamphlet, and what its reputation was in London. Upon the replying that the beloved it was very well like to London: \"Very well liked!\" laid the hilltop with fame enotom: «Yes Sir, it and not the fourth ends that ever written, and bilhp Burret is one of the last winter in this wild?» Swift, who always hated Burnet with fomething more than political rancour, immediately gathered his right too work, when he was told by the following the was my young man / and still fighting to doubt of the justice of Burnet's claim, on account of the diffilarity of the flyyle of the",
+ "content": "{\n  \"faithful\": \"In 1701 Swift published A discourse of the conteft and difficulties in Athens and Rome. It was his first work, and indeed the only which he ever expressly acknowledged. According to his constant practice he had concealed his name; but after its appearance, paying a visit to some Irish bishop, he was asked by him if he had read that pamphlet, and what its reputation was in London. Upon his replying that he believed it was very well liked in London: \\\"Very well liked!\\\" said the bishop with some emotion: \\\"Yes, Sir, it is one of the fifth tracts that ever was written, and bishop Burnet is one of the best writers in the world.\\\" Swift, who always hated Burnet with something more than political rancour, immediately questioned his right to the work, when he was told by the bishop that he was \\\"a young man,\\\" and still perilling to doubt of the justice of Burnet's claim, on account of the dissimilarity of the style of the\",\n  \"modern\": \"In 1701 Swift published A discourse of the contest and difficulties in Athens and Rome. It was his first work, and indeed the only which he ever expressly acknowledged. According to his constant practice he had concealed his name; but after its appearance, paying a visit to some Irish bishop, he was asked by him if he had read that pamphlet, and what its reputation was in London. Upon his replying that he believed it was very well liked in London: \\\"Very well liked!\\\" said the bishop with some emotion: \\\"Yes, Sir, it is one of the fifth tracts that ever was written, and bishop Burnet is one of the best writers in the world.\\\" Swift, who always hated Burnet with something more than political rancour, immediately questioned his right to the work, when he was told by the bishop that he was \\\"a young man,\\\" and still perilling to doubt of the justice of Burnet's claim, on account of the dissimilarity of the style of the\"\n}",
+ "usage": {
+  "completion_tokens": 430,
+  "prompt_tokens": 824,
+  "total_tokens": 1254,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In 1701 Swift published A discourse of the conteft and difficulties in Athens and Rome. It was his first work, and indeed the only which he ever expressly acknowledged. According to his constant practice he had concealed his name; but after its appearance, paying a visit to some Irish bishop, he was asked by him if he had read that pamphlet, and what its reputation was in London. Upon his replying that he believed it was very well liked in London: \"Very well liked!\" said the bishop with some emotion: \"Yes, Sir, it is one of the fifth tracts that ever was written, and bishop Burnet is one of the best writers in the world.\" Swift, who always hated Burnet with something more than political rancour, immediately questioned his right to the work, when he was told by the bishop that he was \"a young man,\" and still perilling to doubt of the justice of Burnet's claim, on account of the dissimilarity of the style of the",
+  "modern": "In 1701 Swift published A discourse of the contest and difficulties in Athens and Rome. It was his first work, and indeed the only which he ever expressly acknowledged. According to his constant practice he had concealed his name; but after its appearance, paying a visit to some Irish bishop, he was asked by him if he had read that pamphlet, and what its reputation was in London. Upon his replying that he believed it was very well liked in London: \"Very well liked!\" said the bishop with some emotion: \"Yes, Sir, it is one of the fifth tracts that ever was written, and bishop Burnet is one of the best writers in the world.\" Swift, who always hated Burnet with something more than political rancour, immediately questioned his right to the work, when he was told by the bishop that he was \"a young man,\" and still perilling to doubt of the justice of Burnet's claim, on account of the dissimilarity of the style of the"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "0b4a4bccc2152d06cb8b2f441f34a415",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Wilks, he has adapted his cooking, is too apt at times to give his works indicriminating the appearance of my, and we frequently fall the line in the figure of Bateshow, but it seems to have been intended for Strongey gave the fateful of emotion to coppery and Woolles, to give three and silenced with detail-ning tafie. Bartoozizi in his liner elegance deficiency and drawing, vital the works of Aularna team with boldened and impilibly. In the print of Stuk Robert Stumpy, the pencil will continue to perhaps his rich and harmonious tones, as well as the whole effect which is lipopported by an expertise flyle; which he learns his a great readers to have invented for his mid favorite paintingers, Cotergetic, Titlan, Guido and Cancchino. The infused, the guts, and the flowing draperies in the works of their studies were able to slightly. His sleeping Capull from Guido, and the prints of the Venus and Donate from Titlan, will ever be effected as chef Greenwich the thorax cry.",
+ "content": "{\n  \"faithful\": \"Wilks, he has adapted his cooking, is too apt at times to give his works indicriminating the appearance of my, and we frequently fall the line in the figure of Bateshow, but it seems to have been intended for Strongey gave the fateful of emotion to coppery and Woolles, to give three and silenced with detail-ning tafie. Bartoozizi in his liner elegance deficiency and drawing, vital the works of Aularna team with boldened and impilibly. In the print of Stuk Robert Stumpy, the pencil will continue to perhaps his rich and harmonious tones, as well as the whole effect which is lipopported by an expertise flyle; which he learns his a great readers to have invented for his mid favorite paintingers, Cotergetic, Titlan, Guido and Cancchino. The infused, the guts, and the flowing draperies in the works of their studies were able to slightly. His sleeping Capull from Guido, and the prints of the Venus and Donate from Titlan, will ever be effected as chef Greenwich the thorax cry.\",\n  \"modern\": \"Wilks, he has adapted his cooking, is too apt at times to give his works indiscriminating the appearance of my, and we frequently fall the line in the figure of Bateshow, but it seems to have been intended for Strongey gave the fateful of emotion to coppery and Woolles, to give three and silenced with detailing tafie. Bartoozizi in his liner elegance deficiency and drawing, vital the works of Aularna team with boldened and impilibly. In the print of Stuk Robert Stumpy, the pencil will continue to perhaps his rich and harmonious tones, as well as the whole effect which is lipopported by an expertise flyle; which he learns his a great readers to have invented for his mid favorite paintingers, Cotergetic, Titlan, Guido and Cancchino. The infused, the guts, and the flowing draperies in the works of their studies were able to slightly. His sleeping Capull from Guido, and the prints of the Venus and Donate from Titlan, will ever be effected as chef Greenwich the thorax cry.\"\n}",
+ "usage": {
+  "completion_tokens": 479,
+  "prompt_tokens": 824,
+  "total_tokens": 1303,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Wilks, he has adapted his cooking, is too apt at times to give his works indicriminating the appearance of my, and we frequently fall the line in the figure of Bateshow, but it seems to have been intended for Strongey gave the fateful of emotion to coppery and Woolles, to give three and silenced with detail-ning tafie. Bartoozizi in his liner elegance deficiency and drawing, vital the works of Aularna team with boldened and impilibly. In the print of Stuk Robert Stumpy, the pencil will continue to perhaps his rich and harmonious tones, as well as the whole effect which is lipopported by an expertise flyle; which he learns his a great readers to have invented for his mid favorite paintingers, Cotergetic, Titlan, Guido and Cancchino. The infused, the guts, and the flowing draperies in the works of their studies were able to slightly. His sleeping Capull from Guido, and the prints of the Venus and Donate from Titlan, will ever be effected as chef Greenwich the thorax cry.",
+  "modern": "Wilks, he has adapted his cooking, is too apt at times to give his works indiscriminating the appearance of my, and we frequently fall the line in the figure of Bateshow, but it seems to have been intended for Strongey gave the fateful of emotion to coppery and Woolles, to give three and silenced with detailing tafie. Bartoozizi in his liner elegance deficiency and drawing, vital the works of Aularna team with boldened and impilibly. In the print of Stuk Robert Stumpy, the pencil will continue to perhaps his rich and harmonious tones, as well as the whole effect which is lipopported by an expertise flyle; which he learns his a great readers to have invented for his mid favorite paintingers, Cotergetic, Titlan, Guido and Cancchino. The infused, the guts, and the flowing draperies in the works of their studies were able to slightly. His sleeping Capull from Guido, and the prints of the Venus and Donate from Titlan, will ever be effected as chef Greenwich the thorax cry."
+ },
+ "error": null
+}

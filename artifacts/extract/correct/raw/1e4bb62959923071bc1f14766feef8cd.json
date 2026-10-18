@@ -1,0 +1,31 @@
+{
+ "key": "1e4bb62959923071bc1f14766feef8cd",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The Kalmus are very faithful to their lawful prines they endure every fort of opreffion, and yet are with difficulty induced to revolts, but if they belong to a prince who has not become to by right of discipline, they very easily rebel. They honour old age. When young men travel with flash a are older than them-tives take upon then the whole race of the cat- tile as well as of the leaf. They are exceedingly prudent in matters that relate to their foreign or their nation, or which are recommended to their direction by the priests, to whom they yield an unreferved obe-diesers.",
+ "content": "{\n  \"faithful\": \"The Kalmus are very faithful to their lawful prince they endure every fort of oppression, and yet are with difficulty induced to revolt, but if they belong to a prince who has not become to by right of discipline, they very easily rebel. They honour old age. When young men travel with fuch as are older than them-felves they take upon them the whole care of the cattle as well as of the fcalf. They are exceedingly prudent in matters that relate to their foreign or their nation, or which are recommended to their direction by the priests, to whom they yield an unreferved obedience.\",\n  \"modern\": \"The Kalmus are very faithful to their lawful prince they endure every fort of oppression, and yet are with difficulty induced to revolt, but if they belong to a prince who has not become to by right of discipline, they very easily rebel. They honour old age. When young men travel with such as are older than themselves they take upon them the whole care of the cattle as well as of the calf. They are exceedingly prudent in matters that relate to their foreign or their nation, or which are recommended to their direction by the priests, to whom they yield an unreserved obedience.\"\n}",
+ "usage": {
+  "completion_tokens": 257,
+  "prompt_tokens": 719,
+  "total_tokens": 976,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The Kalmus are very faithful to their lawful prince they endure every fort of oppression, and yet are with difficulty induced to revolt, but if they belong to a prince who has not become to by right of discipline, they very easily rebel. They honour old age. When young men travel with fuch as are older than them-felves they take upon them the whole care of the cattle as well as of the fcalf. They are exceedingly prudent in matters that relate to their foreign or their nation, or which are recommended to their direction by the priests, to whom they yield an unreferved obedience.",
+  "modern": "The Kalmus are very faithful to their lawful prince they endure every fort of oppression, and yet are with difficulty induced to revolt, but if they belong to a prince who has not become to by right of discipline, they very easily rebel. They honour old age. When young men travel with such as are older than themselves they take upon them the whole care of the cattle as well as of the calf. They are exceedingly prudent in matters that relate to their foreign or their nation, or which are recommended to their direction by the priests, to whom they yield an unreserved obedience."
+ },
+ "error": null
+}

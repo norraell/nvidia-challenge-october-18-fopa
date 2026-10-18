@@ -1,0 +1,31 @@
+{
+ "key": "e39c815ab0ef223f6a08cd065d6df506",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The bell defenders who have yet been made, and made the most elaborate investigation which has hitherto ophawvel peace, concerning the formation and development of iron.",
+ "content": "{\n  \"faithful\": \"The bell defenders who have yet been made, and made the most elaborate investigation which has hitherto ophawvel peace, concerning the formation and development of iron.\",\n  \"modern\": \"The bell defenders who have yet been made, and made the most elaborate investigation which has hitherto ophawvel peace, concerning the formation and development of iron.\"\n}",
+ "usage": {
+  "completion_tokens": 79,
+  "prompt_tokens": 631,
+  "total_tokens": 710,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 298
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The bell defenders who have yet been made, and made the most elaborate investigation which has hitherto ophawvel peace, concerning the formation and development of iron.",
+  "modern": "The bell defenders who have yet been made, and made the most elaborate investigation which has hitherto ophawvel peace, concerning the formation and development of iron."
+ },
+ "error": null
+}

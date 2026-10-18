@@ -1,0 +1,31 @@
+{
+ "key": "3406b08ba9487c3dae8a72052f7e5c9e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "of the service, civil and military, for one whole year, about Nazas the middle of the last war, may be estimated as about 1,18,000,000: in the year 1927, according to the existence which were laid before parliament. It assumed to about 3,400,000/00: and in the year 1537 it has been fixed at the sum of LA,663,000. (a)",
+ "content": "{\n  \"faithful\": \"of the service, civil and military, for one whole year, about the middle of the last war, may be estimated at about L.18,000,000. In the year 1822, according to the estimates which were laid before parliament, it amounted to about L.5,000,000: and in the year 1837 it has been fixed at the sum of L.4,663,000. (a)\",\n  \"modern\": \"of the service, civil and military, for one whole year, about the middle of the last war, may be estimated at about L.18,000,000. In the year 1822, according to the estimates which were laid before parliament, it amounted to about L.5,000,000: and in the year 1837 it has been fixed at the sum of L.4,663,000. (a)\"\n}",
+ "usage": {
+  "completion_tokens": 227,
+  "prompt_tokens": 682,
+  "total_tokens": 909,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "of the service, civil and military, for one whole year, about the middle of the last war, may be estimated at about L.18,000,000. In the year 1822, according to the estimates which were laid before parliament, it amounted to about L.5,000,000: and in the year 1837 it has been fixed at the sum of L.4,663,000. (a)",
+  "modern": "of the service, civil and military, for one whole year, about the middle of the last war, may be estimated at about L.18,000,000. In the year 1822, according to the estimates which were laid before parliament, it amounted to about L.5,000,000: and in the year 1837 it has been fixed at the sum of L.4,663,000. (a)"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "2b0093a90f8dc39079d9e2af4b9bd3e3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings’ system, after the adoption of the circular stem into the service, —to the under side of which, as well as the whole part of the beams, they are securely cookies, and being then firmly bolted to the side, instead of becoming a mere local fixer of the beam to the shiny’s exterior frame, as likely were, they are seen continued and general security. The shelf-piece is also a tie to the top-side in a four and all direction, co-operating with the trusted frame, as already explained.",
+ "content": "{\n  \"faithful\": \"1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels, so as to form a kind of internal hoop, extending from the hooks forward, to the transoms abaft (in the plate the transoms are not shown), we have chosen the perfected application of Sir Robert Seapings’ system, after the adoption of the circular stem into the service, —to the under side of which, as well as the under parts of the beams, they are securely coaked, and being then firmly bolted to the side, instead of becoming a mere local fixture of the beam to the ship’s exterior frame, as knees were, they are one continued and general security. The shelf-piece is also a tie to the top-side in a fore and aft direction, co-operating with the trusted frame, as already explained.\",\n  \"modern\": \"1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels, so as to form a kind of internal hoop, extending from the hooks forward, to the transoms abaft (in the plate the transoms are not shown), we have chosen the perfected application of Sir Robert Seapings’ system, after the adoption of the circular stem into the service, —to the under side of which, as well as the under parts of the beams, they are securely coaked, and being then firmly bolted to the side, instead of becoming a mere local fixture of the beam to the ship’s exterior frame, as knees were, they are one continued and general security. The shelf-piece is also a tie to the top-side in a fore and aft direction, co-operating with the trusted frame, as already explained.\"\n}",
+ "usage": {
+  "completion_tokens": 411,
+  "prompt_tokens": 793,
+  "total_tokens": 1204,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels, so as to form a kind of internal hoop, extending from the hooks forward, to the transoms abaft (in the plate the transoms are not shown), we have chosen the perfected application of Sir Robert Seapings’ system, after the adoption of the circular stem into the service, —to the under side of which, as well as the under parts of the beams, they are securely coaked, and being then firmly bolted to the side, instead of becoming a mere local fixture of the beam to the ship’s exterior frame, as knees were, they are one continued and general security. The shelf-piece is also a tie to the top-side in a fore and aft direction, co-operating with the trusted frame, as already explained.",
+  "modern": "1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels, so as to form a kind of internal hoop, extending from the hooks forward, to the transoms abaft (in the plate the transoms are not shown), we have chosen the perfected application of Sir Robert Seapings’ system, after the adoption of the circular stem into the service, —to the under side of which, as well as the under parts of the beams, they are securely coaked, and being then firmly bolted to the side, instead of becoming a mere local fixture of the beam to the ship’s exterior frame, as knees were, they are one continued and general security. The shelf-piece is also a tie to the top-side in a fore and aft direction, co-operating with the trusted frame, as already explained."
+ },
+ "error": null
+}

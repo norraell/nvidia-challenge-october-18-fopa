@@ -1,0 +1,31 @@
+{
+ "key": "ca75b28fda1b98a67b215364a54f6c82",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Of the feelings, by their connection with which external objects become beautiful, we do not think it necesary to speak more minority’s and therefore it only re remains, under this preliminary view of the subject to see plain the nature of that connection by which we continue this effect to be produced. Here, also, there is but little need for continuous, or illness of communication. Almost every tie by which two objects can be bound together in the manipulation, in such a manner is that the present, and of the one who's recall the memory of the choice, or, in other words, almost every possible relation which can subsist between and objects, may serve to connect the things or call another or beautiful, will feelings that are interesting or delightful. It may be useful, however, to class the books of association between mind and matter in a rule and general way.",
+ "content": "{\n  \"faithful\": \"Of the feelings, by their connection with which external objects become beautiful, we do not think it necesary to speak more minutely and therefore it only remains, under this preliminary view of the subject, to explain the nature of that connection by which we conceive this effect to be produced. Here, also, there is but little need for minuteness, or fulness of enumeration. Almost every tie by which two objects can be bound together in the imagination, in such a manner as that the presentment of the one shall recall the memory of the other, or, in other words, almost every possible relation which can subsist between such objects, may serve to connect the things we call sublime or beautiful, with feelings that are interesting or delightful. It may be useful, however, to class these bonds of association between mind and matter in a rude and general way.\",\n  \"modern\": \"Of the feelings, by their connection with which external objects become beautiful, we do not think it necessary to speak more minutely and therefore it only remains, under this preliminary view of the subject, to explain the nature of that connection by which we conceive this effect to be produced. Here, also, there is but little need for minuteness, or fullness of enumeration. Almost every tie by which two objects can be bound together in the imagination, in such a manner as that the presentment of the one shall recall the memory of the other, or, in other words, almost every possible relation which can subsist between such objects, may serve to connect the things we call sublime or beautiful, with feelings that are interesting or delightful. It may be useful, however, to class these bonds of association between mind and matter in a rude and general way.\"\n}",
+ "usage": {
+  "completion_tokens": 364,
+  "prompt_tokens": 772,
+  "total_tokens": 1136,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Of the feelings, by their connection with which external objects become beautiful, we do not think it necesary to speak more minutely and therefore it only remains, under this preliminary view of the subject, to explain the nature of that connection by which we conceive this effect to be produced. Here, also, there is but little need for minuteness, or fulness of enumeration. Almost every tie by which two objects can be bound together in the imagination, in such a manner as that the presentment of the one shall recall the memory of the other, or, in other words, almost every possible relation which can subsist between such objects, may serve to connect the things we call sublime or beautiful, with feelings that are interesting or delightful. It may be useful, however, to class these bonds of association between mind and matter in a rude and general way.",
+  "modern": "Of the feelings, by their connection with which external objects become beautiful, we do not think it necessary to speak more minutely and therefore it only remains, under this preliminary view of the subject, to explain the nature of that connection by which we conceive this effect to be produced. Here, also, there is but little need for minuteness, or fullness of enumeration. Almost every tie by which two objects can be bound together in the imagination, in such a manner as that the presentment of the one shall recall the memory of the other, or, in other words, almost every possible relation which can subsist between such objects, may serve to connect the things we call sublime or beautiful, with feelings that are interesting or delightful. It may be useful, however, to class these bonds of association between mind and matter in a rude and general way."
+ },
+ "error": null
+}

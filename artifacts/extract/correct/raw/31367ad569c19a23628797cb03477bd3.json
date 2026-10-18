@@ -1,0 +1,31 @@
+{
+ "key": "31367ad569c19a23628797cb03477bd3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "of the atmosphere and in the mine to produce the ne- ceffiny circulation. This happens principally in the firing and assembly, at which relation if necessary to fight iron in the fluids, which are always efficacious for the purpose defend.",
+ "content": "{\n  \"faithful\": \"of the atmosphere and in the mine to produce the ne- cessary circulation. This happens principally in the firing and assembly, at which relation it is necessary to light fires in the shafts, which are always efficacious for the purpose desired.\",\n  \"modern\": \"of the atmosphere and in the mine to produce the necessary circulation. This happens principally in the firing and assembly, at which relation it is necessary to light fires in the shafts, which are always efficacious for the purpose desired.\"\n}",
+ "usage": {
+  "completion_tokens": 108,
+  "prompt_tokens": 630,
+  "total_tokens": 738,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "of the atmosphere and in the mine to produce the ne- cessary circulation. This happens principally in the firing and assembly, at which relation it is necessary to light fires in the shafts, which are always efficacious for the purpose desired.",
+  "modern": "of the atmosphere and in the mine to produce the necessary circulation. This happens principally in the firing and assembly, at which relation it is necessary to light fires in the shafts, which are always efficacious for the purpose desired."
+ },
+ "error": null
+}

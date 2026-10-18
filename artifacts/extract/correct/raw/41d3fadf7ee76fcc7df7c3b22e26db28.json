@@ -1,0 +1,31 @@
+{
+ "key": "41d3fadf7ee76fcc7df7c3b22e26db28",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "As all efential oils agree in the general properties of fishability to prints of wine, individuality in waters, mifcibility with water by the intervention of certain intermedies, volatility in the least of boiling water, &c. is la plain that they may be variously mixed with one another, or the denser highlifted with the cheapys, without any polifficiency of discovering the abuse by any trials of this kind. And indeed, it would not be of much advantages to the purchase if he had inflaible criteria of the genunements of every individual oil. It is of as much importance, then they may be _goods_, as that they may be _genuers_; for we have often seen genuine oils, from incautious dililitations, and long and careful keeping, weaker both in fuell and tafte than the common sophisticated ones.",
+ "content": "{\n  \"faithful\": \"As all efential oils agree in the general properties of fishability to prints of wine, individuality in waters, mifcibility with water by the intervention of certain intermedies, volatility in the least of boiling water, &c. is la plain that they may be variously mixed with one another, or the denser highlifted with the cheapys, without any polifficiency of discovering the abuse by any trials of this kind. And indeed, it would not be of much advantages to the purchase if he had inflaible criteria of the genunements of every individual oil. It is of as much importance, then they may be _goods_, as that they may be _genuers_; for we have often seen genuine oils, from incautious dililitations, and long and careful keeping, weaker both in fuell and tafte than the common sophisticated ones.\",\n  \"modern\": \"As all essential oils agree in the general properties of fishability to prints of wine, individuality in waters, miscibility with water by the intervention of certain intermedies, volatility in the least of boiling water, &c. is it plain that they may be variously mixed with one another, or the denser highlifted with the cheapys, without any possibility of discovering the abuse by any trials of this kind. And indeed, it would not be of much advantage to the purchaser if he had infallible criteria of the genuineness of every individual oil. It is of as much importance, that they may be good, as that they may be genuine; for we have often seen genuine oils, from incautious dilutions, and long and careful keeping, weaker both in smell and taste than the common sophisticated ones.\"\n}",
+ "usage": {
+  "completion_tokens": 371,
+  "prompt_tokens": 766,
+  "total_tokens": 1137,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "As all efential oils agree in the general properties of fishability to prints of wine, individuality in waters, mifcibility with water by the intervention of certain intermedies, volatility in the least of boiling water, &c. is la plain that they may be variously mixed with one another, or the denser highlifted with the cheapys, without any polifficiency of discovering the abuse by any trials of this kind. And indeed, it would not be of much advantages to the purchase if he had inflaible criteria of the genunements of every individual oil. It is of as much importance, then they may be _goods_, as that they may be _genuers_; for we have often seen genuine oils, from incautious dililitations, and long and careful keeping, weaker both in fuell and tafte than the common sophisticated ones.",
+  "modern": "As all essential oils agree in the general properties of fishability to prints of wine, individuality in waters, miscibility with water by the intervention of certain intermedies, volatility in the least of boiling water, &c. is it plain that they may be variously mixed with one another, or the denser highlifted with the cheapys, without any possibility of discovering the abuse by any trials of this kind. And indeed, it would not be of much advantage to the purchaser if he had infallible criteria of the genuineness of every individual oil. It is of as much importance, that they may be good, as that they may be genuine; for we have often seen genuine oils, from incautious dilutions, and long and careful keeping, weaker both in smell and taste than the common sophisticated ones."
+ },
+ "error": null
+}

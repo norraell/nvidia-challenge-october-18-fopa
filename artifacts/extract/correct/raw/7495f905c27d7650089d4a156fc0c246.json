@@ -1,0 +1,31 @@
+{
+ "key": "7495f905c27d7650089d4a156fc0c246",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "be System Uncle, or Binary System, of the French, was irure for all 1013. For the accommodation used that trade, to make some companies with the common people, who showed in irreceable version of the innovations from its markets for their ability. Even instead of being fetral, are clearly binary, that is he proved especially by continually linking our domain some classes standards, though partly according to other divisions of this system means that we cannot be used because they have a decent weights and measures are employed, annexing the term of one each. They, the idea sends the ones worth of the tokens, and is subi- sided into wildlife or niches. The same nameules a 13 decks mean a 47-2448 Brit. inches. The line uses a 11 m a 17600 Brit. print. The Boissens uses lao is one eight of of the besthole, and a 25/12 Brit. ambitions, like Torre stands is the Ikblograme, and a 1-10245 lb. avoid. The halvesque, que leggie, dek, the most of the more of the in use. A many of the ancient French system will be found in its pre- recognition of this article.",
+ "content": "{\n  \"faithful\": \"The System Uncle, or Binary System, of the French, was inure for all 1013. For the accommodation used that trade, to make some companies with the common people, who showed in irreceable version of the innovations from its markets for their ability. Even instead of being fetral, are clearly binary, that is he proved especially by continually linking our domain some classes standards, though partly according to other divisions of this system means that we cannot be used because they have a decent weights and measures are employed, annexing the term of one each. They, the idea sends the ones worth of the tokens, and is subi- sided into wildlife or niches. The same nameules a 13 decks mean a 47-2448 Brit. inches. The line uses a 11 m a 17600 Brit. print. The Boissens uses lao is one eight of of the besthole, and a 25/12 Brit. ambitions, like Torre stands is the Ikblograme, and a 1-10245 lb. avoid. The halvesque, que leggie, dek, the most of the more of the in use. A many of the ancient French system will be found in its pre- recognition of this article.\",\n  \"modern\": \"The System Uncle, or Binary System, of the French, was inure for all 1013. For the accommodation used that trade, to make some companies with the common people, who showed in irreceable version of the innovations from its markets for their ability. Even instead of being fetral, are clearly binary, that is he proved especially by continually linking our domain some classes standards, though partly according to other divisions of this system means that we cannot be used because they have a decent weights and measures are employed, annexing the term of one each. They, the idea sends the ones worth of the tokens, and is sub- sided into wildlife or niches. The same nameules a 13 decks mean a 47-2448 Brit. inches. The line uses a 11 m a 17600 Brit. print. The Boissens uses lao is one eight of of the besthole, and a 25/12 Brit. ambitions, like Torre stands is the Ikblograme, and a 1-10245 lb. avoid. The halvesque, que leggie, dek, the most of the more of the in use. A many of the ancient French system will be found in its pre- recognition of this article.\"\n}",
+ "usage": {
+  "completion_tokens": 555,
+  "prompt_tokens": 893,
+  "total_tokens": 1448,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 322
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The System Uncle, or Binary System, of the French, was inure for all 1013. For the accommodation used that trade, to make some companies with the common people, who showed in irreceable version of the innovations from its markets for their ability. Even instead of being fetral, are clearly binary, that is he proved especially by continually linking our domain some classes standards, though partly according to other divisions of this system means that we cannot be used because they have a decent weights and measures are employed, annexing the term of one each. They, the idea sends the ones worth of the tokens, and is subi- sided into wildlife or niches. The same nameules a 13 decks mean a 47-2448 Brit. inches. The line uses a 11 m a 17600 Brit. print. The Boissens uses lao is one eight of of the besthole, and a 25/12 Brit. ambitions, like Torre stands is the Ikblograme, and a 1-10245 lb. avoid. The halvesque, que leggie, dek, the most of the more of the in use. A many of the ancient French system will be found in its pre- recognition of this article.",
+  "modern": "The System Uncle, or Binary System, of the French, was inure for all 1013. For the accommodation used that trade, to make some companies with the common people, who showed in irreceable version of the innovations from its markets for their ability. Even instead of being fetral, are clearly binary, that is he proved especially by continually linking our domain some classes standards, though partly according to other divisions of this system means that we cannot be used because they have a decent weights and measures are employed, annexing the term of one each. They, the idea sends the ones worth of the tokens, and is sub- sided into wildlife or niches. The same nameules a 13 decks mean a 47-2448 Brit. inches. The line uses a 11 m a 17600 Brit. print. The Boissens uses lao is one eight of of the besthole, and a 25/12 Brit. ambitions, like Torre stands is the Ikblograme, and a 1-10245 lb. avoid. The halvesque, que leggie, dek, the most of the more of the in use. A many of the ancient French system will be found in its pre- recognition of this article."
+ },
+ "error": null
+}

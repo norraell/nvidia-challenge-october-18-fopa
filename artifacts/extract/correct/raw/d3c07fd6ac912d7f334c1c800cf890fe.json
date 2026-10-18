@@ -1,0 +1,31 @@
+{
+ "key": "d3c07fd6ac912d7f334c1c800cf890fe",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "455. _General method of preferring conferences_.",
+ "content": "{\n  \"faithful\": \"455. General method of preferring conferences.\",\n  \"modern\": \"455. General method of preferring conferences.\"\n}",
+ "usage": {
+  "completion_tokens": 37,
+  "prompt_tokens": 603,
+  "total_tokens": 640,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "455. General method of preferring conferences.",
+  "modern": "455. General method of preferring conferences."
+ },
+ "error": null
+}

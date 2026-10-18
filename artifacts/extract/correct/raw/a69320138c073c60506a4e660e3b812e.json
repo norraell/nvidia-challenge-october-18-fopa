@@ -1,0 +1,31 @@
+{
+ "key": "a69320138c073c60506a4e660e3b812e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The broad-leaved brownwork, fig. to, when fresh\ntaken out of the tea, it of a spongy salt texture, and\nfinels very little, but when it has fun for time time\non the floor, it becomes iffi and honey, like forms fort\nof nutrients below. Beff furthest, when examined by\nglallies, appears to be covered with cells; and, when a\npiece of it is cut across, one may discover the thin\nnumbers that there was a large to the cell of each face.",
+ "content": "{\n  \"faithful\": \"The broad-leaved brownwork, fig. to, when fresh taken out of the tea, it of a spongy salt texture, and finels very little, but when it has fun for time time on the floor, it becomes iffi and honey, like forms fort of nutrients below. Beff furthest, when examined by glallies, appears to be covered with cells; and, when a piece of it is cut across, one may discover the thin numbers that there was a large to the cell of each face.\",\n  \"modern\": \"The broad-leaved brownwork, fig. to, when fresh taken out of the tea, it of a spongy salt texture, and finels very little, but when it has fun for time time on the floor, it becomes iffi and honey, like forms fort of nutrients below. Beff furthest, when examined by glallies, appears to be covered with cells; and, when a piece of it is cut across, one may discover the thin numbers that there was a large to the cell of each face.\"\n}",
+ "usage": {
+  "completion_tokens": 231,
+  "prompt_tokens": 680,
+  "total_tokens": 911,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The broad-leaved brownwork, fig. to, when fresh taken out of the tea, it of a spongy salt texture, and finels very little, but when it has fun for time time on the floor, it becomes iffi and honey, like forms fort of nutrients below. Beff furthest, when examined by glallies, appears to be covered with cells; and, when a piece of it is cut across, one may discover the thin numbers that there was a large to the cell of each face.",
+  "modern": "The broad-leaved brownwork, fig. to, when fresh taken out of the tea, it of a spongy salt texture, and finels very little, but when it has fun for time time on the floor, it becomes iffi and honey, like forms fort of nutrients below. Beff furthest, when examined by glallies, appears to be covered with cells; and, when a piece of it is cut across, one may discover the thin numbers that there was a large to the cell of each face."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "db611d191142bfb573c41cd21d350fac",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ENDYMON, the 1zth king of Elia. Being ex- pelled his kingdom, he retired into Caria to mount Lat-mos, where he fluded the bewenly bodies, but chiefly the moo's which gave rise to the false of the poets, that he was beloved by the moo, who visited him every night as he lay alleep upon the top of that hill.",
+ "content": "{\n  \"faithful\": \"ENDYMION, the 12th king of Elis. Being expelled his kingdom, he retired into Caria to mount Latmos, where he studied the heavenly bodies, but chiefly the moon; which gave rise to the fable of the poets, that he was beloved by the moon, who visited him every night as he lay asleep upon the top of that hill.\",\n  \"modern\": \"ENDYMION, the 12th king of Elis. Being expelled his kingdom, he retired into Caria to mount Latmos, where he studied the heavenly bodies, but chiefly the moon; which gave rise to the fable of the poets, that he was beloved by the moon, who visited him every night as he lay asleep upon the top of that hill.\"\n}",
+ "usage": {
+  "completion_tokens": 167,
+  "prompt_tokens": 679,
+  "total_tokens": 846,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ENDYMION, the 12th king of Elis. Being expelled his kingdom, he retired into Caria to mount Latmos, where he studied the heavenly bodies, but chiefly the moon; which gave rise to the fable of the poets, that he was beloved by the moon, who visited him every night as he lay asleep upon the top of that hill.",
+  "modern": "ENDYMION, the 12th king of Elis. Being expelled his kingdom, he retired into Caria to mount Latmos, where he studied the heavenly bodies, but chiefly the moon; which gave rise to the fable of the poets, that he was beloved by the moon, who visited him every night as he lay asleep upon the top of that hill."
+ },
+ "error": null
+}

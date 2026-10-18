@@ -1,0 +1,31 @@
+{
+ "key": "c2487c66bbc7888378e62b46a7276694",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_WILLAN’s Port,_ is a factory of Afin belonging to the East India company, feated on one of the branches of the river Ganges, in the kingdom of Bengal. The tort was first built in the shape of an irregular terrazon of brick and mortar; and the town has nothing regular it is, because every one built a house as he liked beth, and for his or convenience. The governor's house is within the fort, and is the left piece of architecture in their parts. Here there are also convenient lodgings for the factors and writers, with force studies for the company's goods, and magazines or ammunition. About 57 yards near the foot is the church, built by the charity of merchants refiling here. This town is called _California_ and has a pretty good hospital for the fricks, though few come out of it alive. It is go-verned by a mayor and aldernenes, as much of the company's factories in the East Indies now are. In 1757 it was fur-",
+ "content": "{\n  \"faithful\": \"_WILLAN's Port,_ is a factory of Afin belonging to the East India company, feated on one of the branches of the river Ganges, in the kingdom of Bengal. The fort was first built in the shape of an irregular terrazon of brick and mortar; and the town has nothing regular it is, because every one built a house as he liked beth, and for his or convenience. The governor's house is within the fort, and is the left piece of architecture in their parts. Here there are also convenient lodgings for the factors and writers, with force studies for the company's goods, and magazines or ammunition. About 57 yards near the foot is the church, built by the charity of merchants refiling here. This town is called _California_ and has a pretty good hospital for the fricks, though few come out of it alive. It is go-verned by a mayor and aldernenes, as much of the company's factories in the East Indies now are. In 1757 it was fur-\",\n  \"modern\": \"_WILLAN's Port,_ is a factory of Afin belonging to the East India company, seated on one of the branches of the river Ganges, in the kingdom of Bengal. The fort was first built in the shape of an irregular terrazon of brick and mortar; and the town has nothing regular it is, because every one built a house as he liked beth, and for his or convenience. The governor's house is within the fort, and is the left piece of architecture in their parts. Here there are also convenient lodgings for the factors and writers, with force studies for the company's goods, and magazines or ammunition. About 57 yards near the foot is the church, built by the charity of merchants refiling here. This town is called _California_ and has a pretty good hospital for the fricks, though few come out of it alive. It is governed by a mayor and aldermen, as much of the company's factories in the East Indies now are. In 1757 it was fur-\"\n}",
+ "usage": {
+  "completion_tokens": 448,
+  "prompt_tokens": 836,
+  "total_tokens": 1284,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_WILLAN's Port,_ is a factory of Afin belonging to the East India company, feated on one of the branches of the river Ganges, in the kingdom of Bengal. The fort was first built in the shape of an irregular terrazon of brick and mortar; and the town has nothing regular it is, because every one built a house as he liked beth, and for his or convenience. The governor's house is within the fort, and is the left piece of architecture in their parts. Here there are also convenient lodgings for the factors and writers, with force studies for the company's goods, and magazines or ammunition. About 57 yards near the foot is the church, built by the charity of merchants refiling here. This town is called _California_ and has a pretty good hospital for the fricks, though few come out of it alive. It is go-verned by a mayor and aldernenes, as much of the company's factories in the East Indies now are. In 1757 it was fur-",
+  "modern": "_WILLAN's Port,_ is a factory of Afin belonging to the East India company, seated on one of the branches of the river Ganges, in the kingdom of Bengal. The fort was first built in the shape of an irregular terrazon of brick and mortar; and the town has nothing regular it is, because every one built a house as he liked beth, and for his or convenience. The governor's house is within the fort, and is the left piece of architecture in their parts. Here there are also convenient lodgings for the factors and writers, with force studies for the company's goods, and magazines or ammunition. About 57 yards near the foot is the church, built by the charity of merchants refiling here. This town is called _California_ and has a pretty good hospital for the fricks, though few come out of it alive. It is governed by a mayor and aldermen, as much of the company's factories in the East Indies now are. In 1757 it was fur-"
+ },
+ "error": null
+}

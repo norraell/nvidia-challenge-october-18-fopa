@@ -1,0 +1,31 @@
+{
+ "key": "f6269db7875b6a5baa06ef033acc6892",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "CABIDOS, or CAXIVOS, a long mesmer called at Goa, and in other places of the Rall India belonging to the Portuguele, no mesure fluffs, linens, Gv, and equal to 40 the Paris elt.",
+ "content": "{\n  \"faithful\": \"CABIDOS, or CAXIVOS, a long meafure ufed at Goa, and in other places of the Eaft Indies belonging to the Portuguefe, to meafure fluffs, linens, &c. and equal to 4 of the Paris elt.\",\n  \"modern\": \"CABIDOS, or CAXIVOS, a long measure used at Goa, and in other places of the East Indies belonging to the Portuguese, to measure stuffs, linens, &c. and equal to 4 of the Paris ell.\"\n}",
+ "usage": {
+  "completion_tokens": 128,
+  "prompt_tokens": 639,
+  "total_tokens": 767,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "CABIDOS, or CAXIVOS, a long meafure ufed at Goa, and in other places of the Eaft Indies belonging to the Portuguefe, to meafure fluffs, linens, &c. and equal to 4 of the Paris elt.",
+  "modern": "CABIDOS, or CAXIVOS, a long measure used at Goa, and in other places of the East Indies belonging to the Portuguese, to measure stuffs, linens, &c. and equal to 4 of the Paris ell."
+ },
+ "error": null
+}

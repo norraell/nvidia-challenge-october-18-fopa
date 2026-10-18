@@ -1,0 +1,31 @@
+{
+ "key": "56d68fd3800b2416a5f7b5dca9c36211",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ERGOT, in farriers, is a flub, like a piece of loft horn, about the biguns of a chefut, placed behind and be low the pattern join, and commonly hide under the tufi of the fetlock.",
+ "content": "{\n  \"faithful\": \"ERGOT, in farriery, is a ftub, like a piece of fott horn, about the bigness of a cheftnut, placed behind and below the pattern-joint, and commonly hid under the tuft of the fetlock.\",\n  \"modern\": \"ERGOT, in farriery, is a stub, like a piece of soft horn, about the bigness of a chestnut, placed behind and below the pattern-joint, and commonly hid under the tuft of the fetlock.\"\n}",
+ "usage": {
+  "completion_tokens": 120,
+  "prompt_tokens": 634,
+  "total_tokens": 754,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ERGOT, in farriery, is a ftub, like a piece of fott horn, about the bigness of a cheftnut, placed behind and below the pattern-joint, and commonly hid under the tuft of the fetlock.",
+  "modern": "ERGOT, in farriery, is a stub, like a piece of soft horn, about the bigness of a chestnut, placed behind and below the pattern-joint, and commonly hid under the tuft of the fetlock."
+ },
+ "error": null
+}

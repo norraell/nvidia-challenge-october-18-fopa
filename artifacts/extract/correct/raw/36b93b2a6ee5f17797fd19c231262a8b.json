@@ -1,0 +1,31 @@
+{
+ "key": "36b93b2a6ee5f17797fd19c231262a8b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "larger portions as cannot pas through the neck. But Vegetable\nthis inconvenience is not likely to happen, united the <sup>thickness</sup>.",
+ "content": "{\n  \"faithful\": \"larger portions as cannot pas through the neck. But Vegetable this inconvenience is not likely to happen, united the <sup>thickness</sup>.\",\n  \"modern\": \"larger portions as cannot pas through the neck. But Vegetable this inconvenience is not likely to happen, united the thickness.\"\n}",
+ "usage": {
+  "completion_tokens": 72,
+  "prompt_tokens": 636,
+  "total_tokens": 708,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "larger portions as cannot pas through the neck. But Vegetable this inconvenience is not likely to happen, united the <sup>thickness</sup>.",
+  "modern": "larger portions as cannot pas through the neck. But Vegetable this inconvenience is not likely to happen, united the thickness."
+ },
+ "error": null
+}

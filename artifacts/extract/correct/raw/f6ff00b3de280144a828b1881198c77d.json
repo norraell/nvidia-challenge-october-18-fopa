@@ -1,0 +1,31 @@
+{
+ "key": "f6ff00b3de280144a828b1881198c77d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Thus all the classes of officers, semen, and marines, who have faithfully served in the many, are provided for by the state; and the children of such as may be in indigent circumstances receive an education at the public expense, suited to their condition in life.",
+ "content": "{\n  \"faithful\": \"Thus all the classes of officers, seamen, and marines, who have faithfully served in the navy, are provided for by the state; and the children of such as may be in indigent circumstances receive an education at the public expense, suited to their condition in life.\",\n  \"modern\": \"Thus all the classes of officers, seamen, and marines, who have faithfully served in the navy, are provided for by the state; and the children of such as may be in indigent circumstances receive an education at the public expense, suited to their condition in life.\"\n}",
+ "usage": {
+  "completion_tokens": 127,
+  "prompt_tokens": 628,
+  "total_tokens": 755,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Thus all the classes of officers, seamen, and marines, who have faithfully served in the navy, are provided for by the state; and the children of such as may be in indigent circumstances receive an education at the public expense, suited to their condition in life.",
+  "modern": "Thus all the classes of officers, seamen, and marines, who have faithfully served in the navy, are provided for by the state; and the children of such as may be in indigent circumstances receive an education at the public expense, suited to their condition in life."
+ },
+ "error": null
+}

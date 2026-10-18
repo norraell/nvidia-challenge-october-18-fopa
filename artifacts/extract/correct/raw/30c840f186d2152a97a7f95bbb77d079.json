@@ -1,0 +1,31 @@
+{
+ "key": "30c840f186d2152a97a7f95bbb77d079",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "the fixth for the pigans, and the feventh for the hy- pocrites of all religions.",
+ "content": "{\n  \"faithful\": \"the fixth for the pigans, and the feventh for the hy- pocrites of all religions.\",\n  \"modern\": \"the sixth for the pagans, and the seventh for the hypocrites of all religions.\"\n}",
+ "usage": {
+  "completion_tokens": 55,
+  "prompt_tokens": 619,
+  "total_tokens": 674,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "the fixth for the pigans, and the feventh for the hy- pocrites of all religions.",
+  "modern": "the sixth for the pagans, and the seventh for the hypocrites of all religions."
+ },
+ "error": null
+}

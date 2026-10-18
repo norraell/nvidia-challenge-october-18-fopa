@@ -1,0 +1,31 @@
+{
+ "key": "691b844f071f830c3e3c434fa6d633ed",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Another felt worthy of notice reflecting the manera of the batarians of Germany before they cla-",
+ "content": "{\n  \"faithful\": \"Another fact worthy of notice reflecting the manners of the barbarians of Germany before they clashed among themselves as well as among the Greeks or Romans. From the valuable treatise of Tacitus de moribus Germanorum, we learn, that among the German warriors a distinction somewhat of this nature did actually subsist; not so much indeed a distinction between the warrior who fought on horseback and he who fought on foot, as between those whom vigour of mind enabled to brave all the dangers of war, and such as, from the imbecility of youth, the infirmities of age, or the natural inferiority of their mental and bodily powers, were unequal to scenes of hardship and deeds of valour. The youth was not permitted to take arms and join his warlike countrymen in their military expeditions whenever he himself thought proper. There was a certain age before which he could not be invested with armour. When he had attained that period, if not found deficient in strength, activity, or courage, he was formally honoured with the shield and the lance, called to the duties, and admitted to all the privileges, of a warrior. Another fact worthy of notice respecting the manners of the barbarians of Germany before they clashed.\",\n  \"modern\": \"Another fact worthy of notice reflecting the manners of the barbarians of Germany before they clashed among themselves as well as among the Greeks or Romans. From the valuable treatise of Tacitus de moribus Germanorum, we learn, that among the German warriors a distinction somewhat of this nature did actually subsist; not so much indeed a distinction between the warrior who fought on horseback and he who fought on foot, as between those whom vigour of mind enabled to brave all the dangers of war, and such as, from the imbecility of youth, the infirmities of age, or the natural inferiority of their mental and bodily powers, were unequal to scenes of hardship and deeds of valour. The youth was not permitted to take arms and join his warlike countrymen in their military expeditions whenever he himself thought proper. There was a certain age before which he could not be invested with armour. When he had attained that period, if not found deficient in strength, activity, or courage, he was formally honoured with the shield and the lance, called to the duties, and admitted to all the privileges, of a warrior. Another fact worthy of notice respecting the manners of the barbarians of Germany before they clashed.\"\n}",
+ "usage": {
+  "completion_tokens": 517,
+  "prompt_tokens": 682,
+  "total_tokens": 1199,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 363
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Another fact worthy of notice reflecting the manners of the barbarians of Germany before they clashed among themselves as well as among the Greeks or Romans. From the valuable treatise of Tacitus de moribus Germanorum, we learn, that among the German warriors a distinction somewhat of this nature did actually subsist; not so much indeed a distinction between the warrior who fought on horseback and he who fought on foot, as between those whom vigour of mind enabled to brave all the dangers of war, and such as, from the imbecility of youth, the infirmities of age, or the natural inferiority of their mental and bodily powers, were unequal to scenes of hardship and deeds of valour. The youth was not permitted to take arms and join his warlike countrymen in their military expeditions whenever he himself thought proper. There was a certain age before which he could not be invested with armour. When he had attained that period, if not found deficient in strength, activity, or courage, he was formally honoured with the shield and the lance, called to the duties, and admitted to all the privileges, of a warrior. Another fact worthy of notice respecting the manners of the barbarians of Germany before they clashed.",
+  "modern": "Another fact worthy of notice reflecting the manners of the barbarians of Germany before they clashed among themselves as well as among the Greeks or Romans. From the valuable treatise of Tacitus de moribus Germanorum, we learn, that among the German warriors a distinction somewhat of this nature did actually subsist; not so much indeed a distinction between the warrior who fought on horseback and he who fought on foot, as between those whom vigour of mind enabled to brave all the dangers of war, and such as, from the imbecility of youth, the infirmities of age, or the natural inferiority of their mental and bodily powers, were unequal to scenes of hardship and deeds of valour. The youth was not permitted to take arms and join his warlike countrymen in their military expeditions whenever he himself thought proper. There was a certain age before which he could not be invested with armour. When he had attained that period, if not found deficient in strength, activity, or courage, he was formally honoured with the shield and the lance, called to the duties, and admitted to all the privileges, of a warrior. Another fact worthy of notice respecting the manners of the barbarians of Germany before they clashed."
+ },
+ "error": null
+}

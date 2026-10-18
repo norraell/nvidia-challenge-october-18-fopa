@@ -1,0 +1,31 @@
+{
+ "key": "44f80bc1f5239eaa1da64871989de617",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ATERNUM, s town of Lucerna in Italy, now _Alteris_, (Chorusas )). Alfo a town in the territory of the Piceni, now _Pofcara_, a port-town of Naples, fitu-ated and the infinite. E. Long 15.25. V.Lav. 42.50.",
+ "content": "{\n  \"faithful\": \"ATERNUM, a town of Lucania in Italy, now Alerni, (Cluvenus). Also a town in the territory of the Piceni, now Pescara, a port-town of Naples, situated on the Adriatic. E. Long. 15. 25. N. Lat. 42. 30.\",\n  \"modern\": \"ATERNUM, a town of Lucania in Italy, now Alerni, (Cluvenus). Also a town in the territory of the Piceni, now Pescara, a port-town of Naples, situated on the Adriatic. E. Long. 15. 25. N. Lat. 42. 30.\"\n}",
+ "usage": {
+  "completion_tokens": 163,
+  "prompt_tokens": 660,
+  "total_tokens": 823,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ATERNUM, a town of Lucania in Italy, now Alerni, (Cluvenus). Also a town in the territory of the Piceni, now Pescara, a port-town of Naples, situated on the Adriatic. E. Long. 15. 25. N. Lat. 42. 30.",
+  "modern": "ATERNUM, a town of Lucania in Italy, now Alerni, (Cluvenus). Also a town in the territory of the Piceni, now Pescara, a port-town of Naples, situated on the Adriatic. E. Long. 15. 25. N. Lat. 42. 30."
+ },
+ "error": null
+}

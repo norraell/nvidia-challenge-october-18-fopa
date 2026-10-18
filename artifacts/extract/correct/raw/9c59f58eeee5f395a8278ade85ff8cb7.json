@@ -1,0 +1,31 @@
+{
+ "key": "9c59f58eeee5f395a8278ade85ff8cb7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "These strains or pressure AB, DO, and CK, not being in the directions of the beams, may be called _transverse_. We see that by their means a frame of",
+ "content": "{\n  \"faithful\": \"These strains or pressures Aß, DO, and CK, not being in the directions of the beams, may be called transverse. We see that by their means a frame of\",\n  \"modern\": \"These strains or pressures Aß, DO, and CK, not being in the directions of the beams, may be called transverse. We see that by their means a frame of\"\n}",
+ "usage": {
+  "completion_tokens": 87,
+  "prompt_tokens": 606,
+  "total_tokens": 693,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "These strains or pressures Aß, DO, and CK, not being in the directions of the beams, may be called transverse. We see that by their means a frame of",
+  "modern": "These strains or pressures Aß, DO, and CK, not being in the directions of the beams, may be called transverse. We see that by their means a frame of"
+ },
+ "error": null
+}

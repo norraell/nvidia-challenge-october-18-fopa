@@ -1,0 +1,31 @@
+{
+ "key": "ce18313e5c0a9f5e3e8e6bfcdea5d5d8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In America they have nooffs at all, nor yet horles; but they have been carried thither long ago, atift by the Spaniards, and afterwards byother nations, where they have multiple greatly; ionomisch, that, in fome places, there are whole drows of them that run wild, and are very hard to be caught. Afes in general carry the bloodwell borders in proportion to their bulk; and, a their keeping coll little or nothing, it is a great wonder they are not put to more ufes than they generally are among us.",
+ "content": "{\n  \"faithful\": \"In America they have no affes at all, nor yet horfes; but they have been carried thither long ago, at first by the Spaniards, and afterwards by other nations, where they have multiplied greatly; in fome places, there are whole droves of them that run wild, and are very hard to be caught. Afes in general carry the heaviest burdens in proportion to their bulk; and, as their keeping costs little or nothing, it is a great wonder they are not put to more uses than they generally are among us.\",\n  \"modern\": \"In America they have no asses at all, nor yet horses; but they have been carried thither long ago, at first by the Spaniards, and afterwards by other nations, where they have multiplied greatly; in some places, there are whole droves of them that run wild, and are very hard to be caught. Asses in general carry the heaviest burdens in proportion to their bulk; and, as their keeping costs little or nothing, it is a great wonder they are not put to more uses than they generally are among us.\"\n}",
+ "usage": {
+  "completion_tokens": 240,
+  "prompt_tokens": 710,
+  "total_tokens": 950,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In America they have no affes at all, nor yet horfes; but they have been carried thither long ago, at first by the Spaniards, and afterwards by other nations, where they have multiplied greatly; in fome places, there are whole droves of them that run wild, and are very hard to be caught. Afes in general carry the heaviest burdens in proportion to their bulk; and, as their keeping costs little or nothing, it is a great wonder they are not put to more uses than they generally are among us.",
+  "modern": "In America they have no asses at all, nor yet horses; but they have been carried thither long ago, at first by the Spaniards, and afterwards by other nations, where they have multiplied greatly; in some places, there are whole droves of them that run wild, and are very hard to be caught. Asses in general carry the heaviest burdens in proportion to their bulk; and, as their keeping costs little or nothing, it is a great wonder they are not put to more uses than they generally are among us."
+ },
+ "error": null
+}

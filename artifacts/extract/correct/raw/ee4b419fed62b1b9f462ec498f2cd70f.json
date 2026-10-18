@@ -1,0 +1,31 @@
+{
+ "key": "ee4b419fed62b1b9f462ec498f2cd70f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "As to the revenue, the excife here in levied only in the walled towns, being on the fame footing as in the mmunific of Brandenburg; but in the rest of the coun-try the contributions are fixed, and the time both in peace and var. The several branches of the revenues are under the management of the war and domain offices of Berlher and Clugas. The whole revenue arling to the king of Praffia from Sfislio and the country of Glatz amounts to about four millions of rix-dollars per season.",
+ "content": "{\n  \"faithful\": \"As to the revenue, the excife here is levied only in the walled towns, being on the fame footing as in the marquifate of Brandenburg; but in the reft of the country the contributions are fixed, and the fame both in peace and war. The feveral branches of the revenue are under the management of the war and domain offices of Breflaw and Glogau. The whole revenue arifing to the king of Pruffia from Silefia and the county of Glatz amounts to about four millions of rix-dollars per annum.\",\n  \"modern\": \"As to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the marquisate of Brandenburg; but in the rest of the country the contributions are fixed, and the same both in peace and war. The several branches of the revenue are under the management of the war and domain offices of Breslau and Glogau. The whole revenue arising to the king of Prussia from Silesia and the county of Glatz amounts to about four millions of rix-dollars per annum.\"\n}",
+ "usage": {
+  "completion_tokens": 247,
+  "prompt_tokens": 707,
+  "total_tokens": 954,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "As to the revenue, the excife here is levied only in the walled towns, being on the fame footing as in the marquifate of Brandenburg; but in the reft of the country the contributions are fixed, and the fame both in peace and war. The feveral branches of the revenue are under the management of the war and domain offices of Breflaw and Glogau. The whole revenue arifing to the king of Pruffia from Silefia and the county of Glatz amounts to about four millions of rix-dollars per annum.",
+  "modern": "As to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the marquisate of Brandenburg; but in the rest of the country the contributions are fixed, and the same both in peace and war. The several branches of the revenue are under the management of the war and domain offices of Breslau and Glogau. The whole revenue arising to the king of Prussia from Silesia and the county of Glatz amounts to about four millions of rix-dollars per annum."
+ },
+ "error": null
+}

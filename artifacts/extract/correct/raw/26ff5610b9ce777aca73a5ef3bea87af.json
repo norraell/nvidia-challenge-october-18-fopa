@@ -1,0 +1,31 @@
+{
+ "key": "26ff5610b9ce777aca73a5ef3bea87af",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When these fields are deprived by an acid of the carbonate of lime, which gives them their birders, they appear to be formed: of different membranes, ap- pled fratum fuer fratum. Each membranes is fur- milled with a corresponding coarse cruml of carbonate of lime, and it is foisted, that it is always between every two membranes, beginning with the epidermis, and ending with the internal membrane, which has been latformed. The animals which inhabit both fleaified flesh, precede their habitation by the addi-tion of a fratum of carbonate of lime, which is fe-cured by a new membrane. And as every additional fratum exceeds in extent that which was previously formed, the shell becomes stronger in properties as it is enlarged; and thus the growth and age of the animal may be denoted by the number of frata of which the thell is compold. Similar experiments were made",
+ "content": "{\n  \"faithful\": \"When these fields are deprived by an acid of the carbonate of lime, which gives them their birders, they appear to be formed: of different membranes, ap- plied fratum fuer fratum. Each membranes is fur- milled with a corresponding coarse cruml of carbonate of lime, and it is foisted, that it is always between every two membranes, beginning with the epidermis, and ending with the internal membrane, which has been latformed. The animals which inhabit both fleaified flesh, precede their habitation by the addi-tion of a fratum of carbonate of lime, which is fe-cured by a new membrane. And as every additional fratum exceeds in extent that which was previously formed, the shell becomes stronger in properties as it is enlarged; and thus the growth and age of the animal may be denoted by the number of frata of which the thell is compold. Similar experiments were made\",\n  \"modern\": \"When these fields are deprived by an acid of the carbonate of lime, which gives them their birders, they appear to be formed: of different membranes, applied fratum fuer fratum. Each membrane is furmilled with a corresponding coarse cruml of carbonate of lime, and it is foisted, that it is always between every two membranes, beginning with the epidermis, and ending with the internal membrane, which has been latformed. The animals which inhabit both fleaified flesh, precede their habitation by the addition of a fratum of carbonate of lime, which is fecured by a new membrane. And as every additional fratum exceeds in extent that which was previously formed, the shell becomes stronger in properties as it is enlarged; and thus the growth and age of the animal may be denoted by the number of frata of which the thell is compold. Similar experiments were made\"\n}",
+ "usage": {
+  "completion_tokens": 387,
+  "prompt_tokens": 813,
+  "total_tokens": 1200,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 322
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When these fields are deprived by an acid of the carbonate of lime, which gives them their birders, they appear to be formed: of different membranes, ap- plied fratum fuer fratum. Each membranes is fur- milled with a corresponding coarse cruml of carbonate of lime, and it is foisted, that it is always between every two membranes, beginning with the epidermis, and ending with the internal membrane, which has been latformed. The animals which inhabit both fleaified flesh, precede their habitation by the addi-tion of a fratum of carbonate of lime, which is fe-cured by a new membrane. And as every additional fratum exceeds in extent that which was previously formed, the shell becomes stronger in properties as it is enlarged; and thus the growth and age of the animal may be denoted by the number of frata of which the thell is compold. Similar experiments were made",
+  "modern": "When these fields are deprived by an acid of the carbonate of lime, which gives them their birders, they appear to be formed: of different membranes, applied fratum fuer fratum. Each membrane is furmilled with a corresponding coarse cruml of carbonate of lime, and it is foisted, that it is always between every two membranes, beginning with the epidermis, and ending with the internal membrane, which has been latformed. The animals which inhabit both fleaified flesh, precede their habitation by the addition of a fratum of carbonate of lime, which is fecured by a new membrane. And as every additional fratum exceeds in extent that which was previously formed, the shell becomes stronger in properties as it is enlarged; and thus the growth and age of the animal may be denoted by the number of frata of which the thell is compold. Similar experiments were made"
+ },
+ "error": null
+}

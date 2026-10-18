@@ -1,0 +1,31 @@
+{
+ "key": "789ebfb64d1446400d98909fc71300d9",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ERICA, or Hearth, in benny, a genus of the other- dirina nonogona clade. The calise conflict of four leaves, and the corolla of four fragments; the filaments are infected into the receptacle; the anthem are bid; and the copilole has four cells. Three thirty eight-species, one of which are native of Britain, viz. the vulgaris, or common health; the cinerers, or fine-leaved hearts; the retraix, or crofs-leaved heads; the cilla- ray, or rough leaved heat; and the multidots, or fir- leaved heart.",
+ "content": "{\n  \"faithful\": \"ERICA, or Heath, in botany, a genus of the octandria monogynia class. The calix consists of four leaves, and the corolla of four segments; the filaments are inserted into the receptacle; the anthers are bifid; and the capsule has four cells. There are thirty-eight species, five of which are natives of Britain, viz. the vulgaris, or common heath; the cinerea, or fine-leaved heath; the tetralix, or cross-leaved heath; the ciliaris, or rough-leaved heath; and the multiflora, or fir-leaved heath.\",\n  \"modern\": \"ERICA, or Heath, in botany, a genus of the octandria monogynia class. The calix consists of four leaves, and the corolla of four segments; the filaments are inserted into the receptacle; the anthers are bifid; and the capsule has four cells. There are thirty-eight species, five of which are natives of Britain, viz. the vulgaris, or common heath; the cinerea, or fine-leaved heath; the tetralix, or cross-leaved heath; the ciliaris, or rough-leaved heath; and the multiflora, or fir-leaved heath.\"\n}",
+ "usage": {
+  "completion_tokens": 277,
+  "prompt_tokens": 723,
+  "total_tokens": 1000,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ERICA, or Heath, in botany, a genus of the octandria monogynia class. The calix consists of four leaves, and the corolla of four segments; the filaments are inserted into the receptacle; the anthers are bifid; and the capsule has four cells. There are thirty-eight species, five of which are natives of Britain, viz. the vulgaris, or common heath; the cinerea, or fine-leaved heath; the tetralix, or cross-leaved heath; the ciliaris, or rough-leaved heath; and the multiflora, or fir-leaved heath.",
+  "modern": "ERICA, or Heath, in botany, a genus of the octandria monogynia class. The calix consists of four leaves, and the corolla of four segments; the filaments are inserted into the receptacle; the anthers are bifid; and the capsule has four cells. There are thirty-eight species, five of which are natives of Britain, viz. the vulgaris, or common heath; the cinerea, or fine-leaved heath; the tetralix, or cross-leaved heath; the ciliaris, or rough-leaved heath; and the multiflora, or fir-leaved heath."
+ },
+ "error": null
+}

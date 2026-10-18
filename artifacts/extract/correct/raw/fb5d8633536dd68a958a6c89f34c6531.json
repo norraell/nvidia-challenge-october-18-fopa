@@ -1,0 +1,31 @@
+{
+ "key": "fb5d8633536dd68a958a6c89f34c6531",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "4h. A constant supply of pure air.",
+ "content": "{\n  \"faithful\": \"4h. A constant supply of pure air.\",\n  \"modern\": \"4h. A constant supply of pure air.\"\n}",
+ "usage": {
+  "completion_tokens": 35,
+  "prompt_tokens": 614,
+  "total_tokens": 649,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "4h. A constant supply of pure air.",
+  "modern": "4h. A constant supply of pure air."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "2e0bafcd6fcf6255efa938d84800b8bf",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HELOTS, in Grecian antiquity, the inhabitants of Helon, a town of Lacom, conquer by the Spartan; who made them all prisoners of var, and reduced them into the condition of flares.",
+ "content": "{\n  \"faithful\": \"HELOTS, in Grecian antiquity, the inhabitants of Helos, a town of Laconia, conquered by the Spartans; who made them all prisoners of war, and reduced them into the condition of slaves.\",\n  \"modern\": \"HELOTS, in Grecian antiquity, the inhabitants of Helos, a town of Laconia, conquered by the Spartans; who made them all prisoners of war, and reduced them into the condition of slaves.\"\n}",
+ "usage": {
+  "completion_tokens": 107,
+  "prompt_tokens": 622,
+  "total_tokens": 729,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HELOTS, in Grecian antiquity, the inhabitants of Helos, a town of Laconia, conquered by the Spartans; who made them all prisoners of war, and reduced them into the condition of slaves.",
+  "modern": "HELOTS, in Grecian antiquity, the inhabitants of Helos, a town of Laconia, conquered by the Spartans; who made them all prisoners of war, and reduced them into the condition of slaves."
+ },
+ "error": null
+}

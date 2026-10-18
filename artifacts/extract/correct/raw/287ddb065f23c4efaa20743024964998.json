@@ -1,0 +1,31 @@
+{
+ "key": "287ddb065f23c4efaa20743024964998",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Mr Grofe gives an account fomewhat different—\n“The parts, or non-out grows, make the muff con-\nfidential part of the health property, being started\nwherever the futuation and foil is favorable to them.\nWhere a manner of their groove is ecological as each\nother, they form what is called the swodly, though\nwhich there is the first period for and said path ways, where one is practically defeated from the fun as all\nhours in the day. They are also thick for wind bouts belonging to the respective proprietors as well as with\nthe huts of the poorer fort of people; but are very un-\nwholders for the reasons already given. As to the",
+ "content": "{\n  \"faithful\": \"Mr Grofe gives an account fomewhat different—\\n“The parts, or non-out grows, make the muff con-\\nfidential part of the health property, being started\\nwherever the futuation and foil is favorable to them.\\nWhere a manner of their groove is ecological as each\\nother, they form what is called the swodly, though\\nwhich there is the first period for and said path ways, where one is practically defeated from the fun as all\\nhours in the day. They are also thick for wind bouts belonging to the respective proprietors as well as with\\nthe huts of the poorer fort of people; but are very un-\\nwholders for the reasons already given. As to the\",\n  \"modern\": \"Mr Grofe gives an account somewhat different—\\n“The parts, or non-out grows, make the muff confidential part of the health property, being started\\nwherever the situation and soil is favorable to them.\\nWhere a manner of their grove is ecological as each\\nother, they form what is called the swodly, though\\nwhich there is the first period for and said path ways, where one is practically defeated from the fun as all\\nhours in the day. They are also thick for wind bouts belonging to the respective proprietors as well as with\\nthe huts of the poorer fort of people; but are very un-\\nwholders for the reasons already given. As to the\"\n}",
+ "usage": {
+  "completion_tokens": 310,
+  "prompt_tokens": 721,
+  "total_tokens": 1031,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Mr Grofe gives an account fomewhat different—\n“The parts, or non-out grows, make the muff con-\nfidential part of the health property, being started\nwherever the futuation and foil is favorable to them.\nWhere a manner of their groove is ecological as each\nother, they form what is called the swodly, though\nwhich there is the first period for and said path ways, where one is practically defeated from the fun as all\nhours in the day. They are also thick for wind bouts belonging to the respective proprietors as well as with\nthe huts of the poorer fort of people; but are very un-\nwholders for the reasons already given. As to the",
+  "modern": "Mr Grofe gives an account somewhat different—\n“The parts, or non-out grows, make the muff confidential part of the health property, being started\nwherever the situation and soil is favorable to them.\nWhere a manner of their grove is ecological as each\nother, they form what is called the swodly, though\nwhich there is the first period for and said path ways, where one is practically defeated from the fun as all\nhours in the day. They are also thick for wind bouts belonging to the respective proprietors as well as with\nthe huts of the poorer fort of people; but are very un-\nwholders for the reasons already given. As to the"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "dc4b79db153cc6d92dac813a6cc32e80",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Rays are laid to be differently refasible, if firms are more safely reflected than others._",
+ "content": "{\n  \"faithful\": \"Rays are faid to be differently refrefible, if fome are more eafily reflected than others.\",\n  \"modern\": \"Rays are said to be differently refractible, if some are more easily reflected than others.\"\n}",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 617,
+  "total_tokens": 676,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Rays are faid to be differently refrefible, if fome are more eafily reflected than others.",
+  "modern": "Rays are said to be differently refractible, if some are more easily reflected than others."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "743e6ee369bd505fb903a3c2bf6ee462",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Borax (borate of soda) is used along with the fragment Fluxes of mineral in many cases. When exposed to the flame it become opaque, wells and ramides much, in consequence of parting with its water of crystallisation, increases it rises into a colorless and transparent lead. It is con- venient to toe calcined borox, which is borax deprived of water or cyclic crystallization by heat in a crécyclical, this melts into a bead on the charcoal at once. The solubility of a natural in borx, with difference or without effervescents, and the colou which the mineral concentrates to the borax, are the chief distinctive characters obtained",
+ "content": "{\n  \"faithful\": \"Borax (borate of soda) is used along with the fragment Fluxes of mineral in many cases. When exposed to the flame it become opaque, wells and ramides much, in consequence of parting with its water of crystallisation, increases it rises into a colorless and transparent lead. It is con- venient to toe calcined borox, which is borax deprived of water or cyclic crystallization by heat in a crécyclical, this melts into a bead on the charcoal at once. The solubility of a natural in borx, with difference or without effervescents, and the colou which the mineral concentrates to the borax, are the chief distinctive characters obtained\",\n  \"modern\": \"Borax (borate of soda) is used along with the fragment Fluxes of mineral in many cases. When exposed to the flame it become opaque, wells and ramifies much, in consequence of parting with its water of crystallization, increases it rises into a colorless and transparent bead. It is convenient to use calcined borax, which is borax deprived of water of crystallization by heat in a crucible: this melts into a bead on the charcoal at once. The solubility of a mineral in borax, with effervescence or without effervescence, and the colour which the mineral communicates to the borax, are the chief distinctive characters obtained\"\n}",
+ "usage": {
+  "completion_tokens": 295,
+  "prompt_tokens": 722,
+  "total_tokens": 1017,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Borax (borate of soda) is used along with the fragment Fluxes of mineral in many cases. When exposed to the flame it become opaque, wells and ramides much, in consequence of parting with its water of crystallisation, increases it rises into a colorless and transparent lead. It is con- venient to toe calcined borox, which is borax deprived of water or cyclic crystallization by heat in a crécyclical, this melts into a bead on the charcoal at once. The solubility of a natural in borx, with difference or without effervescents, and the colou which the mineral concentrates to the borax, are the chief distinctive characters obtained",
+  "modern": "Borax (borate of soda) is used along with the fragment Fluxes of mineral in many cases. When exposed to the flame it become opaque, wells and ramifies much, in consequence of parting with its water of crystallization, increases it rises into a colorless and transparent bead. It is convenient to use calcined borax, which is borax deprived of water of crystallization by heat in a crucible: this melts into a bead on the charcoal at once. The solubility of a mineral in borax, with effervescence or without effervescence, and the colour which the mineral communicates to the borax, are the chief distinctive characters obtained"
+ },
+ "error": null
+}

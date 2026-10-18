@@ -1,0 +1,31 @@
+{
+ "key": "a7d3879f6e1926cbefd131778094dfb5",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "3. It effectes in the air, and is flowed converted into fulphate of magenae. It is foluble in 20 parts of cold water. Boiling water didtics a greater proportion, and from this fit crystallizes on cooling. Exposed to heat, this felt becomes vicidé, and by calcination it lofea 0.4; of its weight. If the heat be increased, it is decomposed, the acid is driven off, and the pure earth remains behind.",
+ "content": "{\n  \"faithful\": \"3. It effloresces in the air, and is slowly converted into sulphate of magnesia. It is soluble in 20 parts of cold water. Boiling water dissolves a greater proportion, and from this it crystallizes on cooling. Exposed to heat, this salt becomes viscous, and by calcination it loses 0.45 of its weight. If the heat be increased, it is decomposed, the acid is driven off, and the pure earth remains behind.\",\n  \"modern\": \"3. It effloresces in the air, and is slowly converted into sulfate of magnesia. It is soluble in 20 parts of cold water. Boiling water dissolves a greater proportion, and from this it crystallizes on cooling. Exposed to heat, this salt becomes viscous, and by calcination it loses 0.45 of its weight. If the heat be increased, it is decomposed, the acid is driven off, and the pure earth remains behind.\"\n}",
+ "usage": {
+  "completion_tokens": 213,
+  "prompt_tokens": 672,
+  "total_tokens": 885,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "3. It effloresces in the air, and is slowly converted into sulphate of magnesia. It is soluble in 20 parts of cold water. Boiling water dissolves a greater proportion, and from this it crystallizes on cooling. Exposed to heat, this salt becomes viscous, and by calcination it loses 0.45 of its weight. If the heat be increased, it is decomposed, the acid is driven off, and the pure earth remains behind.",
+  "modern": "3. It effloresces in the air, and is slowly converted into sulfate of magnesia. It is soluble in 20 parts of cold water. Boiling water dissolves a greater proportion, and from this it crystallizes on cooling. Exposed to heat, this salt becomes viscous, and by calcination it loses 0.45 of its weight. If the heat be increased, it is decomposed, the acid is driven off, and the pure earth remains behind."
+ },
+ "error": null
+}

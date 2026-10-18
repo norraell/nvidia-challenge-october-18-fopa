@@ -1,0 +1,31 @@
+{
+ "key": "3a0b0a2e349b2c5d0fb51a5617891b64",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The flops were formerly ecumulated with many\nconferences altogether insignificant; the few now retain-\ned have in general either an agreeable flavour to re-\ncommend them, or are capable of answering some\nofeful purpose as medicine. Their common dole is\nthe bulk of a nutmey, or as much as can be taken up\nat once or twice upon the point of a knife. There is\nin general no great danger of exceeding in this parti-\ncular.",
+ "content": "{\n  \"faithful\": \"The flops were formerly encumbered with many conferences altogether insignificant; the few now retained have in general either an agreeable flavour to recommend them, or are capable of answering some useful purpose as medicine. Their common dole is the bulk of a nutmeg, or as much as can be taken up at once or twice upon the point of a knife. There is in general no great danger of exceeding in this particular.\",\n  \"modern\": \"The flops were formerly encumbered with many conferences altogether insignificant; the few now retained have in general either an agreeable flavour to recommend them, or are capable of answering some useful purpose as medicine. Their common dole is the bulk of a nutmeg, or as much as can be taken up at once or twice upon the point of a knife. There is in general no great danger of exceeding in this particular.\"\n}",
+ "usage": {
+  "completion_tokens": 185,
+  "prompt_tokens": 667,
+  "total_tokens": 852,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The flops were formerly encumbered with many conferences altogether insignificant; the few now retained have in general either an agreeable flavour to recommend them, or are capable of answering some useful purpose as medicine. Their common dole is the bulk of a nutmeg, or as much as can be taken up at once or twice upon the point of a knife. There is in general no great danger of exceeding in this particular.",
+  "modern": "The flops were formerly encumbered with many conferences altogether insignificant; the few now retained have in general either an agreeable flavour to recommend them, or are capable of answering some useful purpose as medicine. Their common dole is the bulk of a nutmeg, or as much as can be taken up at once or twice upon the point of a knife. There is in general no great danger of exceeding in this particular."
+ },
+ "error": null
+}

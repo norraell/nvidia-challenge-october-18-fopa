@@ -1,0 +1,31 @@
+{
+ "key": "53b495ec4cbb673b11f3021778ebc3c4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Execution a criminal, fo reviewing was not allowed to take fanc-tany and abquire the realm, but his flecing to facilitate Xemplar. was held an escape in the officer.",
+ "content": "{\n  \"faithful\": \"Execution a criminal, fo reviewing was not allowed to take fanc-tany and abquire the realm, but his flecing to facilitate Xemplar. was held an escape in the officer.\",\n  \"modern\": \"Execution a criminal, so reviewing was not allowed to take fancy and acquire the realm, but his fleeing to facilitate exemplar. was held an escape in the officer.\"\n}",
+ "usage": {
+  "completion_tokens": 86,
+  "prompt_tokens": 601,
+  "total_tokens": 687,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 261
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Execution a criminal, fo reviewing was not allowed to take fanc-tany and abquire the realm, but his flecing to facilitate Xemplar. was held an escape in the officer.",
+  "modern": "Execution a criminal, so reviewing was not allowed to take fancy and acquire the realm, but his fleeing to facilitate exemplar. was held an escape in the officer."
+ },
+ "error": null
+}

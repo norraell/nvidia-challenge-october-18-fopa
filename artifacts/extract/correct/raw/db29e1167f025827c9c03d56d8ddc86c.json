@@ -1,0 +1,31 @@
+{
+ "key": "db29e1167f025827c9c03d56d8ddc86c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There are several terms in the tea-language relating to the helm; as, _hear up the helm;_ that is, let the flip my or most large before the wind. _Helm amid fribp_ or _right the helm;_ that is, keep it even with the middle of the hip. _Part, the helm_, put it over the the of field of the hip. _Starkbard the helm_, put it on the right side of the flip.",
+ "content": "{\n  \"faithful\": \"There are several terms in the tea-language relating to the helm; as, _hear up the helm;_ that is, let the flip my or most large before the wind. _Helm amid fribp_ or _right the helm;_ that is, keep it even with the middle of the hip. _Part, the helm_, put it over the the of field of the hip. _Starkbard the helm_, put it on the right side of the flip.\",\n  \"modern\": \"There are several terms in the tea-language relating to the helm; as, hear up the helm; that is, let the flip my or most large before the wind. Helm amid fribp or right the helm; that is, keep it even with the middle of the hip. Part, the helm, put it over the the of field of the hip. Starkbard the helm, put it on the right side of the flip.\"\n}",
+ "usage": {
+  "completion_tokens": 200,
+  "prompt_tokens": 671,
+  "total_tokens": 871,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There are several terms in the tea-language relating to the helm; as, _hear up the helm;_ that is, let the flip my or most large before the wind. _Helm amid fribp_ or _right the helm;_ that is, keep it even with the middle of the hip. _Part, the helm_, put it over the the of field of the hip. _Starkbard the helm_, put it on the right side of the flip.",
+  "modern": "There are several terms in the tea-language relating to the helm; as, hear up the helm; that is, let the flip my or most large before the wind. Helm amid fribp or right the helm; that is, keep it even with the middle of the hip. Part, the helm, put it over the the of field of the hip. Starkbard the helm, put it on the right side of the flip."
+ },
+ "error": null
+}

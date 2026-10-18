@@ -1,0 +1,31 @@
+{
+ "key": "49f001a719fff41b69b188700ec8a5e4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "To the arches GF, C B, draw the tangents HF, OB, and the finses CM G and the radii DP DB; and draw list the fine of the arch AB, and Ct the fine of AC; and then join IK and OL NowHF, OB, GM, CL are all perpendiculor to the plane ADDB. And HD, GK, OL, the all in the fans plane ADGC. Therefore, the right-angled triangles HHD, CKK, ODL, having the equal angles HDF, CKK OLB, see further. And CK-NOM CI COM; that is, as the fine of the hypothetic: rad:: fine of a leg - fine of its opposite angle. For OM is the fine of the arc GC, which therefore the angle CAB. Both, LB DF+; BO: FH; that is, as the fino of a leg: radius : tangent of the other leg: tangent of its opposite angle, J, E. D. Hence is follows: that the first of the angles of any ex-blique spherical triangle ACD (_this_, o^2), letto one ano- they, directly, as the fins of the opposite fides. Hence it allo follows, that, in right-angled- spherical triangles, having the fame perpendicular, the fino of the bafs will be to each other, inverify, as the tangents of the angles at the bafs.",
+ "content": "{\n  \"faithful\": \"To the arches GF, CB, draw the tangents HF, OB, and the finses CM G and the radii DP DB; and draw list the fine of the arch AB, and Ct the fine of AC; and then join IK and OL NowHF, OB, GM, CL are all perpendiculor to the plane ADDB. And HD, GK, OL, the all in the fans plane ADGC. Therefore, the right-angled triangles HHD, CKK, ODL, having the equal angles HDF, CKK OLB, see further. And CK-NOM CI COM; that is, as the fine of the hypothetic: rad:: fine of a leg - fine of its opposite angle. For OM is the fine of the arc GC, which therefore the angle CAB. Both, LB DF+; BO: FH; that is, as the fino of a leg: radius : tangent of the other leg: tangent of its opposite angle, J, E. D. Hence is follows: that the first of the angles of any ex-blique spherical triangle ACD (_this_, o^2), letto one ano- they, directly, as the fins of the opposite fides. Hence it allo follows, that, in right-angled- spherical triangles, having the fame perpendicular, the fino of the bafs will be to each other, inverify, as the tangents of the angles at the bafs.\",\n  \"modern\": \"To the arches GF, CB, draw the tangents HF, OB, and the sines CM G and the radii DP DB; and draw list the sine of the arch AB, and Ct the sine of AC; and then join IK and OL NowHF, OB, GM, CL are all perpendicular to the plane ADDB. And HD, GK, OL, the all in the same plane ADGC. Therefore, the right-angled triangles HHD, CKK, ODL, having the equal angles HDF, CKK OLB, see further. And CK-NOM CI COM; that is, as the sine of the hypotenuse: rad:: sine of a leg - sine of its opposite angle. For OM is the sine of the arc GC, which therefore the angle CAB. Both, LB DF+; BO: FH; that is, as the sine of a leg: radius : tangent of the other leg: tangent of its opposite angle, J, E. D. Hence it follows: that the first of the angles of any oblique spherical triangle ACD (_this_, o^2), letto one ano- they, directly, as the sines of the opposite sides. Hence it also follows, that, in right-angled spherical triangles, having the same perpendicular, the sine of the base will be to each other, inversely, as the tangents of the angles at the base.\"\n}",
+ "usage": {
+  "completion_tokens": 599,
+  "prompt_tokens": 1000,
+  "total_tokens": 1599,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 401
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "To the arches GF, CB, draw the tangents HF, OB, and the finses CM G and the radii DP DB; and draw list the fine of the arch AB, and Ct the fine of AC; and then join IK and OL NowHF, OB, GM, CL are all perpendiculor to the plane ADDB. And HD, GK, OL, the all in the fans plane ADGC. Therefore, the right-angled triangles HHD, CKK, ODL, having the equal angles HDF, CKK OLB, see further. And CK-NOM CI COM; that is, as the fine of the hypothetic: rad:: fine of a leg - fine of its opposite angle. For OM is the fine of the arc GC, which therefore the angle CAB. Both, LB DF+; BO: FH; that is, as the fino of a leg: radius : tangent of the other leg: tangent of its opposite angle, J, E. D. Hence is follows: that the first of the angles of any ex-blique spherical triangle ACD (_this_, o^2), letto one ano- they, directly, as the fins of the opposite fides. Hence it allo follows, that, in right-angled- spherical triangles, having the fame perpendicular, the fino of the bafs will be to each other, inverify, as the tangents of the angles at the bafs.",
+  "modern": "To the arches GF, CB, draw the tangents HF, OB, and the sines CM G and the radii DP DB; and draw list the sine of the arch AB, and Ct the sine of AC; and then join IK and OL NowHF, OB, GM, CL are all perpendicular to the plane ADDB. And HD, GK, OL, the all in the same plane ADGC. Therefore, the right-angled triangles HHD, CKK, ODL, having the equal angles HDF, CKK OLB, see further. And CK-NOM CI COM; that is, as the sine of the hypotenuse: rad:: sine of a leg - sine of its opposite angle. For OM is the sine of the arc GC, which therefore the angle CAB. Both, LB DF+; BO: FH; that is, as the sine of a leg: radius : tangent of the other leg: tangent of its opposite angle, J, E. D. Hence it follows: that the first of the angles of any oblique spherical triangle ACD (_this_, o^2), letto one ano- they, directly, as the sines of the opposite sides. Hence it also follows, that, in right-angled spherical triangles, having the same perpendicular, the sine of the base will be to each other, inversely, as the tangents of the angles at the base."
+ },
+ "error": null
+}

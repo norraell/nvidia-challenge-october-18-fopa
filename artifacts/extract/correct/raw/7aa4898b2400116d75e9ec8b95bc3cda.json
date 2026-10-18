@@ -1,0 +1,31 @@
+{
+ "key": "7aa4898b2400116d75e9ec8b95bc3cda",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "From their experiments, it appears, that shells are complex composed of surface of lime and gluten. In formas as pure in the porcellaneous shells, the proportion of carbonate. Time is great, while that of the animal matter is finally, and the mean one regarded as the beginning of the feries; while shells that come under the definition of mother-of-post are to be placed into the extra-mity, having a smaller proportion of carbonate of lime, and a greater proportion of membranous fusblance. It is the first the carbonate of lime is merely consumed by the animal matter; in the better the carbonate of lime-ferives to harden the membranous fusblance. But between fields are enzymes, in the proportion of carbone-nate of lime and animal glutes, of which alltaculous fulblances are compelled, there are no doubt numerous intermediates, arising from the nature of the animal to which they from a covering, its peculiar ha-bits, or mode of life.",
+ "content": "{\n  \"faithful\": \"From their experiments, it appears, that shells are complex composed of surface of lime and gluten. In formas as pure in the porcellaneous shells, the proportion of carbonate. Time is great, while that of the animal matter is finally, and the mean one regarded as the beginning of the feries; while shells that come under the definition of mother-of-post are to be placed into the extra-mity, having a smaller proportion of carbonate of lime, and a greater proportion of membranous fusblance. It is the first the carbonate of lime is merely consumed by the animal matter; in the better the carbonate of lime-ferives to harden the membranous fusblance. But between fields are enzymes, in the proportion of carbone-nate of lime and animal glutes, of which alltaculous fulblances are compelled, there are no doubt numerous intermediates, arising from the nature of the animal to which they from a covering, its peculiar ha-bits, or mode of life.\",\n  \"modern\": \"From their experiments, it appears, that shells are complex composed of surface of lime and gluten. In formas as pure in the porcellaneous shells, the proportion of carbonate. Time is great, while that of the animal matter is finally, and the mean one regarded as the beginning of the feries; while shells that come under the definition of mother-of-post are to be placed into the extra-mity, having a smaller proportion of carbonate of lime, and a greater proportion of membranous fusblance. It is the first the carbonate of lime is merely consumed by the animal matter; in the better the carbonate of lime-ferives to harden the membranous fusblance. But between fields are enzymes, in the proportion of carbone-nate of lime and animal glutes, of which alltaculous fulblances are compelled, there are no doubt numerous intermediates, arising from the nature of the animal to which they from a covering, its peculiar ha-bits, or mode of life.\"\n}",
+ "usage": {
+  "completion_tokens": 417,
+  "prompt_tokens": 824,
+  "total_tokens": 1241,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 322
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "From their experiments, it appears, that shells are complex composed of surface of lime and gluten. In formas as pure in the porcellaneous shells, the proportion of carbonate. Time is great, while that of the animal matter is finally, and the mean one regarded as the beginning of the feries; while shells that come under the definition of mother-of-post are to be placed into the extra-mity, having a smaller proportion of carbonate of lime, and a greater proportion of membranous fusblance. It is the first the carbonate of lime is merely consumed by the animal matter; in the better the carbonate of lime-ferives to harden the membranous fusblance. But between fields are enzymes, in the proportion of carbone-nate of lime and animal glutes, of which alltaculous fulblances are compelled, there are no doubt numerous intermediates, arising from the nature of the animal to which they from a covering, its peculiar ha-bits, or mode of life.",
+  "modern": "From their experiments, it appears, that shells are complex composed of surface of lime and gluten. In formas as pure in the porcellaneous shells, the proportion of carbonate. Time is great, while that of the animal matter is finally, and the mean one regarded as the beginning of the feries; while shells that come under the definition of mother-of-post are to be placed into the extra-mity, having a smaller proportion of carbonate of lime, and a greater proportion of membranous fusblance. It is the first the carbonate of lime is merely consumed by the animal matter; in the better the carbonate of lime-ferives to harden the membranous fusblance. But between fields are enzymes, in the proportion of carbone-nate of lime and animal glutes, of which alltaculous fulblances are compelled, there are no doubt numerous intermediates, arising from the nature of the animal to which they from a covering, its peculiar ha-bits, or mode of life."
+ },
+ "error": null
+}

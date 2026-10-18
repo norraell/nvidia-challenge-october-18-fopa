@@ -1,0 +1,31 @@
+{
+ "key": "eb16a7983d299754523d3cbf4d261f70",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There are fewen species. The fininois, or com- mon copy, is a low limb, generally growing out of the joints of old walls, the lifters of rocks, and a- monglet rabbi, in most of the warm parts of Europe : is in such very little, which lend out many lateral flex- der branches; a matter of that the picked two short crooked liniers, between which and the branches come out the fourth of the leaves, which are single, floors, and Indians around smooth entire list. At letter-mediate joints, between the branches, come out the flower on long footballs, before there endward, the bud with the equipment is gathered for pickling. Thief which are left expand in front of a fingro rofs, having five large white points, which are overall and canvary in the middle are placed a great number of long flaminas, surrounding a flyk which rifles above thing, and crowned with an runn germs, which afterwards because our visible filled with kidney-shaped feeds.",
+ "content": "{\n  \"faithful\": \"There are fewen species. The fininois, or com- mon copy, is a low limb, generally growing out of the joints of old walls, the lifters of rocks, and a- monglet rabbi, in most of the warm parts of Europe : is in such very little, which lend out many lateral flex- der branches; a matter of that the picked two short crooked liniers, between which and the branches come out the fourth of the leaves, which are single, floors, and Indians around smooth entire list. At letter-mediate joints, between the branches, come out the flower on long footballs, before there endward, the bud with the equipment is gathered for pickling. Thief which are left expand in front of a fingro rofs, having five large white points, which are overall and canvary in the middle are placed a great number of long flaminas, surrounding a flyk which rifles above thing, and crowned with an runn germs, which afterwards because our visible filled with kidney-shaped feeds.\",\n  \"modern\": \"There are fewen species. The fininois, or common copy, is a low limb, generally growing out of the joints of old walls, the lifters of rocks, and amonglet rabbi, in most of the warm parts of Europe : is in such very little, which lend out many lateral flexder branches; a matter of that the picked two short crooked liniers, between which and the branches come out the fourth of the leaves, which are single, floors, and Indians around smooth entire list. At lettermediate joints, between the branches, come out the flower on long footballs, before there endward, the bud with the equipment is gathered for pickling. Thief which are left expand in front of a fingro rofs, having five large white points, which are overall and canvary in the middle are placed a great number of long flaminas, surrounding a flyk which rifles above thing, and crowned with an runn germs, which afterwards because our visible filled with kidney-shaped feeds.\"\n}",
+ "usage": {
+  "completion_tokens": 440,
+  "prompt_tokens": 842,
+  "total_tokens": 1282,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 325
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There are fewen species. The fininois, or com- mon copy, is a low limb, generally growing out of the joints of old walls, the lifters of rocks, and a- monglet rabbi, in most of the warm parts of Europe : is in such very little, which lend out many lateral flex- der branches; a matter of that the picked two short crooked liniers, between which and the branches come out the fourth of the leaves, which are single, floors, and Indians around smooth entire list. At letter-mediate joints, between the branches, come out the flower on long footballs, before there endward, the bud with the equipment is gathered for pickling. Thief which are left expand in front of a fingro rofs, having five large white points, which are overall and canvary in the middle are placed a great number of long flaminas, surrounding a flyk which rifles above thing, and crowned with an runn germs, which afterwards because our visible filled with kidney-shaped feeds.",
+  "modern": "There are fewen species. The fininois, or common copy, is a low limb, generally growing out of the joints of old walls, the lifters of rocks, and amonglet rabbi, in most of the warm parts of Europe : is in such very little, which lend out many lateral flexder branches; a matter of that the picked two short crooked liniers, between which and the branches come out the fourth of the leaves, which are single, floors, and Indians around smooth entire list. At lettermediate joints, between the branches, come out the flower on long footballs, before there endward, the bud with the equipment is gathered for pickling. Thief which are left expand in front of a fingro rofs, having five large white points, which are overall and canvary in the middle are placed a great number of long flaminas, surrounding a flyk which rifles above thing, and crowned with an runn germs, which afterwards because our visible filled with kidney-shaped feeds."
+ },
+ "error": null
+}

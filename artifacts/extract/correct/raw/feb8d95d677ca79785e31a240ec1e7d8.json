@@ -1,0 +1,31 @@
+{
+ "key": "feb8d95d677ca79785e31a240ec1e7d8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "From the account we have given of their phenomenons to a st-\nof indeed magnifine, it appears that the temporary because\nmagnifin is always lo disfpided that the rim of their beces\nmutual attractions of the difficiliate poles exceeds the\ngentich\nim of the repollon between the limlar, poles, and\nthat therefore the two magnets tend to each other.\nThis is evidently equivalent to flying, that a piece of\nmagnungtic iron is always attracted by a magnet. No\nexception has ever been observed to this fact, for Phys's\ndury of a Thamades, or loadlines, which repeals iron, is\nallowed by all to have been a false.",
+ "content": "{\n  \"faithful\": \"From the account we have given of their phenomena to a st- of indeed magnifine, it appears that the temporary because magnifin is always lo disfpided that the rim of their beces mutual attractions of the difficiliate poles exceeds the gentich im of the repollon between the limilar poles, and that therefore the two magnets tend to each other. This is evidently equivalent to faying, that a piece of magnungtic iron is always attracted by a magnet. No exception has ever been oberved to this fact, for Phys's dury of a Thamades, or loadlines, which repeals iron, is allowed by all to have been a false.\",\n  \"modern\": \"From the account we have given of their phenomena to a st- of indeed magnifine, it appears that the temporary because magnifin is always lo disfpided that the rim of their beces mutual attractions of the difficiliate poles exceeds the gentich im of the repollon between the limilar poles, and that therefore the two magnets tend to each other. This is evidently equivalent to saying, that a piece of magnetic iron is always attracted by a magnet. No exception has ever been observed to this fact, for Phys's dury of a Thamades, or loadstone, which repels iron, is allowed by all to have been a false.\"\n}",
+ "usage": {
+  "completion_tokens": 290,
+  "prompt_tokens": 728,
+  "total_tokens": 1018,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "From the account we have given of their phenomena to a st- of indeed magnifine, it appears that the temporary because magnifin is always lo disfpided that the rim of their beces mutual attractions of the difficiliate poles exceeds the gentich im of the repollon between the limilar poles, and that therefore the two magnets tend to each other. This is evidently equivalent to faying, that a piece of magnungtic iron is always attracted by a magnet. No exception has ever been oberved to this fact, for Phys's dury of a Thamades, or loadlines, which repeals iron, is allowed by all to have been a false.",
+  "modern": "From the account we have given of their phenomena to a st- of indeed magnifine, it appears that the temporary because magnifin is always lo disfpided that the rim of their beces mutual attractions of the difficiliate poles exceeds the gentich im of the repollon between the limilar poles, and that therefore the two magnets tend to each other. This is evidently equivalent to saying, that a piece of magnetic iron is always attracted by a magnet. No exception has ever been observed to this fact, for Phys's dury of a Thamades, or loadstone, which repels iron, is allowed by all to have been a false."
+ },
+ "error": null
+}

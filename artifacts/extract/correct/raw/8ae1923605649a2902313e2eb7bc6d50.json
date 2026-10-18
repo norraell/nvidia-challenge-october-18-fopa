@@ -1,0 +1,31 @@
+{
+ "key": "8ae1923605649a2902313e2eb7bc6d50",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Helden the circumstances already noticed, there are other all ways different kind, who have the conferderable influence on the pleasures of the fruits ; such as different conditions of the whole he's, particularly of the nerves, or certain areas or functions, to which functions home organs of knife, and perhaps was the freedom of itself, are in a great creative tuberierism. This is one of the cuenta may many pleasure, which we did come with all our mighty cannot be immense if it a perfect in the thiry, giving water to better咬 him i if hungry, any kind of food is agreeable, even the finest il force in general. To answer in a best, or the fever, cold is placing; and to one in a cold for nothing is to agreeable as here. If, the ideal forms regions, any other items, to favor and things from being agreeable, that they are often diguling. The most decided plutton canus always fulfill a language fails.",
+ "content": "{\n  \"faithful\": \"Besides the circumstances already noticed, there are others of a very different kind, which have also considerable influence on the pleasures of the senses; such as different conditions of the whole body, particularly of the nerves, or of certain organs or functions, to which functions some organs of sense, and perhaps even the freedom of itself, are in a great measure subservient. This is one of the causes why many pleasures, which we cultivate with all our might, cannot be immense if it is perfect in the third, giving water to better him if hungry, any kind of food is agreeable, even the smell of food is grateful. To a man in a heat, or in a fever, cold is pleasing; and to one in a cold fit nothing is so agreeable as here. If, the ideal forms regions, any other items, to favor and things from being agreeable, that they are often disgusting. The most decided glutton cannot always relish a fumtious feast.\",\n  \"modern\": \"Besides the circumstances already noticed, there are others of a very different kind, which have also considerable influence on the pleasures of the senses; such as different conditions of the whole body, particularly of the nerves, or of certain organs or functions, to which functions some organs of sense, and perhaps even the freedom of itself, are in a great measure subservient. This is one of the causes why many pleasures, which we cultivate with all our might, cannot be immense if it is perfect in the third, giving water to better him if hungry, any kind of food is agreeable, even the smell of food is grateful. To a man in a heat, or in a fever, cold is pleasing; and to one in a cold fit nothing is so agreeable as here. If, the ideal forms regions, any other items, to favor and things from being agreeable, that they are often disgusting. The most decided glutton cannot always relish a fumtious feast.\"\n}",
+ "usage": {
+  "completion_tokens": 417,
+  "prompt_tokens": 771,
+  "total_tokens": 1188,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Besides the circumstances already noticed, there are others of a very different kind, which have also considerable influence on the pleasures of the senses; such as different conditions of the whole body, particularly of the nerves, or of certain organs or functions, to which functions some organs of sense, and perhaps even the freedom of itself, are in a great measure subservient. This is one of the causes why many pleasures, which we cultivate with all our might, cannot be immense if it is perfect in the third, giving water to better him if hungry, any kind of food is agreeable, even the smell of food is grateful. To a man in a heat, or in a fever, cold is pleasing; and to one in a cold fit nothing is so agreeable as here. If, the ideal forms regions, any other items, to favor and things from being agreeable, that they are often disgusting. The most decided glutton cannot always relish a fumtious feast.",
+  "modern": "Besides the circumstances already noticed, there are others of a very different kind, which have also considerable influence on the pleasures of the senses; such as different conditions of the whole body, particularly of the nerves, or of certain organs or functions, to which functions some organs of sense, and perhaps even the freedom of itself, are in a great measure subservient. This is one of the causes why many pleasures, which we cultivate with all our might, cannot be immense if it is perfect in the third, giving water to better him if hungry, any kind of food is agreeable, even the smell of food is grateful. To a man in a heat, or in a fever, cold is pleasing; and to one in a cold fit nothing is so agreeable as here. If, the ideal forms regions, any other items, to favor and things from being agreeable, that they are often disgusting. The most decided glutton cannot always relish a fumtious feast."
+ },
+ "error": null
+}

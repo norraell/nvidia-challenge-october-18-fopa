@@ -1,0 +1,31 @@
+{
+ "key": "430597bf452d042b7a650b011f904c38",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Soon after began the Infy and important part of Switr’s life. He was employed [1710] by the private of Ireland to foster the group that a reduction of the drift fruits and twentieth parsors to the Trifh cherry. This introduced him to the Hailey, afterwards and the Oxford, who through a Wing Pacific, was at the head of the Tory variability, and in great need of an auxiliary foable as swift, by whole pen he and the other miniters might be supported in amplikers.",
+ "content": "{\n  \"faithful\": \"Soon after began the Infy and important part of Switr's life. He was employed [1710] by the private of Ireland to foster the group that a reduction of the drift fruits and twentieth parsors to the Trifh cherry. This introduced him to the Hailey, afterwards and the Oxford, who through a Wing Pacific, was at the head of the Tory variability, and in great need of an auxiliary foable as swift, by whole pen he and the other miniters might be supported in amplikers.\",\n  \"modern\": \"Soon after began the Infy and important part of Switr's life. He was employed [1710] by the private of Ireland to foster the group that a reduction of the drift fruits and twentieth parsors to the Trifh cherry. This introduced him to the Hailey, afterwards and the Oxford, who through a Wing Pacific, was at the head of the Tory variability, and in great need of an auxiliary foable as swift, by whole pen he and the other miniters might be supported in amplikers.\"\n}",
+ "usage": {
+  "completion_tokens": 235,
+  "prompt_tokens": 673,
+  "total_tokens": 908,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Soon after began the Infy and important part of Switr's life. He was employed [1710] by the private of Ireland to foster the group that a reduction of the drift fruits and twentieth parsors to the Trifh cherry. This introduced him to the Hailey, afterwards and the Oxford, who through a Wing Pacific, was at the head of the Tory variability, and in great need of an auxiliary foable as swift, by whole pen he and the other miniters might be supported in amplikers.",
+  "modern": "Soon after began the Infy and important part of Switr's life. He was employed [1710] by the private of Ireland to foster the group that a reduction of the drift fruits and twentieth parsors to the Trifh cherry. This introduced him to the Hailey, afterwards and the Oxford, who through a Wing Pacific, was at the head of the Tory variability, and in great need of an auxiliary foable as swift, by whole pen he and the other miniters might be supported in amplikers."
+ },
+ "error": null
+}

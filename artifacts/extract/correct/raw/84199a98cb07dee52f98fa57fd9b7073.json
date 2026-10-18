@@ -1,0 +1,31 @@
+{
+ "key": "84199a98cb07dee52f98fa57fd9b7073",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "All land which is not naturally burren, and is cultivated, with any cats, afterd something more than is necefary to pay the expense of labouring it. This fur- plus goes as a rest to the husband, who, or couldartion of or rejecting it without risk or trouble, relinquilies to the former the profits of cultivation.",
+ "content": "{\n  \"faithful\": \"All land which is not naturally barren, and is cultivated with any care, affords something more than is necessary to pay the expense of labouring it. This surplus goes as a rent to the landlord, who, in consideration of receiving it without risk or trouble, relinquishes to the farmer the profits of cultivation.\",\n  \"modern\": \"All land which is not naturally barren, and is cultivated with any care, affords something more than is necessary to pay the expense of laboring it. This surplus goes as a rent to the landlord, who, in consideration of receiving it without risk or trouble, relinquishes to the farmer the profits of cultivation.\"\n}",
+ "usage": {
+  "completion_tokens": 145,
+  "prompt_tokens": 638,
+  "total_tokens": 783,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "All land which is not naturally barren, and is cultivated with any care, affords something more than is necessary to pay the expense of labouring it. This surplus goes as a rent to the landlord, who, in consideration of receiving it without risk or trouble, relinquishes to the farmer the profits of cultivation.",
+  "modern": "All land which is not naturally barren, and is cultivated with any care, affords something more than is necessary to pay the expense of laboring it. This surplus goes as a rent to the landlord, who, in consideration of receiving it without risk or trouble, relinquishes to the farmer the profits of cultivation."
+ },
+ "error": null
+}

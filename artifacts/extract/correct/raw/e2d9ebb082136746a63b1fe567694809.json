@@ -1,0 +1,31 @@
+{
+ "key": "e2d9ebb082136746a63b1fe567694809",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "SILLESIAN EARTH, in the _Materia Medice_, a fine affungent bole. It is very heavy, of a firm compel tantras, and in colors of the brownie yellow. It breaks early between the fingers, and does not flash the hands; is naturally a smooth before, is readily available in water, and multis freely into a butterflies, lightable in the mouth. It leaves no grittiness between the teeth, and does not ferment with acids. It is found in the perpendicular letters of rocks across the gold mines in Hungary.",
+ "content": "{\n  \"faithful\": \"SILESIAN EARTH, in the Materia Medica, a fine astringent bole. It is very heavy, of a firm compact texture, and in colour of a brownish yellow. It breaks easily between the fingers, and does not stain the hands; is naturally of a smooth surface, is readily diffusible in water, and melts freely into a butter-like substance in the mouth. It leaves no grittiness between the teeth, and does not ferment with acids. It is found in the perpendicular fissures of rocks near the gold mines in Hungary.\",\n  \"modern\": \"SILESIAN EARTH, in the Materia Medica, a fine astringent bole. It is very heavy, of a firm compact texture, and in colour of a brownish yellow. It breaks easily between the fingers, and does not stain the hands; is naturally of a smooth surface, is readily diffusible in water, and melts freely into a butter-like substance in the mouth. It leaves no grittiness between the teeth, and does not ferment with acids. It is found in the perpendicular fissures of rocks near the gold mines in Hungary.\"\n}",
+ "usage": {
+  "completion_tokens": 249,
+  "prompt_tokens": 699,
+  "total_tokens": 948,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "SILESIAN EARTH, in the Materia Medica, a fine astringent bole. It is very heavy, of a firm compact texture, and in colour of a brownish yellow. It breaks easily between the fingers, and does not stain the hands; is naturally of a smooth surface, is readily diffusible in water, and melts freely into a butter-like substance in the mouth. It leaves no grittiness between the teeth, and does not ferment with acids. It is found in the perpendicular fissures of rocks near the gold mines in Hungary.",
+  "modern": "SILESIAN EARTH, in the Materia Medica, a fine astringent bole. It is very heavy, of a firm compact texture, and in colour of a brownish yellow. It breaks easily between the fingers, and does not stain the hands; is naturally of a smooth surface, is readily diffusible in water, and melts freely into a butter-like substance in the mouth. It leaves no grittiness between the teeth, and does not ferment with acids. It is found in the perpendicular fissures of rocks near the gold mines in Hungary."
+ },
+ "error": null
+}

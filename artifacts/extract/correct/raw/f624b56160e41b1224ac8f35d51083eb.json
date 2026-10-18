@@ -1,0 +1,31 @@
+{
+ "key": "f624b56160e41b1224ac8f35d51083eb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "CABIRI, fellirals in honour of the cabrii, celebrated in Thebes and Lemnos, but especially in Samotbra- cis, an island conferred to the cabin. All who were initiated into the welfare of the fests, gods, were fought to be featured thereby from florms at tea, and all other dangers. The economy of imitation was performed by placing the candidate, crowned with white-hemches, and grilled about the hons with a purple riband, on a kind of throne, about which the priets, and prisons before initiated, denoted.",
+ "content": "{\n  \"faithful\": \"CABIRI, fellirals in honour of the cabrii, celebrated in Thebes and Lemnos, but especially in Samothra- cis, an island conferred to the cabin. All who were initiated into the welfare of the fests, gods, were fought to be featured thereby from florms at tea, and all other dangers. The economy of imitation was performed by placing the candidate, crowned with white-hemches, and grilled about the hons with a purple riband, on a kind of throne, about which the priets, and prisons before initiated, denoted.\",\n  \"modern\": \"CABIRI, fellirals in honour of the cabiri, celebrated in Thebes and Lemnos, but especially in Samothrace, an island consecrated to the cabiri. All who were initiated into the mysteries of these gods, were thought to be secured thereby from storms at sea, and all other dangers. The ceremony of initiation was performed by placing the candidate, crowned with olive-branches, and girded about the loins with a purple riband, on a kind of throne, about which the priests, and persons before initiated, danced.\"\n}",
+ "usage": {
+  "completion_tokens": 253,
+  "prompt_tokens": 711,
+  "total_tokens": 964,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "CABIRI, fellirals in honour of the cabrii, celebrated in Thebes and Lemnos, but especially in Samothra- cis, an island conferred to the cabin. All who were initiated into the welfare of the fests, gods, were fought to be featured thereby from florms at tea, and all other dangers. The economy of imitation was performed by placing the candidate, crowned with white-hemches, and grilled about the hons with a purple riband, on a kind of throne, about which the priets, and prisons before initiated, denoted.",
+  "modern": "CABIRI, fellirals in honour of the cabiri, celebrated in Thebes and Lemnos, but especially in Samothrace, an island consecrated to the cabiri. All who were initiated into the mysteries of these gods, were thought to be secured thereby from storms at sea, and all other dangers. The ceremony of initiation was performed by placing the candidate, crowned with olive-branches, and girded about the loins with a purple riband, on a kind of throne, about which the priests, and persons before initiated, danced."
+ },
+ "error": null
+}

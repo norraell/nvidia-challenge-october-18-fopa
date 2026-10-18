@@ -1,0 +1,31 @@
+{
+ "key": "1b2fd3d96d38904d3a0b97d870e10483",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HUGO CAvery, chief of the third race of the kings\nof France, being count of Parra and Orleans; he was\nrefiled to the chrome for his military vollor and public\nresturs in 287. See Fears, n 38.",
+ "content": "{\n  \"faithful\": \"HUGO Capet, chief of the third race of the kings of France, being count of Paris and Orleans; he was raised to the throne for his military valour and public virtues in 987. See France, n 38.\",\n  \"modern\": \"HUGO Capet, chief of the third race of the kings of France, being count of Paris and Orleans; he was raised to the throne for his military valour and public virtues in 987. See France, n 38.\"\n}",
+ "usage": {
+  "completion_tokens": 119,
+  "prompt_tokens": 626,
+  "total_tokens": 745,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HUGO Capet, chief of the third race of the kings of France, being count of Paris and Orleans; he was raised to the throne for his military valour and public virtues in 987. See France, n 38.",
+  "modern": "HUGO Capet, chief of the third race of the kings of France, being count of Paris and Orleans; he was raised to the throne for his military valour and public virtues in 987. See France, n 38."
+ },
+ "error": null
+}

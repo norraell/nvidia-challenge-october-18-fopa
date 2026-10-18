@@ -1,0 +1,31 @@
+{
+ "key": "3c3008d3eee7f75d2c17c2a8c271ea96",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "If they do not know, they will rechosen him, and that as certainly as the man who has served them with the great est fidelity. They they enter a deplete momentary of doing even to be just a few, as they know no difference between him and the best, it would be on their part in might to make any. The consequences would be fatal. If one man saw that he might promote mistake for his own advantage so would another us of course would they all. In these circumstances we see had the foundation on which, in every country, bad government is reared. On this limitation it is impossible that it should not be vared. When the causes are the same, who can expect that the effects will be different? It is unnecessary to dwell upon these fundamental truths, because they have already been developed in the article! GOVERNMENT.",
+ "content": "{\n  \"faithful\": \"If they do not know, they will rechosen him, and that as certainly as the man who has served them with the greatest fidelity. They they enter a deplete momentary of doing even to be just a few, as they know no difference between him and the best, it would be on their part in might to make any. The consequences would be fatal. If one man saw that he might promote mistake for his own advantage so would another us of course would they all. In these circumstances we see had the foundation on which, in every country, bad government is reared. On this limitation it is impossible that it should not be vared. When the causes are the same, who can expect that the effects will be different? It is unnecessary to dwell upon these fundamental truths, because they have already been developed in the article! GOVERNMENT.\",\n  \"modern\": \"If they do not know, they will rechosen him, and that as certainly as the man who has served them with the greatest fidelity. They they enter a deplete momentary of doing even to be just a few, as they know no difference between him and the best, it would be on their part in might to make any. The consequences would be fatal. If one man saw that he might promote mistake for his own advantage so would another us of course would they all. In these circumstances we see had the foundation on which, in every country, bad government is reared. On this limitation it is impossible that it should not be vared. When the causes are the same, who can expect that the effects will be different? It is unnecessary to dwell upon these fundamental truths, because they have already been developed in the article! GOVERNMENT.\"\n}",
+ "usage": {
+  "completion_tokens": 363,
+  "prompt_tokens": 772,
+  "total_tokens": 1135,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "If they do not know, they will rechosen him, and that as certainly as the man who has served them with the greatest fidelity. They they enter a deplete momentary of doing even to be just a few, as they know no difference between him and the best, it would be on their part in might to make any. The consequences would be fatal. If one man saw that he might promote mistake for his own advantage so would another us of course would they all. In these circumstances we see had the foundation on which, in every country, bad government is reared. On this limitation it is impossible that it should not be vared. When the causes are the same, who can expect that the effects will be different? It is unnecessary to dwell upon these fundamental truths, because they have already been developed in the article! GOVERNMENT.",
+  "modern": "If they do not know, they will rechosen him, and that as certainly as the man who has served them with the greatest fidelity. They they enter a deplete momentary of doing even to be just a few, as they know no difference between him and the best, it would be on their part in might to make any. The consequences would be fatal. If one man saw that he might promote mistake for his own advantage so would another us of course would they all. In these circumstances we see had the foundation on which, in every country, bad government is reared. On this limitation it is impossible that it should not be vared. When the causes are the same, who can expect that the effects will be different? It is unnecessary to dwell upon these fundamental truths, because they have already been developed in the article! GOVERNMENT."
+ },
+ "error": null
+}

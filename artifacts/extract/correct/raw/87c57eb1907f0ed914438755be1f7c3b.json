@@ -1,0 +1,31 @@
+{
+ "key": "87c57eb1907f0ed914438755be1f7c3b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Their robberies are never committed upon their equality, and even the greater part of the engine ex-celd on other other is intended, on hand or national quarrels; neither do they willingly attempt this by open faces, but prefer the machinations of coming, which are on material to them. It must also be con-feted, that it is only those that live with princes, and its camps where their hold their courts, or the parents, that are now addicted to their preferences, while the common people, fatised with the pleafures of the paf-toral life, found their days in immense displirations, and water attacks the property of another till forced by sec-certify, or led by their fuuperiors who flown them the ex-amples.",
+ "content": "{\n  \"faithful\": \"Their robberies are never committed upon their equality, and even the greater part of the rapine exercised on other tribes is founded on hatred or national quarrels; neither do they willingly attempt this by open force, but prefer the machinations of cunning, which are so natural to them. It must also be confessed, that it is only those that live with princes, and in camps where they hold their courts, or their priests, that are most addicted to their practices; while the common people, satisfied with the pleasures of the pastoral life, spend their days in innocent simplicity, and never attack the property of another till forced by necessity, or led by their superiors who show them the example.\",\n  \"modern\": \"Their robberies are never committed upon their equality, and even the greater part of the rapine exercised on other tribes is founded on hatred or national quarrels; neither do they willingly attempt this by open force, but prefer the machinations of cunning, which are so natural to them. It must also be confessed, that it is only those that live with princes, and in camps where they hold their courts, or their priests, that are most addicted to their practices; while the common people, satisfied with the pleasures of the pastoral life, spend their days in innocent simplicity, and never attack the property of another till forced by necessity, or led by their superiors who show them the example.\"\n}",
+ "usage": {
+  "completion_tokens": 301,
+  "prompt_tokens": 721,
+  "total_tokens": 1022,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Their robberies are never committed upon their equality, and even the greater part of the rapine exercised on other tribes is founded on hatred or national quarrels; neither do they willingly attempt this by open force, but prefer the machinations of cunning, which are so natural to them. It must also be confessed, that it is only those that live with princes, and in camps where they hold their courts, or their priests, that are most addicted to their practices; while the common people, satisfied with the pleasures of the pastoral life, spend their days in innocent simplicity, and never attack the property of another till forced by necessity, or led by their superiors who show them the example.",
+  "modern": "Their robberies are never committed upon their equality, and even the greater part of the rapine exercised on other tribes is founded on hatred or national quarrels; neither do they willingly attempt this by open force, but prefer the machinations of cunning, which are so natural to them. It must also be confessed, that it is only those that live with princes, and in camps where they hold their courts, or their priests, that are most addicted to their practices; while the common people, satisfied with the pleasures of the pastoral life, spend their days in innocent simplicity, and never attack the property of another till forced by necessity, or led by their superiors who show them the example."
+ },
+ "error": null
+}

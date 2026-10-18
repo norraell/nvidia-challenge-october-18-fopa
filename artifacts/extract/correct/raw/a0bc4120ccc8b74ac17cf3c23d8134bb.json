@@ -1,0 +1,31 @@
+{
+ "key": "a0bc4120ccc8b74ac17cf3c23d8134bb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "quality matter had added by too final, just the six\ndides have been left undilluted for several days. The\nfame operation is applicable to that kind of breath-\ntion which is formed by the monitor, it not properly\npulseier), dried, or mixes; this cannot be separated\nfrom the bottom of the extent, like by means of lost\nwater poured at different facective times. It is like-\nwite details to leave on craft or depletion of murals,\nno other matter, in the veffle which are recorded, un-\nleft the fans be moveable, in which cafe the rifk is\nleft. But if the average of building should then re-\nviser that the fans veffle be uful without entirely\nclearing them, it will be exceedingly to range this excl-\nend matter on one side, where it will be led exposed\nto the heat, and will afford a greater degree of facility\nfor the nitric acid and it upon in.",
+ "content": "{\n  \"faithful\": \"quality matter had added by too final, just the six\\ndides have been left undilluted for several days. The\\nfame operation is applicable to that kind of breath-\\ntion which is formed by the monitor, it not properly\\npulseier), dried, or mixes; this cannot be separated\\nfrom the bottom of the extent, like by means of lost\\nwater poured at different facective times. It is like-\\nwite details to leave on craft or depletion of murals,\\nno other matter, in the veffle which are recorded, un-\\nleft the fans be moveable, in which cafe the rifk is\\nleft. But if the average of building should then re-\\nviser that the fans veffle be uful without entirely\\nclearing them, it will be exceedingly to range this excl-\\nend matter on one side, where it will be led exposed\\nto the heat, and will afford a greater degree of facility\\nfor the nitric acid and it upon in.\",\n  \"modern\": \"quality matter had added by too final, just the six\\ndides have been left undilluted for several days. The\\nsame operation is applicable to that kind of breath-\\ntion which is formed by the monitor, it not properly\\npulverized, dried, or mixed; this cannot be separated\\nfrom the bottom of the extent, like by means of lost\\nwater poured at different successive times. It is like-\\nwise essential to leave no crust or deposition of murals,\\nno other matter, in the vessels which are emptied, un-\\nless the fans be moveable, in which case the risk is\\nleft. But if the urgency of business should then re-\\nquire that the fans vessel be used without entirely\\nclearing them, it will be necessary to range this resid-\\nual matter on one side, where it will be left exposed\\nto the heat, and will afford a greater degree of facility\\nfor the nitric acid to act upon it.\"\n}",
+ "usage": {
+  "completion_tokens": 429,
+  "prompt_tokens": 775,
+  "total_tokens": 1204,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "quality matter had added by too final, just the six\ndides have been left undilluted for several days. The\nfame operation is applicable to that kind of breath-\ntion which is formed by the monitor, it not properly\npulseier), dried, or mixes; this cannot be separated\nfrom the bottom of the extent, like by means of lost\nwater poured at different facective times. It is like-\nwite details to leave on craft or depletion of murals,\nno other matter, in the veffle which are recorded, un-\nleft the fans be moveable, in which cafe the rifk is\nleft. But if the average of building should then re-\nviser that the fans veffle be uful without entirely\nclearing them, it will be exceedingly to range this excl-\nend matter on one side, where it will be led exposed\nto the heat, and will afford a greater degree of facility\nfor the nitric acid and it upon in.",
+  "modern": "quality matter had added by too final, just the six\ndides have been left undilluted for several days. The\nsame operation is applicable to that kind of breath-\ntion which is formed by the monitor, it not properly\npulverized, dried, or mixed; this cannot be separated\nfrom the bottom of the extent, like by means of lost\nwater poured at different successive times. It is like-\nwise essential to leave no crust or deposition of murals,\nno other matter, in the vessels which are emptied, un-\nless the fans be moveable, in which case the risk is\nleft. But if the urgency of business should then re-\nquire that the fans vessel be used without entirely\nclearing them, it will be necessary to range this resid-\nual matter on one side, where it will be left exposed\nto the heat, and will afford a greater degree of facility\nfor the nitric acid to act upon it."
+ },
+ "error": null
+}

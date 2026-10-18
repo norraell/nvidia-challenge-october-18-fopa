@@ -1,0 +1,31 @@
+{
+ "key": "cf41ff21728580bf2e7236b00b520b0a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Cultures. This plant is very differently preferred in Britain; it ddigits to grow in creviices of rocks, old walks. Ke and always thrive built its an honourous pu- fiure, is that when planted either in pots on in the full ground, they felddon thrive, though they may be kept alive for home years. They are propagated by foods in the warm parts of Europe, but very feldon in Britain.",
+ "content": "{\n  \"faithful\": \"Culture. This plant is very differently preferred in Britain; it delights to grow in crevices of rocks, old walls, &c. and always thrives left in an horizontal po- fure; fo that, when planted either in pots or in the full ground, they seldom thrive, though they may be kept alive for fome years. They are propagated by feeds in the warm parts of Europe, but very seldom in Britain.\",\n  \"modern\": \"Culture. This plant is very differently preferred in Britain; it delights to grow in crevices of rocks, old walls, &c. and always thrives left in an horizontal po- sure; so that, when planted either in pots or in the full ground, they seldom thrive, though they may be kept alive for some years. They are propagated by seeds in the warm parts of Europe, but very seldom in Britain.\"\n}",
+ "usage": {
+  "completion_tokens": 191,
+  "prompt_tokens": 680,
+  "total_tokens": 871,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Culture. This plant is very differently preferred in Britain; it delights to grow in crevices of rocks, old walls, &c. and always thrives left in an horizontal po- fure; fo that, when planted either in pots or in the full ground, they seldom thrive, though they may be kept alive for fome years. They are propagated by feeds in the warm parts of Europe, but very seldom in Britain.",
+  "modern": "Culture. This plant is very differently preferred in Britain; it delights to grow in crevices of rocks, old walls, &c. and always thrives left in an horizontal po- sure; so that, when planted either in pots or in the full ground, they seldom thrive, though they may be kept alive for some years. They are propagated by seeds in the warm parts of Europe, but very seldom in Britain."
+ },
+ "error": null
+}

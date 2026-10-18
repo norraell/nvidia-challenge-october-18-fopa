@@ -1,0 +1,31 @@
+{
+ "key": "076ce00f23615b6cf987fa5c1a3d3842",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "252. The oxygenated lawprepare in this way is Dr. Charmen\nvery affection in blending the fluff which are ime\nmeried in), but it is the flame that perfiles an colour\nfoilingcasting so to render its die pipelines and even\nvarious the Northern employed in the project,\nshould any of it ecape. \"I have witened, (days\nreflickly) in an extensive monodology over Paris, the\ncrraft findings experienced by the wetted wounders,\nfrom their fascinating reports; I have denem roll-\ning on the ground in the speech of going. Precut-\nly even fewer elonders are the consequence of the fruit\neffects produced by the oxygenated injury.\" She p.Rolly\nburner gives a long account of the fifattings which Egia\nhe underwent in his course of experiments with this\nacid. It produces frytomor compelled\nthose of a violent cold, but which go off in a day or\nnow after having definite from relief of the liquor.",
+ "content": "{\n  \"faithful\": \"252. The oxygenated liquor prepared in this way is very effectual in bleaching the fluffs which are immersed in it, but it at the same time poffefles an odour fo fuffocating as to render its ufe unpleasant and even injurious to the workmen employed in the procels, fhould any of it ecape. I have witneffed, (fays O'Reilly) in an extensive manufactory near Paris, the cruel fuffenings experienced by the wretched workmen from thefe fuffocating vapours; I have feen them rolling on the ground in the excess of agony. Frequently even fever diforders are the confequence of the firft effects produced by the oxygenated liquor. Dr. Charmen gives a long account of the fiftings which he underwent in his courfe of experiments with this acid. It produces fymptoms completely refembling thofe of a violent cold, but which go off in a day or two after having defided from the ufe of the liquor.\",\n  \"modern\": \"252. The oxygenated liquor prepared in this way is very effectual in bleaching the fluffs which are immersed in it, but it at the same time possesses an odour so suffocating as to render its use unpleasant and even injurious to the workmen employed in the process, should any of it escape. I have witnessed, (says O'Reilly) in an extensive manufactory near Paris, the cruel sufferings experienced by the wretched workmen from these suffocating vapours; I have seen them rolling on the ground in the excess of agony. Frequently even fever disorders are the consequence of the first effects produced by the oxygenated liquor. Dr. Charmen gives a long account of the fittings which he underwent in his course of experiments with this acid. It produces symptoms completely resembling those of a violent cold, but which go off in a day or two after having ceased from the use of the liquor.\"\n}",
+ "usage": {
+  "completion_tokens": 436,
+  "prompt_tokens": 836,
+  "total_tokens": 1272,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "252. The oxygenated liquor prepared in this way is very effectual in bleaching the fluffs which are immersed in it, but it at the same time poffefles an odour fo fuffocating as to render its ufe unpleasant and even injurious to the workmen employed in the procels, fhould any of it ecape. I have witneffed, (fays O'Reilly) in an extensive manufactory near Paris, the cruel fuffenings experienced by the wretched workmen from thefe fuffocating vapours; I have feen them rolling on the ground in the excess of agony. Frequently even fever diforders are the confequence of the firft effects produced by the oxygenated liquor. Dr. Charmen gives a long account of the fiftings which he underwent in his courfe of experiments with this acid. It produces fymptoms completely refembling thofe of a violent cold, but which go off in a day or two after having defided from the ufe of the liquor.",
+  "modern": "252. The oxygenated liquor prepared in this way is very effectual in bleaching the fluffs which are immersed in it, but it at the same time possesses an odour so suffocating as to render its use unpleasant and even injurious to the workmen employed in the process, should any of it escape. I have witnessed, (says O'Reilly) in an extensive manufactory near Paris, the cruel sufferings experienced by the wretched workmen from these suffocating vapours; I have seen them rolling on the ground in the excess of agony. Frequently even fever disorders are the consequence of the first effects produced by the oxygenated liquor. Dr. Charmen gives a long account of the fittings which he underwent in his course of experiments with this acid. It produces symptoms completely resembling those of a violent cold, but which go off in a day or two after having ceased from the use of the liquor."
+ },
+ "error": null
+}

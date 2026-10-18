@@ -1,0 +1,31 @@
+{
+ "key": "38335dfe69f6dcd33dd1751d7f4fca41",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "27. An action of tranlumpe falls under the fame clais. Its compter to thief, who have a partial interest in writing that are not in their own collady, again! the pdfiffers thereof, for exhibiting them, that they may be transfumed for their behool. Though the ordinary title in this process be an obligation by the defender to grant unanfumage to the purifier, it is fulfilest if the purifier can flow that he has an intereit in the writings ; but, in this sale, he must framman them on his new charges. Action of unanfumng may be purified before any judge-ordinary. After the writings to be transfumed are exhibited, full duplicates are made out, collated, and figure, by one of the clicks of court, which we called transmpts, and acts as effoul us an extract from the register.",
+ "content": "{\n  \"faithful\": \"27. An action of tranfump falls under the fame clais. Its compter to thief, who have a partial interest in writing that are not in their own collady, againft the pdfiffers thereof, for exhibiting them, that they may be tranfumed for their behool. Though the ordinary title in this process be an obligation by the defender to grant unanfumage to the purifier, it is fulfilest if the purifier can flow that he has an intereit in the writings ; but, in this sale, he must framman them on his new charges. Action of unanfumng may be purified before any judge-ordinary. After the writings to be tranfumed are exhibited, full duplicates are made out, collated, and figure, by one of the clicks of court, which we called transmpts, and acts as effoul us an extract from the register.\",\n  \"modern\": \"27. An action of tranfump falls under the same clause. Its counter to thief, who have a partial interest in writing that are not in their own custody, against the possessors thereof, for exhibiting them, that they may be transfumed for their behoof. Though the ordinary title in this process be an obligation by the defender to grant unanfumage to the purifier, it is sufficient if the purifier can show that he has an interest in the writings ; but, in this case, he must tranfume them on his own charges. Actions of tranfump may be purged before any judge-ordinary. After the writings to be tranfumed are exhibited, full duplicates are made out, collated, and signed, by one of the clerks of court, which are called tranfumpts, and are as effectual as an extract from the register.\"\n}",
+ "usage": {
+  "completion_tokens": 388,
+  "prompt_tokens": 805,
+  "total_tokens": 1193,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "27. An action of tranfump falls under the fame clais. Its compter to thief, who have a partial interest in writing that are not in their own collady, againft the pdfiffers thereof, for exhibiting them, that they may be tranfumed for their behool. Though the ordinary title in this process be an obligation by the defender to grant unanfumage to the purifier, it is fulfilest if the purifier can flow that he has an intereit in the writings ; but, in this sale, he must framman them on his new charges. Action of unanfumng may be purified before any judge-ordinary. After the writings to be tranfumed are exhibited, full duplicates are made out, collated, and figure, by one of the clicks of court, which we called transmpts, and acts as effoul us an extract from the register.",
+  "modern": "27. An action of tranfump falls under the same clause. Its counter to thief, who have a partial interest in writing that are not in their own custody, against the possessors thereof, for exhibiting them, that they may be transfumed for their behoof. Though the ordinary title in this process be an obligation by the defender to grant unanfumage to the purifier, it is sufficient if the purifier can show that he has an interest in the writings ; but, in this case, he must tranfume them on his own charges. Actions of tranfump may be purged before any judge-ordinary. After the writings to be tranfumed are exhibited, full duplicates are made out, collated, and signed, by one of the clerks of court, which are called tranfumpts, and are as effectual as an extract from the register."
+ },
+ "error": null
+}

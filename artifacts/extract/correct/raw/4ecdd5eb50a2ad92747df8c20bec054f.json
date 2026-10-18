@@ -1,0 +1,31 @@
+{
+ "key": "4ecdd5eb50a2ad92747df8c20bec054f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "DAMSEL, from the French _damself or demasifons_, an application ancestri given to all young people of eitherys, that were of endular or genest extraction, as the fons and daughters of princes, knights, and barons: thus we read of Daniel Prisin DaudiL Louis le Gros, David Richard spruce (My Wales.",
+ "content": "{\n  \"faithful\": \"DAMSEL, from the French damself or demasifons, an application ancestri given to all young people of eitherys, that were of endular or genest extraction, as the fons and daughters of princes, knights, and barons: thus we read of Daniel Prisin DaudiL Louis le Gros, David Richard spruce (My Wales. DAMSEL, from the French damoisel or damoiselle, appellation anciently given to all young people of er fex, that were of noble or genteel extraction, as fons and daughters of princes, knights, and barons: we read of Damfel Pepin, Damfel Louis le Gros, nfel Richard prince of Wales. from the fays of kings, this appellation first, passed\",\n  \"modern\": \"DAMSEL, from the French damself or demasifons, an application ancestri given to all young people of eitherys, that were of endular or genest extraction, as the fons and daughters of princes, knights, and barons: thus we read of Daniel Prisin DaudiL Louis le Gros, David Richard spruce (My Wales. DAMSEL, from the French damoisel or damoiselle, appellation anciently given to all young people of er fex, that were of noble or genteel extraction, as fons and daughters of princes, knights, and barons: we read of Damfel Pepin, Damfel Louis le Gros, nfel Richard prince of Wales. from the fays of kings, this appellation first, passed\"\n}",
+ "usage": {
+  "completion_tokens": 341,
+  "prompt_tokens": 660,
+  "total_tokens": 1001,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "DAMSEL, from the French damself or demasifons, an application ancestri given to all young people of eitherys, that were of endular or genest extraction, as the fons and daughters of princes, knights, and barons: thus we read of Daniel Prisin DaudiL Louis le Gros, David Richard spruce (My Wales. DAMSEL, from the French damoisel or damoiselle, appellation anciently given to all young people of er fex, that were of noble or genteel extraction, as fons and daughters of princes, knights, and barons: we read of Damfel Pepin, Damfel Louis le Gros, nfel Richard prince of Wales. from the fays of kings, this appellation first, passed",
+  "modern": "DAMSEL, from the French damself or demasifons, an application ancestri given to all young people of eitherys, that were of endular or genest extraction, as the fons and daughters of princes, knights, and barons: thus we read of Daniel Prisin DaudiL Louis le Gros, David Richard spruce (My Wales. DAMSEL, from the French damoisel or damoiselle, appellation anciently given to all young people of er fex, that were of noble or genteel extraction, as fons and daughters of princes, knights, and barons: we read of Damfel Pepin, Damfel Louis le Gros, nfel Richard prince of Wales. from the fays of kings, this appellation first, passed"
+ },
+ "error": null
+}

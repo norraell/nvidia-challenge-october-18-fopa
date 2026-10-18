@@ -1,0 +1,31 @@
+{
+ "key": "9e0fbbc15ca4b3f3d463d19e5a628344",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Mr Mrs Encuentrates the following kinds of flakes different\nfound on this island and other parts of the British em-kind of\npire in the Falk Indies. 1. The colors of cafylla, grow, depres\nits from four to eight or nine feet long. They fallould here.\nby their bite in 15 minutes. 2. The color marble is\na small bluish fnake, of the fire of a man's little finger,\nand about a foot long, frequently ten about old walls.\nA species of their found as Bombay kill much longer\nthan",
+ "content": "{\n  \"faithful\": \"Mr Ives enumerates the following kinds of snakes found on this island and other parts of the British empire in the East Indies. 1. The cobra de capella, growing from four to eight or nine feet long. They kill by their bite in 15 minutes. 2. The cobra manila is a small bluish snake, of the size of a man's little finger, and about a foot long, frequently seen about old walls. A species of these found at Bombay kill much sooner than\",\n  \"modern\": \"Mr Ives enumerates the following kinds of snakes found on this island and other parts of the British empire in the East Indies. 1. The cobra de capella, growing from four to eight or nine feet long. They kill by their bite in 15 minutes. 2. The cobra manila is a small bluish snake, of the size of a man's little finger, and about a foot long, frequently seen about old walls. A species of these found at Bombay kill much sooner than\"\n}",
+ "usage": {
+  "completion_tokens": 227,
+  "prompt_tokens": 690,
+  "total_tokens": 917,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Mr Ives enumerates the following kinds of snakes found on this island and other parts of the British empire in the East Indies. 1. The cobra de capella, growing from four to eight or nine feet long. They kill by their bite in 15 minutes. 2. The cobra manila is a small bluish snake, of the size of a man's little finger, and about a foot long, frequently seen about old walls. A species of these found at Bombay kill much sooner than",
+  "modern": "Mr Ives enumerates the following kinds of snakes found on this island and other parts of the British empire in the East Indies. 1. The cobra de capella, growing from four to eight or nine feet long. They kill by their bite in 15 minutes. 2. The cobra manila is a small bluish snake, of the size of a man's little finger, and about a foot long, frequently seen about old walls. A species of these found at Bombay kill much sooner than"
+ },
+ "error": null
+}

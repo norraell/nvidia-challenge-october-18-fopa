@@ -1,0 +1,31 @@
+{
+ "key": "ab638b656ee677b9698a2489a7b96750",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "eleapce or advance, he was compelled to figu a capitu- lation by which the whole army laid down their arms, and were different into different quarters of cantone. By this remarkable capitalism, which was called the _capitalization of Clofler Screw_, Hanover was obliged to identify quickly to the French, who were now determined to turn their arms against the king of Pruffia.",
+ "content": "{\n  \"faithful\": \"eleapce or advance, he was compelled to figu a capitu- lation by which the whole army laid down their arms, and were different into different quarters of cantone. By this remarkable capitalism, which was called the _capitalization of Clofler Screw_, Hanover was obliged to identify quickly to the French, who were now determined to turn their arms against the king of Pruffia.\",\n  \"modern\": \"eleapce or advance, he was compelled to figu a capitulation by which the whole army laid down their arms, and were different into different quarters of cantonement. By this remarkable capitulation, which was called the capitulation of Closter Seven, Hanover was obliged to submit quietly to the French, who were now determined to turn their arms against the king of Prussia.\"\n}",
+ "usage": {
+  "completion_tokens": 175,
+  "prompt_tokens": 647,
+  "total_tokens": 822,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "eleapce or advance, he was compelled to figu a capitu- lation by which the whole army laid down their arms, and were different into different quarters of cantone. By this remarkable capitalism, which was called the _capitalization of Clofler Screw_, Hanover was obliged to identify quickly to the French, who were now determined to turn their arms against the king of Pruffia.",
+  "modern": "eleapce or advance, he was compelled to figu a capitulation by which the whole army laid down their arms, and were different into different quarters of cantonement. By this remarkable capitulation, which was called the capitulation of Closter Seven, Hanover was obliged to submit quietly to the French, who were now determined to turn their arms against the king of Prussia."
+ },
+ "error": null
+}

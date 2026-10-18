@@ -1,0 +1,31 @@
+{
+ "key": "0de9697a5e1a9f7371e148f287606d92",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ENDOWWERT, in law, denotes the fetting a dower on a woman : though femetimes it is ufed, fi- guratively, for fetting a provilion upon a parison, on the building of a cahrul; or the foresee a sufficient portion of tithes for a viera, when the benefice is ap- propagated.",
+ "content": "{\n  \"faithful\": \"ENDOWMENT, in law, denotes the fetting a dower on a woman : though femetimes it is ufed, fi- guratively, for fetting a provilion upon a parfon, on the building of a church; or the fevring a fufficient portion of tithes for a vicar, when the benefice is ap- propriated.\",\n  \"modern\": \"ENDOWMENT, in law, denotes the setting a dower on a woman : though sometimes it is used, figuratively, for setting a provision upon a parson, on the building of a church; or the severing a sufficient portion of tithes for a vicar, when the benefice is appropriated.\"\n}",
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 671,
+  "total_tokens": 830,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ENDOWMENT, in law, denotes the fetting a dower on a woman : though femetimes it is ufed, fi- guratively, for fetting a provilion upon a parfon, on the building of a church; or the fevring a fufficient portion of tithes for a vicar, when the benefice is ap- propriated.",
+  "modern": "ENDOWMENT, in law, denotes the setting a dower on a woman : though sometimes it is used, figuratively, for setting a provision upon a parson, on the building of a church; or the severing a sufficient portion of tithes for a vicar, when the benefice is appropriated."
+ },
+ "error": null
+}

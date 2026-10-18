@@ -1,0 +1,31 @@
+{
+ "key": "fda7cf803541e912161c6a7bc34fde9d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1358\nHistory and preparation.",
+ "content": "{\n  \"faithful\": \"1358 History and preparation.\",\n  \"modern\": \"1358 History and preparation.\"\n}",
+ "usage": {
+  "completion_tokens": 31,
+  "prompt_tokens": 582,
+  "total_tokens": 613,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1358 History and preparation.",
+  "modern": "1358 History and preparation."
+ },
+ "error": null
+}

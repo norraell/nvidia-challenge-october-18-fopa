@@ -1,0 +1,31 @@
+{
+ "key": "18c8248bdc158dc245915ac49db147af",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "AMHURIST (Nicola); an English poet and political writer, was born at Marden in Kent and entered of St. John's colleg, Oxford, I’d from whence he we accepted for irregularity of conduct and liberties principles. Retaining great recruitment against the answerfly on this occasion, the studied is a learning and discipline and forms of the molt etipecialable characters in it, in a poem published in 1742 called _Coluba Britainans_, and in a book entitled _Terre Filosa_. He published, a Nicechy on Poems, farred and profane ; and, The Convocation, a poem in five cantons, which was a false on the Billings of Rangers a magnonite. But he is left known for the flare he had in the political paper called _Zie Grafjnaar_ strongly, after having been the druge of his party for near 20 years, he was as much forge in the famous compromite of 1742 as if he had never been born ; and, when he died in that year of a broken hearts, was indented to the charity of the bookstler for a grave.",
+ "content": "{\n  \"faithful\": \"AMHURIST (Nicola); an English poet and political writer, was born at Marden in Kent and entered of St. John's colleg, Oxford, I’d from whence he we accepted for irregularity of conduct and liberties principles. Retaining great recruitment against the answerfly on this occasion, the studied is a learning and discipline and forms of the molt etipecialable characters in it, in a poem published in 1742 called _Coluba Britainans_, and in a book entitled _Terre Filosa_. He published, a Nicechy on Poems, farred and profane ; and, The Convocation, a poem in five cantons, which was a false on the Billings of Rangers a magnonite. But he is left known for the flare he had in the political paper called _Zie Grafjnaar_ strongly, after having been the druge of his party for near 20 years, he was as much forge in the famous compromite of 1742 as if he had never been born ; and, when he died in that year of a broken hearts, was indented to the charity of the bookstler for a grave.\",\n  \"modern\": \"AMHURIST (Nicola); an English poet and political writer, was born at Marden in Kent and entered of St. John's colleg, Oxford, I’d from whence he we accepted for irregularity of conduct and liberties principles. Retaining great recruitment against the answerfly on this occasion, the studied is a learning and discipline and forms of the molt etipecialable characters in it, in a poem published in 1742 called _Coluba Britainans_, and in a book entitled _Terre Filosa_. He published, a Nicechy on Poems, farred and profane ; and, The Convocation, a poem in five cantons, which was a false on the Billings of Rangers a magnonite. But he is left known for the flare he had in the political paper called _Zie Grafjnaar_ strongly, after having been the druge of his party for near 20 years, he was as much forge in the famous compromite of 1742 as if he had never been born ; and, when he died in that year of a broken hearts, was indented to the charity of the bookstler for a grave.\"\n}",
+ "usage": {
+  "completion_tokens": 499,
+  "prompt_tokens": 902,
+  "total_tokens": 1401,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 359
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "AMHURIST (Nicola); an English poet and political writer, was born at Marden in Kent and entered of St. John's colleg, Oxford, I’d from whence he we accepted for irregularity of conduct and liberties principles. Retaining great recruitment against the answerfly on this occasion, the studied is a learning and discipline and forms of the molt etipecialable characters in it, in a poem published in 1742 called _Coluba Britainans_, and in a book entitled _Terre Filosa_. He published, a Nicechy on Poems, farred and profane ; and, The Convocation, a poem in five cantons, which was a false on the Billings of Rangers a magnonite. But he is left known for the flare he had in the political paper called _Zie Grafjnaar_ strongly, after having been the druge of his party for near 20 years, he was as much forge in the famous compromite of 1742 as if he had never been born ; and, when he died in that year of a broken hearts, was indented to the charity of the bookstler for a grave.",
+  "modern": "AMHURIST (Nicola); an English poet and political writer, was born at Marden in Kent and entered of St. John's colleg, Oxford, I’d from whence he we accepted for irregularity of conduct and liberties principles. Retaining great recruitment against the answerfly on this occasion, the studied is a learning and discipline and forms of the molt etipecialable characters in it, in a poem published in 1742 called _Coluba Britainans_, and in a book entitled _Terre Filosa_. He published, a Nicechy on Poems, farred and profane ; and, The Convocation, a poem in five cantons, which was a false on the Billings of Rangers a magnonite. But he is left known for the flare he had in the political paper called _Zie Grafjnaar_ strongly, after having been the druge of his party for near 20 years, he was as much forge in the famous compromite of 1742 as if he had never been born ; and, when he died in that year of a broken hearts, was indented to the charity of the bookstler for a grave."
+ },
+ "error": null
+}

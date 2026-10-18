@@ -1,0 +1,31 @@
+{
+ "key": "ce22d86380e059e84283c88622f88b71",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This is a very elegant and grateful conferve y in\ntalte it is lightly cushion, with a peculiar flavory\nwhich home refranchise totals of green-taa. It is taken\nbecause for quenching thirk, and cooling the\nmouth and fauces, in hot distempers. It may be uife-\nfully joined to the foregoing preparation, whole vic-\nture to fomelan promotes, at the same time that it\nimproves the taille.",
+ "content": "{\n  \"faithful\": \"This is a very elegant and grateful conferve; in talte it is lightly acidulous, with a peculiar flavour, which fome refemble to that of green-tea. It is taken occasionally for quenching thirft, and cooling the mouth and fauces, in hot distempers. It may be ufefully joined to the foregoing preparation, whole virtue it fomewhat promotes, at the same time that it improves the talte.\",\n  \"modern\": \"This is a very elegant and grateful conferve; in taste it is lightly acidulous, with a peculiar flavour, which some resemble to that of green-tea. It is taken occasionally for quenching thirst, and cooling the mouth and fauces, in hot distempers. It may be usefully joined to the foregoing preparation, whole virtue it somewhat promotes, at the same time that it improves the taste.\"\n}",
+ "usage": {
+  "completion_tokens": 188,
+  "prompt_tokens": 687,
+  "total_tokens": 875,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This is a very elegant and grateful conferve; in talte it is lightly acidulous, with a peculiar flavour, which fome refemble to that of green-tea. It is taken occasionally for quenching thirft, and cooling the mouth and fauces, in hot distempers. It may be ufefully joined to the foregoing preparation, whole virtue it fomewhat promotes, at the same time that it improves the talte.",
+  "modern": "This is a very elegant and grateful conferve; in taste it is lightly acidulous, with a peculiar flavour, which some resemble to that of green-tea. It is taken occasionally for quenching thirst, and cooling the mouth and fauces, in hot distempers. It may be usefully joined to the foregoing preparation, whole virtue it somewhat promotes, at the same time that it improves the taste."
+ },
+ "error": null
+}

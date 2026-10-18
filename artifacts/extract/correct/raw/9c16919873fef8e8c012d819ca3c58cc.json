@@ -1,0 +1,31 @@
+{
+ "key": "9c16919873fef8e8c012d819ca3c58cc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "All by-laws are to be reafonable, and for the com-mon benefit, not private advantage of any particular prefers, and mult be agreeable to the public laws in bang.",
+ "content": "{\n  \"faithful\": \"All by-laws are to be reafonable, and for the com-mon benefit, not private advantage of any particular perfons, and mutt be agreeable to the public laws in being.\",\n  \"modern\": \"All by-laws are to be reasonable, and for the common benefit, not private advantage of any particular persons, and must be agreeable to the public laws in being.\"\n}",
+ "usage": {
+  "completion_tokens": 92,
+  "prompt_tokens": 607,
+  "total_tokens": 699,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "All by-laws are to be reafonable, and for the com-mon benefit, not private advantage of any particular perfons, and mutt be agreeable to the public laws in being.",
+  "modern": "All by-laws are to be reasonable, and for the common benefit, not private advantage of any particular persons, and must be agreeable to the public laws in being."
+ },
+ "error": null
+}

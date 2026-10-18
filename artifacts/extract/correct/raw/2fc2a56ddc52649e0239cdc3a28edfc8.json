@@ -1,0 +1,31 @@
+{
+ "key": "2fc2a56ddc52649e0239cdc3a28edfc8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Ancare Number,_ such are mutually equal to the ten of one another’s aliquipur parts. Thus the numbers 284 and 230 are amicable numbers : for the alt- parparts 1, 2, 4, 5, 19, 11, 20, 23, 44, 55, 110, of 220, are targeted equal to each other than 284 ‡ and the aliquipur parts 1, 2, 4, 71, 142, of 284, are together equal to 230.",
+ "content": "{\n  \"faithful\": \"Amicable Numbers, such as are mutually equal to the sum of one another's aliquot parts. Thus the numbers 284 and 220 are amicable numbers : for the aliquot parts 1, 2, 4, 5, 10, 11, 20, 22, 44, 55, 110, of 220, are together equal to the other number 284 ; and the aliquot parts 1, 2, 4, 71, 142, of 284, are together equal to 220.\",\n  \"modern\": \"Amicable Numbers, such as are mutually equal to the sum of one another's aliquot parts. Thus the numbers 284 and 220 are amicable numbers : for the aliquot parts 1, 2, 4, 5, 10, 11, 20, 22, 44, 55, 110, of 220, are together equal to the other number 284 ; and the aliquot parts 1, 2, 4, 71, 142, of 284, are together equal to 220.\"\n}",
+ "usage": {
+  "completion_tokens": 295,
+  "prompt_tokens": 724,
+  "total_tokens": 1019,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Amicable Numbers, such as are mutually equal to the sum of one another's aliquot parts. Thus the numbers 284 and 220 are amicable numbers : for the aliquot parts 1, 2, 4, 5, 10, 11, 20, 22, 44, 55, 110, of 220, are together equal to the other number 284 ; and the aliquot parts 1, 2, 4, 71, 142, of 284, are together equal to 220.",
+  "modern": "Amicable Numbers, such as are mutually equal to the sum of one another's aliquot parts. Thus the numbers 284 and 220 are amicable numbers : for the aliquot parts 1, 2, 4, 5, 10, 11, 20, 22, 44, 55, 110, of 220, are together equal to the other number 284 ; and the aliquot parts 1, 2, 4, 71, 142, of 284, are together equal to 220."
+ },
+ "error": null
+}

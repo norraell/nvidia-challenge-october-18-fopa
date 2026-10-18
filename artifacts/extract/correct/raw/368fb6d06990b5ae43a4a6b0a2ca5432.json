@@ -1,0 +1,31 @@
+{
+ "key": "368fb6d06990b5ae43a4a6b0a2ca5432",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1. Aries, or ram and fleep, the horos of which are flu- ped like a half moon, and compreffed. This animal is perhaps the molt gentle and notifintive, and at the fame time the molt timid and fliquid, of all quadrupeds. In a flock of fleep, there is always a leader, whole flesh the cell amplified and blindly follow. If the men over a precipice, the whole flock follow his example, and cannot be reiftained though evident defiruation be the confe- engence. The finalist buffs, if uncommon, makes them run precipitantly against each other, without knowing the cause of their danger, or belogable to extricate them, folves. In favor, they remain fixed in the fate fots and continue disbursing in this situation, under they are forced to move by the flhepherd or his dog. But through daftally in itself, though altro devoid of feminine and mental qualities, this animal is of the molt extective uitality to man. It infacts on both the and climbing, fer- files the advantages we derive from its milk, its flow, and its rollow.",
+ "content": "{\n  \"faithful\": \"1. Aries, or ram and fleep, the horos of which are flu- ped like a half moon, and compreffed. This animal is perhaps the molt gentle and notifintive, and at the fame time the molt timid and fliquid, of all quadrupeds. In a flock of fleep, there is always a leader, whole flesh the cell amplified and blindly follow. If the men over a precipice, the whole flock follow his example, and cannot be reiftained though evident defiruation be the confe- engence. The finalist buffs, if uncommon, makes them run precipitantly against each other, without knowing the cause of their danger, or belogable to extricate them, folves. In favor, they remain fixed in the fate fots and continue disbursing in this situation, under they are forced to move by the flhepherd or his dog. But through daftally in itself, though altro devoid of feminine and mental qualities, this animal is of the molt extective uitality to man. It infacts on both the and climbing, fer- files the advantages we derive from its milk, its flow, and its rollow.\",\n  \"modern\": \"1. Aries, or ram and sheep, the horns of which are flapped like a half moon, and compressed. This animal is perhaps the most gentle and inoffensive, and at the same time the most timid and fluid, of all quadrupeds. In a flock of sheep, there is always a leader, whose fleece the cell amplified and blindly follow. If the men over a precipice, the whole flock follow his example, and cannot be restrained though evident destruction be the consequence. The finalist buffs, if uncommon, makes them run precipitantly against each other, without knowing the cause of their danger, or believable to extricate them, solves. In favor, they remain fixed in the fate fots and continue disbursing in this situation, under they are forced to move by the shepherd or his dog. But through daftally in itself, though altro devoid of feminine and mental qualities, this animal is of the most extensive utility to man. It affects on both the and climbing, fer- files the advantages we derive from its milk, its flow, and its rollow.\"\n}",
+ "usage": {
+  "completion_tokens": 497,
+  "prompt_tokens": 974,
+  "total_tokens": 1471,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 420
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1. Aries, or ram and fleep, the horos of which are flu- ped like a half moon, and compreffed. This animal is perhaps the molt gentle and notifintive, and at the fame time the molt timid and fliquid, of all quadrupeds. In a flock of fleep, there is always a leader, whole flesh the cell amplified and blindly follow. If the men over a precipice, the whole flock follow his example, and cannot be reiftained though evident defiruation be the confe- engence. The finalist buffs, if uncommon, makes them run precipitantly against each other, without knowing the cause of their danger, or belogable to extricate them, folves. In favor, they remain fixed in the fate fots and continue disbursing in this situation, under they are forced to move by the flhepherd or his dog. But through daftally in itself, though altro devoid of feminine and mental qualities, this animal is of the molt extective uitality to man. It infacts on both the and climbing, fer- files the advantages we derive from its milk, its flow, and its rollow.",
+  "modern": "1. Aries, or ram and sheep, the horns of which are flapped like a half moon, and compressed. This animal is perhaps the most gentle and inoffensive, and at the same time the most timid and fluid, of all quadrupeds. In a flock of sheep, there is always a leader, whose fleece the cell amplified and blindly follow. If the men over a precipice, the whole flock follow his example, and cannot be restrained though evident destruction be the consequence. The finalist buffs, if uncommon, makes them run precipitantly against each other, without knowing the cause of their danger, or believable to extricate them, solves. In favor, they remain fixed in the fate fots and continue disbursing in this situation, under they are forced to move by the shepherd or his dog. But through daftally in itself, though altro devoid of feminine and mental qualities, this animal is of the most extensive utility to man. It affects on both the and climbing, fer- files the advantages we derive from its milk, its flow, and its rollow."
+ },
+ "error": null
+}

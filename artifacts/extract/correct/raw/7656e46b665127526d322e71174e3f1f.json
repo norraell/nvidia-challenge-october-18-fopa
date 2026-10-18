@@ -1,0 +1,31 @@
+{
+ "key": "7656e46b665127526d322e71174e3f1f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The beginning of King Henry's regim promised to be favorable to the English liberty; owing chiefly to his fear of his brother. To constitute the affections of his objetsk, he paffed a charity embalted to remove many of the grievous oppréffions which had been completed during the reign of his father and brother. He promised, that, at the death of any ab-bot or bihhop, he never would farze the revenant of the fee or abby during the vacation, but would leave the whole to be repayed by the fuscifor; and that would never be to form any eectifical benefits, or difpole of it for money. To the laiy he promised, thas, up- on the death of any evil, bron, or military tenant, his her fought his admired to the profiofion of his affairs on paying a jult and lawful relief; without being ex-",
+ "content": "{\n  \"faithful\": \"The beginning of King Henry's regim promised to be favorable to the English liberty; owing chiefly to his fear of his brother. To constitute the affections of his objetsk, he paffed a charity embalted to remove many of the grievous oppréffions which had been completed during the reign of his father and brother. He promised, that, at the death of any ab-bot or bihhop, he never would farze the revenant of the fee or abby during the vacation, but would leave the whole to be repayed by the fuscifor; and that would never be to form any eectifical benefits, or difpole of it for money. To the laiy he promised, thas, up- on the death of any evil, bron, or military tenant, his her fought his admired to the profiofion of his affairs on paying a jult and lawful relief; without being ex-\",\n  \"modern\": \"The beginning of King Henry's regim promised to be favorable to the English liberty; owing chiefly to his fear of his brother. To constitute the affections of his objetsk, he passed a charity embalted to remove many of the grievous oppressions which had been completed during the reign of his father and brother. He promised, that, at the death of any ab-bot or bishop, he never would farze the revenant of the fee or abby during the vacation, but would leave the whole to be repaid by the fuscifor; and that would never be to form any ecclesiastical benefits, or dispose of it for money. To the laity he promised, that, upon the death of any earl, baron, or military tenant, his heir should be admitted to the possession of his estate on paying a just and lawful relief; without being ex-\"\n}",
+ "usage": {
+  "completion_tokens": 395,
+  "prompt_tokens": 800,
+  "total_tokens": 1195,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 302
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The beginning of King Henry's regim promised to be favorable to the English liberty; owing chiefly to his fear of his brother. To constitute the affections of his objetsk, he paffed a charity embalted to remove many of the grievous oppréffions which had been completed during the reign of his father and brother. He promised, that, at the death of any ab-bot or bihhop, he never would farze the revenant of the fee or abby during the vacation, but would leave the whole to be repayed by the fuscifor; and that would never be to form any eectifical benefits, or difpole of it for money. To the laiy he promised, thas, up- on the death of any evil, bron, or military tenant, his her fought his admired to the profiofion of his affairs on paying a jult and lawful relief; without being ex-",
+  "modern": "The beginning of King Henry's regim promised to be favorable to the English liberty; owing chiefly to his fear of his brother. To constitute the affections of his objetsk, he passed a charity embalted to remove many of the grievous oppressions which had been completed during the reign of his father and brother. He promised, that, at the death of any ab-bot or bishop, he never would farze the revenant of the fee or abby during the vacation, but would leave the whole to be repaid by the fuscifor; and that would never be to form any ecclesiastical benefits, or dispose of it for money. To the laity he promised, that, upon the death of any earl, baron, or military tenant, his heir should be admitted to the possession of his estate on paying a just and lawful relief; without being ex-"
+ },
+ "error": null
+}

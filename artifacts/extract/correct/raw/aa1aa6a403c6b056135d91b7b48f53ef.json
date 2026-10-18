@@ -1,0 +1,31 @@
+{
+ "key": "aa1aa6a403c6b056135d91b7b48f53ef",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "\" The author nevertheless observe, that , there have been influences of protons who have been killed by natural electricity, having been found with their _floos torna_, and with their feet damaged by the electrical line, but who have not bad, over their whole boo, any other apparent marks of having been ftuck with lightning.\" He adds, \" if a man walking out of doors were to be killed by a returning firele, the electrical line would rub into that each body into his _feets_, and his feet only ; which would not be the cafe, here he to be killed by any _main fireke_ of exploding, either positive negative.",
+ "content": "{\n  \"faithful\": \"The author nevertheless observes, that there have been instances of persons who have been killed by natural electricity, having been found with their shoes torn, and with their feet damaged by the electrical fire; but who have not had, over their whole body, any other apparent marks of having been struck with lightning. He adds, if a man walking out of doors were to be killed by a returning stroke, the electrical fire would rush into that man's body through his feet, and his feet only; which would not be the case, were he to be killed by any main stroke of explosion, either positive or negative.\",\n  \"modern\": \"The author nevertheless observes, that there have been instances of persons who have been killed by natural electricity, having been found with their shoes torn, and with their feet damaged by the electrical fire; but who have not had, over their whole body, any other apparent marks of having been struck with lightning. He adds, if a man walking out of doors were to be killed by a returning stroke, the electrical fire would rush into that man's body through his feet, and his feet only; which would not be the case, were he to be killed by any main stroke of explosion, either positive or negative.\"\n}",
+ "usage": {
+  "completion_tokens": 259,
+  "prompt_tokens": 724,
+  "total_tokens": 983,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The author nevertheless observes, that there have been instances of persons who have been killed by natural electricity, having been found with their shoes torn, and with their feet damaged by the electrical fire; but who have not had, over their whole body, any other apparent marks of having been struck with lightning. He adds, if a man walking out of doors were to be killed by a returning stroke, the electrical fire would rush into that man's body through his feet, and his feet only; which would not be the case, were he to be killed by any main stroke of explosion, either positive or negative.",
+  "modern": "The author nevertheless observes, that there have been instances of persons who have been killed by natural electricity, having been found with their shoes torn, and with their feet damaged by the electrical fire; but who have not had, over their whole body, any other apparent marks of having been struck with lightning. He adds, if a man walking out of doors were to be killed by a returning stroke, the electrical fire would rush into that man's body through his feet, and his feet only; which would not be the case, were he to be killed by any main stroke of explosion, either positive or negative."
+ },
+ "error": null
+}

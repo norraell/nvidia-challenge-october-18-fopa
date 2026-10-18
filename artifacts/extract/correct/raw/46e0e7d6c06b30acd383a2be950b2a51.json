@@ -1,0 +1,31 @@
+{
+ "key": "46e0e7d6c06b30acd383a2be950b2a51",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The rains capable of generations at the aged 18 months; and the cow carbe impregnated when a year old. One ram is sufficient for go or upo even. He ought to be flrog, well proportioned; his head should be thick and floreg, his front large, his eyes block, his mole fits, his neck thick, his body long and tall, has articles muffy, and his tail long. White is the belt colour for a ram. The ew whose wool is molt plentiful, bulhy, long, fot, and white, the most proper for breeders. Especially when at the fame time they are of a large size, have a thick neck, and move rimbly.",
+ "content": "{\n  \"faithful\": \"The ram is capable of generation at the age of 18 months; and the ewe can be impregnated when a year old. One ram is sufficient for 30 or 40 ewes. He ought to be strong, well proportioned; his head should be thick and long, his front large, his eyes black, his nose flat, his neck thick, his body long and tall, his testicles milky, and his tail long. White is the belt colour for a ram. The ewes whose wool is most plentiful, bulky, long, soft, and white, the most proper for breeders. Especially when at the same time they are of a large size, have a thick neck, and move nimbly.\",\n  \"modern\": \"The ram is capable of generation at the age of 18 months; and the ewe can be impregnated when a year old. One ram is sufficient for 30 or 40 ewes. He ought to be strong, well proportioned; his head should be thick and long, his front large, his eyes black, his nose flat, his neck thick, his body long and tall, his testicles milky, and his tail long. White is the belt colour for a ram. The ewes whose wool is most plentiful, bulky, long, soft, and white, the most proper for breeders. Especially when at the same time they are of a large size, have a thick neck, and move nimbly.\"\n}",
+ "usage": {
+  "completion_tokens": 323,
+  "prompt_tokens": 726,
+  "total_tokens": 1049,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The ram is capable of generation at the age of 18 months; and the ewe can be impregnated when a year old. One ram is sufficient for 30 or 40 ewes. He ought to be strong, well proportioned; his head should be thick and long, his front large, his eyes black, his nose flat, his neck thick, his body long and tall, his testicles milky, and his tail long. White is the belt colour for a ram. The ewes whose wool is most plentiful, bulky, long, soft, and white, the most proper for breeders. Especially when at the same time they are of a large size, have a thick neck, and move nimbly.",
+  "modern": "The ram is capable of generation at the age of 18 months; and the ewe can be impregnated when a year old. One ram is sufficient for 30 or 40 ewes. He ought to be strong, well proportioned; his head should be thick and long, his front large, his eyes black, his nose flat, his neck thick, his body long and tall, his testicles milky, and his tail long. White is the belt colour for a ram. The ewes whose wool is most plentiful, bulky, long, soft, and white, the most proper for breeders. Especially when at the same time they are of a large size, have a thick neck, and move nimbly."
+ },
+ "error": null
+}

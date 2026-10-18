@@ -1,0 +1,31 @@
+{
+ "key": "2e9541506af755dcf082364ada898ae4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Sraod of State,_ which is borne before the king, lords,\nand governors of counties, cities or boroughs, &c. For\nbe before the King, if weights to be carried upright; the bill\nas so we as the batter's wait, the blade up between the\nyou. For or before a dake, the blade muit decline from the head,\nand be carried between the neck and the right shoulder.\nFor or before an sail, the blade is to the carrier between the\npouts of the shoulder and the elbow, and for or before a ba-\nros, the blade is to be borne in the head of the arm. This\ndetermined, from no Heil denotes the digerity of a governor\nthan the consent let on his cost of arms.",
+ "content": "{\n  \"faithful\": \"Sword of State, which is borne before the king, lords, and governors of counties, cities, or boroughs, &c. For or before the king, it ought to be carried upright; the hilt as low as the bearer's waist, the blade up between his eyes. For or before a duke, the blade must decline from the head, and be carried between the neck and the right shoulder. For or before an earl, the blade is to be carried between the point of the shoulder and the elbow: and for or before a baron, the blade is to be borne in the bend of the arm. This ceremonial form no less denotes the dignity of a governor than the coronet set on his coat of arms.\",\n  \"modern\": \"Sword of State, which is borne before the king, lords, and governors of counties, cities, or boroughs, &c. For or before the king, it ought to be carried upright; the hilt as low as the bearer's waist, the blade up between his eyes. For or before a duke, the blade must decline from the head, and be carried between the neck and the right shoulder. For or before an earl, the blade is to be carried between the point of the shoulder and the elbow: and for or before a baron, the blade is to be borne in the bend of the arm. This ceremonial form no less denotes the dignity of a governor than the coronet set on his coat of arms.\"\n}",
+ "usage": {
+  "completion_tokens": 313,
+  "prompt_tokens": 742,
+  "total_tokens": 1055,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Sword of State, which is borne before the king, lords, and governors of counties, cities, or boroughs, &c. For or before the king, it ought to be carried upright; the hilt as low as the bearer's waist, the blade up between his eyes. For or before a duke, the blade must decline from the head, and be carried between the neck and the right shoulder. For or before an earl, the blade is to be carried between the point of the shoulder and the elbow: and for or before a baron, the blade is to be borne in the bend of the arm. This ceremonial form no less denotes the dignity of a governor than the coronet set on his coat of arms.",
+  "modern": "Sword of State, which is borne before the king, lords, and governors of counties, cities, or boroughs, &c. For or before the king, it ought to be carried upright; the hilt as low as the bearer's waist, the blade up between his eyes. For or before a duke, the blade must decline from the head, and be carried between the neck and the right shoulder. For or before an earl, the blade is to be carried between the point of the shoulder and the elbow: and for or before a baron, the blade is to be borne in the bend of the arm. This ceremonial form no less denotes the dignity of a governor than the coronet set on his coat of arms."
+ },
+ "error": null
+}

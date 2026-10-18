@@ -1,0 +1,31 @@
+{
+ "key": "8494bed13549ef06c5f01f0f40663bf2",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Amination is called by Mr Kirwan in the muriatic geum of earth, breatls it contains about a fifth part of magnifica. Its other enthusiasts are, film, mid calcareous earth, bayres, clay, and a very final pro portion of iron. It is fullible _per f in a first long,_ but, and allo with the common fluxes. It differs from afbele in containing force prodorous art.",
+ "content": "{\n  \"faithful\": \"Amination is called by Mr Kirwan in the muriatic genus of earth, breatls it contains about a fifth part of magnifica. Its other enthusiasts are, film, mid calcareous earth, bayres, clay, and a very final pro portion of iron. It is fullible _per f in a first long,_ but, and allo with the common fluxes. It differs from afbele in containing force prodorous art.\",\n  \"modern\": \"Amination is called by Mr Kirwan in the muriatic genus of earth, breatls it contains about a fifth part of magnifica. Its other enthusiasts are, film, mid calcareous earth, bayres, clay, and a very final pro portion of iron. It is fullible _per f in a first long,_ but, and allo with the common fluxes. It differs from afbele in containing force prodorous art.\"\n}",
+ "usage": {
+  "completion_tokens": 197,
+  "prompt_tokens": 665,
+  "total_tokens": 862,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Amination is called by Mr Kirwan in the muriatic genus of earth, breatls it contains about a fifth part of magnifica. Its other enthusiasts are, film, mid calcareous earth, bayres, clay, and a very final pro portion of iron. It is fullible _per f in a first long,_ but, and allo with the common fluxes. It differs from afbele in containing force prodorous art.",
+  "modern": "Amination is called by Mr Kirwan in the muriatic genus of earth, breatls it contains about a fifth part of magnifica. Its other enthusiasts are, film, mid calcareous earth, bayres, clay, and a very final pro portion of iron. It is fullible _per f in a first long,_ but, and allo with the common fluxes. It differs from afbele in containing force prodorous art."
+ },
+ "error": null
+}

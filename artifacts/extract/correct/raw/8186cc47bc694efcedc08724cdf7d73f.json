@@ -1,0 +1,31 @@
+{
+ "key": "8186cc47bc694efcedc08724cdf7d73f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ACROTELERUTIC, among ecdefalific writers, an appellation given to any thing added to the end of a plain; at the Gloria Patrir, or Doxology. GENERAL OTRISTERIA), in aestheticism, insall pedeals, usually without hates, secretly placed at the middle or two extremes of podmats or frontlipieces, ferrying to fopport the flames, see. It calls figuishes the figures placed as ornament on the tops of cherches, and the Pharp pointed that Band in ranges about flat buildings with rails and ballers.",
+ "content": "{\n  \"faithful\": \"ACROTELEUTIC, among ecclesiastical writers, an appellation given to any thing added to the end of a psalm; as the Gloria Patri, or Doxology. ACROTERIA, in architecture, small pedestals, usually without bases, anciently placed at the middle or two extremes of pediments or frontispieces, serving to support the statues, &c. It also signifies the figures placed as ornaments on the tops of churches, and the sharp pinnacles that stand in ranges about flat buildings with rails and ballusters.\",\n  \"modern\": \"ACROTELEUTIC, among ecclesiastical writers, an appellation given to any thing added to the end of a psalm; as the Gloria Patri, or Doxology. ACROTERIA, in architecture, small pedestals, usually without bases, anciently placed at the middle or two extremes of pediments or frontispieces, serving to support the statues, &c. It also signifies the figures placed as ornaments on the tops of churches, and the sharp pinnacles that stand in ranges about flat buildings with rails and balusters.\"\n}",
+ "usage": {
+  "completion_tokens": 243,
+  "prompt_tokens": 704,
+  "total_tokens": 947,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ACROTELEUTIC, among ecclesiastical writers, an appellation given to any thing added to the end of a psalm; as the Gloria Patri, or Doxology. ACROTERIA, in architecture, small pedestals, usually without bases, anciently placed at the middle or two extremes of pediments or frontispieces, serving to support the statues, &c. It also signifies the figures placed as ornaments on the tops of churches, and the sharp pinnacles that stand in ranges about flat buildings with rails and ballusters.",
+  "modern": "ACROTELEUTIC, among ecclesiastical writers, an appellation given to any thing added to the end of a psalm; as the Gloria Patri, or Doxology. ACROTERIA, in architecture, small pedestals, usually without bases, anciently placed at the middle or two extremes of pediments or frontispieces, serving to support the statues, &c. It also signifies the figures placed as ornaments on the tops of churches, and the sharp pinnacles that stand in ranges about flat buildings with rails and balusters."
+ },
+ "error": null
+}

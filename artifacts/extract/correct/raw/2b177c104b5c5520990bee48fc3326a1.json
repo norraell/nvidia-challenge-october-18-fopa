@@ -1,0 +1,31 @@
+{
+ "key": "2b177c104b5c5520990bee48fc3326a1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "10. This obligation upon the hufland is, however, perpetuated against him [1.] Where his proper dissate tended a red or personal, has been affected, during the marriages paid and by complete legal diligence in which cafe, the huf- husband, bund mulls, by the common rule of law, relieve his property from the number with which it lands charged; and the unconditional gace against his person is not influence to perpetuate the religious; nor even consulate diligence against his class. (2.) The hufand contains liable, even after the wife’s death, no fo far as he is because we profited by her class : Still, however, the law does one consider a hufland who has got but a moderate teacher with the wife as _lucrative_ by the marriage; it is the excess only which it considers as lucrons, and that must be eliminated by the quality of the parties and their own condition of life—As he was at my time the proper debate in his wife’s moveable there, therefore, though he should be lucratas, he is after the difoloton, only liable for them _fufuldurie_, i. e. if her now feature alleats is not sufficient to pay them off.",
+ "content": "{\n  \"faithful\": \"10. This obligation upon the husband is, however, perpetuated against him (1.) Where his proper estate, real or personal, has been affected, during the marriage, by complete legal diligence; in which case, the husband must, by the common rule of law, relieve his property from the burden with which it stands charged; but the unconditional diligence against his person is not sufficient to perpetuate the obligation; nor even incomplete diligence against his estate. (2.) The husband continues liable, even after the wife's death, in so far as he is lucratus or profited by her estate: Still, however, the law does not consider a husband who has got but a moderate tocher with the wife as lucratus by the marriage; it is the excess only which it considers as lucrum, and that must be estimated by the quality of the parties and their condition of life.—As he was at no time the proper debtor in his wife's moveable debts; therefore, though he should be lucratus, he is, after the dissolution, only liable for them fiduciarie, i. e. if her own separate estate is not sufficient to pay them off.\",\n  \"modern\": \"10. This obligation upon the husband is, however, perpetuated against him (1.) Where his proper estate, real or personal, has been affected, during the marriage, by complete legal diligence; in which case, the husband must, by the common rule of law, relieve his property from the burden with which it stands charged; but the unconditional diligence against his person is not sufficient to perpetuate the obligation; nor even incomplete diligence against his estate. (2.) The husband continues liable, even after the wife's death, in so far as he is lucratus or profited by her estate: Still, however, the law does not consider a husband who has got but a moderate tocher with the wife as lucratus by the marriage; it is the excess only which it considers as lucrum, and that must be estimated by the quality of the parties and their condition of life.—As he was at no time the proper debtor in his wife's moveable debts; therefore, though he should be lucratus, he is, after the dissolution, only liable for them fiduciarie, i. e. if her own separate estate is not sufficient to pay them off.\"\n}",
+ "usage": {
+  "completion_tokens": 509,
+  "prompt_tokens": 928,
+  "total_tokens": 1437,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 363
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "10. This obligation upon the husband is, however, perpetuated against him (1.) Where his proper estate, real or personal, has been affected, during the marriage, by complete legal diligence; in which case, the husband must, by the common rule of law, relieve his property from the burden with which it stands charged; but the unconditional diligence against his person is not sufficient to perpetuate the obligation; nor even incomplete diligence against his estate. (2.) The husband continues liable, even after the wife's death, in so far as he is lucratus or profited by her estate: Still, however, the law does not consider a husband who has got but a moderate tocher with the wife as lucratus by the marriage; it is the excess only which it considers as lucrum, and that must be estimated by the quality of the parties and their condition of life.—As he was at no time the proper debtor in his wife's moveable debts; therefore, though he should be lucratus, he is, after the dissolution, only liable for them fiduciarie, i. e. if her own separate estate is not sufficient to pay them off.",
+  "modern": "10. This obligation upon the husband is, however, perpetuated against him (1.) Where his proper estate, real or personal, has been affected, during the marriage, by complete legal diligence; in which case, the husband must, by the common rule of law, relieve his property from the burden with which it stands charged; but the unconditional diligence against his person is not sufficient to perpetuate the obligation; nor even incomplete diligence against his estate. (2.) The husband continues liable, even after the wife's death, in so far as he is lucratus or profited by her estate: Still, however, the law does not consider a husband who has got but a moderate tocher with the wife as lucratus by the marriage; it is the excess only which it considers as lucrum, and that must be estimated by the quality of the parties and their condition of life.—As he was at no time the proper debtor in his wife's moveable debts; therefore, though he should be lucratus, he is, after the dissolution, only liable for them fiduciarie, i. e. if her own separate estate is not sufficient to pay them off."
+ },
+ "error": null
+}

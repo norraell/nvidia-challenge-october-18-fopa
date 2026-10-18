@@ -1,0 +1,31 @@
+{
+ "key": "492c3a00ec244554266919e5345456d9",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ENEM In law, an alien or foreigner, who pub- lied invades the kingdom.",
+ "content": "{\n  \"faithful\": \"ENEMY, in law, an alien or foreigner, who publicly invades the kingdom.\",\n  \"modern\": \"ENEMY, in law, an alien or foreigner, who publicly invades the kingdom.\"\n}",
+ "usage": {
+  "completion_tokens": 55,
+  "prompt_tokens": 617,
+  "total_tokens": 672,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ENEMY, in law, an alien or foreigner, who publicly invades the kingdom.",
+  "modern": "ENEMY, in law, an alien or foreigner, who publicly invades the kingdom."
+ },
+ "error": null
+}

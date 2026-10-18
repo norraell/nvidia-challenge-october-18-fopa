@@ -1,0 +1,31 @@
+{
+ "key": "d1cc797cef6c4edc5acbba06e36cbb5b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ExEDRÆ, in antiquity, denoted balls with many facts, where the philosophies, protection, and men of farming, net for discounts and dispatches. The word occurs in excellent writers as a general name for field buildings as were difficult from the main body of the churches, and yet within the limits of the church taken in the largest fields. Among the seconder the chief was the BarrettX.",
+ "content": "{\n  \"faithful\": \"EXEDRÆ, in antiquity, denoted halls with many feats, where the philosophers, rhetoricians, and men of learning, met for difcourfe and difputation. The word occurs in ecclefiaftical writers as a general name for fuch buildings as were dilinft from the main body of the churches, and yet within the limits of the church taken in its largeft fenfe. Among the exedræ the chief was the Baptiſtery.\",\n  \"modern\": \"EXEDRAE, in antiquity, denoted halls with many feats, where the philosophers, rhetoricians, and men of learning, met for discourse and disputation. The word occurs in ecclesiastical writers as a general name for such buildings as were distinct from the main body of the churches, and yet within the limits of the church taken in its largest sense. Among the exedrae the chief was the Baptistery.\"\n}",
+ "usage": {
+  "completion_tokens": 202,
+  "prompt_tokens": 661,
+  "total_tokens": 863,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXEDRÆ, in antiquity, denoted halls with many feats, where the philosophers, rhetoricians, and men of learning, met for difcourfe and difputation. The word occurs in ecclefiaftical writers as a general name for fuch buildings as were dilinft from the main body of the churches, and yet within the limits of the church taken in its largeft fenfe. Among the exedræ the chief was the Baptiſtery.",
+  "modern": "EXEDRAE, in antiquity, denoted halls with many feats, where the philosophers, rhetoricians, and men of learning, met for discourse and disputation. The word occurs in ecclesiastical writers as a general name for such buildings as were distinct from the main body of the churches, and yet within the limits of the church taken in its largest sense. Among the exedrae the chief was the Baptistery."
+ },
+ "error": null
+}

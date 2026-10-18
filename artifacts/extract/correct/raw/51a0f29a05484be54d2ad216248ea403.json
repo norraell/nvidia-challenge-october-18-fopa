@@ -1,0 +1,31 @@
+{
+ "key": "51a0f29a05484be54d2ad216248ea403",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Ewes are generally in fields from the mof of the obber to the beginning of April. However, they may be impeg- nated as any time, it they be fed with illuminating non- rilmen, as fat water, and bread made of hem-feed. They go with your about, few months, and generally bring forth, but one at a time, though frequently two. In warm climates, they may bring forth twice in a year, but in Britain, France, and molt parts of Europe, only enough. They goes milk plentyfully for tenx or eight minutes: Their milk affords mouthments for children broad country people; good checefe is made of it, especially women mixed with cow-milk. They live from 10 to 12 thyvers, and are capable of bringing forth an long as they tailites.",
+ "content": "{\n  \"faithful\": \"Ewes are generally in fields from the mof of the obber to the beginning of April. However, they may be impeg- nated as any time, it they be fed with illuminating non- rilmen, as fat water, and bread made of hem-feed. They go with your about, few months, and generally bring forth, but one at a time, though frequently two. In warm climates, they may bring forth twice in a year, but in Britain, France, and molt parts of Europe, only enough. They goes milk plentyfully for tenx or eight minutes: Their milk affords mouthments for children broad country people; good checefe is made of it, especially women mixed with cow-milk. They live from 10 to 12 thyvers, and are capable of bringing forth an long as they tailites.\",\n  \"modern\": \"Ewes are generally in fields from the mof of the obber to the beginning of April. However, they may be impregnated at any time, if they be fed with stimulating nourishment, as fat water, and bread made of hemp-feed. They go with young about five months, and generally bring forth, but one at a time, though frequently two. In warm climates, they may bring forth twice in a year, but in Britain, France, and most parts of Europe, only once. They give milk plentifully for seven or eight months: Their milk affords nourishment for children and country people; good cheese is made of it, especially when mixed with cow-milk. They live from 10 to 12 years, and are capable of bringing forth as long as they live.\"\n}",
+ "usage": {
+  "completion_tokens": 361,
+  "prompt_tokens": 788,
+  "total_tokens": 1149,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 310
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Ewes are generally in fields from the mof of the obber to the beginning of April. However, they may be impeg- nated as any time, it they be fed with illuminating non- rilmen, as fat water, and bread made of hem-feed. They go with your about, few months, and generally bring forth, but one at a time, though frequently two. In warm climates, they may bring forth twice in a year, but in Britain, France, and molt parts of Europe, only enough. They goes milk plentyfully for tenx or eight minutes: Their milk affords mouthments for children broad country people; good checefe is made of it, especially women mixed with cow-milk. They live from 10 to 12 thyvers, and are capable of bringing forth an long as they tailites.",
+  "modern": "Ewes are generally in fields from the mof of the obber to the beginning of April. However, they may be impregnated at any time, if they be fed with stimulating nourishment, as fat water, and bread made of hemp-feed. They go with young about five months, and generally bring forth, but one at a time, though frequently two. In warm climates, they may bring forth twice in a year, but in Britain, France, and most parts of Europe, only once. They give milk plentifully for seven or eight months: Their milk affords nourishment for children and country people; good cheese is made of it, especially when mixed with cow-milk. They live from 10 to 12 years, and are capable of bringing forth as long as they live."
+ },
+ "error": null
+}

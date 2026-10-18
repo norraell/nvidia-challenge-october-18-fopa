@@ -1,0 +1,31 @@
+{
+ "key": "cf750e4219e46d6bc93e08291a768831",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ATAXY, in a general fenfe, the want of order: With phyticians, it signifies irregularity of crises and paroxysites of fevers.",
+ "content": "{\n  \"faithful\": \"ATAXY, in a general fenfe, the want of order: With physicians, it signifies irregularity of crises and paroxysms of fevers.\",\n  \"modern\": \"ATAXY, in a general sense, the want of order: With physicians, it signifies irregularity of crises and paroxysms of fevers.\"\n}",
+ "usage": {
+  "completion_tokens": 78,
+  "prompt_tokens": 624,
+  "total_tokens": 702,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ATAXY, in a general fenfe, the want of order: With physicians, it signifies irregularity of crises and paroxysms of fevers.",
+  "modern": "ATAXY, in a general sense, the want of order: With physicians, it signifies irregularity of crises and paroxysms of fevers."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "f6c85b10cc172c817b7cc71a911d4988",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Horas is alo did not in empery for a price of wood\npointed across two other perpendicular ones, to fulain\nthe boards, phunks, so, which make bridges over-final\nrivers and no divers other conditions.",
+ "content": "{\n  \"faithful\": \"Horse is also used in carpentry, for a piece of wood jointed across two other perpendicular ones, to fustain the boards, planks, &c. which make bridges over small rivers; and on divers other occasions.\",\n  \"modern\": \"Horse is also used in carpentry, for a piece of wood jointed across two other perpendicular ones, to sustain the boards, planks, &c. which make bridges over small rivers; and on divers other occasions.\"\n}",
+ "usage": {
+  "completion_tokens": 108,
+  "prompt_tokens": 616,
+  "total_tokens": 724,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Horse is also used in carpentry, for a piece of wood jointed across two other perpendicular ones, to fustain the boards, planks, &c. which make bridges over small rivers; and on divers other occasions.",
+  "modern": "Horse is also used in carpentry, for a piece of wood jointed across two other perpendicular ones, to sustain the boards, planks, &c. which make bridges over small rivers; and on divers other occasions."
+ },
+ "error": null
+}

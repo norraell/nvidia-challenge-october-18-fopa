@@ -1,0 +1,31 @@
+{
+ "key": "c2c2bf7414c2bdc5fbec7f44045457c2",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "SYCOPHANT, an appellation given by the ancient A-\ntheman to thole who informed the exporation of figs\ncontary to bay, and hence it is full field in general for all inforners, parafities, flattreets, chests, &c.",
+ "content": "{\n  \"faithful\": \"SYCOPHANT, an appellation given by the ancient A- thenians to thole who informed of the exportation of figs contrary to law; and hence it is still used in general for all informers, parasites, flatterers, cheats, &c.\",\n  \"modern\": \"SYCOPHANT, an appellation given by the ancient Athenians to those who informed of the exportation of figs contrary to law; and hence it is still used in general for all informers, parasites, flatterers, cheats, &c.\"\n}",
+ "usage": {
+  "completion_tokens": 126,
+  "prompt_tokens": 636,
+  "total_tokens": 762,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "SYCOPHANT, an appellation given by the ancient A- thenians to thole who informed of the exportation of figs contrary to law; and hence it is still used in general for all informers, parasites, flatterers, cheats, &c.",
+  "modern": "SYCOPHANT, an appellation given by the ancient Athenians to those who informed of the exportation of figs contrary to law; and hence it is still used in general for all informers, parasites, flatterers, cheats, &c."
+ },
+ "error": null
+}

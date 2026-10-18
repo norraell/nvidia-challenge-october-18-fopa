@@ -1,0 +1,31 @@
+{
+ "key": "9feec67cf3d4e07e21d4206a94576e3b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ERANTHEUMUJ, in botany; a genus of the diandria, menogyalda. The coloris its divided into five tag- ments if the tribe is filomn y and the flagan is limple. There is but one facies, a native of Ethiopia.",
+ "content": "{\n  \"faithful\": \"ERANTHEUMUJ, in botany; a genus of the diandria, menogyalda. The coloris its divided into five tag- ments if the tribe is filomn y and the flagan is limple. There is but one facies, a native of Ethiopia.\",\n  \"modern\": \"ERANTHEUMUJ, in botany; a genus of the diandria, monogynia. The calyx is divided into five segments if the tribe is filiform and the flagan is simple. There is but one species, a native of Ethiopia.\"\n}",
+ "usage": {
+  "completion_tokens": 130,
+  "prompt_tokens": 628,
+  "total_tokens": 758,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ERANTHEUMUJ, in botany; a genus of the diandria, menogyalda. The coloris its divided into five tag- ments if the tribe is filomn y and the flagan is limple. There is but one facies, a native of Ethiopia.",
+  "modern": "ERANTHEUMUJ, in botany; a genus of the diandria, monogynia. The calyx is divided into five segments if the tribe is filiform and the flagan is simple. There is but one species, a native of Ethiopia."
+ },
+ "error": null
+}

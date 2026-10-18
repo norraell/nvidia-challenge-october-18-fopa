@@ -1,0 +1,31 @@
+{
+ "key": "0b3e6f330468cb250c50897429a268a7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "SILLIUS TALIOLOS, CAUS, an ancient Roman poet, and author of an epic poem in 17 books, which con-tains an hilloy of the second Ponte was, to famous for having decided the empire of the world in favour of the Romanes. He was born in the reign of Thierius, and is fogoped to have derived the name of _Italica_ from the place of his birth; but whether he was born at Italica in Spain, or at Cerdinam in Italy, which, according to Scheba, had the name of _Italica_ given it during the Social war, is a point which cannot be known: though, it is his first had happened at either of those places, the grammarina would tell us, that he found have been called _Italicaeta_, and wol _Italica_. When he came to Rome, he applied himself to the bay; and, by a choi institution of Greece, succeeded fo well, like he became a celebrated advocate and molt accomplished senior. His sacred, and charader recommended him to the high- ethnics in the republic, even to the confidity, of which he was poffied when Nono died. He is field to",
+ "content": "{\n  \"faithful\": \"SILLIUS TALIOLOS, CAUS, an ancient Roman poet, and author of an epic poem in 17 books, which con-tains an hilloy of the second Ponte was, to famous for having decided the empire of the world in favour of the Romanes. He was born in the reign of Thierius, and is fogoped to have derived the name of _Italica_ from the place of his birth; but whether he was born at Italica in Spain, or at Cerdinam in Italy, which, according to Scheba, had the name of _Italica_ given it during the Social war, is a point which cannot be known: though, it is his first had happened at either of those places, the grammarina would tell us, that he found have been called _Italicaeta_, and wol _Italica_. When he came to Rome, he applied himself to the bay; and, by a choi institution of Greece, succeeded fo well, like he became a celebrated advocate and molt accomplished senior. His sacred, and charader recommended him to the high- ethnics in the republic, even to the confidity, of which he was poffied when Nono died. He is field to\",\n  \"modern\": \"SILLIUS TALIOLOS, CAUS, an ancient Roman poet, and author of an epic poem in 17 books, which contains an history of the second Punic war, was famous for having decided the empire of the world in favour of the Romans. He was born in the reign of Tiberius, and is supposed to have derived the name of Italicus from the place of his birth; but whether he was born at Italica in Spain, or at Corfinium in Italy, which, according to Strabo, had the name of Italica given it during the Social war, is a point which cannot be known: though, if his birth had happened at either of those places, the grammarians would tell us, that he should have been called Italicensis, and not Italicus. When he came to Rome, he applied himself to the bar; and, by a close imitation of Cicero, succeeded so well, that he became a celebrated advocate and most accomplished orator. His merit and character recommended him to the highest offices in the republic, even to the consulship, of which he was possessed when Nero died. He is said to\"\n}",
+ "usage": {
+  "completion_tokens": 513,
+  "prompt_tokens": 885,
+  "total_tokens": 1398,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 325
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "SILLIUS TALIOLOS, CAUS, an ancient Roman poet, and author of an epic poem in 17 books, which con-tains an hilloy of the second Ponte was, to famous for having decided the empire of the world in favour of the Romanes. He was born in the reign of Thierius, and is fogoped to have derived the name of _Italica_ from the place of his birth; but whether he was born at Italica in Spain, or at Cerdinam in Italy, which, according to Scheba, had the name of _Italica_ given it during the Social war, is a point which cannot be known: though, it is his first had happened at either of those places, the grammarina would tell us, that he found have been called _Italicaeta_, and wol _Italica_. When he came to Rome, he applied himself to the bay; and, by a choi institution of Greece, succeeded fo well, like he became a celebrated advocate and molt accomplished senior. His sacred, and charader recommended him to the high- ethnics in the republic, even to the confidity, of which he was poffied when Nono died. He is field to",
+  "modern": "SILLIUS TALIOLOS, CAUS, an ancient Roman poet, and author of an epic poem in 17 books, which contains an history of the second Punic war, was famous for having decided the empire of the world in favour of the Romans. He was born in the reign of Tiberius, and is supposed to have derived the name of Italicus from the place of his birth; but whether he was born at Italica in Spain, or at Corfinium in Italy, which, according to Strabo, had the name of Italica given it during the Social war, is a point which cannot be known: though, if his birth had happened at either of those places, the grammarians would tell us, that he should have been called Italicensis, and not Italicus. When he came to Rome, he applied himself to the bar; and, by a close imitation of Cicero, succeeded so well, that he became a celebrated advocate and most accomplished orator. His merit and character recommended him to the highest offices in the republic, even to the consulship, of which he was possessed when Nero died. He is said to"
+ },
+ "error": null
+}

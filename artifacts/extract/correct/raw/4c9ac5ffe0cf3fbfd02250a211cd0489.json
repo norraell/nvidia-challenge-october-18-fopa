@@ -1,0 +1,31 @@
+{
+ "key": "4c9ac5ffe0cf3fbfd02250a211cd0489",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Hindustan as the most shocking of crimes, by burning on a heated plate of iron; or against the lower tubes, in whom adultery with a Brahmann woman is considered as the climax of bitumen depetty, centrally to be arranged by any punishment, however dreadful. On the ever hand, crimes committed by the higher classes against the lower are very slightly unshaled, the sake of punishment being: In all cases graduated in an inverse ratio to the rank of the offenders.",
+ "content": "{\n  \"faithful\": \"Hindustan as the most shocking of crimes, by burning on a heated plate of iron; or against the lower tribes, in whom adultery with a Brahmin woman is considered as the climax of human depravity, scarcely to be avenged by any punishment, however dreadful. On the other hand, crimes committed by the higher classes against the lower are very slightly punished; the scale of punishment being in all cases graduated in an inverse ratio to the rank of the offenders.\",\n  \"modern\": \"Hindustan as the most shocking of crimes, by burning on a heated plate of iron; or against the lower tribes, in whom adultery with a Brahmin woman is considered as the climax of human depravity, scarcely to be avenged by any punishment, however dreadful. On the other hand, crimes committed by the higher classes against the lower are very slightly punished; the scale of punishment being in all cases graduated in an inverse ratio to the rank of the offenders.\"\n}",
+ "usage": {
+  "completion_tokens": 207,
+  "prompt_tokens": 673,
+  "total_tokens": 880,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Hindustan as the most shocking of crimes, by burning on a heated plate of iron; or against the lower tribes, in whom adultery with a Brahmin woman is considered as the climax of human depravity, scarcely to be avenged by any punishment, however dreadful. On the other hand, crimes committed by the higher classes against the lower are very slightly punished; the scale of punishment being in all cases graduated in an inverse ratio to the rank of the offenders.",
+  "modern": "Hindustan as the most shocking of crimes, by burning on a heated plate of iron; or against the lower tribes, in whom adultery with a Brahmin woman is considered as the climax of human depravity, scarcely to be avenged by any punishment, however dreadful. On the other hand, crimes committed by the higher classes against the lower are very slightly punished; the scale of punishment being in all cases graduated in an inverse ratio to the rank of the offenders."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "5802fd3a668f7767a91919e27268dff9",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "collals, which lupply the flomach and chylopotic vience. 22 19. Branch of the figure and anterior mesenteric plexus, formed by the eighth pair and fifth tercedula, which lupply the chyopotic vience. With part of the organs of urine and generation. 23 23, Nerve which accompany the fermatic cord. 24 24, The hypogotic plexus, while fusplies the organs of urine and generates within the pelvis.",
+ "content": "{\n  \"faithful\": \"cofials, which fupfly the flomach and chylopoetic vifcera. 22 22, Branches of the fuperior and inferior mefenenteric plexufes, formed by the eighth pair and intercostal, which fupfly the chylopoetic vifcera, with part of the organs of urine and generation. 23 23, Nerves which accompany the fpermatic cord. 24 24, The hypogaftric plexus, which fupplies the organs of urine and generation within the pelviis.\",\n  \"modern\": \"coftals, which supply the stomach and chylopoietic viscera. 22 22, Branches of the superior and inferior mesenteric plexuses, formed by the eighth pair and intercostal, which supply the chylopoietic viscera, with part of the organs of urine and generation. 23 23, Nerves which accompany the spermatic cord. 24 24, The hypogastric plexus, which supplies the organs of urine and generation within the pelvis.\"\n}",
+ "usage": {
+  "completion_tokens": 241,
+  "prompt_tokens": 689,
+  "total_tokens": 930,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "cofials, which fupfly the flomach and chylopoetic vifcera. 22 22, Branches of the fuperior and inferior mefenenteric plexufes, formed by the eighth pair and intercostal, which fupfly the chylopoetic vifcera, with part of the organs of urine and generation. 23 23, Nerves which accompany the fpermatic cord. 24 24, The hypogaftric plexus, which fupplies the organs of urine and generation within the pelviis.",
+  "modern": "coftals, which supply the stomach and chylopoietic viscera. 22 22, Branches of the superior and inferior mesenteric plexuses, formed by the eighth pair and intercostal, which supply the chylopoietic viscera, with part of the organs of urine and generation. 23 23, Nerves which accompany the spermatic cord. 24 24, The hypogastric plexus, which supplies the organs of urine and generation within the pelvis."
+ },
+ "error": null
+}

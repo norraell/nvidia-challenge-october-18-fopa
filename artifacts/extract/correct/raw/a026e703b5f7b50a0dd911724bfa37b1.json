@@ -1,0 +1,31 @@
+{
+ "key": "a026e703b5f7b50a0dd911724bfa37b1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Demonstration, Let E DA X (this id, fig. 1) re-prefent the eighth part of a Sphere, where the quadratil plane EDFG, DRG, can both prepened to the quadri-plane EDFs; and the quadratil plane ADG is perperendicular to the plane EDFG; and the spherical tri- angle ARC is right-angle as B, where CA is the hypo-theme, and BA, BC, so the legs.",
+ "content": "{\n  \"faithful\": \"Demonstration, Let E D A F G (this id, fig. 1) re-prefent the eighth part of a Sphere, where the quadratil plane EDFG, DRG, can both prepened to the quadri-plane EDFs; and the quadratil plane ADG is perperendicular to the plane EDFG; and the spherical tri- angle ARC is right-angle as B, where CA is the hypo-theme, and BA, BC, so the legs.\",\n  \"modern\": \"Demonstration, Let E D A F G (this id, fig. 1) represent the eighth part of a Sphere, where the quadrantal plane EDFG, DRG, can both be perpendicular to the quadrantal plane EDFs; and the quadrantal plane ADG is perpendicular to the plane EDFG; and the spherical triangle ABC is right-angled at B, where CA is the hypotenuse, and BA, BC, are the legs.\"\n}",
+ "usage": {
+  "completion_tokens": 214,
+  "prompt_tokens": 685,
+  "total_tokens": 899,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Demonstration, Let E D A F G (this id, fig. 1) re-prefent the eighth part of a Sphere, where the quadratil plane EDFG, DRG, can both prepened to the quadri-plane EDFs; and the quadratil plane ADG is perperendicular to the plane EDFG; and the spherical tri- angle ARC is right-angle as B, where CA is the hypo-theme, and BA, BC, so the legs.",
+  "modern": "Demonstration, Let E D A F G (this id, fig. 1) represent the eighth part of a Sphere, where the quadrantal plane EDFG, DRG, can both be perpendicular to the quadrantal plane EDFs; and the quadrantal plane ADG is perpendicular to the plane EDFG; and the spherical triangle ABC is right-angled at B, where CA is the hypotenuse, and BA, BC, are the legs."
+ },
+ "error": null
+}

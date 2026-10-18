@@ -1,0 +1,31 @@
+{
+ "key": "10bcaaf65919f73d31a331293be056ae",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "seetland, the menætft of the human race. To acute me of following the death of the queen my filter, is to brand me with he infany which I sabro molt. It is my nature to employ the direction and Efter, and not the fwof of Judith. Elizabeth herself will attach, that I have often admitted her was to draw upon her head the retention of my friends by the economy of her eruties to me. My innocence cannot finely be doubted; and it is known to the Almighty God, I could not potify think to forcego his mercy, and to ruin my folly, in order to compels a transgirtion fo horrible as that or her murders. But amidt the time ment and impropried pretences which my silverfa-ries are pleased to invent to overvelmim me with cala- mules and angelit, I can trace and discover with erie the next cause of their mobility and promotion. My crimes are my birth, the injuries I have been com- pelled to endure, and y religion. I am proud of the first, I can forgive the freedom, and she tried in a fource to me of fuch comfort and hope, that for its glory I will be contested that my blood fall flow upon the faithful?",
+ "content": "{\n  \"faithful\": \"Scotland. the meanest of the human race. To accuse me of following the death of the queen my father, is to brand me with the infamy which I abhor most. It is my nature to employ the devotions of Ether, and not the sword of Judith. Elizabeth herself will attest, that I have often admonished her not to draw upon her head the repentment of my friends by the enormity of her cruelties to me. My innocence cannot finically be doubted; and it is known to the Almighty God, that I could not possibly think to forego his mercy, and to ruin my foal, in order to compass a transgression so horrible as that of her murder. But amidst the inclement and unprincipled pretences which my adversaries are pleased to invent to overwhelm me with calamities and anguish, I can trace and discover with care the real causes of their hostility and provocation. My crimes are my birth, the injuries I have been compelled to endure, and my religion. I am proud of the first; I can forgive the second; and the third is a source to me of such comfort and hope, that for its glory I will be contented that my blood shall flow upon the scaffold.\",\n  \"modern\": \"Scotland. the meanest of the human race. To accuse me of following the death of the queen my father, is to brand me with the infamy which I abhor most. It is my nature to employ the devotions of Ether, and not the sword of Judith. Elizabeth herself will attest, that I have often admonished her not to draw upon her head the repentment of my friends by the enormity of her cruelties to me. My innocence cannot finally be doubted; and it is known to the Almighty God, that I could not possibly think to forego his mercy, and to ruin my foal, in order to compass a transgression so horrible as that of her murder. But amidst the inclement and unprincipled pretences which my adversaries are pleased to invent to overwhelm me with calamities and anguish, I can trace and discover with care the real causes of their hostility and provocation. My crimes are my birth, the injuries I have been compelled to endure, and my religion. I am proud of the first; I can forgive the second; and the third is a source to me of such comfort and hope, that for its glory I will be contented that my blood shall flow upon the scaffold.\"\n}",
+ "usage": {
+  "completion_tokens": 530,
+  "prompt_tokens": 1033,
+  "total_tokens": 1563,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 462
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Scotland. the meanest of the human race. To accuse me of following the death of the queen my father, is to brand me with the infamy which I abhor most. It is my nature to employ the devotions of Ether, and not the sword of Judith. Elizabeth herself will attest, that I have often admonished her not to draw upon her head the repentment of my friends by the enormity of her cruelties to me. My innocence cannot finically be doubted; and it is known to the Almighty God, that I could not possibly think to forego his mercy, and to ruin my foal, in order to compass a transgression so horrible as that of her murder. But amidst the inclement and unprincipled pretences which my adversaries are pleased to invent to overwhelm me with calamities and anguish, I can trace and discover with care the real causes of their hostility and provocation. My crimes are my birth, the injuries I have been compelled to endure, and my religion. I am proud of the first; I can forgive the second; and the third is a source to me of such comfort and hope, that for its glory I will be contented that my blood shall flow upon the scaffold.",
+  "modern": "Scotland. the meanest of the human race. To accuse me of following the death of the queen my father, is to brand me with the infamy which I abhor most. It is my nature to employ the devotions of Ether, and not the sword of Judith. Elizabeth herself will attest, that I have often admonished her not to draw upon her head the repentment of my friends by the enormity of her cruelties to me. My innocence cannot finally be doubted; and it is known to the Almighty God, that I could not possibly think to forego his mercy, and to ruin my foal, in order to compass a transgression so horrible as that of her murder. But amidst the inclement and unprincipled pretences which my adversaries are pleased to invent to overwhelm me with calamities and anguish, I can trace and discover with care the real causes of their hostility and provocation. My crimes are my birth, the injuries I have been compelled to endure, and my religion. I am proud of the first; I can forgive the second; and the third is a source to me of such comfort and hope, that for its glory I will be contented that my blood shall flow upon the scaffold."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "d37824565fd995ed3bb62e315ecac8f0",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "**LOM [ 168 ]**",
+ "content": "{\n  \"faithful\": \"LOM [ 168 ] L O M [ 168 ] a favourable opportunity now offered of law\",\n  \"modern\": \"LOM [ 168 ] L O M [ 168 ] a favorable opportunity now offered of law\"\n}",
+ "usage": {
+  "completion_tokens": 65,
+  "prompt_tokens": 572,
+  "total_tokens": 637,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 261
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "LOM [ 168 ] L O M [ 168 ] a favourable opportunity now offered of law",
+  "modern": "LOM [ 168 ] L O M [ 168 ] a favorable opportunity now offered of law"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "d069a3554fef4f933f37ad57df14fcf4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "THOMISM, the doctrine of St Thomas Aquinat, and his followers the Thomas, clearly with regard to predellination and grace. There is some doubts what the true ge mine thomlim is, but there are authors who diflingwith the thomall of St Thomas from that of the dominicians. Other agents make themomin so more than a kind of inni-fenim olugted: bat janfenim, it is known, has been condemned by the repys, which give thomlim never was: in effect, the writings of diverse Lesenc, who were appointed by their order to lay down and defend, before the baby fire, the depunts of their School, have face been reported the role of pure thomlim.",
+ "content": "{\n  \"faithful\": \"THOMISM, the doctrine of St Thomas Aquinas, and his followers the Thomists, chiefly with regard to predestination and grace. There is some doubt what the true genuine thomism is, but there are authors who distinguish the thomism of St Thomas from that of the dominicans. Others again make thomism no other than a kind of jansenism disguised: but jansenism, it is known, has been condemned by the popes, which pure thomism never was: in effect, the writings of Alvarez and Lemos, who were appointed by their order to lay down and defend, before the holy fee, the dogmata of their school, have since been reputed the rule of pure thomism.\",\n  \"modern\": \"THOMISM, the doctrine of St Thomas Aquinas, and his followers the Thomists, chiefly with regard to predestination and grace. There is some doubt what the true genuine thomism is, but there are authors who distinguish the thomism of St Thomas from that of the dominicans. Others again make thomism no other than a kind of jansenism disguised: but jansenism, it is known, has been condemned by the popes, which pure thomism never was: in effect, the writings of Alvarez and Lemos, who were appointed by their order to lay down and defend, before the holy fee, the dogmata of their school, have since been reputed the rule of pure thomism.\"\n}",
+ "usage": {
+  "completion_tokens": 319,
+  "prompt_tokens": 723,
+  "total_tokens": 1042,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "THOMISM, the doctrine of St Thomas Aquinas, and his followers the Thomists, chiefly with regard to predestination and grace. There is some doubt what the true genuine thomism is, but there are authors who distinguish the thomism of St Thomas from that of the dominicans. Others again make thomism no other than a kind of jansenism disguised: but jansenism, it is known, has been condemned by the popes, which pure thomism never was: in effect, the writings of Alvarez and Lemos, who were appointed by their order to lay down and defend, before the holy fee, the dogmata of their school, have since been reputed the rule of pure thomism.",
+  "modern": "THOMISM, the doctrine of St Thomas Aquinas, and his followers the Thomists, chiefly with regard to predestination and grace. There is some doubt what the true genuine thomism is, but there are authors who distinguish the thomism of St Thomas from that of the dominicans. Others again make thomism no other than a kind of jansenism disguised: but jansenism, it is known, has been condemned by the popes, which pure thomism never was: in effect, the writings of Alvarez and Lemos, who were appointed by their order to lay down and defend, before the holy fee, the dogmata of their school, have since been reputed the rule of pure thomism."
+ },
+ "error": null
+}

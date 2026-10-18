@@ -1,0 +1,31 @@
+{
+ "key": "2a739e9684b142874669c68c7d8af457",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "And this explains a still more important office of the frame aDC. I can of the grains, such as D, be supported, an external power acting at A, in the direction AB, and with an intensity which may be measured by AB, may be set in equilibrium, with another acting at C, in the direction CLs, opposite to CK or A, and with an intensity represented by CK, for since the pressure CH is partly attributed by the force IC, or the firmness of the beam DC support as D, the force K, will complete the balance. When you are not attend to the support at D, we conceive the force AB to be balanced by KC, or KC to be balanced by AK. And, in like manner, we may neglect the support or force acting at A, and consider the force DO be balanced by CK.",
+ "content": "{\n  \"faithful\": \"And this explains a still more important office of the frame aDC. I can of the grains, such as D, be supported, an external power acting at A, in the direction AB, and with an intensity which may be measured by AB, may be set in equilibrium, with another acting at C, in the direction CLs, opposite to CK or A, and with an intensity represented by CK, for since the pressure CH is partly attributed by the force IC, or the firmness of the beam DC support as D, the force K, will complete the balance. When you are not attend to the support at D, we conceive the force AB to be balanced by KC, or KC to be balanced by AK. And, in like manner, we may neglect the support or force acting at A, and consider the force DO be balanced by CK.\",\n  \"modern\": \"And this explains a still more important office of the frame aDC. I can of the grains, such as D, be supported, an external power acting at A, in the direction AB, and with an intensity which may be measured by AB, may be set in equilibrium, with another acting at C, in the direction CLs, opposite to CK or A, and with an intensity represented by CK, for since the pressure CH is partly attributed by the force IC, or the firmness of the beam DC support as D, the force K, will complete the balance. When you are not attend to the support at D, we conceive the force AB to be balanced by KC, or KC to be balanced by AK. And, in like manner, we may neglect the support or force acting at A, and consider the force DO be balanced by CK.\"\n}",
+ "usage": {
+  "completion_tokens": 361,
+  "prompt_tokens": 756,
+  "total_tokens": 1117,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "And this explains a still more important office of the frame aDC. I can of the grains, such as D, be supported, an external power acting at A, in the direction AB, and with an intensity which may be measured by AB, may be set in equilibrium, with another acting at C, in the direction CLs, opposite to CK or A, and with an intensity represented by CK, for since the pressure CH is partly attributed by the force IC, or the firmness of the beam DC support as D, the force K, will complete the balance. When you are not attend to the support at D, we conceive the force AB to be balanced by KC, or KC to be balanced by AK. And, in like manner, we may neglect the support or force acting at A, and consider the force DO be balanced by CK.",
+  "modern": "And this explains a still more important office of the frame aDC. I can of the grains, such as D, be supported, an external power acting at A, in the direction AB, and with an intensity which may be measured by AB, may be set in equilibrium, with another acting at C, in the direction CLs, opposite to CK or A, and with an intensity represented by CK, for since the pressure CH is partly attributed by the force IC, or the firmness of the beam DC support as D, the force K, will complete the balance. When you are not attend to the support at D, we conceive the force AB to be balanced by KC, or KC to be balanced by AK. And, in like manner, we may neglect the support or force acting at A, and consider the force DO be balanced by CK."
+ },
+ "error": null
+}

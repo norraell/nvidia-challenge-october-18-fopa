@@ -1,0 +1,31 @@
+{
+ "key": "a943965378f6e4a55ede5adbffe5ea5f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "gives it, is only motion ; and in the mind, only a par- ticular idea.",
+ "content": "{\n  \"faithful\": \"gives it, is only motion ; and in the mind, only a par- ticular idea.\",\n  \"modern\": \"gives it, is only motion; and in the mind, only a particular idea.\"\n}",
+ "usage": {
+  "completion_tokens": 54,
+  "prompt_tokens": 611,
+  "total_tokens": 665,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "gives it, is only motion ; and in the mind, only a par- ticular idea.",
+  "modern": "gives it, is only motion; and in the mind, only a particular idea."
+ },
+ "error": null
+}

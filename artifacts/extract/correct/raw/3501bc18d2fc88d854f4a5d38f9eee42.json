@@ -1,0 +1,31 @@
+{
+ "key": "3501bc18d2fc88d854f4a5d38f9eee42",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "OULC, a town ofItaly, in the province of Piedmont, litu- used in E, long, of 950, N. list, ages.",
+ "content": "{\n  \"faithful\": \"OULC, a town of Italy, in the province of Piedmont, situated in E long. 6° 30', N. lat. 45°.\",\n  \"modern\": \"OULC, a town of Italy, in the province of Piedmont, situated in E long. 6° 30', N. lat. 45°.\"\n}",
+ "usage": {
+  "completion_tokens": 89,
+  "prompt_tokens": 628,
+  "total_tokens": 717,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "OULC, a town of Italy, in the province of Piedmont, situated in E long. 6° 30', N. lat. 45°.",
+  "modern": "OULC, a town of Italy, in the province of Piedmont, situated in E long. 6° 30', N. lat. 45°."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "f1dbf8eacf2cc3ecd4bd679ad77639cd",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When they flump a planches, they fril put it be- borne the flavor in flakes as manas, as that the foils- ing cell of them laid flat upon a scrapeplate, which is faltered upon a every thick wooden table, and the phanche being likewise, laid as the tape of the phanchet may take the time liman or each ride, and in their thick part.",
+ "content": "{\n  \"faithful\": \"When they flump a planches, they fril put it be- borne the flavor in flakes as manas, as that the foils- ing cell of them laid flat upon a scrapeplate, which is faltered upon a every thick wooden table, and the phanche being likewise, laid as the tape of the phanchet may take the time liman or each ride, and in their thick part.\",\n  \"modern\": \"When they flump a planches, they fril put it be- borne the flavor in flakes as manas, as that the foils- ing cell of them laid flat upon a scrapeplate, which is faltered upon a every thick wooden table, and the phanche being likewise, laid as the tape of the phanchet may take the time liman or each ride, and in their thick part.\"\n}",
+ "usage": {
+  "completion_tokens": 185,
+  "prompt_tokens": 658,
+  "total_tokens": 843,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When they flump a planches, they fril put it be- borne the flavor in flakes as manas, as that the foils- ing cell of them laid flat upon a scrapeplate, which is faltered upon a every thick wooden table, and the phanche being likewise, laid as the tape of the phanchet may take the time liman or each ride, and in their thick part.",
+  "modern": "When they flump a planches, they fril put it be- borne the flavor in flakes as manas, as that the foils- ing cell of them laid flat upon a scrapeplate, which is faltered upon a every thick wooden table, and the phanche being likewise, laid as the tape of the phanchet may take the time liman or each ride, and in their thick part."
+ },
+ "error": null
+}

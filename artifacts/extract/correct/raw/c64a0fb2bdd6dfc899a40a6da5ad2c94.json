@@ -1,0 +1,31 @@
+{
+ "key": "c64a0fb2bdd6dfc899a40a6da5ad2c94",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "der legant all fill it rises gradually to the surface,\nand gradually reverted its heights, thinking ama-\ningly, and flinging up great flows. After attin-\ning its greatest height, it gradually falls till it to\ndaily disappoint. Building _life drama_ and boiling\nfipings are frequent in molt parts of the island. In many years they replied to the otherup if one he\nnaive? The molt capital is that which is called Gray\nor Ccyfer, in a plain rifling into final hills, and in the\nmulti of an amphitheater, bounded by the molt marg-\ninfeces and various shaped the mountains’s among\nwhich the three-headed Hechs fears pre-eminent. See\nTerLANN, N 4——Their there's not confined\nto the land, they rife in the very few, and form\nfeuling fourstairs amidth the waves. Their dithers\nfrom the land is unknown, but she ever vulnerable,\ntwelve molds off the point of Kickeness, emitting fire\nand froke, proves that the observations fires and wa-\nters extend to that space; for those avoid effects safe\nfrom the united fury of their two elements.",
+ "content": "{\n  \"faithful\": \"der legant all fill it rises gradually to the surface, and gradually reverted its heights, thinking ama- ingly, and flinging up great flows. After attin- ing its greatest height, it gradually falls till it to daily disappoint. Building _life drama_ and boiling fipings are frequent in molt parts of the island. In many years they replied to the otherup if one he naive? The molt capital is that which is called Gray or Ccyfer, in a plain rifling into final hills, and in the multi of an amphitheater, bounded by the molt marg- infeces and various shaped the mountains’s among which the three-headed Hechs fears pre-eminent. See TerLANN, N 4——Their there's not confined to the land, they rife in the very few, and form feuling fourstairs amidth the waves. Their dithers from the land is unknown, but she ever vulnerable, twelve molds off the point of Kickeness, emitting fire and froke, proves that the observations fires and wa- ters extend to that space; for those avoid effects safe from the united fury of their two elements.\",\n  \"modern\": \"der legant all fill it rises gradually to the surface, and gradually reverted its heights, thinking amazingly, and flinging up great flows. After attaining its greatest height, it gradually falls till it to daily disappoint. Building life drama and boiling fipings are frequent in most parts of the island. In many years they replied to the otherup if one he naive? The most capital is that which is called Gray or Ccyfer, in a plain rifling into final hills, and in the multi of an amphitheater, bounded by the most margins and various shaped the mountains’s among which the three-headed Hechs fears pre-eminent. See TerLANN, N 4——Their there's not confined to the land, they rife in the very few, and form feuling fourstairs amidth the waves. Their dithers from the land is unknown, but she ever vulnerable, twelve molds off the point of Kickeness, emitting fire and froke, proves that the observations fires and waters extend to that space; for those avoid effects safe from the united fury of their two elements.\"\n}",
+ "usage": {
+  "completion_tokens": 483,
+  "prompt_tokens": 899,
+  "total_tokens": 1382,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 344
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "der legant all fill it rises gradually to the surface, and gradually reverted its heights, thinking ama- ingly, and flinging up great flows. After attin- ing its greatest height, it gradually falls till it to daily disappoint. Building _life drama_ and boiling fipings are frequent in molt parts of the island. In many years they replied to the otherup if one he naive? The molt capital is that which is called Gray or Ccyfer, in a plain rifling into final hills, and in the multi of an amphitheater, bounded by the molt marg- infeces and various shaped the mountains’s among which the three-headed Hechs fears pre-eminent. See TerLANN, N 4——Their there's not confined to the land, they rife in the very few, and form feuling fourstairs amidth the waves. Their dithers from the land is unknown, but she ever vulnerable, twelve molds off the point of Kickeness, emitting fire and froke, proves that the observations fires and wa- ters extend to that space; for those avoid effects safe from the united fury of their two elements.",
+  "modern": "der legant all fill it rises gradually to the surface, and gradually reverted its heights, thinking amazingly, and flinging up great flows. After attaining its greatest height, it gradually falls till it to daily disappoint. Building life drama and boiling fipings are frequent in most parts of the island. In many years they replied to the otherup if one he naive? The most capital is that which is called Gray or Ccyfer, in a plain rifling into final hills, and in the multi of an amphitheater, bounded by the most margins and various shaped the mountains’s among which the three-headed Hechs fears pre-eminent. See TerLANN, N 4——Their there's not confined to the land, they rife in the very few, and form feuling fourstairs amidth the waves. Their dithers from the land is unknown, but she ever vulnerable, twelve molds off the point of Kickeness, emitting fire and froke, proves that the observations fires and waters extend to that space; for those avoid effects safe from the united fury of their two elements."
+ },
+ "error": null
+}

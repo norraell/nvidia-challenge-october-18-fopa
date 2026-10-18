@@ -1,0 +1,31 @@
+{
+ "key": "87c9e4312aee4cbb844542a0c3e011a3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Dass. Let ED and FB represent two diverging rays flowing from the point 3 as a radiant, which was the imaginary focus of the incident rays in the forgoing cafe. Then an SD as in the cafe selected with anDR, FD will be reflected into DR(, (for the region unem- tioned in Cafc the feecond), lo that the refleted ray will proceed as from the point 3, but it cane demon- flatred in the cafe manufacturing forceing, that RB is to FB as CR to CF; that is, the distance of the fo-cus from the surface is to that of the radiant from the fame, as the distance of the former from the centre is to that of the latter from the fame. _@E.D._",
+ "content": "{\n  \"faithful\": \"Dass. Let ED and FB represent two diverging rays flowing from the point 3 as a radiant, which was the imaginary focus of the incident rays in the forgoing cafe. Then an SD as in the cafe selected with anDR, FD will be reflected into DR(, (for the region unem- tioned in Cafc the feecond), lo that the refleted ray will proceed as from the point 3, but it cane demon- flatred in the cafe manufacturing forceing, that RB is to FB as CR to CF; that is, the distance of the fo-cus from the surface is to that of the radiant from the fame, as the distance of the former from the centre is to that of the latter from the fame. _@E.D._\",\n  \"modern\": \"Dass. Let ED and FB represent two diverging rays flowing from the point 3 as a radiant, which was the imaginary focus of the incident rays in the foregoing cafe. Then an SD as in the cafe selected with anDR, FD will be reflected into DR(, (for the region unmentioned in Cafe the second), so that the reflected ray will proceed as from the point 3, but it can be demonstrated in the cafe manufacturing forcing, that RB is to FB as CR to CF; that is, the distance of the focus from the surface is to that of the radiant from the same, as the distance of the former from the centre is to that of the latter from the same. @E.D.\"\n}",
+ "usage": {
+  "completion_tokens": 325,
+  "prompt_tokens": 750,
+  "total_tokens": 1075,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Dass. Let ED and FB represent two diverging rays flowing from the point 3 as a radiant, which was the imaginary focus of the incident rays in the forgoing cafe. Then an SD as in the cafe selected with anDR, FD will be reflected into DR(, (for the region unem- tioned in Cafc the feecond), lo that the refleted ray will proceed as from the point 3, but it cane demon- flatred in the cafe manufacturing forceing, that RB is to FB as CR to CF; that is, the distance of the fo-cus from the surface is to that of the radiant from the fame, as the distance of the former from the centre is to that of the latter from the fame. _@E.D._",
+  "modern": "Dass. Let ED and FB represent two diverging rays flowing from the point 3 as a radiant, which was the imaginary focus of the incident rays in the foregoing cafe. Then an SD as in the cafe selected with anDR, FD will be reflected into DR(, (for the region unmentioned in Cafe the second), so that the reflected ray will proceed as from the point 3, but it can be demonstrated in the cafe manufacturing forcing, that RB is to FB as CR to CF; that is, the distance of the focus from the surface is to that of the radiant from the same, as the distance of the former from the centre is to that of the latter from the same. @E.D."
+ },
+ "error": null
+}

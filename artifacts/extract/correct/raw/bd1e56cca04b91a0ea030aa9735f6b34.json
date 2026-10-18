@@ -1,0 +1,31 @@
+{
+ "key": "bd1e56cca04b91a0ea030aa9735f6b34",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Meff: Homberg and Lemeri have given the most pro-hable and the molt natural explanation of the course of the acordion and other phenomena of the pholphorus. What they lay amounts in floors or what follows.",
+ "content": "{\n  \"faithful\": \"Meff: Homberg and Lemeri have given the most probable and the most natural explanation of the course of the accordion and other phenomena of the phosphorus. What they lay amounts in floors or what follows.\",\n  \"modern\": \"Mess: Homberg and Lemeri have given the most probable and the most natural explanation of the course of the accordion and other phenomena of the phosphorus. What they say amounts in short to what follows.\"\n}",
+ "usage": {
+  "completion_tokens": 98,
+  "prompt_tokens": 629,
+  "total_tokens": 727,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Meff: Homberg and Lemeri have given the most probable and the most natural explanation of the course of the accordion and other phenomena of the phosphorus. What they lay amounts in floors or what follows.",
+  "modern": "Mess: Homberg and Lemeri have given the most probable and the most natural explanation of the course of the accordion and other phenomena of the phosphorus. What they say amounts in short to what follows."
+ },
+ "error": null
+}

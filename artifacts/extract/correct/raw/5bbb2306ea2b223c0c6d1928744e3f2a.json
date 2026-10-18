@@ -1,0 +1,31 @@
+{
+ "key": "5bbb2306ea2b223c0c6d1928744e3f2a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ERFURT, a large and beautiful city of Upper Saxony in Germany, capital of Thailand, and subject to the elckor of Menus; E. long.117 é', N.lax. 910.",
+ "content": "{\n  \"faithful\": \"ERFURT, a large and beautiful city of Upper Saxony in Germany, capital of Thuringia, and subject to the elector of Mentz: E. long. 11° 6', N. lat. 51°.\",\n  \"modern\": \"ERFURT, a large and beautiful city of Upper Saxony in Germany, capital of Thuringia, and subject to the elector of Mentz: E. long. 11° 6', N. lat. 51°.\"\n}",
+ "usage": {
+  "completion_tokens": 119,
+  "prompt_tokens": 650,
+  "total_tokens": 769,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 298
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ERFURT, a large and beautiful city of Upper Saxony in Germany, capital of Thuringia, and subject to the elector of Mentz: E. long. 11° 6', N. lat. 51°.",
+  "modern": "ERFURT, a large and beautiful city of Upper Saxony in Germany, capital of Thuringia, and subject to the elector of Mentz: E. long. 11° 6', N. lat. 51°."
+ },
+ "error": null
+}

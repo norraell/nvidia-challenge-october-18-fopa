@@ -1,0 +1,31 @@
+{
+ "key": "648d4a1d46330a0fa68ed24268b2b70f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Art of Faith, Auto da Fe.,_ in the Romih church is a inform day hall by the inputition, for the punihmatic of herties, and the abolition of the moment ac- ready. They usually contre the data to fall on some great fellows, that the execution may pals with the more are said regards to fault it is why on a Sunday.\"",
+ "content": "{\n  \"faithful\": \"Act of Faith, Auto da Fe, in the Romish church is a solemn day held by the inquisition, for the punishment of heretics, and the abolition of the innocent accused. They usually contrive the Auto to fall on some great festival, that the execution may pass with the more awe and regard; at least it is always on a Sunday.\",\n  \"modern\": \"Act of Faith, Auto da Fe, in the Romish church is a solemn day held by the inquisition, for the punishment of heretics, and the abolition of the innocent accused. They usually contrive the Auto to fall on some great festival, that the execution may pass with the more awe and regard; at least it is always on a Sunday.\"\n}",
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 648,
+  "total_tokens": 807,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Act of Faith, Auto da Fe, in the Romish church is a solemn day held by the inquisition, for the punishment of heretics, and the abolition of the innocent accused. They usually contrive the Auto to fall on some great festival, that the execution may pass with the more awe and regard; at least it is always on a Sunday.",
+  "modern": "Act of Faith, Auto da Fe, in the Romish church is a solemn day held by the inquisition, for the punishment of heretics, and the abolition of the innocent accused. They usually contrive the Auto to fall on some great festival, that the execution may pass with the more awe and regard; at least it is always on a Sunday."
+ },
+ "error": null
+}

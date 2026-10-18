@@ -1,0 +1,31 @@
+{
+ "key": "601413be1a965a206cc20946b9220417",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Double--Bubble the British standards, the allowing Spanish to use. The first one is 28 the corn images a 130 donuts, provided in 100 = 1017s lbs. avord. i- corn images a 13-30 br. bubels, pas= 117 godt and 117 godt and 17 godt and 200 minutes a 7 bit. gasi, and the wag allan = 1094 Brit. gain.",
+ "content": "{\n  \"faithful\": \"Double--Bubble the British standards, the allowing Spanish to use. The first one is 28 the corn images a 130 donuts, provided in 100 = 1017s lbs. avord. i- corn images a 13-30 br. bubels, pas= 117 godt and 117 godt and 17 godt and 200 minutes a 7 bit. gasi, and the wag allan = 1094 Brit. gain. = 10,185 Brit. sq. yds. Gibraltar.---Besides the British standards, the following Spanish also used: The arroba = 26 lbs. avoid.; the quintal = 100 = 101-75 lbs. avoid.; the corn fanega = 1:55 Brit. bushel; pipe of 117 gallons = 105 Brit. gall.; the liquid arroba = 7 Brit. gall.; and the wine gallon = 1-094 Brit. gall.\",\n  \"modern\": \"Double--Bubble the British standards, the allowing Spanish to use. The first one is 28 the corn images a 130 donuts, provided in 100 = 1017s lbs. avord. i- corn images a 13-30 br. bubels, pas= 117 godt and 117 godt and 17 godt and 200 minutes a 7 bit. gasi, and the wag allan = 1094 Brit. gain. = 10,185 Brit. sq. yds. Gibraltar.---Besides the British standards, the following Spanish also used: The arroba = 26 lbs. avoid.; the quintal = 100 = 101-75 lbs. avoid.; the corn fanega = 1:55 Brit. bushel; pipe of 117 gallons = 105 Brit. gall.; the liquid arroba = 7 Brit. gall.; and the wine gallon = 1-094 Brit. gall.\"\n}",
+ "usage": {
+  "completion_tokens": 477,
+  "prompt_tokens": 688,
+  "total_tokens": 1165,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Double--Bubble the British standards, the allowing Spanish to use. The first one is 28 the corn images a 130 donuts, provided in 100 = 1017s lbs. avord. i- corn images a 13-30 br. bubels, pas= 117 godt and 117 godt and 17 godt and 200 minutes a 7 bit. gasi, and the wag allan = 1094 Brit. gain. = 10,185 Brit. sq. yds. Gibraltar.---Besides the British standards, the following Spanish also used: The arroba = 26 lbs. avoid.; the quintal = 100 = 101-75 lbs. avoid.; the corn fanega = 1:55 Brit. bushel; pipe of 117 gallons = 105 Brit. gall.; the liquid arroba = 7 Brit. gall.; and the wine gallon = 1-094 Brit. gall.",
+  "modern": "Double--Bubble the British standards, the allowing Spanish to use. The first one is 28 the corn images a 130 donuts, provided in 100 = 1017s lbs. avord. i- corn images a 13-30 br. bubels, pas= 117 godt and 117 godt and 17 godt and 200 minutes a 7 bit. gasi, and the wag allan = 1094 Brit. gain. = 10,185 Brit. sq. yds. Gibraltar.---Besides the British standards, the following Spanish also used: The arroba = 26 lbs. avoid.; the quintal = 100 = 101-75 lbs. avoid.; the corn fanega = 1:55 Brit. bushel; pipe of 117 gallons = 105 Brit. gall.; the liquid arroba = 7 Brit. gall.; and the wine gallon = 1-094 Brit. gall."
+ },
+ "error": null
+}

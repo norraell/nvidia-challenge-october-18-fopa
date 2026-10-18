@@ -1,0 +1,31 @@
+{
+ "key": "31edcddd5d046827fc82183500ded93c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Chiraly, and they extend their influence equally through the whole fyllem. Difference of armour, and different modes of military dielpilings, produce difinition of orders among those who prouddle the anti of war, while other circumburse originating from the false general centes, creation familiar changes to take place amid the political peace.",
+ "content": "{\n  \"faithful\": \"Chivalry, and they extend their influence equally through the whole fyftem. Difference of armour, and different modes of military difcipline, produce diftinction of orders among thofe who practife the arts of war; while other circumftances, originating from the fame general caufe, occafion fimilar changes to take place amid the fcene of peace.\",\n  \"modern\": \"Chivalry, and they extend their influence equally through the whole system. Difference of armour, and different modes of military discipline, produce distinction of orders among those who practise the arts of war; while other circumstances, originating from the same general cause, occasion similar changes to take place amid the scene of peace.\"\n}",
+ "usage": {
+  "completion_tokens": 156,
+  "prompt_tokens": 653,
+  "total_tokens": 809,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Chivalry, and they extend their influence equally through the whole fyftem. Difference of armour, and different modes of military difcipline, produce diftinction of orders among thofe who practife the arts of war; while other circumftances, originating from the fame general caufe, occafion fimilar changes to take place amid the fcene of peace.",
+  "modern": "Chivalry, and they extend their influence equally through the whole system. Difference of armour, and different modes of military discipline, produce distinction of orders among those who practise the arts of war; while other circumstances, originating from the same general cause, occasion similar changes to take place amid the scene of peace."
+ },
+ "error": null
+}

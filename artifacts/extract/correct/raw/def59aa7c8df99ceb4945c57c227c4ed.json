@@ -1,0 +1,31 @@
+{
+ "key": "def59aa7c8df99ceb4945c57c227c4ed",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "A T reads—timber is then introduced into each rhombed, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The trust--pieces so in- tended into one rhombed, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the autumn, and extension of the various ties.",
+ "content": "{\n  \"faithful\": \"A truss-timber is then introduced into each rhomboid, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The truss-pieces so introduced into one rhomboid, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the abutments, and extension of the various ties.\",\n  \"modern\": \"A truss-timber is then introduced into each rhomboid, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The truss-pieces so introduced into one rhomboid, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the abutments, and extension of the various ties.\"\n}",
+ "usage": {
+  "completion_tokens": 205,
+  "prompt_tokens": 657,
+  "total_tokens": 862,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "A truss-timber is then introduced into each rhomboid, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The truss-pieces so introduced into one rhomboid, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the abutments, and extension of the various ties.",
+  "modern": "A truss-timber is then introduced into each rhomboid, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The truss-pieces so introduced into one rhomboid, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the abutments, and extension of the various ties."
+ },
+ "error": null
+}

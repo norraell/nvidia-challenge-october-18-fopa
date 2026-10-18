@@ -1,0 +1,31 @@
+{
+ "key": "47a40eadb7a41f1cd6bcc9e1bd2e38e0",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "or formed in the mind of the artful, whereby he con-Kempêl did his work. Such is the idea of Center, which a painter has in his mind when he goes to make a picture of Cedar.",
+ "content": "{\n  \"faithful\": \"formed in the mind of the artif, whereby he con- fects his work. Such is the idea of Cefar, which a painter has in his mind when he goes to make a picture of Cefar. Exemplification of Letters Patent, denotes Exercise.\",\n  \"modern\": \"formed in the mind of the artist, whereby he conducts his work. Such is the idea of Caesar, which a painter has in his mind when he goes to make a picture of Caesar. Exemplification of Letters Patent, denotes Exercise.\"\n}",
+ "usage": {
+  "completion_tokens": 119,
+  "prompt_tokens": 620,
+  "total_tokens": 739,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 274
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "formed in the mind of the artif, whereby he con- fects his work. Such is the idea of Cefar, which a painter has in his mind when he goes to make a picture of Cefar. Exemplification of Letters Patent, denotes Exercise.",
+  "modern": "formed in the mind of the artist, whereby he conducts his work. Such is the idea of Caesar, which a painter has in his mind when he goes to make a picture of Caesar. Exemplification of Letters Patent, denotes Exercise."
+ },
+ "error": null
+}

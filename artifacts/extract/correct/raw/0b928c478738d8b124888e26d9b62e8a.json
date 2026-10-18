@@ -1,0 +1,31 @@
+{
+ "key": "0b928c478738d8b124888e26d9b62e8a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Horas is alo old in the military language, to cees\npets the country or the body of folders who feevo on\nhorfeback.",
+ "content": "{\n  \"faithful\": \"Horse is alfo ufed in the military language, to exprefs the cavalry; or the body of foldiers who ferve on horfeback.\",\n  \"modern\": \"Horse is also used in the military language, to express the cavalry; or the body of soldiers who serve on horseback.\"\n}",
+ "usage": {
+  "completion_tokens": 74,
+  "prompt_tokens": 601,
+  "total_tokens": 675,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Horse is alfo ufed in the military language, to exprefs the cavalry; or the body of foldiers who ferve on horfeback.",
+  "modern": "Horse is also used in the military language, to express the cavalry; or the body of soldiers who serve on horseback."
+ },
+ "error": null
+}

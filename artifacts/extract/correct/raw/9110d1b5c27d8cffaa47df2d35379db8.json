@@ -1,0 +1,31 @@
+{
+ "key": "9110d1b5c27d8cffaa47df2d35379db8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The career of Seleucus in the east was stopped by Antiguous, who prepared to invade the western part of his dominions. The former washer to obliged to conclude a treaty with Sandrocuttos, whom he allowed to remain in quietness of his territories but Dr. Robertson is of opining, that during the lifetime of Seleucus, which continued 23 years after the death of Alexander, in domination of the Macedonia that territories of the place. With a view of keeping up a friendly intercourse with the Indian prime, Selecus sent Magistrates, one of Alexander officers on Pallethorn, capital of the kingdom of the Pacificholders. situated on the banks of the Ganges. This city is by Dr. Robertson supposed to be the modern Allahabad, seated at the codlox of the Jimna and Gangos coun-",
+ "content": "{\n  \"faithful\": \"The career of Seleucus in the east was stopped by Antiguous, who prepared to invade the western part of his dominions. The former washer to obliged to conclude a treaty with Sandrocuttos, whom he allowed to remain in quietness of his territories but Dr. Robertson is of opining, that during the lifetime of Seleucus, which continued 23 years after the death of Alexander, in domination of the Macedonia that territories of the place. With a view of keeping up a friendly intercourse with the Indian prime, Selecus sent Magistrates, one of Alexander officers on Pallethorn, capital of the kingdom of the Pacificholders. situated on the banks of the Ganges. This city is by Dr. Robertson supposed to be the modern Allahabad, seated at the codlox of the Jimna and Gangos coun-\",\n  \"modern\": \"The career of Seleucus in the east was stopped by Antiguous, who prepared to invade the western part of his dominions. The former washer to obliged to conclude a treaty with Sandrocuttos, whom he allowed to remain in quietness of his territories but Dr. Robertson is of opining, that during the lifetime of Seleucus, which continued 23 years after the death of Alexander, in domination of the Macedonia that territories of the place. With a view of keeping up a friendly intercourse with the Indian prime, Selecus sent Magistrates, one of Alexander officers on Pallethorn, capital of the kingdom of the Pacificholders. situated on the banks of the Ganges. This city is by Dr. Robertson supposed to be the modern Allahabad, seated at the codlox of the Jimna and Gangos coun-\"\n}",
+ "usage": {
+  "completion_tokens": 363,
+  "prompt_tokens": 761,
+  "total_tokens": 1124,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 287
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The career of Seleucus in the east was stopped by Antiguous, who prepared to invade the western part of his dominions. The former washer to obliged to conclude a treaty with Sandrocuttos, whom he allowed to remain in quietness of his territories but Dr. Robertson is of opining, that during the lifetime of Seleucus, which continued 23 years after the death of Alexander, in domination of the Macedonia that territories of the place. With a view of keeping up a friendly intercourse with the Indian prime, Selecus sent Magistrates, one of Alexander officers on Pallethorn, capital of the kingdom of the Pacificholders. situated on the banks of the Ganges. This city is by Dr. Robertson supposed to be the modern Allahabad, seated at the codlox of the Jimna and Gangos coun-",
+  "modern": "The career of Seleucus in the east was stopped by Antiguous, who prepared to invade the western part of his dominions. The former washer to obliged to conclude a treaty with Sandrocuttos, whom he allowed to remain in quietness of his territories but Dr. Robertson is of opining, that during the lifetime of Seleucus, which continued 23 years after the death of Alexander, in domination of the Macedonia that territories of the place. With a view of keeping up a friendly intercourse with the Indian prime, Selecus sent Magistrates, one of Alexander officers on Pallethorn, capital of the kingdom of the Pacificholders. situated on the banks of the Ganges. This city is by Dr. Robertson supposed to be the modern Allahabad, seated at the codlox of the Jimna and Gangos coun-"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "80631f4428c81d32c71c080961aae9e6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "We mention just now, that the acid of the alum quirs its balls, in order to form a fulphur by combining with the phoglition of the coal. This little we know to be an earth outside of being converted into lime, and that it is actually converted into quick-line by the calcination receifty to produce the phofhorus. We know that new made line, faith the property of writing with water to readily, that it thereby contradicts a very great degree of heat. Now when this phofhorus, which is partly continued of the basis of the alarm contained into quick-lines, is stopped to the salt, the time infanulty athetis the moilture of which the air is always full, and by this means, probably, grows to hot as to fire the fulphur which it is mixed. Perhaps also the acid of the alum is not totally changed into fulphur. Some parts thereof may be, only half-disfangged from its lands, and in that condition be capable of attracting flowingly the humidity of the air, of growing very hot likemically by up- bibing the moilture, and fo of contributing to the accen- fon of the phofhorus.",
+ "content": "{\n  \"faithful\": \"We mention just now, that the acid of the alum quirs its balls, in order to form a fulphur by combining with the phoglition of the coal. This little we know to be an earth outside of being converted into lime, and that it is actually converted into quick-line by the calcination receifty to produce the phofhorus. We know that new made line, faith the property of writing with water to readily, that it thereby contradicts a very great degree of heat. Now when this phofhorus, which is partly continued of the basis of the alarm contained into quick-lines, is stopped to the salt, the time infanulty athetis the moilture of which the air is always full, and by this means, probably, grows to hot as to fire the fulphur which it is mixed. Perhaps also the acid of the alum is not totally changed into fulphur. Some parts thereof may be, only half-disfangged from its lands, and in that condition be capable of attracting flowingly the humidity of the air, of growing very hot likemically by up- bibing the moilture, and fo of contributing to the accen- fon of the phofhorus.\",\n  \"modern\": \"We mention just now, that the acid of the alum quirs its balls, in order to form a sulphur by combining with the phlogiston of the coal. This little we know to be an earth outside of being converted into lime, and that it is actually converted into quick-lime by the calcination requisite to produce the phosphorus. We know that new made lime, faith the property of uniting with water readily, that it thereby contracts a very great degree of heat. Now when this phosphorus, which is partly constituted of the basis of the alum contained into quick-limes, is exposed to the air, the lime instantly attracts the moisture of which the air is always full, and by this means, probably, grows so hot as to fire the sulphur with which it is mixed. Perhaps also the acid of the alum is not totally changed into sulphur: some part thereof may be only half-disengaged from its basis, and in that condition be capable of attracting strongly the humidity of the air, of growing very hot likewise by imbibing the moisture, and so of contributing to the accession of the phosphorus.\"\n}",
+ "usage": {
+  "completion_tokens": 499,
+  "prompt_tokens": 977,
+  "total_tokens": 1476,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 420
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "We mention just now, that the acid of the alum quirs its balls, in order to form a fulphur by combining with the phoglition of the coal. This little we know to be an earth outside of being converted into lime, and that it is actually converted into quick-line by the calcination receifty to produce the phofhorus. We know that new made line, faith the property of writing with water to readily, that it thereby contradicts a very great degree of heat. Now when this phofhorus, which is partly continued of the basis of the alarm contained into quick-lines, is stopped to the salt, the time infanulty athetis the moilture of which the air is always full, and by this means, probably, grows to hot as to fire the fulphur which it is mixed. Perhaps also the acid of the alum is not totally changed into fulphur. Some parts thereof may be, only half-disfangged from its lands, and in that condition be capable of attracting flowingly the humidity of the air, of growing very hot likemically by up- bibing the moilture, and fo of contributing to the accen- fon of the phofhorus.",
+  "modern": "We mention just now, that the acid of the alum quirs its balls, in order to form a sulphur by combining with the phlogiston of the coal. This little we know to be an earth outside of being converted into lime, and that it is actually converted into quick-lime by the calcination requisite to produce the phosphorus. We know that new made lime, faith the property of uniting with water readily, that it thereby contracts a very great degree of heat. Now when this phosphorus, which is partly constituted of the basis of the alum contained into quick-limes, is exposed to the air, the lime instantly attracts the moisture of which the air is always full, and by this means, probably, grows so hot as to fire the sulphur with which it is mixed. Perhaps also the acid of the alum is not totally changed into sulphur: some part thereof may be only half-disengaged from its basis, and in that condition be capable of attracting strongly the humidity of the air, of growing very hot likewise by imbibing the moisture, and so of contributing to the accession of the phosphorus."
+ },
+ "error": null
+}

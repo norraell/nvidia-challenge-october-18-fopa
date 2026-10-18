@@ -1,0 +1,31 @@
+{
+ "key": "06d5bc5c13b539fdeacd40e047ab99ed",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1. _Disputatio de Harmoniá prestabilità_, Tubingen, 1723, in 40c.",
+ "content": "{\n  \"faithful\": \"1. Disputatio de Harmoniá praestabilitá, Tubingen, 1721, in 4to.\",\n  \"modern\": \"1. Disputatio de Harmonia praestabilita, Tubingen, 1721, in 4to.\"\n}",
+ "usage": {
+  "completion_tokens": 71,
+  "prompt_tokens": 618,
+  "total_tokens": 689,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1. Disputatio de Harmoniá praestabilitá, Tubingen, 1721, in 4to.",
+  "modern": "1. Disputatio de Harmonia praestabilita, Tubingen, 1721, in 4to."
+ },
+ "error": null
+}

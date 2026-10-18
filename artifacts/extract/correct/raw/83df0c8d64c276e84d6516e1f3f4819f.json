@@ -1,0 +1,31 @@
+{
+ "key": "83df0c8d64c276e84d6516e1f3f4819f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The number of sacert verbren is still more various\neven in the species of the same genus. Thus, while in\nseveral of the age genes, in the left; in the trampve hat,\nthe colour (globallyblack); the coat), and wre of the\ndielab, there is one sacert whether only most of the\napes have _actors_ consisting of 2, 3, 4, 5, or 6 pieces; the\nmajority of other animals have a secret verbetering the\nhedgebo; preciping, guinea pigs place, bare, tiger, several\nof the murine genes, the anti-acute rhinoceros, canal, dro-\nmedary, damos, goat, donkey, and es, have 1s the chiq\nphant has 5; the di 6; the _Email:_ 7; and in the mole,\nwhile bear any ange, they sea amount to . The\nopancy of the three sacral verbeter than the bore animals\nshows that Galen, who ascribes only 3 to the human sub-\nject, must have derived this reference from the female.",
+ "content": "{\n  \"faithful\": \"The number of sacral vertebrae is still more various even in the species of the same genus. Thus, while in several of the ape genus, in the lori, in the vampire bat, the colugo (galepithecus), the coati, and two of the didelphis, there is one sacral vertebra only; most of the apes have sacra consisting of 2, 3, 4, 5, or 6 pieces; the majority of other animals have 3 sacral vertebrae; the hedgehog, porcupine, guinea pig, paca, hare, tiger, several of the murine genus, the ant-eater, rhinoceros, camel, dromedary, chamois, goat, sheep, and ox, have 4; the elephant has 5; the Ai 6; the Unau 7; and in the mole, white bear, and quagga, they also amount to 7. The frequency of the three sacral vertebrae in the lower animals shows that Galen, who ascribes only 3 to the human subject, must have derived this inference from the former.\",\n  \"modern\": \"The number of sacral vertebrae is still more various even in the species of the same genus. Thus, while in several of the ape genus, in the lori, in the vampire bat, the colugo (galepithecus), the coati, and two of the didelphis, there is one sacral vertebra only; most of the apes have sacra consisting of 2, 3, 4, 5, or 6 pieces; the majority of other animals have 3 sacral vertebrae; the hedgehog, porcupine, guinea pig, paca, hare, tiger, several of the murine genus, the ant-eater, rhinoceros, camel, dromedary, chamois, goat, sheep, and ox, have 4; the elephant has 5; the Ai 6; the Unau 7; and in the mole, white bear, and quagga, they also amount to 7. The frequency of the three sacral vertebrae in the lower animals shows that Galen, who ascribes only 3 to the human subject, must have derived this inference from the former.\"\n}",
+ "usage": {
+  "completion_tokens": 489,
+  "prompt_tokens": 848,
+  "total_tokens": 1337,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 301
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The number of sacral vertebrae is still more various even in the species of the same genus. Thus, while in several of the ape genus, in the lori, in the vampire bat, the colugo (galepithecus), the coati, and two of the didelphis, there is one sacral vertebra only; most of the apes have sacra consisting of 2, 3, 4, 5, or 6 pieces; the majority of other animals have 3 sacral vertebrae; the hedgehog, porcupine, guinea pig, paca, hare, tiger, several of the murine genus, the ant-eater, rhinoceros, camel, dromedary, chamois, goat, sheep, and ox, have 4; the elephant has 5; the Ai 6; the Unau 7; and in the mole, white bear, and quagga, they also amount to 7. The frequency of the three sacral vertebrae in the lower animals shows that Galen, who ascribes only 3 to the human subject, must have derived this inference from the former.",
+  "modern": "The number of sacral vertebrae is still more various even in the species of the same genus. Thus, while in several of the ape genus, in the lori, in the vampire bat, the colugo (galepithecus), the coati, and two of the didelphis, there is one sacral vertebra only; most of the apes have sacra consisting of 2, 3, 4, 5, or 6 pieces; the majority of other animals have 3 sacral vertebrae; the hedgehog, porcupine, guinea pig, paca, hare, tiger, several of the murine genus, the ant-eater, rhinoceros, camel, dromedary, chamois, goat, sheep, and ox, have 4; the elephant has 5; the Ai 6; the Unau 7; and in the mole, white bear, and quagga, they also amount to 7. The frequency of the three sacral vertebrae in the lower animals shows that Galen, who ascribes only 3 to the human subject, must have derived this inference from the former."
+ },
+ "error": null
+}

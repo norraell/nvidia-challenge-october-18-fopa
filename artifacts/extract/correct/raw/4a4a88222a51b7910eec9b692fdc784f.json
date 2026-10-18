@@ -1,0 +1,31 @@
+{
+ "key": "4a4a88222a51b7910eec9b692fdc784f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_The colours of homogeneous light are called primary or female colours ; and thief of heterogeneous light are called secondary or mixed._",
+ "content": "{\n  \"faithful\": \"The colours of homogeneous light are called primary or simple colours ; and thofe of heterogeneous light are called secondary or mixed.\",\n  \"modern\": \"The colours of homogeneous light are called primary or simple colours ; and those of heterogeneous light are called secondary or mixed.\"\n}",
+ "usage": {
+  "completion_tokens": 63,
+  "prompt_tokens": 622,
+  "total_tokens": 685,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 298
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The colours of homogeneous light are called primary or simple colours ; and thofe of heterogeneous light are called secondary or mixed.",
+  "modern": "The colours of homogeneous light are called primary or simple colours ; and those of heterogeneous light are called secondary or mixed."
+ },
+ "error": null
+}

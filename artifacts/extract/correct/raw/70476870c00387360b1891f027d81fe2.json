@@ -1,0 +1,31 @@
+{
+ "key": "70476870c00387360b1891f027d81fe2",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When fish an ample area for renowned adventure in ori-gird attempts lies before on, frail we be as mere denim types, conserving to the prent age final fireman of ex- excellence from its grand referoir in antiquity; and thole too perhaps mudded in the pafs / Originals due likeoc-nuts; have no more teeth and, yet stalled by none, and the gaze of all: all other compotions (if they hine at all) fine in clafers; like the flies in the galaxy; where, like bad neighbours, all suffer from all; each particular being diminished, and should loft in the thing.",
+ "content": "{\n  \"faithful\": \"When fuch an ample area for renowned adventure in original attempts lies before us, fhall we be as mere leaden pipes, conveying to the prefent age fmall ftreams of excellence from its grand refervoir in antiquity; and thofe too perhaps mudded in the pafs? Originals fhine like comets; have no peer in their path; are rivalled by none, and the gaze of all: all other compofitions (if they fhine at all) fhine in clufters; like the ftars in the galaxy; where, like bad neighbours, all fuffer from all; each particular being diminished, and almoft loft in the throng.\",\n  \"modern\": \"When such an ample area for renowned adventure in original attempts lies before us, shall we be as mere leaden pipes, conveying to the present age small streams of excellence from its grand reservoir in antiquity; and those too perhaps mudded in the pass? Originals shine like comets; have no peer in their path; are rivalled by none, and the gaze of all: all other compositions (if they shine at all) shine in clusters; like the stars in the galaxy; where, like bad neighbours, all suffer from all; each particular being diminished, and almost lost in the throng.\"\n}",
+ "usage": {
+  "completion_tokens": 283,
+  "prompt_tokens": 726,
+  "total_tokens": 1009,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When fuch an ample area for renowned adventure in original attempts lies before us, fhall we be as mere leaden pipes, conveying to the prefent age fmall ftreams of excellence from its grand refervoir in antiquity; and thofe too perhaps mudded in the pafs? Originals fhine like comets; have no peer in their path; are rivalled by none, and the gaze of all: all other compofitions (if they fhine at all) fhine in clufters; like the ftars in the galaxy; where, like bad neighbours, all fuffer from all; each particular being diminished, and almoft loft in the throng.",
+  "modern": "When such an ample area for renowned adventure in original attempts lies before us, shall we be as mere leaden pipes, conveying to the present age small streams of excellence from its grand reservoir in antiquity; and those too perhaps mudded in the pass? Originals shine like comets; have no peer in their path; are rivalled by none, and the gaze of all: all other compositions (if they shine at all) shine in clusters; like the stars in the galaxy; where, like bad neighbours, all suffer from all; each particular being diminished, and almost lost in the throng."
+ },
+ "error": null
+}

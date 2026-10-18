@@ -1,0 +1,31 @@
+{
+ "key": "78eec288e04775fd40377b944fc6a7e3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Holland...In 129, the decimal system of France was introu- ted, but with the old Dutch manufacture, be explained under the Kingdom. Of the old weights still used in any place, 10240 as a 320 engels = 16 oz. = 2 marks a Dutch lie; try to 114911 a revolves. There are also 100 in the commercial lb, a 10083 lb, avvol, and 100 commercial ls. = 1 centner. And Amsterdam has a11296, and the Bernabat or Bellen includes a th296, and the Bernabat els = 277.8 Brit. inches. Nineteen Dutch legases make one degree of the menates.",
+ "content": "{\n  \"faithful\": \"Holland...In 129, the decimal system of France was introu- ted, but with the old Dutch manufacture, be explained under the Kingdom. Of the old weights still used in any place, 10240 as a 320 engels = 16 oz. = 2 marks a Dutch lie; try to 114911 a revolves. There are also 100 in the commercial lb, a 10083 lb, avvol, and 100 commercial ls. = 1 centner. And Amsterdam has a11296, and the Bernabat or Bellen includes a th296, and the Bernabat els = 277.8 Brit. inches. Nineteen Dutch legases make one degree of the menates.\",\n  \"modern\": \"Holland...In 129, the decimal system of France was introduced, but with the old Dutch manufacture, be explained under the Kingdom. Of the old weights still used in any place, 10240 as a 320 engels = 16 oz. = 2 marks a Dutch lie; try to 114911 a revolves. There are also 100 in the commercial lb, a 10083 lb, avvol, and 100 commercial ls. = 1 centner. And Amsterdam has a11296, and the Bernabat or Bellen includes a th296, and the Bernabat els = 277.8 Brit. inches. Nineteen Dutch leagues make one degree of the meridian.\"\n}",
+ "usage": {
+  "completion_tokens": 361,
+  "prompt_tokens": 742,
+  "total_tokens": 1103,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Holland...In 129, the decimal system of France was introu- ted, but with the old Dutch manufacture, be explained under the Kingdom. Of the old weights still used in any place, 10240 as a 320 engels = 16 oz. = 2 marks a Dutch lie; try to 114911 a revolves. There are also 100 in the commercial lb, a 10083 lb, avvol, and 100 commercial ls. = 1 centner. And Amsterdam has a11296, and the Bernabat or Bellen includes a th296, and the Bernabat els = 277.8 Brit. inches. Nineteen Dutch legases make one degree of the menates.",
+  "modern": "Holland...In 129, the decimal system of France was introduced, but with the old Dutch manufacture, be explained under the Kingdom. Of the old weights still used in any place, 10240 as a 320 engels = 16 oz. = 2 marks a Dutch lie; try to 114911 a revolves. There are also 100 in the commercial lb, a 10083 lb, avvol, and 100 commercial ls. = 1 centner. And Amsterdam has a11296, and the Bernabat or Bellen includes a th296, and the Bernabat els = 277.8 Brit. inches. Nineteen Dutch leagues make one degree of the meridian."
+ },
+ "error": null
+}

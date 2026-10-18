@@ -1,0 +1,31 @@
+{
+ "key": "22eccbcf3e78f110b5d3cf98db311aee",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "At the entrance of many of the cells a small triflu-\ncus body like a bivalve shell in discovered: E. z, the\nfigure of the cell, with the fluid in it; it is of a tranfi-\nparent anber colours, do clear that one may feel the\ndead until through its repetiended by the block-\nfpot.",
+ "content": "{\n  \"faithful\": \"At the entrance of many of the cells a small tefa- ceous body like a bivalve shell is discovered : F 2, the figure of the cell, with the shell in it ; it is of a tranfi- parent amber colour, fo clear that one may fee the dead animal through it, reprefented by the black fpot.\",\n  \"modern\": \"At the entrance of many of the cells a small tefa- ceous body like a bivalve shell is discovered : F 2, the figure of the cell, with the shell in it ; it is of a transparent amber colour, so clear that one may see the dead animal through it, represented by the black spot.\"\n}",
+ "usage": {
+  "completion_tokens": 155,
+  "prompt_tokens": 668,
+  "total_tokens": 823,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "At the entrance of many of the cells a small tefa- ceous body like a bivalve shell is discovered : F 2, the figure of the cell, with the shell in it ; it is of a tranfi- parent amber colour, fo clear that one may fee the dead animal through it, reprefented by the black fpot.",
+  "modern": "At the entrance of many of the cells a small tefa- ceous body like a bivalve shell is discovered : F 2, the figure of the cell, with the shell in it ; it is of a transparent amber colour, so clear that one may see the dead animal through it, represented by the black spot."
+ },
+ "error": null
+}

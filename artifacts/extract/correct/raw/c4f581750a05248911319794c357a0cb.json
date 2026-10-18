@@ -1,0 +1,31 @@
+{
+ "key": "c4f581750a05248911319794c357a0cb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "SWORD), an effective weapon won at the file, and fer-\nating either to eat or fish. Is parts are: the handle, geard,\nand blade; to which may be added the bow, feabbard pum-\nmal,",
+ "content": "{\n  \"faithful\": \"SWORD, an offensive weapon worn at the fide, and fer- ving either to cut or ftab. Its parts are, the handle, guard, and blade; to which may be added the bow, feabbard, pum- mel, &c.\",\n  \"modern\": \"SWORD, an offensive weapon worn at the side, and serving either to cut or stab. Its parts are, the handle, guard, and blade; to which may be added the bow, scabbard, pommel, &c.\"\n}",
+ "usage": {
+  "completion_tokens": 119,
+  "prompt_tokens": 633,
+  "total_tokens": 752,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "SWORD, an offensive weapon worn at the fide, and fer- ving either to cut or ftab. Its parts are, the handle, guard, and blade; to which may be added the bow, feabbard, pum- mel, &c.",
+  "modern": "SWORD, an offensive weapon worn at the side, and serving either to cut or stab. Its parts are, the handle, guard, and blade; to which may be added the bow, scabbard, pommel, &c."
+ },
+ "error": null
+}

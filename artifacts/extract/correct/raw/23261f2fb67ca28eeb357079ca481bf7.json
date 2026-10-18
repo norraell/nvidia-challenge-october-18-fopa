@@ -1,0 +1,31 @@
+{
+ "key": "23261f2fb67ca28eeb357079ca481bf7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "But, besides the feminations that are agreeable or dilig agreeable, there is full a greater number that are insufficient. To that he we give a little attention, that they have no name, and are immediately forgotten as it they had",
+ "content": "{\n  \"faithful\": \"But, besides the fenfations that are agreeable or difagreeable, there is full a greater number that are indif- ferent. To thefe we give fo little attention, that they have no name, and are immediately forgotten as if they had\",\n  \"modern\": \"But, besides the sensations that are agreeable or disagreeable, there is full a greater number that are indifferent. To these we give so little attention, that they have no name, and are immediately forgotten as if they had\"\n}",
+ "usage": {
+  "completion_tokens": 116,
+  "prompt_tokens": 632,
+  "total_tokens": 748,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 281
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "But, besides the fenfations that are agreeable or difagreeable, there is full a greater number that are indif- ferent. To thefe we give fo little attention, that they have no name, and are immediately forgotten as if they had",
+  "modern": "But, besides the sensations that are agreeable or disagreeable, there is full a greater number that are indifferent. To these we give so little attention, that they have no name, and are immediately forgotten as if they had"
+ },
+ "error": null
+}

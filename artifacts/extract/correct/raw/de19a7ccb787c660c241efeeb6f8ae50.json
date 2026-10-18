@@ -1,0 +1,28 @@
+{
+ "key": "de19a7ccb787c660c241efeeb6f8ae50",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Let us be the velocity of a particle of the fluid in any infant, and d’ its velocity in the next instant. The velocity may be considered in compounded of d’ a”. If the particles tended to meet with the velocities d’a\"的, the whole fluid would be in equilibrium (general principle), and the preference of the fluid would be the films as it all were fragment, and each particle were urged by a force d’r, t expelling an indenticity final moment of time. (N. B. jt the proper expedition of the accelerating forces, which, by sliding during the mo- ment r, would generate the velocity d’s and d’ is lip- pooled in determining quantities different perhaps for each particle). Now that a he lopped control, or dazd. In this case d’z... That is to fix, no profile whatever will be carried on the fold body until there happen changes in the velocities or directions of the par-ticles.",
+ "content": "{\n  \"faithful\": \"Let us be the velocity of a particle of the fluid in any infant, and d’ its velocity in the next instant. The velocity may be considered in compounded of d’ a”. If the particles tended to meet with the velocities d’a\"的, the whole fluid would be in equilibrium (general principle), and the preference of the fluid would be the films as it all were fragment, and each particle were urged by a force d’r, t expelling an indenticity final moment of time. (N. B. jt the proper expedition of the accelerating forces, which, by sliding during the mo- ment r, would generate the velocity d’s and d’ is lip- pooled in determining quantities different perhaps for each particle). Now that a he lopped control, or dazd. In this case d’z... That is to fix, no profile whatever will be carried on the fold body until there happen changes in the velocities or directions of the par-ticles.\",\n  \"modern\": \"Let us be the velocity of a particle of the fluid in any infant, and d’ its velocity in the next instant. The velocity may be considered in compounded of d’ a”. If the particles tended to meet with the velocities d’a\"的, the whole fluid would be in equilibrium (general principle), and the preference of the fluid would be the films as it all were fragment, and each particle were urged by a force d’r, t expelling an indenticity final moment of time. (N. B. jt the proper expedition of the accelerating forces, which, by sliding during the mo- ment r, would generate the velocity d’s and d’ is lip- pooled in determining quantities different perhaps for each particle). Now that a he lopped control, or dazd. In this case d’z... That is to fix, no profile whatever will be carried on the fold body until there happen changes in the velocities or directions of the par-ticles.\"\n}",
+ "usage": {
+  "completion_tokens": 413,
+  "prompt_tokens": 806,
+  "total_tokens": 1219,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 306
+   }
+  }
+ },
+ "parsed": null,
+ "error": null
+}

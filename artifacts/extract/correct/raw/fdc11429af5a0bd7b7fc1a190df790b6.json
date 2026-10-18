@@ -1,0 +1,31 @@
+{
+ "key": "fdc11429af5a0bd7b7fc1a190df790b6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Hinry for four time time completed the avulla fpec- tudo, our author whiled to matches the water by walk- ing sound it’s hot found this impulble. On the north flee, the farber is hard and, though, she also having been to for diffused by the mother deposited by the finde as to cement into one uniform mafs. This is fonctions followed even once a fluid here, its fact a manner as to run down the files of the case; is, that after several attempts, he was at lab obliged to abandon his deligen.",
+ "content": "{\n  \"faithful\": \"Having for some time contemplated this awful spectacle, our author wished to measure the crater by walking round it; but found this impassible. On the north side the surface is hard and smooth, the ashes having been so far dissolved by the moisture deposited by the smoke as to cement into one uniform mass. This is sometimes dissolved even into a fluid state, in such a manner as to run down the sides of the cone; so that after several attempts, he was at last obliged to abandon his design.\",\n  \"modern\": \"Having for some time contemplated this awful spectacle, our author wished to measure the crater by walking round it; but found this impassible. On the north side the surface is hard and smooth, the ashes having been so far dissolved by the moisture deposited by the smoke as to cement into one uniform mass. This is sometimes dissolved even into a fluid state, in such a manner as to run down the sides of the cone; so that after several attempts, he was at last obliged to abandon his design.\"\n}",
+ "usage": {
+  "completion_tokens": 217,
+  "prompt_tokens": 707,
+  "total_tokens": 924,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Having for some time contemplated this awful spectacle, our author wished to measure the crater by walking round it; but found this impassible. On the north side the surface is hard and smooth, the ashes having been so far dissolved by the moisture deposited by the smoke as to cement into one uniform mass. This is sometimes dissolved even into a fluid state, in such a manner as to run down the sides of the cone; so that after several attempts, he was at last obliged to abandon his design.",
+  "modern": "Having for some time contemplated this awful spectacle, our author wished to measure the crater by walking round it; but found this impassible. On the north side the surface is hard and smooth, the ashes having been so far dissolved by the moisture deposited by the smoke as to cement into one uniform mass. This is sometimes dissolved even into a fluid state, in such a manner as to run down the sides of the cone; so that after several attempts, he was at last obliged to abandon his design."
+ },
+ "error": null
+}

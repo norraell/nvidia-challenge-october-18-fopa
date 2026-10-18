@@ -1,0 +1,31 @@
+{
+ "key": "5e035bc26a0ce5e2466d4e021675cdbf",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Sliela is divided into Upper and Lower, and each of their again into principalities and localities; of some of which both the property and justifiable belong, purity diately to the foreigners, but of others to his subjects and walks. In regard to the character of the employ the bears are accurate very dull and lupid; but of thofo of a higher rank, many have dilinguished themselves by their virtual learning, as well as by their military and political talents.",
+ "content": "{\n  \"faithful\": \"Silefia is divided into Upper and Lower, and each of thefe again into principalities and lordfhips; of fome of which both the property and jurisdiction belong immediately to the foreigner, but of others to his fubjects and vaffals. In regard to the character of the people, the boors are accounted very dull and fupid; but of thofe of a higher rank, many have diftinguifhed themfelves by their wit and learning, as well as by their military and political talents.\",\n  \"modern\": \"Silefia is divided into Upper and Lower, and each of these again into principalities and lordships; of some of which both the property and jurisdiction belong immediately to the foreigner, but of others to his subjects and vassals. In regard to the character of the people, the boors are accounted very dull and stupid; but of those of a higher rank, many have distinguished themselves by their wit and learning, as well as by their military and political talents.\"\n}",
+ "usage": {
+  "completion_tokens": 222,
+  "prompt_tokens": 673,
+  "total_tokens": 895,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Silefia is divided into Upper and Lower, and each of thefe again into principalities and lordfhips; of fome of which both the property and jurisdiction belong immediately to the foreigner, but of others to his fubjects and vaffals. In regard to the character of the people, the boors are accounted very dull and fupid; but of thofe of a higher rank, many have diftinguifhed themfelves by their wit and learning, as well as by their military and political talents.",
+  "modern": "Silefia is divided into Upper and Lower, and each of these again into principalities and lordships; of some of which both the property and jurisdiction belong immediately to the foreigner, but of others to his subjects and vassals. In regard to the character of the people, the boors are accounted very dull and stupid; but of those of a higher rank, many have distinguished themselves by their wit and learning, as well as by their military and political talents."
+ },
+ "error": null
+}

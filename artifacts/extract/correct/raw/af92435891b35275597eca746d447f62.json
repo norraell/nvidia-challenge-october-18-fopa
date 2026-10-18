@@ -1,0 +1,31 @@
+{
+ "key": "af92435891b35275597eca746d447f62",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "EXERCISE, among physicians, such an agitation of the body as produces luxury effects in the animal economy.",
+ "content": "{\n  \"faithful\": \"EXERCISE, among physicians, fuch an agitation of the body as produces faluatory effects in the animal economy.\",\n  \"modern\": \"EXERCISE, among physicians, such an agitation of the body as produces salutary effects in the animal economy.\"\n}",
+ "usage": {
+  "completion_tokens": 65,
+  "prompt_tokens": 585,
+  "total_tokens": 650,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 261
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXERCISE, among physicians, fuch an agitation of the body as produces faluatory effects in the animal economy.",
+  "modern": "EXERCISE, among physicians, such an agitation of the body as produces salutary effects in the animal economy."
+ },
+ "error": null
+}

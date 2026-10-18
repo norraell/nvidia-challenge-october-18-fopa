@@ -15,7 +15,9 @@ so "no text blocks" alone would also catch uncaptioned engravings. A page is bla
 block has text and every picture region is nearly flat (grayscale standard deviation below 15).
 Measured: blank sheets 5.9 to 12.1; the faintest real plate (a map, row 1845) 16.9; engravings 29+.
 
-Set EXTRACT_LIMIT=N to process only the first N manifest scans.
+Set EXTRACT_LIMIT=N to process only the first N manifest scans, or EXTRACT_ROWS=251,523 for chosen rows.
+Use both only with a separate --work-dir: the output files then hold only those pages.
+Set EXTRACT_CORRECT=1 to run the Super VL correction step (stages/correct.py).
 Set EXTRACT_SKIP_LATEX=1 to write the .tex files without compiling them.
 """
 from __future__ import annotations
@@ -33,11 +35,11 @@ from typing import Any
 
 from PIL import Image, ImageStat
 
-from ..clients import ParseClient, ProtocolError, ServiceError
-from ..config import PARSE_MODEL, Settings
+from ..clients import ChatClient, ParseClient, ProtocolError, RetrievalClient, ServiceError
+from ..config import PARSE_MODEL, ConfigurationError, Settings
 from ..contracts import EntryRecord, PageRecord
 from ..data import file_sha256, load_manifest
-from . import cer, latex
+from . import cer, correct, latex
 from .segment import segment
 
 MAX_IN_FLIGHT = 4
@@ -157,8 +159,12 @@ def _percentile(values: list[int], share: float) -> int | None:
 
 
 def extract(pages: list[dict[str, Any]], scan_dir: Path, work_dir: Path, client: ParseClient,
-            compile_latex: bool = False) -> dict[str, Any]:
+            compile_latex: bool = False,
+            correct_with: tuple[ChatClient, RetrievalClient | None] | None = None) -> dict[str, Any]:
     out = work_dir / "extract"
+    previous_correction = None
+    if (out / "coverage.json").is_file():
+        previous_correction = json.loads((out / "coverage.json").read_text(encoding="utf-8")).get("correction")
     raw_dir = out / "raw"
     with ThreadPoolExecutor(max_workers=MAX_IN_FLIGHT) as pool:
         raws = list(pool.map(lambda page: parse_page(client, page, scan_dir / page["filename"], raw_dir), pages))
@@ -227,7 +233,12 @@ def extract(pages: list[dict[str, Any]], scan_dir: Path, work_dir: Path, client:
 
     entries_by_id = {entry["entry_id"]: entry for entry in all_entries}
     cer_report = cer.report(page_rows, entries_by_id, out / "gold")
-    latex_report = latex.build(page_rows, entries_by_id, out, compile_pdf=compile_latex)
+    if correct_with is not None:
+        correction_report = correct.run_corrections(page_rows, all_entries, scan_dir, out, *correct_with)
+    else:
+        correction_report = previous_correction  # keep the last correction run's numbers
+    latex_report = latex.build(page_rows, entries_by_id, out, compile_pdf=compile_latex,
+                               corrections=correct.load_existing(out))
 
     def count(values: list[str]) -> dict[str, int]:
         return {value: values.count(value) for value in sorted(set(values))}
@@ -250,6 +261,8 @@ def extract(pages: list[dict[str, Any]], scan_dir: Path, work_dir: Path, client:
         "cer": cer_report,
         "latex": latex_report,
     }
+    if correction_report is not None:
+        coverage["correction"] = correction_report
     (out / "coverage.json").write_text(json.dumps(coverage, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return {"pages": len(page_rows), "pages_by_status": coverage["pages_by_status"],
             "entries": len(all_entries), "entries_by_kind": coverage["entries_by_kind"],
@@ -257,6 +270,8 @@ def extract(pages: list[dict[str, Any]], scan_dir: Path, work_dir: Path, client:
                     "missing_gold_rows": cer_report["missing_gold_rows"]},
             "latex": {key: latex_report[key] for key in ("status", "tex_files", "compiled")} | {
                 "failed": len(latex_report["failed"])},
+            "correction": {key: (correction_report or {}).get(key) for key in
+                           ("blocks_sent", "blocks_with_fallback", "faithful_word_changes", "gold")} if correction_report else None,
             "output_dir": out.as_posix()}
 
 
@@ -265,9 +280,21 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     limit = os.environ.get("EXTRACT_LIMIT", "").strip()
     if limit:
         pages = pages[: int(limit)]
+    rows = os.environ.get("EXTRACT_ROWS", "").strip()
+    if rows:  # for trial runs in a separate --work-dir: the manifest is not in row order
+        wanted = {int(row) for row in rows.split(",")}
+        pages = [page for page in pages if page["row_index"] in wanted]
     scan_dir = Path("data/raw/britannica")
     if not any(scan_dir.glob("*.jpg")):
         raise FileNotFoundError("no scans found in data/raw/britannica. Run `nemotron-challenge data fetch` first.")
+    compile_latex = os.environ.get("EXTRACT_SKIP_LATEX", "").strip() != "1"
     with ParseClient(settings.parse_base_url, settings.parse_api_key, timeout=300) as client:
-        return extract(pages, scan_dir, Path(work_dir), client,
-                       compile_latex=os.environ.get("EXTRACT_SKIP_LATEX", "").strip() != "1")
+        if os.environ.get("EXTRACT_CORRECT", "").strip() != "1":
+            return extract(pages, scan_dir, Path(work_dir), client, compile_latex=compile_latex)
+        if not settings.super_api_key:
+            raise ConfigurationError("EXTRACT_CORRECT=1 needs SUPER_API_KEY in .env (see docs/super-vl.md)")
+        with ChatClient(settings.super_base_url, settings.super_api_key, settings.super_model, timeout=300) as chat:
+            if not settings.retrieval_base_url:
+                return extract(pages, scan_dir, Path(work_dir), client, compile_latex, correct_with=(chat, None))
+            with RetrievalClient(settings.retrieval_base_url, settings.retrieval_api_key, timeout=300) as retrieval:
+                return extract(pages, scan_dir, Path(work_dir), client, compile_latex, correct_with=(chat, retrieval))

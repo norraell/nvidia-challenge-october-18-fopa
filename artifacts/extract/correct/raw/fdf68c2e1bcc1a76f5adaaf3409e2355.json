@@ -1,0 +1,31 @@
+{
+ "key": "fdf68c2e1bcc1a76f5adaaf3409e2355",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "pecially imperfect. We have no Cafar or Tacitus to Reply fields or direct reading at the Gotha nation had not yet returned to read and writes , and the Romans were to depreciled under the finite of their own milties, as to be negligent of the changes which appeared around them. But as foon as the light of bilbery begins again to dawn, we find that the leading courses of the bahacion character were not affected, but only modified in a particular manner, in consequence of their missing among a more pollid people, becoming associated with the theories of life, and acquiring extensive five power and property.",
+ "content": "{\n  \"faithful\": \"pecially imperfect. We have no Cafar or Tacitus to Reply fields or direct reading at the Gotha nation had not yet returned to read and writes , and the Romans were to depreciled under the finite of their own milties, as to be negligent of the changes which appeared around them. But as foon as the light of bilbery begins again to dawn, we find that the leading courses of the bahacion character were not affected, but only modified in a particular manner, in consequence of their missing among a more pollid people, becoming associated with the theories of life, and acquiring extensive five power and property.\",\n  \"modern\": \"especially imperfect. We have no Caesar or Tacitus to reply fields or direct reading at the Gotha nation had not yet returned to read and write, and the Romans were to be deprecated under the finite of their own militias, as to be negligent of the changes which appeared around them. But as soon as the light of bilbery begins again to dawn, we find that the leading courses of the barbarian character were not affected, but only modified in a particular manner, in consequence of their mixing among a more polished people, becoming associated with the theories of life, and acquiring extensive five power and property.\"\n}",
+ "usage": {
+  "completion_tokens": 265,
+  "prompt_tokens": 703,
+  "total_tokens": 968,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "pecially imperfect. We have no Cafar or Tacitus to Reply fields or direct reading at the Gotha nation had not yet returned to read and writes , and the Romans were to depreciled under the finite of their own milties, as to be negligent of the changes which appeared around them. But as foon as the light of bilbery begins again to dawn, we find that the leading courses of the bahacion character were not affected, but only modified in a particular manner, in consequence of their missing among a more pollid people, becoming associated with the theories of life, and acquiring extensive five power and property.",
+  "modern": "especially imperfect. We have no Caesar or Tacitus to reply fields or direct reading at the Gotha nation had not yet returned to read and write, and the Romans were to be deprecated under the finite of their own militias, as to be negligent of the changes which appeared around them. But as soon as the light of bilbery begins again to dawn, we find that the leading courses of the barbarian character were not affected, but only modified in a particular manner, in consequence of their mixing among a more polished people, becoming associated with the theories of life, and acquiring extensive five power and property."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "7e8c218803266b9c88150b20d2e11eb3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "we houls the truth of fish felt, we must all tell an -\nknowledge their probability, fines we meet every day with a number of similar examples. When we fee a\nchodply to develop numerical in thoughts to be in a\nmoment let to the outward funds, should we not imagine him to be wholly engroffed with the cure of his own private affairs, or at the public west but the do-\njed all all this product mediums in its plethora of ex-\nerdles like mind, by the movement of a piece of ivory. From this careful of the mind that writes the picture we\nw fortunities take in refined and delicate fenitments, which, after the moment of highly dependents, (_Ed\\)_\nfact of all federal, fell out case country, are sometimes strictly contested, but fo as to afford us the pleasure of dilovering them.\"",
+ "content": "{\n  \"faithful\": \"we doubt the truth of fuch facts, we muft at leaft ac- knowledge their probability, fince we meet every day with a number of similar examples. When we fee a chefs-player deeply immersed in thought as to be in a manner loft to his outward fenfes, fhould we not imag ine him to be wholly engroffed with the care of his own private affairs, or of the public weal? but the ob- ject of all this profound meditation is the pleafure of exer cifing the mind by the movement of a piece of ivory. From this exercise of the mind alfo arifes the plea fure we fometimes take in refined and delicate fentiments, which, after the manner of Virgil's fhepherdrefs, (Et fugit ad falices, fed fe cupit ante videri), are fometimes artfully concealed, but fo as to afford us the plea fure of difcovering them.\",\n  \"modern\": \"we doubt the truth of such facts, we must at least ac- knowledge their probability, since we meet every day with a number of similar examples. When we see a chess-player deeply immersed in thought as to be in a manner lost to his outward senses, should we not imagine him to be wholly engrossed with the care of his own private affairs, or of the public weal? but the object of all this profound meditation is the pleasure of exercising the mind by the movement of a piece of ivory. From this exercise of the mind also arises the pleasure we sometimes take in refined and delicate sentiments, which, after the manner of Virgil's shepherdess, (Et fugit ad salices, sed se cupit ante videri), are sometimes artfully concealed, but so as to afford us the pleasure of discovering them.\"\n}",
+ "usage": {
+  "completion_tokens": 386,
+  "prompt_tokens": 765,
+  "total_tokens": 1151,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "we doubt the truth of fuch facts, we muft at leaft ac- knowledge their probability, fince we meet every day with a number of similar examples. When we fee a chefs-player deeply immersed in thought as to be in a manner loft to his outward fenfes, fhould we not imag ine him to be wholly engroffed with the care of his own private affairs, or of the public weal? but the ob- ject of all this profound meditation is the pleafure of exer cifing the mind by the movement of a piece of ivory. From this exercise of the mind alfo arifes the plea fure we fometimes take in refined and delicate fentiments, which, after the manner of Virgil's fhepherdrefs, (Et fugit ad falices, fed fe cupit ante videri), are fometimes artfully concealed, but fo as to afford us the plea fure of difcovering them.",
+  "modern": "we doubt the truth of such facts, we must at least ac- knowledge their probability, since we meet every day with a number of similar examples. When we see a chess-player deeply immersed in thought as to be in a manner lost to his outward senses, should we not imagine him to be wholly engrossed with the care of his own private affairs, or of the public weal? but the object of all this profound meditation is the pleasure of exercising the mind by the movement of a piece of ivory. From this exercise of the mind also arises the pleasure we sometimes take in refined and delicate sentiments, which, after the manner of Virgil's shepherdess, (Et fugit ad salices, sed se cupit ante videri), are sometimes artfully concealed, but so as to afford us the pleasure of discovering them."
+ },
+ "error": null
+}

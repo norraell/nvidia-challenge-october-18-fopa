@@ -1,0 +1,31 @@
+{
+ "key": "265c942a6d542f8f03b5762682bfefc9",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The different claimants among the Grecks to the famedual differences, only proxy, that made was cul- treated in different countries, and thus the inhabitants of each country invented and improved their own in-fruments, none of which happening to celebrate those of other parts of Greece, resident it difficult for his- florions to avoid attributing the fame invention to dif- ferent periods. Thus the Eagle Rule we give to Mi- nerva, and to Marfayas theynas, or filialty, to Pan, and to Cybele, and the lyre, or citura, to Mercury, Apollo, Amphioa, Lima and Opheus. Indeed, the mere addition of a living or now to an infiltration with on a neck, was fo obvious and early, that it is scarce podible not to conceive many people to have done it at the fame time.",
+ "content": "{\n  \"faithful\": \"The different claimants among the Grecks to the famedual differences, only proxy, that made was cul- treated in different countries, and thus the inhabitants of each country invented and improved their own in-fruments, none of which happening to celebrate those of other parts of Greece, resident it difficult for his- florions to avoid attributing the fame invention to dif- ferent periods. Thus the Eagle Rule we give to Mi- nerva, and to Marfayas theynas, or filialty, to Pan, and to Cybele, and the lyre, or citura, to Mercury, Apollo, Amphioa, Lima and Opheus. Indeed, the mere addition of a living or now to an infiltration with on a neck, was fo obvious and early, that it is scarce podible not to conceive many people to have done it at the fame time.\",\n  \"modern\": \"The different claimants among the Greeks to the famedual differences, only proxy, that made was cul- treated in different countries, and thus the inhabitants of each country invented and improved their own instruments, none of which happening to celebrate those of other parts of Greece, resident it difficult for historians to avoid attributing the fame invention to different periods. Thus the Eagle Rule we give to Minerva, and to Marsyas theynas, or filialty, to Pan, and to Cybele, and the lyre, or citura, to Mercury, Apollo, Amphion, Lima and Orpheus. Indeed, the mere addition of a living or now to an infiltration with on a neck, was so obvious and early, that it is scarce possible not to conceive many people to have done it at the same time.\"\n}",
+ "usage": {
+  "completion_tokens": 358,
+  "prompt_tokens": 761,
+  "total_tokens": 1119,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The different claimants among the Grecks to the famedual differences, only proxy, that made was cul- treated in different countries, and thus the inhabitants of each country invented and improved their own in-fruments, none of which happening to celebrate those of other parts of Greece, resident it difficult for his- florions to avoid attributing the fame invention to dif- ferent periods. Thus the Eagle Rule we give to Mi- nerva, and to Marfayas theynas, or filialty, to Pan, and to Cybele, and the lyre, or citura, to Mercury, Apollo, Amphioa, Lima and Opheus. Indeed, the mere addition of a living or now to an infiltration with on a neck, was fo obvious and early, that it is scarce podible not to conceive many people to have done it at the fame time.",
+  "modern": "The different claimants among the Greeks to the famedual differences, only proxy, that made was cul- treated in different countries, and thus the inhabitants of each country invented and improved their own instruments, none of which happening to celebrate those of other parts of Greece, resident it difficult for historians to avoid attributing the fame invention to different periods. Thus the Eagle Rule we give to Minerva, and to Marsyas theynas, or filialty, to Pan, and to Cybele, and the lyre, or citura, to Mercury, Apollo, Amphion, Lima and Orpheus. Indeed, the mere addition of a living or now to an infiltration with on a neck, was so obvious and early, that it is scarce possible not to conceive many people to have done it at the same time."
+ },
+ "error": null
+}

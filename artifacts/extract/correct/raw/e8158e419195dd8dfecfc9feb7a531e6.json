@@ -1,0 +1,31 @@
+{
+ "key": "e8158e419195dd8dfecfc9feb7a531e6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Sect. I. _Of Touch._",
+ "content": "{\n  \"faithful\": \"Sect. I. _Of Touch._\",\n  \"modern\": \"Sect. I. Of Touch.\"\n}",
+ "usage": {
+  "completion_tokens": 33,
+  "prompt_tokens": 573,
+  "total_tokens": 606,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Sect. I. _Of Touch._",
+  "modern": "Sect. I. Of Touch."
+ },
+ "error": null
+}

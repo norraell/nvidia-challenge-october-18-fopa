@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:21:40+00:00",
+  "generated_at": "2026-10-18T15:41:22+00:00",
   "pages_total": 100,
   "pages_by_status": {
     "blank": 3,
@@ -1098,6 +1098,40 @@
       1615,
       2077,
       2243
+    ]
+  },
+  "correction": {
+    "status": "done",
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "prompt_version": "c2",
+    "blocks_sent": 1103,
+    "blocks_with_fallback": 147,
+    "fallback_reasons": {
+      "meaning check failed": 128,
+      "faithful version changed the word count too much": 8,
+      "reply was not the expected JSON": 9,
+      "call failed": 2
+    },
+    "entries_with_faithful_changes": 222,
+    "faithful_word_changes": 8390,
+    "modern_word_changes": 1940,
+    "meaning_check": {
+      "pairs": 549,
+      "min": 0.6379,
+      "median": 0.9521,
+      "below_threshold": 128,
+      "threshold": 0.9
+    },
+    "gold": [
+      {
+        "row_index": 251,
+        "cer_parse": 0.1383,
+        "cer_faithful": 0.0732,
+        "errors_parse": 153,
+        "errors_faithful": 81,
+        "gold_chars": 1106,
+        "overcorrected_words": 11
+      }
     ]
   }
 }

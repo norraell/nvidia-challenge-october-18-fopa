@@ -1,0 +1,31 @@
+{
+ "key": "6bd1db2783ac9ac29855c775415a98fc",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "HELLEBORUS, HELLEBORR, in botany, a genus of the polyandria polygynia clafs. I has an cally, the pe- rais are five or more; the reclaim is tubular and blue biarded; and the capital contains many feeds. There are five species, two of them native of Britain, viz. the females, or great balham black hellebore; and the visida, or wild black hellebore. The hellebors, when taken in large quantities, is polinous; but the root, in final dates, is fuppeded to attenuate the humours, and to promote urinary and uterine discharge.",
+ "content": "{\n  \"faithful\": \"HELLEBORUS, HELLEBORR, in botany, a genus of the polyandria polygynia clasfs. It has no calix; the petals are five or more; the nectarium is tubular and bilabiated; and the capsule contains many feeds. There are five species, two of them natives of Britain, viz. the fetidus, or great balfard black hellebore; and the viridis, or wild black hellebore. The hellebore, when taken in large quantities, is poisonous; but the root, in small doses, is supposed to attenuate the humours, and to promote urinary and uterine discharges.\",\n  \"modern\": \"HELLEBORUS, HELLEBORR, in botany, a genus of the polyandria polygynia class. It has no calix; the petals are five or more; the nectarium is tubular and bilabiated; and the capsule contains many feeds. There are five species, two of them natives of Britain, viz. the fetidus, or great balfard black hellebore; and the viridis, or wild black hellebore. The hellebore, when taken in large quantities, is poisonous; but the root, in small doses, is supposed to attenuate the humours, and to promote urinary and uterine discharges.\"\n}",
+ "usage": {
+  "completion_tokens": 296,
+  "prompt_tokens": 722,
+  "total_tokens": 1018,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "HELLEBORUS, HELLEBORR, in botany, a genus of the polyandria polygynia clasfs. It has no calix; the petals are five or more; the nectarium is tubular and bilabiated; and the capsule contains many feeds. There are five species, two of them natives of Britain, viz. the fetidus, or great balfard black hellebore; and the viridis, or wild black hellebore. The hellebore, when taken in large quantities, is poisonous; but the root, in small doses, is supposed to attenuate the humours, and to promote urinary and uterine discharges.",
+  "modern": "HELLEBORUS, HELLEBORR, in botany, a genus of the polyandria polygynia class. It has no calix; the petals are five or more; the nectarium is tubular and bilabiated; and the capsule contains many feeds. There are five species, two of them natives of Britain, viz. the fetidus, or great balfard black hellebore; and the viridis, or wild black hellebore. The hellebore, when taken in large quantities, is poisonous; but the root, in small doses, is supposed to attenuate the humours, and to promote urinary and uterine discharges."
+ },
+ "error": null
+}

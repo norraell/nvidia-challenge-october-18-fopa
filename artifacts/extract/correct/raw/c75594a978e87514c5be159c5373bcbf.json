@@ -1,0 +1,31 @@
+{
+ "key": "c75594a978e87514c5be159c5373bcbf",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "makes one of a group, and thinks in wretched unanity with the throng. Incumbered with the notions of others, and impoverified by their abundance, he concecites not the leaf embryo of few thoughts: open out the life wilts through the glown of ordinary writers into the bright walks of rare imagination, and singular design while the true genius is crafting all public roads into fresh untenden ground, like, up to the knees in antique try, is treading the faced foodless of great examples, with the blind-versation of a bigot faluting the papal too; comfortably hoping full: solutions for the fine on his own understanding, from the powerful charm of touching his idol's infallibility.",
+ "content": "{\n  \"faithful\": \"makes one of a group, and thinks in wretched unanimity with the throng. Incumbered with the notions of others, and impoverished by their abundance, he conceives not the least embryo of new thought; opens not the least vista through the gloom of ordinary writers, into the bright walks of rare imagination, and singular design; while the true genius is cropping all public roads into fresh untrodden ground, he, up to the knees in antiquity, is treading the faced footsteps of great examples, with the blind veneration of a bigot faling the papal toe; comfortably hoping full absolution for the fins of his own understanding, from the powerful charm of touching his idol's infallibility.\",\n  \"modern\": \"makes one of a group, and thinks in wretched unanimity with the throng. Incumbered with the notions of others, and impoverished by their abundance, he conceives not the least embryo of new thought; opens not the least vista through the gloom of ordinary writers, into the bright walks of rare imagination, and singular design; while the true genius is cropping all public roads into fresh untrodden ground, he, up to the knees in antiquity, is treading the faced footsteps of great examples, with the blind veneration of a bigot faling the papal toe; comfortably hoping full absolution for the fins of his own understanding, from the powerful charm of touching his idol's infallibility.\"\n}",
+ "usage": {
+  "completion_tokens": 313,
+  "prompt_tokens": 728,
+  "total_tokens": 1041,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "makes one of a group, and thinks in wretched unanimity with the throng. Incumbered with the notions of others, and impoverished by their abundance, he conceives not the least embryo of new thought; opens not the least vista through the gloom of ordinary writers, into the bright walks of rare imagination, and singular design; while the true genius is cropping all public roads into fresh untrodden ground, he, up to the knees in antiquity, is treading the faced footsteps of great examples, with the blind veneration of a bigot faling the papal toe; comfortably hoping full absolution for the fins of his own understanding, from the powerful charm of touching his idol's infallibility.",
+  "modern": "makes one of a group, and thinks in wretched unanimity with the throng. Incumbered with the notions of others, and impoverished by their abundance, he conceives not the least embryo of new thought; opens not the least vista through the gloom of ordinary writers, into the bright walks of rare imagination, and singular design; while the true genius is cropping all public roads into fresh untrodden ground, he, up to the knees in antiquity, is treading the faced footsteps of great examples, with the blind veneration of a bigot faling the papal toe; comfortably hoping full absolution for the fins of his own understanding, from the powerful charm of touching his idol's infallibility."
+ },
+ "error": null
+}

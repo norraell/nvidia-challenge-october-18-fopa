@@ -1,0 +1,31 @@
+{
+ "key": "5693b21fec7a046475f76cb4fdb783ab",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Geism (Britslu)—In general the same as in Britain’s, but the drawing, originally introduced by the Dutch, are also used the the Is = 100 lbs. avord. i and the ell of 26 inches = 27 Britths inches.",
+ "content": "{\n  \"faithful\": \"Geism (Britslu)—In general the same as in Britain's, but the drawing, originally introduced by the Dutch, are also used the the Is = 100 lbs. avord. i and the ell of 26 inches = 27 Britths inches. Greece.—The same as in France. Guiana (British).—In general the same as in Britain; but the following, originally introduced by the Dutch, are also used: the lb. = 1-09 lbs. avoid.; and the ell of 26 inches = 27 British inches.\",\n  \"modern\": \"Geism (British)—In general the same as in Britain's, but the drawing, originally introduced by the Dutch, are also used the the Is = 100 lbs. avord. i and the ell of 26 inches = 27 British inches. Greece.—The same as in France. Guiana (British).—In general the same as in Britain; but the following, originally introduced by the Dutch, are also used: the lb. = 1-09 lbs. avoid.; and the ell of 26 inches = 27 British inches.\"\n}",
+ "usage": {
+  "completion_tokens": 259,
+  "prompt_tokens": 636,
+  "total_tokens": 895,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Geism (Britslu)—In general the same as in Britain's, but the drawing, originally introduced by the Dutch, are also used the the Is = 100 lbs. avord. i and the ell of 26 inches = 27 Britths inches. Greece.—The same as in France. Guiana (British).—In general the same as in Britain; but the following, originally introduced by the Dutch, are also used: the lb. = 1-09 lbs. avoid.; and the ell of 26 inches = 27 British inches.",
+  "modern": "Geism (British)—In general the same as in Britain's, but the drawing, originally introduced by the Dutch, are also used the the Is = 100 lbs. avord. i and the ell of 26 inches = 27 British inches. Greece.—The same as in France. Guiana (British).—In general the same as in Britain; but the following, originally introduced by the Dutch, are also used: the lb. = 1-09 lbs. avoid.; and the ell of 26 inches = 27 British inches."
+ },
+ "error": null
+}

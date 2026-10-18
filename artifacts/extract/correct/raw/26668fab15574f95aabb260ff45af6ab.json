@@ -1,0 +1,31 @@
+{
+ "key": "26668fab15574f95aabb260ff45af6ab",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ed, we find a real fulphur flicking in the neck of the ma-tras and, while the phofhorus is burning, it hasn plainly a frong fulphuceus finally. It is therefore cer-tain, that this phofhorus contains an adult fulphur; that is, a means ofgifted to take five with the spreift safe. But though fulphur be very inflammable, it never takes fire of itself, without being either in contact with forms matter to actuality ignored, we still being expelled to a considerable degree of heat. Let us be then what may be the cause of its ascention, when it is a confitment part of the phofhorus.",
+ "content": "{\n  \"faithful\": \"ed, we find a real fulphur flicking in the neck of the ma-tras and, while the phofhorus is burning, it hasn plainly a frong fulphuceus finally. It is therefore cer-tain, that this phofhorus contains an adult fulphur; that is, a means ofgifted to take five with the spreift safe. But though fulphur be very inflammable, it never takes fire of itself, without being either in contact with forms matter to actuality ignored, we still being expelled to a considerable degree of heat. Let us be then what may be the cause of its ascention, when it is a confitment part of the phofhorus.\",\n  \"modern\": \"ed, we find a real sulfur flicking in the neck of the ma-tras and, while the phosphorus is burning, it hasn plainly a frong sulfurous finally. It is therefore certain, that this phosphorus contains an adult sulfur; that is, a means ofgifted to take five with the spreift safe. But though sulfur be very inflammable, it never takes fire of itself, without being either in contact with forms matter to actuality ignored, we still being expelled to a considerable degree of heat. Let us be then what may be the cause of its ascention, when it is a confitment part of the phosphorus.\"\n}",
+ "usage": {
+  "completion_tokens": 297,
+  "prompt_tokens": 729,
+  "total_tokens": 1026,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "ed, we find a real fulphur flicking in the neck of the ma-tras and, while the phofhorus is burning, it hasn plainly a frong fulphuceus finally. It is therefore cer-tain, that this phofhorus contains an adult fulphur; that is, a means ofgifted to take five with the spreift safe. But though fulphur be very inflammable, it never takes fire of itself, without being either in contact with forms matter to actuality ignored, we still being expelled to a considerable degree of heat. Let us be then what may be the cause of its ascention, when it is a confitment part of the phofhorus.",
+  "modern": "ed, we find a real sulfur flicking in the neck of the ma-tras and, while the phosphorus is burning, it hasn plainly a frong sulfurous finally. It is therefore certain, that this phosphorus contains an adult sulfur; that is, a means ofgifted to take five with the spreift safe. But though sulfur be very inflammable, it never takes fire of itself, without being either in contact with forms matter to actuality ignored, we still being expelled to a considerable degree of heat. Let us be then what may be the cause of its ascention, when it is a confitment part of the phosphorus."
+ },
+ "error": null
+}

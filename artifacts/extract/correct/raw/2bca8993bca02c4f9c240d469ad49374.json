@@ -1,0 +1,31 @@
+{
+ "key": "2bca8993bca02c4f9c240d469ad49374",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "On the upper further of this organ was may observe a great number of pupils, which, on occasion of their difference in free and hays, are commonly divided into three clades. The largest are trusted towards the final of the tongue. Their main community varies from fever to nine, and they form to be mucous folicles. Thief of the second clats and tunnels that matter, and of a cylindrical shape. They are most humorous about the middle of the tongue. Those of the third clats are very minute, and of a conical shape. They are",
+ "content": "{\n  \"faithful\": \"On the upper further of this organ was may observe a great number of pupils, which, on occasion of their difference in free and hays, are commonly divided into three clades. The largest are trusted towards the final of the tongue. Their main community varies from fever to nine, and they form to be mucous folicles. Thief of the second clats and tunnels that matter, and of a cylindrical shape. They are most humorous about the middle of the tongue. Those of the third clats are very minute, and of a conical shape. They are\",\n  \"modern\": \"On the upper further of this organ was may observe a great number of pupils, which, on occasion of their difference in free and hays, are commonly divided into three clades. The largest are trusted towards the final of the tongue. Their main community varies from fever to nine, and they form to be mucous follicles. Thief of the second clats and tunnels that matter, and of a cylindrical shape. They are most humorous about the middle of the tongue. Those of the third clats are very minute, and of a conical shape. They are\"\n}",
+ "usage": {
+  "completion_tokens": 244,
+  "prompt_tokens": 682,
+  "total_tokens": 926,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "On the upper further of this organ was may observe a great number of pupils, which, on occasion of their difference in free and hays, are commonly divided into three clades. The largest are trusted towards the final of the tongue. Their main community varies from fever to nine, and they form to be mucous folicles. Thief of the second clats and tunnels that matter, and of a cylindrical shape. They are most humorous about the middle of the tongue. Those of the third clats are very minute, and of a conical shape. They are",
+  "modern": "On the upper further of this organ was may observe a great number of pupils, which, on occasion of their difference in free and hays, are commonly divided into three clades. The largest are trusted towards the final of the tongue. Their main community varies from fever to nine, and they form to be mucous follicles. Thief of the second clats and tunnels that matter, and of a cylindrical shape. They are most humorous about the middle of the tongue. Those of the third clats are very minute, and of a conical shape. They are"
+ },
+ "error": null
+}

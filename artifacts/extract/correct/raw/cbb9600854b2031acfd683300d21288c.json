@@ -1,0 +1,31 @@
+{
+ "key": "cbb9600854b2031acfd683300d21288c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_Switet-Canonas_, is a fault piece of artillery belonging to\na filing of way which carries a flux of half a pound, and is\nfixed in a locked on the top of the ship's ride, then, or how,\nand also in her tops. The renumion of this piece are con-\ntained in a fara of iron roots, of which the lowest tre-\nminutes in a cylindrical pivot rolling in the locket, fo as to\nfupport the weight of the canon.\" the footer is born in\nthe living place of sky, resulting with from hoops in order\nto cable it to fulltain the recoil. By means of this frame,\nwhich called the _hybrid_, and as iron heads on its caf-\nsible, the game be directed by the head to any object.\nIt is therefore very necellary in the tops, particularly when\nloaded with multiclusls, to fire down on the upper decks\nof the shelter in an area.",
+ "content": "{\n  \"faithful\": \"_Swivet-Cannon_, is a small piece of artillery belonging to a ship of war, which carries a shot of half a pound, and is fixed in a focket on the top of the ship's fide, ftern, or bow, and also in her tops. The trunnions of this piece are contained in a fort of iron croft, of which the lower end terminates in a cylindrical pivot revolving in the focket, so as to support the weight of the cannon. The focket is bored in a strong piece of oak, reinforced with iron hoops, in order to enable it to fustain the recoil. By means of this frame, which is called the _fewel_, and an iron handle on its cafible, the gun may be directed by the hand to any object. It is therefore very neceffary in the tops, particularly when loaded with mucket-balls, to fire down on the upper decks of the adverfary in action.\",\n  \"modern\": \"Swivet-Cannon, is a small piece of artillery belonging to a ship of war, which carries a shot of half a pound, and is fixed in a socket on the top of the ship's side, stern, or bow, and also in her tops. The trunnions of this piece are contained in a sort of iron croft, of which the lower end terminates in a cylindrical pivot revolving in the socket, so as to support the weight of the cannon. The socket is bored in a strong piece of oak, reinforced with iron hoops, in order to enable it to sustain the recoil. By means of this frame, which is called the fewel, and an iron handle on its cafible, the gun may be directed by the hand to any object. It is therefore very necessary in the tops, particularly when loaded with mucket-balls, to fire down on the upper decks of the adversary in action.\"\n}",
+ "usage": {
+  "completion_tokens": 407,
+  "prompt_tokens": 799,
+  "total_tokens": 1206,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 296
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "_Swivet-Cannon_, is a small piece of artillery belonging to a ship of war, which carries a shot of half a pound, and is fixed in a focket on the top of the ship's fide, ftern, or bow, and also in her tops. The trunnions of this piece are contained in a fort of iron croft, of which the lower end terminates in a cylindrical pivot revolving in the focket, so as to support the weight of the cannon. The focket is bored in a strong piece of oak, reinforced with iron hoops, in order to enable it to fustain the recoil. By means of this frame, which is called the _fewel_, and an iron handle on its cafible, the gun may be directed by the hand to any object. It is therefore very neceffary in the tops, particularly when loaded with mucket-balls, to fire down on the upper decks of the adverfary in action.",
+  "modern": "Swivet-Cannon, is a small piece of artillery belonging to a ship of war, which carries a shot of half a pound, and is fixed in a socket on the top of the ship's side, stern, or bow, and also in her tops. The trunnions of this piece are contained in a sort of iron croft, of which the lower end terminates in a cylindrical pivot revolving in the socket, so as to support the weight of the cannon. The socket is bored in a strong piece of oak, reinforced with iron hoops, in order to enable it to sustain the recoil. By means of this frame, which is called the fewel, and an iron handle on its cafible, the gun may be directed by the hand to any object. It is therefore very necessary in the tops, particularly when loaded with mucket-balls, to fire down on the upper decks of the adversary in action."
+ },
+ "error": null
+}

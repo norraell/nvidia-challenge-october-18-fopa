@@ -1,0 +1,31 @@
+{
+ "key": "188fa37cf3c515720911da51536213cf",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "ExEGESIS, a dificultr by way of explanation or comments upon my subjects. In the Scotts universities, there is to scientific among the students in diversity, call-ed an everly, in which a question is fitted by the re-fenders, who is then provided by two or three other student in their turn's during which tuna the profilfer moderates, and River the difficulties which the re-founds cannot overcome.",
+ "content": "{\n  \"faithful\": \"EXEGESIS, a difcourfe by way of explanation or comment upon any fubject. In the Scotch universities, there is an exercise among the students in divinity, called an exegesis, in which a question is stated by the respondent, who is then opposed by two or three other students in their turns; during which time the professor moderates, and relves the difficulties which the respondent cannot overcome.\",\n  \"modern\": \"EXEGESIS, a discourse by way of explanation or comment upon any subject. In the Scotch universities, there is an exercise among the students in divinity, called an exegesis, in which a question is stated by the respondent, who is then opposed by two or three other students in their turns; during which time the professor moderates, and relves the difficulties which the respondent cannot overcome.\"\n}",
+ "usage": {
+  "completion_tokens": 186,
+  "prompt_tokens": 667,
+  "total_tokens": 853,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "EXEGESIS, a difcourfe by way of explanation or comment upon any fubject. In the Scotch universities, there is an exercise among the students in divinity, called an exegesis, in which a question is stated by the respondent, who is then opposed by two or three other students in their turns; during which time the professor moderates, and relves the difficulties which the respondent cannot overcome.",
+  "modern": "EXEGESIS, a discourse by way of explanation or comment upon any subject. In the Scotch universities, there is an exercise among the students in divinity, called an exegesis, in which a question is stated by the respondent, who is then opposed by two or three other students in their turns; during which time the professor moderates, and relves the difficulties which the respondent cannot overcome."
+ },
+ "error": null
+}

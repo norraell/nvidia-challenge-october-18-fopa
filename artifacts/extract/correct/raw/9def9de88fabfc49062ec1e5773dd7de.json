@@ -1,0 +1,31 @@
+{
+ "key": "9def9de88fabfc49062ec1e5773dd7de",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The fugar should be pulverified by infilt, and patfed\nthrough a fleeve, before it is mixed with the vegetable\nmafs; otherwise it cannot easily be reduced to folfix-\ncleine friends, fo as to be daily incorporated. Some\nvegetables are cause reducible to the requisite finerals\nby beating in a mortar; fuch is orange-peel. This\nis molt conveniently raffed or grated off from the\nfinis, then well mixed with the fugar, and the com-",
+ "content": "{\n  \"faithful\": \"The fugar should be pulverized by itself, and passed through a sieve, before it is mixed with the vegetable mafs; otherwise it cannot easily be reduced to sufficient fineness, so as to be duly incorporated. Some vegetables are scarce reducible to the requisite fineness by beating in a mortar; such is orange-peel. This is most conveniently rasped or grated off from the fruit, then well mixed with the fugar, and the com-\",\n  \"modern\": \"The sugar should be pulverized by itself, and passed through a sieve, before it is mixed with the vegetable mass; otherwise it cannot easily be reduced to sufficient fineness, so as to be duly incorporated. Some vegetables are scarce reducible to the requisite fineness by beating in a mortar; such is orange-peel. This is most conveniently rasped or grated off from the fruit, then well mixed with the sugar, and the com-\"\n}",
+ "usage": {
+  "completion_tokens": 208,
+  "prompt_tokens": 700,
+  "total_tokens": 908,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The fugar should be pulverized by itself, and passed through a sieve, before it is mixed with the vegetable mafs; otherwise it cannot easily be reduced to sufficient fineness, so as to be duly incorporated. Some vegetables are scarce reducible to the requisite fineness by beating in a mortar; such is orange-peel. This is most conveniently rasped or grated off from the fruit, then well mixed with the fugar, and the com-",
+  "modern": "The sugar should be pulverized by itself, and passed through a sieve, before it is mixed with the vegetable mass; otherwise it cannot easily be reduced to sufficient fineness, so as to be duly incorporated. Some vegetables are scarce reducible to the requisite fineness by beating in a mortar; such is orange-peel. This is most conveniently rasped or grated off from the fruit, then well mixed with the sugar, and the com-"
+ },
+ "error": null
+}

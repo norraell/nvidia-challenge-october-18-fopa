@@ -1,0 +1,31 @@
+{
+ "key": "9d86bd0eb679e8b21259b9c08bd3a034",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Mife, in the Greek islands, it is fourth bound that the female tetrachord of the great tyhem, and left terrachon in- vented by the acoustic, anoring to our A, on the fifth line in the bife. If this found then was added to the dance three, if proven to important points, frib, that the much ancient tetrachord was that from E in the bile to A, , and that the three original things in the Mexican and Apolonian lyre were tuned by F, G, which the Greekዬ Life\\*\\*\\*\\* male Mon, Parteypate Mefon, Mafin Diatoms. The addition therefore of Meje to thefe, completed the Brit and mid eastern tetrachons. Yet, G, A.",
+ "content": "{\n  \"faithful\": \"Mife, in the Greek islands, it is fourth bound that the female tetrachord of the great tyhem, and left terrachon in- vented by the acoustic, anoring to our A, on the fifth line in the bife. If this found then was added to the dance three, if proven to important points, frib, that the much ancient tetrachord was that from E in the bile to A, , and that the three original things in the Mexican and Apolonian lyre were tuned by F, G, which the Greekዬ Life\\\\*\\\\*\\\\*\\\\* male Mon, Parteypate Mefon, Mafin Diatoms. The addition therefore of Meje to thefe, completed the Brit and mid eastern tetrachons. Yet, G, A.\",\n  \"modern\": \"Mife, in the Greek islands, it is fourth bound that the female tetrachord of the great tyhem, and left terrachon invented by the acoustic, anoring to our A, on the fifth line in the bife. If this found then was added to the dance three, if proven to important points, frib, that the much ancient tetrachord was that from E in the bile to A, , and that the three original things in the Mexican and Apolonian lyre were tuned by F, G, which the Greek Life**** male Mon, Parteypate Mefon, Mafin Diatoms. The addition therefore of Meje to thefe, completed the Brit and mid eastern tetrachons. Yet, G, A.\"\n}",
+ "usage": {
+  "completion_tokens": 340,
+  "prompt_tokens": 770,
+  "total_tokens": 1110,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Mife, in the Greek islands, it is fourth bound that the female tetrachord of the great tyhem, and left terrachon in- vented by the acoustic, anoring to our A, on the fifth line in the bife. If this found then was added to the dance three, if proven to important points, frib, that the much ancient tetrachord was that from E in the bile to A, , and that the three original things in the Mexican and Apolonian lyre were tuned by F, G, which the Greekዬ Life\\*\\*\\*\\* male Mon, Parteypate Mefon, Mafin Diatoms. The addition therefore of Meje to thefe, completed the Brit and mid eastern tetrachons. Yet, G, A.",
+  "modern": "Mife, in the Greek islands, it is fourth bound that the female tetrachord of the great tyhem, and left terrachon invented by the acoustic, anoring to our A, on the fifth line in the bife. If this found then was added to the dance three, if proven to important points, frib, that the much ancient tetrachord was that from E in the bile to A, , and that the three original things in the Mexican and Apolonian lyre were tuned by F, G, which the Greek Life**** male Mon, Parteypate Mefon, Mafin Diatoms. The addition therefore of Meje to thefe, completed the Brit and mid eastern tetrachons. Yet, G, A."
+ },
+ "error": null
+}

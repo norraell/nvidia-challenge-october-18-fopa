@@ -1,0 +1,31 @@
+{
+ "key": "7fb6fbf1f585de1416bbd57e941fecfb",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "AMIDA, a god worshipped by the japané, who has many temple credited to him in the island of Japan, of which the principal is at Jedo. The Japanese have fuch a confidence in their laid Andanda, that they hope to train several filing by the frequent invoces into one of the same. One of the figures of this idol is reprefeated at Rome.",
+ "content": "{\n  \"faithful\": \"AMIDA, a god worshipped by the Japanese, who has many temples credited to him in the island of Japan, of which the principal is at Jedo. The Japanese have fuch a confidence in their idol Amida, that they hope to attain eternal felicity by the frequent invocation of his name. One of the figures of this idol is represented at Rome.\",\n  \"modern\": \"AMIDA, a god worshipped by the Japanese, who has many temples credited to him in the island of Japan, of which the principal is at Jedo. The Japanese have such a confidence in their idol Amida, that they hope to attain eternal felicity by the frequent invocation of his name. One of the figures of this idol is represented at Rome.\"\n}",
+ "usage": {
+  "completion_tokens": 164,
+  "prompt_tokens": 674,
+  "total_tokens": 838,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "AMIDA, a god worshipped by the Japanese, who has many temples credited to him in the island of Japan, of which the principal is at Jedo. The Japanese have fuch a confidence in their idol Amida, that they hope to attain eternal felicity by the frequent invocation of his name. One of the figures of this idol is represented at Rome.",
+  "modern": "AMIDA, a god worshipped by the Japanese, who has many temples credited to him in the island of Japan, of which the principal is at Jedo. The Japanese have such a confidence in their idol Amida, that they hope to attain eternal felicity by the frequent invocation of his name. One of the figures of this idol is represented at Rome."
+ },
+ "error": null
+}

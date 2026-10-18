@@ -1,0 +1,31 @@
+{
+ "key": "ca79c4eacd57f49b18596534cfc7e193",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "BYZANTIUM, the ancient name of Confiantinople. See COMPENTINORY.",
+ "content": "{\n  \"faithful\": \"BYZANTIUM, the ancient name of Constantinople. See CONSTANTINOPLE.\",\n  \"modern\": \"BYZANTIUM, the ancient name of Constantinople. See CONSTANTINOPLE.\"\n}",
+ "usage": {
+  "completion_tokens": 53,
+  "prompt_tokens": 625,
+  "total_tokens": 678,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "BYZANTIUM, the ancient name of Constantinople. See CONSTANTINOPLE.",
+  "modern": "BYZANTIUM, the ancient name of Constantinople. See CONSTANTINOPLE."
+ },
+ "error": null
+}

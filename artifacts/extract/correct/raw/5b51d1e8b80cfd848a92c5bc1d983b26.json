@@ -1,0 +1,31 @@
+{
+ "key": "5b51d1e8b80cfd848a92c5bc1d983b26",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Coin is allo uled for a field angle compofol of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, fcc or interior, as the coin of a chamber or chimary. See Qouo.",
+ "content": "{\n  \"faithful\": \"COIN is alfo ufed for a folid angle compofed of two furfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See Quoin.\",\n  \"modern\": \"COIN is also used for a solid angle composed of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See Quoin.\"\n}",
+ "usage": {
+  "completion_tokens": 130,
+  "prompt_tokens": 647,
+  "total_tokens": 777,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "COIN is alfo ufed for a folid angle compofed of two furfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See Quoin.",
+  "modern": "COIN is also used for a solid angle composed of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See Quoin."
+ },
+ "error": null
+}

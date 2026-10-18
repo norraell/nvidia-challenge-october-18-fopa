@@ -1,0 +1,31 @@
+{
+ "key": "83b4ce16291c92a0bfbf6f70430166c1",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Lyre, which he ufd to frequent, at the foot of a mountain in Arcadill. In all as he was going in, he found a tor- tulofe finding at the entrance of his case: he killed him poor creature, and perhaps, vat the flesh of it. As he was diverting himself with the flesh, he was migliedly pleafed with the molle of great from his concave figure. He had puffily been cunning enough to find one, that a thong pulled fruit and affected is each end, when freds by things you take aird mudiculous. How ever that was, he went immediately to work, and eut feveral things out of the links he had lately flolen, and afected them as right as we could on the field of the tortofie and, in playing with them, made a new kind of mute with them to divert himself in his retreat. This, considered only as an account of the first inven- tion of the lyre, is not altogether for unsurals?",
+ "content": "{\n  \"faithful\": \"Lyre, which he ufd to frequent, at the foot of a mountain in Arcadia. In all as he was going in, he found a tortoise feeding at the entrance of his cave: he killed the poor creature, and, perhaps, eat the flesh of it. As he was diverting himself with the shell, he was mightily pleased with the noise it gave from its concave figure. He had possibly been cunning enough to find out, that a thong pulled tight and faltened at each end, when struck by the finger, made a fort of musical found. However that was, he went immediately to work, and cut several things out of the hides he had lately flayed, and faltened them as tight as he could to the shell of this tortoise; and, in playing with them, made a new kind of music with them to divert himself in his retreat. This, considered only as an account of the first invention of the lyre, is not altogether unnatural.\",\n  \"modern\": \"Lyre, which he used to frequent, at the foot of a mountain in Arcadia. In all as he was going in, he found a tortoise feeding at the entrance of his cave: he killed the poor creature, and, perhaps, ate the flesh of it. As he was diverting himself with the shell, he was mightily pleased with the noise it gave from its concave figure. He had possibly been cunning enough to find out, that a thong pulled tight and fastened at each end, when struck by the finger, made a sort of musical sound. However that was, he went immediately to work, and cut several things out of the hides he had lately flayed, and fastened them as tight as he could to the shell of this tortoise; and, in playing with them, made a new kind of music with them to divert himself in his retreat. This, considered only as an account of the first invention of the lyre, is not altogether unnatural.\"\n}",
+ "usage": {
+  "completion_tokens": 424,
+  "prompt_tokens": 865,
+  "total_tokens": 1289,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 347
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Lyre, which he ufd to frequent, at the foot of a mountain in Arcadia. In all as he was going in, he found a tortoise feeding at the entrance of his cave: he killed the poor creature, and, perhaps, eat the flesh of it. As he was diverting himself with the shell, he was mightily pleased with the noise it gave from its concave figure. He had possibly been cunning enough to find out, that a thong pulled tight and faltened at each end, when struck by the finger, made a fort of musical found. However that was, he went immediately to work, and cut several things out of the hides he had lately flayed, and faltened them as tight as he could to the shell of this tortoise; and, in playing with them, made a new kind of music with them to divert himself in his retreat. This, considered only as an account of the first invention of the lyre, is not altogether unnatural.",
+  "modern": "Lyre, which he used to frequent, at the foot of a mountain in Arcadia. In all as he was going in, he found a tortoise feeding at the entrance of his cave: he killed the poor creature, and, perhaps, ate the flesh of it. As he was diverting himself with the shell, he was mightily pleased with the noise it gave from its concave figure. He had possibly been cunning enough to find out, that a thong pulled tight and fastened at each end, when struck by the finger, made a sort of musical sound. However that was, he went immediately to work, and cut several things out of the hides he had lately flayed, and fastened them as tight as he could to the shell of this tortoise; and, in playing with them, made a new kind of music with them to divert himself in his retreat. This, considered only as an account of the first invention of the lyre, is not altogether unnatural."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "fa204b7286e3db94e7f5f4f48ded38aa",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Here and there are interperfed fome few _berab_\n_trees_, or rather will palm trees (the wood trail being\nderived from limbs, which in the Portuguese, figuifies\nwild). They bear an infipid kind of fruit, about the\nbigogods of a common type), but the chief profit from\nthem in the colon by an-\ncifions at the top, of which the attack is rekesoned bet-\nter than the podderby the concount tree. They\nare generally wear the facilities, as they delight mod in\nfamily folk. It is on this tree that the _today birds_, fo\ncalled from their attachment to, make their equip-\nfiely curious petits, brought out of the thumb seeds\nand filament of branches, with an inimable melocha.\nThe bird themselves are about the face of a\npartridge, but are of no way either the plumage, long,\nor the table.",
+ "content": "{\n  \"faithful\": \"Here and there are interperfed fome few _berab_ trees, or rather wild palm trees (the word brab being derived from brab, which in the Portuguese signifies wild). They bear an infipid kind of fruit, about the bigness of a common pear; but the chief profit from them is the tody, or liquor drawn from them by incisions at the top, of which the arrack is reckoned better than that produced by the cocoa-nut trees. They are generally near the sea-side, as they delight most in a sandy foil. It is on this tree that the tody birds, so called from their attachment to it, make their exquisitely curious nests, wrought out of the thinneft reeds and filaments of branches, with an inimitable mechanism. The birds themselves are about the size of a partridge, but are of no value either for plumage, fong, or the table.\",\n  \"modern\": \"Here and there are interspersed some few brab trees, or rather wild palm trees (the word brab being derived from brab, which in the Portuguese signifies wild). They bear an insipid kind of fruit, about the bigness of a common pear; but the chief profit from them is the tody, or liquor drawn from them by incisions at the top, of which the arrack is reckoned better than that produced by the cocoa-nut trees. They are generally near the sea-side, as they delight most in a sandy soil. It is on this tree that the tody birds, so called from their attachment to it, make their exquisitely curious nests, wrought out of the thinnest reeds and filaments of branches, with an inimitable mechanism. The birds themselves are about the size of a partridge, but are of no value either for plumage, song, or the table.\"\n}",
+ "usage": {
+  "completion_tokens": 402,
+  "prompt_tokens": 770,
+  "total_tokens": 1172,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Here and there are interperfed fome few _berab_ trees, or rather wild palm trees (the word brab being derived from brab, which in the Portuguese signifies wild). They bear an infipid kind of fruit, about the bigness of a common pear; but the chief profit from them is the tody, or liquor drawn from them by incisions at the top, of which the arrack is reckoned better than that produced by the cocoa-nut trees. They are generally near the sea-side, as they delight most in a sandy foil. It is on this tree that the tody birds, so called from their attachment to it, make their exquisitely curious nests, wrought out of the thinneft reeds and filaments of branches, with an inimitable mechanism. The birds themselves are about the size of a partridge, but are of no value either for plumage, fong, or the table.",
+  "modern": "Here and there are interspersed some few brab trees, or rather wild palm trees (the word brab being derived from brab, which in the Portuguese signifies wild). They bear an insipid kind of fruit, about the bigness of a common pear; but the chief profit from them is the tody, or liquor drawn from them by incisions at the top, of which the arrack is reckoned better than that produced by the cocoa-nut trees. They are generally near the sea-side, as they delight most in a sandy soil. It is on this tree that the tody birds, so called from their attachment to it, make their exquisitely curious nests, wrought out of the thinnest reeds and filaments of branches, with an inimitable mechanism. The birds themselves are about the size of a partridge, but are of no value either for plumage, song, or the table."
+ },
+ "error": null
+}

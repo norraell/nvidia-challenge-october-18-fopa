@@ -1,0 +1,31 @@
+{
+ "key": "ca4451bb887f0ee56851d2f628a675ff",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The second fort is of those which human industry can multiply in proportion to the demand. Where the commodity, a room, is flash as cannot be produced but by human industry, the price is more under than in almost any other cafe. The increasing fearty and confrequency value of land, trends indeed to make it; but this is countertled by its invention of machinery, and improved methods of labour. The opposite agency of these two causes for a soullant tendency to produce uniformity of the value of grain, though we cannot, with Smith, condlier this uniformity as likely to be fo complete, as to consider the price of grain a fure standard for the price of diver.",
+ "content": "{\n  \"faithful\": \"The second fort is of those which human industry can multiply in proportion to the demand. Where the commodity, a room, is flash as cannot be produced but by human industry, the price is more under than in almost any other cafe. The increasing fearty and confrequency value of land, trends indeed to make it; but this is countertled by its invention of machinery, and improved methods of labour. The opposite agency of these two causes for a soullant tendency to produce uniformity of the value of grain, though we cannot, with Smith, condlier this uniformity as likely to be fo complete, as to consider the price of grain a fure standard for the price of diver.\",\n  \"modern\": \"The second fort is of those which human industry can multiply in proportion to the demand. Where the commodity, a room, is flash as cannot be produced but by human industry, the price is more under than in almost any other cafe. The increasing fearty and confrequency value of land, trends indeed to make it; but this is countertled by its invention of machinery, and improved methods of labour. The opposite agency of these two causes for a soullant tendency to produce uniformity of the value of grain, though we cannot, with Smith, condlier this uniformity as likely to be fo complete, as to consider the price of grain a fure standard for the price of diver.\"\n}",
+ "usage": {
+  "completion_tokens": 293,
+  "prompt_tokens": 715,
+  "total_tokens": 1008,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The second fort is of those which human industry can multiply in proportion to the demand. Where the commodity, a room, is flash as cannot be produced but by human industry, the price is more under than in almost any other cafe. The increasing fearty and confrequency value of land, trends indeed to make it; but this is countertled by its invention of machinery, and improved methods of labour. The opposite agency of these two causes for a soullant tendency to produce uniformity of the value of grain, though we cannot, with Smith, condlier this uniformity as likely to be fo complete, as to consider the price of grain a fure standard for the price of diver.",
+  "modern": "The second fort is of those which human industry can multiply in proportion to the demand. Where the commodity, a room, is flash as cannot be produced but by human industry, the price is more under than in almost any other cafe. The increasing fearty and confrequency value of land, trends indeed to make it; but this is countertled by its invention of machinery, and improved methods of labour. The opposite agency of these two causes for a soullant tendency to produce uniformity of the value of grain, though we cannot, with Smith, condlier this uniformity as likely to be fo complete, as to consider the price of grain a fure standard for the price of diver."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "84a8e40759b0dcd4511589cf5adb8cc7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Hanewer... The Is = 1073 lb. avord. i 112 lbs = 1 centrer; and 20 lbs, a 1 at none of her or 4 stones of wood. Also 600 los. 14 stupings a 27 comes a funny / and 320 lb. a 40 legends a 134 hands a 1last. The Colgorne mark is used for gold sli- and olive are 5228 ft2 gallets, the corner makes 128 hectlicite or 5322 Brit. busheds.",
+ "content": "{\n  \"faithful\": \"Hanewer... The Is = 1073 lb. avord. i 112 lbs = 1 centrer; and 20 lbs, a 1 at none of her or 4 stones of wood. Also 600 los. 14 stupings a 27 comes a funny / and 320 lb. a 40 legends a 134 hands a 1last. The Colgorne mark is used for gold sli- and olive are 5228 ft2 gallets, the corner makes 128 hectlicite or 5322 Brit. busheds.\",\n  \"modern\": \"Hanewer... The Is = 1073 lb. avord. i 112 lbs = 1 centrer; and 20 lbs, a 1 at none of her or 4 stones of wood. Also 600 los. 14 stupings a 27 comes a funny / and 320 lb. a 40 legends a 134 hands a 1last. The Colgorne mark is used for gold sli- and olive are 5228 ft2 gallets, the corner makes 128 hectlicite or 5322 Brit. busheds.\"\n}",
+ "usage": {
+  "completion_tokens": 293,
+  "prompt_tokens": 715,
+  "total_tokens": 1008,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Hanewer... The Is = 1073 lb. avord. i 112 lbs = 1 centrer; and 20 lbs, a 1 at none of her or 4 stones of wood. Also 600 los. 14 stupings a 27 comes a funny / and 320 lb. a 40 legends a 134 hands a 1last. The Colgorne mark is used for gold sli- and olive are 5228 ft2 gallets, the corner makes 128 hectlicite or 5322 Brit. busheds.",
+  "modern": "Hanewer... The Is = 1073 lb. avord. i 112 lbs = 1 centrer; and 20 lbs, a 1 at none of her or 4 stones of wood. Also 600 los. 14 stupings a 27 comes a funny / and 320 lb. a 40 legends a 134 hands a 1last. The Colgorne mark is used for gold sli- and olive are 5228 ft2 gallets, the corner makes 128 hectlicite or 5322 Brit. busheds."
+ },
+ "error": null
+}

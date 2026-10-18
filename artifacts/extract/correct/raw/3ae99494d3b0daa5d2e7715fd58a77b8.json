@@ -1,0 +1,31 @@
+{
+ "key": "3ae99494d3b0daa5d2e7715fd58a77b8",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Moreover, to boundless ear the bold excursions of the human mind, that in the vail voit beyond real coffences, it can call forth shadowy beings, and unknown worlds, as numerous, as bright, and perhaps as falling as the flats , fuch quite-original beatuities we may call parodi-faical.",
+ "content": "{\n  \"faithful\": \"Moreover, to boundless ear the bold excursions of the human mind, that in the vail voit beyond real coffences, it can call forth shadowy beings, and unknown worlds, as numerous, as bright, and perhaps as falling as the flats , fuch quite-original beatuities we may call parodi-faical.\",\n  \"modern\": \"Moreover, to boundless ear the bold excursions of the human mind, that in the veil void beyond real coffences, it can call forth shadowy beings, and unknown worlds, as numerous, as bright, and perhaps as falling as the flats , such quite-original beauties we may call paradisiacal.\"\n}",
+ "usage": {
+  "completion_tokens": 149,
+  "prompt_tokens": 642,
+  "total_tokens": 791,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Moreover, to boundless ear the bold excursions of the human mind, that in the vail voit beyond real coffences, it can call forth shadowy beings, and unknown worlds, as numerous, as bright, and perhaps as falling as the flats , fuch quite-original beatuities we may call parodi-faical.",
+  "modern": "Moreover, to boundless ear the bold excursions of the human mind, that in the veil void beyond real coffences, it can call forth shadowy beings, and unknown worlds, as numerous, as bright, and perhaps as falling as the flats , such quite-original beauties we may call paradisiacal."
+ },
+ "error": null
+}

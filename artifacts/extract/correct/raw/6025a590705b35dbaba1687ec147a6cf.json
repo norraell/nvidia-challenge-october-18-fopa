@@ -1,0 +1,28 @@
+{
+ "key": "6025a590705b35dbaba1687ec147a6cf",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "23. Regularly, no deed can be served by this action, without other animals in writing, referring to that which is libelled ; for no written obligation ought to be raided up barely on the settlement of \"utterls\". If the admined allowful sufficient conviction, that the dead li-belled did once exit, the tenor is admitted to be proved by wineries, who mult depolo, either that they were pre-fort at fighting the died, or that they afterwards one it duly fulfilled. Where the relative writing contain all the fuiblantial claufes of that which is loft, the tenor is fomeines finland without vitrifles. Inna writing which is labelled to have counted uncommon claufs, all take mult appear by the admioles. Actions of proving the tenor are, on account of their importance, appropriate to the court of Sellon, and, by the old form, the tells many of the wineifts could not be received, but in pre- fence of all thejudges.",
+ "content": "{\n  \"faithful\": \"23. Regularly, no deed can be served by this action, without other animals in writing, referring to that which is libelled ; for no written obligation ought to be raided up barely on the settlement of \"utterls\". If the admined allowful sufficient conviction, that the dead li-belled did once exit, the tenor is admitted to be proved by wineries, who mult depolo, either that they were pre-fort at fighting the died, or that they afterwards one it duly fulfilled. Where the relative writing contain all the fuiblantial claufes of that which is loft, the tenor is fomeines finland without vitrifles. Inna writing which is labelled to have counted uncommon claufs, all take mult appear by the admioles. Actions of proving the tenor are, on account of their importance, appropriate to the court of Sellon, and, by the old form, the tells many of the wineifts could not be received, but in pre- fence of all thejudges.\",\n  \"modern\": \"23. Regularly, no deed can be served by this action, without other animals in writing, referring to that which is libelled ; for no written obligation ought to be raided up barely on the settlement of \"utterls\". If the admined allowful sufficient conviction, that the dead libelled did once exit, the tenor is admitted to be proved by wineries, who must depose, either that they were present at signing the deed, or that they afterwards saw it duly fulfilled. Where the relative writing contains all the substantial clauses of that which is lost, the tenor is sometimes found without witnesses. In a writing which is labelled to have contained uncommon clauses, all must appear by the admissions. Actions of proving the tenor are, on account of their importance, appropriate to the court of Session, and, by the old form, the testimony of the witnesses could not be received, but in presence of all the judges.\"\n}",
+ "usage": {
+  "completion_tokens": 416,
+  "prompt_tokens": 851,
+  "total_tokens": 1267,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 338
+   }
+  }
+ },
+ "parsed": null,
+ "error": null
+}

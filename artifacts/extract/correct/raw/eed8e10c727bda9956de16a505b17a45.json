@@ -1,0 +1,31 @@
+{
+ "key": "eed8e10c727bda9956de16a505b17a45",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The principal manufactures are fluff and toboyen, lines\nof several forks, here, threads, folk, and worried fleidings,\nneckoloths cotton fluffy, gloves, handkerchiefs, flisks of fever-\nalters, cold and five brecords, a variety of woollen manu-\nfactures, lats, paper, leather of alflor, earthous wers, por-\nedain, toys, watches, clocks, and other hardwares, &c.\nThe trade of Switzerland is greatly promoted by many na-\nvigable lakes and rivers. In form of the above manufacture,\nand in dieels, butter, fleep, horfes, black cattle, hides, and\nflans, the experts are considerable and as the imports of the\nchiely granulated fish, with some Americans at Arielie goods,\nthere is probably a large balance in their favour. In fome\nparts of Switzerland dests is obtained by fampiary law.",
+ "content": "{\n  \"faithful\": \"The principal manufactures are fluff and toboyen, lines of several forks, here, threads, folk, and worried fleidings, neckoloths cotton fluffy, gloves, handkerchiefs, flisks of fever-alters, cold and five brecords, a variety of woollen manufactures, lats, paper, leather of alflor, earthous wers, poredain, toys, watches, clocks, and other hardwares, &c. The trade of Switzerland is greatly promoted by many navigable lakes and rivers. In form of the above manufacture, and in dieels, butter, fleep, horfes, black cattle, hides, and flans, the experts are considerable and as the imports of the chiely granulated fish, with some Americans at Arielie goods, there is probably a large balance in their favour. In fome parts of Switzerland dests is obtained by fampiary law.\",\n  \"modern\": \"The principal manufactures are fluff and toboyen, lines of several forks, here, threads, folk, and worried fleidings, neckcloths cotton fluffy, gloves, handkerchiefs, flisks of fever-alters, cold and five brecords, a variety of woollen manufactures, lats, paper, leather of alflor, earthous wers, poredain, toys, watches, clocks, and other hardwares, &c. The trade of Switzerland is greatly promoted by many navigable lakes and rivers. In form of the above manufacture, and in deals, butter, sleep, horses, black cattle, hides, and flans, the experts are considerable and as the imports of the chiefly granulated fish, with some Americans at Arielie goods, there is probably a large balance in their favour. In some parts of Switzerland dests is obtained by sumptuary law.\"\n}",
+ "usage": {
+  "completion_tokens": 402,
+  "prompt_tokens": 798,
+  "total_tokens": 1200,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The principal manufactures are fluff and toboyen, lines of several forks, here, threads, folk, and worried fleidings, neckoloths cotton fluffy, gloves, handkerchiefs, flisks of fever-alters, cold and five brecords, a variety of woollen manufactures, lats, paper, leather of alflor, earthous wers, poredain, toys, watches, clocks, and other hardwares, &c. The trade of Switzerland is greatly promoted by many navigable lakes and rivers. In form of the above manufacture, and in dieels, butter, fleep, horfes, black cattle, hides, and flans, the experts are considerable and as the imports of the chiely granulated fish, with some Americans at Arielie goods, there is probably a large balance in their favour. In fome parts of Switzerland dests is obtained by fampiary law.",
+  "modern": "The principal manufactures are fluff and toboyen, lines of several forks, here, threads, folk, and worried fleidings, neckcloths cotton fluffy, gloves, handkerchiefs, flisks of fever-alters, cold and five brecords, a variety of woollen manufactures, lats, paper, leather of alflor, earthous wers, poredain, toys, watches, clocks, and other hardwares, &c. The trade of Switzerland is greatly promoted by many navigable lakes and rivers. In form of the above manufacture, and in deals, butter, sleep, horses, black cattle, hides, and flans, the experts are considerable and as the imports of the chiefly granulated fish, with some Americans at Arielie goods, there is probably a large balance in their favour. In some parts of Switzerland dests is obtained by sumptuary law."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "dd77440d4ab875fdced3a093c8a0e516",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "As to the ore which contains gold adhering to and Ores of this furrounded by flony particles, r. We mult reduce a deter-metal pro-mined weight to an impulsive powdery texture and pretty da-alitarian. Then let the powdery weighted forvolume, for boiled in aqua regis, as long as any thing is taken, by the mediums), after which, let the exhausted ore, well washed, be collected, refecuted to spinism, and weighed. Let the clear features (the colour of which, in forens above affords a method of judging) be precipitated in the natural way by martial virtvel; the precipitate well washed, dried, and weighed, flows the gold, which, added to the weight of the exhausted ore, might to be equal to the original weight, unless fenome what has been dispersed by the pulverification, or beliefs force of the mattons has entered the meltdown. The former of thefts delivered by comparing the weights before and after pulverification; the latter by precipitants.",
+ "content": "{\n  \"faithful\": \"As to the ore which contains gold adhering to and surrounded by stony particles, r. We must reduce a determined weight to an impulsive powdery texture and pretty da-alitarian. Then let the powdery weighted for volume, for boiled in aqua regis, as long as any thing is taken, by the mediums), after which, let the exhausted ore, well washed, be collected, refecuted to spinism, and weighed. Let the clear features (the colour of which, in forens above affords a method of judging) be precipitated in the natural way by martial virtvel; the precipitate well washed, dried, and weighed, flows the gold, which, added to the weight of the exhausted ore, might to be equal to the original weight, unless fenome what has been dispersed by the pulverification, or beliefs force of the mattons has entered the meltdown. The former of thefts delivered by comparing the weights before and after pulverification; the latter by precipitants.\",\n  \"modern\": \"As to the ore which contains gold adhering to and surrounded by stony particles, r. We must reduce a determined weight to an impulsive powdery texture and pretty da-alitarian. Then let the powdery weighted for volume, for boiled in aqua regis, as long as any thing is taken, by the mediums), after which, let the exhausted ore, well washed, be collected, refecuted to spinism, and weighed. Let the clear features (the colour of which, in forens above affords a method of judging) be precipitated in the natural way by martial vitriol; the precipitate well washed, dried, and weighed, flows the gold, which, added to the weight of the exhausted ore, might to be equal to the original weight, unless some what has been dispersed by the pulverification, or beliefs force of the mattons has entered the meltdown. The former of thefts delivered by comparing the weights before and after pulverification; the latter by precipitants.\"\n}",
+ "usage": {
+  "completion_tokens": 431,
+  "prompt_tokens": 840,
+  "total_tokens": 1271,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 322
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "As to the ore which contains gold adhering to and surrounded by stony particles, r. We must reduce a determined weight to an impulsive powdery texture and pretty da-alitarian. Then let the powdery weighted for volume, for boiled in aqua regis, as long as any thing is taken, by the mediums), after which, let the exhausted ore, well washed, be collected, refecuted to spinism, and weighed. Let the clear features (the colour of which, in forens above affords a method of judging) be precipitated in the natural way by martial virtvel; the precipitate well washed, dried, and weighed, flows the gold, which, added to the weight of the exhausted ore, might to be equal to the original weight, unless fenome what has been dispersed by the pulverification, or beliefs force of the mattons has entered the meltdown. The former of thefts delivered by comparing the weights before and after pulverification; the latter by precipitants.",
+  "modern": "As to the ore which contains gold adhering to and surrounded by stony particles, r. We must reduce a determined weight to an impulsive powdery texture and pretty da-alitarian. Then let the powdery weighted for volume, for boiled in aqua regis, as long as any thing is taken, by the mediums), after which, let the exhausted ore, well washed, be collected, refecuted to spinism, and weighed. Let the clear features (the colour of which, in forens above affords a method of judging) be precipitated in the natural way by martial vitriol; the precipitate well washed, dried, and weighed, flows the gold, which, added to the weight of the exhausted ore, might to be equal to the original weight, unless some what has been dispersed by the pulverification, or beliefs force of the mattons has entered the meltdown. The former of thefts delivered by comparing the weights before and after pulverification; the latter by precipitants."
+ },
+ "error": null
+}

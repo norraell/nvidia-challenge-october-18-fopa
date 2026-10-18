@@ -1,0 +1,31 @@
+{
+ "key": "853f1830359b77cb70ef4aeabb6cf077",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Exercile may be fold to be either alive or palive. The active is walking, hunting dancing, playing at bowls, and the living, as also feelsking, and other le tour of the body and mind. The pultive is riding in a coach, on behalfbody, or in any other manner. Ex- does me by the continued to a beginning of wearants, and ought to be uifed before dinner in a pure light air; for what reason, journey, and going into the country, contribute greatly by patients and to schillish health.",
+ "content": "{\n  \"faithful\": \"Exercise may be said to be either active or passive. The active is walking, hunting, dancing, playing at bowls, and the like; as also speaking, and other labour of the body and mind. The passive is riding in a coach, on horseback, or in any other manner. Exercise may be continued to a beginning of weariness, and ought to be used before dinner in a pure light air; for which reason, journeys, and going into the country, contribute greatly to preserve and re-establish health.\",\n  \"modern\": \"Exercise may be said to be either active or passive. The active is walking, hunting, dancing, playing at bowls, and the like; as also speaking, and other labour of the body and mind. The passive is riding in a coach, on horseback, or in any other manner. Exercise may be continued to a beginning of weariness, and ought to be used before dinner in a pure light air; for which reason, journeys, and going into the country, contribute greatly to preserve and re-establish health.\"\n}",
+ "usage": {
+  "completion_tokens": 229,
+  "prompt_tokens": 696,
+  "total_tokens": 925,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Exercise may be said to be either active or passive. The active is walking, hunting, dancing, playing at bowls, and the like; as also speaking, and other labour of the body and mind. The passive is riding in a coach, on horseback, or in any other manner. Exercise may be continued to a beginning of weariness, and ought to be used before dinner in a pure light air; for which reason, journeys, and going into the country, contribute greatly to preserve and re-establish health.",
+  "modern": "Exercise may be said to be either active or passive. The active is walking, hunting, dancing, playing at bowls, and the like; as also speaking, and other labour of the body and mind. The passive is riding in a coach, on horseback, or in any other manner. Exercise may be continued to a beginning of weariness, and ought to be used before dinner in a pure light air; for which reason, journeys, and going into the country, contribute greatly to preserve and re-establish health."
+ },
+ "error": null
+}

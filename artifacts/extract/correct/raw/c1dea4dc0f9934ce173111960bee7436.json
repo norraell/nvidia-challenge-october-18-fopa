@@ -1,0 +1,31 @@
+{
+ "key": "c1dea4dc0f9934ce173111960bee7436",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "On second time the reservation in which this tower and ideal were held by the Arabilians, Mr Bruce supposes that the thought was first suggested of making the emoments of the trade between India and Africa as , but Abra, in order to divert it into another chapel, built a very long temps; near the Indian ocean in the country of the Homeries (and, to encourage the resort of people to this one temps), be bestowed upon all all the privilege of the former which stood in the city of Mecca. The tribe of Arabians named _Kevield_, in whose country Mecca stood, being enoughly alarmed at the historic temple deserted, entered the new one in the night, burned all that could be economic, and bonsent the remains with human occurrences. Abra, provoked us this any college, assembled a considerable army, with which he invested Mecca, himself appearing on a white elephant from whence the war took its massive already mentioned.",
+ "content": "{\n  \"faithful\": \"On second time the reservation in which this tower and idol were held by the Arabilians, Mr Bruce supposes that the thought was first suggested of making the emoments of the trade between India and Africa as , but Abra, in order to divert it into another chapel, built a very long temps; near the Indian ocean in the country of the Homeries (and, to encourage the resort of people to this one temps), be bestowed upon all all the privilege of the former which stood in the city of Mecca. The tribe of Arabians named _Kevield_, in whose country Mecca stood, being enoughly alarmed at the historic temple deserted, entered the new one in the night, burned all that could be economic, and bonsent the remains with human occurrences. Abra, provoked us this any college, assembled a considerable army, with which he invested Mecca, himself appearing on a white elephant from whence the war took its massive already mentioned.\",\n  \"modern\": \"On second time the reservation in which this tower and idol were held by the Arabilians, Mr Bruce supposes that the thought was first suggested of making the emoments of the trade between India and Africa as , but Abra, in order to divert it into another chapel, built a very long temps; near the Indian ocean in the country of the Homeries (and, to encourage the resort of people to this one temps), be bestowed upon all all the privilege of the former which stood in the city of Mecca. The tribe of Arabians named _Kevield_, in whose country Mecca stood, being enoughly alarmed at the historic temple deserted, entered the new one in the night, burned all that could be economic, and bonsent the remains with human occurrences. Abra, provoked us this any college, assembled a considerable army, with which he invested Mecca, himself appearing on a white elephant from whence the war took its massive already mentioned.\"\n}",
+ "usage": {
+  "completion_tokens": 411,
+  "prompt_tokens": 823,
+  "total_tokens": 1234,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 324
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "On second time the reservation in which this tower and idol were held by the Arabilians, Mr Bruce supposes that the thought was first suggested of making the emoments of the trade between India and Africa as , but Abra, in order to divert it into another chapel, built a very long temps; near the Indian ocean in the country of the Homeries (and, to encourage the resort of people to this one temps), be bestowed upon all all the privilege of the former which stood in the city of Mecca. The tribe of Arabians named _Kevield_, in whose country Mecca stood, being enoughly alarmed at the historic temple deserted, entered the new one in the night, burned all that could be economic, and bonsent the remains with human occurrences. Abra, provoked us this any college, assembled a considerable army, with which he invested Mecca, himself appearing on a white elephant from whence the war took its massive already mentioned.",
+  "modern": "On second time the reservation in which this tower and idol were held by the Arabilians, Mr Bruce supposes that the thought was first suggested of making the emoments of the trade between India and Africa as , but Abra, in order to divert it into another chapel, built a very long temps; near the Indian ocean in the country of the Homeries (and, to encourage the resort of people to this one temps), be bestowed upon all all the privilege of the former which stood in the city of Mecca. The tribe of Arabians named _Kevield_, in whose country Mecca stood, being enoughly alarmed at the historic temple deserted, entered the new one in the night, burned all that could be economic, and bonsent the remains with human occurrences. Abra, provoked us this any college, assembled a considerable army, with which he invested Mecca, himself appearing on a white elephant from whence the war took its massive already mentioned."
+ },
+ "error": null
+}

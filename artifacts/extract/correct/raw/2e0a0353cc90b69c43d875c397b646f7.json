@@ -1,0 +1,31 @@
+{
+ "key": "2e0a0353cc90b69c43d875c397b646f7",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "But topping Pops: His to have been perfect in its kind; yet it is a _translation_ filly, which differs as much from an _origini_, as the moon from the fun.",
+ "content": "{\n  \"faithful\": \"But fuppofing Pope's Iliad to have been perfect in its kind; yet it is a translation filly; which differs as much from an original, as the moon from the fun.\",\n  \"modern\": \"But supposing Pope's Iliad to have been perfect in its kind; yet it is a translation filly; which differs as much from an original, as the moon from the sun.\"\n}",
+ "usage": {
+  "completion_tokens": 93,
+  "prompt_tokens": 604,
+  "total_tokens": 697,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 261
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "But fuppofing Pope's Iliad to have been perfect in its kind; yet it is a translation filly; which differs as much from an original, as the moon from the fun.",
+  "modern": "But supposing Pope's Iliad to have been perfect in its kind; yet it is a translation filly; which differs as much from an original, as the moon from the sun."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "02b161006266977c4ddc872a772e9c1c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Amothy- gular, feminquinquifed, and perfilient: The _courillo_ is monospensioning. the border infiquorites are found in the _famina confitt_ of two slender filaments appreciated; the authors are simple and rounded. The _pilliflora has a four-clet german i fylvia_, the fate of the flaminis a figmatts two acurs No _corella :_ The _feels form; globos, and shorter than the colyx – There is only one known facec.",
+ "content": "{\n  \"faithful\": \"Amethy- gular, femiquinquefid, and perfifent: The corolla is monopetalous; the border quinquepartite, the loweft division more expanding: The fiamina confift of two fender filaments approximated; the anthers are fimple and roundifh: The pifillium has a four-cleft germen; ftylus, the fize of the flamina; ftigmata two, acute: No corolla: The feeds four, gibbous, and fhorter than the calyx:—There is only one known fpecies.\",\n  \"modern\": \"Amethy- gular, femiquinquefid, and perfisent: The corolla is monopetalous; the border quinquepartite, the lowest division more expanding: The stamina consist of two slender filaments approximated; the anthers are simple and roundish: The pistillium has a four-cleft germen; stylus, the size of the stamens; stigmata two, acute: No corolla: The seeds four, gibbous, and shorter than the calyx:—There is only one known species.\"\n}",
+ "usage": {
+  "completion_tokens": 255,
+  "prompt_tokens": 702,
+  "total_tokens": 957,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Amethy- gular, femiquinquefid, and perfifent: The corolla is monopetalous; the border quinquepartite, the loweft division more expanding: The fiamina confift of two fender filaments approximated; the anthers are fimple and roundifh: The pifillium has a four-cleft germen; ftylus, the fize of the flamina; ftigmata two, acute: No corolla: The feeds four, gibbous, and fhorter than the calyx:—There is only one known fpecies.",
+  "modern": "Amethy- gular, femiquinquefid, and perfisent: The corolla is monopetalous; the border quinquepartite, the lowest division more expanding: The stamina consist of two slender filaments approximated; the anthers are simple and roundish: The pistillium has a four-cleft germen; stylus, the size of the stamens; stigmata two, acute: No corolla: The seeds four, gibbous, and shorter than the calyx:—There is only one known species."
+ },
+ "error": null
+}

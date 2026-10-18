@@ -1,0 +1,31 @@
+{
+ "key": "8a43c71ae517753d48caedb324fd3083",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The public revenues are in general very incredible,\narising chiefly from the usual regular, appropriated every\nwhere to the foreignee, the domestic, and they gradually,\nvoluntary contributions, the fate of falls, and a land tax; in\nthe Protected cantons, from the church lands alto that were\nfored at the Reforation. Except in Zuricha, Bern, Bull,\nand Schaffaudines, where the people are more industrations,\nhave a greater trade and are richer than in the others, shall\nuse it was.",
+ "content": "{\n  \"faithful\": \"The public revenues are in general very incredible, arising chiefly from the usual regular, appropriated every where to the foreignee, the domestic, and they gradually, voluntary contributions, the fate of falls, and a land tax; in the Protected cantons, from the church lands alto that were fored at the Reforation. Except in Zuricha, Bern, Bull, and Schaffaudines, where the people are more industrations, have a greater trade and are richer than in the others, shall use it was.\",\n  \"modern\": \"The public revenues are in general very incredible, arising chiefly from the usual regular, appropriated every where to the foreigner, the domestic, and they gradually, voluntary contributions, the fate of falls, and a land tax; in the Protected cantons, from the church lands also that were forced at the Reformation. Except in Zurich, Bern, Basel, and Schaffhausen, where the people are more industrious, have a greater trade and are richer than in the others, they use it as was.\"\n}",
+ "usage": {
+  "completion_tokens": 220,
+  "prompt_tokens": 690,
+  "total_tokens": 910,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 277
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The public revenues are in general very incredible, arising chiefly from the usual regular, appropriated every where to the foreignee, the domestic, and they gradually, voluntary contributions, the fate of falls, and a land tax; in the Protected cantons, from the church lands alto that were fored at the Reforation. Except in Zuricha, Bern, Bull, and Schaffaudines, where the people are more industrations, have a greater trade and are richer than in the others, shall use it was.",
+  "modern": "The public revenues are in general very incredible, arising chiefly from the usual regular, appropriated every where to the foreigner, the domestic, and they gradually, voluntary contributions, the fate of falls, and a land tax; in the Protected cantons, from the church lands also that were forced at the Reformation. Except in Zurich, Bern, Basel, and Schaffhausen, where the people are more industrious, have a greater trade and are richer than in the others, they use it as was."
+ },
+ "error": null
+}

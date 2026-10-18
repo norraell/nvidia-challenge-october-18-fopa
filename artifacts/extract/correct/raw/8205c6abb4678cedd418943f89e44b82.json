@@ -1,0 +1,31 @@
+{
+ "key": "8205c6abb4678cedd418943f89e44b82",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The ancient philophers, &. are divided upon the fullyelt of the engathyrthd. Hipporcentes mentions is as a idiction. Others will have to kind of strin-tion. Others attribute it to the operation or polefi- tion of an evil finite. And others to antal mecha- nim. M. Scotts maintains that the engathrhythm of the anciens were poets, who, when the prisels could not fpeks, fupplied the defect by explaining in verfe what Apollo dictated in the cavity of the balon on the farced tripod.",
+ "content": "{\n  \"faithful\": \"The ancient philosophers, &c. are divided upon the subject of the engastrimythi. Hippocrates mentions it as a disease. Others will have it a kind of divination. Others attribute it to the operation or possession of an evil spirit. And others to art and mechanism. M. Scottus maintains that the engastrimythi of the ancients were poets, who, when the priests could not speak, supplied the defect by explaining in verse what Apollo dictated in the cavity of the balon on the facred tripod.\",\n  \"modern\": \"The ancient philosophers, &c. are divided upon the subject of the engastrimythi. Hippocrates mentions it as a disease. Others will have it a kind of divination. Others attribute it to the operation or possession of an evil spirit. And others to art and mechanism. M. Scottus maintains that the engastrimythi of the ancients were poets, who, when the priests could not speak, supplied the defect by explaining in verse what Apollo dictated in the cavity of the balon on the sacred tripod.\"\n}",
+ "usage": {
+  "completion_tokens": 234,
+  "prompt_tokens": 715,
+  "total_tokens": 949,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The ancient philosophers, &c. are divided upon the subject of the engastrimythi. Hippocrates mentions it as a disease. Others will have it a kind of divination. Others attribute it to the operation or possession of an evil spirit. And others to art and mechanism. M. Scottus maintains that the engastrimythi of the ancients were poets, who, when the priests could not speak, supplied the defect by explaining in verse what Apollo dictated in the cavity of the balon on the facred tripod.",
+  "modern": "The ancient philosophers, &c. are divided upon the subject of the engastrimythi. Hippocrates mentions it as a disease. Others will have it a kind of divination. Others attribute it to the operation or possession of an evil spirit. And others to art and mechanism. M. Scottus maintains that the engastrimythi of the ancients were poets, who, when the priests could not speak, supplied the defect by explaining in verse what Apollo dictated in the cavity of the balon on the sacred tripod."
+ },
+ "error": null
+}

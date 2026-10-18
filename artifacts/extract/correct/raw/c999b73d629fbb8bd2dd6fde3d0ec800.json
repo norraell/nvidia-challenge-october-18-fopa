@@ -1,0 +1,31 @@
+{
+ "key": "c999b73d629fbb8bd2dd6fde3d0ec800",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Before the institution of the comitia contents, all the great concerts of the state were transacted in the assembly of the curtu; as the election of kings and other chief officers, the major and beginning of lives, and the judging of qui- ultricutes. After the repetition of the Bishop, when the commons had obtained the privilege of bring tribune and thus, they were the ones now elected at these assemblages, but that ceremony being at length transferred to the comitia tribus, the curtu were never converted to give their votes, reception venue, and making some particular law, relating to an adaptation, walls, and treatments, or the creation of officers for an exposition, for elective, some of the priets, as the famines, and the new maratons, who were four-selves chosen by every particular curtu. The power of calling these was clearly believed at that only to the knayy, but to the establishment of the democracy, this privilege was allowed to most of the magistrates, and sometimes to the positionities.",
+ "content": "{\n  \"faithful\": \"Before the institution of the comitia centuriata, all the great concerns of the state were transacted in the assembly of the curie; as the election of kings and other chief officers, the making and abrogating of laws, and the judging of capital crimes. After the expulsion of the kings, when the commons had obtained the privilege of having tribunes and aediles, they were for some time elected at these assemblies; but that ceremony being at length transferred to the comitia tributa, the curie were never convened to give their votes, excepting upon occasion of making some particular law, relating to adoptions, wills, and testaments, or the creation of officers for an expedition, or for electing some of the priests, as the flamines, and the curio maximus, who were themselves chosen by every particular curie. The power of calling these assemblies belonged at first only to the kings; but on the establishment of the democracy, this privilege was allowed to most of the magistrates, and sometimes to the pontifices.\",\n  \"modern\": \"Before the institution of the comitia centuriata, all the great concerns of the state were transacted in the assembly of the curie; as the election of kings and other chief officers, the making and abrogating of laws, and the judging of capital crimes. After the expulsion of the kings, when the commons had obtained the privilege of having tribunes and aediles, they were for some time elected at these assemblies; but that ceremony being at length transferred to the comitia tributa, the curie were never convened to give their votes, excepting upon occasion of making some particular law, relating to adoptions, wills, and testaments, or the creation of officers for an expedition, or for electing some of the priests, as the flamines, and the curio maximus, who were themselves chosen by every particular curie. The power of calling these assemblies belonged at first only to the kings; but on the establishment of the democracy, this privilege was allowed to most of the magistrates, and sometimes to the pontifices.\"\n}",
+ "usage": {
+  "completion_tokens": 449,
+  "prompt_tokens": 819,
+  "total_tokens": 1268,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 302
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Before the institution of the comitia centuriata, all the great concerns of the state were transacted in the assembly of the curie; as the election of kings and other chief officers, the making and abrogating of laws, and the judging of capital crimes. After the expulsion of the kings, when the commons had obtained the privilege of having tribunes and aediles, they were for some time elected at these assemblies; but that ceremony being at length transferred to the comitia tributa, the curie were never convened to give their votes, excepting upon occasion of making some particular law, relating to adoptions, wills, and testaments, or the creation of officers for an expedition, or for electing some of the priests, as the flamines, and the curio maximus, who were themselves chosen by every particular curie. The power of calling these assemblies belonged at first only to the kings; but on the establishment of the democracy, this privilege was allowed to most of the magistrates, and sometimes to the pontifices.",
+  "modern": "Before the institution of the comitia centuriata, all the great concerns of the state were transacted in the assembly of the curie; as the election of kings and other chief officers, the making and abrogating of laws, and the judging of capital crimes. After the expulsion of the kings, when the commons had obtained the privilege of having tribunes and aediles, they were for some time elected at these assemblies; but that ceremony being at length transferred to the comitia tributa, the curie were never convened to give their votes, excepting upon occasion of making some particular law, relating to adoptions, wills, and testaments, or the creation of officers for an expedition, or for electing some of the priests, as the flamines, and the curio maximus, who were themselves chosen by every particular curie. The power of calling these assemblies belonged at first only to the kings; but on the establishment of the democracy, this privilege was allowed to most of the magistrates, and sometimes to the pontifices."
+ },
+ "error": null
+}

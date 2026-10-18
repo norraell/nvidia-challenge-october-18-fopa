@@ -1,0 +1,31 @@
+{
+ "key": "d351d5328a66a8daa594cfb062547761",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "had made heys to his library. A fewer dilempper\nweakened his body extremely, but was the vivacity of\nhis genius:' he wrote his own life in a very elegant\nflyts) and died in 1721, aged 91. He was a run of\nvery accessible construction, 1nd of great probity, as\nwell as immense civilization--The following are the\ntitles of his principal works. 1. _De time laungre-_\n_values, of giving some interceptions_. 2. An eli-\ntion of Origen's comentaries on the holy Scriptures,\nin Greek and Latin. 3. A travtile on the origin\nof the Romanza. _Dornedible examples, folio._\n5. _Sauffinese Alnetane de conocrinia romania et filais._\n6. Of the duration of the terrestrial passifies, in\nFrench, 7. Albility of the comments on tangica-\ntion of the ancient, which has been raindicated into\nEnglish. 8. _Demonstrate du rival and semi porti-_\n_constitutes._ 9. _Hetainas._ 10. Listin and Greek ver-\nfen, 6.",
+ "content": "{\n  \"faithful\": \"had made heirs to his library. A fewre dilemper weakened his body extremely, but not the vivacity of his genius: he wrote his own life in a very elegant stile, and died in 1721, aged 91. He was a man of very agreeable conversation, and of great probity, as well as immense erudition.—The following are the titles of his principal works. 1. _De claris inter- pretes, et de optimo genere interpretandi._ 2. An edi- tion of Origen's commentaries on the holy Scriptures, in Greek and Latin. 3. A treatise on the origin of the Romans. 4. _Demonstratio evangelica, folio._ 5. _Qualiones Alnetane de concordia rationis et fidei._ 6. Of the duration of the terrestrial paradise, in French, 7. A history of the commerce and navigation of the ancients, which has been translated into English. 8. _Commentarius de rebus ad eum pertinenti- bus._ 9. _Hesterna._ 10. Latin and Greek ver- sions, &c.\",\n  \"modern\": \"had made heirs to his library. A fewre dilemper weakened his body extremely, but not the vivacity of his genius: he wrote his own life in a very elegant stile, and died in 1721, aged 91. He was a man of very agreeable conversation, and of great probity, as well as immense erudition.—The following are the titles of his principal works. 1. _De claris interpretes, et de optimo genere interpretandi._ 2. An edition of Origen's commentaries on the holy Scriptures, in Greek and Latin. 3. A treatise on the origin of the Romans. 4. _Demonstratio evangelica, folio._ 5. _Qualiones Alnetane de concordia rationis et fidei._ 6. Of the duration of the terrestrial paradise, in French, 7. A history of the commerce and navigation of the ancients, which has been translated into English. 8. _Commentarius de rebus ad eum pertinenti- bus._ 9. _Hesterna._ 10. Latin and Greek versions, &c.\"\n}",
+ "usage": {
+  "completion_tokens": 513,
+  "prompt_tokens": 870,
+  "total_tokens": 1383,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 306
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "had made heirs to his library. A fewre dilemper weakened his body extremely, but not the vivacity of his genius: he wrote his own life in a very elegant stile, and died in 1721, aged 91. He was a man of very agreeable conversation, and of great probity, as well as immense erudition.—The following are the titles of his principal works. 1. _De claris inter- pretes, et de optimo genere interpretandi._ 2. An edi- tion of Origen's commentaries on the holy Scriptures, in Greek and Latin. 3. A treatise on the origin of the Romans. 4. _Demonstratio evangelica, folio._ 5. _Qualiones Alnetane de concordia rationis et fidei._ 6. Of the duration of the terrestrial paradise, in French, 7. A history of the commerce and navigation of the ancients, which has been translated into English. 8. _Commentarius de rebus ad eum pertinenti- bus._ 9. _Hesterna._ 10. Latin and Greek ver- sions, &c.",
+  "modern": "had made heirs to his library. A fewre dilemper weakened his body extremely, but not the vivacity of his genius: he wrote his own life in a very elegant stile, and died in 1721, aged 91. He was a man of very agreeable conversation, and of great probity, as well as immense erudition.—The following are the titles of his principal works. 1. _De claris interpretes, et de optimo genere interpretandi._ 2. An edition of Origen's commentaries on the holy Scriptures, in Greek and Latin. 3. A treatise on the origin of the Romans. 4. _Demonstratio evangelica, folio._ 5. _Qualiones Alnetane de concordia rationis et fidei._ 6. Of the duration of the terrestrial paradise, in French, 7. A history of the commerce and navigation of the ancients, which has been translated into English. 8. _Commentarius de rebus ad eum pertinenti- bus._ 9. _Hesterna._ 10. Latin and Greek versions, &c."
+ },
+ "error": null
+}

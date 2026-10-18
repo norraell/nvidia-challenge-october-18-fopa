@@ -1,0 +1,31 @@
+{
+ "key": "381e1b4cbd4ca6d8c903f6541d57cc0b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_A New Music-Teale for fach as ate Belino._",
+ "content": "{\n  \"faithful\": \"A New Music-Table for fuch as are Begin.\",\n  \"modern\": \"A New Music-Table for such as are Begin.\"\n}",
+ "usage": {
+  "completion_tokens": 38,
+  "prompt_tokens": 616,
+  "total_tokens": 654,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "A New Music-Table for fuch as are Begin.",
+  "modern": "A New Music-Table for such as are Begin."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "6de94905f411112d7bedb1b9f9156d1b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Vegetable time, and repasted proofs of the good quality of the \nfluid. At the end of eight more difficult I drew",
+ "content": "{\n  \"faithful\": \"Vegetable time, and repeated proofs of the good quality of the fluid. At the end of eight hours distillation, I drew\",\n  \"modern\": \"Vegetable time, and repeated proofs of the good quality of the fluid. At the end of eight hours distillation, I drew\"\n}",
+ "usage": {
+  "completion_tokens": 69,
+  "prompt_tokens": 633,
+  "total_tokens": 702,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 303
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Vegetable time, and repeated proofs of the good quality of the fluid. At the end of eight hours distillation, I drew",
+  "modern": "Vegetable time, and repeated proofs of the good quality of the fluid. At the end of eight hours distillation, I drew"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "e5bf9eea9ad2ec1972c7737d1c0b42e3",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "\" If indeed the quantity of electric field naturally contained in the body of a man, forrindance, were often mefe, or induding, the author's ultimate between the effects producible by a cloud, and those caned by a prime conductor might be admitted. But fairly electronic cloud,—how great forces may be its extent, and the height of its charge, when compared with the scenes and change of a prime conductor-- cannot cepel from a mared (way (only other key)) more than the natural quantity of electricity which it contains. On the fodder removal, therefore of the preffure by which this natural quantity had been expelled, in consequence of the equation of the cloud into the earth) so more (at the utmost) than his _robole natural lack_ of electricity can re-enter the body (c). But we have no reason to fopate that this quantity is fo great, as that its fudden re-entrance into his body found delivery on even injury third",
+ "content": "{\n  \"faithful\": \"If indeed the quantity of electric fluid naturally contained in the body of a man, for instance, were immense, or indefinite, the author's estimate between the effects producible by a cloud, and those caused by a prime conductor might be admitted. But surely an electrified cloud,—how great force may be its extent, and the height of its charge, when compared with the extent and charge of a prime conductor—cannot expel from a man's body (or any other body) more than the natural quantity of electricity which it contains. On the sudden removal, therefore, of the pressure by which this natural quantity had been expelled, in consequence of the explosion of the cloud into the earth, no more (at the utmost) than his whole natural stock of electricity can re-enter the body (c). But we have no reason to suppose that this quantity is so great, as that its sudden re-entrance into his body should destroy or even injure him.\",\n  \"modern\": \"If indeed the quantity of electric fluid naturally contained in the body of a man, for instance, were immense, or indefinite, the author's estimate between the effects producible by a cloud, and those caused by a prime conductor might be admitted. But surely an electrified cloud,—how great force may be its extent, and the height of its charge, when compared with the extent and charge of a prime conductor—cannot expel from a man's body (or any other body) more than the natural quantity of electricity which it contains. On the sudden removal, therefore, of the pressure by which this natural quantity had been expelled, in consequence of the explosion of the cloud into the earth, no more (at the utmost) than his whole natural stock of electricity can re-enter the body (c). But we have no reason to suppose that this quantity is so great, as that its sudden re-entrance into his body should destroy or even injure him.\"\n}",
+ "usage": {
+  "completion_tokens": 405,
+  "prompt_tokens": 851,
+  "total_tokens": 1256,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 342
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "If indeed the quantity of electric fluid naturally contained in the body of a man, for instance, were immense, or indefinite, the author's estimate between the effects producible by a cloud, and those caused by a prime conductor might be admitted. But surely an electrified cloud,—how great force may be its extent, and the height of its charge, when compared with the extent and charge of a prime conductor—cannot expel from a man's body (or any other body) more than the natural quantity of electricity which it contains. On the sudden removal, therefore, of the pressure by which this natural quantity had been expelled, in consequence of the explosion of the cloud into the earth, no more (at the utmost) than his whole natural stock of electricity can re-enter the body (c). But we have no reason to suppose that this quantity is so great, as that its sudden re-entrance into his body should destroy or even injure him.",
+  "modern": "If indeed the quantity of electric fluid naturally contained in the body of a man, for instance, were immense, or indefinite, the author's estimate between the effects producible by a cloud, and those caused by a prime conductor might be admitted. But surely an electrified cloud,—how great force may be its extent, and the height of its charge, when compared with the extent and charge of a prime conductor—cannot expel from a man's body (or any other body) more than the natural quantity of electricity which it contains. On the sudden removal, therefore, of the pressure by which this natural quantity had been expelled, in consequence of the explosion of the cloud into the earth, no more (at the utmost) than his whole natural stock of electricity can re-enter the body (c). But we have no reason to suppose that this quantity is so great, as that its sudden re-entrance into his body should destroy or even injure him."
+ },
+ "error": null
+}

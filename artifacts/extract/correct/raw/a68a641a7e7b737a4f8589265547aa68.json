@@ -1,0 +1,31 @@
+{
+ "key": "a68a641a7e7b737a4f8589265547aa68",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "those who fought on horriback now began to be diltingified with peculiar honours. The manners of warrior too were become more cultivate), and his spirit more humain. Lofure and opulence, with the influence of a polibled people, even though in a fate of slavery, taught those habenam to a desire more robust relations and the federal amendments than those who which they had been before fattued with. The influence of birthtime too, which, though grdify co-exist was still immounds to the fiscal lingands of mankind, concurred to polish their manners and dealt their character. Hence, in the end of the tenth and in the beginning of the seventh century, we few",
+ "content": "{\n  \"faithful\": \"those who fought on horriback now began to be diltingified with peculiar honours. The manners of warrior too were become more cultivate), and his spirit more humain. Lofure and opulence, with the influence of a polibled people, even though in a fate of slavery, taught those habenam to a desire more robust relations and the federal amendments than those who which they had been before fattued with. The influence of birthtime too, which, though grdify co-exist was still immounds to the fiscal lingands of mankind, concurred to polish their manners and dealt their character. Hence, in the end of the tenth and in the beginning of the seventh century, we few\",\n  \"modern\": \"those who fought on horriback now began to be diltingified with peculiar honours. The manners of warrior too were become more cultivated, and his spirit more humain. Lofure and opulence, with the influence of a polibled people, even though in a fate of slavery, taught those habenam to a desire more robust relations and the federal amendments than those who which they had been before fattued with. The influence of birthtime too, which, though grdify co-exist was still immounds to the fiscal lingands of mankind, concurred to polish their manners and dealt their character. Hence, in the end of the tenth and in the beginning of the seventh century, we few\"\n}",
+ "usage": {
+  "completion_tokens": 305,
+  "prompt_tokens": 708,
+  "total_tokens": 1013,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "those who fought on horriback now began to be diltingified with peculiar honours. The manners of warrior too were become more cultivate), and his spirit more humain. Lofure and opulence, with the influence of a polibled people, even though in a fate of slavery, taught those habenam to a desire more robust relations and the federal amendments than those who which they had been before fattued with. The influence of birthtime too, which, though grdify co-exist was still immounds to the fiscal lingands of mankind, concurred to polish their manners and dealt their character. Hence, in the end of the tenth and in the beginning of the seventh century, we few",
+  "modern": "those who fought on horriback now began to be diltingified with peculiar honours. The manners of warrior too were become more cultivated, and his spirit more humain. Lofure and opulence, with the influence of a polibled people, even though in a fate of slavery, taught those habenam to a desire more robust relations and the federal amendments than those who which they had been before fattued with. The influence of birthtime too, which, though grdify co-exist was still immounds to the fiscal lingands of mankind, concurred to polish their manners and dealt their character. Hence, in the end of the tenth and in the beginning of the seventh century, we few"
+ },
+ "error": null
+}

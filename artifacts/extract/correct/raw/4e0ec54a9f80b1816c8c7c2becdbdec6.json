@@ -1,0 +1,31 @@
+{
+ "key": "4e0ec54a9f80b1816c8c7c2becdbdec6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "9. If the right of the hufland to the wife’s moveable Bunders af- efiction, is burdened with the morevable debts contracted feeling the by before marriages, and as the right is universal, by marritis. So alls in his burdens; for the reason to how movable debts, though they should far exceed her movieable effects. Yet the hufland is considered as the true doctor in his wife’s debts. In all all persons for payments, file is the proper defender; the hufland is only cited for his interest, that is, as crime to bear, and administrative of the footing goods. As long therefore as the marriage is dilofened, and the footy goods thereby (after a division, the hufland is no further concerned), the fines belonging to his deceased, wife; and consequently is no longer liable to pay her debts, which much life recovered from her representatives, or her female relate.",
+ "content": "{\n  \"faithful\": \"9. If the right of the hufland to the wife's moveable Bunders af- efiction, is burdened with the morevable debts contracted feeling the by before marriages, and as the right is universal, by marritis. So alls in his burdens; for the reason to how movable debts, though they should far exceed her movieable effects. Yet the hufland is considered as the true doctor in his wife's debts. In all all persons for payments, file is the proper defender; the hufland is only cited for his interest, that is, as crime to bear, and administrative of the footing goods. As long therefore as the marriage is dilofened, and the footy goods thereby (after a division, the hufland is no further concerned), the fines belonging to his deceased, wife; and consequently is no longer liable to pay her debts, which much life recovered from her representatives, or her female relate.\",\n  \"modern\": \"9. If the right of the husband to the wife's moveable Bunders af- efiction, is burdened with the moveable debts contracted feeling the by before marriages, and as the right is universal, by marritis. So alls in his burdens; for the reason to how movable debts, though they should far exceed her moveable effects. Yet the husband is considered as the true doctor in his wife's debts. In all all persons for payments, file is the proper defender; the husband is only cited for his interest, that is, as crime to bear, and administrative of the footing goods. As long therefore as the marriage is dilofened, and the footy goods thereby (after a division, the husband is no further concerned), the fines belonging to his deceased, wife; and consequently is no longer liable to pay her debts, which much life recovered from her representatives, or her female relate.\"\n}",
+ "usage": {
+  "completion_tokens": 397,
+  "prompt_tokens": 783,
+  "total_tokens": 1180,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 287
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "9. If the right of the hufland to the wife's moveable Bunders af- efiction, is burdened with the morevable debts contracted feeling the by before marriages, and as the right is universal, by marritis. So alls in his burdens; for the reason to how movable debts, though they should far exceed her movieable effects. Yet the hufland is considered as the true doctor in his wife's debts. In all all persons for payments, file is the proper defender; the hufland is only cited for his interest, that is, as crime to bear, and administrative of the footing goods. As long therefore as the marriage is dilofened, and the footy goods thereby (after a division, the hufland is no further concerned), the fines belonging to his deceased, wife; and consequently is no longer liable to pay her debts, which much life recovered from her representatives, or her female relate.",
+  "modern": "9. If the right of the husband to the wife's moveable Bunders af- efiction, is burdened with the moveable debts contracted feeling the by before marriages, and as the right is universal, by marritis. So alls in his burdens; for the reason to how movable debts, though they should far exceed her moveable effects. Yet the husband is considered as the true doctor in his wife's debts. In all all persons for payments, file is the proper defender; the husband is only cited for his interest, that is, as crime to bear, and administrative of the footing goods. As long therefore as the marriage is dilofened, and the footy goods thereby (after a division, the husband is no further concerned), the fines belonging to his deceased, wife; and consequently is no longer liable to pay her debts, which much life recovered from her representatives, or her female relate."
+ },
+ "error": null
+}

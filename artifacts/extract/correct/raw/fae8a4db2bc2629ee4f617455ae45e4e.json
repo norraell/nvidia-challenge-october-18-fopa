@@ -1,0 +1,31 @@
+{
+ "key": "fae8a4db2bc2629ee4f617455ae45e4e",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The conferve of wormwood has been celebrated in\ndroplets. Mathihulus relates, that several persons were\ncured by it of that diltemper, without the diffiance\nof any other medicine. Where the diforder indeed\nproceeds from a simple laxity or flagidity of the fo-\nlids, the contained use of this medicine may be of bone\nferives, as it appears to be a not malignant mild cor-\nrobranant. It is directed to be given in the dole of\nhalf an ounce, about three hours before meals.",
+ "content": "{\n  \"faithful\": \"The conferve of wormwood has been celebrated in droplets. Mathihulus relates, that several persons were cured by it of that diltemper, without the diffiance of any other medicine. Where the diforder indeed proceeds from a simple laxity or flagidity of the fo- lids, the contained use of this medicine may be of bone ferives, as it appears to be a not malignant mild cor- roborant. It is directed to be given in the dole of half an ounce, about three hours before meals.\",\n  \"modern\": \"The conferve of wormwood has been celebrated in droplets. Mathihulus relates, that several persons were cured by it of that diltemper, without the diffiance of any other medicine. Where the disorder indeed proceeds from a simple laxity or flagidity of the solids, the continued use of this medicine may be of some service, as it appears to be a not inelegant mild corroborant. It is directed to be given in the dose of half an ounce, about three hours before meals.\"\n}",
+ "usage": {
+  "completion_tokens": 228,
+  "prompt_tokens": 687,
+  "total_tokens": 915,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The conferve of wormwood has been celebrated in droplets. Mathihulus relates, that several persons were cured by it of that diltemper, without the diffiance of any other medicine. Where the diforder indeed proceeds from a simple laxity or flagidity of the fo- lids, the contained use of this medicine may be of bone ferives, as it appears to be a not malignant mild cor- roborant. It is directed to be given in the dole of half an ounce, about three hours before meals.",
+  "modern": "The conferve of wormwood has been celebrated in droplets. Mathihulus relates, that several persons were cured by it of that diltemper, without the diffiance of any other medicine. Where the disorder indeed proceeds from a simple laxity or flagidity of the solids, the continued use of this medicine may be of some service, as it appears to be a not inelegant mild corroborant. It is directed to be given in the dose of half an ounce, about three hours before meals."
+ },
+ "error": null
+}

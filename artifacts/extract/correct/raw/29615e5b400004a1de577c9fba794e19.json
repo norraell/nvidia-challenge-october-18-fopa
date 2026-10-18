@@ -1,0 +1,31 @@
+{
+ "key": "29615e5b400004a1de577c9fba794e19",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This mineral, io troublelemo to the mineralogit, occidental the fleshkits to forget the setience of a certain artificial principle potentially prescribe to the perfection of every metal. Even as late as 1773 a qualifiers to this purple, was propelled by the Royal Academy of Sciences at Berlin, the prize was adjudged to M. Monnet, who in his answer considered arferies is at the most of a peculiar kind, which is to fur from confidence any oriental part of metal, that its preference is always attended with inconvenience, ses active by carrying of the metal is if the away, or polling the matis in which is remains. Their conditions, however, do not hinder us from affaring that the said of offering like others, is important for ful- hanced, at any time it happens to meet with metals in the bowels of the earth, and to unite with it in that forms.",
+ "content": "{\n  \"faithful\": \"This mineral, io troublelemo to the mineralogit, occidental the fleshkits to forget the setience of a certain artificial principle potentially prescribe to the perfection of every metal. Even as late as 1773 a qualifiers to this purple, was propelled by the Royal Academy of Sciences at Berlin, the prize was adjudged to M. Monnet, who in his answer considered arferies is at the most of a peculiar kind, which is to fur from confidence any oriental part of metal, that its preference is always attended with inconvenience, ses active by carrying of the metal is if the away, or polling the matis in which is remains. Their conditions, however, do not hinder us from affaring that the said of offering like others, is important for ful- hanced, at any time it happens to meet with metals in the bowels of the earth, and to unite with it in that forms.\",\n  \"modern\": \"This mineral, io troublelemo to the mineralogit, occidental the fleshkits to forget the setience of a certain artificial principle potentially prescribe to the perfection of every metal. Even as late as 1773 a qualifiers to this purple, was propelled by the Royal Academy of Sciences at Berlin, the prize was adjudged to M. Monnet, who in his answer considered arferies is at the most of a peculiar kind, which is to fur from confidence any oriental part of metal, that its preference is always attended with inconvenience, ses active by carrying of the metal is if the away, or polling the matis in which is remains. Their conditions, however, do not hinder us from affaring that the said of offering like others, is important for ful- hanced, at any time it happens to meet with metals in the bowels of the earth, and to unite with it in that forms.\"\n}",
+ "usage": {
+  "completion_tokens": 399,
+  "prompt_tokens": 810,
+  "total_tokens": 1209,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 317
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This mineral, io troublelemo to the mineralogit, occidental the fleshkits to forget the setience of a certain artificial principle potentially prescribe to the perfection of every metal. Even as late as 1773 a qualifiers to this purple, was propelled by the Royal Academy of Sciences at Berlin, the prize was adjudged to M. Monnet, who in his answer considered arferies is at the most of a peculiar kind, which is to fur from confidence any oriental part of metal, that its preference is always attended with inconvenience, ses active by carrying of the metal is if the away, or polling the matis in which is remains. Their conditions, however, do not hinder us from affaring that the said of offering like others, is important for ful- hanced, at any time it happens to meet with metals in the bowels of the earth, and to unite with it in that forms.",
+  "modern": "This mineral, io troublelemo to the mineralogit, occidental the fleshkits to forget the setience of a certain artificial principle potentially prescribe to the perfection of every metal. Even as late as 1773 a qualifiers to this purple, was propelled by the Royal Academy of Sciences at Berlin, the prize was adjudged to M. Monnet, who in his answer considered arferies is at the most of a peculiar kind, which is to fur from confidence any oriental part of metal, that its preference is always attended with inconvenience, ses active by carrying of the metal is if the away, or polling the matis in which is remains. Their conditions, however, do not hinder us from affaring that the said of offering like others, is important for ful- hanced, at any time it happens to meet with metals in the bowels of the earth, and to unite with it in that forms."
+ },
+ "error": null
+}

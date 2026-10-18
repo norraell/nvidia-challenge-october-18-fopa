@@ -1,0 +1,31 @@
+{
+ "key": "a685c6b0c0cc759dbe45369e5541261b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "It is of peculiar importance to work that the ac-\nquition of magnetization is gradual and progrestive, and\nthat the gradation is the more perceptible in proportion\nas the field is of a hastheric temper. When a magnet is\nhrough to one end of a bar of common iron, to remote\nextremity, unleef exceedingly long, requires its utmost\nmagnifin immediately. But when the north pole of",
+ "content": "{\n  \"faithful\": \"It is of peculiar importance to remark that the acquisition of magnetism is gradual and progressive, and that the gradation is the more perceptible in proportion as the field is of a harder temper. When a magnet is brought to one end of a bar of common iron, its remote extremity, unless exceedingly long, acquires its utmost magnetism immediately. But when the north pole of\",\n  \"modern\": \"It is of peculiar importance to remark that the acquisition of magnetism is gradual and progressive, and that the gradation is the more perceptible in proportion as the field is of a harder temper. When a magnet is brought to one end of a bar of common iron, its remote extremity, unless exceedingly long, acquires its utmost magnetism immediately. But when the north pole of\"\n}",
+ "usage": {
+  "completion_tokens": 169,
+  "prompt_tokens": 665,
+  "total_tokens": 834,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "It is of peculiar importance to remark that the acquisition of magnetism is gradual and progressive, and that the gradation is the more perceptible in proportion as the field is of a harder temper. When a magnet is brought to one end of a bar of common iron, its remote extremity, unless exceedingly long, acquires its utmost magnetism immediately. But when the north pole of",
+  "modern": "It is of peculiar importance to remark that the acquisition of magnetism is gradual and progressive, and that the gradation is the more perceptible in proportion as the field is of a harder temper. When a magnet is brought to one end of a bar of common iron, its remote extremity, unless exceedingly long, acquires its utmost magnetism immediately. But when the north pole of"
+ },
+ "error": null
+}

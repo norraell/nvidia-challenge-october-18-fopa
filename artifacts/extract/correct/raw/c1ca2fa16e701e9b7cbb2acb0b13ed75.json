@@ -1,0 +1,31 @@
+{
+ "key": "c1ca2fa16e701e9b7cbb2acb0b13ed75",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "This is the only form that feury-grafs in futultance\ncan be kept in without the total line of its virtues.\nThe conferve retains the full suite and virtue of the\nherb for a very conferable length of time, as a year\ntwo, provided the veffel be made perfectly cleo\nand ice in a cool place. It must be given in Ecurbotic\nhabits three or four times a-day, so efficient.",
+ "content": "{\n  \"faithful\": \"This is the only form that feury-grafs in futultance can be kept in without the total line of its virtues. The conferve retains the full suite and virtue of the herb for a very conferable length of time, as a year two, provided the veffel be made perfectly cleo and ice in a cool place. It must be given in Ecurbotic habits three or four times a-day, so efficient.\\nThis is the only form that feurvy-grafs in fubftance can be kept in without the total lofs of its virtues. The conferve retains the full tafte and virtue of the herb for a very confiderable length of time, as a year or two, provided the veffel be made perfectly clofe and fet in a cool place. It may be given in fcorbatic habits three or four times a-day, or oftenen.\",\n  \"modern\": \"This is the only form that feurvy-grafs in fubstance can be kept in without the total loss of its virtues. The conferve retains the full taste and virtue of the herb for a very considerable length of time, as a year or two, provided the vessel be made perfectly close and set in a cool place. It may be given in scorbutic habits three or four times a-day, or oftenen.\"\n}",
+ "usage": {
+  "completion_tokens": 291,
+  "prompt_tokens": 669,
+  "total_tokens": 960,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "This is the only form that feury-grafs in futultance can be kept in without the total line of its virtues. The conferve retains the full suite and virtue of the herb for a very conferable length of time, as a year two, provided the veffel be made perfectly cleo and ice in a cool place. It must be given in Ecurbotic habits three or four times a-day, so efficient.\nThis is the only form that feurvy-grafs in fubftance can be kept in without the total lofs of its virtues. The conferve retains the full tafte and virtue of the herb for a very confiderable length of time, as a year or two, provided the veffel be made perfectly clofe and fet in a cool place. It may be given in fcorbatic habits three or four times a-day, or oftenen.",
+  "modern": "This is the only form that feurvy-grafs in fubstance can be kept in without the total loss of its virtues. The conferve retains the full taste and virtue of the herb for a very considerable length of time, as a year or two, provided the vessel be made perfectly close and set in a cool place. It may be given in scorbutic habits three or four times a-day, or oftenen."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "fe74d1276b300577bf8baa2d5e2f1601",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "\"It would, therefore, be desirable to have an apparatus\nfor the de la the pure oxygenated muratric acid imply\ndifferent in water, which is at some chopped and\nbell vehicle for it. This apparatus must the limp in\nits condition, and distribute an automatic exposure;\nit muff confine the liquor in such a manner as to pre-\nvent the cleaps of the oxygenated muratric acid gas,\nwhich is not only a loft of power, but alo an inconven-\nmence",
+ "content": "{\n  \"faithful\": \"It would, therefore, be desirable to have an apparatus for the use of the pure oxygenated muriatic acid simply diffused in water, which is at once the cheapest and best vehicle for it. This apparatus must be simple in its construction, and obtainable at a moderate expense; it must confine the liquor in such a manner as to prevent the escape of the oxygenated muriatic acid gas, which is not only a loss of power, but also an inconvenience.\",\n  \"modern\": \"It would, therefore, be desirable to have an apparatus for the use of the pure oxygenated muriatic acid simply diffused in water, which is at once the cheapest and best vehicle for it. This apparatus must be simple in its construction, and obtainable at a moderate expense; it must confine the liquor in such a manner as to prevent the escape of the oxygenated muriatic acid gas, which is not only a loss of power, but also an inconvenience.\"\n}",
+ "usage": {
+  "completion_tokens": 211,
+  "prompt_tokens": 670,
+  "total_tokens": 881,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "It would, therefore, be desirable to have an apparatus for the use of the pure oxygenated muriatic acid simply diffused in water, which is at once the cheapest and best vehicle for it. This apparatus must be simple in its construction, and obtainable at a moderate expense; it must confine the liquor in such a manner as to prevent the escape of the oxygenated muriatic acid gas, which is not only a loss of power, but also an inconvenience.",
+  "modern": "It would, therefore, be desirable to have an apparatus for the use of the pure oxygenated muriatic acid simply diffused in water, which is at once the cheapest and best vehicle for it. This apparatus must be simple in its construction, and obtainable at a moderate expense; it must confine the liquor in such a manner as to prevent the escape of the oxygenated muriatic acid gas, which is not only a loss of power, but also an inconvenience."
+ },
+ "error": null
+}

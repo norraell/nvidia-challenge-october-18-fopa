@@ -1,0 +1,31 @@
+{
+ "key": "e73af19a984cdb2f5a6b8649ee0f0daf",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Horos is alo a thick rope, extended in a perpendli-\nline direction near east four or after field at each if,\nthe poprue of boiling or extending force fall upon it.\nWhen it is fixed before a mafts, it is calculated for the\nuse of a fall called the former folkl, whole you'd being ex-\ntached to the horfe, by means of a rareclier or bull's\neye, which chips and down occasionally, is retained\nin a likely position where when the fail is fet, or\nwhilst it is holding or lowering. When the horfe is\nplaces itself or behind a mafts, it is intended for the\ncrystal of a few, and is according to party fixed\nin this position, except in those floors of war which oc-\nrefundally slither the form of flows, in order to dec-\nners the enemy.",
+ "content": "{\n  \"faithful\": \"Horos is alo a thick rope, extended in a perpendli- line direction near east four or after field at each if, the poprue of boiling or extending force fall upon it. When it is fixed before a mafts, it is calculated for the use of a fall called the former folkl, whole you'd being ex- tached to the horfe, by means of a rareclier or bull's eye, which chips and down occasionally, is retained in a likely position where when the fail is fet, or whilst it is holding or lowering. When the horfe is places itself or behind a mafts, it is intended for the crystal of a few, and is according to party fixed in this position, except in those floors of war which oc- refundally slither the form of flows, in order to dec- ners the enemy.\",\n  \"modern\": \"Horos is also a thick rope, extended in a perpendicular line direction near east four or after field at each if, the purpose of boiling or extending force fall upon it. When it is fixed before a mast, it is calculated for the use of a fall called the former folk, whole you'd being attached to the horse, by means of a traveler or bull's eye, which slides up and down occasionally, is retained in a likely position where when the fail is set, or whilst it is holding or lowering. When the horse is places itself or behind a mast, it is intended for the crystal of a few, and is according to party fixed in this position, except in those floors of war which occasionally assume the form of flows, in order to deceive the enemy.\"\n}",
+ "usage": {
+  "completion_tokens": 349,
+  "prompt_tokens": 748,
+  "total_tokens": 1097,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Horos is alo a thick rope, extended in a perpendli- line direction near east four or after field at each if, the poprue of boiling or extending force fall upon it. When it is fixed before a mafts, it is calculated for the use of a fall called the former folkl, whole you'd being ex- tached to the horfe, by means of a rareclier or bull's eye, which chips and down occasionally, is retained in a likely position where when the fail is fet, or whilst it is holding or lowering. When the horfe is places itself or behind a mafts, it is intended for the crystal of a few, and is according to party fixed in this position, except in those floors of war which oc- refundally slither the form of flows, in order to dec- ners the enemy.",
+  "modern": "Horos is also a thick rope, extended in a perpendicular line direction near east four or after field at each if, the purpose of boiling or extending force fall upon it. When it is fixed before a mast, it is calculated for the use of a fall called the former folk, whole you'd being attached to the horse, by means of a traveler or bull's eye, which slides up and down occasionally, is retained in a likely position where when the fail is set, or whilst it is holding or lowering. When the horse is places itself or behind a mast, it is intended for the crystal of a few, and is according to party fixed in this position, except in those floors of war which occasionally assume the form of flows, in order to deceive the enemy."
+ },
+ "error": null
+}

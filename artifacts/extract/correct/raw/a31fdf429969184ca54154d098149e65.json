@@ -1,0 +1,31 @@
+{
+ "key": "a31fdf429969184ca54154d098149e65",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Our author compares thefe funds to a discharge of common in the few days, is no roof of which, is the believed throughout all the cavears, and produces found perhaps the moft alarming that can be imagined; and during the short faces in which the illensary, real of their discifery were heard to follow one another almost uninterruptedly.",
+ "content": "{\n  \"faithful\": \"Our author compares thefe founds to a difcharge of cannon in the wide abysfs; the noife of which is rebellowed throughout all the caverns, and produce a found perhaps the moft alarming that can be imagined; and during the fhort fpace in which he lifted, feveral of thefe difcharges were heard to follow one another almost uninterruptedly.\",\n  \"modern\": \"Our author compares these sounds to a discharge of cannon in the wide abyss; the noise of which is rebellowed throughout all the caverns, and produce a sound perhaps the most alarming that can be imagined; and during the short space in which he lifted, several of these discharges were heard to follow one another almost uninterruptedly.\"\n}",
+ "usage": {
+  "completion_tokens": 166,
+  "prompt_tokens": 647,
+  "total_tokens": 813,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Our author compares thefe founds to a difcharge of cannon in the wide abysfs; the noife of which is rebellowed throughout all the caverns, and produce a found perhaps the moft alarming that can be imagined; and during the fhort fpace in which he lifted, feveral of thefe difcharges were heard to follow one another almost uninterruptedly.",
+  "modern": "Our author compares these sounds to a discharge of cannon in the wide abyss; the noise of which is rebellowed throughout all the caverns, and produce a sound perhaps the most alarming that can be imagined; and during the short space in which he lifted, several of these discharges were heard to follow one another almost uninterruptedly."
+ },
+ "error": null
+}

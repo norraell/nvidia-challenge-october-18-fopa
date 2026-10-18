@@ -1,0 +1,31 @@
+{
+ "key": "b7af1e8b91116da36dbb37992e73a7f4",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Epifrephe, is contrary to the former, and makes\nthe repetitions at the end of each member or feneen.\nAs thus: _Ruse concord was left, friendship was left,_\n_fidelity was left, liberty was left, all was left_. And\nCicero, in the charge which she brings against Mark\nAuthority before the feature, makes life of this figure,\nwhen he fays, \" Do you lament the deltruth of\nthree Roman amics\" The author of this detective\nwas Anthony. Do you bewah the loaf of most emi-\nent citizens? They have been taken from you by An-\nthony. Is the authority of this order weakened? It\nis weekend by Anthony.”",
+ "content": "{\n  \"faithful\": \"Epifrephe, is contrary to the former, and makes the repetitions at the end of each member or feneen. As thus: _Ruse concord was left, friendship was left, fidelity was left, liberty was left, all was left_. And Cicero, in the charge which she brings against Mark Authority before the feature, makes life of this figure, when he fays, \\\" Do you lament the deltruth of three Roman amics\\\" The author of this detective was Anthony. Do you bewah the loaf of most eminent citizens? They have been taken from you by Anthony. Is the authority of this order weakened? It is weekend by Anthony.\\\"\",\n  \"modern\": \"Epistrophe, is contrary to the former, and makes the repetitions at the end of each member or sentence. As thus: _Ruse concord was left, friendship was left, fidelity was left, liberty was left, all was left_. And Cicero, in the charge which he brings against Mark Anthony before the senate, makes use of this figure, when he says, \\\" Do you lament the destruction of three Roman armies? The author of that destruction was Anthony. Do you bewail the loss of most eminent citizens? They have been taken from you by Anthony. Is the authority of this order weakened? It is weakened by Anthony.\\\"\"\n}",
+ "usage": {
+  "completion_tokens": 284,
+  "prompt_tokens": 741,
+  "total_tokens": 1025,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Epifrephe, is contrary to the former, and makes the repetitions at the end of each member or feneen. As thus: _Ruse concord was left, friendship was left, fidelity was left, liberty was left, all was left_. And Cicero, in the charge which she brings against Mark Authority before the feature, makes life of this figure, when he fays, \" Do you lament the deltruth of three Roman amics\" The author of this detective was Anthony. Do you bewah the loaf of most eminent citizens? They have been taken from you by Anthony. Is the authority of this order weakened? It is weekend by Anthony.\"",
+  "modern": "Epistrophe, is contrary to the former, and makes the repetitions at the end of each member or sentence. As thus: _Ruse concord was left, friendship was left, fidelity was left, liberty was left, all was left_. And Cicero, in the charge which he brings against Mark Anthony before the senate, makes use of this figure, when he says, \" Do you lament the destruction of three Roman armies? The author of that destruction was Anthony. Do you bewail the loss of most eminent citizens? They have been taken from you by Anthony. Is the authority of this order weakened? It is weakened by Anthony.\""
+ },
+ "error": null
+}

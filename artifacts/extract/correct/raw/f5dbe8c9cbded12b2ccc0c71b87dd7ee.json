@@ -1,0 +1,31 @@
+{
+ "key": "f5dbe8c9cbded12b2ccc0c71b87dd7ee",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "As, and Ag. But because A/and-2B are equal and parallel, and Ex and f/ are also parallel; as also or and jp, it is evident, that if/s equal to eR, or to F, and sA is used to rG, or to Gg?. Therefore the forefore Ags Aso, Ap, Av, are equal to AC and AC. Therefore Ac is the compression of the beam AD, or the force pressing it on the beam HD. The proportion of these pressures, therefore, is not affected by the form of the point.",
+ "content": "{\n  \"faithful\": \"Ao, and Ag. But because Af and eE are equal and parallel, and Er and fi are also parallel, as also er and fp, it is evident, that if is equal to rE, or to oF, and iA is equal to re, or to Gg. Therefore the four forces Ag, Ao, Ap, Ai, are equal to AG and AF. Therefore AG is the compression of the beam AD, or the force pressing it on D, and AF is the force pressing it on the beam HD. The proportion of these pressures, therefore, is not affected by the form of the joint.\",\n  \"modern\": \"Ao, and Ag. But because Af and eE are equal and parallel, and Er and fi are also parallel, as also er and fp, it is evident, that if is equal to rE, or to oF, and iA is equal to re, or to Gg. Therefore the four forces Ag, Ao, Ap, Ai, are equal to AG and AF. Therefore AG is the compression of the beam AD, or the force pressing it on D, and AF is the force pressing it on the beam HD. The proportion of these pressures, therefore, is not affected by the form of the joint.\"\n}",
+ "usage": {
+  "completion_tokens": 269,
+  "prompt_tokens": 701,
+  "total_tokens": 970,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 278
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Ao, and Ag. But because Af and eE are equal and parallel, and Er and fi are also parallel, as also er and fp, it is evident, that if is equal to rE, or to oF, and iA is equal to re, or to Gg. Therefore the four forces Ag, Ao, Ap, Ai, are equal to AG and AF. Therefore AG is the compression of the beam AD, or the force pressing it on D, and AF is the force pressing it on the beam HD. The proportion of these pressures, therefore, is not affected by the form of the joint.",
+  "modern": "Ao, and Ag. But because Af and eE are equal and parallel, and Er and fi are also parallel, as also er and fp, it is evident, that if is equal to rE, or to oF, and iA is equal to re, or to Gg. Therefore the four forces Ag, Ao, Ap, Ai, are equal to AG and AF. Therefore AG is the compression of the beam AD, or the force pressing it on D, and AF is the force pressing it on the beam HD. The proportion of these pressures, therefore, is not affected by the form of the joint."
+ },
+ "error": null
+}

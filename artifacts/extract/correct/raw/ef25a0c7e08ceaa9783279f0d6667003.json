@@ -1,0 +1,31 @@
+{
+ "key": "ef25a0c7e08ceaa9783279f0d6667003",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "8. _Disputate de Mararó et Legius Studii in Theologiä Thetici_, ibid. 1731, in 40c.",
+ "content": "{\n  \"faithful\": \"8. Disputatio de Naturá et Legibus Studii in Theologia Thetici, ibid. 1731, in 4to.\",\n  \"modern\": \"8. Disputatio de Naturá et Legibus Studii in Theologia Thetici, ibid. 1731, in 4to.\"\n}",
+ "usage": {
+  "completion_tokens": 83,
+  "prompt_tokens": 628,
+  "total_tokens": 711,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 289
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "8. Disputatio de Naturá et Legibus Studii in Theologia Thetici, ibid. 1731, in 4to.",
+  "modern": "8. Disputatio de Naturá et Legibus Studii in Theologia Thetici, ibid. 1731, in 4to."
+ },
+ "error": null
+}

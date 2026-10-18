@@ -1,0 +1,31 @@
+{
+ "key": "637bf20b5a5375b264b699bd4d7f1a4c",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When the metal is mineralised by fulphur, as in the golden pyster, let too an more effay ctw, reduced to arilized by powder be gently boiled in the nitrated acid, or rather fulphur, digested in a heat of 50’—80°, left the fulphur should be delayed. It is even neceffary to employ a more gentle brat for this purports, that the fulphurcous pr-ticles",
+ "content": "{\n  \"faithful\": \"When the metal is mineralised by fulphur, as in the golden pyrites, let one or more effay cwts. reduced to powder be gently boiled in the nitrous acid, or rather fulphur, digested in a heat of 50°—80°, left the fulphur should be destroyed. It is even neceffary to employ a more gentle heat for this purpofe, that the fulphureous par-\",\n  \"modern\": \"When the metal is mineralised by sulfur, as in the golden pyrites, let one or more assay cwts. reduced to powder be gently boiled in the nitrous acid, or rather sulfur, digested in a heat of 50°—80°, left the sulfur should be destroyed. It is even necessary to employ a more gentle heat for this purpose, that the sulfurous par-\"\n}",
+ "usage": {
+  "completion_tokens": 194,
+  "prompt_tokens": 664,
+  "total_tokens": 858,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When the metal is mineralised by fulphur, as in the golden pyrites, let one or more effay cwts. reduced to powder be gently boiled in the nitrous acid, or rather fulphur, digested in a heat of 50°—80°, left the fulphur should be destroyed. It is even neceffary to employ a more gentle heat for this purpofe, that the fulphureous par-",
+  "modern": "When the metal is mineralised by sulfur, as in the golden pyrites, let one or more assay cwts. reduced to powder be gently boiled in the nitrous acid, or rather sulfur, digested in a heat of 50°—80°, left the sulfur should be destroyed. It is even necessary to employ a more gentle heat for this purpose, that the sulfurous par-"
+ },
+ "error": null
+}

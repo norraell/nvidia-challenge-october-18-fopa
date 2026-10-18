@@ -1,0 +1,31 @@
+{
+ "key": "4417e83a65939f480f9d2bccfaeb1aaf",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "deed by feriving himself and his family, but whatever romans is difficult among the affiliates. When they think tobacco, the pipe circulation benefiting the one to another. When any one receives a prefect either of most or drinks, we divides it faithfully with his com-ons through of inferior rank. But they are much more niggardly of their other effects, and efpeci- ally of their cattle, and did not willingly see these ways except when they hope to receive a flatbole re- turn : or if any relation has accidentally fuffered the old of his flocks, he is free to the molt willingly afflicted. Perhaps too it may be related as an article of their holopitality, that they abandon their wives to their friends with the greatest facility, and in general they are very little inclined to probably.",
+ "content": "{\n  \"faithful\": \"deed by feriving himself and his family, but whatever romans is difficult among the affiliates. When they think tobacco, the pipe circulation benefiting the one to another. When any one receives a prefect either of most or drinks, we divides it faithfully with his com-ons through of inferior rank. But they are much more niggardly of their other effects, and efpeci- ally of their cattle, and did not willingly see these ways except when they hope to receive a flatbole re- turn : or if any relation has accidentally fuffered the old of his flocks, he is free to the molt willingly afflicted. Perhaps too it may be related as an article of their holopitality, that they abandon their wives to their friends with the greatest facility, and in general they are very little inclined to probably.\",\n  \"modern\": \"deed by serving himself and his family, but whatever remains is difficult among the affiliates. When they smoke tobacco, the pipe circulates benefiting the one to another. When any one receives a present either of meat or drinks, he divides it faithfully with his companions, even though of inferior rank. But they are much more niggardly of their other effects, and especially of their cattle, and do not willingly give these away except when they hope to receive a futtable return : or if any relation has accidentally suffered the loss of his flocks, he is sure to be most willingly afflicted. Perhaps too it may be related as an article of their hospitality, that they abandon their wives to their friends with the greatest facility, and in general they are very little inclined to jealousy.\"\n}",
+ "usage": {
+  "completion_tokens": 345,
+  "prompt_tokens": 753,
+  "total_tokens": 1098,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "deed by feriving himself and his family, but whatever romans is difficult among the affiliates. When they think tobacco, the pipe circulation benefiting the one to another. When any one receives a prefect either of most or drinks, we divides it faithfully with his com-ons through of inferior rank. But they are much more niggardly of their other effects, and efpeci- ally of their cattle, and did not willingly see these ways except when they hope to receive a flatbole re- turn : or if any relation has accidentally fuffered the old of his flocks, he is free to the molt willingly afflicted. Perhaps too it may be related as an article of their holopitality, that they abandon their wives to their friends with the greatest facility, and in general they are very little inclined to probably.",
+  "modern": "deed by serving himself and his family, but whatever remains is difficult among the affiliates. When they smoke tobacco, the pipe circulates benefiting the one to another. When any one receives a present either of meat or drinks, he divides it faithfully with his companions, even though of inferior rank. But they are much more niggardly of their other effects, and especially of their cattle, and do not willingly give these away except when they hope to receive a futtable return : or if any relation has accidentally suffered the loss of his flocks, he is sure to be most willingly afflicted. Perhaps too it may be related as an article of their hospitality, that they abandon their wives to their friends with the greatest facility, and in general they are very little inclined to jealousy."
+ },
+ "error": null
+}

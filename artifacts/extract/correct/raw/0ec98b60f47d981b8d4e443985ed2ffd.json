@@ -1,0 +1,31 @@
+{
+ "key": "0ec98b60f47d981b8d4e443985ed2ffd",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "5. To prevent bigany and nectitious marriages, the church has introduced production of banks which is the ceremony of publishing the names and obligations of their who intend to intermany in the churches where the brilde and bridgeroom edides, after the congregation is afforded for divine ferries; that all parties who know any collection on the marriage may offer its. When the order of the church is the foresee the marriage is called equalers, when otherwise, clandligne. Marriage is valid when entered into in either of them ways; but when clandeline, there are certain penalties imposed upon the parties as well as the celebrate and winters.",
+ "content": "{\n  \"faithful\": \"5. To prevent bigamy and incestuous marriages, the church has introduced publication of banns which is the ceremony of publishing the names and designations of those who intend to intermarry, in the churches where the bride and bridegroom reside, after the congregation is assembled for divine service; that all persons who know any objection to the marriage may offer it. When the order of the church is observed, the marriage is called regular; when otherwise, clandestine. Marriage is valid when entered into in either of these ways; but when clandestine, there are certain penalties imposed upon the parties as well as the celebrant and witnesses.\",\n  \"modern\": \"5. To prevent bigamy and incestuous marriages, the church has introduced publication of banns which is the ceremony of publishing the names and designations of those who intend to intermarry, in the churches where the bride and bridegroom reside, after the congregation is assembled for divine service; that all persons who know any objection to the marriage may offer it. When the order of the church is observed, the marriage is called regular; when otherwise, clandestine. Marriage is valid when entered into in either of these ways; but when clandestine, there are certain penalties imposed upon the parties as well as the celebrant and witnesses.\"\n}",
+ "usage": {
+  "completion_tokens": 275,
+  "prompt_tokens": 708,
+  "total_tokens": 983,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 275
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "5. To prevent bigamy and incestuous marriages, the church has introduced publication of banns which is the ceremony of publishing the names and designations of those who intend to intermarry, in the churches where the bride and bridegroom reside, after the congregation is assembled for divine service; that all persons who know any objection to the marriage may offer it. When the order of the church is observed, the marriage is called regular; when otherwise, clandestine. Marriage is valid when entered into in either of these ways; but when clandestine, there are certain penalties imposed upon the parties as well as the celebrant and witnesses.",
+  "modern": "5. To prevent bigamy and incestuous marriages, the church has introduced publication of banns which is the ceremony of publishing the names and designations of those who intend to intermarry, in the churches where the bride and bridegroom reside, after the congregation is assembled for divine service; that all persons who know any objection to the marriage may offer it. When the order of the church is observed, the marriage is called regular; when otherwise, clandestine. Marriage is valid when entered into in either of these ways; but when clandestine, there are certain penalties imposed upon the parties as well as the celebrant and witnesses."
+ },
+ "error": null
+}

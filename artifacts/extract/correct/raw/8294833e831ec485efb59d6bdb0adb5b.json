@@ -1,0 +1,31 @@
+{
+ "key": "8294833e831ec485efb59d6bdb0adb5b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The comitia center was inserted by Servita Tul-lia, who had obliged every one to give a time account of that he has saved, and divided the people, according to the returns, that six rows or cases, which is subdivided into a hundred and minety-three centuries. The first class, containing the copies and indeed citizens, consisted of ninety-seven centuries, the third of twenty-the fourth of twenty-two, the fifth thirty; did the study, composed of the persort, and only one century, but this thought it had the same name with the rest, yet was seldom regarded, and scarcely allowed any power in public matter. Hence it is common with the Roman authors, when they speak of the classes to action no means than the skills to being used their notice. She has classanted orders and divided into two parts or entries, the protectorii and the capite coast. The former, as their name implies, were designed purely to stock the republic with men, since they could supply it with so little money i",
+ "content": "{\n  \"faithful\": \"The comitia centuriata was instituted by Servius Tullius, who had obliged every one to give a true account of what he was worth, and divided the people, according to the returns, into six ranks or classes, which he subdivided into a hundred and ninety-three centuries. The first class, containing the equites and richest citizens, consisted of ninety-eight centuries. The second, including the tradesmen and mechanics, consisted of twenty-two centuries; the third of twenty; the fourth of twenty-two; the fifth of thirty; and the sixth, composed of the poorer sort, of only one century; but this though it had the same name with the rest, yet was seldom regarded, and scarcely allowed any power in public matters. Hence it is common with the Roman authors, when they speak of the classes, to reckon no more than five, the sixth not being worthy of their notice. This last classis or order was divided into two parts or orders, the proletarii and the capite censi. The former, as their name implies, were designed purely to stock the republic with men, since they could supply it with so little money;\",\n  \"modern\": \"The comitia centuriata was instituted by Servius Tullius, who had obliged every one to give a true account of what he was worth, and divided the people, according to the returns, into six ranks or classes, which he subdivided into a hundred and ninety-three centuries. The first class, containing the equites and richest citizens, consisted of ninety-eight centuries. The second, including the tradesmen and mechanics, consisted of twenty-two centuries; the third of twenty; the fourth of twenty-two; the fifth of thirty; and the sixth, composed of the poorer sort, of only one century; but this though it had the same name with the rest, yet was seldom regarded, and scarcely allowed any power in public matters. Hence it is common with the Roman authors, when they speak of the classes, to reckon no more than five, the sixth not being worthy of their notice. This last classis or order was divided into two parts or orders, the proletarii and the capite censi. The former, as their name implies, were designed purely to stock the republic with men, since they could supply it with so little money;\"\n}",
+ "usage": {
+  "completion_tokens": 484,
+  "prompt_tokens": 815,
+  "total_tokens": 1299,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 306
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The comitia centuriata was instituted by Servius Tullius, who had obliged every one to give a true account of what he was worth, and divided the people, according to the returns, into six ranks or classes, which he subdivided into a hundred and ninety-three centuries. The first class, containing the equites and richest citizens, consisted of ninety-eight centuries. The second, including the tradesmen and mechanics, consisted of twenty-two centuries; the third of twenty; the fourth of twenty-two; the fifth of thirty; and the sixth, composed of the poorer sort, of only one century; but this though it had the same name with the rest, yet was seldom regarded, and scarcely allowed any power in public matters. Hence it is common with the Roman authors, when they speak of the classes, to reckon no more than five, the sixth not being worthy of their notice. This last classis or order was divided into two parts or orders, the proletarii and the capite censi. The former, as their name implies, were designed purely to stock the republic with men, since they could supply it with so little money;",
+  "modern": "The comitia centuriata was instituted by Servius Tullius, who had obliged every one to give a true account of what he was worth, and divided the people, according to the returns, into six ranks or classes, which he subdivided into a hundred and ninety-three centuries. The first class, containing the equites and richest citizens, consisted of ninety-eight centuries. The second, including the tradesmen and mechanics, consisted of twenty-two centuries; the third of twenty; the fourth of twenty-two; the fifth of thirty; and the sixth, composed of the poorer sort, of only one century; but this though it had the same name with the rest, yet was seldom regarded, and scarcely allowed any power in public matters. Hence it is common with the Roman authors, when they speak of the classes, to reckon no more than five, the sixth not being worthy of their notice. This last classis or order was divided into two parts or orders, the proletarii and the capite censi. The former, as their name implies, were designed purely to stock the republic with men, since they could supply it with so little money;"
+ },
+ "error": null
+}

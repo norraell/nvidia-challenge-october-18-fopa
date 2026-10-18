@@ -1,0 +1,31 @@
+{
+ "key": "952adfc5fb392c837d8b8504f04b4a72",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "REKCTOR PISIS. See FISIS.",
+ "content": "{\n  \"faithful\": \"RECTOR PISIS. See FISIS. ERECTOR PENIS. See PENIS. EREMIT. See HERMIT.\",\n  \"modern\": \"RECTOR PISIS. See FISIS. ERECTOR PENIS. See PENIS. EREMIT. See HERMIT.\"\n}",
+ "usage": {
+  "completion_tokens": 77,
+  "prompt_tokens": 595,
+  "total_tokens": 672,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 282
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "RECTOR PISIS. See FISIS. ERECTOR PENIS. See PENIS. EREMIT. See HERMIT.",
+  "modern": "RECTOR PISIS. See FISIS. ERECTOR PENIS. See PENIS. EREMIT. See HERMIT."
+ },
+ "error": null
+}

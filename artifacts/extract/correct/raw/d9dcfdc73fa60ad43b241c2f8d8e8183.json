@@ -1,0 +1,31 @@
+{
+ "key": "d9dcfdc73fa60ad43b241c2f8d8e8183",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "§. He all three cases where the induction of magne-\ntifism is flow, the attraction is weak in proportion. This\nis particularly remarked by Dr Gilbers. If we take\npiece of common iron, and of fleet of different temps,\nbut all of the fame fine and form, we shall find that the\niron is much more thought attracted than any of the\nrel, and that the attraction for each of them a weaker\nproportion as they are harder. This liberty is to\naccurately observed, that when the piece is thoroughly",
+ "content": "{\n  \"faithful\": \"§. He all three cases where the induction of magne- tifism is flow, the attraction is weak in proportion. This is particularly remarked by Dr Gilbers. If we take piece of common iron, and of fleet of different temps, but all of the fame fine and form, we shall find that the iron is much more thought attracted than any of the rel, and that the attraction for each of them a weaker proportion as they are harder. This liberty is to accurately observed, that when the piece is thoroughly and polarity, and its weight prevails. 3. In all thofe cafes where the induction of magne- tifm is flow, the attraction is weak in proportion. This is particularly remarked by Dr Gilbert. If we take pieces of common iron, and of fleel of different tempers, but all of the fame fize and form, we shall find that the iron is much more frongly attracted than any of the rel, and that the attraction for each of them is weaker in proportion as they are harder. This diverfity is fo accurately obferved, that when the piece is thoroughly\",\n  \"modern\": \"§. He all three cases where the induction of magnetism is slow, the attraction is weak in proportion. This is particularly remarked by Dr Gilbert. If we take piece of common iron, and of fleet of different temps, but all of the same fine and form, we shall find that the iron is much more thought attracted than any of the rel, and that the attraction for each of them a weaker proportion as they are harder. This liberty is to accurately observed, that when the piece is thoroughly and polarity, and its weight prevails. 3. In all those cases where the induction of magnetism is slow, the attraction is weak in proportion. This is particularly remarked by Dr Gilbert. If we take pieces of common iron, and of steel of different tempers, but all of the same size and form, we shall find that the iron is much more strongly attracted than any of the rel, and that the attraction for each of them is weaker in proportion as they are harder. This diversity is so accurately observed, that when the piece is thoroughly\"\n}",
+ "usage": {
+  "completion_tokens": 460,
+  "prompt_tokens": 705,
+  "total_tokens": 1165,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 290
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "§. He all three cases where the induction of magne- tifism is flow, the attraction is weak in proportion. This is particularly remarked by Dr Gilbers. If we take piece of common iron, and of fleet of different temps, but all of the fame fine and form, we shall find that the iron is much more thought attracted than any of the rel, and that the attraction for each of them a weaker proportion as they are harder. This liberty is to accurately observed, that when the piece is thoroughly and polarity, and its weight prevails. 3. In all thofe cafes where the induction of magne- tifm is flow, the attraction is weak in proportion. This is particularly remarked by Dr Gilbert. If we take pieces of common iron, and of fleel of different tempers, but all of the fame fize and form, we shall find that the iron is much more frongly attracted than any of the rel, and that the attraction for each of them is weaker in proportion as they are harder. This diverfity is fo accurately obferved, that when the piece is thoroughly",
+  "modern": "§. He all three cases where the induction of magnetism is slow, the attraction is weak in proportion. This is particularly remarked by Dr Gilbert. If we take piece of common iron, and of fleet of different temps, but all of the same fine and form, we shall find that the iron is much more thought attracted than any of the rel, and that the attraction for each of them a weaker proportion as they are harder. This liberty is to accurately observed, that when the piece is thoroughly and polarity, and its weight prevails. 3. In all those cases where the induction of magnetism is slow, the attraction is weak in proportion. This is particularly remarked by Dr Gilbert. If we take pieces of common iron, and of steel of different tempers, but all of the same size and form, we shall find that the iron is much more strongly attracted than any of the rel, and that the attraction for each of them is weaker in proportion as they are harder. This diversity is so accurately observed, that when the piece is thoroughly"
+ },
+ "error": null
+}

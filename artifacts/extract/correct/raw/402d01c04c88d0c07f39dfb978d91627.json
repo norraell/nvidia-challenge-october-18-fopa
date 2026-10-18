@@ -1,0 +1,31 @@
+{
+ "key": "402d01c04c88d0c07f39dfb978d91627",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "When it is rapidly heated, it inflamed spontaneously. After when lonly heated in cloke vells, it gives out very heat, gen, gas, and gas, a greater proportion of water than it contains, nitrous gas, and nitric acid, without the familiar trace of ammonia, which flows that it is de-completed, that the hydrogen combines with the oxygen of the acid, and forms water.",
+ "content": "{\n  \"faithful\": \"When it is rapidly heated, it inflames fpontaneously. When flowly heated in clofe veffels, it gives out oxy-gean gas, azotic gas, a greater proportion of water than it contains, nitrous gas, and nitric acid, without the fmall left trace of ammonia; which flows that it is de-compofed, that the hydrogen combines with the oxygen of the acid, and forms water.\",\n  \"modern\": \"When it is rapidly heated, it inflames spontaneously. When slowly heated in close vessels, it gives out oxygen gas, azotic gas, a greater proportion of water than it contains, nitrous gas, and nitric acid, without the small left trace of ammonia; which flows that it is decomposed, that the hydrogen combines with the oxygen of the acid, and forms water.\"\n}",
+ "usage": {
+  "completion_tokens": 180,
+  "prompt_tokens": 676,
+  "total_tokens": 856,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 292
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "When it is rapidly heated, it inflames fpontaneously. When flowly heated in clofe veffels, it gives out oxy-gean gas, azotic gas, a greater proportion of water than it contains, nitrous gas, and nitric acid, without the fmall left trace of ammonia; which flows that it is de-compofed, that the hydrogen combines with the oxygen of the acid, and forms water.",
+  "modern": "When it is rapidly heated, it inflames spontaneously. When slowly heated in close vessels, it gives out oxygen gas, azotic gas, a greater proportion of water than it contains, nitrous gas, and nitric acid, without the small left trace of ammonia; which flows that it is decomposed, that the hydrogen combines with the oxygen of the acid, and forms water."
+ },
+ "error": null
+}

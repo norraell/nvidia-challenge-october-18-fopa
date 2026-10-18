@@ -1,0 +1,31 @@
+{
+ "key": "fda8f02b2b04a3aac2b26f91de1dd17d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "_For-WILLIAMS, referred to the Highlands of Scotland,_ created in bring William's reign, as walls a small town adjoining, called _Maryburg6_, in honour of his queen. It is fixated in herevelthly, on a narrow arm of the les called _Lad Eekl,_ which might really by a very front even the beini-ted to the Wetton tea. For-William is of a triangular form, having two battions, and to capable of admitting a garrition of 800 men, but could not be defended against an attack, as it is commanded by ferternal blisk in the origin-borhood.",
+ "content": "{\n  \"faithful\": \"Fort-WILLIAM, referred to the Highlands of Scotland, created in bring William's reign, as walls a small town adjoining, called Maryburg6, in honour of his queen. It is fixated in herevelthly, on a narrow arm of the les called Lad Eekl, which might really by a very front even the beini-ted to the Wetton tea. For-William is of a triangular form, having two battions, and to capable of admitting a garrition of 800 men, but could not be defended against an attack, as it is commanded by ferternal blisk in the origin-borhood.\",\n  \"modern\": \"Fort-WILLIAM, referred to the Highlands of Scotland, created in bring William's reign, as walls a small town adjoining, called Maryburg6, in honour of his queen. It is fixated in herevelthly, on a narrow arm of the les called Lad Eekl, which might really by a very front even the beini-ted to the Wetton tea. For-William is of a triangular form, having two battions, and to capable of admitting a garrition of 800 men, but could not be defended against an attack, as it is commanded by ferternal blisk in the origin-borhood.\"\n}",
+ "usage": {
+  "completion_tokens": 285,
+  "prompt_tokens": 707,
+  "total_tokens": 992,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Fort-WILLIAM, referred to the Highlands of Scotland, created in bring William's reign, as walls a small town adjoining, called Maryburg6, in honour of his queen. It is fixated in herevelthly, on a narrow arm of the les called Lad Eekl, which might really by a very front even the beini-ted to the Wetton tea. For-William is of a triangular form, having two battions, and to capable of admitting a garrition of 800 men, but could not be defended against an attack, as it is commanded by ferternal blisk in the origin-borhood.",
+  "modern": "Fort-WILLIAM, referred to the Highlands of Scotland, created in bring William's reign, as walls a small town adjoining, called Maryburg6, in honour of his queen. It is fixated in herevelthly, on a narrow arm of the les called Lad Eekl, which might really by a very front even the beini-ted to the Wetton tea. For-William is of a triangular form, having two battions, and to capable of admitting a garrition of 800 men, but could not be defended against an attack, as it is commanded by ferternal blisk in the origin-borhood."
+ },
+ "error": null
+}

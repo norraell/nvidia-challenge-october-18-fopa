@@ -1,0 +1,31 @@
+{
+ "key": "8ba6e2ce3c6b368d4867559941107180",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "Many other objects, figured on the manner of\nmonitors, might perhaps upon recollection, occur; but\nthefe are simply futificient for a place of conforable\nexcetant and cotates shall abound in ever age and\nevery country, they may therefore be introduced in\ndifferent forms and politicians. Large pieces of water\nare also particularly project and all the varieties of\nrills and conflicts about every person of arm. From\nthe concurrence of fo many agreeable circumlances in\nthis, be the force over the effect of the character what it\nmay, a number of placing forces may be exhibited ei-\nther in a walk or riding, to be contratted to thode",
+ "content": "{\n  \"faithful\": \"Many other objects, figured on the manner of monitors, might perhaps upon recollection, occur; but thefe are simply futificient for a place of conforable excetant and cotates shall abound in ever age and every country, they may therefore be introduced in different forms and politicians. Large pieces of water are also particularly project and all the varieties of rills and conflicts about every person of arm. From the concurrence of fo many agreeable circumlances in this, be the force over the effect of the character what it may, a number of placing forces may be exhibited either in a walk or riding, to be contratted to thode\",\n  \"modern\": \"Many other objects, figured on the manner of monitors, might perhaps upon recollection, occur; but these are simply sufficient for a place of conforable excetant and cotates shall abound in ever age and every country, they may therefore be introduced in different forms and politicians. Large pieces of water are also particularly project and all the varieties of rills and conflicts about every person of arm. From the concurrence of so many agreeable circumstances in this, be the force over the effect of the character what it may, a number of placing forces may be exhibited either in a walk or riding, to be contratted to thode\"\n}",
+ "usage": {
+  "completion_tokens": 276,
+  "prompt_tokens": 735,
+  "total_tokens": 1011,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 288
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "Many other objects, figured on the manner of monitors, might perhaps upon recollection, occur; but thefe are simply futificient for a place of conforable excetant and cotates shall abound in ever age and every country, they may therefore be introduced in different forms and politicians. Large pieces of water are also particularly project and all the varieties of rills and conflicts about every person of arm. From the concurrence of fo many agreeable circumlances in this, be the force over the effect of the character what it may, a number of placing forces may be exhibited either in a walk or riding, to be contratted to thode",
+  "modern": "Many other objects, figured on the manner of monitors, might perhaps upon recollection, occur; but these are simply sufficient for a place of conforable excetant and cotates shall abound in ever age and every country, they may therefore be introduced in different forms and politicians. Large pieces of water are also particularly project and all the varieties of rills and conflicts about every person of arm. From the concurrence of so many agreeable circumstances in this, be the force over the effect of the character what it may, a number of placing forces may be exhibited either in a walk or riding, to be contratted to thode"
+ },
+ "error": null
+}

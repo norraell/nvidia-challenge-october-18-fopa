@@ -1,0 +1,31 @@
+{
+ "key": "622743137236cdaf0b6755637255fb90",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "brought from Italy, are prepared in this manner. The\nodorous parts may be again separated from the oil,\nand transferred into water or fpirit, by distillation with\nthose liquors.",
+ "content": "{\n  \"faithful\": \"brought from Italy, are prepared in this manner. The odorous parts may be again separated from the oil, and transferred into water or fpirit, by distillation with those liquors.\",\n  \"modern\": \"brought from Italy, are prepared in this manner. The odorous parts may be again separated from the oil, and transferred into water or spirit, by distillation with those liquors.\"\n}",
+ "usage": {
+  "completion_tokens": 91,
+  "prompt_tokens": 614,
+  "total_tokens": 705,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "brought from Italy, are prepared in this manner. The odorous parts may be again separated from the oil, and transferred into water or fpirit, by distillation with those liquors.",
+  "modern": "brought from Italy, are prepared in this manner. The odorous parts may be again separated from the oil, and transferred into water or spirit, by distillation with those liquors."
+ },
+ "error": null
+}

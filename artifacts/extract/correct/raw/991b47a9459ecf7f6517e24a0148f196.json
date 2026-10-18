@@ -1,0 +1,31 @@
+{
+ "key": "991b47a9459ecf7f6517e24a0148f196",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "The cooling engine or mill is for handy (fig. z.), tuna a fragile man may many twenty thousand plants in one day; golg filters and copper planchets, are all of them cooked with a milk, which the coating liquures (fig. z.), commonly called dyes, are flattened; that of the face under, in a figure box garnified with male and female flowers, to fix and keep it flexily and the other above, in a little box garnished with the fame foresew, to fatten the coming liquare. The plan- chet is laid flat on the liquure of the digty, which is manam; and theý immediately pull the bar of the mill by its cords, which can confer the frewef fet within it to turn. This enters into the female fever, which is in the body of the mill and turns with in each through, that by pushing the upper liquare upon that of the effigor, the plainly violently prefilled between both figures, receives the important of both at one pull, and in the twinkling of an eye.",
+ "content": "{\n  \"faithful\": \"The coining engine or mill is for handy (fig. z.), that a single man may fling twenty thousand planchets in one day; gold, silver, and copper planchets, are all of them coined with a mill, to which the coining fquares (fig. z.), commonly called dyes, are fallen; that of the face under, in a fquare box garnified with male and female frews, to fix and keep it ready; and the other above, in a little box garnished with the fame frews, to faften the coining fquare. The planchet is laid flat on the fquare of the effigy, which is dormant; and they immediately pull the bar of the mill by its cords, which caues the frew fet within it to turn. This enters into the female crew, which is in the body of the mill, and turns with too much ftrength, that by pulling the upper fquare upon that of the effigy, the planchet, violently prefed between both fquares, receives the impreffion of both at one pull, and in the twinkling of an eye.\",\n  \"modern\": \"The coining engine or mill is for handy (fig. z.), that a single man may fling twenty thousand planchets in one day; gold, silver, and copper planchets, are all of them coined with a mill, to which the coining squares (fig. z.), commonly called dyes, are fallen; that of the face under, in a square box garnified with male and female frews, to fix and keep it ready; and the other above, in a little box garnished with the same frews, to fasten the coining square. The planchet is laid flat on the square of the effigy, which is dormant; and they immediately pull the bar of the mill by its cords, which causes the frew set within it to turn. This enters into the female crew, which is in the body of the mill, and turns with too much strength, that by pulling the upper square upon that of the effigy, the planchet, violently pressed between both squares, receives the impression of both at one pull, and in the twinkling of an eye.\"\n}",
+ "usage": {
+  "completion_tokens": 477,
+  "prompt_tokens": 833,
+  "total_tokens": 1310,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 306
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "The coining engine or mill is for handy (fig. z.), that a single man may fling twenty thousand planchets in one day; gold, silver, and copper planchets, are all of them coined with a mill, to which the coining fquares (fig. z.), commonly called dyes, are fallen; that of the face under, in a fquare box garnified with male and female frews, to fix and keep it ready; and the other above, in a little box garnished with the fame frews, to faften the coining fquare. The planchet is laid flat on the fquare of the effigy, which is dormant; and they immediately pull the bar of the mill by its cords, which caues the frew fet within it to turn. This enters into the female crew, which is in the body of the mill, and turns with too much ftrength, that by pulling the upper fquare upon that of the effigy, the planchet, violently prefed between both fquares, receives the impreffion of both at one pull, and in the twinkling of an eye.",
+  "modern": "The coining engine or mill is for handy (fig. z.), that a single man may fling twenty thousand planchets in one day; gold, silver, and copper planchets, are all of them coined with a mill, to which the coining squares (fig. z.), commonly called dyes, are fallen; that of the face under, in a square box garnified with male and female frews, to fix and keep it ready; and the other above, in a little box garnished with the same frews, to fasten the coining square. The planchet is laid flat on the square of the effigy, which is dormant; and they immediately pull the bar of the mill by its cords, which causes the frew set within it to turn. This enters into the female crew, which is in the body of the mill, and turns with too much strength, that by pulling the upper square upon that of the effigy, the planchet, violently pressed between both squares, receives the impression of both at one pull, and in the twinkling of an eye."
+ },
+ "error": null
+}

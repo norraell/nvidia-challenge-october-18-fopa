@@ -1,0 +1,31 @@
+{
+ "key": "07322095495a91ead55285814e0e79df",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "In their early ages, however, it would feem that the kingdom of Egypt had been very powerful and its do anunion very well extraction, since we had it fady, that the _Batiriana_ resulted from Olymandysan, another Egyptians king of every high authority, and of whole wealth, the much moreulous accounts are given.",
+ "content": "{\n  \"faithful\": \"In their early ages, however, it would feem that the kingdom of Egypt had been very powerful and its do minion very widely extended, since we find it faid, that the Baſtrians revolted from Olymandyas, another Egyp tian king of very high antiquity, and of whole wealth the moft marvellous accounts are given.\",\n  \"modern\": \"In their early ages, however, it would seem that the kingdom of Egypt had been very powerful and its dominion very widely extended, since we find it said, that the Bastrians revolted from Olymandyas, another Egyptian king of very high antiquity, and of whole wealth the most marvellous accounts are given.\"\n}",
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 636,
+  "total_tokens": 795,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 263
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "In their early ages, however, it would feem that the kingdom of Egypt had been very powerful and its do minion very widely extended, since we find it faid, that the Baſtrians revolted from Olymandyas, another Egyp tian king of very high antiquity, and of whole wealth the moft marvellous accounts are given.",
+  "modern": "In their early ages, however, it would seem that the kingdom of Egypt had been very powerful and its dominion very widely extended, since we find it said, that the Bastrians revolted from Olymandyas, another Egyptian king of very high antiquity, and of whole wealth the most marvellous accounts are given."
+ },
+ "error": null
+}

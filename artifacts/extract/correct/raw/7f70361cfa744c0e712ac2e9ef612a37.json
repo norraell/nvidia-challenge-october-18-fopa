@@ -1,0 +1,31 @@
+{
+ "key": "7f70361cfa744c0e712ac2e9ef612a37",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "1360\nAction of\nwater.",
+ "content": "{\n  \"faithful\": \"1360 Action of water. 3. It is deliquescent in the air, and is soluble in its own weight of cold water. It is more soluble in boiling water, in which it crystallizes on cooling, but it\",\n  \"modern\": \"1360 Action of water. 3. It is deliquescent in the air, and is soluble in its own weight of cold water. It is more soluble in boiling water, in which it crystallizes on cooling, but it\"\n}",
+ "usage": {
+  "completion_tokens": 115,
+  "prompt_tokens": 583,
+  "total_tokens": 698,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "1360 Action of water. 3. It is deliquescent in the air, and is soluble in its own weight of cold water. It is more soluble in boiling water, in which it crystallizes on cooling, but it",
+  "modern": "1360 Action of water. 3. It is deliquescent in the air, and is soluble in its own weight of cold water. It is more soluble in boiling water, in which it crystallizes on cooling, but it"
+ },
+ "error": null
+}

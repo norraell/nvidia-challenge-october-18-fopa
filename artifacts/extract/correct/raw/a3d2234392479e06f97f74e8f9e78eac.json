@@ -1,0 +1,31 @@
+{
+ "key": "a3d2234392479e06f97f74e8f9e78eac",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "‘the Zebra is found no where but in the others and fourteen provinces of Africa, New Ethiopia to the Cape of Good Hope, and from the Cape of Good Hope to Congo. The Dutch have been at great pains to tame and die them for domestic purposes, but with little friends. He is in half monthock, and kicks when any person attempts to touch or come near him. He is scellle and oblitiare as a multe : but perhaps the wild holde is naturally as unsuitable as the Zebra; for, it is probably. If were early occultured to obdelense and a domelie life, he would become as docile as the horle.",
+ "content": "{\n  \"faithful\": \"the Zebra is found no where but in the others and fourteen provinces of Africa, New Ethiopia to the Cape of Good Hope, and from the Cape of Good Hope to Congo. The Dutch have been at great pains to tame and die them for domestic purposes, but with little friends. He is in half monthock, and kicks when any person attempts to touch or come near him. He is scellle and oblitiare as a multe : but perhaps the wild holde is naturally as unsuitable as the Zebra; for, it is probably. If were early occultured to obdelense and a domelie life, he would become as docile as the horle.\",\n  \"modern\": \"the Zebra is found no where but in the others and fourteen provinces of Africa, New Ethiopia to the Cape of Good Hope, and from the Cape of Good Hope to Congo. The Dutch have been at great pains to tame and die them for domestic purposes, but with little friends. He is in half monthock, and kicks when any person attempts to touch or come near him. He is scellle and oblitiare as a multe : but perhaps the wild holde is naturally as unsuitable as the Zebra; for, it is probably. If were early occultured to obdelense and a domelie life, he would become as docile as the horle.\"\n}",
+ "usage": {
+  "completion_tokens": 293,
+  "prompt_tokens": 707,
+  "total_tokens": 1000,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 266
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "the Zebra is found no where but in the others and fourteen provinces of Africa, New Ethiopia to the Cape of Good Hope, and from the Cape of Good Hope to Congo. The Dutch have been at great pains to tame and die them for domestic purposes, but with little friends. He is in half monthock, and kicks when any person attempts to touch or come near him. He is scellle and oblitiare as a multe : but perhaps the wild holde is naturally as unsuitable as the Zebra; for, it is probably. If were early occultured to obdelense and a domelie life, he would become as docile as the horle.",
+  "modern": "the Zebra is found no where but in the others and fourteen provinces of Africa, New Ethiopia to the Cape of Good Hope, and from the Cape of Good Hope to Congo. The Dutch have been at great pains to tame and die them for domestic purposes, but with little friends. He is in half monthock, and kicks when any person attempts to touch or come near him. He is scellle and oblitiare as a multe : but perhaps the wild holde is naturally as unsuitable as the Zebra; for, it is probably. If were early occultured to obdelense and a domelie life, he would become as docile as the horle."
+ },
+ "error": null
+}

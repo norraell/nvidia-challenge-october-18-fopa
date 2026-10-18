@@ -1,0 +1,31 @@
+{
+ "key": "e66b0dfb54c554982d5fd81247d1bd2b",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "There are, however, fundry vegetables whole vi-\ntous are impaired by this treatment. Muchaginous\nfubilances, by long lying with fugar, become leis glu-\ntionus, and that甚antly fully follow them the pa-\nlate. Many of the fingers flowers are of to tender\nand delicate a texture, as almost entirely to lode their\npeculiar qualities on being been on brushed\nin general. It is obvious, that in this form, on ac-\ncount of the large admixture of fugar, only fulbliances\nof considerable activity can be taken to advantage as\nmedicines. And indeed, conferve are at perfect con-\nfidered chiefly as auxiliaries to medicines of greater\nefficacy, as interventions for joining them together.\nThey are very convenient for echoing into boubles or\npills the more pondrous powders, as mecurunu dul-\ncies, the colors of iron, and other mineral preparations;\nwhich will liquid or leis confident matters, as fyrroup,\nwill not cohere.",
+ "content": "{\n  \"faithful\": \"There are, however, fundry vegetables whole vi- tious are impaired by this treatment. Muchaginous fubilances, by long lying with fugar, become leis glu- tionus, and that甚antly fully follow them the pa- late. Many of the fingers flowers are of to tender and delicate a texture, as almost entirely to lode their peculiar qualities on being been on brushed in general. It is obvious, that in this form, on ac- count of the large admixture of fugar, only fulbliances of considerable activity can be taken to advantage as medicines. And indeed, conferve are at perfect con- sidered chiefly as auxiliaries to medicines of greater efficacy, as interventions for joining them together. They are very convenient for echoing into boubles or pills the more pondrous powders, as mecurunu dul- cies, the colors of iron, and other mineral preparations; which will liquid or leis confident matters, as fyrroup, will not cohere.\",\n  \"modern\": \"There are, however, fundry vegetables whole vi- tious are impaired by this treatment. Muchaginous fubilances, by long lying with fugar, become leis glu- tionus, and that very fully follow them the pa- late. Many of the fingers flowers are of to tender and delicate a texture, as almost entirely to lode their peculiar qualities on being been on brushed in general. It is obvious, that in this form, on ac- count of the large admixture of fugar, only fulbliances of considerable activity can be taken to advantage as medicines. And indeed, conferve are at perfect con- sidered chiefly as auxiliaries to medicines of greater efficacy, as interventions for joining them together. They are very convenient for echoing into boubles or pills the more pondrous powders, as mecurunu dul- cies, the colors of iron, and other mineral preparations; which will liquid or leis confident matters, as fyrroup, will not cohere.\"\n}",
+ "usage": {
+  "completion_tokens": 422,
+  "prompt_tokens": 859,
+  "total_tokens": 1281,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 342
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "There are, however, fundry vegetables whole vi- tious are impaired by this treatment. Muchaginous fubilances, by long lying with fugar, become leis glu- tionus, and that甚antly fully follow them the pa- late. Many of the fingers flowers are of to tender and delicate a texture, as almost entirely to lode their peculiar qualities on being been on brushed in general. It is obvious, that in this form, on ac- count of the large admixture of fugar, only fulbliances of considerable activity can be taken to advantage as medicines. And indeed, conferve are at perfect con- sidered chiefly as auxiliaries to medicines of greater efficacy, as interventions for joining them together. They are very convenient for echoing into boubles or pills the more pondrous powders, as mecurunu dul- cies, the colors of iron, and other mineral preparations; which will liquid or leis confident matters, as fyrroup, will not cohere.",
+  "modern": "There are, however, fundry vegetables whole vi- tious are impaired by this treatment. Muchaginous fubilances, by long lying with fugar, become leis glu- tionus, and that very fully follow them the pa- late. Many of the fingers flowers are of to tender and delicate a texture, as almost entirely to lode their peculiar qualities on being been on brushed in general. It is obvious, that in this form, on ac- count of the large admixture of fugar, only fulbliances of considerable activity can be taken to advantage as medicines. And indeed, conferve are at perfect con- sidered chiefly as auxiliaries to medicines of greater efficacy, as interventions for joining them together. They are very convenient for echoing into boubles or pills the more pondrous powders, as mecurunu dul- cies, the colors of iron, and other mineral preparations; which will liquid or leis confident matters, as fyrroup, will not cohere."
+ },
+ "error": null
+}

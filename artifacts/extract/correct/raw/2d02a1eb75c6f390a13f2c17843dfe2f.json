@@ -1,0 +1,31 @@
+{
+ "key": "2d02a1eb75c6f390a13f2c17843dfe2f",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "SWORN BORSHAS ((after juradi), perfonió, by\nmanual oath, overward to flare each others fortune. For-\nmetly, in any notable question in invade and concuer en\nsummits country, it was the culton for the more eminent ful\ndiers to engage themselves by reciprocal oaths to fame the\nrevards of their device. This practice gave cocotion to the\ngrowth of _Jones brothers to freedom in majority,_ because of\ntheir dividing plunder and fpalt.",
+ "content": "{\n  \"faithful\": \"SWORN BROTHERS (after jurati), perfons who, by mutual oath, covenanted to share each others fortune. Formerly, in any notable expedition to invade and conquer an enemy's country, it was the custom for the more eminent soldiers to engage themselves by reciprocal oaths to share the rewards of their service. This practice gave occasion to the proverb of sworn brothers or brethren in iniquity, because of their dividing plunder and spoil.\",\n  \"modern\": \"SWORN BROTHERS (after jurati), persons who, by mutual oath, covenanted to share each other's fortune. Formerly, in any notable expedition to invade and conquer an enemy's country, it was the custom for the more eminent soldiers to engage themselves by reciprocal oaths to share the rewards of their service. This practice gave occasion to the proverb of sworn brothers or brethren in iniquity, because of their dividing plunder and spoil.\"\n}",
+ "usage": {
+  "completion_tokens": 211,
+  "prompt_tokens": 672,
+  "total_tokens": 883,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "SWORN BROTHERS (after jurati), perfons who, by mutual oath, covenanted to share each others fortune. Formerly, in any notable expedition to invade and conquer an enemy's country, it was the custom for the more eminent soldiers to engage themselves by reciprocal oaths to share the rewards of their service. This practice gave occasion to the proverb of sworn brothers or brethren in iniquity, because of their dividing plunder and spoil.",
+  "modern": "SWORN BROTHERS (after jurati), persons who, by mutual oath, covenanted to share each other's fortune. Formerly, in any notable expedition to invade and conquer an enemy's country, it was the custom for the more eminent soldiers to engage themselves by reciprocal oaths to share the rewards of their service. This practice gave occasion to the proverb of sworn brothers or brethren in iniquity, because of their dividing plunder and spoil."
+ },
+ "error": null
+}

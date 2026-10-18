@@ -1,0 +1,31 @@
+{
+ "key": "6ab7884f3a16ededf4b443620148601a",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "THIROCE, the ancient stone of a country in the S.E. of Europe, now forming part of European Turkey. In the earliest times the name was sent in a vastay seen, and applied to the whole region such of the Afghan Sen, including Macedonia and even Seythisu but with this morning become better known to the Greeky. Three was confined within narrower and more definite limits. It was bounded on the 7b, by the Danube, E. by the Exiton and the Boskolome, S. by the Proponents and the Aegean, and W. by the Strymon, or, as a later period by the Neustus, and the separated in from Macedonia. After the Roman conquest, its size was still further reduced by the chain of the same being made its northern boundary. It corresponds parting with the modern Rumell, which also includes part of Macedonia and Thessaly. (See Rutuz)",
+ "content": "{\n  \"faithful\": \"THRACE, the ancient name of a country in the S.E. of Europe, now forming part of European Turkey. In the earliest times the name was used in a very vague sense, and applied to the whole region north of the Aegean Sea, including Macedonia and even Scythia; but when this country became better known to the Greeks, Thrace was confined within narrower and more definite limits. It was bounded on the N. by the Danube, E. by the Euxine and the Bosphorus, S. by the Propontis and the Aegean, and W. by the Strymon, or, at a later period, by the Nestus, which separated it from Macedonia. After the Roman conquest, its size was still further reduced by the chain of Haemus being made its northern boundary. It corresponds partly with the modern Rumelia, which also includes part of Macedonia and Thessaly. (See Rumelia.)\",\n  \"modern\": \"THRACE, the ancient name of a country in the S.E. of Europe, now forming part of European Turkey. In the earliest times the name was used in a very vague sense, and applied to the whole region north of the Aegean Sea, including Macedonia and even Scythia; but when this country became better known to the Greeks, Thrace was confined within narrower and more definite limits. It was bounded on the N. by the Danube, E. by the Euxine and the Bosphorus, S. by the Propontis and the Aegean, and W. by the Strymon, or, at a later period, by the Nestus, which separated it from Macedonia. After the Roman conquest, its size was still further reduced by the chain of Haemus being made its northern boundary. It corresponds partly with the modern Rumelia, which also includes part of Macedonia and Thessaly. (See Rumelia.)\"\n}",
+ "usage": {
+  "completion_tokens": 407,
+  "prompt_tokens": 756,
+  "total_tokens": 1163,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 262
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "THRACE, the ancient name of a country in the S.E. of Europe, now forming part of European Turkey. In the earliest times the name was used in a very vague sense, and applied to the whole region north of the Aegean Sea, including Macedonia and even Scythia; but when this country became better known to the Greeks, Thrace was confined within narrower and more definite limits. It was bounded on the N. by the Danube, E. by the Euxine and the Bosphorus, S. by the Propontis and the Aegean, and W. by the Strymon, or, at a later period, by the Nestus, which separated it from Macedonia. After the Roman conquest, its size was still further reduced by the chain of Haemus being made its northern boundary. It corresponds partly with the modern Rumelia, which also includes part of Macedonia and Thessaly. (See Rumelia.)",
+  "modern": "THRACE, the ancient name of a country in the S.E. of Europe, now forming part of European Turkey. In the earliest times the name was used in a very vague sense, and applied to the whole region north of the Aegean Sea, including Macedonia and even Scythia; but when this country became better known to the Greeks, Thrace was confined within narrower and more definite limits. It was bounded on the N. by the Danube, E. by the Euxine and the Bosphorus, S. by the Propontis and the Aegean, and W. by the Strymon, or, at a later period, by the Nestus, which separated it from Macedonia. After the Roman conquest, its size was still further reduced by the chain of Haemus being made its northern boundary. It corresponds partly with the modern Rumelia, which also includes part of Macedonia and Thessaly. (See Rumelia.)"
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "b6e7a3568933360ced94b109f12f26f6",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "But however excellent the system of housing and feeding which is adopted, a successful result will, in every instance, be much dependent upon the villgant superintendence of the",
+ "content": "{\n  \"faithful\": \"But however excellent the system of housing and feeding which is adopted, a successful result will, in every instance, be much dependent upon the vigilant superintendence of the\",\n  \"modern\": \"But however excellent the system of housing and feeding which is adopted, a successful result will, in every instance, be much dependent upon the vigilant superintendence of the\"\n}",
+ "usage": {
+  "completion_tokens": 87,
+  "prompt_tokens": 606,
+  "total_tokens": 693,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "But however excellent the system of housing and feeding which is adopted, a successful result will, in every instance, be much dependent upon the vigilant superintendence of the",
+  "modern": "But however excellent the system of housing and feeding which is adopted, a successful result will, in every instance, be much dependent upon the vigilant superintendence of the"
+ },
+ "error": null
+}

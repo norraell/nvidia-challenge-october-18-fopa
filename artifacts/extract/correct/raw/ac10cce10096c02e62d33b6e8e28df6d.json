@@ -1,0 +1,31 @@
+{
+ "key": "ac10cce10096c02e62d33b6e8e28df6d",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "(a) It has been already related, that the lyre invented by the Egyptian Mercury had but three Rings; and by putting their two circumstances together, Dr Burney oblivers, we may perhaps acquire force knowledge of the progresti of mufe, ory, at leath, of the exterion of its facile, in the highest antiquity.",
+ "content": "{\n  \"faithful\": \"(a) It has been already related, that the lyre invented by the Egyptian Mercury had but three ftrings; and by putting thefe two circumstances together, Dr Burney obferves, we may perhaps acquire fome knowledge of the progrefs of mufic, or, at leaft, of the extent of its fcale, in the higheft antiquity.\",\n  \"modern\": \"(a) It has been already related, that the lyre invented by the Egyptian Mercury had but three strings; and by putting these two circumstances together, Dr Burney observes, we may perhaps acquire some knowledge of the progress of music, or, at least, of the extent of its scale, in the highest antiquity.\"\n}",
+ "usage": {
+  "completion_tokens": 155,
+  "prompt_tokens": 643,
+  "total_tokens": 798,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 272
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "(a) It has been already related, that the lyre invented by the Egyptian Mercury had but three ftrings; and by putting thefe two circumstances together, Dr Burney obferves, we may perhaps acquire fome knowledge of the progrefs of mufic, or, at leaft, of the extent of its fcale, in the higheft antiquity.",
+  "modern": "(a) It has been already related, that the lyre invented by the Egyptian Mercury had but three strings; and by putting these two circumstances together, Dr Burney observes, we may perhaps acquire some knowledge of the progress of music, or, at least, of the extent of its scale, in the highest antiquity."
+ },
+ "error": null
+}

@@ -1,0 +1,31 @@
+{
+ "key": "8d187a3c0db1643f714cab23436ed940",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "H O R [ 664 ] H O R",
+ "content": "{\n  \"faithful\": \"H O R [ 664 ] H O R\",\n  \"modern\": \"H O R [ 664 ] H O R\"\n}",
+ "usage": {
+  "completion_tokens": 41,
+  "prompt_tokens": 581,
+  "total_tokens": 622,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 267
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "H O R [ 664 ] H O R",
+  "modern": "H O R [ 664 ] H O R"
+ },
+ "error": null
+}

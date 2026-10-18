@@ -1,0 +1,31 @@
+{
+ "key": "1b47c111445d27bef801fb3d716db642",
+ "model": "nvidia/Nemotron-3.5-Super-VL",
+ "prompt_version": "c2",
+ "text": "## VII. In the Education of People Affordford for a Mercan- tile deployments and join the number Occupations in Life is particularly controlled with Literatures.",
+ "content": "{\n  \"faithful\": \"VII. On the Education of People defigned for a Mercantile Employment, and for the humbler Occupations in Life not particularly connected with Literature.\",\n  \"modern\": \"VII. On the Education of People designed for a Mercantile Employment, and for the humbler Occupations in Life not particularly connected with Literature.\"\n}",
+ "usage": {
+  "completion_tokens": 76,
+  "prompt_tokens": 603,
+  "total_tokens": 679,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": {
+    "image": 268
+   }
+  }
+ },
+ "parsed": {
+  "faithful": "VII. On the Education of People defigned for a Mercantile Employment, and for the humbler Occupations in Life not particularly connected with Literature.",
+  "modern": "VII. On the Education of People designed for a Mercantile Employment, and for the humbler Occupations in Life not particularly connected with Literature."
+ },
+ "error": null
+}
