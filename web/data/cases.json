@@ -1,15 +1,13 @@
 [
   {
     "run_id": "run-001",
-    "type": "success",
-    "category": "Instrument & Cultural Continuity",
     "started_at": "2026-10-18T12:00:00Z",
     "code_revision": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
     "hermes_version": "hermes-agent 0.4.1",
     "model": "nvidia/Nemotron-3.5-Super-VL",
     "question": "How does historical Britannica describe the abacus compared to modern Wikipedia?",
     "image_inputs": [
-      "crops/e0013-01.png"
+      "artifacts/extract/crops/e0013-01.png"
     ],
     "tools_enabled": true,
     "tool_calls": [
@@ -18,7 +16,7 @@
         "arguments": {
           "entry_id": "e0013-01"
         },
-        "result": "{\"status\": \"matched\", \"match\": \"Abacus\", \"rerank_margin\": 0.9}",
+        "result": "{\"status\": \"matched\", \"match\": \"Abacus\"}",
         "error": null
       }
     ],
@@ -41,8 +39,6 @@
   },
   {
     "run_id": "run-002",
-    "type": "failure",
-    "category": "Calibrated Anachronism Refusal",
     "started_at": "2026-10-18T12:05:00Z",
     "code_revision": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
     "hermes_version": "hermes-agent 0.4.1",

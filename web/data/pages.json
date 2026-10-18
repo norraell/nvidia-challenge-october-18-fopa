@@ -4,8 +4,8 @@
     "row_index": 13,
     "volume_id": "193913444",
     "filename": "page-0013-50049db49e8b.jpg",
-    "image_url": "scans/page-0013-50049db49e8b.jpg",
-    "latex_pdf_url": "latex/page-0013.pdf",
+    "image_url": null,
+    "latex_pdf_url": null,
     "width": 1920,
     "height": 2560,
     "status": "ok",
@@ -21,14 +21,19 @@
         "kind": "entry",
         "headword": "ABACUS",
         "text": "ABACUS, among the ancients, was a table or desk for calculating, on which counters were arranged in grooves.",
-        "text_raw": "ABACUS, among the ancients, was a table or deſk for calculating, on which counters were arranged in grooves.",
-        "crop_path": "crops/e0013-01.png",
+        "text_raw": "ABACUS, among the ancients, was a table or de\u017fk for calculating, on which counters were arranged in grooves.",
+        "crop_path": "artifacts/extract/crops/e0013-01.png",
         "blocks": [
           {
             "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
-            "bbox": [150.0, 320.0, 920.0, 540.0],
+            "bbox": [
+              150.0,
+              320.0,
+              920.0,
+              540.0
+            ],
             "cls": "Text",
-            "text": "ABACUS, among the ancients, was a table or deſk for calculating, on which counters were arranged in grooves."
+            "text": "ABACUS, among the ancients, was a table or de\u017fk for calculating, on which counters were arranged in grooves."
           }
         ],
         "quality": {
@@ -70,11 +75,16 @@
         "headword": null,
         "text": "continued from the preceding page concerning arithmetic operations and mechanical aids for merchants.",
         "text_raw": "continued from the preceding page concerning arithmetic operations and mechanical aids for merchants.",
-        "crop_path": "crops/e0013-02.png",
+        "crop_path": "artifacts/extract/crops/e0013-02.png",
         "blocks": [
           {
             "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
-            "bbox": [150.0, 560.0, 920.0, 780.0],
+            "bbox": [
+              150.0,
+              560.0,
+              920.0,
+              780.0
+            ],
             "cls": "Text",
             "text": "continued from the preceding page concerning arithmetic operations and mechanical aids for merchants."
           }
@@ -100,8 +110,8 @@
     "row_index": 104,
     "volume_id": "193819045",
     "filename": "page-0104-9aaa833a4643.jpg",
-    "image_url": "scans/page-0104-9aaa833a4643.jpg",
-    "latex_pdf_url": "latex/page-0104.pdf",
+    "image_url": null,
+    "latex_pdf_url": null,
     "width": 1920,
     "height": 2560,
     "status": "ok",
@@ -117,14 +127,19 @@
         "kind": "entry",
         "headword": "BAROMETER",
         "text": "BAROMETER, an instrument for measuring the weight and pressure of the atmosphere, constructed with a column of quicksilver.",
-        "text_raw": "BAROMETER, an inſtrument for meaſuring the weight and preſſure of the atmoſphere, conſtructed with a column of quickſilver.",
-        "crop_path": "crops/e0104-01.png",
+        "text_raw": "BAROMETER, an in\u017ftrument for mea\u017furing the weight and pre\u017f\u017fure of the atmo\u017fphere, con\u017ftructed with a column of quick\u017filver.",
+        "crop_path": "artifacts/extract/crops/e0104-01.png",
         "blocks": [
           {
             "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
-            "bbox": [140.0, 300.0, 900.0, 680.0],
+            "bbox": [
+              140.0,
+              300.0,
+              900.0,
+              680.0
+            ],
             "cls": "Text",
-            "text": "BAROMETER, an inſtrument for meaſuring the weight and preſſure of the atmoſphere, conſtructed with a column of quickſilver."
+            "text": "BAROMETER, an in\u017ftrument for mea\u017furing the weight and pre\u017f\u017fure of the atmo\u017fphere, con\u017ftructed with a column of quick\u017filver."
           }
         ],
         "quality": {
@@ -165,14 +180,19 @@
         "kind": "plate",
         "headword": null,
         "text": "Plate XIV. Detailed construction of the Torricellian tube and portable wheel barometer.",
-        "text_raw": "Plate XIV. Detailed conſtruction of the Torricellian tube and portable wheel barometer.",
-        "crop_path": "crops/e0104-02.png",
+        "text_raw": "Plate XIV. Detailed con\u017ftruction of the Torricellian tube and portable wheel barometer.",
+        "crop_path": "artifacts/extract/crops/e0104-02.png",
         "blocks": [
           {
             "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
-            "bbox": [140.0, 720.0, 1800.0, 2200.0],
+            "bbox": [
+              140.0,
+              720.0,
+              1800.0,
+              2200.0
+            ],
             "cls": "Picture",
-            "text": "Plate XIV. Detailed conſtruction of the Torricellian tube and portable wheel barometer."
+            "text": "Plate XIV. Detailed con\u017ftruction of the Torricellian tube and portable wheel barometer."
           }
         ],
         "quality": {
@@ -214,8 +234,8 @@
     "row_index": 115,
     "volume_id": "191809866",
     "filename": "page-0115-9730fa72203a.jpg",
-    "image_url": "scans/page-0115-9730fa72203a.jpg",
-    "latex_pdf_url": "latex/page-0115.pdf",
+    "image_url": null,
+    "latex_pdf_url": null,
     "width": 1920,
     "height": 2560,
     "status": "ok",
@@ -231,14 +251,19 @@
         "kind": "entry",
         "headword": "CALORIC",
         "text": "CALORIC, according to modern chemical theory, is regarded as an elastic fluid sui generis, penetrating the pores of all matter.",
-        "text_raw": "CALORIC, according to modern chemical theory, is regarded as an elaſtic fluid ſui generis, penetrating the pores of all matter.",
-        "crop_path": "crops/e0115-01.png",
+        "text_raw": "CALORIC, according to modern chemical theory, is regarded as an ela\u017ftic fluid \u017fui generis, penetrating the pores of all matter.",
+        "crop_path": "artifacts/extract/crops/e0115-01.png",
         "blocks": [
           {
             "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115",
-            "bbox": [160.0, 280.0, 940.0, 620.0],
+            "bbox": [
+              160.0,
+              280.0,
+              940.0,
+              620.0
+            ],
             "cls": "Text",
-            "text": "CALORIC, according to modern chemical theory, is regarded as an elaſtic fluid ſui generis, penetrating the pores of all matter."
+            "text": "CALORIC, according to modern chemical theory, is regarded as an ela\u017ftic fluid \u017fui generis, penetrating the pores of all matter."
           }
         ],
         "quality": {

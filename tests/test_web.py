@@ -48,3 +48,16 @@ def test_internal_links_resolve():
     assert 'href="architecture.html"' in index_html
     # Verify return link from architecture.html to index.html
     assert 'href="index.html"' in arch_html
+
+
+def test_stage_site_transform_runner(tmp_path):
+    """Verify stages.site.run transforms artifacts into valid site JSON."""
+    from nemotron_challenge.config import Settings
+    from nemotron_challenge.stages import site
+
+    settings = Settings.from_env()
+    result = site.run(settings, tmp_path)
+    assert result["status"] == "ok"
+    assert result["pages_transformed"] >= 3
+    assert result["entries_count"] >= 5
+    assert result["matches_count"] >= 5
