@@ -17,7 +17,8 @@ from .config import ConfigurationError, Settings
 from .data import file_sha256
 
 CHECKS = ("catalog", "text", "tool_call", "vision")
-MAX_TOKENS = 1024
+# Super VL reasons before it answers; one scan question used 940 to 1,391 reasoning tokens.
+MAX_TOKENS = 4096
 EXCERPT_CHARS = 300
 IMAGE_TYPES = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png"}
 
@@ -58,7 +59,8 @@ def explain(exc: Exception) -> str:
     if "absent from the catalog" in message:
         return "Super VL is not in this account's model catalog. Ask an organizer to enable it."
     if "incomplete" in message:
-        return "The reply was cut off before it finished (finish_reason was not 'stop')."
+        return ("The reply was cut off before it finished (finish_reason was not 'stop'). "
+                "Reasoning tokens count toward max_tokens; try a larger budget.")
     return message
 
 
